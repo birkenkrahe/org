@@ -1,2 +1,4 @@
 # org
-calendars
+## Frequently Asked Questions
+## Diary
+## Discussions
