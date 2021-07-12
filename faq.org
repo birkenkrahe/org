@@ -1,7 +1,7 @@
 #+TITLE:Frequently Asked Questions 
 #+AUTHOR:Frequently Asked Questions 
 #+SUBTITLE:Frequently Asked Questions 
-#+OPTIONS: ^:nil toc:1
+#+OPTIONS: ^:nil
 * How should you read?
   There are different ways to read a demanding text. Since I
   systematize everything, let me try to systematize this for you,
