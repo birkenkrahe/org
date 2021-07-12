@@ -1,11 +1,11 @@
 
 # Table of Contents
 
-1.  [How should you read?](#org02d8b4e)
+1.  [How should you read?](#org26c1267)
 
 
 
-<a id="org02d8b4e"></a>
+<a id="org26c1267"></a>
 
 # How should you read?
 
@@ -25,7 +25,7 @@ props; (6) re-reading. What are these about?
     idea of what's being said. For scientific papers: read abstract,
     then (if still interesting) go to the conclusions at the end.
     
-    ![img](https://github.com/birkenkrahe/blob/master/org/img/ai_shallow.gif)
+    ![img](https://github.com/birkenkrahe/org/blob/master/img/ai_shallow.gif)
 
 2.  **Shallow reading:** read through the whole text slowly, without
     too many breaks<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>, in order to get a general picture and
