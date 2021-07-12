@@ -1,11 +1,11 @@
 
 # Table of Contents
 
-1.  [How should you read?](#orgca0cba9)
+1.  [How should you read?](#orgd0ddaf3)
 
 
 
-<a id="orgca0cba9"></a>
+<a id="orgd0ddaf3"></a>
 
 # How should you read?
 
@@ -25,7 +25,7 @@ props; (6) re-reading. What are these about?
     idea of what's being said. For scientific papers: read abstract,
     then (if still interesting) go to the conclusions at the end.
     
-    ![img](https://github.com/birkenkrahe/dsc101/blob/main/wimg/ai_shallow.gif)
+    ![img](https://github.com/birkenkrahe/org/img/ai_shallow.gif)
 
 2.  **Shallow reading:** read through the whole text slowly, without
     too many breaks<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>, in order to get a general picture and
@@ -67,7 +67,7 @@ props; (6) re-reading. What are these about?
     Thinking](https://www.coursera.org/learn/model-thinking/home/welcome)", which I used to prepare a lesson in a new course on
     "data modeling":
     
-    ![img](https://github.com/birkenkrahe/dsc101/blob/main/wimg/ai_notes.jpg)
+    ![img](https://github.com/birkenkrahe/org/img/ai_notes.jpg)
 
 5.  **Reading with props:** Often, especially in computer science,
     writing about concepts, and making computations by hand, is not
@@ -84,9 +84,9 @@ props; (6) re-reading. What are these about?
     Intelligence - a Modern Approach](http://aima.cs.berkeley.edu/)" (AIMA) and the corresponding
     "reading with props" notes in the Emacs editor.
     
-    ![img](https://github.com/birkenkrahe/dsc101/blob/main/wimg/ai_aima.jpg)
+    ![img](https://github.com/birkenkrahe/org/img/ai_aima.jpg)
     
-    ![img](https://github.com/birkenkrahe/dsc101/blob/main/wimg/ai_emacs.png)
+    ![img](https://github.com/birkenkrahe/org/img/ai_emacs.png)
 
 1.  **Re-reading:** I often have to do this, because my memory is
     leaky. Re-reading is like skimming (1) except that I (should)
