@@ -116,6 +116,7 @@
      entire day devising problems and trying to solve them, when the
      reading and note-taking only took me an hour!
 
+* Another heading
 * Footnotes
 
 [fn:8]I do this in Emacs using [[https://magit.vc/][Magit]], a text-based user interface to
