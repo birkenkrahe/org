@@ -1,11 +1,11 @@
 
 # Table of Contents
 
-1.  [How should you read?](#orgd0ddaf3)
+1.  [How should you read?](#orga4e6e55)
 
 
 
-<a id="orgd0ddaf3"></a>
+<a id="orga4e6e55"></a>
 
 # How should you read?
 
@@ -67,7 +67,7 @@ props; (6) re-reading. What are these about?
     Thinking](https://www.coursera.org/learn/model-thinking/home/welcome)", which I used to prepare a lesson in a new course on
     "data modeling":
     
-    ![img](https://github.com/birkenkrahe/org/img/ai_notes.jpg)
+    ![img](https://github.com/birkenkrahe/org/blob/master/img/ai_notes.jpg)
 
 5.  **Reading with props:** Often, especially in computer science,
     writing about concepts, and making computations by hand, is not
@@ -83,10 +83,10 @@ props; (6) re-reading. What are these about?
     For example, here are two pages from the book "[Artificial
     Intelligence - a Modern Approach](http://aima.cs.berkeley.edu/)" (AIMA) and the corresponding
     "reading with props" notes in the Emacs editor.
-    
-    ![img](https://github.com/birkenkrahe/org/img/ai_aima.jpg)
-    
-    ![img](https://github.com/birkenkrahe/org/img/ai_emacs.png)
+
+![img](https://github.com/birkenkrahe/org/blob/master/img/ai_aima.jpg)
+
+![img](https://github.com/birkenkrahe/org/blob/master/img/ai_emacs.png)
 
 1.  **Re-reading:** I often have to do this, because my memory is
     leaky. Re-reading is like skimming (1) except that I (should)
