@@ -2,6 +2,11 @@
 #+AUTHOR:Frequently Asked Questions
 #+SUBTITLE:Frequently Asked Questions All Courses @Lyon Fall 2021
 #+OPTIONS: ^:nil toc:1
+* What is this?
+
+  This is a Frequently Asked Questions (FAQ) file for all my courses
+  at Lyon College. For individual FAQs, see the resp. courses repos.
+
 * How should you read?
   There are different ways to read a demanding text. Since I
   systematize everything, let me try to systematize this for you,
