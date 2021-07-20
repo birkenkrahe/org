@@ -1,11 +1,21 @@
 
 # Table of Contents
 
-1.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#org911aee2)
+1.  [What is this?](#org4be7d65)
+2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#orgb4f3886)
 
 
 
-<a id="org911aee2"></a>
+<a id="org4be7d65"></a>
+
+# What is this?
+
+A place for irregular articles of possible interest to students
+across all courses, mostly to avoid lengthy emails and to park
+content that I may want to develop later on time permitting.
+
+
+<a id="orgb4f3886"></a>
 
 # Sunday, 11 July 2021 - GitHub & Cybersecurity
 
