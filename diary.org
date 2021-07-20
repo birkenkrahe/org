@@ -2,6 +2,12 @@
 #+AUTHOR:Marcus Birkenkrahe
 #+SUBTITLE:GitHub diary All Courses @Lyon Fall 2021
 #+OPTIONS: ^:nil toc:1
+* What is this?
+
+  A place for irregular articles of possible interest to students
+  across all courses, mostly to avoid lengthy emails and to park
+  content that I may want to develop later on time permitting.
+
 * Sunday, 11 July 2021 - GitHub & Cybersecurity
 ** GitHub
 Opted for GitHub as the course platform since I may be arriving too
