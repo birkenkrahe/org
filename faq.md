@@ -1,11 +1,12 @@
 
 # Table of Contents
 
-1.  [How should you read?](#org48f26a5)
+1.  [How should you read?](#org7702650)
+2.  [How to read more research papers?](#orgf2e2892)
 
 
 
-<a id="org48f26a5"></a>
+<a id="org7702650"></a>
 
 # How should you read?
 
@@ -122,6 +123,47 @@ props; (6) re-reading. What are these about?
     reading and note-taking only took me an hour!
 
 
+<a id="orgf2e2892"></a>
+
+# How to read more research papers?
+
+The title comes from [this article](https://www.louisbouchard.ai/research-papers/) by Louis Bouchard (23 June
+2021)<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>. It's useful and you should all read it and take from it what
+you want. Here, I'm offering a few comments, organized by the
+different stages addressed in the article.
+
+First of all, the problem: a lot is published on any topic under the
+sun, and a lot more if the topic is trendy - like machine
+learning. This is both good and bad news. The good news: many
+publications means that the respective field is evolving fast,
+attracting the best people, research money, and generating a market
+(for products and people). The bad news: more and more publications
+remain essentially unchecked and unread; many of these papers are
+badly written, many are wrong, some are fraudulent even. There is so
+much pressure on the publication pipeline that hundreds, or
+thousands of papers are rushing past you in the blink of an eye.
+
+There are several questions resulting from this problem: (1) how to find
+the best papers? (2) How to find the papers that are right for you? 
+
+The article mentioned only addresses the second question in
+detail. The first question is touched upon in a paragraph on bias
+and trustworthiness at the end. In short: don't trust anyone until
+you've checked the results yourselves<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>. 
+
+The author's answer to the first question is based on a series of
+software tools that can support your search. I only knew 2 of these
+(Arxiv Sanity Preserver and Zotero).
+
+Missing: conference reports via the relevant conferences, especially
+literature reviews, and [Google scholar alerts](https://www.kcu.edu/wp-content/uploads/2014/09/Google-Scholar-Alert.pdf). E.g. I have an alert
+out for every one of my current courses and research interests. It
+is connected with [my Google Scholar profile](https://scholar.google.com/citations?hl=en&user=Vvnwsv0AAAAJ).
+
+The final advice is excellent: you only get better at reading papers
+by reading papers! 
+
+
 # Footnotes
 
 <sup><a id="fn.1" href="#fnr.1">1</a></sup> This is a principle of utility, which you will recognize as a
@@ -182,3 +224,15 @@ find a well written text, try to write one yourself! Many excellent
 books by excellent people were created that way (I should cite
 examples here, but this is anecdotal knowledge - I should look it up,
 or you could look it up and let me know).
+
+<sup><a id="fn.8" href="#fnr.8">8</a></sup> I received this online publication because I am subscribed to an
+aggregator service. If you're not subscribed, you only have a limited
+number of articles that you can view for free.
+
+<sup><a id="fn.9" href="#fnr.9">9</a></sup> There's something else worth noticing: this article, as most
+articles on the web, are written by self starters and by independent
+students or scholars. Nothing wrong with that but if you're lucky
+enough to study at an institution, you can use experts around you to
+find out about the best papers. These experts act like curators. For
+example, I scan a lot of literature and will often pass interesting
+articles on to you - like this one!
