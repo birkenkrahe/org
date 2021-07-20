@@ -22,7 +22,9 @@ discussion. This is just as good as a forum - except that the
 infrastructure is not protected and private. But this also helps to
 teach the students netiquette and data literacy when being online in a
 professional capacity. 
+
 ** Cybersecurity
+
 Came back from Hamburg yesterday (family good-bye). Interesting
 conversation with a taxi driver on the way from the train station: he
 does not own a phone and entrusts anything personal only to
