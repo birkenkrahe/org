@@ -1,5 +1,11 @@
 # org
-## Frequently Asked Questions
-## Diary
-## Discussions
 There are `.org` files (Emacs Org-mode), and `.md` files (Markdown). The only visible difference is that the Markdown files have a TOC. 
+
+To be up to date, you should fork this repo to your own GitHub space and fetch upstream when your repo is behind.
+
+## Frequently Asked Questions
+These are FAQs for all my courses. Each course also carries a local FAQ file in the respective repo.
+## Diary
+These are irregular notes that I write on topics concerning all courses. Each course also has a wiki where I write course-specific content.
+## Discussions
+Discussion forum on anything in this repo.
