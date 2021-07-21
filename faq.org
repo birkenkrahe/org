@@ -5,7 +5,7 @@
 * What is this?
 
   This is a Frequently Asked Questions (FAQ) file for all my courses
-  at Lyon College. For individual FAQs, see the resp. courses repos.
+  at Lyon College. For individual FAQs, see the resp. course repos.
 
 * How should you read?
   There are different ways to read a demanding text. Since I
