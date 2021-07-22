@@ -1,13 +1,13 @@
 
 # Table of Contents
 
-1.  [What is this?](#org583b004)
-2.  [How should you read?](#org676e008)
-3.  [How to read more research papers?](#org547161a)
+1.  [What is this?](#org4f4851e)
+2.  [How should you read?](#org1c34cd3)
+3.  [How to read more research papers?](#org365f8a2)
 
 
 
-<a id="org583b004"></a>
+<a id="org4f4851e"></a>
 
 # What is this?
 
@@ -15,7 +15,7 @@ This is a Frequently Asked Questions (FAQ) file for all my courses
 at Lyon College. For individual FAQs, see the resp. course repos.
 
 
-<a id="org676e008"></a>
+<a id="org1c34cd3"></a>
 
 # How should you read?
 
@@ -132,7 +132,7 @@ props; (6) re-reading. What are these about?
     reading and note-taking only took me an hour!
 
 
-<a id="org547161a"></a>
+<a id="org365f8a2"></a>
 
 # How to read more research papers?
 
