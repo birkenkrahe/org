@@ -3,6 +3,7 @@
 
 # ignore all locks
 .~lock*#
+.#*
 
 # ignore HTML files (exports)
 *.html
