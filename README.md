@@ -2,9 +2,9 @@
 
 # What's here?
 
-This repo contains There are \`.org\` files (Emacs Org-mode), and \`.md\`
-files (Markdown). The only visible difference is that the Markdown
-files have a TOC.
+This repo contains \`.org\` files (Emacs Org-mode), and \`.md\` files
+(Markdown). The only visible difference is that the Markdown files
+have a TOC.
 
 To be up to date, you should fork this repo to your own GitHub space
 and fetch upstream when your repo is behind.
