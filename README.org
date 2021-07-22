@@ -4,7 +4,7 @@
 #+OPTIONS: toc:nil
 * What's here?
 
-  This repo contains There are `.org` files (Emacs Org-mode), and `.md`
+  This repo contains `.org` files (Emacs Org-mode), and `.md`
   files (Markdown). The only visible difference is that the Markdown
   files have a TOC.
 
