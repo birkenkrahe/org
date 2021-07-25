@@ -120,7 +120,7 @@
      entire day devising problems and trying to solve them, when the
      reading and note-taking only took me an hour!
 
-* How to read more research papers?
+* How can you read more research papers?
 
   The title comes from [[https://www.louisbouchard.ai/research-papers/][this article]] by Louis Bouchard (23 June
   2021)[fn:9]. It's useful and you should all read it and take from it what
@@ -139,12 +139,12 @@
   thousands of papers are rushing past you in the blink of an eye.
 
   There are several questions resulting from this problem: (1) how to find
-  the best papers? (2) How to find the papers that are right for you? 
+  the best papers? (2) How to find the papers that are right for you?
 
   The article mentioned only addresses the second question in
   detail. The first question is touched upon in a paragraph on bias
   and trustworthiness at the end. In short: don't trust anyone until
-  you've checked the results yourselves[fn:10]. 
+  you've checked the results yourselves[fn:10].
 
   The author's answer to the first question is based on a series of
   software tools that can support your search. I only knew 2 of these
@@ -156,9 +156,87 @@
   is connected with [[https://scholar.google.com/citations?hl=en&user=Vvnwsv0AAAAJ][my Google Scholar profile]].
 
   The final advice is excellent: you only get better at reading papers
-  by reading papers! 
+  by reading papers!
+
+* Why are we using GitHub?
+
+  We're using GitHub for two reasons:
+
+  1) GitHub will be our infrastructure for course materials and
+     assignments.
+  2) GitHub uses Git, the state-of-the-art version control system,
+     which is an important development productivity tool.
+
+  Git is open source software, and used by many platforms like
+  GitHub - e.g. GitLab, BitBucket, Sourceforge, [[https://www.git-tower.com/blog/git-hosting-services-compared/][and many more]]. GitHub
+  is now owned by Microsoft, but it supports education (with GitHub
+  classroom), and it is still the largest hosting platform for open
+  source projects (and I love anything open source). Many books and
+  tutorials use GitHub for code delivery, errata and updates -
+  technical books are products that benefit from version control, too!
+
+  Here is a link to [[https://github.com/birkenkrahe][my GitHub account]], which I use mostly for my
+  courses ([[https://github.com/birkenkrahe/ds101][like this one]]), to fork other people's repos ([[https://github.com/matloff/fasteR][like this
+  one]]), and to learn stuff ([[https://github.com/education/github-starter-course][like this one]]).
+
+  I've upgraded my GitHub account, by the way, e.g. to see traffic
+  data, for better workflow control (with [[https://docs.github.com/en/actions/quickstart][GitHub actions]]), and for
+  data science (e.g. via [[https://ghtorrent.org/][GHTorrent]] and [[https://www.gharchive.org/][GH Archive]]).
+
+* What is version control?
+
+  Version control refers to professionally managing software
+  versions. Though an old hat as such, it was revolutionized by Git,
+  which was created by Linus Torvalds, the creator (and still core
+  developer-king) of the Linux kernel. It transferred the same idea on
+  which the Web is founded (local control, global availability) to
+  software development. Before Git, I worked with CVS ([[https://www.cs.umb.edu/~srevilak/cvs.html][Concurrent
+  Version control System]]), which does what Git does, except that it
+  focuses on the central repository rather than on the local
+  repository. Most of the workflow - initializing a repo, checking
+  files in (staging), checking files out, committing files to the
+  repo, checking the status, showing differences, merging versions
+  etc. carries over from other version control systems. Here is a
+  [[https://www.linkedin.com/pulse/difference-between-git-cvs-ahmed-el-emam/][direct comparison of CVS and Git]] (2017).
+
+* How should you use GitHub?
+
+  Notice that there are a myriad of tutorials, text, courses, and
+  videos, out there already. What I'm explaining here focuses on the use
+  of Git and GitHub in my courses, nothing more.
+
+  For my courses, you need to:
+
+  1) *install* Git locally (i.e. on your work computer)
+  2) *initialize* Git locally in a repository ("repo")
+  3) *register* a GitHub account (don't use your real name!)[fn:12]
+  4) *send me* your account name so that I can add you[fn:11]
+  5) *upload* your files to my repo when requested to do so
+  6) *raise* a repo issue to comment upon something [optional][fn:13]
+  7) *discuss* in your course discussion forums [optional]
+  8) *fork* my repo to your GitHub account [optional][fn:14]
+  9) *create* your own (private or public) repo [optional]
+  10) *invite* me as a collaborator to your repo [optional]
+
+I will show all of this in class. 
 
 * Footnotes
+
+[fn:14]"Forking" means that you create an active copy of the repo in
+your own workspace. Whenever the owner makes changes to the forked
+repo, you'll be notified so that you can follow the change ("fetch
+upstream").
+
+[fn:13]The difference between "discussion" and "issue" is that the
+latter suggests a change or a comment by the developers. Discussions
+on the other hand are free form.
+
+[fn:12]Once you register, you'll be asked to complete the "[[https://guides.github.com/activities/hello-world/][Hello
+World]]" activity - do it - takes 15 minutes of your time!
+
+[fn:11]You will then be a "collaborator" on my repo, which means that
+you can raise issues, discuss, upload files, create branches, and make
+pull requests.
 
 [fn:10]There's something else worth noticing: this article, as most
 articles on the web, are written by self starters and by independent
