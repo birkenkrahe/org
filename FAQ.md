@@ -1,13 +1,16 @@
 
 # Table of Contents
 
-1.  [What is this?](#org4f4851e)
-2.  [How should you read?](#org1c34cd3)
-3.  [How to read more research papers?](#org365f8a2)
+1.  [What is this?](#org1547cab)
+2.  [How should you read?](#orgb4d0a43)
+3.  [How can you read more research papers?](#org3cf3ec4)
+4.  [Why are we using GitHub?](#org5d47e6a)
+5.  [What is version control?](#org35772bf)
+6.  [How should you use GitHub?](#orgc1817fa)
 
 
 
-<a id="org4f4851e"></a>
+<a id="org1547cab"></a>
 
 # What is this?
 
@@ -15,7 +18,7 @@ This is a Frequently Asked Questions (FAQ) file for all my courses
 at Lyon College. For individual FAQs, see the resp. course repos.
 
 
-<a id="org1c34cd3"></a>
+<a id="orgb4d0a43"></a>
 
 # How should you read?
 
@@ -132,9 +135,9 @@ props; (6) re-reading. What are these about?
     reading and note-taking only took me an hour!
 
 
-<a id="org365f8a2"></a>
+<a id="org3cf3ec4"></a>
 
-# How to read more research papers?
+# How can you read more research papers?
 
 The title comes from [this article](https://www.louisbouchard.ai/research-papers/) by Louis Bouchard (23 June
 2021)<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>. It's useful and you should all read it and take from it what
@@ -153,12 +156,12 @@ much pressure on the publication pipeline that hundreds, or
 thousands of papers are rushing past you in the blink of an eye.
 
 There are several questions resulting from this problem: (1) how to find
-the best papers? (2) How to find the papers that are right for you? 
+the best papers? (2) How to find the papers that are right for you?
 
 The article mentioned only addresses the second question in
 detail. The first question is touched upon in a paragraph on bias
 and trustworthiness at the end. In short: don't trust anyone until
-you've checked the results yourselves<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>. 
+you've checked the results yourselves<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>.
 
 The author's answer to the first question is based on a series of
 software tools that can support your search. I only knew 2 of these
@@ -170,7 +173,78 @@ out for every one of my current courses and research interests. It
 is connected with [my Google Scholar profile](https://scholar.google.com/citations?hl=en&user=Vvnwsv0AAAAJ).
 
 The final advice is excellent: you only get better at reading papers
-by reading papers! 
+by reading papers!
+
+
+<a id="org5d47e6a"></a>
+
+# Why are we using GitHub?
+
+We're using GitHub for two reasons:
+
+1.  GitHub will be our infrastructure for course materials and
+    assignments.
+2.  GitHub uses Git, the state-of-the-art version control system,
+    which is an important development productivity tool.
+
+Git is open source software, and used by many platforms like
+GitHub - e.g. GitLab, BitBucket, Sourceforge, [and many more](https://www.git-tower.com/blog/git-hosting-services-compared/). GitHub
+is now owned by Microsoft, but it supports education (with GitHub
+classroom), and it is still the largest hosting platform for open
+source projects (and I love anything open source). Many books and
+tutorials use GitHub for code delivery, errata and updates -
+technical books are products that benefit from version control, too!
+
+Here is a link to [my GitHub account](https://github.com/birkenkrahe), which I use mostly for my
+courses ([like this one](https://github.com/birkenkrahe/ds101)), to fork other people's repos ([like this
+one](https://github.com/matloff/fasteR)), and to learn stuff ([like this one](https://github.com/education/github-starter-course)).
+
+I've [upgraded](https://github.com/settings/billing/plans) my GitHub account, by the way, e.g. to see traffic
+data, for better workflow control (with [GitHub actions](https://docs.github.com/en/actions/quickstart)), and for
+data science (e.g. via [GHTorrent](https://ghtorrent.org/) and [GH Archive](https://www.gharchive.org/)).
+
+
+<a id="org35772bf"></a>
+
+# What is version control?
+
+Version control refers to professionally managing software
+versions. Though an old hat as such, it was revolutionized by Git,
+which was created by Linus Torvalds, the creator (and still core
+developer-king) of the Linux kernel. It transferred the same idea on
+which the Web is founded (local control, global availability) to
+software development. Before Git, I worked with CVS ([Concurrent
+Version control System](https://www.cs.umb.edu/~srevilak/cvs.html)), which does what Git does, except that it
+focuses on the central repository rather than on the local
+repository. Most of the workflow - initializing a repo, checking
+files in (staging), checking files out, committing files to the
+repo, checking the status, showing differences, merging versions
+etc. carries over from other version control systems. Here is a
+[direct comparison of CVS and Git](https://www.linkedin.com/pulse/difference-between-git-cvs-ahmed-el-emam/) (2017).
+
+
+<a id="orgc1817fa"></a>
+
+# How should you use GitHub?
+
+Notice that there are a myriad of tutorials, text, courses, and
+videos, out there already. What I'm explaining here focuses on the use
+of Git and GitHub in my courses, nothing more.
+
+For my courses, you need to:
+
+1.  **install** Git locally (i.e. on your work computer)
+2.  **initialize** Git locally in a repository ("repo")
+3.  **register** a GitHub account (don't use your real name!)<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
+4.  **send me** your account name so that I can add you<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>
+5.  **upload** your files to my repo when requested to do so
+6.  **raise** a repo issue to comment upon something [optional]<sup><a id="fnr.12" class="footref" href="#fn.12">12</a></sup>
+7.  **discuss** in your course discussion forums [optional]
+8.  **fork** my repo to your GitHub account [optional]<sup><a id="fnr.13" class="footref" href="#fn.13">13</a></sup>
+9.  **create** your own (private or public) repo [optional]
+10. **invite** me as a collaborator to your repo [optional]
+
+I will show all of this in class. 
 
 
 # Footnotes
@@ -245,3 +319,19 @@ enough to study at an institution, you can use experts around you to
 find out about the best papers. These experts act like curators. For
 example, I scan a lot of literature and will often pass interesting
 articles on to you - like this one!
+
+<sup><a id="fn.10" href="#fnr.10">10</a></sup> Once you register, you'll be asked to complete the "[Hello
+World](https://guides.github.com/activities/hello-world/)" activity - do it - takes 15 minutes of your time!
+
+<sup><a id="fn.11" href="#fnr.11">11</a></sup> You will then be a "collaborator" on my repo, which means that
+you can raise issues, discuss, upload files, create branches, and make
+pull requests.
+
+<sup><a id="fn.12" href="#fnr.12">12</a></sup> The difference between "discussion" and "issue" is that the
+latter suggests a change or a comment by the developers. Discussions
+on the other hand are free form.
+
+<sup><a id="fn.13" href="#fnr.13">13</a></sup> "Forking" means that you create an active copy of the repo in
+your own workspace. Whenever the owner makes changes to the forked
+repo, you'll be notified so that you can follow the change ("fetch
+upstream").

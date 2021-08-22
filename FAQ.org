@@ -179,7 +179,7 @@
   courses ([[https://github.com/birkenkrahe/ds101][like this one]]), to fork other people's repos ([[https://github.com/matloff/fasteR][like this
   one]]), and to learn stuff ([[https://github.com/education/github-starter-course][like this one]]).
 
-  I've upgraded my GitHub account, by the way, e.g. to see traffic
+  I've [[https://github.com/settings/billing/plans][upgraded]] my GitHub account, by the way, e.g. to see traffic
   data, for better workflow control (with [[https://docs.github.com/en/actions/quickstart][GitHub actions]]), and for
   data science (e.g. via [[https://ghtorrent.org/][GHTorrent]] and [[https://www.gharchive.org/][GH Archive]]).
 
