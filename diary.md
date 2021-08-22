@@ -1,12 +1,13 @@
 
 # Table of Contents
 
-1.  [What is this?](#org4be7d65)
-2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#orgb4f3886)
+1.  [What is this?](#org949729c)
+2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#org592ded1)
+3.  [Sunday, 22 July 2021 - End of first week](#orgc41ba9a)
 
 
 
-<a id="org4be7d65"></a>
+<a id="org949729c"></a>
 
 # What is this?
 
@@ -15,7 +16,7 @@ across all courses, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="orgb4f3886"></a>
+<a id="org592ded1"></a>
 
 # Sunday, 11 July 2021 - GitHub & Cybersecurity
 
@@ -26,7 +27,7 @@ Opted for GitHub as the course platform since I may be arriving too
 late to get up to scratch with Lyon's "Schoology" platform. Pro:
 opportunity to include Git and GitHub in the course. Con: separate
 platform. Another plus - just discovered that Emacs Org-mode renders
-as Markdown automatically<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>. 
+as Markdown automatically<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>.
 
 Figured out how to link the GitHub remote repository (`master`) and
 the local repo (`origin`) and update the remote repo from the command
@@ -39,7 +40,7 @@ Instead of a forum, students can raise `Issues` in GitHub for
 discussion. This is just as good as a forum - except that the
 infrastructure is not protected and private. But this also helps to
 teach the students netiquette and data literacy when being online in a
-professional capacity. 
+professional capacity.
 
 
 ## Cybersecurity
@@ -61,6 +62,37 @@ an active area of industry (see e.g. [at IBM](https://www.ibm.com/security/artif
 in the AI seminar, also in this term.
 
 Next stop: syllabus!
+
+
+<a id="orgc41ba9a"></a>
+
+# Sunday, 22 July 2021 - End of first week
+
+I'm pretty satisfied with the first week of classes - managed to get
+quite a bit of interesting content into each orientation session -
+enough for tests at the start at the 2nd week, and for six follow-up
+files.
+
+Students are still a little reluctant to participate - I wouldn't be
+any different myself with a brand new instructor. The masks are not
+helping, of course. Harder to build rapport for me - I don't know if
+my interventions are working, if my jokes are funny, and if my
+lectures leave an impression. The eyes as the "windows of the soul"
+are definitely overrated in the classroom. 
+
+Perhaps this is for the best, because this way I may stop myself
+from talking too much, and the masks insulate the students from one
+another. Not quite as much as sitting at home during an online
+session, but enough to reduce intra-group distractions.
+
+Things I love: the support and the positive feeling all around -
+everybody wants to make this term work, everybody delivers or does
+their best - under such circumstances, it is easy to give one's
+best, too. My office. The heat! Batesville!
+
+I have two new lectures to finish ("What is AI?" and "What is a
+model?"), so I must be off, but I'll be seeing you soon. Tonight:
+takeaway - first Chinese buffet.
 
 
 # Footnotes

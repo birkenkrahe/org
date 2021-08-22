@@ -10,44 +10,72 @@
 
 * Sunday, 11 July 2021 - GitHub & Cybersecurity
 ** GitHub
-Opted for GitHub as the course platform since I may be arriving too
-late to get up to scratch with Lyon's "Schoology" platform. Pro:
-opportunity to include Git and GitHub in the course. Con: separate
-platform. Another plus - just discovered that Emacs Org-mode renders
-as Markdown automatically[fn:1]. 
+   Opted for GitHub as the course platform since I may be arriving too
+   late to get up to scratch with Lyon's "Schoology" platform. Pro:
+   opportunity to include Git and GitHub in the course. Con: separate
+   platform. Another plus - just discovered that Emacs Org-mode renders
+   as Markdown automatically[fn:1].
 
-Figured out how to link the GitHub remote repository (~master~) and
-the local repo (~origin~) and update the remote repo from the command
-line. In the end, however, I resorted to drag-and-drop addition of the
-org-file in question ([[https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.org][1_overview.org]][fn:2]), because I could not update the
-file inside the ~1_overview~ directory remotely. The best (fastest)
-solution would be to set up remote services using Emacs' [[https://magit.vc/][magit]].
+   Figured out how to link the GitHub remote repository (~master~) and
+   the local repo (~origin~) and update the remote repo from the command
+   line. In the end, however, I resorted to drag-and-drop addition of the
+   org-file in question ([[https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.org][1_overview.org]][fn:2]), because I could not update the
+   file inside the ~1_overview~ directory remotely. The best (fastest)
+   solution would be to set up remote services using Emacs' [[https://magit.vc/][magit]].
 
-Instead of a forum, students can raise ~Issues~ in GitHub for
-discussion. This is just as good as a forum - except that the
-infrastructure is not protected and private. But this also helps to
-teach the students netiquette and data literacy when being online in a
-professional capacity. 
+   Instead of a forum, students can raise ~Issues~ in GitHub for
+   discussion. This is just as good as a forum - except that the
+   infrastructure is not protected and private. But this also helps to
+   teach the students netiquette and data literacy when being online in a
+   professional capacity.
 
 ** Cybersecurity
 
-Came back from Hamburg yesterday (family good-bye). Interesting
-conversation with a taxi driver on the way from the train station: he
-does not own a phone and entrusts anything personal only to
-handwritten notes. If he wants to share something personal with his
-friends or family at a distance, he writes a letter by hand and mails
-it via "snail mail" as it used to be called (does it still?). He's
-been "radicalized" in a way by media reports and books like this one
-by Harvard's Carissa Veliz, "[[https://www.harvard.com/book/privacy_is_power/][Privacy is Power: Why and How You Should
-Take Back Control of Your Data]]"[fn:3]. This made me think, once again,
-that it might be neat to focus on cybersecurity and create a course
-offering a couple of terms down the line. I recently read this 2020
-book on "[[https://www.packtpub.com/product/cyber-warfare-truth-tactics-and-strategies/9781839216992][Cyber Warfare-Truth, Tactics, and Strategies]]", which is far
-out, in some areas. Also interesting: AI and Cybersecurity, which is
-an active area of industry (see e.g. [[https://www.ibm.com/security/artificial-intelligence][at IBM]]), and which I will discuss
-in the AI seminar, also in this term.
+   Came back from Hamburg yesterday (family good-bye). Interesting
+   conversation with a taxi driver on the way from the train station: he
+   does not own a phone and entrusts anything personal only to
+   handwritten notes. If he wants to share something personal with his
+   friends or family at a distance, he writes a letter by hand and mails
+   it via "snail mail" as it used to be called (does it still?). He's
+   been "radicalized" in a way by media reports and books like this one
+   by Harvard's Carissa Veliz, "[[https://www.harvard.com/book/privacy_is_power/][Privacy is Power: Why and How You Should
+   Take Back Control of Your Data]]"[fn:3]. This made me think, once again,
+   that it might be neat to focus on cybersecurity and create a course
+   offering a couple of terms down the line. I recently read this 2020
+   book on "[[https://www.packtpub.com/product/cyber-warfare-truth-tactics-and-strategies/9781839216992][Cyber Warfare-Truth, Tactics, and Strategies]]", which is far
+   out, in some areas. Also interesting: AI and Cybersecurity, which is
+   an active area of industry (see e.g. [[https://www.ibm.com/security/artificial-intelligence][at IBM]]), and which I will discuss
+   in the AI seminar, also in this term.
 
-Next stop: syllabus!
+   Next stop: syllabus!
+
+* Sunday, 22 July 2021 - End of first week
+
+  I'm pretty satisfied with the first week of classes - managed to get
+  quite a bit of interesting content into each orientation session -
+  enough for tests at the start at the 2nd week, and for six follow-up
+  files.
+
+  Students are still a little reluctant to participate - I wouldn't be
+  any different myself with a brand new instructor. The masks are not
+  helping, of course. Harder to build rapport for me - I don't know if
+  my interventions are working, if my jokes are funny, and if my
+  lectures leave an impression. The eyes as the "windows of the soul"
+  are definitely overrated in the classroom. 
+
+  Perhaps this is for the best, because this way I may stop myself
+  from talking too much, and the masks insulate the students from one
+  another. Not quite as much as sitting at home during an online
+  session, but enough to reduce intra-group distractions.
+
+  Things I love: the support and the positive feeling all around -
+  everybody wants to make this term work, everybody delivers or does
+  their best - under such circumstances, it is easy to give one's
+  best, too. My office. The heat! Batesville!
+
+  I have two new lectures to finish ("What is AI?" and "What is a
+  model?"), so I must be off, but I'll be seeing you soon. Tonight:
+  takeaway - first Chinese buffet.
 
 * Footnotes
 
