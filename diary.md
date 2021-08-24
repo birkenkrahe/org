@@ -1,13 +1,13 @@
 
 # Table of Contents
 
-1.  [What is this?](#orgbaab548)
-2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#org483cb29)
-3.  [Sunday, 22 July 2021 - End of first week](#org5bbaf46)
+1.  [What is this?](#orge458061)
+2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#orgefc6c7f)
+3.  [Sunday, 22 August 2021 - End of first week](#org3b0dc9e)
 
 
 
-<a id="orgbaab548"></a>
+<a id="orge458061"></a>
 
 # What is this?
 
@@ -16,7 +16,7 @@ across all courses, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="org483cb29"></a>
+<a id="orgefc6c7f"></a>
 
 # Sunday, 11 July 2021 - GitHub & Cybersecurity
 
@@ -64,9 +64,9 @@ in the AI seminar, also in this term.
 Next stop: syllabus!
 
 
-<a id="org5bbaf46"></a>
+<a id="org3b0dc9e"></a>
 
-# Sunday, 22 July 2021 - End of first week
+# Sunday, 22 August 2021 - End of first week
 
 I'm pretty satisfied with the first week of classes - managed to get
 quite a bit of interesting content into each orientation session -
