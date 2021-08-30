@@ -1,14 +1,15 @@
 
 # Table of Contents
 
-1.  [What is this?](#org99c90ab)
-2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#orgd790617)
-3.  [Sunday, 22 August 2021 - End of first week](#org719d9d3)
-4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#org2299794)
+1.  [What is this?](#orgd32fdae)
+2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#orge09aa62)
+3.  [Sunday, 22 August 2021 - End of first week](#orge61a9b1)
+4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#org4d61b64)
+5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#org63e9610)
 
 
 
-<a id="org99c90ab"></a>
+<a id="orgd32fdae"></a>
 
 # What is this?
 
@@ -17,7 +18,7 @@ across all courses, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="orgd790617"></a>
+<a id="orge09aa62"></a>
 
 # Sunday, 11 July 2021 - GitHub & Cybersecurity
 
@@ -65,7 +66,7 @@ in the AI seminar, also in this term.
 Next stop: syllabus!
 
 
-<a id="org719d9d3"></a>
+<a id="orge61a9b1"></a>
 
 # Sunday, 22 August 2021 - End of first week
 
@@ -98,7 +99,7 @@ model?"), so I must be off, but I'll be seeing you soon. Tonight:
 takeaway - first Chinese buffet.
 
 
-<a id="org2299794"></a>
+<a id="org4d61b64"></a>
 
 # Saturday, 28 August 2021 - Games and the Arkansas Experience
 
@@ -155,6 +156,19 @@ short, weekly blog posts on topics relevant to your internship. The
 course prepares you for the transition from college to work. Talk
 to me if you want to know more, or come to a Friday meeting. Don't
 just go to work and let this opportunity to learn go to waste!
+
+
+<a id="org63e9610"></a>
+
+# Sunday, 29 August 2021 - KILT Lyon College Radio
+
+Listened to "[Lamplight](https://lyonradio.weebly.com/programming-schedule.html)", an evening with classical music, by Prof
+Oriatti, and had a great time while preparing classes and,
+intermittently, exchanging emails with the radio host. I really love
+that Lyon has its own radio station. Must come up with some format
+(podcast?) on data science. If anyone has an idea, let me know. I've
+always wanted to be on the radio. Though a classical music show is
+very hard to beat. Oriatti presented a marvelous selection. 
 
 
 # Footnotes
