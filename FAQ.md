@@ -1,16 +1,24 @@
 
 # Table of Contents
 
-1.  [What is this?](#org1547cab)
-2.  [How should you read?](#orgb4d0a43)
-3.  [How can you read more research papers?](#org3cf3ec4)
-4.  [Why are we using GitHub?](#org5d47e6a)
-5.  [What is version control?](#org35772bf)
-6.  [How should you use GitHub?](#orgc1817fa)
+1.  [What is this?](#orgbbdb6f1)
+2.  [How should you read?](#org0d126ae)
+3.  [How can you read more research papers?](#orgd63b3f9)
+4.  [Why are we using GitHub?](#org67bf0ad)
+5.  [What is version control?](#org8c9a5d2)
+6.  [How should you use GitHub?](#orgf23b3a5)
+7.  [What is a sprint review?](#orge594cc2)
+8.  [What do I need to deliver at a sprint review?](#org4966486)
+9.  [What should we do in the first sprint?](#org5a42bb2)
+10. [What should we do in the second sprint?](#org417edcf)
+11. [What should we do in the third sprint?](#orgaa05c7a)
+12. [What should we do in the fourth sprint?](#orgf6e66c7)
+13. [Where I can find out more about "IMRaD"?](#org9055344)
+14. [References](#org57bedef)
 
 
 
-<a id="org1547cab"></a>
+<a id="orgbbdb6f1"></a>
 
 # What is this?
 
@@ -18,7 +26,7 @@ This is a Frequently Asked Questions (FAQ) file for all my courses
 at Lyon College. For individual FAQs, see the resp. course repos.
 
 
-<a id="orgb4d0a43"></a>
+<a id="org0d126ae"></a>
 
 # How should you read?
 
@@ -135,7 +143,7 @@ props; (6) re-reading. What are these about?
     reading and note-taking only took me an hour!
 
 
-<a id="org3cf3ec4"></a>
+<a id="orgd63b3f9"></a>
 
 # How can you read more research papers?
 
@@ -176,7 +184,7 @@ The final advice is excellent: you only get better at reading papers
 by reading papers!
 
 
-<a id="org5d47e6a"></a>
+<a id="org67bf0ad"></a>
 
 # Why are we using GitHub?
 
@@ -204,7 +212,7 @@ data, for better workflow control (with [GitHub actions](https://docs.github.com
 data science (e.g. via [GHTorrent](https://ghtorrent.org/) and [GH Archive](https://www.gharchive.org/)).
 
 
-<a id="org35772bf"></a>
+<a id="org8c9a5d2"></a>
 
 # What is version control?
 
@@ -223,7 +231,7 @@ etc. carries over from other version control systems. Here is a
 [direct comparison of CVS and Git](https://www.linkedin.com/pulse/difference-between-git-cvs-ahmed-el-emam/) (2017).
 
 
-<a id="orgc1817fa"></a>
+<a id="orgf23b3a5"></a>
 
 # How should you use GitHub?
 
@@ -244,7 +252,201 @@ For my courses, you need to:
 9.  **create** your own (private or public) repo [optional]
 10. **invite** me as a collaborator to your repo [optional]
 
-I will show all of this in class. 
+You can also use the "Project" facility in GitHub to manage your
+projects using a simple Kanban board (or define a more complicated
+workflow if you like). I will show all of this in class.
+
+
+<a id="orge594cc2"></a>
+
+# What is a sprint review?
+
+A sprint review (a Scrum term - see [Scrum glossary](https://www.scrum.org/resources/scrum-glossary)) is an informal
+presentation of the results obtained during the last sprint, or work
+period. What you present is also called a "prototype" to accentuate
+the fact that you're working incrementally towards a final product.
+
+More important than the presentation itself is the dialog with the
+customer or "product owner" (in Scrum speech), at least before the
+final sprint review (the presentation of the final result).
+
+If you don't work on a software product, or if you don't work in a
+team (because you're writing an essay), the same rules apply but
+rather than be a slave to the Scrum idea, you adapt it to your
+needs. That's what companies do in practice all over the place.
+
+The sprint reviews themselves are not graded, though your
+participation will be, and you have to deliver a sprint review, even
+if you could not complete a result during the last sprint.
+
+
+<a id="org4966486"></a>
+
+# What do I need to deliver at a sprint review?
+
+You should put your sprint review results on slides, which you need
+to upload to the specified location on time. Details in class.
+
+The following questions should be covered in a sprint review:
+
+1.  What did we want to achieve in the last sprint?
+2.  What did we achieve in the last sprint?
+3.  What are we especially proud of in the last sprint?
+4.  What did we not achieve in the last sprint?
+5.  What are we going to do different in the next sprint?
+6.  What are our questions to the product owner?
+7.  What are our questions to the other teams?
+
+These questions may not all apply equally. You can use them to
+structure your presentation though you should feel free to be
+creative and mix them up. Remember that the purpose of the sprint
+review is dialog, not a perfect performance or a perfect product.
+
+
+<a id="org5a42bb2"></a>
+
+# What should we do in the first sprint?
+
+In the first sprint, focus on QUESTION - what do you want to find
+out, and who'll care (who is the beneficiary, apart from you)? The
+most important deliverable is the research question (with sub
+questions, perhaps with one or more testable hypotheses) that says
+what exactly you wish to investigate.
+
+The research question must be validated by a literature review,
+and/or by primary data in the form of expert views. These views can
+be primary data (generated by you, e.g. through an interview), or
+secondary data (e.g. a podcast where an expert was
+interviewed).
+
+In data science, authors are often blissfully unaware of the need to
+embed research in a scientific context. This is not good (though
+common especially in new disciplines, who are high on new
+discoveries and free exploration), and can even be dangerous (can
+you see why?). We'll discuss good examples in class - if you find
+any, share them!
+
+The first sprint covers the "I" (for Introduction) of the IMRaD
+structure of scientific papers (see FAQ).
+
+
+<a id="org417edcf"></a>
+
+# What should we do in the second sprint?
+
+In the second sprint, focus on METHOD. The most important deliverable
+is an account of how exactly you want to analyze the datasets that are
+relevant to your research question.
+
+Method also needs to be validated (same as the research question).
+Some authors do not justify their method other than by applying it -
+as if getting a result was justification enough. This is not true,
+not good, and can even be dangerous (can you see why?). We'll
+discuss good examples in class - if you find any, share them!
+
+"Method" is often not taught in college. It is assumed that this is
+more of a graduate or post-graduate necessity. Far from it. If you
+cannot say why you applied a certain strategy during your research,
+you may not be aware of different, potentially better, methods.
+
+The second sprint covers the "M" (for "Method") of the IMRaD structure
+of scientific papers (see FAQ).
+
+
+<a id="orgaa05c7a"></a>
+
+# What should we do in the third sprint?
+
+In the third sprint, focus on getting RESULTS. This is highly
+dependent on your research question and on your product type. Let's
+look at only one example here - an EDA or Exploratory Data Analysis
+of a dataset.
+
+There are many different ways of analyzing a dataset (in the light
+of your research question or, as it were, free form, following a
+scent, guided by invisible hands, feeling creative) - some of which
+you will have seen in the course by the time this sprint review
+rolls around. Examples include: statistical summaries, functions,
+contingency tables, plots of various types (histograms, barplots,
+heatmaps, scatterplots, regression plots), and descriptions. Which
+are relevant here depend entirely on your data and on your research
+question. This part of the EDA is the playful part, only restricted
+by your technical prowess. Hence, you can draw on a myriad of
+examples in blogs, papers, etc.
+
+The variety of results in this example carries over to other types
+of results - e.g. a literature review (of a bunch of papers, or of a
+book), or an application concept. The result is pretty much anything
+you've been able to find out so far using the tools you committed to
+use (your method).
+
+The Third sprint covers the "R" (for "Results") of the IMRaD
+structure of scientific papers. (See FAQ.)
+
+
+<a id="orgf6e66c7"></a>
+
+# What should we do in the fourth sprint?
+
+In the fourth and final sprint, focus on the MEANING of your
+analysis. Your most important deliverables are: an interpretation of
+the data, perhaps a discussion of your hypotheses (if you had any
+explicit hypotheses).
+
+A decisive activity of this sprint is the comparison with existing
+literature (which you have gathered in the first sprint, and watched
+ever since), and/or expert views (which you have solicited and
+watched ever since).
+
+Another important aspect of this sprint are the LIMITATIONS - a
+thorough description of your sources of bias and what to do about
+it.
+
+Finally, you can also provide an OUTLOOK - interesting avenues for
+further investigations. Notice that some papers (and virtually all
+blog posts and other non-scientific articles) are missing a
+(non-trivial) discussion of bias. This is not good, and always
+dangerous (can you see why?).
+
+Many EDAs (at least in non-scientific publications) are also missing
+a comparison with existing literature, which means that, as the
+reader, you have no idea if what you're reading is original,
+relevant or important at all. No investigation is an island.
+
+The fourth sprint covers the "D" (for "Discussion") of the IMRaD
+structure of scientific papers. See FAQ for more on IMRaD.
+
+
+<a id="org9055344"></a>
+
+# Where I can find out more about "IMRaD"?
+
+See [this short (15 min) YouTube video](https://youtu.be/dip7UwZ3wUM) - produced for a course on
+"research methods" for graduate students at the Berlin School of
+Economics and Law (MBAs). See also my paper on storytelling and
+scientific writing ([Birkenkrahe, 2014](#orgb08854f)).
+
+The structural similarity between storyline and other successful
+forms of writing (like in science) is actually not surprising when
+you think about it. Whatever you may think about progress - some
+things were found to be true long ago (e.g. the most effective form
+for a story - by Aristotle, 2500 years ago), and they still work as
+well, or better, than many inventions that came after them.
+
+You may perhaps wonder why nobody has told you about "IMRaD" before:
+all scientists and scholars use it, but not all reflect upon their
+writing, I think, at least in the STEM disciplines.
+
+
+<a id="org57bedef"></a>
+
+# References
+
+<a id="orgb08854f"></a> [Birkenkrahe, M. (2014). Using Storytelling Methods To
+Improve Emotion, Motivation and Attitude Of Students Writing
+Scientific Papers And Theses. In: Proceedings of the 13th IEEE
+Int. Conf. on Cognitive Informatics & Cognitive Computing, London,
+August 18-20, 2014.](https://drive.google.com/file/d/0B9ubV5NfnNPpdlNycWxkaTFQc1k/view?usp=sharing)
 
 
 # Footnotes
