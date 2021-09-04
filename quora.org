@@ -1,0 +1,7 @@
+* Answer to Can algorithms take human context into account?
+  by Mike West https://www.quora.com/Can-algorithms-take-human-context-into-account/answer/Mike-West-99?ch=99&oid=305852684&share=49fd91e3&srid=xgsH&target_type=answer
+* Answer to If someone has a very good knowledge of algorithms, data structures, and mathematics, how long till he/she learn machine learning compared to someone who doesn't have this background?
+  by Mike West https://www.quora.com/If-someone-has-a-very-good-knowledge-of-algorithms-data-structures-and-mathematics-how-long-till-he-she-learn-machine-learning-compared-to-someone-who-doesnt-have-this-background/answer/Mike-West-99?ch=99&oid=305832323&share=0a8c0fac&srid=xgsH&target_type=answer
+* Answer to What is considered "Advanced SQL"?
+  by Mike West
+  https://www.quora.com/What-is-considered-Advanced-SQL/answer/Mike-West-99?ch=99&oid=303663019&share=3c59450a&srid=xgsH&target_type=answer
