@@ -142,7 +142,49 @@
   very hard to beat. Oriatti presented a marvelous selection and was
   totally responsive to the listeners. He even mentioned data science!
 
+* Learning is like (physical) exercise (Sept 8)
+
+   Read this today in an article in WIRED magazine, "How to Ace
+   Physics Class (Even if You Don't Ace Physics)" ([[wired][Allain, 2021]]):
+
+   #+begin_quote
+   "Perhaps the most important thing to remember is that learning can be
+   fun, but it can also be hard and confusing. Think of it like exercise:
+   The more you sweat, the more you gain. You won't get faster and
+   stronger by watching videos of people working out; you actually have
+   to do something. And remember, it’s OK to be confused. Confusion is
+   just the sweat of learning."
+   #+end_quote
+
+   Having studied physics and earned a PhD somehow, this makes sense
+   to me. The "watching videos won't help" resonates with me, too:
+   there were none, when I was a student, and it reminds me of Sheldon
+   Cooper in that Big Bang Theory show where he gets a bloody nose
+   because he thinks he can ride a bike after watching YouTube videos
+   about it[fn:4].
+
+   Anyway, I wouldn't overstate the importance of confusion - some
+   confusion comes from badly written textbooks, badly taught classes,
+   confused instructors etc. - generally, the more mathematical a
+   topic and a presentation, the less space there should be for
+   confusion. There is also "creative confusion", which one
+   experiences e.g. when stumped by a problem. This is really
+   important to feel! If you never feel it, you're either a genius or
+   you're not trying hard enough (you'd know if you're a genius).
+
+* References
+
+  <<wired>> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
+  You Don’t Ace Physics) [Blog]. [[https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/][Online: wired.com]].
+
 * Footnotes
+
+[fn:4]That (early) trust in the Internet is both endearing and
+endangering. Endangering, because our brains don't have a switch or a
+safety valve that reacts to fake Internet content, we are its
+victims. Endearing, because so many people (I wanted to know how many
+but I couldn't find reliable statistics - data science project!?)
+upload helpful information for complete strangers.
 
 [fn:3]An excerpt from this book might become an assignment for this
 course and/or for the AI seminar.
