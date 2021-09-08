@@ -23,7 +23,8 @@ courses. Each course also has a wiki where I write course-specific
 content.
 
 
-# Discussions
+# [Discussions](https://github.com/birkenkrahe/org/discussions)
 
-Discussion forum on anything in this repo.
+Discussion forum on anything in this repo, or anything that's
+relevant across all courses.
 
