@@ -28,3 +28,9 @@ content.
 Discussion forum on anything in this repo, or anything that's
 relevant across all courses.
 
+
+# Project management
+
+I work with [Scrum](https://scrum.org) (an agile project management method) in all my
+courses. Relevant materials are also here.
+
