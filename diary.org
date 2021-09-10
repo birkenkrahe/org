@@ -130,7 +130,6 @@
    to me if you want to know more, or come to a Friday meeting. Don't
    just go to work and let this opportunity to learn go to waste!
 
-
 * Sunday, 29 August 2021 - KILT Lyon College Radio
 
   Listened to "[[https://lyonradio.weebly.com/programming-schedule.html][Lamplight]]", an evening with classical music, by Prof
@@ -172,7 +171,25 @@
    important to feel! If you never feel it, you're either a genius or
    you're not trying hard enough (you'd know if you're a genius).
 
+
+* Relevance of agile methodologies
+
+  Students in all of my classes work with agile methodologies. This
+  week, the first sprint reviews are due. Here is some motivation to
+  learn this stuff and to do it well:
+
+  #+begin_quote
+  "Bloomberg uses the Agile methodology, which has become common in the
+  tech industry for application development. The main advantage of the
+  Agile methodology is that it creates an interactive communication
+  line between the business and engineering teams to iteratively
+  deliver value." (Source: [[datacamp][DataCamp, 8/30/2021]])
+  #+end_quote
+
 * References
+
+  <<datacamp>> D'Introno L (30 Aug 2021). Event Recap: Bridging the
+  Communications Gap with Data Literacy. [[https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy][Online: datacamp.com]].
 
   <<wired>> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
   You Don’t Ace Physics) [Blog]. [[https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/][Online: wired.com]].
