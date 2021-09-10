@@ -1,17 +1,18 @@
 
 # Table of Contents
 
-1.  [What is this?](#org19ab662)
-2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#orgc3fa8a8)
-3.  [Sunday, 22 August 2021 - End of first week](#org8148da7)
-4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#org18d01e8)
-5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#org5c65548)
-6.  [Learning is like (physical) exercise (Sept 8)](#org989dd93)
-7.  [References](#org41f22a9)
+1.  [What is this?](#org20e1fca)
+2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#org12f6ed8)
+3.  [Sunday, 22 August 2021 - End of first week](#orgbda1403)
+4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#org67d7b44)
+5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#org6c4550e)
+6.  [Learning is like (physical) exercise (Sept 8)](#org23992a4)
+7.  [Relevance of agile methodologies](#orgafe60c2)
+8.  [References](#org561aace)
 
 
 
-<a id="org19ab662"></a>
+<a id="org20e1fca"></a>
 
 # What is this?
 
@@ -20,7 +21,7 @@ across all courses, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="orgc3fa8a8"></a>
+<a id="org12f6ed8"></a>
 
 # Sunday, 11 July 2021 - GitHub & Cybersecurity
 
@@ -68,7 +69,7 @@ in the AI seminar, also in this term.
 Next stop: syllabus!
 
 
-<a id="org8148da7"></a>
+<a id="orgbda1403"></a>
 
 # Sunday, 22 August 2021 - End of first week
 
@@ -101,7 +102,7 @@ model?"), so I must be off, but I'll be seeing you soon. Tonight:
 takeaway - first Chinese buffet.
 
 
-<a id="org18d01e8"></a>
+<a id="org67d7b44"></a>
 
 # Saturday, 28 August 2021 - Games and the Arkansas Experience
 
@@ -160,7 +161,7 @@ to me if you want to know more, or come to a Friday meeting. Don't
 just go to work and let this opportunity to learn go to waste!
 
 
-<a id="org5c65548"></a>
+<a id="org6c4550e"></a>
 
 # Sunday, 29 August 2021 - KILT Lyon College Radio
 
@@ -174,12 +175,12 @@ very hard to beat. Oriatti presented a marvelous selection and was
 totally responsive to the listeners. He even mentioned data science!
 
 
-<a id="org989dd93"></a>
+<a id="org23992a4"></a>
 
 # Learning is like (physical) exercise (Sept 8)
 
 Read this today in an article in WIRED magazine, "How to Ace
-Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org4d2d255)):
+Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org58e0ea5)):
 
 > "Perhaps the most important thing to remember is that learning can be
 > fun, but it can also be hard and confusing. Think of it like exercise:
@@ -205,11 +206,29 @@ important to feel! If you never feel it, you're either a genius or
 you're not trying hard enough (you'd know if you're a genius).
 
 
-<a id="org41f22a9"></a>
+<a id="orgafe60c2"></a>
+
+# Relevance of agile methodologies
+
+Students in all of my classes work with agile methodologies. This
+week, the first sprint reviews are due. Here is some motivation to
+learn this stuff and to do it well:
+
+> "Bloomberg uses the Agile methodology, which has become common in the
+> tech industry for application development. The main advantage of the
+> Agile methodology is that it creates an interactive communication
+> line between the business and engineering teams to iteratively
+> deliver value." (Source: [DataCamp, 8/30/2021](#org7b6ac6c))
+
+
+<a id="org561aace"></a>
 
 # References
 
-<a id="org4d2d255"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
+<a id="org7b6ac6c"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
+Communications Gap with Data Literacy. [Online: datacamp.com](https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy).
+
+<a id="org58e0ea5"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
 You Don’t Ace Physics) [Blog]. [Online: wired.com](https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/).
 
 
