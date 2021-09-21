@@ -13,12 +13,12 @@
   To be up to date, you should fork this repo to your own GitHub space
   and fetch upstream when your repo is behind.
 
-* [[https://github.com/birkenkrahe/org/blob/master/FAQ.org][Frequently Asked Questions]]
+* [[https://github.com/birkenkrahe/org/blob/master/FAQ.md][Frequently Asked Questions]]
 
   These are FAQs for all my courses. Each course also carries a local
   FAQ file in the respective repo.
 
-* [[https://github.com/birkenkrahe/org/blob/master/diary.org][Diary]]
+* [[https://github.com/birkenkrahe/org/blob/master/diary.md][Diary]]
 
   These are irregular notes that I write on topics concerning all
   courses. Each course also has a wiki where I write course-specific
