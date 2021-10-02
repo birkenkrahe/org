@@ -1,24 +1,25 @@
 
 # Table of Contents
 
-1.  [What is this?](#org05bad64)
-2.  [How should you read?](#org714abcb)
-3.  [How can you read more research papers?](#orgf092539)
-4.  [Why are we using GitHub?](#orga4c02b0)
-5.  [What is version control?](#org1536964)
-6.  [How should you use GitHub?](#org998a6a5)
-7.  [What is a sprint review?](#org8cbf40b)
-8.  [What do I need to deliver at a sprint review?](#org0ede01e)
-9.  [What should we do in the first sprint?](#org994d3a1)
-10. [What should we do in the second sprint?](#org483810f)
-11. [What should we do in the third sprint?](#org1cdc61f)
-12. [What should we do in the fourth sprint?](#orgd1b8426)
-13. [Where I can find out more about "IMRaD"?](#org9bc5b78)
-14. [References](#org50fd5ff)
+1.  [What is this?](#orgd7e94cf)
+2.  [How should you read?](#orgcf709af)
+3.  [How can you read more research papers?](#orgfa39c30)
+4.  [Why are we using GitHub?](#org54665c6)
+5.  [What is version control?](#org326468b)
+6.  [How should you use GitHub?](#org46b3f3c)
+7.  [What is a sprint review?](#orgc7f2bc6)
+8.  [What do I need to deliver at a sprint review?](#org7b9f753)
+9.  [What should we do in the first sprint?](#orgcf61356)
+10. [What should we do in the second sprint?](#orge4df312)
+11. [How do you report on and plan a research "method"?](#orga7037ad)
+12. [What should we do in the third sprint?](#orgb5614a6)
+13. [What should we do in the fourth sprint?](#orgd76d60c)
+14. [Where I can find out more about "IMRaD"?](#orge5acc53)
+15. [References](#orgd9cad2b)
 
 
 
-<a id="org05bad64"></a>
+<a id="orgd7e94cf"></a>
 
 # What is this?
 
@@ -26,7 +27,7 @@ This is a Frequently Asked Questions (FAQ) file for all my courses
 at Lyon College. For individual FAQs, see the resp. course repos.
 
 
-<a id="org714abcb"></a>
+<a id="orgcf709af"></a>
 
 # How should you read?
 
@@ -143,7 +144,7 @@ props; (6) re-reading. What are these about?
     reading and note-taking only took me an hour!
 
 
-<a id="orgf092539"></a>
+<a id="orgfa39c30"></a>
 
 # How can you read more research papers?
 
@@ -184,7 +185,7 @@ The final advice is excellent: you only get better at reading papers
 by reading papers!
 
 
-<a id="orga4c02b0"></a>
+<a id="org54665c6"></a>
 
 # Why are we using GitHub?
 
@@ -212,7 +213,7 @@ data, for better workflow control (with [GitHub actions](https://docs.github.com
 data science (e.g. via [GHTorrent](https://ghtorrent.org/) and [GH Archive](https://www.gharchive.org/)).
 
 
-<a id="org1536964"></a>
+<a id="org326468b"></a>
 
 # What is version control?
 
@@ -231,7 +232,7 @@ etc. carries over from other version control systems. Here is a
 [direct comparison of CVS and Git](https://www.linkedin.com/pulse/difference-between-git-cvs-ahmed-el-emam/) (2017).
 
 
-<a id="org998a6a5"></a>
+<a id="org46b3f3c"></a>
 
 # How should you use GitHub?
 
@@ -257,7 +258,7 @@ projects using a simple Kanban board (or define a more complicated
 workflow if you like). I will show all of this in class.
 
 
-<a id="org8cbf40b"></a>
+<a id="orgc7f2bc6"></a>
 
 # What is a sprint review?
 
@@ -280,7 +281,7 @@ participation will be, and you have to deliver a sprint review, even
 if you could not complete a result during the last sprint.
 
 
-<a id="org0ede01e"></a>
+<a id="org7b9f753"></a>
 
 # What do I need to deliver at a sprint review?
 
@@ -303,7 +304,7 @@ creative and mix them up. Remember that the purpose of the sprint
 review is dialog, not a perfect performance or a perfect product.
 
 
-<a id="org994d3a1"></a>
+<a id="orgcf61356"></a>
 
 # What should we do in the first sprint?
 
@@ -330,7 +331,7 @@ The first sprint covers the "I" (for Introduction) of the IMRaD
 structure of scientific papers (see FAQ).
 
 
-<a id="org483810f"></a>
+<a id="orge4df312"></a>
 
 # What should we do in the second sprint?
 
@@ -353,7 +354,52 @@ The second sprint covers the "M" (for "Method") of the IMRaD structure
 of scientific papers (see FAQ).
 
 
-<a id="org1cdc61f"></a>
+<a id="orga7037ad"></a>
+
+# How do you report on and plan a research "method"?
+
+The focus of the second sprint review is "method", i.e. the "how" of
+your research process. The main deliverable in this case is a
+research report (a written essay) of moderate length (2,500-5000
+words).
+
+So what does "reporting on method" mean? Generally speaking it means
+that you need to inform the audience what exactly you plan to do in
+the course of your research, and convince them that you've chosen well.
+
+Let's look at an example - a short conference paper that I wrote on
+storytelling ([Birkenkrahe, 2014](https://github.com/birkenkrahe/mod482/blob/main/6_storytelling/IEEE-ICCI-CC-14-BIRKENKRAHE.final_copy.pdf)). The main achievement of this paper
+is - you guessed it - a model, shown in the figure below.
+
+![img](./img/model.png)
+
+The main purpose of the paper was to research my hypothesis that the
+storytelling arc (e.g. in a traditional novel) can be mapped onto
+the IMRaD structure for scientific papers.
+
+My methods of investigation were:
+
+1.  a short **literature review**. This review looked at publications
+    that were also sitting "on the fence" between science and fiction
+    writing. It was short because there wasn't very much. Most
+    authors didn't think that writing in science and writing in
+    fiction had much in common.
+2.  data from a collection of **personal examples**, gathered in the
+    course of a few years before this research. They included my own
+    fiction writing and supervising students' writing (in a number of
+    different settings).
+3.  the outline of a **planned experiment** with students of a new
+    course.
+
+My methods therefore included checking work done by others (1),
+analyzing my own experiences (2), and making a plan for testing my
+model in a real setting (3).
+
+Hopefully, this structural breakdown will help you think about your
+modeling paper.
+
+
+<a id="orgb5614a6"></a>
 
 # What should we do in the third sprint?
 
@@ -384,7 +430,7 @@ The Third sprint covers the "R" (for "Results") of the IMRaD
 structure of scientific papers. (See FAQ.)
 
 
-<a id="orgd1b8426"></a>
+<a id="orgd76d60c"></a>
 
 # What should we do in the fourth sprint?
 
@@ -417,14 +463,14 @@ The fourth sprint covers the "D" (for "Discussion") of the IMRaD
 structure of scientific papers. See FAQ for more on IMRaD.
 
 
-<a id="org9bc5b78"></a>
+<a id="orge5acc53"></a>
 
 # Where I can find out more about "IMRaD"?
 
 See [this short (15 min) YouTube video](https://youtu.be/dip7UwZ3wUM) - produced for a course on
 "research methods" for graduate students at the Berlin School of
 Economics and Law (MBAs). See also my paper on storytelling and
-scientific writing ([Birkenkrahe, 2014](#orgb84deac)).
+scientific writing ([Birkenkrahe, 2014](#org2a6b76f)).
 
 The structural similarity between storyline and other successful
 forms of writing (like in science) is actually not surprising when
@@ -438,11 +484,11 @@ all scientists and scholars use it, but not all reflect upon their
 writing, I think, at least in the STEM disciplines.
 
 
-<a id="org50fd5ff"></a>
+<a id="orgd9cad2b"></a>
 
 # References
 
-<a id="orgb84deac"></a> [Birkenkrahe, M. (2014). Using Storytelling Methods To
+<a id="org2a6b76f"></a> [Birkenkrahe, M. (2014). Using Storytelling Methods To
 Improve Emotion, Motivation and Attitude Of Students Writing
 Scientific Papers And Theses. In: Proceedings of the 13th IEEE
 Int. Conf. on Cognitive Informatics & Cognitive Computing, London,

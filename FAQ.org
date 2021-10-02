@@ -306,6 +306,48 @@
   The second sprint covers the "M" (for "Method") of the IMRaD structure
   of scientific papers (see FAQ).
 
+* How do you report on and plan a research "method"?
+
+  The focus of the second sprint review is "method", i.e. the "how" of
+  your research process. The main deliverable in this case is a
+  research report (a written essay) of moderate length (2,500-5000
+  words).
+
+  So what does "reporting on method" mean? Generally speaking it means
+  that you need to inform the audience what exactly you plan to do in
+  the course of your research, and convince them that you've chosen well.
+
+  Let's look at an example - a short conference paper that I wrote on
+  storytelling ([[https://github.com/birkenkrahe/mod482/blob/main/6_storytelling/IEEE-ICCI-CC-14-BIRKENKRAHE.final_copy.pdf][Birkenkrahe, 2014]]). The main achievement of this paper
+  is - you guessed it - a model, shown in the figure below.
+
+  [[./img/model.png]]
+
+  The main purpose of the paper was to research my hypothesis that the
+  storytelling arc (e.g. in a traditional novel) can be mapped onto
+  the IMRaD structure for scientific papers.
+
+  My methods of investigation were:
+
+  1) a short *literature review*. This review looked at publications
+     that were also sitting "on the fence" between science and fiction
+     writing. It was short because there wasn't very much. Most
+     authors didn't think that writing in science and writing in
+     fiction had much in common.
+  2) data from a collection of *personal examples*, gathered in the
+     course of a few years before this research. They included my own
+     fiction writing and supervising students' writing (in a number of
+     different settings).
+  3) the outline of a *planned experiment* with students of a new
+     course.
+
+  My methods therefore included checking work done by others (1),
+  analyzing my own experiences (2), and making a plan for testing my
+  model in a real setting (3).
+
+  Hopefully, this structural breakdown will help you think about your
+  modeling paper.
+
 * What should we do in the third sprint?
 
   In the third sprint, focus on getting RESULTS. This is highly
