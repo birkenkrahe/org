@@ -56,14 +56,14 @@
   enough for tests at the start at the 2nd week, and for six follow-up
   files. Three syllabi written though the schedules will be changing a
   lot - I've only been able to cover 30% of my material in the
-  available time (story of my life, really). 
+  available time (story of my life, really).
 
   Students are still a little reluctant to participate - I wouldn't be
   any different myself with a brand new instructor. The masks are not
   helping, of course. Harder to build rapport for me - I don't know if
   my interventions are working, if my jokes are funny, and if my
   lectures leave an impression. The eyes as the "windows of the soul"
-  are definitely overrated in the classroom. 
+  are definitely overrated in the classroom.
 
   Perhaps this is for the best, because this way I may stop myself
   from talking too much, and the masks insulate the students from one
@@ -82,17 +82,17 @@
 * Saturday, 28 August 2021 - Games and the Arkansas Experience
 
 ** Student projects
-  I survived the 2nd week, too. Despite my reservations about the
-  masks and all that, rapport is building and classes are getting more
-  active. Found out that students are not used to writing long essays,
-  and adjusted my expectations accordingly. That wasn't too hard since
-  I don't like to read long essays! Next week is all about setting up
-  the different projects - for an Exploratory Data Analysis project in
-  DSC 101, for an essay on data modeling for DSC 482.02, and for an AI
-  application project for DSC 482.01. I'm really looking forward to
-  seeing what the students come up with. In many ways, data science is
-  coming to a head - cp. the data vs. modeling debate kicked off by
-  Andrew Ng, which cuts across the subjects of all three courses.
+   I survived the 2nd week, too. Despite my reservations about the
+   masks and all that, rapport is building and classes are getting more
+   active. Found out that students are not used to writing long essays,
+   and adjusted my expectations accordingly. That wasn't too hard since
+   I don't like to read long essays! Next week is all about setting up
+   the different projects - for an Exploratory Data Analysis project in
+   DSC 101, for an essay on data modeling for DSC 482.02, and for an AI
+   application project for DSC 482.01. I'm really looking forward to
+   seeing what the students come up with. In many ways, data science is
+   coming to a head - cp. the data vs. modeling debate kicked off by
+   Andrew Ng, which cuts across the subjects of all three courses.
 
 ** Games industry in Arkansas?
 
@@ -143,33 +143,33 @@
 
 * Learning is like (physical) exercise (Sept 8)
 
-   Read this today in an article in WIRED magazine, "How to Ace
-   Physics Class (Even if You Don't Ace Physics)" ([[wired][Allain, 2021]]):
+  Read this today in an article in WIRED magazine, "How to Ace
+  Physics Class (Even if You Don't Ace Physics)" ([[wired][Allain, 2021]]):
 
-   #+begin_quote
-   "Perhaps the most important thing to remember is that learning can be
-   fun, but it can also be hard and confusing. Think of it like exercise:
-   The more you sweat, the more you gain. You won't get faster and
-   stronger by watching videos of people working out; you actually have
-   to do something. And remember, it’s OK to be confused. Confusion is
-   just the sweat of learning."
-   #+end_quote
+  #+begin_quote
+  "Perhaps the most important thing to remember is that learning can be
+  fun, but it can also be hard and confusing. Think of it like exercise:
+  The more you sweat, the more you gain. You won't get faster and
+  stronger by watching videos of people working out; you actually have
+  to do something. And remember, it’s OK to be confused. Confusion is
+  just the sweat of learning."
+  #+end_quote
 
-   Having studied physics and earned a PhD somehow, this makes sense
-   to me. The "watching videos won't help" resonates with me, too:
-   there were none, when I was a student, and it reminds me of Sheldon
-   Cooper in that Big Bang Theory show where he gets a bloody nose
-   because he thinks he can ride a bike after watching YouTube videos
-   about it[fn:4].
+  Having studied physics and earned a PhD somehow, this makes sense
+  to me. The "watching videos won't help" resonates with me, too:
+  there were none, when I was a student, and it reminds me of Sheldon
+  Cooper in that Big Bang Theory show where he gets a bloody nose
+  because he thinks he can ride a bike after watching YouTube videos
+  about it[fn:4].
 
-   Anyway, I wouldn't overstate the importance of confusion - some
-   confusion comes from badly written textbooks, badly taught classes,
-   confused instructors etc. - generally, the more mathematical a
-   topic and a presentation, the less space there should be for
-   confusion. There is also "creative confusion", which one
-   experiences e.g. when stumped by a problem. This is really
-   important to feel! If you never feel it, you're either a genius or
-   you're not trying hard enough (you'd know if you're a genius).
+  Anyway, I wouldn't overstate the importance of confusion - some
+  confusion comes from badly written textbooks, badly taught classes,
+  confused instructors etc. - generally, the more mathematical a
+  topic and a presentation, the less space there should be for
+  confusion. There is also "creative confusion", which one
+  experiences e.g. when stumped by a problem. This is really
+  important to feel! If you never feel it, you're either a genius or
+  you're not trying hard enough (you'd know if you're a genius).
 
 * Relevance of agile methodologies
 
@@ -185,42 +185,37 @@
   deliver value." (Source: [[datacamp][DataCamp, 8/30/2021]])
   #+end_quote
 
-* References
-
-  <<datacamp>> D'Introno L (30 Aug 2021). Event Recap: Bridging the
-  Communications Gap with Data Literacy. [[https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy][Online: datacamp.com]].
-
-  <<wired>> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
-  You Don’t Ace Physics) [Blog]. [[https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/][Online: wired.com]].
-
 * Short holiday diary
 
 ** Gratitude
 
-  I'm very grateful for fall break: it's given me my first opportunity
-  for a vacation in over 2 years. Here's me looking quizzically into
-  the future (taken in Pensacola, FL, over the weekend[fn:5]):
+   I'm very grateful for fall break: it's given me my first opportunity
+   for a vacation in over 2 years. Here's me looking quizzically into
+   the future (taken in Pensacola, FL, over the weekend[fn:5]):
 
-  [[./img/beachpic.jpg]]
+   [[./img/beachpic.jpg]]
 
 ** Grading
-  Back home, I'm procrastinating: need to finish grading tests for two
-  courses, and setting midterm grades for three. I'm like a freshman:
-  these are my first midterms. In Germany, where I taught before Lyon,
-  students don't get any information on how they're doing during the
-  term. Reality often comes crashing down hard on them only at the
-  very end when it's too late. While I welcome this helpful attitude,
-  it also makes students a little less independent: if you're not told
-  how you're doing you have to ask the teacher (which is
-  uncomfortable), and question yourself honestly. Both of these
-  actions can help build skills that are useful later. Though many
-  companies have elaborate feedback structures, official feedback
-  often comes too late and is watered down as all standardized
-  procedures are. Here is a quick look at the horror of such a
-  standard, a "[[https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf][performance appraisal plan]]," if you don't know what I
-  am talking about. As a manager, I spent a lot of time with similar
-  tools, and I remain unconvinced of their actual value to the
-  employee and to the company. 
+   Back home, I'm procrastinating: need to finish grading tests for two
+   courses, and setting midterm grades for three. I'm like a freshman:
+   these are my first midterms. In Germany, where I taught before Lyon,
+   students don't get any information on how they're doing during the
+   term. Reality often comes crashing down hard on them only at the
+   very end when it's too late. While I welcome this helpful attitude,
+   it also makes students a little less independent: if you're not told
+   how you're doing you have to ask the teacher (which is
+   uncomfortable), and question yourself honestly. Both of these
+   actions can help build skills that are useful later. Though many
+   companies have elaborate feedback structures, official feedback
+   often comes too late and is watered down as all standardized
+   procedures are. Here is a quick look at the horror of such a
+   standard, a "[[https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf][performance appraisal plan]]," if you don't know what I
+   am talking about. As a manager, I spent a lot of time with similar
+   tools, and I remain unconvinced of their actual value to the
+   employee and to the company. /Image: German assessment
+   center[fn:6]./
+
+   [[./img/german.jpg]]
 
 ** Ghost of Tsushima
 
@@ -234,21 +229,78 @@
    needs to be studied, and it takes me 10 or more attempts to get
    anywhere (often more than that). It's wonderfully frustrating but
    of course also eats up time, which is why long game play is limited
-   to the holidays. Image: 
+   to the holidays. /Image: one of those boss duels./
 
-   <iframe width="560" height="315"
-   src="https://www.youtube.com/embed/A5gVt028Hww" title="YouTube
-   video player" frameborder="0" allow="accelerometer; autoplay;
-   clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-   allowfullscreen></iframe>
+   [[./img/ghost.jpeg]]
 
-** Game of life   
+   [[https://youtu.be/A5gVt028Hww][Check out the trailer]].
 
-   Not just 
+** Game of life
+   
+   Not just gaming, but science also continously generates
+   distractions, because so much interesting stuff is going on,
+   especially in my areas of interest (data science and machine
+   learning). Just in time for a session on "literate programming" (in
+   the data science intro course), and another session on "future of
+   AI" (in the AI seminar), Lex Fridman has interviewed comp sci hero
+   Donald Knuth for the second time - you should check out [[https://lexfridman.com/donald-knuth-2/][the podcast]]
+   ([[fridman][Fridman, 2021]]) (also available on youtube). It's long (an
+   excellent distraction), but the length is necessary to really go
+   deep (this is one of Fridman's specialties, and much needed in this
+   time of short attention spans and fleeting
+   attractions)[fn:7]. There's also a [[https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/][summary]] of the long interview if
+   you have little time or patience but a need for soundbites and
+   essence.
 
-  In closing, 
-  
+   Then conversation between Knuth and Fridman meanders to an
+   enticing parallel between AI and God:
+
+   #+begin_quote
+   “It’s only for me, and — but I but I personally think of my belief
+   that God exists, although I have no idea what that means. But I
+   believe that there is something beyond human capabilities — and it
+   might be some AI, but whatever, but I do believe that there is
+   something that goes beyond the realm of human understanding, that I
+   can try to learn more about how to resonate with, whatever that
+   being would like me to do.” --[[knuth][Donald Knuth]]
+   #+end_quote
+
+   I'm tempted to present this as the opening statement of tomorrow's
+   session of the AI seminar...
+
+   /Image: Pensacola beach before the monsoon, October 4, 2021./
+
+   [[./img/beach.jpg]]
+
+* References
+
+  <<wired>> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
+  You Don’t Ace Physics) [Blog]. [[https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/][Online: wired.com]].
+
+  <<datacamp>> D'Introno L (30 Aug 2021). Event Recap: Bridging the
+  Communications Gap with Data Literacy. [[https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy][Online: datacamp.com]].
+
+  <<knuth>> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
+  and the Meaning of Life [Blog]. [[https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/][Online: thenewstack.io]].
+
+  <<fridman>> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
+  Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast
+  #219 [Podcast]. [[https://lexfridman.com/donald-knuth-2/][Online: lexfridman.com]].
+
 * Footnotes
+
+[fn:7] Fridman is a Russian machine learning expert from MIT, and if
+you know Russians then you know that they tend to extremes (ever read
+Tolstoy? Dostoyevsky?). I love this though I can only take so much of
+it - I like that fact that it's different from what everyone does, and
+I like the result that Fridman gets with his method. You should check
+out some of his other podcasts, e.g. with Elon Musk.
+
+[fn:6]An assessment center is an event where many applicants are
+simultaneously assessed for their suitability. It usually lasts longer
+(one day or more) and involves solo and team exercises, interviews,
+etc. The whole thing is often observed by senior members of the
+company or organization. Naturally, all challenges are standardized.
 
 [fn:5]This is a 10-hour drive from Batesville, AR. In Germany, 10
 hours get you from Flensburg in the North (on the Danish border) to
