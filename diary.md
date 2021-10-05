@@ -1,19 +1,19 @@
 
 # Table of Contents
 
-1.  [What is this?](#org8b60f25)
-2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#org5b9082d)
-3.  [Sunday, 22 August 2021 - End of first week](#org8953dea)
-4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#orgb08b2c8)
-5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#org0114ceb)
-6.  [Learning is like (physical) exercise (Sept 8)](#orgc1f0ddb)
-7.  [Relevance of agile methodologies](#orgf9f5498)
-8.  [Short holiday diary](#org85a98b0)
-9.  [References](#org19f9c8d)
+1.  [What is this?](#org64acd22)
+2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#org98d5ab5)
+3.  [Sunday, 22 August 2021 - End of first week](#org41095d4)
+4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#orgbbac9f7)
+5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#org9134e21)
+6.  [Learning is like (physical) exercise (Sept 8)](#org9199821)
+7.  [Relevance of agile methodologies (Sept 14)](#orgec1494e)
+8.  [Short holiday diary (Oct 5)](#orgf9d11e5)
+9.  [References](#org7568231)
 
 
 
-<a id="org8b60f25"></a>
+<a id="org64acd22"></a>
 
 # What is this?
 
@@ -22,7 +22,7 @@ across all courses, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="org5b9082d"></a>
+<a id="org98d5ab5"></a>
 
 # Sunday, 11 July 2021 - GitHub & Cybersecurity
 
@@ -70,7 +70,7 @@ in the AI seminar, also in this term.
 Next stop: syllabus!
 
 
-<a id="org8953dea"></a>
+<a id="org41095d4"></a>
 
 # Sunday, 22 August 2021 - End of first week
 
@@ -103,7 +103,7 @@ model?"), so I must be off, but I'll be seeing you soon. Tonight:
 takeaway - first Chinese buffet.
 
 
-<a id="orgb08b2c8"></a>
+<a id="orgbbac9f7"></a>
 
 # Saturday, 28 August 2021 - Games and the Arkansas Experience
 
@@ -162,7 +162,7 @@ to me if you want to know more, or come to a Friday meeting. Don't
 just go to work and let this opportunity to learn go to waste!
 
 
-<a id="org0114ceb"></a>
+<a id="org9134e21"></a>
 
 # Sunday, 29 August 2021 - KILT Lyon College Radio
 
@@ -176,12 +176,12 @@ very hard to beat. Oriatti presented a marvelous selection and was
 totally responsive to the listeners. He even mentioned data science!
 
 
-<a id="orgc1f0ddb"></a>
+<a id="org9199821"></a>
 
 # Learning is like (physical) exercise (Sept 8)
 
 Read this today in an article in WIRED magazine, "How to Ace
-Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org02ae8b8)):
+Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org0aea562)):
 
 > "Perhaps the most important thing to remember is that learning can be
 > fun, but it can also be hard and confusing. Think of it like exercise:
@@ -207,9 +207,9 @@ important to feel! If you never feel it, you're either a genius or
 you're not trying hard enough (you'd know if you're a genius).
 
 
-<a id="orgf9f5498"></a>
+<a id="orgec1494e"></a>
 
-# Relevance of agile methodologies
+# Relevance of agile methodologies (Sept 14)
 
 Students in all of my classes work with agile methodologies. This
 week, the first sprint reviews are due. Here is some motivation to
@@ -219,12 +219,12 @@ learn this stuff and to do it well:
 > tech industry for application development. The main advantage of the
 > Agile methodology is that it creates an interactive communication
 > line between the business and engineering teams to iteratively
-> deliver value." (Source: [DataCamp, 8/30/2021](#orgfc5c7d4))
+> deliver value." (Source: [DataCamp, 8/30/2021](#orga8f3a14))
 
 
-<a id="org85a98b0"></a>
+<a id="orgf9d11e5"></a>
 
-# Short holiday diary
+# Short holiday diary (Oct 5)
 
 
 ## Gratitude
@@ -288,7 +288,7 @@ learning). Just in time for a session on "literate programming" (in
 the data science intro course), and another session on "future of
 AI" (in the AI seminar), Lex Fridman has interviewed comp sci hero
 Donald Knuth for the second time - you should check out [the podcast](https://lexfridman.com/donald-knuth-2/)
-([Fridman, 2021](#orgac5244e)) (also available on youtube). It's long (an
+([Fridman, 2021](#org8c557eb)) (also available on youtube). It's long (an
 excellent distraction), but the length is necessary to really go
 deep (this is one of Fridman's specialties, and much needed in this
 time of short attention spans and fleeting
@@ -305,7 +305,7 @@ enticing parallel between AI and God:
 > might be some AI, but whatever, but I do believe that there is
 > something that goes beyond the realm of human understanding, that I
 > can try to learn more about how to resonate with, whatever that
-> being would like me to do.” --[Donald Knuth](#orga0aecbf)
+> being would like me to do.” --[Donald Knuth](#orgc7ab00a)
 
 I'm tempted to present this as the opening statement of tomorrow's
 session of the AI seminar&#x2026;
@@ -315,22 +315,25 @@ session of the AI seminar&#x2026;
 ![img](./img/beach.jpg)
 
 
-<a id="org19f9c8d"></a>
+<a id="org7568231"></a>
 
 # References
 
-<a id="org02ae8b8"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
+<a id="org0aea562"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
 You Don’t Ace Physics) [Blog]. [Online: wired.com](https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/).
 
-<a id="orgfc5c7d4"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
+<a id="orga8f3a14"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
 Communications Gap with Data Literacy. [Online: datacamp.com](https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy).
 
-<a id="orga0aecbf"></a> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
+<a id="orgc7ab00a"></a> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
 and the Meaning of Life [Blog]. [Online: thenewstack.io](https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/).
 
-<a id="orgac5244e"></a> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
+<a id="org8c557eb"></a> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
 Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast
 \#219 [Podcast]. [Online: lexfridman.com](https://lexfridman.com/donald-knuth-2/).
+
+United States Department of Agriculture (n.d.). Performance
+Appraisal Plan Examples. [Online: dm.usda.gov.](https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf)
 
 
 # Footnotes

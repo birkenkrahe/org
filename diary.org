@@ -171,7 +171,7 @@
   important to feel! If you never feel it, you're either a genius or
   you're not trying hard enough (you'd know if you're a genius).
 
-* Relevance of agile methodologies
+* Relevance of agile methodologies (Sept 14)
 
   Students in all of my classes work with agile methodologies. This
   week, the first sprint reviews are due. Here is some motivation to
@@ -185,7 +185,7 @@
   deliver value." (Source: [[datacamp][DataCamp, 8/30/2021]])
   #+end_quote
 
-* Short holiday diary
+* Short holiday diary (Oct 5)
 
 ** Gratitude
 
@@ -286,6 +286,9 @@
   <<fridman>> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
   Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast
   #219 [Podcast]. [[https://lexfridman.com/donald-knuth-2/][Online: lexfridman.com]].
+
+  United States Department of Agriculture (n.d.). Performance
+  Appraisal Plan Examples. [[https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf][Online: dm.usda.gov.]]
 
 * Footnotes
 
