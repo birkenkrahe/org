@@ -1,19 +1,19 @@
 
 # Table of Contents
 
-1.  [What is this?](#org5d411cf)
-2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#orgdf82aa5)
-3.  [Sunday, 22 August 2021 - End of first week](#orgefbd353)
-4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#orga639e4b)
-5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#orgbdc0df4)
-6.  [Learning is like (physical) exercise (Sept 8)](#org8ea8d1e)
-7.  [Relevance of agile methodologies](#org6de69e9)
-8.  [References](#org13a6507)
-9.  [Short holiday diary](#orgdeaf992)
+1.  [What is this?](#org8b60f25)
+2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#org5b9082d)
+3.  [Sunday, 22 August 2021 - End of first week](#org8953dea)
+4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#orgb08b2c8)
+5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#org0114ceb)
+6.  [Learning is like (physical) exercise (Sept 8)](#orgc1f0ddb)
+7.  [Relevance of agile methodologies](#orgf9f5498)
+8.  [Short holiday diary](#org85a98b0)
+9.  [References](#org19f9c8d)
 
 
 
-<a id="org5d411cf"></a>
+<a id="org8b60f25"></a>
 
 # What is this?
 
@@ -22,7 +22,7 @@ across all courses, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="orgdf82aa5"></a>
+<a id="org5b9082d"></a>
 
 # Sunday, 11 July 2021 - GitHub & Cybersecurity
 
@@ -70,7 +70,7 @@ in the AI seminar, also in this term.
 Next stop: syllabus!
 
 
-<a id="orgefbd353"></a>
+<a id="org8953dea"></a>
 
 # Sunday, 22 August 2021 - End of first week
 
@@ -79,14 +79,14 @@ quite a bit of interesting content into each orientation session -
 enough for tests at the start at the 2nd week, and for six follow-up
 files. Three syllabi written though the schedules will be changing a
 lot - I've only been able to cover 30% of my material in the
-available time (story of my life, really). 
+available time (story of my life, really).
 
 Students are still a little reluctant to participate - I wouldn't be
 any different myself with a brand new instructor. The masks are not
 helping, of course. Harder to build rapport for me - I don't know if
 my interventions are working, if my jokes are funny, and if my
 lectures leave an impression. The eyes as the "windows of the soul"
-are definitely overrated in the classroom. 
+are definitely overrated in the classroom.
 
 Perhaps this is for the best, because this way I may stop myself
 from talking too much, and the masks insulate the students from one
@@ -103,7 +103,7 @@ model?"), so I must be off, but I'll be seeing you soon. Tonight:
 takeaway - first Chinese buffet.
 
 
-<a id="orga639e4b"></a>
+<a id="orgb08b2c8"></a>
 
 # Saturday, 28 August 2021 - Games and the Arkansas Experience
 
@@ -162,7 +162,7 @@ to me if you want to know more, or come to a Friday meeting. Don't
 just go to work and let this opportunity to learn go to waste!
 
 
-<a id="orgbdc0df4"></a>
+<a id="org0114ceb"></a>
 
 # Sunday, 29 August 2021 - KILT Lyon College Radio
 
@@ -176,12 +176,12 @@ very hard to beat. Oriatti presented a marvelous selection and was
 totally responsive to the listeners. He even mentioned data science!
 
 
-<a id="org8ea8d1e"></a>
+<a id="orgc1f0ddb"></a>
 
 # Learning is like (physical) exercise (Sept 8)
 
 Read this today in an article in WIRED magazine, "How to Ace
-Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#orgef61af9)):
+Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org02ae8b8)):
 
 > "Perhaps the most important thing to remember is that learning can be
 > fun, but it can also be hard and confusing. Think of it like exercise:
@@ -207,7 +207,7 @@ important to feel! If you never feel it, you're either a genius or
 you're not trying hard enough (you'd know if you're a genius).
 
 
-<a id="org6de69e9"></a>
+<a id="orgf9f5498"></a>
 
 # Relevance of agile methodologies
 
@@ -219,21 +219,10 @@ learn this stuff and to do it well:
 > tech industry for application development. The main advantage of the
 > Agile methodology is that it creates an interactive communication
 > line between the business and engineering teams to iteratively
-> deliver value." (Source: [DataCamp, 8/30/2021](#org364dcd1))
+> deliver value." (Source: [DataCamp, 8/30/2021](#orgfc5c7d4))
 
 
-<a id="org13a6507"></a>
-
-# References
-
-<a id="org364dcd1"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
-Communications Gap with Data Literacy. [Online: datacamp.com](https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy).
-
-<a id="orgef61af9"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
-You Don’t Ace Physics) [Blog]. [Online: wired.com](https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/).
-
-
-<a id="orgdeaf992"></a>
+<a id="org85a98b0"></a>
 
 # Short holiday diary
 
@@ -265,7 +254,10 @@ procedures are. Here is a quick look at the horror of such a
 standard, a "[performance appraisal plan](https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf)," if you don't know what I
 am talking about. As a manager, I spent a lot of time with similar
 tools, and I remain unconvinced of their actual value to the
-employee and to the company. 
+employee and to the company. *Image: German assessment
+center<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>.*
+
+![img](./img/german.jpg)
 
 
 ## Ghost of Tsushima
@@ -280,20 +272,65 @@ Demon Souls, Dark Souls or Bloodborne): every single boss encounter
 needs to be studied, and it takes me 10 or more attempts to get
 anywhere (often more than that). It's wonderfully frustrating but
 of course also eats up time, which is why long game play is limited
-to the holidays. Image: 
+to the holidays. *Image: one of those boss duels.*
 
-<iframe width="560" height="315"
-src="<https://www.youtube.com/embed/A5gVt028Hww>" title="YouTube
-video player" frameborder="0" allow="accelerometer; autoplay;
-clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
+![img](./img/ghost.jpeg)
+
+[Check out the trailer](https://youtu.be/A5gVt028Hww).
 
 
 ## Game of life
 
-Not just 
+Not just gaming, but science also continously generates
+distractions, because so much interesting stuff is going on,
+especially in my areas of interest (data science and machine
+learning). Just in time for a session on "literate programming" (in
+the data science intro course), and another session on "future of
+AI" (in the AI seminar), Lex Fridman has interviewed comp sci hero
+Donald Knuth for the second time - you should check out [the podcast](https://lexfridman.com/donald-knuth-2/)
+([Fridman, 2021](#orgac5244e)) (also available on youtube). It's long (an
+excellent distraction), but the length is necessary to really go
+deep (this is one of Fridman's specialties, and much needed in this
+time of short attention spans and fleeting
+attractions)<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>. There's also a [summary](https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/) of the long interview if
+you have little time or patience but a need for soundbites and
+essence.
 
-In closing, 
+Then conversation between Knuth and Fridman meanders to an
+enticing parallel between AI and God:
+
+> “It’s only for me, and — but I but I personally think of my belief
+> that God exists, although I have no idea what that means. But I
+> believe that there is something beyond human capabilities — and it
+> might be some AI, but whatever, but I do believe that there is
+> something that goes beyond the realm of human understanding, that I
+> can try to learn more about how to resonate with, whatever that
+> being would like me to do.” --[Donald Knuth](#orga0aecbf)
+
+I'm tempted to present this as the opening statement of tomorrow's
+session of the AI seminar&#x2026;
+
+*Image: Pensacola beach before the monsoon, October 4, 2021.*
+
+![img](./img/beach.jpg)
+
+
+<a id="org19f9c8d"></a>
+
+# References
+
+<a id="org02ae8b8"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
+You Don’t Ace Physics) [Blog]. [Online: wired.com](https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/).
+
+<a id="orgfc5c7d4"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
+Communications Gap with Data Literacy. [Online: datacamp.com](https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy).
+
+<a id="orga0aecbf"></a> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
+and the Meaning of Life [Blog]. [Online: thenewstack.io](https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/).
+
+<a id="orgac5244e"></a> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
+Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast
+\#219 [Podcast]. [Online: lexfridman.com](https://lexfridman.com/donald-knuth-2/).
 
 
 # Footnotes
@@ -323,3 +360,16 @@ great fun for a recent immigrant. Linda the friendly, boring Google
 maps bot, announces each state, "Welcome in Alabama" etc.). You'd
 think that I'd be knackered after driving for 20 hours but actually, I
 am not, quite the opposite, I'm rather energized by the experience!
+
+<sup><a id="fn.6" href="#fnr.6">6</a></sup> An assessment center is an event where many applicants are
+simultaneously assessed for their suitability. It usually lasts longer
+(one day or more) and involves solo and team exercises, interviews,
+etc. The whole thing is often observed by senior members of the
+company or organization. Naturally, all challenges are standardized.
+
+<sup><a id="fn.7" href="#fnr.7">7</a></sup> Fridman is a Russian machine learning expert from MIT, and if
+you know Russians then you know that they tend to extremes (ever read
+Tolstoy? Dostoyevsky?). I love this though I can only take so much of
+it - I like that fact that it's different from what everyone does, and
+I like the result that Fridman gets with his method. You should check
+out some of his other podcasts, e.g. with Elon Musk.
