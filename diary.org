@@ -171,7 +171,6 @@
    important to feel! If you never feel it, you're either a genius or
    you're not trying hard enough (you'd know if you're a genius).
 
-
 * Relevance of agile methodologies
 
   Students in all of my classes work with agile methodologies. This
@@ -194,7 +193,72 @@
   <<wired>> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
   You Don’t Ace Physics) [Blog]. [[https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/][Online: wired.com]].
 
+* Short holiday diary
+
+** Gratitude
+
+  I'm very grateful for fall break: it's given me my first opportunity
+  for a vacation in over 2 years. Here's me looking quizzically into
+  the future (taken in Pensacola, FL, over the weekend[fn:5]):
+
+  [[./img/beachpic.jpg]]
+
+** Grading
+  Back home, I'm procrastinating: need to finish grading tests for two
+  courses, and setting midterm grades for three. I'm like a freshman:
+  these are my first midterms. In Germany, where I taught before Lyon,
+  students don't get any information on how they're doing during the
+  term. Reality often comes crashing down hard on them only at the
+  very end when it's too late. While I welcome this helpful attitude,
+  it also makes students a little less independent: if you're not told
+  how you're doing you have to ask the teacher (which is
+  uncomfortable), and question yourself honestly. Both of these
+  actions can help build skills that are useful later. Though many
+  companies have elaborate feedback structures, official feedback
+  often comes too late and is watered down as all standardized
+  procedures are. Here is a quick look at the horror of such a
+  standard, a "[[https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf][performance appraisal plan]]," if you don't know what I
+  am talking about. As a manager, I spent a lot of time with similar
+  tools, and I remain unconvinced of their actual value to the
+  employee and to the company. 
+
+** Ghost of Tsushima
+
+   I've come back to this game on the new PS5, and it's fantastic: the
+   mechanics of this game are so incredibly precise. I used to be a
+   fencer in my youth, and the swordplay in "Ghost of Tsushima" is so
+   close to the truth that I find myself remembering moves and parries
+   from decades ago. Also, playing on "lethal" level (since this is my
+   2nd playthrough) is almost as challenging as a "Souls" game (like
+   Demon Souls, Dark Souls or Bloodborne): every single boss encounter
+   needs to be studied, and it takes me 10 or more attempts to get
+   anywhere (often more than that). It's wonderfully frustrating but
+   of course also eats up time, which is why long game play is limited
+   to the holidays. Image: 
+
+   <iframe width="560" height="315"
+   src="https://www.youtube.com/embed/A5gVt028Hww" title="YouTube
+   video player" frameborder="0" allow="accelerometer; autoplay;
+   clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+   allowfullscreen></iframe>
+
+** Game of life   
+
+   Not just 
+
+  In closing, 
+  
 * Footnotes
+
+[fn:5]This is a 10-hour drive from Batesville, AR. In Germany, 10
+hours get you from Flensburg in the North (on the Danish border) to
+Garmisch-Partenkirchen in the Alps (on the border to Austria). That's
+as far as you can go in Germany, and in the Southlands, it gets you to
+the nearest beach. The route goes through 5 different states, which is
+great fun for a recent immigrant. Linda the friendly, boring Google
+maps bot, announces each state, "Welcome in Alabama" etc.). You'd
+think that I'd be knackered after driving for 20 hours but actually, I
+am not, quite the opposite, I'm rather energized by the experience!
 
 [fn:4]That (early) trust in the Internet is both endearing and
 endangering. Endangering, because our brains don't have a switch or a
