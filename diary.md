@@ -1,18 +1,19 @@
 
 # Table of Contents
 
-1.  [What is this?](#orgadb2800)
-2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#org2261a28)
-3.  [Sunday, 22 August 2021 - End of first week](#orgbef514c)
-4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#orgd6f055c)
-5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#orgb4d607e)
-6.  [Learning is like (physical) exercise (Sept 8)](#org6093ffc)
-7.  [Relevance of agile methodologies](#orga94977c)
-8.  [References](#orga759c4b)
+1.  [What is this?](#org5d411cf)
+2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#orgdf82aa5)
+3.  [Sunday, 22 August 2021 - End of first week](#orgefbd353)
+4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#orga639e4b)
+5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#orgbdc0df4)
+6.  [Learning is like (physical) exercise (Sept 8)](#org8ea8d1e)
+7.  [Relevance of agile methodologies](#org6de69e9)
+8.  [References](#org13a6507)
+9.  [Short holiday diary](#orgdeaf992)
 
 
 
-<a id="orgadb2800"></a>
+<a id="org5d411cf"></a>
 
 # What is this?
 
@@ -21,7 +22,7 @@ across all courses, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="org2261a28"></a>
+<a id="orgdf82aa5"></a>
 
 # Sunday, 11 July 2021 - GitHub & Cybersecurity
 
@@ -69,7 +70,7 @@ in the AI seminar, also in this term.
 Next stop: syllabus!
 
 
-<a id="orgbef514c"></a>
+<a id="orgefbd353"></a>
 
 # Sunday, 22 August 2021 - End of first week
 
@@ -102,7 +103,7 @@ model?"), so I must be off, but I'll be seeing you soon. Tonight:
 takeaway - first Chinese buffet.
 
 
-<a id="orgd6f055c"></a>
+<a id="orga639e4b"></a>
 
 # Saturday, 28 August 2021 - Games and the Arkansas Experience
 
@@ -161,7 +162,7 @@ to me if you want to know more, or come to a Friday meeting. Don't
 just go to work and let this opportunity to learn go to waste!
 
 
-<a id="orgb4d607e"></a>
+<a id="orgbdc0df4"></a>
 
 # Sunday, 29 August 2021 - KILT Lyon College Radio
 
@@ -175,12 +176,12 @@ very hard to beat. Oriatti presented a marvelous selection and was
 totally responsive to the listeners. He even mentioned data science!
 
 
-<a id="org6093ffc"></a>
+<a id="org8ea8d1e"></a>
 
 # Learning is like (physical) exercise (Sept 8)
 
 Read this today in an article in WIRED magazine, "How to Ace
-Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#orgb26aae5)):
+Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#orgef61af9)):
 
 > "Perhaps the most important thing to remember is that learning can be
 > fun, but it can also be hard and confusing. Think of it like exercise:
@@ -206,7 +207,7 @@ important to feel! If you never feel it, you're either a genius or
 you're not trying hard enough (you'd know if you're a genius).
 
 
-<a id="orga94977c"></a>
+<a id="org6de69e9"></a>
 
 # Relevance of agile methodologies
 
@@ -218,18 +219,81 @@ learn this stuff and to do it well:
 > tech industry for application development. The main advantage of the
 > Agile methodology is that it creates an interactive communication
 > line between the business and engineering teams to iteratively
-> deliver value." (Source: [DataCamp, 8/30/2021](#org7e3c595))
+> deliver value." (Source: [DataCamp, 8/30/2021](#org364dcd1))
 
 
-<a id="orga759c4b"></a>
+<a id="org13a6507"></a>
 
 # References
 
-<a id="org7e3c595"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
+<a id="org364dcd1"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
 Communications Gap with Data Literacy. [Online: datacamp.com](https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy).
 
-<a id="orgb26aae5"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
+<a id="orgef61af9"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
 You Don’t Ace Physics) [Blog]. [Online: wired.com](https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/).
+
+
+<a id="orgdeaf992"></a>
+
+# Short holiday diary
+
+
+## Gratitude
+
+I'm very grateful for fall break: it's given me my first opportunity
+for a vacation in over 2 years. Here's me looking quizzically into
+the future (taken in Pensacola, FL, over the weekend<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>):
+
+![img](./img/beachpic.jpg)
+
+
+## Grading
+
+Back home, I'm procrastinating: need to finish grading tests for two
+courses, and setting midterm grades for three. I'm like a freshman:
+these are my first midterms. In Germany, where I taught before Lyon,
+students don't get any information on how they're doing during the
+term. Reality often comes crashing down hard on them only at the
+very end when it's too late. While I welcome this helpful attitude,
+it also makes students a little less independent: if you're not told
+how you're doing you have to ask the teacher (which is
+uncomfortable), and question yourself honestly. Both of these
+actions can help build skills that are useful later. Though many
+companies have elaborate feedback structures, official feedback
+often comes too late and is watered down as all standardized
+procedures are. Here is a quick look at the horror of such a
+standard, a "[performance appraisal plan](https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf)," if you don't know what I
+am talking about. As a manager, I spent a lot of time with similar
+tools, and I remain unconvinced of their actual value to the
+employee and to the company. 
+
+
+## Ghost of Tsushima
+
+I've come back to this game on the new PS5, and it's fantastic: the
+mechanics of this game are so incredibly precise. I used to be a
+fencer in my youth, and the swordplay in "Ghost of Tsushima" is so
+close to the truth that I find myself remembering moves and parries
+from decades ago. Also, playing on "lethal" level (since this is my
+2nd playthrough) is almost as challenging as a "Souls" game (like
+Demon Souls, Dark Souls or Bloodborne): every single boss encounter
+needs to be studied, and it takes me 10 or more attempts to get
+anywhere (often more than that). It's wonderfully frustrating but
+of course also eats up time, which is why long game play is limited
+to the holidays. Image: 
+
+<iframe width="560" height="315"
+src="<https://www.youtube.com/embed/A5gVt028Hww>" title="YouTube
+video player" frameborder="0" allow="accelerometer; autoplay;
+clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+
+
+## Game of life
+
+Not just 
+
+In closing, 
 
 
 # Footnotes
@@ -249,3 +313,13 @@ safety valve that reacts to fake Internet content, we are its
 victims. Endearing, because so many people (I wanted to know how many
 but I couldn't find reliable statistics - data science project!?)
 upload helpful information for complete strangers.
+
+<sup><a id="fn.5" href="#fnr.5">5</a></sup> This is a 10-hour drive from Batesville, AR. In Germany, 10
+hours get you from Flensburg in the North (on the Danish border) to
+Garmisch-Partenkirchen in the Alps (on the border to Austria). That's
+as far as you can go in Germany, and in the Southlands, it gets you to
+the nearest beach. The route goes through 5 different states, which is
+great fun for a recent immigrant. Linda the friendly, boring Google
+maps bot, announces each state, "Welcome in Alabama" etc.). You'd
+think that I'd be knackered after driving for 20 hours but actually, I
+am not, quite the opposite, I'm rather energized by the experience!
