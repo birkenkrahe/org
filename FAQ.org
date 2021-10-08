@@ -2,6 +2,7 @@
 #+AUTHOR:Frequently Asked Questions
 #+SUBTITLE:Frequently Asked Questions All Courses @Lyon Fall 2021
 #+OPTIONS: ^:nil toc:1
+#+STARTUP: overview
 * What is this?
 
   This is a Frequently Asked Questions (FAQ) file for all my courses
@@ -424,6 +425,118 @@
   all scientists and scholars use it, but not all reflect upon their
   writing, I think, at least in the STEM disciplines.
 
+* Which editor and IDE do you use?
+
+  I use the free [[https://www.gnu.org/software/emacs/][Emacs]] editor. For R, I use Emacs + [[https://ess.r-project.org/][ESS]] ("Emacs Speaks
+  Statistics"), for general notebooking and task management
+  and...everything really, I use Emacs + ESS + [[https://orgmode.org/][Org-mode]] (a
+  general-purpose task manager inside Emacs, first developed by
+  physicists like me). For slides, I use the [[https://github.com/hakimel/reveal.js/][reveal.js]] (JavaScript)
+  framework (generates HTML), or [[https://github.com/takaxp/org-tree-slide][org-tree-slide]] (for presenting
+  straight from Org-mode).
+
+  Emacs is hands down the best editor in the world, written in [[https://en.wikipedia.org/wiki/Lisp_(programming_language)][LISP]][fn:2],
+  one of the earliest programming languages for AI research, and the
+  second oldest language in widespread use (after FORTRAN).
+
+  They say the learning curve of this "complex beast" ([[https://masteringemacs.org/article/beginners-guide-to-emacs][Petersen, 2019]])
+  is steep but don't believe it.  Here is an link to [[https://opensource.com/article/20/3/getting-started-emacs][get started with
+  Emacs easily]] (Kenlon, 2019). Tale a look!
+
+  Here is a 2021 "[[https://ess-intro.github.io/][Introduction to Emacs Speaks Statistics]]" site with
+  lots of additional information.
+
+  Thee figure [[fig:emacs]] shows four (out of an arbitrary number of)
+  panels inside the editor
+
+  #+name: fig:emacs
+  https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png
+
+* TODO How can I install Emacs as a data science IDE on Windows 10?
+  GNU Emacs is a free, extensible editor written in a dialect of Lisp,
+  a programming language that used to be the main language for
+  Artificial Intelligence applications (besides PROLOG) until Python
+  and R came along. After my Linux laptop went on the fritz, I
+  switched to a Windows 10 box myself. Since most if not all of you
+  are committed Windows users, I decided to stay down there with
+  you. As a consequence, I had to figure out how to run my favorite
+  development environment, Emacs + ESS + R, under this OS. Here are
+  the steps I used to do that. Let me know if this works for you!
+** Download and install Emacs
+
+** Download and install R
+
+   You only need to do this if you want to work with R. Even if you
+   don't, you can use Emacs to develop programs in any language, or
+   use Org-mode to run your life more merrily.
+
+** Set the ~PATH~ environment variable
+
+** Test run your new setup
+   
+*** Opening R
+    
+*** Running R from the shell inside Emacs
+    Frankly, I don't know which shell program Emacs uses here. I
+    suspect it is the Microsoft PowerShell - something else that I
+    need to figure out on a rainy afternoon.
+  
+* TODO How to use GitHub Desktop to backup your code to GitHub
+  With GitHub, you develop locally, and collaborate remotely. Even if
+  you don't collaborate but only use GitHub as a repository as I do
+  for our courses, it is useful: I don't need to worry about setting
+  up a separate backup to a cloud location with complicated sharing
+  rules. Once I make local changes, I can push them to the remote main
+  repo. And if someone improves my remote repo (via the issue-branch
+  mechanism of Git), I can pull the code and merge it with my local
+  code.
+
+  All of this saves me tons of time - GitHub + Emacs + Org-mode (in
+  Emacs) are my two or three main productivity tools to run a proper
+  ship even with four or five courses in parallel, and with a fair
+  amount of involvement and new developments[fn:15]. 
+
+  To work with GitHub under Windows, the easiest way is to download
+  GitHub desktop, and create a local copy of your remote repo, or the
+  other way around, create a remote GitHub repo from your local
+  folder.
+
+  Using the GitHub desktop does not replace the command line (CLI)
+  use, which gives you more flexibility, but for my purpose, it
+  suffices.
+
+  /Image: GitHub desktop screenshots/
+
+  1) I made a local change to ~FAQ.org~ which is monitored by Git. I
+     click "commit" to indicate that I want the change to become
+     permanent.
+
+     #+attr_html:	:width 600px
+     [[./img/github.png]]
+  
+  2) Git suggests that I push the changed file to the remote
+     repository, which is by default called ~origin~. The remote repo
+     currently looks at the ~main~ branch (that's the head - I can
+     change that to another branch if it exists).
+
+     #+attr_html:	:width 600px
+     [[./img/github1.png]]
+     
+  3) After entering a summary of my change, I can execute the
+     push. Git now informs me that there are no local changes
+     pending. 
+
+     #+attr_html: :width 600px
+     [[./img/github2.png]]
+     
+** Important files
+
+   * ~README.md~ is a markdown file that automatically opens when you
+     open the repo - it's like an index file.
+   * ~.gitignore~ is a file with those files that you don't want to
+     version control - like backup files or intermediate files
+     (e.g. ~.dvi~ when you process a LaTeX file).
+  
 * References
 
   <<birk14>> [[https://drive.google.com/file/d/0B9ubV5NfnNPpdlNycWxkaTFQc1k/view?usp=sharing][Birkenkrahe, M. (2014). Using Storytelling Methods To
@@ -433,6 +546,10 @@
   August 18-20, 2014.]]
 
 * Footnotes
+
+[fn:15]If you never make any changes you don't need to watch
+productivity, because you can just regurgitate old stuff. However,
+personally, I would get bored to death.
 
 [fn:14]"Forking" means that you create an active copy of the repo in
 your own workspace. Whenever the owner makes changes to the forked

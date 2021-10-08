@@ -1,25 +1,28 @@
 
 # Table of Contents
 
-1.  [What is this?](#orgd7e94cf)
-2.  [How should you read?](#orgcf709af)
-3.  [How can you read more research papers?](#orgfa39c30)
-4.  [Why are we using GitHub?](#org54665c6)
-5.  [What is version control?](#org326468b)
-6.  [How should you use GitHub?](#org46b3f3c)
-7.  [What is a sprint review?](#orgc7f2bc6)
-8.  [What do I need to deliver at a sprint review?](#org7b9f753)
-9.  [What should we do in the first sprint?](#orgcf61356)
-10. [What should we do in the second sprint?](#orge4df312)
-11. [How do you report on and plan a research "method"?](#orga7037ad)
-12. [What should we do in the third sprint?](#orgb5614a6)
-13. [What should we do in the fourth sprint?](#orgd76d60c)
-14. [Where I can find out more about "IMRaD"?](#orge5acc53)
-15. [References](#orgd9cad2b)
+1.  [What is this?](#org0ef800f)
+2.  [How should you read?](#org434dc75)
+3.  [How can you read more research papers?](#org26d1239)
+4.  [Why are we using GitHub?](#org3acee1d)
+5.  [What is version control?](#org0120a3f)
+6.  [How should you use GitHub?](#org5ea5864)
+7.  [What is a sprint review?](#org359305d)
+8.  [What do I need to deliver at a sprint review?](#org7a01aa1)
+9.  [What should we do in the first sprint?](#org4b763ff)
+10. [What should we do in the second sprint?](#org94b2f07)
+11. [How do you report on and plan a research "method"?](#org1d27b26)
+12. [What should we do in the third sprint?](#org574e996)
+13. [What should we do in the fourth sprint?](#org3ddde98)
+14. [Where I can find out more about "IMRaD"?](#orgaf4c6d7)
+15. [Which editor and IDE do you use?](#org515482e)
+16. [How can I install Emacs as a data science IDE on Windows 10?](#org6d5286e)
+17. [How to use GitHub Desktop to backup your code to GitHub](#org4f34827)
+18. [References](#orgbf43e0b)
 
 
 
-<a id="orgd7e94cf"></a>
+<a id="org0ef800f"></a>
 
 # What is this?
 
@@ -27,7 +30,7 @@ This is a Frequently Asked Questions (FAQ) file for all my courses
 at Lyon College. For individual FAQs, see the resp. course repos.
 
 
-<a id="orgcf709af"></a>
+<a id="org434dc75"></a>
 
 # How should you read?
 
@@ -144,7 +147,7 @@ props; (6) re-reading. What are these about?
     reading and note-taking only took me an hour!
 
 
-<a id="orgfa39c30"></a>
+<a id="org26d1239"></a>
 
 # How can you read more research papers?
 
@@ -185,7 +188,7 @@ The final advice is excellent: you only get better at reading papers
 by reading papers!
 
 
-<a id="org54665c6"></a>
+<a id="org3acee1d"></a>
 
 # Why are we using GitHub?
 
@@ -213,7 +216,7 @@ data, for better workflow control (with [GitHub actions](https://docs.github.com
 data science (e.g. via [GHTorrent](https://ghtorrent.org/) and [GH Archive](https://www.gharchive.org/)).
 
 
-<a id="org326468b"></a>
+<a id="org0120a3f"></a>
 
 # What is version control?
 
@@ -232,7 +235,7 @@ etc. carries over from other version control systems. Here is a
 [direct comparison of CVS and Git](https://www.linkedin.com/pulse/difference-between-git-cvs-ahmed-el-emam/) (2017).
 
 
-<a id="org46b3f3c"></a>
+<a id="org5ea5864"></a>
 
 # How should you use GitHub?
 
@@ -258,7 +261,7 @@ projects using a simple Kanban board (or define a more complicated
 workflow if you like). I will show all of this in class.
 
 
-<a id="orgc7f2bc6"></a>
+<a id="org359305d"></a>
 
 # What is a sprint review?
 
@@ -281,7 +284,7 @@ participation will be, and you have to deliver a sprint review, even
 if you could not complete a result during the last sprint.
 
 
-<a id="org7b9f753"></a>
+<a id="org7a01aa1"></a>
 
 # What do I need to deliver at a sprint review?
 
@@ -304,7 +307,7 @@ creative and mix them up. Remember that the purpose of the sprint
 review is dialog, not a perfect performance or a perfect product.
 
 
-<a id="orgcf61356"></a>
+<a id="org4b763ff"></a>
 
 # What should we do in the first sprint?
 
@@ -331,7 +334,7 @@ The first sprint covers the "I" (for Introduction) of the IMRaD
 structure of scientific papers (see FAQ).
 
 
-<a id="orge4df312"></a>
+<a id="org94b2f07"></a>
 
 # What should we do in the second sprint?
 
@@ -354,7 +357,7 @@ The second sprint covers the "M" (for "Method") of the IMRaD structure
 of scientific papers (see FAQ).
 
 
-<a id="orga7037ad"></a>
+<a id="org1d27b26"></a>
 
 # How do you report on and plan a research "method"?
 
@@ -399,7 +402,7 @@ Hopefully, this structural breakdown will help you think about your
 modeling paper.
 
 
-<a id="orgb5614a6"></a>
+<a id="org574e996"></a>
 
 # What should we do in the third sprint?
 
@@ -430,7 +433,7 @@ The Third sprint covers the "R" (for "Results") of the IMRaD
 structure of scientific papers. (See FAQ.)
 
 
-<a id="orgd76d60c"></a>
+<a id="org3ddde98"></a>
 
 # What should we do in the fourth sprint?
 
@@ -463,14 +466,14 @@ The fourth sprint covers the "D" (for "Discussion") of the IMRaD
 structure of scientific papers. See FAQ for more on IMRaD.
 
 
-<a id="orge5acc53"></a>
+<a id="orgaf4c6d7"></a>
 
 # Where I can find out more about "IMRaD"?
 
 See [this short (15 min) YouTube video](https://youtu.be/dip7UwZ3wUM) - produced for a course on
 "research methods" for graduate students at the Berlin School of
 Economics and Law (MBAs). See also my paper on storytelling and
-scientific writing ([Birkenkrahe, 2014](#org2a6b76f)).
+scientific writing ([Birkenkrahe, 2014](#orgdaf7dfe)).
 
 The structural similarity between storyline and other successful
 forms of writing (like in science) is actually not surprising when
@@ -484,11 +487,139 @@ all scientists and scholars use it, but not all reflect upon their
 writing, I think, at least in the STEM disciplines.
 
 
-<a id="orgd9cad2b"></a>
+<a id="org515482e"></a>
+
+# Which editor and IDE do you use?
+
+I use the free [Emacs](https://www.gnu.org/software/emacs/) editor. For R, I use Emacs + [ESS](https://ess.r-project.org/) ("Emacs Speaks
+Statistics"), for general notebooking and task management
+and&#x2026;everything really, I use Emacs + ESS + [Org-mode](https://orgmode.org/) (a
+general-purpose task manager inside Emacs, first developed by
+physicists like me). For slides, I use the [reveal.js](https://github.com/hakimel/reveal.js/) (JavaScript)
+framework (generates HTML), or [org-tree-slide](https://github.com/takaxp/org-tree-slide) (for presenting
+straight from Org-mode).
+
+Emacs is hands down the best editor in the world, written in [LISP](https://en.wikipedia.org/wiki/Lisp_(programming_language))<sup><a id="fnr.2.100" class="footref" href="#fn.2">2</a></sup>,
+one of the earliest programming languages for AI research, and the
+second oldest language in widespread use (after FORTRAN).
+
+They say the learning curve of this "complex beast" ([Petersen, 2019](https://masteringemacs.org/article/beginners-guide-to-emacs))
+is steep but don't believe it.  Here is an link to [get started with
+Emacs easily](https://opensource.com/article/20/3/getting-started-emacs) (Kenlon, 2019). Tale a look!
+
+Here is a 2021 "[Introduction to Emacs Speaks Statistics](https://ess-intro.github.io/)" site with
+lots of additional information.
+
+Thee figure [94](#org28b7973) shows four (out of an arbitrary number of)
+panels inside the editor
+
+![img](https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png)
+
+
+<a id="org6d5286e"></a>
+
+# TODO How can I install Emacs as a data science IDE on Windows 10?
+
+GNU Emacs is a free, extensible editor written in a dialect of Lisp,
+a programming language that used to be the main language for
+Artificial Intelligence applications (besides PROLOG) until Python
+and R came along. After my Linux laptop went on the fritz, I
+switched to a Windows 10 box myself. Since most if not all of you
+are committed Windows users, I decided to stay down there with
+you. As a consequence, I had to figure out how to run my favorite
+development environment, Emacs + ESS + R, under this OS. Here are
+the steps I used to do that. Let me know if this works for you!
+
+
+## Download and install Emacs
+
+
+## Download and install R
+
+You only need to do this if you want to work with R. Even if you
+don't, you can use Emacs to develop programs in any language, or
+use Org-mode to run your life more merrily.
+
+
+## Set the `PATH` environment variable
+
+
+## Test run your new setup
+
+
+### Opening R
+
+
+### Running R from the shell inside Emacs
+
+Frankly, I don't know which shell program Emacs uses here. I
+suspect it is the Microsoft PowerShell - something else that I
+need to figure out on a rainy afternoon.
+
+
+<a id="org4f34827"></a>
+
+# TODO How to use GitHub Desktop to backup your code to GitHub
+
+With GitHub, you develop locally, and collaborate remotely. Even if
+you don't collaborate but only use GitHub as a repository as I do
+for our courses, it is useful: I don't need to worry about setting
+up a separate backup to a cloud location with complicated sharing
+rules. Once I make local changes, I can push them to the remote main
+repo. And if someone improves my remote repo (via the issue-branch
+mechanism of Git), I can pull the code and merge it with my local
+code.
+
+All of this saves me tons of time - GitHub + Emacs + Org-mode (in
+Emacs) are my two or three main productivity tools to run a proper
+ship even with four or five courses in parallel, and with a fair
+amount of involvement and new developments<sup><a id="fnr.14" class="footref" href="#fn.14">14</a></sup>. 
+
+To work with GitHub under Windows, the easiest way is to download
+GitHub desktop, and create a local copy of your remote repo, or the
+other way around, create a remote GitHub repo from your local
+folder.
+
+Using the GitHub desktop does not replace the command line (CLI)
+use, which gives you more flexibility, but for my purpose, it
+suffices.
+
+*Image: GitHub desktop screenshots*
+
+1.  I made a local change to `FAQ.org` which is monitored by Git. I
+    click "commit" to indicate that I want the change to become
+    permanent.
+    
+    ![img](./img/github.png)
+
+2.  Git suggests that I push the changed file to the remote
+    repository, which is by default called `origin`. The remote repo
+    currently looks at the `main` branch (that's the head - I can
+    change that to another branch if it exists).
+    
+    ![img](./img/github1.png)
+
+3.  After entering a summary of my change, I can execute the
+    push. Git now informs me that there are no local changes
+    pending. 
+    
+    ![img](./img/github2.png)
+
+
+## Important files
+
+-   `README.md` is a markdown file that automatically opens when you
+    open the repo - it's like an index file.
+-   `.gitignore` is a file with those files that you don't want to
+    version control - like backup files or intermediate files
+    (e.g. `.dvi` when you process a LaTeX file).
+
+
+<a id="orgbf43e0b"></a>
 
 # References
 
-<a id="org2a6b76f"></a> [Birkenkrahe, M. (2014). Using Storytelling Methods To
+<a id="orgdaf7dfe"></a> [Birkenkrahe, M. (2014). Using Storytelling Methods To
 Improve Emotion, Motivation and Attitude Of Students Writing
 Scientific Papers And Theses. In: Proceedings of the 13th IEEE
 Int. Conf. on Cognitive Informatics & Cognitive Computing, London,
@@ -583,3 +714,7 @@ on the other hand are free form.
 your own workspace. Whenever the owner makes changes to the forked
 repo, you'll be notified so that you can follow the change ("fetch
 upstream").
+
+<sup><a id="fn.14" href="#fnr.14">14</a></sup> If you never make any changes you don't need to watch
+productivity, because you can just regurgitate old stuff. However,
+personally, I would get bored to death.
