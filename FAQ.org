@@ -452,7 +452,8 @@
   #+name: fig:emacs
   https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png
 
-* TODO How can I install Emacs as a data science IDE on Windows 10?
+* How can I install Emacs as a data science IDE on Windows 10?
+
   GNU Emacs is a free, extensible editor written in a dialect of Lisp,
   a programming language that used to be the main language for
   Artificial Intelligence applications (besides PROLOG) until Python
@@ -462,7 +463,25 @@
   you. As a consequence, I had to figure out how to run my favorite
   development environment, Emacs + ESS + R, under this OS. Here are
   the steps I used to do that. Let me know if this works for you!
-** Download and install Emacs
+
+** Download and install Emacs + ESS
+
+   For Windows, you can download and install the latest Emacs version
+   bundled with Org-mode and ESS from here:
+   https://vigou3.gitlab.io/emacs-modified-windows/
+
+   The installation is standard and worked without a hitch. Put a
+   launcher/link to Emacs on the Desktop and on your tasklist. Open
+   Emacs.
+
+** Emacs tutorial
+
+   The first thing you need to do is to complete the Emacs onboard
+   tutorial. Open it from the Startup screen, or open it any time with
+   the key sequence ~<CTRL>-h t~. These key sequences will take some
+   time to get used to but once you got them in your fingers, you
+   won't want to look back, because you're going to be much faster
+   than any mouse. 
 
 ** Download and install R
 
@@ -470,18 +489,65 @@
    don't, you can use Emacs to develop programs in any language, or
    use Org-mode to run your life more merrily.
 
+   Download R from ~rproject.org~ for Windows and do a standard
+   installation. Launch R independently from Emacs to test that it
+   works. Try to plot something with ~plot(rnorm(100))~ to test the
+   graphic device.
+
 ** Set the ~PATH~ environment variable
 
+   You have to pass the path to the R executable to Windows so that it
+   can find it when Emacs asks for it. To do this, open the Shell in
+   Emacs with ~M-x shell~, type ~PATH~ to see the current load path,
+   and then add that (absolute) folder address with ~PATH=~. This is
+   how it looks for me:
+
+   #+begin_example sh
+PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\birkenkrahe\AppData\Local\Microsoft\WindowsApps;C:\Users\birkenkrahe\AppData\Local\GitHubDesktop\bin;C:\Users\birkenkrahe\Documents\R\R-4.1.0\bin\x64;
+   #+end_example
+
 ** Test run your new setup
-   
+
 *** Opening R
-    
+
+    Open R with ~M-x R~. Emacs asks if you want to open R in the
+    current directory (which is the folder you can get with ~getwd()~
+    inside R.
+
 *** Running R from the shell inside Emacs
+
     Frankly, I don't know which shell program Emacs uses here. I
     suspect it is the Microsoft PowerShell - something else that I
-    need to figure out on a rainy afternoon.
-  
-* TODO How to use GitHub Desktop to backup your code to GitHub
+    need to figure out on a rainy afternoon. You can start the shell
+    inside Emacs with ~M-x shell~ and then run R inside it.
+
+*** Running R inside source code chunks in org files
+
+    I like to create code notebooks in Org-mode files. To do this, I
+    use the following syntax for R (if I want to see the output right
+    below the chunk)[fn:16]:
+
+    #+begin_example
+   #+begin_src R :session output
+    <code>
+   #+end_src
+    #+end_example
+
+    And now I can run the ~<code>~ inside the chunk with ~C-o C-o~, or
+    I can open the code in a separate buffer and e.g. save it as an R
+    file.
+    
+** My Emacs setup
+
+   * The configuration file for Emacs is the ~.emacs~ file. [[https://1drv.ms/u/s!AhEvK3qWokrvitxPQ2OuaCOOQDfvZQ?e=KhLQW6][Here is
+     the ~.emacs~ file that I use for download]].
+   * Site lisp files are stored in ~/.emacs.d/~ and they are
+     downloaded from a central repository. Emacs knows which ones to
+     use. You can see all available and installed packages with the
+     command ~M-x package-list-packages~.
+
+* How to use GitHub Desktop to backup your code to GitHub
+
   With GitHub, you develop locally, and collaborate remotely. Even if
   you don't collaborate but only use GitHub as a repository as I do
   for our courses, it is useful: I don't need to worry about setting
@@ -494,7 +560,7 @@
   All of this saves me tons of time - GitHub + Emacs + Org-mode (in
   Emacs) are my two or three main productivity tools to run a proper
   ship even with four or five courses in parallel, and with a fair
-  amount of involvement and new developments[fn:15]. 
+  amount of involvement and new developments[fn:15].
 
   To work with GitHub under Windows, the easiest way is to download
   GitHub desktop, and create a local copy of your remote repo, or the
@@ -511,24 +577,24 @@
      click "commit" to indicate that I want the change to become
      permanent.
 
-     #+attr_html:	:width 600px
+     #+attr_html:       :width 600px
      [[./img/github.png]]
-  
+
   2) Git suggests that I push the changed file to the remote
      repository, which is by default called ~origin~. The remote repo
      currently looks at the ~main~ branch (that's the head - I can
      change that to another branch if it exists).
 
-     #+attr_html:	:width 600px
+     #+attr_html:       :width 600px
      [[./img/github1.png]]
-     
+
   3) After entering a summary of my change, I can execute the
      push. Git now informs me that there are no local changes
-     pending. 
+     pending.
 
      #+attr_html: :width 600px
      [[./img/github2.png]]
-     
+
 ** Important files
 
    * ~README.md~ is a markdown file that automatically opens when you
@@ -536,7 +602,7 @@
    * ~.gitignore~ is a file with those files that you don't want to
      version control - like backup files or intermediate files
      (e.g. ~.dvi~ when you process a LaTeX file).
-  
+
 * References
 
   <<birk14>> [[https://drive.google.com/file/d/0B9ubV5NfnNPpdlNycWxkaTFQc1k/view?usp=sharing][Birkenkrahe, M. (2014). Using Storytelling Methods To
@@ -546,6 +612,9 @@
   August 18-20, 2014.]]
 
 * Footnotes
+
+[fn:16]This would work for any language that Emacs supports, which is
+pretty much every programming language in existence. 
 
 [fn:15]If you never make any changes you don't need to watch
 productivity, because you can just regurgitate old stuff. However,
