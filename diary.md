@@ -1,19 +1,20 @@
 
 # Table of Contents
 
-1.  [What is this?](#orga6927bd)
-2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#org7f62ad4)
-3.  [Sunday, 22 August 2021 - End of first week](#org628c306)
-4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#orga67115a)
-5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#orga902c73)
-6.  [Learning is like (physical) exercise (Sept 8)](#org404124a)
-7.  [Relevance of agile methodologies (Sept 14)](#org522c504)
-8.  [Florida Man (Oct 5)](#org56850d9)
-9.  [References](#orgf6f2b92)
+1.  [What is this?](#org80325d4)
+2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#orgd4c4134)
+3.  [Sunday, 22 August 2021 - End of first week](#org9c1ded9)
+4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#org1329c05)
+5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#orgc6e9696)
+6.  [Learning is like (physical) exercise (Sept 8)](#org70c3490)
+7.  [Relevance of agile methodologies (Sept 14)](#orgba3852a)
+8.  [Florida Man (Oct 5)](#org6c24e78)
+9.  [Transitioning to Windows 10 (Oct 9)](#org835fde8)
+10. [References](#orge12a8fe)
 
 
 
-<a id="orga6927bd"></a>
+<a id="org80325d4"></a>
 
 # What is this?
 
@@ -22,7 +23,7 @@ across all courses, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="org7f62ad4"></a>
+<a id="orgd4c4134"></a>
 
 # Sunday, 11 July 2021 - GitHub & Cybersecurity
 
@@ -70,7 +71,7 @@ in the AI seminar, also in this term.
 Next stop: syllabus!
 
 
-<a id="org628c306"></a>
+<a id="org9c1ded9"></a>
 
 # Sunday, 22 August 2021 - End of first week
 
@@ -103,7 +104,7 @@ model?"), so I must be off, but I'll be seeing you soon. Tonight:
 takeaway - first Chinese buffet.
 
 
-<a id="orga67115a"></a>
+<a id="org1329c05"></a>
 
 # Saturday, 28 August 2021 - Games and the Arkansas Experience
 
@@ -162,7 +163,7 @@ to me if you want to know more, or come to a Friday meeting. Don't
 just go to work and let this opportunity to learn go to waste!
 
 
-<a id="orga902c73"></a>
+<a id="orgc6e9696"></a>
 
 # Sunday, 29 August 2021 - KILT Lyon College Radio
 
@@ -176,12 +177,12 @@ very hard to beat. Oriatti presented a marvelous selection and was
 totally responsive to the listeners. He even mentioned data science!
 
 
-<a id="org404124a"></a>
+<a id="org70c3490"></a>
 
 # Learning is like (physical) exercise (Sept 8)
 
 Read this today in an article in WIRED magazine, "How to Ace
-Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org05f4256)):
+Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org3f156c7)):
 
 > "Perhaps the most important thing to remember is that learning can be
 > fun, but it can also be hard and confusing. Think of it like exercise:
@@ -207,7 +208,7 @@ important to feel! If you never feel it, you're either a genius or
 you're not trying hard enough (you'd know if you're a genius).
 
 
-<a id="org522c504"></a>
+<a id="orgba3852a"></a>
 
 # Relevance of agile methodologies (Sept 14)
 
@@ -219,10 +220,10 @@ learn this stuff and to do it well:
 > tech industry for application development. The main advantage of the
 > Agile methodology is that it creates an interactive communication
 > line between the business and engineering teams to iteratively
-> deliver value." (Source: [DataCamp, 8/30/2021](#orgc08065b))
+> deliver value." (Source: [DataCamp, 8/30/2021](#orgdf2620d))
 
 
-<a id="org56850d9"></a>
+<a id="org6c24e78"></a>
 
 # Florida Man (Oct 5)
 
@@ -288,7 +289,7 @@ learning). Just in time for a session on "literate programming" (in
 the data science intro course), and another session on "future of
 AI" (in the AI seminar), Lex Fridman has interviewed comp sci hero
 Donald Knuth for the second time - you should check out [the podcast](https://lexfridman.com/donald-knuth-2/)
-([Fridman, 2021](#org248d712)) (also available on youtube). It's long (an
+([Fridman, 2021](#org321694e)) (also available on youtube). It's long (an
 excellent distraction), but the length is necessary to really go
 deep (this is one of Fridman's specialties, and much needed in this
 time of short attention spans and fleeting
@@ -305,7 +306,7 @@ enticing parallel between AI and God:
 > might be some AI, but whatever, but I do believe that there is
 > something that goes beyond the realm of human understanding, that I
 > can try to learn more about how to resonate with, whatever that
-> being would like me to do.” --[Donald Knuth](#org64c264e)
+> being would like me to do.” --[Donald Knuth](#org4a99d99)
 
 I'm tempted to present this as the opening statement of tomorrow's
 session of the AI seminar&#x2026;
@@ -315,20 +316,60 @@ session of the AI seminar&#x2026;
 ![img](./img/beach.jpg)
 
 
-<a id="orgf6f2b92"></a>
+<a id="org835fde8"></a>
+
+# Transitioning to Windows 10 (Oct 9)
+
+The 2019 Dell Latitude laptop (running Ubuntu Linux 18.04 LTS) that
+I had brought from Germany, whose keyboard always reminded me of
+home, went on the fritz with some unrecoverable RAM error. I'm not
+too impressed with the lifetime, but then again, I put the little
+guy through a stress test. It may be that the RAM came lose - I'd
+have to open it to make sure, which I may do.
+
+However, this was also a great opportunity to finally move to my
+Lyon 2021 Dell Precision laptop - a heavy computing beast. At first,
+I had wanted to dump Windows for Linux but then some of your
+comments rang in my ears from past courses, and I experienced
+students' difficulties of Windows + R myself: it seemed appropriate
+to share their development burden and get off my high Linux
+horse<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>. Also, here was an opportunity to try Emacs + ESS +
+Org-Mode + R as a bundle and perhaps bring some students with me to
+the bright side!
+
+I also work with GitHub Desktop now - this is an app, not the
+command line (hence it has a lot less flexibility, like all graphic
+environments), but it's Okay for my limited use of GitHub (namely,
+developing scripts and text files and sharing them in the cloud -
+something that I could achieve with GDrive). The reason why we use
+GitHub is (a) to get to know it (most prominent development
+environment), and (b) because it's much easier to follow/suggest
+changes in my source code via forks and issues. Some students seem
+to have forked my repos, but so far nobody has submitted an issue.
+
+The installation of [Emacs + ESS + R as a scientific stats IDE](https://github.com/birkenkrahe/org/blob/master/FAQ.md#org6e00b83)<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>, and
+the installation and [use of GitHub Desktop](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orgf34e53d) are subject of two new
+FAQs. Let me know how you get on with these - in the data science
+course (where I also work with Google Colaboratory), we may take
+some time to go through these instructions<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup>
+
+![img](./img/linux.gif)
+
+
+<a id="orge12a8fe"></a>
 
 # References
 
-<a id="org05f4256"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
+<a id="org3f156c7"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
 You Don’t Ace Physics) [Blog]. [Online: wired.com](https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/).
 
-<a id="orgc08065b"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
+<a id="orgdf2620d"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
 Communications Gap with Data Literacy. [Online: datacamp.com](https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy).
 
-<a id="org64c264e"></a> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
+<a id="org4a99d99"></a> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
 and the Meaning of Life [Blog]. [Online: thenewstack.io](https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/).
 
-<a id="org248d712"></a> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
+<a id="org321694e"></a> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
 Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast
 \#219 [Podcast]. [Online: lexfridman.com](https://lexfridman.com/donald-knuth-2/).
 
@@ -376,3 +417,25 @@ Tolstoy? Dostoyevsky?). I love this though I can only take so much of
 it - I like that fact that it's different from what everyone does, and
 I like the result that Fridman gets with his method. You should check
 out some of his other podcasts, e.g. with Elon Musk.
+
+<sup><a id="fn.8" href="#fnr.8">8</a></sup> If you want both Linux and Windows 10, you can either install
+Linux in a VirtualBox (open source software owned by Oracle), or run a
+dual boot system. But I already know Linux well, and my interest is to
+have the most productive, most efficient work environment - so if I
+cannot have Linux for that, then at least I can get the inside track
+of students' (and many other peoples') pains with Windows. Though as I
+am writing this, I am struggling with my feelings: it seems really
+hard to get LaTeX for Windows, which means it's hard to generate PDFs
+(except by generating HTML code and then printing it as PDF). There
+are many reasons, why [Linux is better than Windows](https://www.lifewire.com/windows-vs-linux-mint-2200609).
+
+<sup><a id="fn.9" href="#fnr.9">9</a></sup> In fact the Emacs distribution I found has a bunch of fantastic
+software on board, including AUCTeX (a version of the typesetting
+system TeX), and secure network communications that allow to use Emacs
+as a news or email client, too (though this is not something I do).
+
+<sup><a id="fn.10" href="#fnr.10">10</a></sup> As part of the session on literate programming and (later)
+package and code development in R. Of course, there is also always
+RStudio, but that's a commercial solution (freemium model)
+increasingly wed to the "tidyverse", which I find increasingly
+unsuitable (see the update of Matloff's "TidyverseSceptic" essay.
