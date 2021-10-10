@@ -2,6 +2,7 @@
 #+AUTHOR:Marcus Birkenkrahe
 #+SUBTITLE:GitHub diary All Courses @Lyon Fall 2021
 #+OPTIONS: ^:nil toc:1
+#+startup: overview
 * What is this?
 
   A place for irregular articles of possible interest to students
@@ -192,6 +193,7 @@
    for a vacation in over 2 years. Here's me looking quizzically into
    the future (taken in Pensacola, FL, over the weekend[fn:5]):
 
+   #+attr_html: :width 600px
    [[./img/beachpic.jpg]]
 
 ** Grading
@@ -214,6 +216,7 @@
    employee and to the company. /Image: German assessment
    center[fn:6]./
 
+   #+attr_html: :width 600px
    [[./img/german.jpg]]
 
 ** Ghost of Tsushima
@@ -230,12 +233,13 @@
    of course also eats up time, which is why long game play is limited
    to the holidays. /Image: one of those boss duels./
 
+   #+attr_html: :width 600px
    [[./img/ghost.jpeg]]
 
    [[https://youtu.be/A5gVt028Hww][Check out the trailer]].
 
 ** Game of life
-   
+
    Not just gaming, but science also continously generates
    distractions, because so much interesting stuff is going on,
    especially in my areas of interest (data science and machine
@@ -269,7 +273,46 @@
 
    /Image: Pensacola beach before the monsoon, October 4, 2021./
 
+   #+attr_html: :width 600px
    [[./img/beach.jpg]]
+
+* Transitioning to Windows 10 (Oct 9)
+
+  The 2019 Dell Latitude laptop (running Ubuntu Linux 18.04 LTS) that
+  I had brought from Germany, whose keyboard always reminded me of
+  home, went on the fritz with some unrecoverable RAM error. I'm not
+  too impressed with the lifetime, but then again, I put the little
+  guy through a stress test. It may be that the RAM came lose - I'd
+  have to open it to make sure, which I may do.
+
+  However, this was also a great opportunity to finally move to my
+  Lyon 2021 Dell Precision laptop - a heavy computing beast. At first,
+  I had wanted to dump Windows for Linux but then some of your
+  comments rang in my ears from past courses, and I experienced
+  students' difficulties of Windows + R myself: it seemed appropriate
+  to share their development burden and get off my high Linux
+  horse[fn:9]. Also, here was an opportunity to try Emacs + ESS +
+  Org-Mode + R as a bundle and perhaps bring some students with me to
+  the bright side!
+
+  I also work with GitHub Desktop now - this is an app, not the
+  command line (hence it has a lot less flexibility, like all graphic
+  environments), but it's Okay for my limited use of GitHub (namely,
+  developing scripts and text files and sharing them in the cloud -
+  something that I could achieve with GDrive). The reason why we use
+  GitHub is (a) to get to know it (most prominent development
+  environment), and (b) because it's much easier to follow/suggest
+  changes in my source code via forks and issues. Some students seem
+  to have forked my repos, but so far nobody has submitted an issue.
+
+  The installation of [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#org6e00b83][Emacs + ESS + R as a scientific stats IDE]][fn:10], and
+  the installation and [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#orgf34e53d][use of GitHub Desktop]] are subject of two new
+  FAQs. Let me know how you get on with these - in the data science
+  course (where I also work with Google Colaboratory), we may take
+  some time to go through these instructions[fn:8]
+
+  #+attr_html: :width 600px
+  [[./img/linux.gif]]
 
 * References
 
@@ -290,6 +333,28 @@
   Appraisal Plan Examples. [[https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf][Online: dm.usda.gov.]]
 
 * Footnotes
+
+[fn:10]In fact the Emacs distribution I found has a bunch of fantastic
+software on board, including AUCTeX (a version of the typesetting
+system TeX), and secure network communications that allow to use Emacs
+as a news or email client, too (though this is not something I do).
+
+[fn:9]If you want both Linux and Windows 10, you can either install
+Linux in a VirtualBox (open source software owned by Oracle), or run a
+dual boot system. But I already know Linux well, and my interest is to
+have the most productive, most efficient work environment - so if I
+cannot have Linux for that, then at least I can get the inside track
+of students' (and many other peoples') pains with Windows. Though as I
+am writing this, I am struggling with my feelings: it seems really
+hard to get LaTeX for Windows, which means it's hard to generate PDFs
+(except by generating HTML code and then printing it as PDF). There
+are many reasons, why [[https://www.lifewire.com/windows-vs-linux-mint-2200609][Linux is better than Windows]].
+
+[fn:8]As part of the session on literate programming and (later)
+package and code development in R. Of course, there is also always
+RStudio, but that's a commercial solution (freemium model)
+increasingly wed to the "tidyverse", which I find increasingly
+unsuitable (see the update of Matloff's "TidyverseSceptic" essay.
 
 [fn:7] Fridman is a Russian machine learning expert from MIT, and if
 you know Russians then you know that they tend to extremes (ever read
