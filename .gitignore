@@ -3,10 +3,18 @@
 
 # ignore all locks
 .~lock*#
-.#*
 
 # ignore HTML files (exports)
 *.html
 
 # ignore javascript
 reveal.js
+
+# ignore .tex files
+*.tex
+
+# ignore dvi
+*.dvi
+
+#ignore archive
+#*#
