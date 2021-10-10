@@ -1,28 +1,28 @@
 
 # Table of Contents
 
-1.  [What is this?](#org0ef800f)
-2.  [How should you read?](#org434dc75)
-3.  [How can you read more research papers?](#org26d1239)
-4.  [Why are we using GitHub?](#org3acee1d)
-5.  [What is version control?](#org0120a3f)
-6.  [How should you use GitHub?](#org5ea5864)
-7.  [What is a sprint review?](#org359305d)
-8.  [What do I need to deliver at a sprint review?](#org7a01aa1)
-9.  [What should we do in the first sprint?](#org4b763ff)
-10. [What should we do in the second sprint?](#org94b2f07)
-11. [How do you report on and plan a research "method"?](#org1d27b26)
-12. [What should we do in the third sprint?](#org574e996)
-13. [What should we do in the fourth sprint?](#org3ddde98)
-14. [Where I can find out more about "IMRaD"?](#orgaf4c6d7)
-15. [Which editor and IDE do you use?](#org515482e)
-16. [How can I install Emacs as a data science IDE on Windows 10?](#org6d5286e)
-17. [How to use GitHub Desktop to backup your code to GitHub](#org4f34827)
-18. [References](#orgbf43e0b)
+1.  [What is this?](#org11439fb)
+2.  [How should you read?](#org474278c)
+3.  [How can you read more research papers?](#org5cf47d8)
+4.  [Why are we using GitHub?](#org6c4067d)
+5.  [What is version control?](#orge1069dd)
+6.  [How should you use GitHub?](#org2d7e7fb)
+7.  [What is a sprint review?](#org53a67e1)
+8.  [What do I need to deliver at a sprint review?](#orga076cd6)
+9.  [What should we do in the first sprint?](#org7a138e8)
+10. [What should we do in the second sprint?](#org407cb8f)
+11. [How do you report on and plan a research "method"?](#org871754b)
+12. [What should we do in the third sprint?](#orgeebca9d)
+13. [What should we do in the fourth sprint?](#org79e3206)
+14. [Where I can find out more about "IMRaD"?](#orga6f69e6)
+15. [Which editor and IDE do you use?](#org044902c)
+16. [How can I install Emacs as a data science IDE on Windows 10?](#org6e00b83)
+17. [How to use GitHub Desktop to backup your code to GitHub](#orgf34e53d)
+18. [References](#org31c68a2)
 
 
 
-<a id="org0ef800f"></a>
+<a id="org11439fb"></a>
 
 # What is this?
 
@@ -30,7 +30,7 @@ This is a Frequently Asked Questions (FAQ) file for all my courses
 at Lyon College. For individual FAQs, see the resp. course repos.
 
 
-<a id="org434dc75"></a>
+<a id="org474278c"></a>
 
 # How should you read?
 
@@ -147,7 +147,7 @@ props; (6) re-reading. What are these about?
     reading and note-taking only took me an hour!
 
 
-<a id="org26d1239"></a>
+<a id="org5cf47d8"></a>
 
 # How can you read more research papers?
 
@@ -188,7 +188,7 @@ The final advice is excellent: you only get better at reading papers
 by reading papers!
 
 
-<a id="org3acee1d"></a>
+<a id="org6c4067d"></a>
 
 # Why are we using GitHub?
 
@@ -216,7 +216,7 @@ data, for better workflow control (with [GitHub actions](https://docs.github.com
 data science (e.g. via [GHTorrent](https://ghtorrent.org/) and [GH Archive](https://www.gharchive.org/)).
 
 
-<a id="org0120a3f"></a>
+<a id="orge1069dd"></a>
 
 # What is version control?
 
@@ -235,7 +235,7 @@ etc. carries over from other version control systems. Here is a
 [direct comparison of CVS and Git](https://www.linkedin.com/pulse/difference-between-git-cvs-ahmed-el-emam/) (2017).
 
 
-<a id="org5ea5864"></a>
+<a id="org2d7e7fb"></a>
 
 # How should you use GitHub?
 
@@ -261,7 +261,7 @@ projects using a simple Kanban board (or define a more complicated
 workflow if you like). I will show all of this in class.
 
 
-<a id="org359305d"></a>
+<a id="org53a67e1"></a>
 
 # What is a sprint review?
 
@@ -284,7 +284,7 @@ participation will be, and you have to deliver a sprint review, even
 if you could not complete a result during the last sprint.
 
 
-<a id="org7a01aa1"></a>
+<a id="orga076cd6"></a>
 
 # What do I need to deliver at a sprint review?
 
@@ -307,7 +307,7 @@ creative and mix them up. Remember that the purpose of the sprint
 review is dialog, not a perfect performance or a perfect product.
 
 
-<a id="org4b763ff"></a>
+<a id="org7a138e8"></a>
 
 # What should we do in the first sprint?
 
@@ -334,7 +334,7 @@ The first sprint covers the "I" (for Introduction) of the IMRaD
 structure of scientific papers (see FAQ).
 
 
-<a id="org94b2f07"></a>
+<a id="org407cb8f"></a>
 
 # What should we do in the second sprint?
 
@@ -357,7 +357,7 @@ The second sprint covers the "M" (for "Method") of the IMRaD structure
 of scientific papers (see FAQ).
 
 
-<a id="org1d27b26"></a>
+<a id="org871754b"></a>
 
 # How do you report on and plan a research "method"?
 
@@ -402,7 +402,7 @@ Hopefully, this structural breakdown will help you think about your
 modeling paper.
 
 
-<a id="org574e996"></a>
+<a id="orgeebca9d"></a>
 
 # What should we do in the third sprint?
 
@@ -433,7 +433,7 @@ The Third sprint covers the "R" (for "Results") of the IMRaD
 structure of scientific papers. (See FAQ.)
 
 
-<a id="org3ddde98"></a>
+<a id="org79e3206"></a>
 
 # What should we do in the fourth sprint?
 
@@ -466,14 +466,14 @@ The fourth sprint covers the "D" (for "Discussion") of the IMRaD
 structure of scientific papers. See FAQ for more on IMRaD.
 
 
-<a id="orgaf4c6d7"></a>
+<a id="orga6f69e6"></a>
 
 # Where I can find out more about "IMRaD"?
 
 See [this short (15 min) YouTube video](https://youtu.be/dip7UwZ3wUM) - produced for a course on
 "research methods" for graduate students at the Berlin School of
 Economics and Law (MBAs). See also my paper on storytelling and
-scientific writing ([Birkenkrahe, 2014](#orgdaf7dfe)).
+scientific writing ([Birkenkrahe, 2014](#orga9134c1)).
 
 The structural similarity between storyline and other successful
 forms of writing (like in science) is actually not surprising when
@@ -487,7 +487,7 @@ all scientists and scholars use it, but not all reflect upon their
 writing, I think, at least in the STEM disciplines.
 
 
-<a id="org515482e"></a>
+<a id="org044902c"></a>
 
 # Which editor and IDE do you use?
 
@@ -510,15 +510,15 @@ Emacs easily](https://opensource.com/article/20/3/getting-started-emacs) (Kenlon
 Here is a 2021 "[Introduction to Emacs Speaks Statistics](https://ess-intro.github.io/)" site with
 lots of additional information.
 
-Thee figure [94](#org28b7973) shows four (out of an arbitrary number of)
+Thee figure [94](#orgeee7046) shows four (out of an arbitrary number of)
 panels inside the editor
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png)
 
 
-<a id="org6d5286e"></a>
+<a id="org6e00b83"></a>
 
-# TODO How can I install Emacs as a data science IDE on Windows 10?
+# How can I install Emacs as a data science IDE on Windows 10?
 
 GNU Emacs is a free, extensible editor written in a dialect of Lisp,
 a programming language that used to be the main language for
@@ -531,7 +531,25 @@ development environment, Emacs + ESS + R, under this OS. Here are
 the steps I used to do that. Let me know if this works for you!
 
 
-## Download and install Emacs
+## Download and install Emacs + ESS
+
+For Windows, you can download and install the latest Emacs version
+bundled with Org-mode and ESS from here:
+<https://vigou3.gitlab.io/emacs-modified-windows/>
+
+The installation is standard and worked without a hitch. Put a
+launcher/link to Emacs on the Desktop and on your tasklist. Open
+Emacs.
+
+
+## Emacs tutorial
+
+The first thing you need to do is to complete the Emacs onboard
+tutorial. Open it from the Startup screen, or open it any time with
+the key sequence `<CTRL>-h t`. These key sequences will take some
+time to get used to but once you got them in your fingers, you
+won't want to look back, because you're going to be much faster
+than any mouse. 
 
 
 ## Download and install R
@@ -540,8 +558,21 @@ You only need to do this if you want to work with R. Even if you
 don't, you can use Emacs to develop programs in any language, or
 use Org-mode to run your life more merrily.
 
+Download R from `rproject.org` for Windows and do a standard
+installation. Launch R independently from Emacs to test that it
+works. Try to plot something with `plot(rnorm(100))` to test the
+graphic device.
+
 
 ## Set the `PATH` environment variable
+
+You have to pass the path to the R executable to Windows so that it
+can find it when Emacs asks for it. To do this, open the Shell in
+Emacs with `M-x shell`, type `PATH` to see the current load path,
+and then add that (absolute) folder address with `PATH=`. This is
+how it looks for me:
+
+    PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\birkenkrahe\AppData\Local\Microsoft\WindowsApps;C:\Users\birkenkrahe\AppData\Local\GitHubDesktop\bin;C:\Users\birkenkrahe\Documents\R\R-4.1.0\bin\x64;
 
 
 ## Test run your new setup
@@ -549,15 +580,45 @@ use Org-mode to run your life more merrily.
 
 ### Opening R
 
+Open R with `M-x R`. Emacs asks if you want to open R in the
+current directory (which is the folder you can get with `getwd()`
+inside R.
+
 
 ### Running R from the shell inside Emacs
 
 Frankly, I don't know which shell program Emacs uses here. I
 suspect it is the Microsoft PowerShell - something else that I
-need to figure out on a rainy afternoon.
+need to figure out on a rainy afternoon. You can start the shell
+inside Emacs with `M-x shell` and then run R inside it.
 
 
-<a id="org4f34827"></a>
+### Running R inside source code chunks in org files
+
+I like to create code notebooks in Org-mode files. To do this, I
+use the following syntax for R (if I want to see the output right
+below the chunk)<sup><a id="fnr.14" class="footref" href="#fn.14">14</a></sup>:
+
+    #+begin_src R :session output
+     <code>
+    #+end_src
+
+And now I can run the `<code>` inside the chunk with `C-o C-o`, or
+I can open the code in a separate buffer and e.g. save it as an R
+file.
+
+
+## My Emacs setup
+
+-   The configuration file for Emacs is the `.emacs` file. [Here is
+    the `.emacs` file that I use for download](https://1drv.ms/u/s!AhEvK3qWokrvitxPQ2OuaCOOQDfvZQ?e=KhLQW6).
+-   Site lisp files are stored in `/.emacs.d/` and they are
+    downloaded from a central repository. Emacs knows which ones to
+    use. You can see all available and installed packages with the
+    command `M-x package-list-packages`.
+
+
+<a id="orgf34e53d"></a>
 
 # TODO How to use GitHub Desktop to backup your code to GitHub
 
@@ -573,7 +634,7 @@ code.
 All of this saves me tons of time - GitHub + Emacs + Org-mode (in
 Emacs) are my two or three main productivity tools to run a proper
 ship even with four or five courses in parallel, and with a fair
-amount of involvement and new developments<sup><a id="fnr.14" class="footref" href="#fn.14">14</a></sup>. 
+amount of involvement and new developments<sup><a id="fnr.15" class="footref" href="#fn.15">15</a></sup>.
 
 To work with GitHub under Windows, the easiest way is to download
 GitHub desktop, and create a local copy of your remote repo, or the
@@ -601,7 +662,7 @@ suffices.
 
 3.  After entering a summary of my change, I can execute the
     push. Git now informs me that there are no local changes
-    pending. 
+    pending.
     
     ![img](./img/github2.png)
 
@@ -615,11 +676,11 @@ suffices.
     (e.g. `.dvi` when you process a LaTeX file).
 
 
-<a id="orgbf43e0b"></a>
+<a id="org31c68a2"></a>
 
 # References
 
-<a id="orgdaf7dfe"></a> [Birkenkrahe, M. (2014). Using Storytelling Methods To
+<a id="orga9134c1"></a> [Birkenkrahe, M. (2014). Using Storytelling Methods To
 Improve Emotion, Motivation and Attitude Of Students Writing
 Scientific Papers And Theses. In: Proceedings of the 13th IEEE
 Int. Conf. on Cognitive Informatics & Cognitive Computing, London,
@@ -715,6 +776,9 @@ your own workspace. Whenever the owner makes changes to the forked
 repo, you'll be notified so that you can follow the change ("fetch
 upstream").
 
-<sup><a id="fn.14" href="#fnr.14">14</a></sup> If you never make any changes you don't need to watch
+<sup><a id="fn.14" href="#fnr.14">14</a></sup> This would work for any language that Emacs supports, which is
+pretty much every programming language in existence.
+
+<sup><a id="fn.15" href="#fnr.15">15</a></sup> If you never make any changes you don't need to watch
 productivity, because you can just regurgitate old stuff. However,
 personally, I would get bored to death.
