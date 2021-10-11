@@ -605,16 +605,32 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
 * How can you always create a great presentation?
 
-  | WHAT     | HOW                      | WHEN |
-  |----------+--------------------------+------|
-  | Facts    | Validation & Relevance   | ?    |
-  | Story    | Message, Plot, Character | ?    |
-  | Delivery | Body and Soul            | ?    |
+  Here are some things people might say when asked what makes a
+  presentation good, i.e. worth listening to:
+  
+  | WHAT     | HOW                      | WHEN   |
+  |----------+--------------------------+--------|
+  | Facts    | Validation & Relevance   | Always |
+  | Story    | Message, Plot, Character | Always |
+  | Delivery | Body and Soul            | Always |
 
-  *Method:* Barbara Minto's Pyramid Principle (Minto, 2002). Video:
-  [[https://vimeo.com/87537935][Harrison Metal (2012)]].
+  But what makes a presentation "great" (i.e. highly memorable,
+  unforgettable, totally inspiring)?
+  
+  Barbara Minto's Pyramid Principle ([[minto][Minto, 2002]]) has a claim to being
+  the method to achieve this. Here is an illustration followed by an
+  example below.
 
+  #+attr_html: :width 700px
+  [[./img/minto.png]]
+
+  (Image source: [[minto1][powerusersoftwares.com, 2016]])
+  
 **  Minto Pyramid Principle
+
+   The SCQA method is not the same as the pyramid principle, but it is
+   the dominant technique to arrive at a pyramid structure for your
+   presentation, paper, essay, or even email.
   
 *** Situation ("What's going on?")
 
@@ -641,23 +657,44 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
     Audience rapport is a relationship invariant for all
     presentations. According to Barbara Minto ([[minto][Minto, 2002]]), the SCQA
     method delivers an invariant structure for all presentations, to
-    all audiences. I am inclined to agree with her.
+    all audiences. I am inclined to agree with her[fn:20].
+
+** Minto tutorial videos
+
+   For a short overview see the video: [[https://vimeo.com/87537935][Harrison Metal (2014)]].
+
+  For a lecture in 2 parts by me ([[birk][2016]]), see here:
+  * Minto Pyramid Principle Part 1 - [[https://youtu.be/HrmBZQuCSzo][Introductory Stories]]
+  * Minto Pyramid Principle Part 2 - [[https://youtu.be/k_FJXpYPbQY][What Audiences Want]] 
 
 * References
 
-  <<minto>> Minto B (2002). The Pyramid Principle. 
-
-* References
-
-  <<birk14>> [[https://drive.google.com/file/d/0B9ubV5NfnNPpdlNycWxkaTFQc1k/view?usp=sharing][Birkenkrahe, M. (2014). Using Storytelling Methods To
+  <<birk14>> [[https://drive.google.com/file/d/0B9ubV5NfnNPpdlNycWxkaTFQc1k/view?usp=sharing][Birkenkrahe M (2014). Using Storytelling Methods To
   Improve Emotion, Motivation and Attitude Of Students Writing
   Scientific Papers And Theses. In: Proceedings of the 13th IEEE
   Int. Conf. on Cognitive Informatics & Cognitive Computing, London,
   August 18-20, 2014.]]
 
+  <<birk>> Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
+  1 - Introductory stories. [[https://youtu.be/HrmBZQuCSzo][Online: youtube.com.]]
+
+  Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
+  2 - What audiences want. [[https://youtu.be/k_FJXpYPbQY][Online: youtube.com.]]
+  
+  <<minto>> Minto B (2002). The Pyramid Principle. 
+
+  Harrison Metal (2014). Storytelling & Presenting 1: Thank You,
+  Barbara Minto [video]. [[https://vimeo.com/87537935][Online: vimeo.com]]
+
+  <<minto1>> Power-user (Jul 31, 2016). Give a brilliant structure to
+  your presentations with the Pyramid Principle [website]. [[https://www.powerusersoftwares.com/post/2016/07/31/give-a-brilliant-structure-to-your-presentations-with-the-pyramid-principle][Online:
+  powerusersoftwares.com]]
+  
 * Footnotes
 
-* Footnotes
+[fn:20]As a Shell manager, I had the opportunity to learn the method
+first hand from Barbara Minto herself (as you can hear in one of my
+two short videos). 
 
 [fn:19]Some of the items that I mentioned and asked for certainly are
 not invariant: quantification, prioritized bullet points, less is more
