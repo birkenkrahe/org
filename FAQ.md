@@ -1,28 +1,30 @@
 
 # Table of Contents
 
-1.  [What is this?](#org11439fb)
-2.  [How should you read?](#org474278c)
-3.  [How can you read more research papers?](#org5cf47d8)
-4.  [Why are we using GitHub?](#org6c4067d)
-5.  [What is version control?](#orge1069dd)
-6.  [How should you use GitHub?](#org2d7e7fb)
-7.  [What is a sprint review?](#org53a67e1)
-8.  [What do I need to deliver at a sprint review?](#orga076cd6)
-9.  [What should we do in the first sprint?](#org7a138e8)
-10. [What should we do in the second sprint?](#org407cb8f)
-11. [How do you report on and plan a research "method"?](#org871754b)
-12. [What should we do in the third sprint?](#orgeebca9d)
-13. [What should we do in the fourth sprint?](#org79e3206)
-14. [Where I can find out more about "IMRaD"?](#orga6f69e6)
-15. [Which editor and IDE do you use?](#org044902c)
-16. [How can I install Emacs as a data science IDE on Windows 10?](#org6e00b83)
-17. [How to use GitHub Desktop to backup your code to GitHub](#orgf34e53d)
-18. [References](#org31c68a2)
+1.  [What is this?](#org873db20)
+2.  [How should you read?](#orgc9120dd)
+3.  [How can you read more research papers?](#org9521f58)
+4.  [Why are we using GitHub?](#orgc3db9f3)
+5.  [What is version control?](#orgda86ab5)
+6.  [How should you use GitHub?](#org1eb6670)
+7.  [What is a sprint review?](#org7b11235)
+8.  [What do I need to deliver at a sprint review?](#org654cc37)
+9.  [What should we do in the first sprint?](#org12bf23b)
+10. [What should we do in the second sprint?](#orgb551e86)
+11. [How do you report on and plan a research "method"?](#org2476460)
+12. [What should we do in the third sprint?](#orgb0a36b6)
+13. [What should we do in the fourth sprint?](#orgaa80c1d)
+14. [Where I can find out more about "IMRaD"?](#org3a65e5b)
+15. [Which editor and IDE do you use?](#org2c89ba7)
+16. [How can I install Emacs as a data science IDE on Windows 10?](#org4d10014)
+17. [How to use GitHub Desktop to backup your code to GitHub](#org9ca6a7b)
+18. [How can you always create a great presentation?](#org60f0ff8)
+19. [References](#org9b04f4f)
+20. [References](#org26162ab)
 
 
 
-<a id="org11439fb"></a>
+<a id="org873db20"></a>
 
 # What is this?
 
@@ -30,7 +32,7 @@ This is a Frequently Asked Questions (FAQ) file for all my courses
 at Lyon College. For individual FAQs, see the resp. course repos.
 
 
-<a id="org474278c"></a>
+<a id="orgc9120dd"></a>
 
 # How should you read?
 
@@ -147,7 +149,7 @@ props; (6) re-reading. What are these about?
     reading and note-taking only took me an hour!
 
 
-<a id="org5cf47d8"></a>
+<a id="org9521f58"></a>
 
 # How can you read more research papers?
 
@@ -188,7 +190,7 @@ The final advice is excellent: you only get better at reading papers
 by reading papers!
 
 
-<a id="org6c4067d"></a>
+<a id="orgc3db9f3"></a>
 
 # Why are we using GitHub?
 
@@ -216,7 +218,7 @@ data, for better workflow control (with [GitHub actions](https://docs.github.com
 data science (e.g. via [GHTorrent](https://ghtorrent.org/) and [GH Archive](https://www.gharchive.org/)).
 
 
-<a id="orge1069dd"></a>
+<a id="orgda86ab5"></a>
 
 # What is version control?
 
@@ -235,7 +237,7 @@ etc. carries over from other version control systems. Here is a
 [direct comparison of CVS and Git](https://www.linkedin.com/pulse/difference-between-git-cvs-ahmed-el-emam/) (2017).
 
 
-<a id="org2d7e7fb"></a>
+<a id="org1eb6670"></a>
 
 # How should you use GitHub?
 
@@ -261,7 +263,7 @@ projects using a simple Kanban board (or define a more complicated
 workflow if you like). I will show all of this in class.
 
 
-<a id="org53a67e1"></a>
+<a id="org7b11235"></a>
 
 # What is a sprint review?
 
@@ -284,7 +286,7 @@ participation will be, and you have to deliver a sprint review, even
 if you could not complete a result during the last sprint.
 
 
-<a id="orga076cd6"></a>
+<a id="org654cc37"></a>
 
 # What do I need to deliver at a sprint review?
 
@@ -307,7 +309,7 @@ creative and mix them up. Remember that the purpose of the sprint
 review is dialog, not a perfect performance or a perfect product.
 
 
-<a id="org7a138e8"></a>
+<a id="org12bf23b"></a>
 
 # What should we do in the first sprint?
 
@@ -334,7 +336,7 @@ The first sprint covers the "I" (for Introduction) of the IMRaD
 structure of scientific papers (see FAQ).
 
 
-<a id="org407cb8f"></a>
+<a id="orgb551e86"></a>
 
 # What should we do in the second sprint?
 
@@ -357,7 +359,7 @@ The second sprint covers the "M" (for "Method") of the IMRaD structure
 of scientific papers (see FAQ).
 
 
-<a id="org871754b"></a>
+<a id="org2476460"></a>
 
 # How do you report on and plan a research "method"?
 
@@ -402,7 +404,7 @@ Hopefully, this structural breakdown will help you think about your
 modeling paper.
 
 
-<a id="orgeebca9d"></a>
+<a id="orgb0a36b6"></a>
 
 # What should we do in the third sprint?
 
@@ -433,7 +435,7 @@ The Third sprint covers the "R" (for "Results") of the IMRaD
 structure of scientific papers. (See FAQ.)
 
 
-<a id="org79e3206"></a>
+<a id="orgaa80c1d"></a>
 
 # What should we do in the fourth sprint?
 
@@ -466,14 +468,14 @@ The fourth sprint covers the "D" (for "Discussion") of the IMRaD
 structure of scientific papers. See FAQ for more on IMRaD.
 
 
-<a id="orga6f69e6"></a>
+<a id="org3a65e5b"></a>
 
 # Where I can find out more about "IMRaD"?
 
 See [this short (15 min) YouTube video](https://youtu.be/dip7UwZ3wUM) - produced for a course on
 "research methods" for graduate students at the Berlin School of
 Economics and Law (MBAs). See also my paper on storytelling and
-scientific writing ([Birkenkrahe, 2014](#orga9134c1)).
+scientific writing ([Birkenkrahe, 2014](#org9f30fcb)).
 
 The structural similarity between storyline and other successful
 forms of writing (like in science) is actually not surprising when
@@ -487,7 +489,7 @@ all scientists and scholars use it, but not all reflect upon their
 writing, I think, at least in the STEM disciplines.
 
 
-<a id="org044902c"></a>
+<a id="org2c89ba7"></a>
 
 # Which editor and IDE do you use?
 
@@ -510,13 +512,13 @@ Emacs easily](https://opensource.com/article/20/3/getting-started-emacs) (Kenlon
 Here is a 2021 "[Introduction to Emacs Speaks Statistics](https://ess-intro.github.io/)" site with
 lots of additional information.
 
-Thee figure [94](#orgeee7046) shows four (out of an arbitrary number of)
+Thee figure [94](#orgdf9793a) shows four (out of an arbitrary number of)
 panels inside the editor
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png)
 
 
-<a id="org6e00b83"></a>
+<a id="org4d10014"></a>
 
 # How can I install Emacs as a data science IDE on Windows 10?
 
@@ -618,9 +620,9 @@ file.
     command `M-x package-list-packages`.
 
 
-<a id="orgf34e53d"></a>
+<a id="org9ca6a7b"></a>
 
-# TODO How to use GitHub Desktop to backup your code to GitHub
+# How to use GitHub Desktop to backup your code to GitHub
 
 With GitHub, you develop locally, and collaborate remotely. Even if
 you don't collaborate but only use GitHub as a repository as I do
@@ -676,11 +678,101 @@ suffices.
     (e.g. `.dvi` when you process a LaTeX file).
 
 
-<a id="org31c68a2"></a>
+<a id="org60f0ff8"></a>
+
+# How can you always create a great presentation?
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">WHAT</th>
+<th scope="col" class="org-left">HOW</th>
+<th scope="col" class="org-left">WHEN</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">Facts</td>
+<td class="org-left">Validation &amp; Relevance</td>
+<td class="org-left">?</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Story</td>
+<td class="org-left">Message, Plot, Character</td>
+<td class="org-left">?</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Delivery</td>
+<td class="org-left">Body and Soul</td>
+<td class="org-left">?</td>
+</tr>
+</tbody>
+</table>
+
+**Method:** Barbara Minto's Pyramid Principle (Minto, 2002). Video:
+[Harrison Metal (2012)](https://vimeo.com/87537935).
+
+
+## Minto Pyramid Principle
+
+
+### Situation ("What's going on?")
+
+-   (Almost) nobody likes giving presentations
+-   Especially among nerds/geeks
+-   Presentations are performance-oriented
+-   Since you'll have to present, focus on efficiency
+-   Efficient group or audience communication = rapport<sup><a id="fnr.16" class="footref" href="#fn.16">16</a></sup>
+
+
+### Complication ("What should we do?")
+
+Audience composition, presentation purpose, circumstances, cultural
+factors, timing, and many more attributes, vary wildly from one
+presentation to the next. To always create a winning presentation,
+one needs a set of rules that remain unchanged.
+
+
+### Question ("What's the problem?")
+
+Are there any invariants<sup><a id="fnr.17" class="footref" href="#fn.17">17</a></sup>, i.e. things, processes, attributes
+that remain unchanged from one presentation to the next?<sup><a id="fnr.18" class="footref" href="#fn.18">18</a></sup>
+
+
+### Answer
+
+Audience rapport is a relationship invariant for all
+presentations. According to Barbara Minto ([Minto, 2002](#org568e249)), the SCQA
+method delivers an invariant structure for all presentations, to
+all audiences. I am inclined to agree with her.
+
+
+<a id="org9b04f4f"></a>
 
 # References
 
-<a id="orga9134c1"></a> [Birkenkrahe, M. (2014). Using Storytelling Methods To
+<a id="org568e249"></a> Minto B (2002). The Pyramid Principle. 
+
+
+<a id="org26162ab"></a>
+
+# References
+
+<a id="org9f30fcb"></a> [Birkenkrahe, M. (2014). Using Storytelling Methods To
 Improve Emotion, Motivation and Attitude Of Students Writing
 Scientific Papers And Theses. In: Proceedings of the 13th IEEE
 Int. Conf. on Cognitive Informatics & Cognitive Computing, London,
@@ -782,3 +874,17 @@ pretty much every programming language in existence.
 <sup><a id="fn.15" href="#fnr.15">15</a></sup> If you never make any changes you don't need to watch
 productivity, because you can just regurgitate old stuff. However,
 personally, I would get bored to death.
+
+<sup><a id="fn.16" href="#fnr.16">16</a></sup> "Rapport is a close and harmonious relationship in which the
+people or groups concerned are "in sync" with each other, understand
+each other's feelings or ideas, and communicate smoothly." ([Wikipedia](https://en.wikipedia.org/wiki/Rapport))
+
+<sup><a id="fn.17" href="#fnr.17">17</a></sup> Invariants in physics and mathematics is anything that does not
+change under transformation, from one reference frame to another.
+
+<sup><a id="fn.18" href="#fnr.18">18</a></sup> Some of the items that I mentioned and asked for certainly are
+not invariant: quantification, prioritized bullet points, less is more
+on the page etc. - all of these do depend on audiences and topic!
+Still, as university students, now and later, you're more likely to
+have to report on numbers in a systematic, minimal way, hence these
+suggestions are still useful.
