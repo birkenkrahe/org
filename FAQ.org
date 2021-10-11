@@ -603,6 +603,50 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      version control - like backup files or intermediate files
      (e.g. ~.dvi~ when you process a LaTeX file).
 
+* How can you always create a great presentation?
+
+  | WHAT     | HOW                      | WHEN |
+  |----------+--------------------------+------|
+  | Facts    | Validation & Relevance   | ?    |
+  | Story    | Message, Plot, Character | ?    |
+  | Delivery | Body and Soul            | ?    |
+
+  *Method:* Barbara Minto's Pyramid Principle (Minto, 2002). Video:
+  [[https://vimeo.com/87537935][Harrison Metal (2012)]].
+
+**  Minto Pyramid Principle
+  
+*** Situation ("What's going on?")
+
+    * (Almost) nobody likes giving presentations
+    * Especially among nerds/geeks
+    * Presentations are performance-oriented
+    * Since you'll have to present, focus on efficiency
+    * Efficient group or audience communication = rapport[fn:17]
+
+*** Complication ("What should we do?")
+
+    Audience composition, presentation purpose, circumstances, cultural
+    factors, timing, and many more attributes, vary wildly from one
+    presentation to the next. To always create a winning presentation,
+    one needs a set of rules that remain unchanged.
+
+*** Question ("What's the problem?")
+
+    Are there any invariants[fn:18], i.e. things, processes, attributes
+    that remain unchanged from one presentation to the next?[fn:19]
+
+*** Answer 
+
+    Audience rapport is a relationship invariant for all
+    presentations. According to Barbara Minto ([[minto][Minto, 2002]]), the SCQA
+    method delivers an invariant structure for all presentations, to
+    all audiences. I am inclined to agree with her.
+
+* References
+
+  <<minto>> Minto B (2002). The Pyramid Principle. 
+
 * References
 
   <<birk14>> [[https://drive.google.com/file/d/0B9ubV5NfnNPpdlNycWxkaTFQc1k/view?usp=sharing][Birkenkrahe, M. (2014). Using Storytelling Methods To
@@ -613,6 +657,22 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
 * Footnotes
 
+* Footnotes
+
+[fn:19]Some of the items that I mentioned and asked for certainly are
+not invariant: quantification, prioritized bullet points, less is more
+on the page etc. - all of these do depend on audiences and topic!
+Still, as university students, now and later, you're more likely to
+have to report on numbers in a systematic, minimal way, hence these
+suggestions are still useful.
+
+[fn:18]Invariants in physics and mathematics is anything that does not
+change under transformation, from one reference frame to another.  
+
+[fn:17]"Rapport is a close and harmonious relationship in which the
+people or groups concerned are "in sync" with each other, understand
+each other's feelings or ideas, and communicate smoothly." ([[https://en.wikipedia.org/wiki/Rapport][Wikipedia]])
+ 
 [fn:16]This would work for any language that Emacs supports, which is
 pretty much every programming language in existence. 
 
