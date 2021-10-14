@@ -46,7 +46,7 @@
 <thead>
 <tr>
 <th scope="col" class="org-left">SKILL</th>
-<th scope="col" class="org-left">CHARACTER</th>
+<th scope="col" class="org-left">TYPE</th>
 </tr>
 </thead>
 
