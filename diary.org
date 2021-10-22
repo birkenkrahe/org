@@ -335,13 +335,17 @@
    LTS~[fn:12] and click on ~Get~ to download the installer. The
    distribution will take about 0.5 GB disk space.
 
-   
+   /Image: info about the distribution from Canonical/
+   #+attr_html: :width 600px
+   [[./img/Ubuntu.png]]
 
-   
+   When I tried to launch this app, I got an error due to Windows
+   security settings, since you're messing with the system level here
+   (so this does make sense).
    
 ** Change Windows Security Settings
    
-  
+   
   
 * References
 
