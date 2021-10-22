@@ -437,7 +437,7 @@
 
   Emacs is hands down the best editor in the world, written in [[https://en.wikipedia.org/wiki/Lisp_(programming_language)][LISP]][fn:2],
   one of the earliest programming languages for AI research, and the
-  second oldest language in widespread use (after FORTRAN).
+  second oldest language in widespread use (after FORTRAN)[fn:21].
 
   They say the learning curve of this "complex beast" ([[https://masteringemacs.org/article/beginners-guide-to-emacs][Petersen, 2019]])
   is steep but don't believe it.  Here is an link to [[https://opensource.com/article/20/3/getting-started-emacs][get started with
@@ -446,7 +446,7 @@
   Here is a 2021 "[[https://ess-intro.github.io/][Introduction to Emacs Speaks Statistics]]" site with
   lots of additional information.
 
-  Thee figure [[fig:emacs]] shows four (out of an arbitrary number of)
+  The figure [[fig:emacs]] shows four (out of an arbitrary number of)
   panels inside the editor
 
   #+name: fig:emacs
@@ -689,8 +689,15 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   <<minto1>> Power-user (Jul 31, 2016). Give a brilliant structure to
   your presentations with the Pyramid Principle [website]. [[https://www.powerusersoftwares.com/post/2016/07/31/give-a-brilliant-structure-to-your-presentations-with-the-pyramid-principle][Online:
   powerusersoftwares.com]]
+
+  <<stella>> Stella J (Nov 11, 2015). A CEO's Guide to Emacs
+  [blog]. [[https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html][Online: fugue.co]].
   
 * Footnotes
+
+[fn:21]Here is an enthusiastic review and tutorial called "[[https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html][A CEO's
+Guide To Emacs]]" ([[stella][Stella, 2015]]), which you might enjoy reading. The
+author is (was?) the CEO of Fugue, a cloud security platform.
 
 [fn:20]As a Shell manager, I had the opportunity to learn the method
 first hand from Barbara Minto herself (as you can hear in one of my
