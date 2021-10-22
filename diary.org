@@ -314,6 +314,35 @@
   #+attr_html: :width 600px
   [[./img/linux.gif]]
 
+* Linux app under Windows (Oct 22)
+
+  Thanks to our IT services member (and CompSci student) Brittany,
+  I've now got Linux running under Windows 10 as an app from the
+  Microsoft store. This is pretty neat and fast, and beats PowerShell,
+  because now I have easy access to ~bash~ (command line shell), ~gcc~
+  (C/C++ compiler), and even Emacs (though ~-nw~, that is without
+  X-Windows, but that's fine, I prefer the downgraded version that
+  forces you to know the keystrokes instead of having to move back and
+  forth between keyboard and mouse). The path to getting this app to
+  run is, alas, not for the faint-hearted. Brittany sketched it for
+  me - try this on your machine[fn:11]!
+
+** Download Linux
+
+   Type ~Microsoft store~ in the search bar (next to the task bar),
+   and then search for ~Ubuntu~ in the search field inside the
+   store. You find different distributions. Pick ~Ubuntu 20.04
+   LTS~[fn:12] and click on ~Get~ to download the installer. The
+   distribution will take about 0.5 GB disk space.
+
+   
+
+   
+   
+** Change Windows Security Settings
+   
+  
+  
 * References
 
   <<wired>> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
@@ -333,6 +362,15 @@
   Appraisal Plan Examples. [[https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf][Online: dm.usda.gov.]]
 
 * Footnotes
+
+[fn:12] This is the most recent Long Term Support (LTS - supported
+until 2025) version of Ubuntu Linux, a popular, well supported
+distribution. I mainly picked it also because I've worked with Ubuntu
+18.04 LTS before. 
+
+[fn:11]If you attend my "operating systems" or "C/C++ programming"
+courses, you'll have to do this anyway, since there's no way around
+Linux in my classes - I just love it too much, and you must learn it.
 
 [fn:10]In fact the Emacs distribution I found has a bunch of fantastic
 software on board, including AUCTeX (a version of the typesetting
