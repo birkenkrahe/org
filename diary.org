@@ -2,7 +2,6 @@
 #+AUTHOR:Marcus Birkenkrahe
 #+SUBTITLE:GitHub diary All Courses @Lyon Fall 2021
 #+OPTIONS: ^:nil toc:1
-#+startup: overview
 * What is this?
 
   A place for irregular articles of possible interest to students
@@ -343,9 +342,37 @@
    security settings, since you're messing with the system level here
    (so this does make sense).
    
-** Change Windows Security Settings
-   
-   
+** Turn Developer Mode On
+
+   Go to the Windows search bar and look for ~Windows Security
+   Settings~. The following page will open.
+
+   /Image: Windows Security settings/
+   #+attr_html: :width 600px
+   [[./img/Ubuntu1.png]]
+
+   Find the developers menu point on the left hand side and open the
+   menu. In this menu, ~Developer Mode~ needs to be turned ~On~ as
+   shown in the image below.
+
+   /Image: Windows Security Settings for Developers/
+   #+attr_html: :width 600px
+   [[./img/Ubuntu2.png]]
+
+** Enable Windows subsystem for Linux
+
+   Go to the Windows search bar and look for ~Turn Windows features on
+   or off~. A screen pops up. Scroll down until you see ~Windows
+   Subsystem for Linux~. This allows Linux to take a portion of the
+   system disk for itself (I think). Check this option as shown below.
+
+   /Image: Enable Windows Subsystem for Linux/
+   #+attr_html: :width 600px
+   [[./img/Ubuntu3.png]]
+
+   When saving this menu with ~OK~, you'll be prompted to restart the
+   computer. After you did this, you should be able to boot Linux
+   using the app.     
   
 * References
 
