@@ -1,20 +1,21 @@
 
 # Table of Contents
 
-1.  [What is this?](#org80325d4)
-2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#orgd4c4134)
-3.  [Sunday, 22 August 2021 - End of first week](#org9c1ded9)
-4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#org1329c05)
-5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#orgc6e9696)
-6.  [Learning is like (physical) exercise (Sept 8)](#org70c3490)
-7.  [Relevance of agile methodologies (Sept 14)](#orgba3852a)
-8.  [Florida Man (Oct 5)](#org6c24e78)
-9.  [Transitioning to Windows 10 (Oct 9)](#org835fde8)
-10. [References](#orge12a8fe)
+1.  [What is this?](#org77c8bdb)
+2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#org1696ebb)
+3.  [Sunday, 22 August 2021 - End of first week](#orgb1f227c)
+4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#org60518a6)
+5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#org22ac6ba)
+6.  [Learning is like (physical) exercise (Sept 8)](#orgafbc920)
+7.  [Relevance of agile methodologies (Sept 14)](#org871e0ee)
+8.  [Florida Man (Oct 5)](#org19d16d6)
+9.  [Transitioning to Windows 10 (Oct 9)](#org55826de)
+10. [Linux app under Windows (Oct 22)](#orgbd945cf)
+11. [References](#org3874e0d)
 
 
 
-<a id="org80325d4"></a>
+<a id="org77c8bdb"></a>
 
 # What is this?
 
@@ -23,7 +24,7 @@ across all courses, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="orgd4c4134"></a>
+<a id="org1696ebb"></a>
 
 # Sunday, 11 July 2021 - GitHub & Cybersecurity
 
@@ -71,7 +72,7 @@ in the AI seminar, also in this term.
 Next stop: syllabus!
 
 
-<a id="org9c1ded9"></a>
+<a id="orgb1f227c"></a>
 
 # Sunday, 22 August 2021 - End of first week
 
@@ -104,7 +105,7 @@ model?"), so I must be off, but I'll be seeing you soon. Tonight:
 takeaway - first Chinese buffet.
 
 
-<a id="org1329c05"></a>
+<a id="org60518a6"></a>
 
 # Saturday, 28 August 2021 - Games and the Arkansas Experience
 
@@ -163,7 +164,7 @@ to me if you want to know more, or come to a Friday meeting. Don't
 just go to work and let this opportunity to learn go to waste!
 
 
-<a id="orgc6e9696"></a>
+<a id="org22ac6ba"></a>
 
 # Sunday, 29 August 2021 - KILT Lyon College Radio
 
@@ -177,12 +178,12 @@ very hard to beat. Oriatti presented a marvelous selection and was
 totally responsive to the listeners. He even mentioned data science!
 
 
-<a id="org70c3490"></a>
+<a id="orgafbc920"></a>
 
 # Learning is like (physical) exercise (Sept 8)
 
 Read this today in an article in WIRED magazine, "How to Ace
-Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org3f156c7)):
+Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org0e0ad8f)):
 
 > "Perhaps the most important thing to remember is that learning can be
 > fun, but it can also be hard and confusing. Think of it like exercise:
@@ -208,7 +209,7 @@ important to feel! If you never feel it, you're either a genius or
 you're not trying hard enough (you'd know if you're a genius).
 
 
-<a id="orgba3852a"></a>
+<a id="org871e0ee"></a>
 
 # Relevance of agile methodologies (Sept 14)
 
@@ -220,10 +221,10 @@ learn this stuff and to do it well:
 > tech industry for application development. The main advantage of the
 > Agile methodology is that it creates an interactive communication
 > line between the business and engineering teams to iteratively
-> deliver value." (Source: [DataCamp, 8/30/2021](#orgdf2620d))
+> deliver value." (Source: [DataCamp, 8/30/2021](#org7ee13fe))
 
 
-<a id="org6c24e78"></a>
+<a id="org19d16d6"></a>
 
 # Florida Man (Oct 5)
 
@@ -289,7 +290,7 @@ learning). Just in time for a session on "literate programming" (in
 the data science intro course), and another session on "future of
 AI" (in the AI seminar), Lex Fridman has interviewed comp sci hero
 Donald Knuth for the second time - you should check out [the podcast](https://lexfridman.com/donald-knuth-2/)
-([Fridman, 2021](#org321694e)) (also available on youtube). It's long (an
+([Fridman, 2021](#orgc931317)) (also available on youtube). It's long (an
 excellent distraction), but the length is necessary to really go
 deep (this is one of Fridman's specialties, and much needed in this
 time of short attention spans and fleeting
@@ -306,7 +307,7 @@ enticing parallel between AI and God:
 > might be some AI, but whatever, but I do believe that there is
 > something that goes beyond the realm of human understanding, that I
 > can try to learn more about how to resonate with, whatever that
-> being would like me to do.” --[Donald Knuth](#org4a99d99)
+> being would like me to do.” --[Donald Knuth](#orge39fc24)
 
 I'm tempted to present this as the opening statement of tomorrow's
 session of the AI seminar&#x2026;
@@ -316,7 +317,7 @@ session of the AI seminar&#x2026;
 ![img](./img/beach.jpg)
 
 
-<a id="org835fde8"></a>
+<a id="org55826de"></a>
 
 # Transitioning to Windows 10 (Oct 9)
 
@@ -356,20 +357,87 @@ some time to go through these instructions<sup><a id="fnr.10" class="footref" hr
 ![img](./img/linux.gif)
 
 
-<a id="orge12a8fe"></a>
+<a id="orgbd945cf"></a>
+
+# Linux app under Windows (Oct 22)
+
+Thanks to our IT services member (and CompSci student) Brittany,
+I've now got Linux running under Windows 10 as an app from the
+Microsoft store. This is pretty neat and fast, and beats PowerShell,
+because now I have easy access to `bash` (command line shell), `gcc`
+(C/C++ compiler), and even Emacs (though `-nw`, that is without
+X-Windows, but that's fine, I prefer the downgraded version that
+forces you to know the keystrokes instead of having to move back and
+forth between keyboard and mouse). The path to getting this app to
+run is, alas, not for the faint-hearted. Brittany sketched it for
+me - try this on your machine<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>!
+
+
+## Download Linux
+
+Type `Microsoft store` in the search bar (next to the task bar),
+and then search for `Ubuntu` in the search field inside the
+store. You find different distributions. Pick `Ubuntu 20.04
+   LTS`<sup><a id="fnr.12" class="footref" href="#fn.12">12</a></sup> and click on `Get` to download the installer. The
+distribution will take about 0.5 GB disk space.
+
+*Image: info about the distribution from Canonical*
+
+![img](./img/Ubuntu.png)
+
+When I tried to launch this app, I got an error due to Windows
+security settings, since you're messing with the system level here
+(so this does make sense).
+
+
+## Turn Developer Mode On
+
+Go to the Windows search bar and look for `Windows Security
+   Settings`. The following page will open.
+
+*Image: Windows Security settings*
+
+![img](./img/Ubuntu1.png)
+
+Find the developers menu point on the left hand side and open the
+menu. In this menu, `Developer Mode` needs to be turned `On` as
+shown in the image below.
+
+*Image: Windows Security Settings for Developers*
+
+![img](./img/Ubuntu2.png)
+
+
+## Enable Windows subsystem for Linux
+
+Go to the Windows search bar and look for `Turn Windows features on
+   or off`. A screen pops up. Scroll down until you see `Windows
+   Subsystem for Linux`. This allows Linux to take a portion of the
+system disk for itself (I think). Check this option as shown below.
+
+*Image: Enable Windows Subsystem for Linux*
+
+![img](./img/Ubuntu3.png)
+
+When saving this menu with `OK`, you'll be prompted to restart the
+computer. After you did this, you should be able to boot Linux
+using the app.     
+
+
+<a id="org3874e0d"></a>
 
 # References
 
-<a id="org3f156c7"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
+<a id="org0e0ad8f"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
 You Don’t Ace Physics) [Blog]. [Online: wired.com](https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/).
 
-<a id="orgdf2620d"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
+<a id="org7ee13fe"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
 Communications Gap with Data Literacy. [Online: datacamp.com](https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy).
 
-<a id="org4a99d99"></a> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
+<a id="orge39fc24"></a> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
 and the Meaning of Life [Blog]. [Online: thenewstack.io](https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/).
 
-<a id="org321694e"></a> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
+<a id="orgc931317"></a> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
 Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast
 \#219 [Podcast]. [Online: lexfridman.com](https://lexfridman.com/donald-knuth-2/).
 
@@ -439,3 +507,12 @@ package and code development in R. Of course, there is also always
 RStudio, but that's a commercial solution (freemium model)
 increasingly wed to the "tidyverse", which I find increasingly
 unsuitable (see the update of Matloff's "TidyverseSceptic" essay.
+
+<sup><a id="fn.11" href="#fnr.11">11</a></sup> If you attend my "operating systems" or "C/C++ programming"
+courses, you'll have to do this anyway, since there's no way around
+Linux in my classes - I just love it too much, and you must learn it.
+
+<sup><a id="fn.12" href="#fnr.12">12</a></sup> This is the most recent Long Term Support (LTS - supported
+until 2025) version of Ubuntu Linux, a popular, well supported
+distribution. I mainly picked it also because I've worked with Ubuntu
+18.04 LTS before.
