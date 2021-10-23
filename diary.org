@@ -349,7 +349,7 @@
 
    /Image: Windows Security settings/
    #+attr_html: :width 600px
-   [[./img/Ubuntu1.png]]
+   [[./img/ubuntu1.png]]
 
    Find the developers menu point on the left hand side and open the
    menu. In this menu, ~Developer Mode~ needs to be turned ~On~ as
@@ -357,7 +357,7 @@
 
    /Image: Windows Security Settings for Developers/
    #+attr_html: :width 600px
-   [[./img/Ubuntu2.png]]
+   [[./img/ubuntu2.png]]
 
 ** Enable Windows subsystem for Linux
 
@@ -368,11 +368,11 @@
 
    /Image: Enable Windows Subsystem for Linux/
    #+attr_html: :width 600px
-   [[./img/Ubuntu3.png]]
+   [[./img/ubuntu3.png]]
 
    When saving this menu with ~OK~, you'll be prompted to restart the
    computer. After you did this, you should be able to boot Linux
-   using the app.     
+   using the app.
   
 * References
 
