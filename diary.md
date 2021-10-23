@@ -383,7 +383,7 @@ distribution will take about 0.5 GB disk space.
 
 *Image: info about the distribution from Canonical*
 
-![img](./img/Ubuntu.png)
+![img](./img/ubuntu.png)
 
 When I tried to launch this app, I got an error due to Windows
 security settings, since you're messing with the system level here
