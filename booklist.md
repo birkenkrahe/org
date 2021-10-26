@@ -1,7 +1,12 @@
 
+# Table of Contents
+
+1.  [Books purchased 2021](#org9a17d3c)
+
+
+<a id="org9a17d3c"></a>
+
 # Books purchased 2021
-
-
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -167,7 +172,7 @@
 <tr>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-right">761.9</td>
+<td class="org-right">711.12</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
