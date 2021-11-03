@@ -12,6 +12,9 @@ To be up to date, you should fork this repo to your own GitHub space
 and fetch upstream when your repo is behind.
 
 
+# Short introduction to my upcoming courses
+
+
 # [Frequently Asked Questions](https://github.com/birkenkrahe/org/blob/master/FAQ.md)
 
 These are FAQs for all my courses. Each course also carries a local
