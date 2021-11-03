@@ -401,7 +401,7 @@
   constantly changing - and the number of people who know anything
   about it is dwindling - so these are highly marketable skills.
 
-  You can handle the algorithms.
+  No matter what you may think: you can handle the algorithms!
 
   [[./img/algorithm.gif]]
   
