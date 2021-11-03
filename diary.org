@@ -341,7 +341,7 @@
    When I tried to launch this app, I got an error due to Windows
    security settings, since you're messing with the system level here
    (so this does make sense).
-   
+
 ** Turn Developer Mode On
 
    Go to the Windows search bar and look for ~Windows Security
@@ -373,7 +373,7 @@
    When saving this menu with ~OK~, you'll be prompted to restart the
    computer. After you did this, you should be able to boot Linux
    using the app.
-  
+
 * Join me in spring 2022! (Nov 3)
 
   [[./img/dog.gif]]
@@ -387,6 +387,8 @@
   Reading through the list of planned topics, I already know that I
   won't be able to cover everything listed here, but an instructor can
   have dreams, right?
+
+  [[./img/algorithm.gif]]
 
   If I were you, I'd have difficulty deciding which course to take! As
   someone interested specifically in *data science*, I think both DSC
@@ -403,8 +405,6 @@
 
   No matter what you may think: you can handle the algorithms!
 
-  [[./img/algorithm.gif]]
-  
 * References
 
   <<wired>> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
@@ -428,7 +428,7 @@
 [fn:12] This is the most recent Long Term Support (LTS - supported
 until 2025) version of Ubuntu Linux, a popular, well supported
 distribution. I mainly picked it also because I've worked with Ubuntu
-18.04 LTS before. 
+18.04 LTS before.
 
 [fn:11]If you attend my "operating systems" or "C/C++ programming"
 courses, you'll have to do this anyway, since there's no way around
