@@ -1,21 +1,22 @@
 
 # Table of Contents
 
-1.  [What is this?](#org93f0559)
-2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#org819a04f)
-3.  [Sunday, 22 August 2021 - End of first week](#org697e4be)
-4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#orgc6448e0)
-5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#orgfc52fc2)
-6.  [Learning is like (physical) exercise (Sept 8)](#orgf319662)
-7.  [Relevance of agile methodologies (Sept 14)](#org7a8f14e)
-8.  [Florida Man (Oct 5)](#org67e5569)
-9.  [Transitioning to Windows 10 (Oct 9)](#org26d342f)
-10. [Linux app under Windows (Oct 22)](#orgf3c2752)
-11. [References](#org2011bcd)
+1.  [What is this?](#org6a09154)
+2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#org633ae62)
+3.  [Sunday, 22 August 2021 - End of first week](#org068bb59)
+4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#org8b19013)
+5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#org15f881e)
+6.  [Learning is like (physical) exercise (Sept 8)](#orgb707fe2)
+7.  [Relevance of agile methodologies (Sept 14)](#orge4951d6)
+8.  [Florida Man (Oct 5)](#orgdbb0190)
+9.  [Transitioning to Windows 10 (Oct 9)](#org3087d57)
+10. [Linux app under Windows (Oct 22)](#org646e550)
+11. [Join me in spring 2022! (Nov 3)](#org8cd03a9)
+12. [References](#org44a6b9b)
 
 
 
-<a id="org93f0559"></a>
+<a id="org6a09154"></a>
 
 # What is this?
 
@@ -24,7 +25,7 @@ across all courses, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="org819a04f"></a>
+<a id="org633ae62"></a>
 
 # Sunday, 11 July 2021 - GitHub & Cybersecurity
 
@@ -72,7 +73,7 @@ in the AI seminar, also in this term.
 Next stop: syllabus!
 
 
-<a id="org697e4be"></a>
+<a id="org068bb59"></a>
 
 # Sunday, 22 August 2021 - End of first week
 
@@ -105,7 +106,7 @@ model?"), so I must be off, but I'll be seeing you soon. Tonight:
 takeaway - first Chinese buffet.
 
 
-<a id="orgc6448e0"></a>
+<a id="org8b19013"></a>
 
 # Saturday, 28 August 2021 - Games and the Arkansas Experience
 
@@ -164,7 +165,7 @@ to me if you want to know more, or come to a Friday meeting. Don't
 just go to work and let this opportunity to learn go to waste!
 
 
-<a id="orgfc52fc2"></a>
+<a id="org15f881e"></a>
 
 # Sunday, 29 August 2021 - KILT Lyon College Radio
 
@@ -178,12 +179,12 @@ very hard to beat. Oriatti presented a marvelous selection and was
 totally responsive to the listeners. He even mentioned data science!
 
 
-<a id="orgf319662"></a>
+<a id="orgb707fe2"></a>
 
 # Learning is like (physical) exercise (Sept 8)
 
 Read this today in an article in WIRED magazine, "How to Ace
-Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org23b59d9)):
+Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org4523735)):
 
 > "Perhaps the most important thing to remember is that learning can be
 > fun, but it can also be hard and confusing. Think of it like exercise:
@@ -209,7 +210,7 @@ important to feel! If you never feel it, you're either a genius or
 you're not trying hard enough (you'd know if you're a genius).
 
 
-<a id="org7a8f14e"></a>
+<a id="orge4951d6"></a>
 
 # Relevance of agile methodologies (Sept 14)
 
@@ -221,10 +222,10 @@ learn this stuff and to do it well:
 > tech industry for application development. The main advantage of the
 > Agile methodology is that it creates an interactive communication
 > line between the business and engineering teams to iteratively
-> deliver value." (Source: [DataCamp, 8/30/2021](#org2af1e1e))
+> deliver value." (Source: [DataCamp, 8/30/2021](#org3ed9150))
 
 
-<a id="org67e5569"></a>
+<a id="orgdbb0190"></a>
 
 # Florida Man (Oct 5)
 
@@ -290,7 +291,7 @@ learning). Just in time for a session on "literate programming" (in
 the data science intro course), and another session on "future of
 AI" (in the AI seminar), Lex Fridman has interviewed comp sci hero
 Donald Knuth for the second time - you should check out [the podcast](https://lexfridman.com/donald-knuth-2/)
-([Fridman, 2021](#org43822e5)) (also available on youtube). It's long (an
+([Fridman, 2021](#org8c9b721)) (also available on youtube). It's long (an
 excellent distraction), but the length is necessary to really go
 deep (this is one of Fridman's specialties, and much needed in this
 time of short attention spans and fleeting
@@ -307,7 +308,7 @@ enticing parallel between AI and God:
 > might be some AI, but whatever, but I do believe that there is
 > something that goes beyond the realm of human understanding, that I
 > can try to learn more about how to resonate with, whatever that
-> being would like me to do.” --[Donald Knuth](#org9763231)
+> being would like me to do.” --[Donald Knuth](#org2dde978)
 
 I'm tempted to present this as the opening statement of tomorrow's
 session of the AI seminar&#x2026;
@@ -317,7 +318,7 @@ session of the AI seminar&#x2026;
 ![img](./img/beach.jpg)
 
 
-<a id="org26d342f"></a>
+<a id="org3087d57"></a>
 
 # Transitioning to Windows 10 (Oct 9)
 
@@ -357,7 +358,7 @@ some time to go through these instructions<sup><a id="fnr.10" class="footref" hr
 ![img](./img/linux.gif)
 
 
-<a id="orgf3c2752"></a>
+<a id="org646e550"></a>
 
 # Linux app under Windows (Oct 22)
 
@@ -383,7 +384,7 @@ distribution will take about 0.5 GB disk space.
 
 *Image: info about the distribution from Canonical*
 
-![img](./img/ubuntu.png)
+![img](./img/Ubuntu.png)
 
 When I tried to launch this app, I got an error due to Windows
 security settings, since you're messing with the system level here
@@ -424,20 +425,49 @@ computer. After you did this, you should be able to boot Linux
 using the app.
 
 
-<a id="org2011bcd"></a>
+<a id="org8cd03a9"></a>
+
+# Join me in spring 2022! (Nov 3)
+
+![img](./img/bikers.gif)
+
+I've got around to writing down some of the things I'd like to do in
+my spring 2022 courses. Knowing that y'all wanting to pick your
+courses, I'm going to pin [these notes](https://github.com/birkenkrahe/org/blob/master/spring22.md) to the board outside my
+office.
+
+Reading through the list of planned topics, I already know that I
+won't be able to cover everything listed here, but an instructor can
+have dreams, right?
+
+If I were you, I'd have difficulty deciding which course to take! As
+someone interested specifically in **data science**, I think both DSC
+205 (machine learning) and CSC 330 (databases and SQL) are
+important.
+
+The other two - C/C++ and Operating Systems - are perhaps more
+relevant for computer science students, or for anyone interested in
+gaining greater control over computers (which you should all want to
+do!). These are also courses about computational literacy, since
+system programming (which is what these courses are about) is
+constantly changing - and the number of people who know anything
+about it is dwindling - so these are highly marketable skills.
+
+
+<a id="org44a6b9b"></a>
 
 # References
 
-<a id="org23b59d9"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
+<a id="org4523735"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
 You Don’t Ace Physics) [Blog]. [Online: wired.com](https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/).
 
-<a id="org2af1e1e"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
+<a id="org3ed9150"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
 Communications Gap with Data Literacy. [Online: datacamp.com](https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy).
 
-<a id="org9763231"></a> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
+<a id="org2dde978"></a> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
 and the Meaning of Life [Blog]. [Online: thenewstack.io](https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/).
 
-<a id="org43822e5"></a> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
+<a id="org8c9b721"></a> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
 Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast
 \#219 [Podcast]. [Online: lexfridman.com](https://lexfridman.com/donald-knuth-2/).
 

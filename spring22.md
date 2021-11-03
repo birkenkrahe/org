@@ -1,14 +1,14 @@
 
 # Table of Contents
 
-1.  [My Spring 2022 courses](#org325daf7)
-    1.  [CSC 100 - Introduction to Programming with C/C++](#orgeec0c5e)
-    2.  [DSC 205 - Introduction to Advanced Data Science](#org6690f88)
-    3.  [CSC 330 - Database Theory and Applications](#orgaa05baa)
-    4.  [CSC 410 - Operating Systems](#org4c54b7e)
+1.  [My Spring 2022 courses](#org5db5b90)
+    1.  [CSC 100 - Introduction to Programming with C/C++](#org8863551)
+    2.  [DSC 205 - Introduction to Advanced Data Science](#org444ba0b)
+    3.  [CSC 330 - Database Theory and Applications](#org65a5846)
+    4.  [CSC 410 - Operating Systems](#org187f071)
 
 
-<a id="org325daf7"></a>
+<a id="org5db5b90"></a>
 
 # My Spring 2022 courses
 
@@ -18,7 +18,7 @@
  thereof) frequently.
 
 
-<a id="orgeec0c5e"></a>
+<a id="org8863551"></a>
 
 ## CSC 100 - Introduction to Programming with C/C++
 
@@ -33,7 +33,7 @@ computational, critical thinking in concert with one of the three
 most popular languages (the other two are Python and Java).
 
 
-<a id="org6690f88"></a>
+<a id="org444ba0b"></a>
 
 ## DSC 205 - Introduction to Advanced Data Science
 
@@ -42,14 +42,15 @@ data science using the functional language R. We focus on the art
 of machine learning, including: classification models (used
 e.g. for spam detection), neural networks (linear models on
 steroids) and deep learning, image classification, text mining,
-and recommender systems. To join this course without having
-completed DSC 105, work through Norman Matloff's free online
-course "fasteR:Fast Lane to Learning R!" on GitHub. However, this
-is not an R course, but a course on predictive algorithms and
-applications.
+and recommender systems. Assignments will include online exercises
+from DataCamp and interactive online Colaboratory notebooks. To
+join this course without having completed DSC 105, work through
+Norman Matloff's free online course "fasteR:Fast Lane to Learning
+R!" on GitHub. However, this is not an R course, but a course on
+predictive algorithms and applications.
 
 
-<a id="orgaa05baa"></a>
+<a id="org65a5846"></a>
 
 ## CSC 330 - Database Theory and Applications
 
@@ -64,7 +65,7 @@ application, accessed with your programming language of choice -
 C, C++, Java, Python, R, or whatever.
 
 
-<a id="org4c54b7e"></a>
+<a id="org187f071"></a>
 
 ## CSC 410 - Operating Systems
 
