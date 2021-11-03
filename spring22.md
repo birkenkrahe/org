@@ -1,22 +1,24 @@
 
 # Table of Contents
 
-1.  [Office note spring 2022 courses](#org47b0c36)
-    1.  [CSC 100 - Introduction to Programming with C/C++](#org8ac5072)
-    2.  [DSC 205 - Introduction to Advanced Data Science](#org96ebcdb)
-    3.  [CSC 330 - Database Theory and Applications](#org1e81876)
-    4.  [CSC 410 - Operating Systems](#org768fc37)
+1.  [My Spring 2022 courses](#org0145123)
+    1.  [CSC 100 - Introduction to Programming with C/C++](#orgbd80c43)
+    2.  [DSC 205 - Introduction to Advanced Data Science](#org3402514)
+    3.  [CSC 330 - Database Theory and Applications](#org52fab9e)
+    4.  [CSC 410 - Operating Systems](#orgc185004)
 
 
-<a id="org47b0c36"></a>
+<a id="org0145123"></a>
 
-# Office note spring 2022 courses
+# My Spring 2022 courses
 
-Prerequisites for all my courses: curiosity, courage, and critical
-thinking. 
+**Prerequisites** for all my courses: curiosity, courage, and critical
+ thinking. You have to be willing to work on an agile project for
+ the duration of the term, and present your progress (or lack
+ thereof) frequently.
 
 
-<a id="org8ac5072"></a>
+<a id="orgbd80c43"></a>
 
 ## CSC 100 - Introduction to Programming with C/C++
 
@@ -31,7 +33,7 @@ computational, critical thinking in concert with one of the three
 most popular languages (the other two are Python and Java).
 
 
-<a id="org96ebcdb"></a>
+<a id="org3402514"></a>
 
 ## DSC 205 - Introduction to Advanced Data Science
 
@@ -46,7 +48,7 @@ R!" on GitHub. However, this is not an R course, but a course on
 predictive algorithms and applications.
 
 
-<a id="org1e81876"></a>
+<a id="org52fab9e"></a>
 
 ## CSC 330 - Database Theory and Applications
 
@@ -61,7 +63,7 @@ application, accessed with your programming language of choice -
 C, C++, Java, Python, R, or whatever.
 
 
-<a id="org768fc37"></a>
+<a id="orgc185004"></a>
 
 ## CSC 410 - Operating Systems
 
