@@ -1,22 +1,22 @@
 
 # Table of Contents
 
-1.  [What is this?](#orgf45667d)
-2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#orge13f5a6)
-3.  [Sunday, 22 August 2021 - End of first week](#orgab4b795)
-4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#org17d8b73)
-5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#org704a9d8)
-6.  [Learning is like (physical) exercise (Sept 8)](#org40b9fc7)
-7.  [Relevance of agile methodologies (Sept 14)](#orge188898)
-8.  [Florida Man (Oct 5)](#org8914d2d)
-9.  [Transitioning to Windows 10 (Oct 9)](#org8d30078)
-10. [Linux app under Windows (Oct 22)](#org23b0551)
-11. [Join me in spring 2022! (Nov 3)](#orgb8d4399)
-12. [References](#org75d6317)
+1.  [What is this?](#org4c9f15a)
+2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#org156fc9b)
+3.  [Sunday, 22 August 2021 - End of first week](#org56dff1e)
+4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#orgbb80da1)
+5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#orga5b39ee)
+6.  [Learning is like (physical) exercise (Sept 8)](#org4da9168)
+7.  [Relevance of agile methodologies (Sept 14)](#org9fb53b2)
+8.  [Florida Man (Oct 5)](#org8951d9f)
+9.  [Transitioning to Windows 10 (Oct 9)](#org09dcd4a)
+10. [Linux app under Windows (Oct 22)](#org07843be)
+11. [Join me in spring 2022! (Nov 3)](#org9f90065)
+12. [References](#orgd53e938)
 
 
 
-<a id="orgf45667d"></a>
+<a id="org4c9f15a"></a>
 
 # What is this?
 
@@ -25,7 +25,7 @@ across all courses, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="orge13f5a6"></a>
+<a id="org156fc9b"></a>
 
 # Sunday, 11 July 2021 - GitHub & Cybersecurity
 
@@ -73,7 +73,7 @@ in the AI seminar, also in this term.
 Next stop: syllabus!
 
 
-<a id="orgab4b795"></a>
+<a id="org56dff1e"></a>
 
 # Sunday, 22 August 2021 - End of first week
 
@@ -106,7 +106,7 @@ model?"), so I must be off, but I'll be seeing you soon. Tonight:
 takeaway - first Chinese buffet.
 
 
-<a id="org17d8b73"></a>
+<a id="orgbb80da1"></a>
 
 # Saturday, 28 August 2021 - Games and the Arkansas Experience
 
@@ -165,7 +165,7 @@ to me if you want to know more, or come to a Friday meeting. Don't
 just go to work and let this opportunity to learn go to waste!
 
 
-<a id="org704a9d8"></a>
+<a id="orga5b39ee"></a>
 
 # Sunday, 29 August 2021 - KILT Lyon College Radio
 
@@ -179,12 +179,12 @@ very hard to beat. Oriatti presented a marvelous selection and was
 totally responsive to the listeners. He even mentioned data science!
 
 
-<a id="org40b9fc7"></a>
+<a id="org4da9168"></a>
 
 # Learning is like (physical) exercise (Sept 8)
 
 Read this today in an article in WIRED magazine, "How to Ace
-Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org4bff635)):
+Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org4837a3c)):
 
 > "Perhaps the most important thing to remember is that learning can be
 > fun, but it can also be hard and confusing. Think of it like exercise:
@@ -210,7 +210,7 @@ important to feel! If you never feel it, you're either a genius or
 you're not trying hard enough (you'd know if you're a genius).
 
 
-<a id="orge188898"></a>
+<a id="org9fb53b2"></a>
 
 # Relevance of agile methodologies (Sept 14)
 
@@ -222,10 +222,10 @@ learn this stuff and to do it well:
 > tech industry for application development. The main advantage of the
 > Agile methodology is that it creates an interactive communication
 > line between the business and engineering teams to iteratively
-> deliver value." (Source: [DataCamp, 8/30/2021](#org8f6457f))
+> deliver value." (Source: [DataCamp, 8/30/2021](#org2e0cfbf))
 
 
-<a id="org8914d2d"></a>
+<a id="org8951d9f"></a>
 
 # Florida Man (Oct 5)
 
@@ -291,7 +291,7 @@ learning). Just in time for a session on "literate programming" (in
 the data science intro course), and another session on "future of
 AI" (in the AI seminar), Lex Fridman has interviewed comp sci hero
 Donald Knuth for the second time - you should check out [the podcast](https://lexfridman.com/donald-knuth-2/)
-([Fridman, 2021](#org4a5bd3f)) (also available on youtube). It's long (an
+([Fridman, 2021](#orgb38f3d2)) (also available on youtube). It's long (an
 excellent distraction), but the length is necessary to really go
 deep (this is one of Fridman's specialties, and much needed in this
 time of short attention spans and fleeting
@@ -308,7 +308,7 @@ enticing parallel between AI and God:
 > might be some AI, but whatever, but I do believe that there is
 > something that goes beyond the realm of human understanding, that I
 > can try to learn more about how to resonate with, whatever that
-> being would like me to do.” --[Donald Knuth](#orgf7f69ef)
+> being would like me to do.” --[Donald Knuth](#org0b7cc56)
 
 I'm tempted to present this as the opening statement of tomorrow's
 session of the AI seminar&#x2026;
@@ -318,7 +318,7 @@ session of the AI seminar&#x2026;
 ![img](./img/beach.jpg)
 
 
-<a id="org8d30078"></a>
+<a id="org09dcd4a"></a>
 
 # Transitioning to Windows 10 (Oct 9)
 
@@ -358,7 +358,7 @@ some time to go through these instructions<sup><a id="fnr.10" class="footref" hr
 ![img](./img/linux.gif)
 
 
-<a id="org23b0551"></a>
+<a id="org07843be"></a>
 
 # Linux app under Windows (Oct 22)
 
@@ -425,7 +425,7 @@ computer. After you did this, you should be able to boot Linux
 using the app.
 
 
-<a id="orgb8d4399"></a>
+<a id="org9f90065"></a>
 
 # Join me in spring 2022! (Nov 3)
 
@@ -454,21 +454,25 @@ system programming (which is what these courses are about) is
 constantly changing - and the number of people who know anything
 about it is dwindling - so these are highly marketable skills.
 
+You can handle the algorithms.
 
-<a id="org75d6317"></a>
+![img](./img/algorithm.gif)
+
+
+<a id="orgd53e938"></a>
 
 # References
 
-<a id="org4bff635"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
+<a id="org4837a3c"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
 You Don’t Ace Physics) [Blog]. [Online: wired.com](https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/).
 
-<a id="org8f6457f"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
+<a id="org2e0cfbf"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
 Communications Gap with Data Literacy. [Online: datacamp.com](https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy).
 
-<a id="orgf7f69ef"></a> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
+<a id="org0b7cc56"></a> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
 and the Meaning of Life [Blog]. [Online: thenewstack.io](https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/).
 
-<a id="org4a5bd3f"></a> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
+<a id="orgb38f3d2"></a> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
 Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast
 \#219 [Podcast]. [Online: lexfridman.com](https://lexfridman.com/donald-knuth-2/).
 
