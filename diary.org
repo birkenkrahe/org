@@ -381,7 +381,7 @@
   I've got around to writing down some of the things I'd like to do in
   my spring 2022 courses. Knowing that y'all wanting to pick your
   courses, I'm going to pin [[https://github.com/birkenkrahe/org/blob/master/spring22.md][these notes]] to the board outside my office
-  (or you can print this PDF and distribute it among your friends and
+  (or you can [[https://github.com/birkenkrahe/org/blob/master/spring22.pdf][print this PDF]] and distribute it among your friends and
   family :-).
 
   Reading through the list of planned topics, I already know that I
