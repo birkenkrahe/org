@@ -404,6 +404,12 @@
   about it is dwindling - so these are highly marketable skills.
 
   No matter what you may think: you can handle the algorithms!
+  -----
+  #+begin_quote
+  “The Linux philosophy is ‘laugh in the face of danger.’ Oops. Wrong
+  one. ‘Do it yourself.’ That's the one.” — [[https://en.wikipedia.org/wiki/Linus_Torvalds][Linus Torvalds]], creator of
+  Linux
+  #+end_quote
 
 * References
 

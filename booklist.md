@@ -15,6 +15,8 @@
 <col  class="org-right" />
 
 <col  class="org-left" />
+
+<col  class="org-left" />
 </colgroup>
 <thead>
 <tr>
@@ -23,6 +25,7 @@
 <th scope="col" class="org-right">PRICE (US$)</th>
 <th scope="col" class="org-right">DISCOUNT</th>
 <th scope="col" class="org-left">SUB</th>
+<th scope="col" class="org-left">&#xa0;</th>
 </tr>
 </thead>
 
@@ -33,6 +36,7 @@
 <td class="org-right">49.95</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">10/18/2021</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -42,6 +46,7 @@
 <td class="org-right">99.99</td>
 <td class="org-right">-39.28</td>
 <td class="org-left">10/18/2021</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -51,6 +56,7 @@
 <td class="org-right">109.73</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">10/18/2021</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -60,6 +66,7 @@
 <td class="org-right">49.99</td>
 <td class="org-right">-11.50</td>
 <td class="org-left">10/18/2021</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -69,6 +76,7 @@
 <td class="org-right">27.07</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">10/18/2021</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -78,6 +86,7 @@
 <td class="org-right">45.50</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">10/18/2021</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -87,6 +96,7 @@
 <td class="org-right">75.24</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">10/18/2021</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -96,6 +106,7 @@
 <td class="org-right">98.95</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">10/18/2021</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -105,6 +116,7 @@
 <td class="org-right">24.19</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">10/18/2021</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -114,6 +126,7 @@
 <td class="org-right">34.34</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">10/18/2021</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -123,6 +136,7 @@
 <td class="org-right">32.99</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">10/22/2021</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -132,6 +146,7 @@
 <td class="org-right">26.99</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">10/22/2021</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -141,6 +156,7 @@
 <td class="org-right">32.99</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">10/22/2021</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -150,6 +166,7 @@
 <td class="org-right">26.99</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">10/22/2021</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -159,6 +176,7 @@
 <td class="org-right">26.99</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">10/22/2021</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 
@@ -168,6 +186,69 @@
 <td class="org-left">&#xa0;</td>
 <td class="org-right">761.9</td>
 <td class="org-right">-50.78</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">10/26/2021</td>
+<td class="org-left">Pearson: Exploratory Data Analysis using R</td>
+<td class="org-right">54.95</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-left">10/29/2021</td>
+<td class="org-left">Baumann et al: UML 2.0 in action</td>
+<td class="org-right">22.74</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-left">11/01/2021</td>
+<td class="org-left">Tuckfield: Dive into algorithms</td>
+<td class="org-right">43.45</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-left">11/05/2021</td>
+<td class="org-left">Vanderbauwhede: OS Foundations with Linux on Pi</td>
+<td class="org-right">43.99</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-left">11/05/2021</td>
+<td class="org-left">Upton: Computer architecture with Raspberry Pi</td>
+<td class="org-right">20.89</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">186.02</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
