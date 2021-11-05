@@ -240,13 +240,23 @@
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
+
+
+<tr>
+<td class="org-left">11/05/2021</td>
+<td class="org-left">The R Student Companion/R for College Math and Stats</td>
+<td class="org-right">130.31</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
 </tbody>
 
 <tbody>
 <tr>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-right">186.02</td>
+<td class="org-right">316.33</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
