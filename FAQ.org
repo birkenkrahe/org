@@ -481,7 +481,7 @@
    the key sequence ~<CTRL>-h t~. These key sequences will take some
    time to get used to but once you got them in your fingers, you
    won't want to look back, because you're going to be much faster
-   than any mouse. 
+   than any mouse.
 
 ** Download and install R
 
@@ -536,7 +536,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
     And now I can run the ~<code>~ inside the chunk with ~C-o C-o~, or
     I can open the code in a separate buffer and e.g. save it as an R
     file.
-    
+
 ** My Emacs setup
 
    * The configuration file for Emacs is the ~.emacs~ file. [[https://1drv.ms/u/s!AhEvK3qWokrvitxPQ2OuaCOOQDfvZQ?e=KhLQW6][Here is
@@ -607,7 +607,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   Here are some things people might say when asked what makes a
   presentation good, i.e. worth listening to:
-  
+
   | WHAT     | HOW                      | WHEN   |
   |----------+--------------------------+--------|
   | Facts    | Validation & Relevance   | Always |
@@ -616,7 +616,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   But what makes a presentation "great" (i.e. highly memorable,
   unforgettable, totally inspiring)?
-  
+
   Barbara Minto's Pyramid Principle ([[minto][Minto, 2002]]) has a claim to being
   the method to achieve this. Here is an illustration followed by an
   example below.
@@ -625,13 +625,13 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   [[./img/minto.png]]
 
   (Image source: [[minto1][powerusersoftwares.com, 2016]])
-  
+
 **  Minto Pyramid Principle
 
    The SCQA method is not the same as the pyramid principle, but it is
    the dominant technique to arrive at a pyramid structure for your
    presentation, paper, essay, or even email.
-  
+
 *** Situation ("What's going on?")
 
     * (Almost) nobody likes giving presentations
@@ -652,7 +652,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
     Are there any invariants[fn:18], i.e. things, processes, attributes
     that remain unchanged from one presentation to the next?[fn:19]
 
-*** Answer 
+*** Answer
 
     Audience rapport is a relationship invariant for all
     presentations. According to Barbara Minto ([[minto][Minto, 2002]]), the SCQA
@@ -663,9 +663,52 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
    For a short overview see the video: [[https://vimeo.com/87537935][Harrison Metal (2014)]].
 
-  For a lecture in 2 parts by me ([[birk][2016]]), see here:
-  * Minto Pyramid Principle Part 1 - [[https://youtu.be/HrmBZQuCSzo][Introductory Stories]]
-  * Minto Pyramid Principle Part 2 - [[https://youtu.be/k_FJXpYPbQY][What Audiences Want]] 
+   For a lecture in 2 parts by me ([[birk][2016]]), see here:
+   * Minto Pyramid Principle Part 1 - [[https://youtu.be/HrmBZQuCSzo][Introductory Stories]]
+   * Minto Pyramid Principle Part 2 - [[https://youtu.be/k_FJXpYPbQY][What Audiences Want]]
+
+* What should we do for the final presentation?
+
+   The final presentation is a presentation of 30-45 minutes (for a
+   team of 2-3), or 20 minutes (for an individual presenter), including
+   discussion. The exact timing depends on the course setting (number
+   of total presentations and available time). Ask me in class!
+
+   The final presentation is graded. I give a percentage grade that
+   you can translate to a letter grade if you like using the grading
+   table in your course syllabus.
+
+   This is not a real rubric, because by now, after many presentations
+   in class, you should know what's what. For what it's worth, I grade
+   according to (in alphabetical order):
+
+   | No. | Content     | Did you research the topic (literature review)?                               |
+   |   1 |             | Did you make an effort to quantify statements (graphs, tables)?               |
+   |   2 |             | Were your graphs and tables clear and unambiguous?[fn:26]                     |
+   |   3 |             | Did you explain where your content came from?                                 |
+   |   4 |             | Did you demonstrate an effort to validate your sources?                       |
+   |   5 |             | Were you able to answer questions about the slides?                           |
+   |   6 |             | Are you aware of the limitations of your research (method and personal bias)? |
+   |   7 |             | Did you select those results suitable for presentation?                       |
+   |   8 | Form        | Did you make an effort to optimize your slides?[fn:25]                        |
+   |   9 |             | How was your diction, spelling, mistakes on slides?                           |
+   |  10 |             | Did the presentation seem rehearsed and well-tested?                          |
+   |  11 |             | Were you dressed appropriate to the occasion?[fn:22]                          |
+   |     |             | Did the presentation have a clear, logical structure?[fn:27]                  |
+   |  12 | Interaction | Did you make an effort to involve the audience?                               |
+   |  13 | References  | Did you provide references, with consistent and complete citations            |
+   |  14 |             | Did you use inline references on slides?                                      |
+   |  15 | Team        | How well did you work together during the presentation[fn:24]                 |
+   |  16 | Timing      | Did you respect the timelines (start/end)?[fn:23]                             |
+
+   You can treat this list like a checklist and make sure at least
+   that you thought about every single question, and give yourself an
+   honest score for how well you expect you will perform in each
+   category.
+
+   If in doubt about any of these, or about the quality of your
+   presentation (slides), ask me directly while there's still time to
+   fix things!
 
 * References
 
@@ -680,8 +723,8 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
   2 - What audiences want. [[https://youtu.be/k_FJXpYPbQY][Online: youtube.com.]]
-  
-  <<minto>> Minto B (2002). The Pyramid Principle. 
+
+  <<minto>> Minto B (2002). The Pyramid Principle.
 
   Harrison Metal (2014). Storytelling & Presenting 1: Thank You,
   Barbara Minto [video]. [[https://vimeo.com/87537935][Online: vimeo.com]]
@@ -692,8 +735,41 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   <<stella>> Stella J (Nov 11, 2015). A CEO's Guide to Emacs
   [blog]. [[https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html][Online: fugue.co]].
-  
+
 * Footnotes
+
+[fn:27]Logical structure means e.g. that the Minto pyramid rules are
+respected: MECE, horizontal groupings (subsections) are ordered and on
+the same level, vertical groupings follow the IMRaD rule, or are
+otherwise well motivated by the research question and the method.
+
+[fn:26]Graphs are (usually) better than tables. All illustrations that
+are important should ideally be created by you for the
+presentation. If they are not important, don't show them in the final
+presentation.
+
+[fn:25]So many possibilities here: not too much text on each slide,
+use illustrations, including images, graphs, tables - which you
+created yourself rather than just copy them. Number slides (for easy
+reference), indicate your process flow (e.g. by marking on each slide
+where you are and how much stuff is still left). Make sure slides are
+readable even from a distance (font, face, color). This is something
+that you have likely experimented with during the sprint reviews and
+drawn comments from the product owner and the audience.
+
+[fn:24]Irrelevant if you present on your own - though there is still
+the issue of managing transitions between different parts of your
+presentation - think Situation-Complication-Question, and Q&A.
+
+[fn:23]Make sure that you understand how much time you have. Design your
+content/slides deck accordingly. Have a minimum set of slides that you
+must present, a few more that you'd like to show, and more that you
+could show when asked for details.
+
+[fn:22]This may surprise you (I hope it does not): the final
+presentation is a momentous occasion. There are no second impressions
+when you present your final product to the customer, no "I'll shave
+next time!", or "Next time, I'll wear a clean shirt!" 
 
 [fn:21]Here is an enthusiastic review and tutorial called "[[https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html][A CEO's
 Guide To Emacs]]" ([[stella][Stella, 2015]]), which you might enjoy reading. The
@@ -701,7 +777,7 @@ author is (was?) the CEO of Fugue, a cloud security platform.
 
 [fn:20]As a Shell manager, I had the opportunity to learn the method
 first hand from Barbara Minto herself (as you can hear in one of my
-two short videos). 
+two short videos).
 
 [fn:19]Some of the items that I mentioned and asked for certainly are
 not invariant: quantification, prioritized bullet points, less is more
@@ -711,14 +787,14 @@ have to report on numbers in a systematic, minimal way, hence these
 suggestions are still useful.
 
 [fn:18]Invariants in physics and mathematics is anything that does not
-change under transformation, from one reference frame to another.  
+change under transformation, from one reference frame to another.
 
 [fn:17]"Rapport is a close and harmonious relationship in which the
 people or groups concerned are "in sync" with each other, understand
 each other's feelings or ideas, and communicate smoothly." ([[https://en.wikipedia.org/wiki/Rapport][Wikipedia]])
- 
+
 [fn:16]This would work for any language that Emacs supports, which is
-pretty much every programming language in existence. 
+pretty much every programming language in existence.
 
 [fn:15]If you never make any changes you don't need to watch
 productivity, because you can just regurgitate old stuff. However,
