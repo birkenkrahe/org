@@ -678,40 +678,41 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    The final presentation is graded. I give a percentage grade that
    you can translate to a letter grade if you like using the grading
    table in your course syllabus.
-*** Use this checklist
-    You can treat this list like a checklist and make sure at least
-    that you thought about every single question, and give yourself an
-    honest score for how well you expect you will perform in each
-    category. Items are listed in alphabetical order first. The
-    sub-questions within each aspect are not ordered.
 
-    | NO. | ASPECT      | QUESTIONS                                                                     |
-    |-----+-------------+-------------------------------------------------------------------------------|
-    |   1 | Content     | Did you research the topic (literature review)?                               |
-    |   2 |             | Did you make an effort to quantify statements (graphs, tables)?               |
-    |   3 |             | Were your graphs and tables clear and unambiguous?[fn:26]                     |
-    |   4 |             | Did you explain where your content came from?                                 |
-    |   5 |             | Did you demonstrate an effort to validate your sources?                       |
-    |   6 |             | Were you able to answer questions about the slides?                           |
-    |   7 |             | Are you aware of the limitations of your research (method and personal bias)? |
-    |   8 |             | Did you select those results suitable for presentation?                       |
-    |   9 | Form        | Did you make an effort to optimize your slides?[fn:25]                        |
-    |  10 |             | Did you control your diction, spelling, mistakes on slides?                   |
-    |  11 |             | Did the presentation seem rehearsed and well-tested?                          |
-    |  12 |             | Were you dressed appropriate to the occasion?[fn:22]                          |
-    |  13 |             | Did the presentation have a clear, logical structure?[fn:27]                  |
-    |  14 | Interaction | Did you make an effort to involve the audience?                               |
-    |  15 | References  | Did you provide references, with consistent and complete citations            |
-    |  16 |             | Did you use inline references on slides?                                      |
-    |  17 | Team        | How well did you work together during the presentation[fn:24]                 |
-    |  18 | Timing      | Did you respect the timelines (start/end)?[fn:23]                             |
+   You can treat this list like a checklist and make sure at least
+   that you thought about every single question, and give yourself an
+   honest score for how well you expect you will perform in each
+   category. Items are listed in alphabetical order first. The
+   sub-questions within each aspect are not ordered.
 
-    I will give you short formative (qualitative) feedback based on the
-    question breakdown above so that you know where your grade comes
-    from, and you get a summary that looks like the figure below
-    ([[bps][Source: BPS]]).
+   | NO. | ASPECT      | QUESTIONS                                                                     |
+   |-----+-------------+-------------------------------------------------------------------------------|
+   |   1 | Content     | Did you research the topic (literature review)?                               |
+   |   2 |             | Did you make an effort to quantify statements (graphs, tables)?               |
+   |   3 |             | Were your graphs and tables clear and unambiguous?[fn:26]                     |
+   |   4 |             | Did you explain where your content came from?                                 |
+   |   5 |             | Did you demonstrate an effort to validate your sources?                       |
+   |   6 |             | Were you able to answer questions about the slides?                           |
+   |   7 |             | Are you aware of the limitations of your research (method and personal bias)? |
+   |   8 |             | Did you select those results suitable for presentation?                       |
+   |   9 | Form        | Did you make an effort to optimize your slides?[fn:25]                        |
+   |  10 |             | Did you control your diction, spelling, mistakes on slides?                   |
+   |  11 |             | Did the presentation seem rehearsed and well-tested?                          |
+   |  12 |             | Were you dressed appropriate to the occasion?[fn:22]                          |
+   |  13 |             | Did the presentation have a clear, logical structure?[fn:27]                  |
+   |  14 | Interaction | Did you make an effort to involve the audience?                               |
+   |  15 | References  | Did you provide references, with consistent and complete citations            |
+   |  16 |             | Did you use inline references on slides?                                      |
+   |  17 | Team        | How well did you work together during the presentation[fn:24]                 |
+   |  18 | Timing      | Did you respect the timelines (start/end)?[fn:23]                             |
 
-    [[./img/presentation.png]]
+   I will give you short formative (qualitative) feedback based on the
+   question breakdown above so that you know where your grade comes
+   from, and you get a summary that looks like the figure below
+   ([[bps][Source: BPS]]).
+
+   #+attr_html: :width 600px
+   [[./img/presentation.png]]
 
 ** What's the best strategy?
 
@@ -736,17 +737,31 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    hasn't been to their disadvantage - at the very minimum it means
    that they care.
 
-* What should we do for the final essay?
+   You should know what type of final product you must submit to pass
+   the course. If in doubt, check the syllabus or ask me directly!
+
+* How is the final essay graded?
 
   The image below shows the assessment template for the final
   essay. This is essentially a template based on the IMRaD structure
   used for all scientific publications - journal or conference papers,
   essays, reports, whitepapers, bachelor, master or PhD theses.
 
-  
+  #+attr_html: :width 600px
+  [[./img/essay.png]]
 
-  
-* What should we do for the final report?
+  There is a complete rubric behind these categories, which you could
+  use as a checklist. [[https://drive.google.com/file/d/1rg8-n_cOACi0FTACdH1zYMNuMeWueMPy/view?usp=sharing][Here is the link to the PDF.]] For the essay, only
+  section D "Report" of this rubric is directly relevant (image shows
+  a screenshot excerpt).
+
+  #+attr_html: :width 600px
+  [[./img/rubric.png]]
+
+  You should know what type of final product you must submit to pass
+  the course. If in doubt, check the syllabus or ask me directly!
+
+* What's the difference between an essay and an EDA report?
 
   This is relevant if you deliver a presentation in connection with a
   data science notebook that includes code, text, and program output.
@@ -756,7 +771,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   You should know what type of final product you must submit to pass
   the course. If in doubt, check the syllabus or ask me directly!
-  
+
 * References
 
   <<birk14>> [[https://drive.google.com/file/d/0B9ubV5NfnNPpdlNycWxkaTFQc1k/view?usp=sharing][Birkenkrahe M (2014). Using Storytelling Methods To
@@ -773,7 +788,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   <<bps>> Berlin Professional School (BPS). Presentation Assessment
   Form.
-  
+
   <<minto>> Minto B (2002). The Pyramid Principle.
 
   Harrison Metal (2014). Storytelling & Presenting 1: Thank You,

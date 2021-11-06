@@ -1,32 +1,32 @@
 
 # Table of Contents
 
-1.  [What is this?](#org1df5764)
-2.  [How should you read?](#orgb89a6a8)
-3.  [How can you read more research papers?](#org9b35e9c)
-4.  [Why are we using GitHub?](#org9189398)
-5.  [What is version control?](#orgc944f17)
-6.  [How should you use GitHub?](#org1cfc618)
-7.  [What is a sprint review?](#org2f95662)
-8.  [What do I need to deliver at a sprint review?](#org00736a7)
-9.  [What should we do in the first sprint?](#orgf043aa9)
-10. [What should we do in the second sprint?](#orga8e0f62)
-11. [How do you report on and plan a research "method"?](#org771345f)
-12. [What should we do in the third sprint?](#orgf3f1f22)
-13. [What should we do in the fourth sprint?](#org617e81a)
-14. [Where I can find out more about "IMRaD"?](#orgbaa292d)
-15. [Which editor and IDE do you use?](#orgade094b)
-16. [How can I install Emacs as a data science IDE on Windows 10?](#orga0e51a4)
-17. [How to use GitHub Desktop to backup your code to GitHub](#org7772b45)
-18. [How can you always create a great presentation?](#org942a35c)
-19. [What should we do for the final presentation?](#org1e9cb5e)
-20. [What should we do for the final essay?](#org69b6427)
-21. [What should we do for the final report?](#orgae7f96a)
-22. [References](#org8d7fefe)
+1.  [What is this?](#orgd19dda3)
+2.  [How should you read?](#org011dc64)
+3.  [How can you read more research papers?](#org22431e8)
+4.  [Why are we using GitHub?](#org7780584)
+5.  [What is version control?](#org3c8bbf1)
+6.  [How should you use GitHub?](#org03a1899)
+7.  [What is a sprint review?](#org83e284b)
+8.  [What do I need to deliver at a sprint review?](#orgf01b503)
+9.  [What should we do in the first sprint?](#orgb6cc275)
+10. [What should we do in the second sprint?](#org4493571)
+11. [How do you report on and plan a research "method"?](#org183a740)
+12. [What should we do in the third sprint?](#org89a50b9)
+13. [What should we do in the fourth sprint?](#orgdf8564b)
+14. [Where I can find out more about "IMRaD"?](#orgc985c01)
+15. [Which editor and IDE do you use?](#org0dc8282)
+16. [How can I install Emacs as a data science IDE on Windows 10?](#org4225a48)
+17. [How to use GitHub Desktop to backup your code to GitHub](#org8b03c4b)
+18. [How can you always create a great presentation?](#orgf9dfd27)
+19. [What should we do for the final presentation?](#org6707b2a)
+20. [How is the final essay graded?](#orgf41728b)
+21. [What's the difference between an essay and an EDA report?](#org874f0b9)
+22. [References](#org1d2a637)
 
 
 
-<a id="org1df5764"></a>
+<a id="orgd19dda3"></a>
 
 # What is this?
 
@@ -34,7 +34,7 @@ This is a Frequently Asked Questions (FAQ) file for all my courses
 at Lyon College. For individual FAQs, see the resp. course repos.
 
 
-<a id="orgb89a6a8"></a>
+<a id="org011dc64"></a>
 
 # How should you read?
 
@@ -151,7 +151,7 @@ props; (6) re-reading. What are these about?
     reading and note-taking only took me an hour!
 
 
-<a id="org9b35e9c"></a>
+<a id="org22431e8"></a>
 
 # How can you read more research papers?
 
@@ -192,7 +192,7 @@ The final advice is excellent: you only get better at reading papers
 by reading papers!
 
 
-<a id="org9189398"></a>
+<a id="org7780584"></a>
 
 # Why are we using GitHub?
 
@@ -220,7 +220,7 @@ data, for better workflow control (with [GitHub actions](https://docs.github.com
 data science (e.g. via [GHTorrent](https://ghtorrent.org/) and [GH Archive](https://www.gharchive.org/)).
 
 
-<a id="orgc944f17"></a>
+<a id="org3c8bbf1"></a>
 
 # What is version control?
 
@@ -239,7 +239,7 @@ etc. carries over from other version control systems. Here is a
 [direct comparison of CVS and Git](https://www.linkedin.com/pulse/difference-between-git-cvs-ahmed-el-emam/) (2017).
 
 
-<a id="org1cfc618"></a>
+<a id="org03a1899"></a>
 
 # How should you use GitHub?
 
@@ -265,7 +265,7 @@ projects using a simple Kanban board (or define a more complicated
 workflow if you like). I will show all of this in class.
 
 
-<a id="org2f95662"></a>
+<a id="org83e284b"></a>
 
 # What is a sprint review?
 
@@ -288,7 +288,7 @@ participation will be, and you have to deliver a sprint review, even
 if you could not complete a result during the last sprint.
 
 
-<a id="org00736a7"></a>
+<a id="orgf01b503"></a>
 
 # What do I need to deliver at a sprint review?
 
@@ -311,7 +311,7 @@ creative and mix them up. Remember that the purpose of the sprint
 review is dialog, not a perfect performance or a perfect product.
 
 
-<a id="orgf043aa9"></a>
+<a id="orgb6cc275"></a>
 
 # What should we do in the first sprint?
 
@@ -338,7 +338,7 @@ The first sprint covers the "I" (for Introduction) of the IMRaD
 structure of scientific papers (see FAQ).
 
 
-<a id="orga8e0f62"></a>
+<a id="org4493571"></a>
 
 # What should we do in the second sprint?
 
@@ -361,7 +361,7 @@ The second sprint covers the "M" (for "Method") of the IMRaD structure
 of scientific papers (see FAQ).
 
 
-<a id="org771345f"></a>
+<a id="org183a740"></a>
 
 # How do you report on and plan a research "method"?
 
@@ -406,7 +406,7 @@ Hopefully, this structural breakdown will help you think about your
 modeling paper.
 
 
-<a id="orgf3f1f22"></a>
+<a id="org89a50b9"></a>
 
 # What should we do in the third sprint?
 
@@ -437,7 +437,7 @@ The Third sprint covers the "R" (for "Results") of the IMRaD
 structure of scientific papers. (See FAQ.)
 
 
-<a id="org617e81a"></a>
+<a id="orgdf8564b"></a>
 
 # What should we do in the fourth sprint?
 
@@ -470,14 +470,14 @@ The fourth sprint covers the "D" (for "Discussion") of the IMRaD
 structure of scientific papers. See FAQ for more on IMRaD.
 
 
-<a id="orgbaa292d"></a>
+<a id="orgc985c01"></a>
 
 # Where I can find out more about "IMRaD"?
 
 See [this short (15 min) YouTube video](https://youtu.be/dip7UwZ3wUM) - produced for a course on
 "research methods" for graduate students at the Berlin School of
 Economics and Law (MBAs). See also my paper on storytelling and
-scientific writing ([Birkenkrahe, 2014](#orgbe07fb5)).
+scientific writing ([Birkenkrahe, 2014](#orge383f64)).
 
 The structural similarity between storyline and other successful
 forms of writing (like in science) is actually not surprising when
@@ -491,7 +491,7 @@ all scientists and scholars use it, but not all reflect upon their
 writing, I think, at least in the STEM disciplines.
 
 
-<a id="orgade094b"></a>
+<a id="org0dc8282"></a>
 
 # Which editor and IDE do you use?
 
@@ -514,13 +514,13 @@ Emacs easily](https://opensource.com/article/20/3/getting-started-emacs) (Kenlon
 Here is a 2021 "[Introduction to Emacs Speaks Statistics](https://ess-intro.github.io/)" site with
 lots of additional information.
 
-The figure [94](#org4a8c4a3) shows four (out of an arbitrary number of)
+The figure [94](#orga164e66) shows four (out of an arbitrary number of)
 panels inside the editor
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png)
 
 
-<a id="orga0e51a4"></a>
+<a id="org4225a48"></a>
 
 # How can I install Emacs as a data science IDE on Windows 10?
 
@@ -622,7 +622,7 @@ file.
     command `M-x package-list-packages`.
 
 
-<a id="org7772b45"></a>
+<a id="org8b03c4b"></a>
 
 # How to use GitHub Desktop to backup your code to GitHub
 
@@ -680,7 +680,7 @@ suffices.
     (e.g. `.dvi` when you process a LaTeX file).
 
 
-<a id="org942a35c"></a>
+<a id="orgf9dfd27"></a>
 
 # How can you always create a great presentation?
 
@@ -731,13 +731,13 @@ presentation good, i.e. worth listening to:
 But what makes a presentation "great" (i.e. highly memorable,
 unforgettable, totally inspiring)?
 
-Barbara Minto's Pyramid Principle ([Minto, 2002](#org2bad845)) has a claim to being
+Barbara Minto's Pyramid Principle ([Minto, 2002](#orgaa0cbe0)) has a claim to being
 the method to achieve this. Here is an illustration followed by an
 example below.
 
 ![img](./img/minto.png)
 
-(Image source: [powerusersoftwares.com, 2016](#org25d23ac))
+(Image source: [powerusersoftwares.com, 2016](#org099264e))
 
 
 ## Minto Pyramid Principle
@@ -773,7 +773,7 @@ that remain unchanged from one presentation to the next?<sup><a id="fnr.19" clas
 ### Answer
 
 Audience rapport is a relationship invariant for all
-presentations. According to Barbara Minto ([Minto, 2002](#org2bad845)), the SCQA
+presentations. According to Barbara Minto ([Minto, 2002](#orgaa0cbe0)), the SCQA
 method delivers an invariant structure for all presentations, to
 all audiences. I am inclined to agree with her<sup><a id="fnr.20" class="footref" href="#fn.20">20</a></sup>.
 
@@ -782,13 +782,13 @@ all audiences. I am inclined to agree with her<sup><a id="fnr.20" class="footref
 
 For a short overview see the video: [Harrison Metal (2014)](https://vimeo.com/87537935).
 
-For a lecture in 2 parts by me ([2016](#org32a9120)), see here:
+For a lecture in 2 parts by me ([2016](#org6c5637e)), see here:
 
 -   Minto Pyramid Principle Part 1 - [Introductory Stories](https://youtu.be/HrmBZQuCSzo)
 -   Minto Pyramid Principle Part 2 - [What Audiences Want](https://youtu.be/k_FJXpYPbQY)
 
 
-<a id="org1e9cb5e"></a>
+<a id="org6707b2a"></a>
 
 # What should we do for the final presentation?
 
@@ -806,9 +806,6 @@ of total presentations and available time). Ask me in class!
 The final presentation is graded. I give a percentage grade that
 you can translate to a letter grade if you like using the grading
 table in your course syllabus.
-
-
-### Use this checklist
 
 You can treat this list like a checklist and make sure at least
 that you thought about every single question, and give yourself an
@@ -965,7 +962,7 @@ sub-questions within each aspect are not ordered.
 I will give you short formative (qualitative) feedback based on the
 question breakdown above so that you know where your grade comes
 from, and you get a summary that looks like the figure below
-([Source: BPS](#org4b4597e)).
+([Source: BPS](#org5de70c0)).
 
 ![img](./img/presentation.png)
 
@@ -994,20 +991,35 @@ fix things! A few people have shown me their stuff beforehand and it
 hasn't been to their disadvantage - at the very minimum it means
 that they care.
 
+You should know what type of final product you must submit to pass
+the course. If in doubt, check the syllabus or ask me directly!
 
-<a id="org69b6427"></a>
 
-# What should we do for the final essay?
+<a id="orgf41728b"></a>
+
+# How is the final essay graded?
 
 The image below shows the assessment template for the final
 essay. This is essentially a template based on the IMRaD structure
 used for all scientific publications - journal or conference papers,
 essays, reports, whitepapers, bachelor, master or PhD theses.
 
+![img](./img/essay.png)
 
-<a id="orgae7f96a"></a>
+There is a complete rubric behind these categories, which you could
+use as a checklist. [Here is the link to the PDF.](https://drive.google.com/file/d/1rg8-n_cOACi0FTACdH1zYMNuMeWueMPy/view?usp=sharing) For the essay, only
+section D "Report" of this rubric is directly relevant (image shows
+a screenshot excerpt).
 
-# What should we do for the final report?
+![img](./img/rubric.png)
+
+You should know what type of final product you must submit to pass
+the course. If in doubt, check the syllabus or ask me directly!
+
+
+<a id="org874f0b9"></a>
+
+# What's the difference between an essay and an EDA report?
 
 This is relevant if you deliver a presentation in connection with a
 data science notebook that includes code, text, and program output.
@@ -1019,35 +1031,35 @@ You should know what type of final product you must submit to pass
 the course. If in doubt, check the syllabus or ask me directly!
 
 
-<a id="org8d7fefe"></a>
+<a id="org1d2a637"></a>
 
 # References
 
-<a id="orgbe07fb5"></a> [Birkenkrahe M (2014). Using Storytelling Methods To
+<a id="orge383f64"></a> [Birkenkrahe M (2014). Using Storytelling Methods To
 Improve Emotion, Motivation and Attitude Of Students Writing
 Scientific Papers And Theses. In: Proceedings of the 13th IEEE
 Int. Conf. on Cognitive Informatics & Cognitive Computing, London,
 August 18-20, 2014.](https://drive.google.com/file/d/0B9ubV5NfnNPpdlNycWxkaTFQc1k/view?usp=sharing)
 
-<a id="org32a9120"></a> Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
+<a id="org6c5637e"></a> Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
 1 - Introductory stories. [Online: youtube.com.](https://youtu.be/HrmBZQuCSzo)
 
 Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
 2 - What audiences want. [Online: youtube.com.](https://youtu.be/k_FJXpYPbQY)
 
-<a id="org4b4597e"></a> Berlin Professional School (BPS). Presentation Assessment
+<a id="org5de70c0"></a> Berlin Professional School (BPS). Presentation Assessment
 Form.
 
-<a id="org2bad845"></a> Minto B (2002). The Pyramid Principle.
+<a id="orgaa0cbe0"></a> Minto B (2002). The Pyramid Principle.
 
 Harrison Metal (2014). Storytelling & Presenting 1: Thank You,
 Barbara Minto [video]. [Online: vimeo.com](https://vimeo.com/87537935)
 
-<a id="org25d23ac"></a> Power-user (Jul 31, 2016). Give a brilliant structure to
+<a id="org099264e"></a> Power-user (Jul 31, 2016). Give a brilliant structure to
 your presentations with the Pyramid Principle [website]. [Online:
 powerusersoftwares.com](https://www.powerusersoftwares.com/post/2016/07/31/give-a-brilliant-structure-to-your-presentations-with-the-pyramid-principle)
 
-<a id="org810a682"></a> Stella J (Nov 11, 2015). A CEO's Guide to Emacs
+<a id="orgc0a97cb"></a> Stella J (Nov 11, 2015). A CEO's Guide to Emacs
 [blog]. [Online: fugue.co](https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html).
 
 
@@ -1141,7 +1153,7 @@ repo, you'll be notified so that you can follow the change ("fetch
 upstream").
 
 <sup><a id="fn.14" href="#fnr.14">14</a></sup> Here is an enthusiastic review and tutorial called "[A CEO's
-Guide To Emacs](https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html)" ([Stella, 2015](#org810a682)), which you might enjoy reading. The
+Guide To Emacs](https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html)" ([Stella, 2015](#orgc0a97cb)), which you might enjoy reading. The
 author is (was?) the CEO of Fugue, a cloud security platform.
 
 <sup><a id="fn.15" href="#fnr.15">15</a></sup> This would work for any language that Emacs supports, which is
