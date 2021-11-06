@@ -764,7 +764,12 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 * What's the difference between an essay and an EDA report?
 
   This is relevant if you deliver a presentation in connection with a
-  data science notebook that includes code, text, and program output.
+  data science notebook that includes code, text, and program output
+  (see image below - screenshot excerpt from a notebook submission on
+  Kaggle).
+
+  #+attr_html: :width 600px
+  [[./img/nb.png]]
 
   For the report, the same criteria apply as for the final essay, wher
   the code part is your "empirical study".
