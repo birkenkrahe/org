@@ -742,12 +742,13 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
 * What do we have to deliver for the final essay or presentation?
 
+  You have to deliver these items before you can get a grade from me.
+  
   * The essay, presentation or report and all accompanying material
-    (if any) are uploaded to the respective GitHub folder *before the
-    presentation*.
+    (if any) are uploaded to the respective GitHub folder.
+    presentation*, o.
   * All authors must fill in the application form shown below,
-    print their names, sign, date and add "pledged" on their line
-    before they can get an official grade from me.
+    print their names, sign, date and add "pledged" on their line.
   * For a presentation, all team members must be present and
     contributing during the presentation, both as presenters and by
     answering questions.
