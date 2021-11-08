@@ -120,6 +120,7 @@ about your internship.
 
 -   King, C Programming-A Modern Approach (2e), Norton
     (2008). ISBN: 9780393979503, 04/18/2008.
+-   Fairhead, Raspberry Pi IoT in C. I/O Press (2016).
 -   Seacord, Effective C, NoStarch (2021)
 -   Stroustrup, Principles of Programming in C++, Addison-Wesley (2014)
 
