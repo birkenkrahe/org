@@ -1,19 +1,20 @@
 
 # Table of Contents
 
-1.  [My Spring 2022 courses](#org1399fca)
-    1.  [CSC 100 - Introduction to Programming with C/C++](#orgcb12d41)
-    2.  [DSC 205 - Introduction to Advanced Data Science](#org9022f67)
-    3.  [CSC 330 - Database Theory and Applications](#org3482bf1)
-    4.  [CSC 420 - Operating Systems](#org3c3bbd9)
-    5.  [Textbooks](#orgdbdb642)
-        1.  [CSC 100](#orgf0a73e9)
-        2.  [DSC 205](#org31788fe)
-        3.  [CSC 330](#org80b0705)
-        4.  [CSC 420](#org507e0a9)
+1.  [My Spring 2022 courses](#org430bbeb)
+    1.  [CSC 100 - Introduction to Programming with C/C++](#org5c71e90)
+    2.  [DSC 205 - Introduction to Advanced Data Science](#org2e649ce)
+    3.  [CSC 330 - Database Theory and Applications](#orgbbdf543)
+    4.  [CSC 420 - Operating Systems](#org89109c7)
+    5.  [CSC 301/401 - Junior/Senior Internship](#org24fc347)
+    6.  [Textbooks](#orgb849293)
+        1.  [CSC 100](#orge45d6f6)
+        2.  [DSC 205](#orgf7ac1bb)
+        3.  [CSC 330](#org8f16524)
+        4.  [CSC 420](#orgdf96b0b)
 
 
-<a id="org1399fca"></a>
+<a id="org430bbeb"></a>
 
 # My Spring 2022 courses
 
@@ -26,7 +27,7 @@ All course titles and numbers are compliant with the [2021-2022 Lyon
 Course Catalog](https://catalog.lyon.edu/).
 
 
-<a id="orgcb12d41"></a>
+<a id="org5c71e90"></a>
 
 ## CSC 100 - Introduction to Programming with C/C++
 
@@ -41,7 +42,7 @@ computational, critical thinking in concert with one of the three
 most popular languages (the other two are Python and Java).
 
 
-<a id="org9022f67"></a>
+<a id="org2e649ce"></a>
 
 ## DSC 205 - Introduction to Advanced Data Science
 
@@ -58,7 +59,7 @@ R!" on GitHub. However, this is not an R course, but a course on
 predictive algorithms and applications.
 
 
-<a id="org3482bf1"></a>
+<a id="orgbbdf543"></a>
 
 ## CSC 330 - Database Theory and Applications
 
@@ -73,7 +74,7 @@ application, accessed with your programming language of choice -
 C, C++, Java, Python, R, or whatever.
 
 
-<a id="org3c3bbd9"></a>
+<a id="org89109c7"></a>
 
 ## CSC 420 - Operating Systems
 
@@ -90,46 +91,70 @@ and powerful when working on your computer. A worthwhile
 investment!
 
 
-<a id="orgdbdb642"></a>
+<a id="org24fc347"></a>
+
+## CSC 301/401 - Junior/Senior Internship
+
+The internship course supports you during your internship. An
+internship is like a field test of your abilities, and often
+challenges you in unforeseen ways. It's like a real job (ideally,
+you'll be paid), and then it's not like a real job (you're still a
+student). My course is designed to teach you assertiveness skills,
+help you articulate your goals, keep you focused on your next
+career steps, and generally help you understand what it means to
+be a skilled, networked professional. The course is open to all
+students, not just computer science and data science students. In
+practice, we'll meet weekly for an hour, you'll write short,
+weekly blog posts about your experiences, and give a presentation
+about your internship.
+
+
+<a id="orgb849293"></a>
 
 ## Textbooks
 
 
-<a id="orgf0a73e9"></a>
+<a id="orge45d6f6"></a>
 
 ### CSC 100
 
--   King, C Programming-A Modern Approach (2e), Norton (2008)
+-   King, C Programming-A Modern Approach (2e), Norton
+    (2008). ISBN: 9780393979503, 04/18/2008.
 -   Seacord, Effective C, NoStarch (2021)
 -   Stroustrup, Principles of Programming in C++, Addison-Wesley (2014)
 
 
-<a id="org31788fe"></a>
+<a id="orgf7ac1bb"></a>
 
 ### DSC 205
 
+-   Matloff, The Art of Machine Learning, NoStarch (2022). ISBN:
+    9781718502109, 04/2022.
 -   Glassner, Deep Learning-A Visual Approach, NoStarch (2021)
 -   Matloff, The Art of R Programming, NoStarch (2011)
--   Matloff, The Art of Machine Learning, NoStarch (2022)
 
 
-<a id="org80b0705"></a>
+<a id="org8f16524"></a>
 
 ### CSC 330
 
--   Baesens et al, Principles of Database Management, Cambridge U
-    Press (2018)
--   Kreibich, SQLite - Small. Fast. Reliable. Choose Any
-    Three. O'Reilly (2010)
+-   Baesens/Lemahieu/vander Broucke, Principles of Database
+    Management, Cambridge University Press (2018). ISBN:
+    9781107186125, 08/30/2018.
 -   DeBarros, Practical SQL - A Beginner's Guide to Storytelling
     with Data, NoStarch (2018)
+-   Kreibich, SQLite - Small. Fast. Reliable. Choose Any
+    Three. O'Reilly (2010)
 
 
-<a id="org507e0a9"></a>
+<a id="orgdf96b0b"></a>
 
 ### CSC 420
 
--   Anderson et al, Operating Systems: Principles and Practice
+-   Vanderbauwhede/Singer, Operating Systems with Linux on the
+    Raspberry Pi: Textbook, ARM Education Media (2019). ISBN:
+    9781911531203, 12/01/2019.
+-   Anderson/Dahlin, Operating Systems: Principles and Practice
     (2e), Recursive (2015)
 -   Ruckert, MMIX Supplement, Addison-Wesley (2015)
 -   Silberschatz et al, Operating System Concepts (10e), Wiley (2021)
