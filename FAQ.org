@@ -743,7 +743,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 * What do we have to deliver for the final essay or presentation?
 
   You have to deliver these items before you can get a grade from me.
-  
+
   * The essay, presentation or report and all accompanying material
     (if any) are uploaded to the respective GitHub folder.
     presentation*, o.
@@ -754,28 +754,28 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
     answering questions.
 
   #+attr_html: :width 600px
-  [[./img/pledge.png]]     
-   
+  [[./img/pledge.png]]
+
 * How is the final essay graded?
 
- The image below shows the assessment template for the final
- essay. This is essentially a template based on the IMRaD structure
- used for all scientific publications - journal or conference papers,
- essays, reports, whitepapers, bachelor, master or PhD theses.
+  The image below shows the assessment template for the final
+  essay. This is essentially a template based on the IMRaD structure
+  used for all scientific publications - journal or conference papers,
+  essays, reports, whitepapers, bachelor, master or PhD theses.
 
- #+attr_html: :width 600px
- [[./img/essay.png]]
+  #+attr_html: :width 600px
+  [[./img/essay.png]]
 
- There is a complete rubric behind these categories, which you could
- use as a checklist. [[https://drive.google.com/file/d/1rg8-n_cOACi0FTACdH1zYMNuMeWueMPy/view?usp=sharing][Here is the link to the PDF.]] For the essay, only
- section D "Report" of this rubric is directly relevant (image shows
- a screenshot excerpt).
+  There is a complete rubric behind these categories, which you could
+  use as a checklist. [[https://drive.google.com/file/d/1rg8-n_cOACi0FTACdH1zYMNuMeWueMPy/view?usp=sharing][Here is the link to the PDF.]] For the essay, only
+  section D "Report" of this rubric is directly relevant (image shows
+  a screenshot excerpt).
 
- #+attr_html: :width 600px
- [[./img/rubric.png]]
+  #+attr_html: :width 600px
+  [[./img/rubric.png]]
 
- You should know what type of final product you must submit to pass
- the course. If in doubt, check the syllabus or ask me directly!
+  You should know what type of final product you must submit to pass
+  the course. If in doubt, check the syllabus or ask me directly!
 
 * What's the difference between an essay and an EDA report?
 
@@ -795,11 +795,11 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
 * References
 
-  <<birk14>> [[https://drive.google.com/file/d/0B9ubV5NfnNPpdlNycWxkaTFQc1k/view?usp=sharing][Birkenkrahe M (2014). Using Storytelling Methods To
+  <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
   Improve Emotion, Motivation and Attitude Of Students Writing
   Scientific Papers And Theses. In: Proceedings of the 13th IEEE
   Int. Conf. on Cognitive Informatics & Cognitive Computing, London,
-  August 18-20, 2014.]]
+  August 18-20, 2014. [[https://drive.google.com/file/d/0B9ubV5NfnNPpdlNycWxkaTFQc1k/view?usp=sharing][URL: researchgate.net]]
 
   <<birk>> Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
   1 - Introductory stories. [[https://youtu.be/HrmBZQuCSzo][Online: youtube.com.]]
