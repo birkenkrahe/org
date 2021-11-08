@@ -12,7 +12,11 @@ To be up to date, you should fork this repo to your own GitHub space
 and fetch upstream when your repo is behind.
 
 
-# Short introduction to my upcoming courses
+# [Short introduction to my upcoming courses](https://github.com/birkenkrahe/org/blob/master/spring22.md)
+
+A short introduction to upcoming courses in Spring term 2022. Please
+ask if anything here is unclear. Full information will be available
+in the syllabi.
 
 
 # [Frequently Asked Questions](https://github.com/birkenkrahe/org/blob/master/FAQ.md)
