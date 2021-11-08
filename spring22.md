@@ -118,8 +118,8 @@ about your internship.
 
 ### CSC 100
 
--   King, C Programming-A Modern Approach (2e), Norton
-    (2008). ISBN: 9780393979503, 04/18/2008.
+-   **King, C Programming-A Modern Approach (2e), Norton
+    (2008). ISBN: 9780393979503, 04/18/2008.**
 -   Fairhead, Raspberry Pi IoT in C. I/O Press (2016).
 -   Seacord, Effective C, NoStarch (2021)
 -   Stroustrup, Principles of Programming in C++, Addison-Wesley (2014)
@@ -129,8 +129,8 @@ about your internship.
 
 ### DSC 205
 
--   Matloff, The Art of Machine Learning, NoStarch (2022). ISBN:
-    9781718502109, 04/2022.
+-   **Matloff, The Art of Machine Learning, NoStarch (2022). ISBN:
+    9781718502109, 04/2022.**
 -   Glassner, Deep Learning-A Visual Approach, NoStarch (2021)
 -   Matloff, The Art of R Programming, NoStarch (2011)
 
@@ -139,9 +139,9 @@ about your internship.
 
 ### CSC 330
 
--   Baesens/Lemahieu/vander Broucke, Principles of Database
+-   **Baesens/Lemahieu/vander Broucke, Principles of Database
     Management, Cambridge University Press (2018). ISBN:
-    9781107186125, 08/30/2018.
+    9781107186125, 08/30/2018.**
 -   DeBarros, Practical SQL - A Beginner's Guide to Storytelling
     with Data, NoStarch (2018)
 -   Kreibich, SQLite - Small. Fast. Reliable. Choose Any
@@ -152,9 +152,9 @@ about your internship.
 
 ### CSC 420
 
--   Vanderbauwhede/Singer, Operating Systems with Linux on the
+-   **Vanderbauwhede/Singer, Operating Systems with Linux on the
     Raspberry Pi: Textbook, ARM Education Media (2019). ISBN:
-    9781911531203, 12/01/2019.
+    9781911531203, 12/01/2019.**
 -   Anderson/Dahlin, Operating Systems: Principles and Practice
     (2e), Recursive (2015)
 -   Ruckert, MMIX Supplement, Addison-Wesley (2015)
