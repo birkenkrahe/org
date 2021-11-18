@@ -878,8 +878,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   <<bps>> Berlin Professional School (BPS). Presentation Assessment
   Form.
 
-  <<gookin>> Gookin D (2021). Tiny C Projects. Manning. URL: [[
- https://www.manning.com/books/tiny-c-projects][manning.com]].
+  <<gookin>> Gookin D (2021). Tiny C Projects. Manning. URL: [[https://www.manning.com/books/tiny-c-projects][manning.com]].
   
   <<minto>> Minto B (2002). The Pyramid Principle.
 
