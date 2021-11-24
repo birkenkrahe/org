@@ -670,10 +670,13 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 * How should we prepare for the final presentation?
 ** Timing
 
-   The final presentation is a presentation of 30-45 minutes (for a
-   team of 2-3), or 20 minutes (for an individual presenter), including
-   discussion. The exact timing depends on the course setting (number
-   of total presentations and available time). Ask me in class!
+   +The final presentation is a presentation of 30-45 minutes (for a team of 2-3), or 20 minutes (for an individual presenter), including discussion. The exact timing depends on the course setting (numberof total presentations and available time). Ask me in class!+
+
+   In fall 2021, presentations are not time-limited: they should be as
+   long as you need to get your topic across. If you have little,
+   they'll be short, if you have a lot, you might have to select what
+   to present.
+   
 ** Grading
    The final presentation is graded. I give a percentage grade that
    you can translate to a letter grade if you like using the grading
@@ -746,7 +749,6 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   * The essay, presentation or report and all accompanying material
     (if any) are uploaded to the respective GitHub folder.
-    presentation*, o.
   * All authors must fill in the application form shown below,
     print their names, sign, date and add "pledged" on their line.
   * For a presentation, all team members must be present and
@@ -859,7 +861,6 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    When saving this menu with ~OK~, you'll be prompted to restart the
    computer. After you did this, you should be able to boot Linux
    using the app.
-
 
 * References
 
