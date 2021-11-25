@@ -813,6 +813,9 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   Which of these is for you also depends on your computer. I have
   found the Microsoft Ubuntu app to be easy to use (as of November
   2021). I found out about this from [[gookin][Gookin (2021)]].
+
+  Update November 25, 2021: here is another complete [[https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview][installation
+  tutorial]] from the makers of the app ([[ubuntu][Morrison, 2021]]).
   
 ** Download Linux
 
@@ -894,6 +897,9 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   <<stella>> Stella J (Nov 11, 2015). A CEO's Guide to Emacs
   [blog]. [[https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html][Online: fugue.co]].
 
+  <<ubuntu>> Morrison G (2021). Ubuntu on Windows 10 [website]. [[https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview][URL:
+  ubuntu.com/tutorials/ubuntu-on-windows]]
+  
 * Footnotes
 
 [fn:27]Logical structure means e.g. that the Minto pyramid rules are
