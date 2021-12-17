@@ -411,6 +411,15 @@
   Linux
   #+end_quote
 
+* Thanks! (End of fall 2021)
+
+  I've recorded a short [[https://youtu.be/IxyqEW9-12s][good-bye video]] and distributed detailed end of
+  course notes for each of my three classes, my first term at
+  Lyon. Looking forward to spring 2022!
+
+  #+attr_html: :width 500px
+  [[./img/awesome.png]]
+
 * References
 
   <<wired>> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
