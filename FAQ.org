@@ -676,7 +676,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    long as you need to get your topic across. If you have little,
    they'll be short, if you have a lot, you might have to select what
    to present.
-   
+
 ** Grading
    The final presentation is graded. I give a percentage grade that
    you can translate to a letter grade if you like using the grading
@@ -802,7 +802,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   Science). For computer scientists, some knowledge of Linux and shell
   commands is important. There are different ways to get Linux on your
   machine:
-  
+
   1) As dual boot setup - when starting your computer, you can opt for
      either Windows or Linux.
   2) Using Linux on a virtual box inside Windows.
@@ -816,7 +816,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   Update November 25, 2021: here is another complete [[https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview][installation
   tutorial]] from the makers of the app ([[ubuntu][Morrison, 2021]]).
-  
+
 ** Download Linux
 
    Type ~Microsoft store~ in the search bar (next to the task bar),
@@ -865,6 +865,59 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    computer. After you did this, you should be able to boot Linux
    using the app.
 
+* How can I get Linux tools under Windows 10?
+
+  * Cygwin is a large collection of GNU and Open Source tools which
+    provide a functionality similar to GNU/Linux on Windows.
+  * Programs appear as part of a drive called ~cygdrive~. The
+    distribution consists of an executable ~setup.exe~ and a ~.dll~
+    file (Windows' dynamically linked library file type).
+  * To run /native/ Linux apps on cygwin, they must be compiled from
+    the source.
+
+      #+begin_quote
+      [[./img/cygwin.png]]
+      #+end_quote
+      /Image: screenshot of the cygwin terminal command ~pwd~/
+
+** Download and Installation      
+
+   * Go to the [[https://cygwin.com/install.html][Cygwin install page]] and download [[https://cygwin.com/setup-x86_64.exe][~setup-x86_64.exe~]]
+   * Run ~setup-x86_64.exe~ and accept all settings until you come to
+     the package selection screen.
+
+   #+attr_html: :width 500px
+   [[./img/cygwin1.png]]
+
+   Choose ~Full~ in the ~View~ menu on the upper left, then continue
+   with ~Next~ until the installation is finished. Agree to put the
+   launcher into startup and a shortcut on the desktop[fn:2].
+
+   #+attr_html: :width 500px
+   [[./img/cygwin2.png]]
+
+** Using cygwin
+
+   * Start ~cygwin~ by executing the launcher. A terminal window (also
+     called Command Line or shell) opens. You can now use many
+     programs that Linux users have, too. Most importantly for our
+     purposes, you have ~gcc~, the GNU compiler bundle. To test this,
+     execute the following commands (press ~Enter~ after each
+     command).
+
+   #+attr_html: :width 500px
+   [[./img/cygwin3.png]]
+
+   * To close cygwin, close the window or enter ~exit~ on the command
+     line.
+
+   * To update or install cygwin, start the ~setup-x68_64.exe~ program
+     again add missing programs, or uninstall them, in the
+     installation menu. [[https://youtu.be/VyIY8cjn9xY][Here is a good video]] (MacDonald, 2020)
+     explaining how to do that from the command line with a few
+     keystrokes - a good illustration for the power of the command
+     line.
+
 * References
 
   <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
@@ -884,7 +937,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   <<gookin>> Gookin D (2021). Tiny C Projects. Manning. URL:
   [[https://www.manning.com/books/tiny-c-projects][manning.com]].
-  
+
   <<minto>> Minto B (2002). The Pyramid Principle.
 
   Harrison Metal (2014). Storytelling & Presenting 1: Thank You,
@@ -899,7 +952,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   <<ubuntu>> Morrison G (2021). Ubuntu on Windows 10 [website]. [[https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview][URL:
   ubuntu.com/tutorials/ubuntu-on-windows]]
-  
+
 * Footnotes
 
 [fn:27]Logical structure means e.g. that the Minto pyramid rules are
