@@ -25,7 +25,8 @@
      idea of what's being said. For scientific papers: read abstract,
      then (if still interesting) go to the conclusions at the end.
 
-     [[https://github.com/birkenkrahe/org/blob/master/img/ai_shallow.gif]]
+     #+attr_html: :width 600px
+     [[./img/ai_shallow.gif]]
 
   2) *Shallow reading:* read through the whole text slowly, without
      too many breaks[fn:3], in order to get a general picture and
@@ -67,7 +68,8 @@
      Thinking]]", which I used to prepare a lesson in a new course on
      "data modeling":
 
-     [[https://github.com/birkenkrahe/org/blob/master/img/ai_notes.jpg]]
+     #+attr_html: :width 600px
+     [[./img/ai_notes.jpg]]
 
   5) *Reading with props:* Often, especially in computer science,
      writing about concepts, and making computations by hand, is not
@@ -84,9 +86,11 @@
      Intelligence - a Modern Approach]]" (AIMA) and the corresponding
      "reading with props" notes in the Emacs editor.
 
-  https://github.com/birkenkrahe/org/blob/master/img/ai_aima.jpg
+     #+attr_html: :width 600px
+     [[./img/ai_aima.jpg]]
 
-  https://github.com/birkenkrahe/org/blob/master/img/ai_emacs.png
+     #+attr_html: :width 600px
+     [[./img/ai_emacs.png]]
 
   6) *Re-reading:* I often have to do this, because my memory is
      leaky. Re-reading is like skimming (1) except that I (should)
@@ -446,11 +450,11 @@
   Here is a 2021 "[[https://ess-intro.github.io/][Introduction to Emacs Speaks Statistics]]" site with
   lots of additional information.
 
-  The figure [[fig:emacs]] shows four (out of an arbitrary number of)
-  panels inside the editor
+  The figure shows four (out of an arbitrary number of) panels inside
+  the editor
 
-  #+name: fig:emacs
-  https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png
+  #+attr_html: :width 600px
+  [[./img/panels.png]]
 
 * How can I install Emacs as a data science IDE on Windows 10?
 
@@ -1279,12 +1283,6 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
     #+NAME: fig:trend
     #+ATTR_HTML: :width 600px
     [[./img/trend.png]]
-
-    And here is the same image inserted as a URL (in the markdown file
-    on GitHub, ~setup.md~, this link will be rendered as an image, but
-    not in the ~setup.org~ file):
-
-    file:https://github.com/birkenkrahe/cc100/blob/main/2_installation/img/trend.png
 
     And here is the link to the image - when viewing ~setup.org~ in
     Emacs, you can open links with ~C-c C-o~ (~org-open-at-point~). 
