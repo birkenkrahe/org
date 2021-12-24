@@ -1,0 +1,178 @@
+#+options toc:nil
+#+startup: hideblocks overview
+<<setup.org>>
+* Install R
+** Windows  
+  * Download the latest package from [[https://cran.r-project.org/][CRAN]].
+  * Run the installer - accept all presets.
+  * Add the location of the executable file ~R~ to the Windows ~PATH~
+    (~C:\Program Files\R\R-4.1.2\bin\x64~[fn:1]).    
+    - Search for ~PATH~ and open the menu ~System Properties~
+
+      #+attr_html: :width 300px
+      [[./img/systemproperties.png]]
+
+    - Open the menu ~Environment Variables~, click on the ~PATH~
+      variable and choose ~Edit~
+
+      #+attr_html: :width 300px
+      [[./img/path.png]]
+
+    - Click on ~New~ and paste the path ~C:\Program
+      Files\R\R-4.1.2\bin\x64~ into the empty line[fn:2]. Confirm three
+      times with ~OK~ to close all menus.
+
+      #+attr_html: :width 300px
+      [[./img/environmentvariable.png]]
+      
+    - To test, search for ~CMD~, open a terminal and enter ~R~. The R
+      program opens. At the ~>~ prompt, enter ~hist(Nile)~. The
+      histogram below should open in a new screen. Close the window.
+
+      #+attr_html: :width 300px
+      [[./img/histogram.png]]
+
+** MacOS
+   * Download the latest package from [[https://cran.r-project.org/][CRAN]].
+   * Open the ~.pkg~ binary - accept all presets.
+   * To test, search for ~terminal~, open the app and enter ~R~. The R
+     program opens. At the ~>~ prompt, enter ~hist(Nile)~. The
+     histogram below should open in a new screen. Close the window.
+
+      #+attr_html: :width 300px
+      [[./img/histogram.png]]
+
+    * You can now use the R console. I explain below how to run R
+      inside the Emacs editor so that you can create notebooks.
+
+* Install a C compiler
+** Windows
+  * Download the installer [[https://sourceforge.net/projects/mingw-w64/][from sourceforge]].
+  * Run the installer - accept all presets.
+  * Add the location of the executable file ~gcc~ to the Windows
+    ~PATH~ (~C:\Program Files
+    (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin~[fn:1]):
+
+    - Search for ~PATH~ and open the menu ~System Properties~
+
+      #+attr_html: :width 300px
+      [[./img/systemproperties.png]]
+
+    - Open the menu ~Environment Variables~, click on the ~PATH~
+      variable and choose ~Edit~
+
+      #+attr_html: :width 300px
+      [[./img/path.png]]
+
+    - Click on ~New~ and paste the path ~C:\Program Files
+    (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin~
+    into the empty line. Confirm three times with ~OK~ to close all
+    menus.
+
+    #+attr_html: :width 300px
+    [[./img/environmentvariable.png]]
+      
+    - To test, search for ~CMD~, open a terminal and enter ~gcc
+      --version~ - you should get the output shown below. Close the
+      window.
+
+      #+attr_html: :width 300px
+      [[./img/gcc.png]]
+
+** MacOS
+
+   Apple no longer allows GNU tools - instead, you can install the
+   Clang compiler.
+
+   * Check if you already have a C compiler: open a terminal (search
+     for ~terminal~ app) and enter ~cc -v~.
+   * If no compiler is found, download it by entering ~xcode-select
+     --install~
+   * Test it by typing ~cc -v~.
+
+     [[./img/cc.png]]
+     
+* Install SQLite
+** Windows
+
+** MacOS
+
+   * Go to the [[https://sqlite.org/download.html][download page]] and download the ~.zip~ bundle for MacOS
+     (x86).
+     
+     #+attr_html: :width 300px
+     [[./img/sqlite.png]]
+
+   * Double-click the ~.zip~ file to open it.
+   * Right-click on the executable file ~sqlite3~ and confirm that you
+     want to open it. Now SQLite will open in a new terminal window.
+
+     #+attr_html: :width 300px
+     [[./img/sqlite.png]]
+
+   * You can also type ~sqlite3~ in a terminal to open the console.
+     
+* Install Emacs
+** Download and Installation for Windows
+
+   * Download GNU Emacs + ESS as a modified version for [[https://vigou3.gitlab.io/emacs-modified-windows/][Windows]].
+   * Run the installer - accept all presets.
+   * Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
+   * Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
+   
+** Download and Installation for MacOS
+
+   * Download GNU Emacs + ESS as a modified version for [[https://vigou3.gitlab.io/emacs-modified-macos/][MacOS]].
+   * Run the installer - accept all presets.
+   * Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
+   * Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
+
+* Customize Emacs
+
+  GNU Emacs is much more than a text editor and an IDE. It's more like
+  an operating system inside your operating system. Among the many
+  things that Emacs is capable of, we only need one for this class:
+  the ability to create and run interactive notebooks.
+
+  This will give you the power of Jupyter notebooks or Colaboratory on
+  your computer, and you can share notebooks with anyone, who has
+  Emacs.
+  
+** Create configuration file
+
+   To create interactive computing notebooks in Emacs, we use the
+   [[https://orgmode.org/][Org-mode]] and [[https://orgmode.org/worg/org-contrib/babel/intro.html][Babel]] packages. Both are already installed in your
+   version of Emacs, but you have to tell Babel, which languages you
+   want to work with. 
+
+   Customization like this is done with a configuration file ~.emacs~,
+   which is placed in your home directory (~~/~~). Where this folder
+   is actually located on your computer depends on your operating
+   system.
+
+   Download the configuration file [[https://github.com/birkenkrahe/cc100/blob/main/2_installation/.emacs][from GitHub]].
+   
+** Create sample notebook
+
+   To create a notebook, create an ~.org~ file. Then type ~C-c C-,~
+   and select your chunk from the list. You can also abbreviate this
+   by entering ~<s~ on any line.
+
+   Check out [[./babel.org]] for examples with both R and C code in the
+   same file[fn:3]. 
+
+* Footnotes
+
+[fn:3]This link also shows you how to link notebooks. You can set a
+link anywhere (inside Emacs or Internet) with ~C-c C-l~. If the target
+is another file, that file needs to be found (the path must be
+correct), and an anchor with the link name must be put into the file,
+in this case, the link is ~~/.babel.org~, and the anchor is
+~<<babel.org>>~
+
+[fn:2]The best way is to find the folder in the file explorer and copy
+the address as text:
+[[./img/address.png]]
+
+[fn:1]The version number of R will change for new or different
+versions of the program.
