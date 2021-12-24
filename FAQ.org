@@ -918,7 +918,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      keystrokes - a good illustration for the power of the command
      line.
 
-* How to install R
+* How to install R under Windows and MacOS
 ** Windows
    * Download the latest package from [[https://cran.r-project.org/][CRAN]].
    * Run the installer - accept all presets.
@@ -961,7 +961,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
      * You can now use the R console. I explain below how to run R
        inside the Emacs editor so that you can create notebooks.
-* How to install a C compiler
+* How to install a C compiler under Windows and MacOS
 ** Windows
    * Download the installer [[https://sourceforge.net/projects/mingw-w64/][from sourceforge]].
    * Run the installer - accept all presets.
@@ -1007,7 +1007,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    * Test it by typing ~cc -v~.
 
      [[./img/cc.png]]
-* How to install SQLite
+* How to install SQLite under Windws and MacOS
 ** Windows
 
 ** MacOS
@@ -1026,7 +1026,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      [[./img/sqlite.png]]
 
    * You can also type ~sqlite3~ in a terminal to open the console.
-* How to install Emacs
+* How to install Emacs (+ESS) under Windows and MacOS
 ** Download and Installation for Windows
 
    * Download GNU Emacs + ESS as a modified version for [[https://vigou3.gitlab.io/emacs-modified-windows/][Windows]].
@@ -1040,7 +1040,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    * Run the installer - accept all presets.
    * Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
    * Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
-* How to customize Emacs
+* How to customize GNU Emacs
 
   GNU Emacs is much more than a text editor and an IDE. It's more like
   an operating system inside your operating system. Among the many
