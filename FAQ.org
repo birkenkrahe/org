@@ -1056,6 +1056,17 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   applications. Org-mode is especially popular among scientists, and
   among these, physicists (my original tribe), who developed it.
 
+    And here is an excellent video tutorial by someone who is also
+  getting started with Emacs for the first time like you:
+  
+  * [[https://youtu.be/48JlgiBpw_I][The Absolute Beginner's Guide to Emacs]] (System Crafters, 2021) -
+    1hr30min.
+
+  And here is a (much shorter) video by a former user of the Vim
+  editor who switches to GNU Emacs:
+
+  * [[https://youtu.be/Y8koAgkBEnM][Switching to GNU Emacs]] (DistroTube, 2019) - 22 min.
+
 ** Create configuration file
 
    To create interactive computing notebooks in Emacs, we use the
@@ -1305,6 +1316,9 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   <<bps>> Berlin Professional School (BPS). Presentation Assessment
   Form.
 
+  DistroTube (). Switching to GNU Emacs [video]. [[https://youtu.be/Y8koAgkBEnM][URL:
+  youtu.be/Y8koAgkBEnM]].
+    
   <<gookin>> Gookin D (2021). Tiny C Projects. Manning. URL:
   [[https://www.manning.com/books/tiny-c-projects][manning.com]].
 
@@ -1319,6 +1333,9 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   <<stella>> Stella J (Nov 11, 2015). A CEO's Guide to Emacs
   [blog]. [[https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html][Online: fugue.co]].
+
+  System Crafters (Mar 8, 2021). The Absolute Beginner's Guide to
+  Emacs [video]. [[https://youtu.be/48JlgiBpw_I][URL: youtu.be/48JlgiBpw_I]].
 
   <<ubuntu>> Morrison G (2021). Ubuntu on Windows 10 [website]. [[https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview][URL:
   ubuntu.com/tutorials/ubuntu-on-windows]]

@@ -1,40 +1,40 @@
 
 # Table of Contents
 
-1.  [What is this?](#org0f2a056)
-2.  [How should you read?](#org9535793)
-3.  [How can you read more research papers?](#org5d4dcf8)
-4.  [Why are we using GitHub?](#org65d8d98)
-5.  [What is version control?](#orgc7dc93f)
-6.  [How should you use GitHub?](#org0d651f6)
-7.  [What is a sprint review?](#orge7d51de)
-8.  [What do I need to deliver at a sprint review?](#orgc26de65)
-9.  [What should we do in the first sprint?](#orgdb7ef06)
-10. [What should we do in the second sprint?](#org51b138b)
-11. [How do you report on and plan a research "method"?](#org688c41e)
-12. [What should we do in the third sprint?](#orgbbb34aa)
-13. [What should we do in the fourth sprint?](#orga747e5b)
-14. [Where I can find out more about "IMRaD"?](#orge5efb9f)
-15. [Which editor and IDE do you use?](#orgd4d9b3c)
-16. [How can I install Emacs as a data science IDE on Windows 10?](#orge731742)
-17. [How to use GitHub Desktop to backup your code to GitHub](#org8951605)
-18. [How can you always create a great presentation?](#org76e8e25)
-19. [How should we prepare for the final presentation?](#org00d6b8d)
-20. [What do we have to deliver for the final essay or presentation?](#org18a268c)
-21. [How is the final essay graded?](#org5d888b1)
-22. [What's the difference between an essay and an EDA report?](#orgf3ca65e)
-23. [How can I install Linux under Windows 10?](#org1735f8a)
-24. [How can I get Linux tools under Windows 10?](#org748371a)
-25. [How to install R under Windows and MacOS](#org9d51d8a)
-26. [How to install a C compiler under Windows and MacOS](#org36c03ca)
-27. [How to install SQLite under Windws and MacOS](#orge56b764)
-28. [How to install Emacs (+ESS) under Windows and MacOS](#orga5c2ee9)
-29. [How to customize GNU Emacs](#orgc5bac04)
-30. [References](#org5c5a198)
+1.  [What is this?](#orgdcb5c2c)
+2.  [How should you read?](#org3a9ad2a)
+3.  [How can you read more research papers?](#org7630583)
+4.  [Why are we using GitHub?](#orgad53939)
+5.  [What is version control?](#org4577f16)
+6.  [How should you use GitHub?](#orgc2ffd13)
+7.  [What is a sprint review?](#org1cf441f)
+8.  [What do I need to deliver at a sprint review?](#orgaaeb879)
+9.  [What should we do in the first sprint?](#org8328ef6)
+10. [What should we do in the second sprint?](#orgbcdcc09)
+11. [How do you report on and plan a research "method"?](#orga006f8a)
+12. [What should we do in the third sprint?](#org01923ab)
+13. [What should we do in the fourth sprint?](#org94765d5)
+14. [Where I can find out more about "IMRaD"?](#org85a15db)
+15. [Which editor and IDE do you use?](#orgf4fb0f5)
+16. [How can I install Emacs as a data science IDE on Windows 10?](#orge304f26)
+17. [How to use GitHub Desktop to backup your code to GitHub](#org48948cd)
+18. [How can you always create a great presentation?](#org2791849)
+19. [How should we prepare for the final presentation?](#org53f985e)
+20. [What do we have to deliver for the final essay or presentation?](#orga786a44)
+21. [How is the final essay graded?](#orge3ff4fc)
+22. [What's the difference between an essay and an EDA report?](#org92a52ce)
+23. [How can I install Linux under Windows 10?](#org0949642)
+24. [How can I get Linux tools under Windows 10?](#orgd59711a)
+25. [How to install R under Windows and MacOS](#org79cde12)
+26. [How to install a C compiler under Windows and MacOS](#orga3d6f39)
+27. [How to install SQLite under Windws and MacOS](#orga49ea48)
+28. [How to install Emacs (+ESS) under Windows and MacOS](#org8382995)
+29. [How to customize GNU Emacs](#org34190f7)
+30. [References](#orgfc2db9f)
 
 
 
-<a id="org0f2a056"></a>
+<a id="orgdcb5c2c"></a>
 
 # What is this?
 
@@ -42,7 +42,7 @@ This is a Frequently Asked Questions (FAQ) file for all my courses
 at Lyon College. For individual FAQs, see the resp. course repos.
 
 
-<a id="org9535793"></a>
+<a id="org3a9ad2a"></a>
 
 # How should you read?
 
@@ -159,7 +159,7 @@ props; (6) re-reading. What are these about?
     reading and note-taking only took me an hour!
 
 
-<a id="org5d4dcf8"></a>
+<a id="org7630583"></a>
 
 # How can you read more research papers?
 
@@ -200,7 +200,7 @@ The final advice is excellent: you only get better at reading papers
 by reading papers!
 
 
-<a id="org65d8d98"></a>
+<a id="orgad53939"></a>
 
 # Why are we using GitHub?
 
@@ -228,7 +228,7 @@ data, for better workflow control (with [GitHub actions](https://docs.github.com
 data science (e.g. via [GHTorrent](https://ghtorrent.org/) and [GH Archive](https://www.gharchive.org/)).
 
 
-<a id="orgc7dc93f"></a>
+<a id="org4577f16"></a>
 
 # What is version control?
 
@@ -247,7 +247,7 @@ etc. carries over from other version control systems. Here is a
 [direct comparison of CVS and Git](https://www.linkedin.com/pulse/difference-between-git-cvs-ahmed-el-emam/) (2017).
 
 
-<a id="org0d651f6"></a>
+<a id="orgc2ffd13"></a>
 
 # How should you use GitHub?
 
@@ -273,7 +273,7 @@ projects using a simple Kanban board (or define a more complicated
 workflow if you like). I will show all of this in class.
 
 
-<a id="orge7d51de"></a>
+<a id="org1cf441f"></a>
 
 # What is a sprint review?
 
@@ -296,7 +296,7 @@ participation will be, and you have to deliver a sprint review, even
 if you could not complete a result during the last sprint.
 
 
-<a id="orgc26de65"></a>
+<a id="orgaaeb879"></a>
 
 # What do I need to deliver at a sprint review?
 
@@ -319,7 +319,7 @@ creative and mix them up. Remember that the purpose of the sprint
 review is dialog, not a perfect performance or a perfect product.
 
 
-<a id="orgdb7ef06"></a>
+<a id="org8328ef6"></a>
 
 # What should we do in the first sprint?
 
@@ -346,7 +346,7 @@ The first sprint covers the "I" (for Introduction) of the IMRaD
 structure of scientific papers (see FAQ).
 
 
-<a id="org51b138b"></a>
+<a id="orgbcdcc09"></a>
 
 # What should we do in the second sprint?
 
@@ -369,7 +369,7 @@ The second sprint covers the "M" (for "Method") of the IMRaD structure
 of scientific papers (see FAQ).
 
 
-<a id="org688c41e"></a>
+<a id="orga006f8a"></a>
 
 # How do you report on and plan a research "method"?
 
@@ -414,7 +414,7 @@ Hopefully, this structural breakdown will help you think about your
 modeling paper.
 
 
-<a id="orgbbb34aa"></a>
+<a id="org01923ab"></a>
 
 # What should we do in the third sprint?
 
@@ -445,7 +445,7 @@ The Third sprint covers the "R" (for "Results") of the IMRaD
 structure of scientific papers. (See FAQ.)
 
 
-<a id="orga747e5b"></a>
+<a id="org94765d5"></a>
 
 # What should we do in the fourth sprint?
 
@@ -478,14 +478,14 @@ The fourth sprint covers the "D" (for "Discussion") of the IMRaD
 structure of scientific papers. See FAQ for more on IMRaD.
 
 
-<a id="orge5efb9f"></a>
+<a id="org85a15db"></a>
 
 # Where I can find out more about "IMRaD"?
 
 See [this short (15 min) YouTube video](https://youtu.be/dip7UwZ3wUM) - produced for a course on
 "research methods" for graduate students at the Berlin School of
 Economics and Law (MBAs). See also my paper on storytelling and
-scientific writing ([Birkenkrahe, 2014](#orge710456)).
+scientific writing ([Birkenkrahe, 2014](#org21982d8)).
 
 The structural similarity between storyline and other successful
 forms of writing (like in science) is actually not surprising when
@@ -499,7 +499,7 @@ all scientists and scholars use it, but not all reflect upon their
 writing, I think, at least in the STEM disciplines.
 
 
-<a id="orgd4d9b3c"></a>
+<a id="orgf4fb0f5"></a>
 
 # Which editor and IDE do you use?
 
@@ -522,13 +522,13 @@ Emacs easily](https://opensource.com/article/20/3/getting-started-emacs) (Kenlon
 Here is a 2021 "[Introduction to Emacs Speaks Statistics](https://ess-intro.github.io/)" site with
 lots of additional information.
 
-The figure [94](#orgfae583e) shows four (out of an arbitrary number of)
+The figure [94](#orgb97aeed) shows four (out of an arbitrary number of)
 panels inside the editor
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png)
 
 
-<a id="orge731742"></a>
+<a id="orge304f26"></a>
 
 # How can I install Emacs as a data science IDE on Windows 10?
 
@@ -630,7 +630,7 @@ file.
     command `M-x package-list-packages`.
 
 
-<a id="org8951605"></a>
+<a id="org48948cd"></a>
 
 # How to use GitHub Desktop to backup your code to GitHub
 
@@ -688,7 +688,7 @@ suffices.
     (e.g. `.dvi` when you process a LaTeX file).
 
 
-<a id="org76e8e25"></a>
+<a id="org2791849"></a>
 
 # How can you always create a great presentation?
 
@@ -739,13 +739,13 @@ presentation good, i.e. worth listening to:
 But what makes a presentation "great" (i.e. highly memorable,
 unforgettable, totally inspiring)?
 
-Barbara Minto's Pyramid Principle ([Minto, 2002](#org2e8dc27)) has a claim to being
+Barbara Minto's Pyramid Principle ([Minto, 2002](#org927ebd3)) has a claim to being
 the method to achieve this. Here is an illustration followed by an
 example below.
 
 ![img](./img/minto.png)
 
-(Image source: [powerusersoftwares.com, 2016](#org6f38271))
+(Image source: [powerusersoftwares.com, 2016](#org9d52a38))
 
 
 ## Minto Pyramid Principle
@@ -781,7 +781,7 @@ that remain unchanged from one presentation to the next?<sup><a id="fnr.19" clas
 ### Answer
 
 Audience rapport is a relationship invariant for all
-presentations. According to Barbara Minto ([Minto, 2002](#org2e8dc27)), the SCQA
+presentations. According to Barbara Minto ([Minto, 2002](#org927ebd3)), the SCQA
 method delivers an invariant structure for all presentations, to
 all audiences. I am inclined to agree with her<sup><a id="fnr.20" class="footref" href="#fn.20">20</a></sup>.
 
@@ -790,13 +790,13 @@ all audiences. I am inclined to agree with her<sup><a id="fnr.20" class="footref
 
 For a short overview see the video: [Harrison Metal (2014)](https://vimeo.com/87537935).
 
-For a lecture in 2 parts by me ([2016](#orgf964561)), see here:
+For a lecture in 2 parts by me ([2016](#org8142e3c)), see here:
 
 -   Minto Pyramid Principle Part 1 - [Introductory Stories](https://youtu.be/HrmBZQuCSzo)
 -   Minto Pyramid Principle Part 2 - [What Audiences Want](https://youtu.be/k_FJXpYPbQY)
 
 
-<a id="org00d6b8d"></a>
+<a id="org53f985e"></a>
 
 # How should we prepare for the final presentation?
 
@@ -972,7 +972,7 @@ sub-questions within each aspect are not ordered.
 I will give you short formative (qualitative) feedback based on the
 question breakdown above so that you know where your grade comes
 from, and you get a summary that looks like the figure below
-([Source: BPS](#org2745aea)).
+([Source: BPS](#org77ed89b)).
 
 ![img](./img/presentation.png)
 
@@ -1005,7 +1005,7 @@ You should know what type of final product you must submit to pass
 the course. If in doubt, check the syllabus or ask me directly!
 
 
-<a id="org18a268c"></a>
+<a id="orga786a44"></a>
 
 # What do we have to deliver for the final essay or presentation?
 
@@ -1022,7 +1022,7 @@ You have to deliver these items before you can get a grade from me.
 ![img](./img/pledge.png)
 
 
-<a id="org5d888b1"></a>
+<a id="orge3ff4fc"></a>
 
 # How is the final essay graded?
 
@@ -1044,7 +1044,7 @@ You should know what type of final product you must submit to pass
 the course. If in doubt, check the syllabus or ask me directly!
 
 
-<a id="orgf3ca65e"></a>
+<a id="org92a52ce"></a>
 
 # What's the difference between an essay and an EDA report?
 
@@ -1062,7 +1062,7 @@ You should know what type of final product you must submit to pass
 the course. If in doubt, check the syllabus or ask me directly!
 
 
-<a id="org1735f8a"></a>
+<a id="org0949642"></a>
 
 # How can I install Linux under Windows 10?
 
@@ -1081,10 +1081,10 @@ machine:
 
 Which of these is for you also depends on your computer. I have
 found the Microsoft Ubuntu app to be easy to use (as of November
-2021). I found out about this from [Gookin (2021)](#org255c520).
+2021). I found out about this from [Gookin (2021)](#orgca7524e).
 
 Update November 25, 2021: here is another complete [installation
-tutorial](https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview) from the makers of the app ([Morrison, 2021](#orge32d7e6)).
+tutorial](https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview) from the makers of the app ([Morrison, 2021](#org0e638fe)).
 
 
 ## Download Linux
@@ -1138,7 +1138,7 @@ computer. After you did this, you should be able to boot Linux
 using the app.
 
 
-<a id="org748371a"></a>
+<a id="orgd59711a"></a>
 
 # How can I get Linux tools under Windows 10?
 
@@ -1192,7 +1192,7 @@ launcher into startup and a shortcut on the desktop.
     line.
 
 
-<a id="org9d51d8a"></a>
+<a id="org79cde12"></a>
 
 # How to install R under Windows and MacOS
 
@@ -1239,7 +1239,7 @@ launcher into startup and a shortcut on the desktop.
         inside the Emacs editor so that you can create notebooks.
 
 
-<a id="org36c03ca"></a>
+<a id="orga3d6f39"></a>
 
 # How to install a C compiler under Windows and MacOS
 
@@ -1290,7 +1290,7 @@ Clang compiler.
     ![img](./img/cc.png)
 
 
-<a id="orge56b764"></a>
+<a id="orga49ea48"></a>
 
 # How to install SQLite under Windws and MacOS
 
@@ -1314,7 +1314,7 @@ Clang compiler.
 -   You can also type `sqlite3` in a terminal to open the console.
 
 
-<a id="orga5c2ee9"></a>
+<a id="org8382995"></a>
 
 # How to install Emacs (+ESS) under Windows and MacOS
 
@@ -1335,7 +1335,7 @@ Clang compiler.
 -   Open Emacs, type `CTRL-h t` (`C-h t`) and complete the tutorial.
 
 
-<a id="orgc5bac04"></a>
+<a id="org34190f7"></a>
 
 # How to customize GNU Emacs
 
@@ -1352,6 +1352,17 @@ The central package for many day to day tasks is `Org-mode`. Here is
 a set of [Org-mode tutorials](https://orgmode.org/worg/org-tutorials/) (with videos) covering many interesting
 applications. Org-mode is especially popular among scientists, and
 among these, physicists (my original tribe), who developed it.
+
+  And here is an excellent video tutorial by someone who is also
+getting started with Emacs for the first time like you:
+
+-   [The Absolute Beginner's Guide to Emacs](https://youtu.be/48JlgiBpw_I) (System Crafters, 2021) -
+    1hr30min.
+
+And here is a (much shorter) video by a former user of the Vim
+editor who switches to GNU Emacs:
+
+-   [Switching to GNU Emacs](https://youtu.be/Y8koAgkBEnM) (DistroTube, 2019) - 22 min.
 
 
 ## Create configuration file
@@ -1536,7 +1547,7 @@ links. It is easy to add image and links (internal to Emacs or
 Internet URLs) to an Org-mode file.
 
 Images can be named and given captions. Here is an example with
-figure [275](#org17230ab) below. To show/hide images, use `C-c C-x C-v`
+figure [279](#orgf917c23) below. To show/hide images, use `C-c C-x C-v`
 (`org-toggle-inline-images`).
 
     
@@ -1568,41 +1579,47 @@ suggest working through this short [tutorial](https://orgmode.org/worg/org-tutor
 spreadsheets, see this short [tutorial](https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html).
 
 
-<a id="org5c5a198"></a>
+<a id="orgfc2db9f"></a>
 
 # References
 
-<a id="orge710456"></a> Birkenkrahe M (2014). Using Storytelling Methods To
+<a id="org21982d8"></a> Birkenkrahe M (2014). Using Storytelling Methods To
 Improve Emotion, Motivation and Attitude Of Students Writing
 Scientific Papers And Theses. In: Proceedings of the 13th IEEE
 Int. Conf. on Cognitive Informatics & Cognitive Computing, London,
 August 18-20, 2014. [URL: researchgate.net](https://drive.google.com/file/d/0B9ubV5NfnNPpdlNycWxkaTFQc1k/view?usp=sharing)
 
-<a id="orgf964561"></a> Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
+<a id="org8142e3c"></a> Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
 1 - Introductory stories. [Online: youtube.com.](https://youtu.be/HrmBZQuCSzo)
 
 Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
 2 - What audiences want. [Online: youtube.com.](https://youtu.be/k_FJXpYPbQY)
 
-<a id="org2745aea"></a> Berlin Professional School (BPS). Presentation Assessment
+<a id="org77ed89b"></a> Berlin Professional School (BPS). Presentation Assessment
 Form.
 
-<a id="org255c520"></a> Gookin D (2021). Tiny C Projects. Manning. URL:
+DistroTube (). Switching to GNU Emacs [video]. [URL:
+youtu.be/Y8koAgkBEnM](https://youtu.be/Y8koAgkBEnM).
+
+<a id="orgca7524e"></a> Gookin D (2021). Tiny C Projects. Manning. URL:
 [manning.com](https://www.manning.com/books/tiny-c-projects).
 
-<a id="org2e8dc27"></a> Minto B (2002). The Pyramid Principle.
+<a id="org927ebd3"></a> Minto B (2002). The Pyramid Principle.
 
 Harrison Metal (2014). Storytelling & Presenting 1: Thank You,
 Barbara Minto [video]. [Online: vimeo.com](https://vimeo.com/87537935)
 
-<a id="org6f38271"></a> Power-user (Jul 31, 2016). Give a brilliant structure to
+<a id="org9d52a38"></a> Power-user (Jul 31, 2016). Give a brilliant structure to
 your presentations with the Pyramid Principle [website]. [Online:
 powerusersoftwares.com](https://www.powerusersoftwares.com/post/2016/07/31/give-a-brilliant-structure-to-your-presentations-with-the-pyramid-principle)
 
-<a id="org748a2c9"></a> Stella J (Nov 11, 2015). A CEO's Guide to Emacs
+<a id="org1eefbe2"></a> Stella J (Nov 11, 2015). A CEO's Guide to Emacs
 [blog]. [Online: fugue.co](https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html).
 
-<a id="orge32d7e6"></a> Morrison G (2021). Ubuntu on Windows 10 [website]. [URL:
+System Crafters (Mar 8, 2021). The Absolute Beginner's Guide to
+Emacs [video]. [URL: youtu.be/48JlgiBpw\_I](https://youtu.be/48JlgiBpw_I).
+
+<a id="org0e638fe"></a> Morrison G (2021). Ubuntu on Windows 10 [website]. [URL:
 ubuntu.com/tutorials/ubuntu-on-windows](https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview)
 
 
@@ -1696,7 +1713,7 @@ repo, you'll be notified so that you can follow the change ("fetch
 upstream").
 
 <sup><a id="fn.14" href="#fnr.14">14</a></sup> Here is an enthusiastic review and tutorial called "[A CEO's
-Guide To Emacs](https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html)" ([Stella, 2015](#org748a2c9)), which you might enjoy reading. The
+Guide To Emacs](https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html)" ([Stella, 2015](#org1eefbe2)), which you might enjoy reading. The
 author is (was?) the CEO of Fugue, a cloud security platform.
 
 <sup><a id="fn.15" href="#fnr.15">15</a></sup> This would work for any language that Emacs supports, which is
