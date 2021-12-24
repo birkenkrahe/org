@@ -891,7 +891,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
    Choose ~Full~ in the ~View~ menu on the upper left, then continue
    with ~Next~ until the installation is finished. Agree to put the
-   launcher into startup and a shortcut on the desktop[fn:2].
+   launcher into startup and a shortcut on the desktop.
 
    #+attr_html: :width 500px
    [[./img/cygwin2.png]]
