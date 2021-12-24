@@ -1162,133 +1162,133 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
     the advantages of Emacs is that everything can be done with the
     keyboard (which is way faster than the mouse).
 
-*** Installing additional packages
+** Installing additional packages
 
-    There are hundreds of useful packages available for instant
-    installation. To see them, enter ~M-x package-list-packages~.
+   There are hundreds of useful packages available for instant
+   installation. To see them, enter ~M-x package-list-packages~.
 
-    The screenshot shows part of the listing, with ~available~,
-    ~installed~ (by me), and ~built-in~ (by GNU Emacs) files.
+   The screenshot shows part of the listing, with ~available~,
+   ~installed~ (by me), and ~built-in~ (by GNU Emacs) files.
 
-    #+attr_html: :width 400px
-    [[./img/packages.png]]
+   #+attr_html: :width 400px
+   [[./img/packages.png]]
 
-    To install a package
-    * search and find it (forward search with ~C-s~ or backward search
-      with ~C-r~)
-    * enter ~i~ to mark the package for installation
-    * enter ~x~ to install it.
+   To install a package
+   * search and find it (forward search with ~C-s~ or backward search
+     with ~C-r~)
+   * enter ~i~ to mark the package for installation
+   * enter ~x~ to install it.
 
-*** Presenting in Emacs
+** Presenting in Emacs
 
-    I often present in Emacs, especially when I use interactive
-    notebooks. I use ~org-slide-tree-mode~ for that ([[https://github.com/takaxp/org-tree-slide][see
-    documentation]]). You need to install the package ~org-tree-slide~
-    and put the code below into your ~/.emacs~ file.
+   I often present in Emacs, especially when I use interactive
+   notebooks. I use ~org-slide-tree-mode~ for that ([[https://github.com/takaxp/org-tree-slide][see
+   documentation]]). You need to install the package ~org-tree-slide~
+   and put the code below into your ~/.emacs~ file.
 
-    #+attr_html: :width 400px
-    [[./img/orgtreeslide.png]]
+   #+attr_html: :width 400px
+   [[./img/orgtreeslide.png]]
 
-    #+begin_src emacs-lisp :exports both
+   #+begin_src emacs-lisp :exports both
 
-      ;; org-tree-slide: https://github.com/takaxp/org-tree-slide
-      ;; to activate: M-x org-tree-slide-mode or <f9> - stop S-<f9>
-      (require 'org-tree-slide)
-      (with-eval-after-load "org-tree-slide"
-	(global-set-key (kbd "<f9>") 'org-tree-slide-mode)
-	(global-set-key (kbd "S-<f9>") 'org-tree-slide-skip-done-toggle)
-	(define-key org-tree-slide-mode-map (kbd "<f8>") 'org-tree-slide-move-previous-tree) ;; move forwards
-	(define-key org-tree-slide-mode-map (kbd "S-<f8>") 'org-tree-slide-move-next-tree)  ;; move backwards
-	)
-      (setq org-image-actual-width nil)
-      (setq org-tree-slide-skip-outline-level 0)
-      (setq org-tree-slide-slide-effect t)
-      (org-tree-slide-simple-profile) ;; no headers
+     ;; org-tree-slide: https://github.com/takaxp/org-tree-slide
+     ;; to activate: M-x org-tree-slide-mode or <f9> - stop S-<f9>
+     (require 'org-tree-slide)
+     (with-eval-after-load "org-tree-slide"
+       (global-set-key (kbd "<f9>") 'org-tree-slide-mode)
+       (global-set-key (kbd "S-<f9>") 'org-tree-slide-skip-done-toggle)
+       (define-key org-tree-slide-mode-map (kbd "<f8>") 'org-tree-slide-move-previous-tree) ;; move forwards
+       (define-key org-tree-slide-mode-map (kbd "S-<f8>") 'org-tree-slide-move-next-tree)  ;; move backwards
+       )
+     (setq org-image-actual-width nil)
+     (setq org-tree-slide-skip-outline-level 0)
+     (setq org-tree-slide-slide-effect t)
+     (org-tree-slide-simple-profile) ;; no headers
 
-    #+end_src
+   #+end_src
 
-    #+RESULTS:
-    : simple profile: ON
+   #+RESULTS:
+   : simple profile: ON
     
-    In the code, ~<f9>~ is used to switch the mode on or off (~SHIFT +
-    <f9>~), and ~<f8>~ to move one slide forward or backward (~SHIFT +
-    <f8>~). Slide headers have been removed. If you want slide
-    headers, comment the last line by putting ~;;~ in front of it like
-    this:
+   In the code, ~<f9>~ is used to switch the mode on or off (~SHIFT +
+   <f9>~), and ~<f8>~ to move one slide forward or backward (~SHIFT +
+   <f8>~). Slide headers have been removed. If you want slide
+   headers, comment the last line by putting ~;;~ in front of it like
+   this:
     
-    #+begin_src emacs-lisp
+   #+begin_src emacs-lisp
 
-      ;; (org-tree-slide-simple-profile) ;; no headers
+     ;; (org-tree-slide-simple-profile) ;; no headers
 
-    #+end_src
+   #+end_src
     
-*** Definitions and functions
+** Definitions and functions
 
-    You can use ~M-Q~ to fill a region (wrap the text and cut it off
-    after 70 characters, a value set in ~fill-column~). Sometimes it
-    is useful to unfill a region (put it on one line, for example to
-    copy it into an email). If you put the following definition into
-    your ~~/.emacs~ file, you can use ~M-x unfill-region~ to achieve
-    that.
+   You can use ~M-Q~ to fill a region (wrap the text and cut it off
+   after 70 characters, a value set in ~fill-column~). Sometimes it
+   is useful to unfill a region (put it on one line, for example to
+   copy it into an email). If you put the following definition into
+   your ~~/.emacs~ file, you can use ~M-x unfill-region~ to achieve
+   that.
 
-    #+begin_src emacs-lisp
+   #+begin_src emacs-lisp
 
-      ;; unfill region
-      (defun unfill-region (beg end)
-	"Unfill the region, joining text paragraphs into a single
-	  logical line.  This is useful, e.g., for use with
-	  `visual-line-mode'."
-	(interactive "*r")
-	(let ((fill-column (point-max)))
-	  (fill-region beg end)))
+     ;; unfill region
+     (defun unfill-region (beg end)
+       "Unfill the region, joining text paragraphs into a single
+	 logical line.  This is useful, e.g., for use with
+	 `visual-line-mode'."
+       (interactive "*r")
+       (let ((fill-column (point-max)))
+	 (fill-region beg end)))
 
-    #+end_src
+   #+end_src
 
-    #+RESULTS:
-    : unfill-region
+   #+RESULTS:
+   : unfill-region
 
-    If you like to bind the function to a key sequence, you can use
-    this code - now ~C-M-Q~ will invoke the function:
+   If you like to bind the function to a key sequence, you can use
+   this code - now ~C-M-Q~ will invoke the function:
 
-    #+begin_src emacs-lisp
+   #+begin_src emacs-lisp
 
-      ;; bind unfill-region to C-M-Q
-      (define-key global-map "\C-\M-Q" 'unfill-region)
+     ;; bind unfill-region to C-M-Q
+     (define-key global-map "\C-\M-Q" 'unfill-region)
 
-      #+end_src    
+     #+end_src    
 
-      #+RESULTS:
-      : unfill-region
+     #+RESULTS:
+     : unfill-region
     
-*** Adding images and links to Org-mode files
+** Adding images and links to Org-mode files
 
-    My lecture scripts and notebooks often contain images and
-    links. It is easy to add image and links (internal to Emacs or
-    Internet URLs) to an Org-mode file.
+   My lecture scripts and notebooks often contain images and
+   links. It is easy to add image and links (internal to Emacs or
+   Internet URLs) to an Org-mode file.
 
-    Images can be named and given captions. Here is an example with
-    figure [[fig:trend]] below. To show/hide images, use ~C-c C-x C-v~
-    (~org-toggle-inline-images~). The ~#+ATTR_HTML:~ line sets the
-    display size of the image (both in Emacs and in the HTML export).
+   Images can be named and given captions. Here is an example with
+   figure [[fig:trend]] below. To show/hide images, use ~C-c C-x C-v~
+   (~org-toggle-inline-images~). The ~#+ATTR_HTML:~ line sets the
+   display size of the image (both in Emacs and in the HTML export).
 
-    #+begin_example
+   #+begin_example
 
-    #+CAPTION: Google search trends for popular editors
-    #+NAME: fig:trend
-    #+ATTR_HTML: :width 400px
-    [[./img/trend.png]]
+   #+CAPTION: Google search trends for popular editors
+   #+NAME: fig:trend
+   #+ATTR_HTML: :width 400px
+   [[./img/trend.png]]
     
-    #+end_example
+   #+end_example
 
-    #+CAPTION: Google search trends for popular editors
-    #+NAME: fig:trend
-    #+ATTR_HTML: :width 600px
-    [[./img/trend.png]]
+   #+CAPTION: Google search trends for popular editors
+   #+NAME: fig:trend
+   #+ATTR_HTML: :width 600px
+   [[./img/trend.png]]
 
-    And here is the link to the image - when viewing ~setup.org~ in
-    Emacs, you can open links with ~C-c C-o~ (~org-open-at-point~). 
+   And here is the link to the image - when viewing ~setup.org~ in
+   Emacs, you can open links with ~C-c C-o~ (~org-open-at-point~). 
     
-    https://github.com/birkenkrahe/cc100/raw/main/2_installation/img/trend.png
+   https://github.com/birkenkrahe/cc100/raw/main/2_installation/img/trend.png
 
 ** Tables
 
@@ -1325,7 +1325,20 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
    #+attr_html: :width 500px
    [[./img/html.png]]
-   
+
+   What works really well in HTML are mathematical formulae. This
+   LaTeX equation for example only renders well in HTML (see image):
+
+   #+begin_quote
+   \begin{equation}
+    Q^\pi = E[\sum_{\tau=1}^{\infty}
+            \gamma^{\tau-1}r_\tau|s_t = s, a_t = 1]
+   \end{equation}
+   #+end_quote
+
+   #+attr_html: :width 600px
+   [[./img/render.png]]
+
 * References
 
   <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
