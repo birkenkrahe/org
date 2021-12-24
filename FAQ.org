@@ -1268,7 +1268,8 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
     Images can be named and given captions. Here is an example with
     figure [[fig:trend]] below. To show/hide images, use ~C-c C-x C-v~
-    (~org-toggle-inline-images~).
+    (~org-toggle-inline-images~). The ~#+ATTR_HTML:~ line sets the
+    display size of the image (both in Emacs and in the HTML export).
 
     #+begin_example
 
@@ -1296,6 +1297,34 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    (e.g. computation of grades). There is too much to learn here - I
    suggest working through this short [[https://orgmode.org/worg/org-tutorials/tables.html][tutorial]]. For using tables as
    spreadsheets, see this short [[https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][tutorial]].
+   
+** Export
+
+   You can see the different export options for any Emacs buffer with
+   ~C-c C-e~ (~org-export-dispatch~). This command requires you to
+   pick an option and enter the corresponding code in the mini
+   buffer - see image.
+
+   #+attr_html: :width 500px
+   [[./img/export.png]]
+
+   However, if an export is successful depends on the availability of
+   programs in the background. For example, you need some extras to
+   generate a PDF file straight from a LaTeX file. ~.odt~ files are
+   OpenOffice files (XML formatted) that can be opened with WORD.
+
+   What always works is HTML (~.html~) export, and Markdown (~.md~)
+   export. Markdown is the standard format for GitHub text
+   files. However, to get the markdown export option with ~C-c C-e~
+   you need to export once per Emacs session manually by entering ~M-x
+   org-export-to-markdown~.
+
+   The HTML export is displayed using your default browser and looks
+   as shown below for this file. You can print it from the browser if
+   you need a paper print version.
+
+   #+attr_html: :width 500px
+   [[./img/html.png]]
    
 * References
 
