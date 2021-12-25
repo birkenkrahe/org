@@ -420,25 +420,189 @@
   #+attr_html: :width 500px
   [[./img/awesome.png]]
 
+* Emacs + ESS + Org-Mode
+
+  There's a new kid in town - at least as far as Lyon CS is concerned:
+  Emacs + ESS + Org-mode. There are various FAQs (that nobody ever
+  asked, actually) on Emacs, and the whole topic will heat up now that
+  I haved decided to introduce Emacs + ESS + Org-mode for literate
+  source code programming (LitProg) and data science (DS) in all my
+  classes.
+
+  There is a deeper reason for Emacs and LitProg: CS people (everybody
+  really) has to deal with information systems that get more and more
+  complicated and conceptually difficult. Abstraction is the name of
+  the game everywhere. CS and DS are system sciences (or crafts), and
+  they deserve the best paradigm when it comes to system control and
+  management, and Emacs is the answer to that.
+
+  Here is a particularly interesting recent post
+  (AdmiralBumbleBee, 2020) contrasting VS Code and Emacs, concluding
+  that Emacs is a superior environment when it comes to:
+
+  * Windows management (with ~ace-windows~)
+  * File management (with ~Dired~)
+  * Coding (especially literate coding with ~Org-mode~)
+  * Startup time (how long it takes to load)
+  * Extending functionality (~Elisp~ packages)
+
+  Especially for students (rather than developers with their
+  state-of-the-art computers), Emacs is good because it's easy on the
+  memory and the processing even if your laptop is not from 2022.
+
+  I also enjoyed [[https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs][Timachi's post (2019)]], who switched to VS Code and
+  back. Regarding Emacs' famous "steep learning curve" (which I cannot
+  confirm - I remember learning Emacs for the first time ages ago, and
+  re-learning it a couple of years ago):
+
+  #+begin_quote
+  "Emacs can be a challenge if you are used to using mouse
+  pointer. One should be willing to leave the mouse and stick with the
+  keyboard."
+  #+end_quote
+
+  He gushes over Org-mode, too - a main reason for our using Emacs
+  this term:
+
+  #+begin_quote
+  "Org mode is for sure one of the most amazing pieces of software I
+  have ever seen or worked with. It does things that no other text-based
+  word processor can do, even if you are writing complex scientific
+  reports. VS code has an extension which brings less than 5% of Org
+  mode functionality, tops and that is mostly the code highlighting."
+  #+end_quote
+  
+* Creating simple process diagrams in Emacs
+
+  I needed diagrams because I wanted to make a simple
+  diagram. Usually, I would have drawn this in Signavio, or in
+  PowerPoint, made a screenshot, saved it and embedded it in the
+  Org-file using Emacs. 4 steps, 4 softwares, and not much to show for
+  it.
+
+  Since I like to do everything in Emacs using the keyboard, I was
+  curious if this can be done using ASCII, without extra tools. I
+  found two ways (in fact, there is a third one, Emacs ~artist~ mode
+  (built into Emacs) and ~ditaa~ (which is no longer distributed with
+  Org).
+
+  1) [[https://robrohan.com/2015/01/17/poor-mans-uml-artist-mode.html][Poor man's UML / Emacs Artist Mode]] (Rohan, 2015)
+  2) [[https://orgmode.org/worg/org-tutorials/org-dot-diagrams.html][Generating simple process diagrams using dot and tables]]
+  3) [[https://plantuml.com/emacs][PlantUML and Emacs]] - wrapper to [[http://www.graphviz.org/][GraphViz]]
+
+  For today, I'll only try artist mode, but I'm especially
+  interested in ~PlantUML~, because I want to teach the students to
+  create simple UML diagrams before coding.
+
+  *Note that these diagrams do not render properly on GitHub (either
+  as Org or Markdown files), or as HTML in a browser. Best look at it
+  in Emacs. For this post, I have inserted screenshots.
+
+** Emacs Artist mode
+
+   #+begin_quote
+   "Most people that see me using it either think it’s the most
+   ridiculous thing they’ve seen, or they think it’s the coolest thing
+   since sliced bread." (Rob Rohan, 2015)
+   #+end_quote
+
+   I side with those who think it's cool. Tried this first a couple of
+   years back when I returned to Emacs but haven't used it since.
+
+   There is a video demo (13 min) at the end Rohan's blog post. Here,
+   I'm going to retrace the demo and aim at creating my own simple
+   diagram at the end.
+
+   To make the ASCII art into image files, Rohan suggests [[http://ditaa.sourceforge.net/][~ditaa~]],
+   which apparently was bundled with Org in the past, but is no longer
+   bundled with it.
+
+** ~ascii-art-to-unicode~
+
+   When I looked for ~artist-mode~ in the ~*Packages*~ list, I found
+   that it was built-in, but I found another neat addition in the
+   package list, [[https://elpa.gnu.org/packages/ascii-art-to-unicode.html][~ascii-art-to-unicode~]]. This package polishes simple
+   line drawings and makes them look much better. Installed
+   it. Here is an example:
+
+   | Key sequence        | Action or function           |
+   |---------------------+------------------------------|
+   | M-x artist-mode RET | Invoke artist mode           |
+   | C-c C-a r           | ~artist-select-op-rectangle~ |
+
+   
+   [[./img/aa2u.png]]
+
+   | Key sequence    | Action or function |
+   |-----------------+--------------------|
+   | C-c C-c         | ~artist-mode-off~  |
+   | C-x n n         | ~narrow-to-region~ |
+   | untabify region | ~untabify~         |
+   | M-x aa2u RET    | Apply aa2u         |
+
+   [[./img/aa2u1.png]]
+
+   Check the [[https://elpa.gnu.org/packages/ascii-art-to-unicode.html][vignette for aa2u]] for more details.
+
+** Emacs ~artist-mode~
+
+   ~artist~ mode is built in. From the vignette[fn:13]:
+
+   #+begin_quote
+   "Artist is an Emacs lisp package that allows you to draw lines,
+   rectangles, squares, poly-lines, ellipses and circles by using your
+   mouse and/or keyboard. The shapes are made up with the ascii
+   characters |, -, / and \."  ([[https://www.emacswiki.org/emacs/ArtistMode][Source: EmacsWiki]])
+   #+end_quote
+
+*** Drawing a poly-line
+
+    This is the example from the vignette:
+    
+    #+begin_example
+    M-x artist-mode RET
+    C-c C-a p RET
+    RET
+    #+end_example
+
+    [[./img/polyline.png]]                                
+
+
+    To create it, I just moved around the screen with my cursor, and
+    Emacs created a line drawing from it.
+
+    
+    
 * References
 
-  <<wired>> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
-  You Don’t Ace Physics) [Blog]. [[https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/][Online: wired.com]].
-
+  AdmiralBumbleBee (Jan 4, 2020). What I learned from 6 months with VS
+  Code [blog]. [[https://www.admiralbumblebee.com/programming/2020/01/04/Six-months-VS-Code.html][URL: admiralbumblebee.com]].
+  
   <<datacamp>> D'Introno L (30 Aug 2021). Event Recap: Bridging the
   Communications Gap with Data Literacy. [[https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy][Online: datacamp.com]].
-
-  <<knuth>> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
-  and the Meaning of Life [Blog]. [[https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/][Online: thenewstack.io]].
 
   <<fridman>> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
   Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast
   #219 [Podcast]. [[https://lexfridman.com/donald-knuth-2/][Online: lexfridman.com]].
 
+  <<knuth>> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
+  and the Meaning of Life [Blog]. [[https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/][Online: thenewstack.io]].
+
+  Rohan (Jan 17, 2015). Poor mans UML / Emacs Artist Mode [blog]. [[https://robrohan.com/2015/01/17/poor-mans-uml-artist-mode.html][URL:
+  robrohan.com]].
+
+  Timachi (Dec 7, 2019). Why I switched from VScode to Emacs
+  [blog]. [[https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs][URL: hadi.timachi.com]].
+  
   United States Department of Agriculture (n.d.). Performance
   Appraisal Plan Examples. [[https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf][Online: dm.usda.gov.]]
 
+  <<wired>> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
+  You Don’t Ace Physics) [Blog]. [[https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/][Online: wired.com]].
+
 * Footnotes
+
+[fn:13] A vignette is a manual page for a software package.  
 
 [fn:12] This is the most recent Long Term Support (LTS - supported
 until 2025) version of Ubuntu Linux, a popular, well supported

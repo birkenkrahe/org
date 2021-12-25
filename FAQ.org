@@ -1343,17 +1343,22 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 * Completing the GitHub "hello world" exercise
 
   The [[https://docs.github.com/en/get-started/quickstart/hello-world][hello world practice exercise]] is the first stop after
-  successfully creating a GitHub account. 
+  successfully creating a GitHub account. Repo[sitories] are the main
+  data structures in GitHub. The data in a repo are version controlled
+  using the ~Git~ program.
 
   1) Create a *repository*. Choose if you wish it to be ~private~ or
      ~public~, and if you want to add a ~README.md~ file (which will
      be opened by default so it's the first thing a visitor will see).
 
-  2) Create a branch
+  2) Create a *branch*. Any collaborator can modify the code by
+     branching off it, submitting a *pull request*, and then asking
+     for a *merge* to update the *main* branch.
 
   #+attr_html: :width 600px
   [[./img/branching.png]]
-  
+
+  3) 
 * References
 
   <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
