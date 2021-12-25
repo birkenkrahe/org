@@ -879,12 +879,12 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   * To run /native/ Linux apps on cygwin, they must be compiled from
     the source.
 
-      #+begin_quote
-      [[./img/cygwin.png]]
-      #+end_quote
-      /Image: screenshot of the cygwin terminal command ~pwd~/
+    #+begin_quote
+    [[./img/cygwin.png]]
+    #+end_quote
+    /Image: screenshot of the cygwin terminal command ~pwd~/
 
-** Download and Installation      
+** Download and Installation
 
    * Go to the [[https://cygwin.com/install.html][Cygwin install page]] and download [[https://cygwin.com/setup-x86_64.exe][~setup-x86_64.exe~]]
    * Run ~setup-x86_64.exe~ and accept all settings until you come to
@@ -1058,9 +1058,9 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   applications. Org-mode is especially popular among scientists, and
   among these, physicists (my original tribe), who developed it.
 
-    And here is an excellent video tutorial by someone who is also
+  And here is an excellent video tutorial by someone who is also
   getting started with Emacs for the first time like you:
-  
+
   * [[https://youtu.be/48JlgiBpw_I][The Absolute Beginner's Guide to Emacs]] (System Crafters, 2021) -
     1hr30min.
 
@@ -1097,17 +1097,17 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      (org-babel-do-load-languages
       'org-babel-load-languages
       '((R . t)
-	(sql . t)
-	(python . t)
-	(emacs-lisp . t)
-	(C . t)))
+        (sql . t)
+        (python . t)
+        (emacs-lisp . t)
+        (C . t)))
 
      ;; Syntax highlight code in your SRC blocks The last variable removes
      ;; the annoying “Do you want to execute” your code when you type:
      ;; C-c C-c
      (setq org-confirm-babel-evaluate nil
-	   org-src-fontify-natively t
-	   org-src-tab-acts-natively t)
+           org-src-fontify-natively t
+           org-src-tab-acts-natively t)
 
      ;; enable snippet expansion via org-structure-template-alist
      (require 'org-tempo)
@@ -1115,7 +1115,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      ;; get packages from MELPA package manager
      (require 'package)
      (add-to-list 'package-archives
-		  '("melpa-stable" . "https://stable.melpa.org/packages/"))
+                  '("melpa-stable" . "https://stable.melpa.org/packages/"))
 
    #+end_src
 
@@ -1159,6 +1159,9 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
     menus with ~<F10>~. I don't tend to use it at all, since one of
     the advantages of Emacs is that everything can be done with the
     keyboard (which is way faster than the mouse).
+
+    If you want to get into this for whatever reason, [[https://zzamboni.org/post/beautifying-org-mode-in-emacs/][check this out]]
+    (Zamboni, 2018).
 
 ** Installing additional packages
 
@@ -1207,19 +1210,19 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
    #+RESULTS:
    : simple profile: ON
-    
+
    In the code, ~<f9>~ is used to switch the mode on or off (~SHIFT +
    <f9>~), and ~<f8>~ to move one slide forward or backward (~SHIFT +
    <f8>~). Slide headers have been removed. If you want slide
    headers, comment the last line by putting ~;;~ in front of it like
    this:
-    
+
    #+begin_src emacs-lisp
 
      ;; (org-tree-slide-simple-profile) ;; no headers
 
    #+end_src
-    
+
 ** Definitions and functions
 
    You can use ~M-Q~ to fill a region (wrap the text and cut it off
@@ -1234,11 +1237,11 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      ;; unfill region
      (defun unfill-region (beg end)
        "Unfill the region, joining text paragraphs into a single
-	 logical line.  This is useful, e.g., for use with
-	 `visual-line-mode'."
+         logical line.  This is useful, e.g., for use with
+         `visual-line-mode'."
        (interactive "*r")
        (let ((fill-column (point-max)))
-	 (fill-region beg end)))
+         (fill-region beg end)))
 
    #+end_src
 
@@ -1253,11 +1256,11 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      ;; bind unfill-region to C-M-Q
      (define-key global-map "\C-\M-Q" 'unfill-region)
 
-     #+end_src    
+   #+end_src
 
-     #+RESULTS:
-     : unfill-region
-    
+   #+RESULTS:
+   : unfill-region
+
 ** Adding images and links to Org-mode files
 
    My lecture scripts and notebooks often contain images and
@@ -1275,7 +1278,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    #+NAME: fig:trend
    #+ATTR_HTML: :width 400px
    [[./img/trend.png]]
-    
+
    #+end_example
 
    #+CAPTION: Google search trends for popular editors
@@ -1284,8 +1287,8 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    [[./img/trend.png]]
 
    And here is the link to the image - when viewing ~setup.org~ in
-   Emacs, you can open links with ~C-c C-o~ (~org-open-at-point~). 
-    
+   Emacs, you can open links with ~C-c C-o~ (~org-open-at-point~).
+
    https://github.com/birkenkrahe/cc100/raw/main/2_installation/img/trend.png
 
 ** Tables
@@ -1295,7 +1298,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    (e.g. computation of grades). There is too much to learn here - I
    suggest working through this short [[https://orgmode.org/worg/org-tutorials/tables.html][tutorial]]. For using tables as
    spreadsheets, see this short [[https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][tutorial]].
-   
+
 ** Export
 
    You can see the different export options for any Emacs buffer with
@@ -1356,7 +1359,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   DistroTube (). Switching to GNU Emacs [video]. [[https://youtu.be/Y8koAgkBEnM][URL:
   youtu.be/Y8koAgkBEnM]].
-    
+
   <<gookin>> Gookin D (2021). Tiny C Projects. Manning. URL:
   [[https://www.manning.com/books/tiny-c-projects][manning.com]].
 
