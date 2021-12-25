@@ -1097,17 +1097,17 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      (org-babel-do-load-languages
       'org-babel-load-languages
       '((R . t)
-        (sql . t)
-        (python . t)
-        (emacs-lisp . t)
-        (C . t)))
+	(sql . t)
+	(python . t)
+	(emacs-lisp . t)
+	(C . t)))
 
      ;; Syntax highlight code in your SRC blocks The last variable removes
      ;; the annoying “Do you want to execute” your code when you type:
      ;; C-c C-c
      (setq org-confirm-babel-evaluate nil
-           org-src-fontify-natively t
-           org-src-tab-acts-natively t)
+	   org-src-fontify-natively t
+	   org-src-tab-acts-natively t)
 
      ;; enable snippet expansion via org-structure-template-alist
      (require 'org-tempo)
@@ -1115,7 +1115,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      ;; get packages from MELPA package manager
      (require 'package)
      (add-to-list 'package-archives
-                  '("melpa-stable" . "https://stable.melpa.org/packages/"))
+		  '("melpa-stable" . "https://stable.melpa.org/packages/"))
 
    #+end_src
 
@@ -1237,11 +1237,11 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      ;; unfill region
      (defun unfill-region (beg end)
        "Unfill the region, joining text paragraphs into a single
-         logical line.  This is useful, e.g., for use with
-         `visual-line-mode'."
+	 logical line.  This is useful, e.g., for use with
+	 `visual-line-mode'."
        (interactive "*r")
        (let ((fill-column (point-max)))
-         (fill-region beg end)))
+	 (fill-region beg end)))
 
    #+end_src
 
@@ -1340,6 +1340,20 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    #+attr_html: :width 600px
    [[./img/render.png]]
 
+* Completing the GitHub "hello world" exercise
+
+  The [[https://docs.github.com/en/get-started/quickstart/hello-world][hello world practice exercise]] is the first stop after
+  successfully creating a GitHub account. 
+
+  1) Create a *repository*. Choose if you wish it to be ~private~ or
+     ~public~, and if you want to add a ~README.md~ file (which will
+     be opened by default so it's the first thing a visitor will see).
+
+  2) Create a branch
+
+  #+attr_html: :width 600px
+  [[./img/branching.png]]
+  
 * References
 
   <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
