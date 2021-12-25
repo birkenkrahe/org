@@ -470,7 +470,7 @@
   reports. VS code has an extension which brings less than 5% of Org
   mode functionality, tops and that is mostly the code highlighting."
   #+end_quote
-  
+
 * Creating simple process diagrams in Emacs
 
   I needed diagrams because I wanted to make a simple
@@ -497,25 +497,6 @@
   as Org or Markdown files), or as HTML in a browser. Best look at it
   in Emacs. For this post, I have inserted screenshots.
 
-** Emacs Artist mode
-
-   #+begin_quote
-   "Most people that see me using it either think it’s the most
-   ridiculous thing they’ve seen, or they think it’s the coolest thing
-   since sliced bread." (Rob Rohan, 2015)
-   #+end_quote
-
-   I side with those who think it's cool. Tried this first a couple of
-   years back when I returned to Emacs but haven't used it since.
-
-   There is a video demo (13 min) at the end Rohan's blog post. Here,
-   I'm going to retrace the demo and aim at creating my own simple
-   diagram at the end.
-
-   To make the ASCII art into image files, Rohan suggests [[http://ditaa.sourceforge.net/][~ditaa~]],
-   which apparently was bundled with Org in the past, but is no longer
-   bundled with it.
-
 ** ~ascii-art-to-unicode~
 
    When I looked for ~artist-mode~ in the ~*Packages*~ list, I found
@@ -529,7 +510,7 @@
    | M-x artist-mode RET | Invoke artist mode           |
    | C-c C-a r           | ~artist-select-op-rectangle~ |
 
-   
+
    [[./img/aa2u.png]]
 
    | Key sequence    | Action or function |
@@ -545,6 +526,24 @@
 
 ** Emacs ~artist-mode~
 
+   #+begin_quote
+   "Most people that see me using it either think it’s the most
+   ridiculous thing they’ve seen, or they think it’s the coolest thing
+   since sliced bread." (Rob Rohan, 2015)
+   #+end_quote
+
+   I side with those who think it's cool. Tried this first a couple of
+   years back when I returned to Emacs but haven't used it since.
+
+   There is a [[https://youtu.be/cIuX87Xo8Fc][video demo]] (13 min) at the end Rohan's blog post. Here,
+   I'm going to retrace the demo and aim at creating my own simple
+   diagram at the end. I won't bother with PNG files via ~ditaa~ for
+   now.
+
+   To make the ASCII art into image files, Rohan suggests [[http://ditaa.sourceforge.net/][~ditaa~]],
+   which apparently was bundled with Org in the past, but is no longer
+   bundled with it.
+
    ~artist~ mode is built in. From the vignette[fn:13]:
 
    #+begin_quote
@@ -557,26 +556,36 @@
 *** Drawing a poly-line
 
     This is the example from the vignette:
-    
+
     #+begin_example
     M-x artist-mode RET
     C-c C-a p RET
     RET
     #+end_example
 
-    [[./img/polyline.png]]                                
-
+    [[./img/polyline.png]]
 
     To create it, I just moved around the screen with my cursor, and
-    Emacs created a line drawing from it.
+    Emacs created a line drawing from it. You should try it!
 
-    
+*** Rectangles
+
+        #+begin_example
+    M-x artist-mode
+    C-c C-a r
+    #+end_example
+
+    Here are a few examples[fn:14]:
+
+    [[./img/rectangles.png]]
+
+
     
 * References
 
   AdmiralBumbleBee (Jan 4, 2020). What I learned from 6 months with VS
   Code [blog]. [[https://www.admiralbumblebee.com/programming/2020/01/04/Six-months-VS-Code.html][URL: admiralbumblebee.com]].
-  
+
   <<datacamp>> D'Introno L (30 Aug 2021). Event Recap: Bridging the
   Communications Gap with Data Literacy. [[https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy][Online: datacamp.com]].
 
@@ -592,7 +601,7 @@
 
   Timachi (Dec 7, 2019). Why I switched from VScode to Emacs
   [blog]. [[https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs][URL: hadi.timachi.com]].
-  
+
   United States Department of Agriculture (n.d.). Performance
   Appraisal Plan Examples. [[https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf][Online: dm.usda.gov.]]
 
@@ -601,7 +610,11 @@
 
 * Footnotes
 
-[fn:13] A vignette is a manual page for a software package.  
+[fn:14]I'll always smoothen my diagrams with with
+~ascii-art-to-unicode~ adjunct to ~artist-mode~ as explained in this
+post earlier, and I won't especially mention this.
+
+[fn:13] A vignette is a manual page for a software package.
 
 [fn:12] This is the most recent Long Term Support (LTS - supported
 until 2025) version of Ubuntu Linux, a popular, well supported
