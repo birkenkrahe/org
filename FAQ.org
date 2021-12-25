@@ -970,8 +970,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    * Download the installer [[https://sourceforge.net/projects/mingw-w64/][from sourceforge]].
    * Run the installer - accept all presets.
    * Add the location of the executable file ~gcc~ to the Windows
-     ~PATH~ (~C:\Program Files
-     (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin~[fn:1]):
+     ~PATH~ (you can find it in ~C:\Program Files(x86)\mingw-w64\~).
 
      - Search for ~PATH~ and open the menu ~System Properties~
 
@@ -984,9 +983,8 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
        #+attr_html: :width 300px
        [[./img/path.png]]
 
-     - Click on ~New~ and paste the path ~C:\Program Files
-     (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin~
-     into the empty line. Confirm three times with ~OK~ to close all
+     - Click on ~New~ and paste the path into the empty line. Confirm
+       three times with ~OK~ to close all
      menus.
 
      #+attr_html: :width 300px
