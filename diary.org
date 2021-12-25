@@ -443,7 +443,6 @@
   * Windows management (with ~ace-windows~)
   * File management (with ~Dired~)
   * Coding (especially literate coding with ~Org-mode~)
-  * Startup time (how long it takes to load)
   * Extending functionality (~Elisp~ packages)
 
   Especially for students (rather than developers with their
