@@ -1,23 +1,25 @@
 
 # Table of Contents
 
-1.  [What is this?](#orgf09c6c0)
-2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#orgc228ec7)
-3.  [Sunday, 22 August 2021 - End of first week](#orgc7b90a9)
-4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#org09b999a)
-5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#orgb447566)
-6.  [Learning is like (physical) exercise (Sept 8)](#org74b28fc)
-7.  [Relevance of agile methodologies (Sept 14)](#org4b145f6)
-8.  [Florida Man (Oct 5)](#org62e29cc)
-9.  [Transitioning to Windows 10 (Oct 9)](#org34fdac5)
-10. [Linux app under Windows (Oct 22)](#org13bab30)
-11. [Join me in spring 2022! (Nov 3)](#org5c03986)
-12. [Thanks! (End of fall 2021)](#org123c4ba)
-13. [References](#org431a5b2)
+1.  [What is this?](#orgbf25c36)
+2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#org9672d30)
+3.  [Sunday, 22 August 2021 - End of first week](#org4d6da92)
+4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#orga0596cb)
+5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#org10e0f28)
+6.  [Learning is like (physical) exercise (Sept 8)](#org88dbce3)
+7.  [Relevance of agile methodologies (Sept 14)](#org2e6f073)
+8.  [Florida Man (Oct 5)](#orgacd24d9)
+9.  [Transitioning to Windows 10 (Oct 9)](#org8ef261b)
+10. [Linux app under Windows (Oct 22)](#org489ff72)
+11. [Join me in spring 2022! (Nov 3)](#org0a1a372)
+12. [Thanks! (End of fall 2021)](#org0893b1b)
+13. [Emacs + ESS + Org-Mode](#orgf13cc18)
+14. [Creating simple process diagrams in Emacs](#orgbc92d62)
+15. [References](#org821beb7)
 
 
 
-<a id="orgf09c6c0"></a>
+<a id="orgbf25c36"></a>
 
 # What is this?
 
@@ -26,7 +28,7 @@ across all courses, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="orgc228ec7"></a>
+<a id="org9672d30"></a>
 
 # Sunday, 11 July 2021 - GitHub & Cybersecurity
 
@@ -74,7 +76,7 @@ in the AI seminar, also in this term.
 Next stop: syllabus!
 
 
-<a id="orgc7b90a9"></a>
+<a id="org4d6da92"></a>
 
 # Sunday, 22 August 2021 - End of first week
 
@@ -107,7 +109,7 @@ model?"), so I must be off, but I'll be seeing you soon. Tonight:
 takeaway - first Chinese buffet.
 
 
-<a id="org09b999a"></a>
+<a id="orga0596cb"></a>
 
 # Saturday, 28 August 2021 - Games and the Arkansas Experience
 
@@ -166,7 +168,7 @@ to me if you want to know more, or come to a Friday meeting. Don't
 just go to work and let this opportunity to learn go to waste!
 
 
-<a id="orgb447566"></a>
+<a id="org10e0f28"></a>
 
 # Sunday, 29 August 2021 - KILT Lyon College Radio
 
@@ -180,12 +182,12 @@ very hard to beat. Oriatti presented a marvelous selection and was
 totally responsive to the listeners. He even mentioned data science!
 
 
-<a id="org74b28fc"></a>
+<a id="org88dbce3"></a>
 
 # Learning is like (physical) exercise (Sept 8)
 
 Read this today in an article in WIRED magazine, "How to Ace
-Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org4c33ebe)):
+Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#orga54612c)):
 
 > "Perhaps the most important thing to remember is that learning can be
 > fun, but it can also be hard and confusing. Think of it like exercise:
@@ -211,7 +213,7 @@ important to feel! If you never feel it, you're either a genius or
 you're not trying hard enough (you'd know if you're a genius).
 
 
-<a id="org4b145f6"></a>
+<a id="org2e6f073"></a>
 
 # Relevance of agile methodologies (Sept 14)
 
@@ -223,10 +225,10 @@ learn this stuff and to do it well:
 > tech industry for application development. The main advantage of the
 > Agile methodology is that it creates an interactive communication
 > line between the business and engineering teams to iteratively
-> deliver value." (Source: [DataCamp, 8/30/2021](#org0d53c96))
+> deliver value." (Source: [DataCamp, 8/30/2021](#org1b7b879))
 
 
-<a id="org62e29cc"></a>
+<a id="orgacd24d9"></a>
 
 # Florida Man (Oct 5)
 
@@ -292,7 +294,7 @@ learning). Just in time for a session on "literate programming" (in
 the data science intro course), and another session on "future of
 AI" (in the AI seminar), Lex Fridman has interviewed comp sci hero
 Donald Knuth for the second time - you should check out [the podcast](https://lexfridman.com/donald-knuth-2/)
-([Fridman, 2021](#orge3c79c2)) (also available on youtube). It's long (an
+([Fridman, 2021](#orgb343cac)) (also available on youtube). It's long (an
 excellent distraction), but the length is necessary to really go
 deep (this is one of Fridman's specialties, and much needed in this
 time of short attention spans and fleeting
@@ -309,7 +311,7 @@ enticing parallel between AI and God:
 > might be some AI, but whatever, but I do believe that there is
 > something that goes beyond the realm of human understanding, that I
 > can try to learn more about how to resonate with, whatever that
-> being would like me to do.” --[Donald Knuth](#org4068d8a)
+> being would like me to do.” --[Donald Knuth](#org93708fe)
 
 I'm tempted to present this as the opening statement of tomorrow's
 session of the AI seminar&#x2026;
@@ -319,7 +321,7 @@ session of the AI seminar&#x2026;
 ![img](./img/beach.jpg)
 
 
-<a id="org34fdac5"></a>
+<a id="org8ef261b"></a>
 
 # Transitioning to Windows 10 (Oct 9)
 
@@ -359,7 +361,7 @@ some time to go through these instructions<sup><a id="fnr.10" class="footref" hr
 ![img](./img/linux.gif)
 
 
-<a id="org13bab30"></a>
+<a id="org489ff72"></a>
 
 # Linux app under Windows (Oct 22)
 
@@ -426,7 +428,7 @@ computer. After you did this, you should be able to boot Linux
 using the app.
 
 
-<a id="org5c03986"></a>
+<a id="org0a1a372"></a>
 
 # Join me in spring 2022! (Nov 3)
 
@@ -466,7 +468,7 @@ No matter what you may think: you can handle the algorithms!
 > Linux
 
 
-<a id="org123c4ba"></a>
+<a id="org0893b1b"></a>
 
 # Thanks! (End of fall 2021)
 
@@ -477,25 +479,241 @@ Lyon. Looking forward to spring 2022!
 ![img](./img/awesome.png)
 
 
-<a id="org431a5b2"></a>
+<a id="orgf13cc18"></a>
+
+# Emacs + ESS + Org-Mode
+
+There's a new kid in town - at least as far as Lyon CS is concerned:
+Emacs + ESS + Org-mode. There are various FAQs (that nobody ever
+asked, actually) on Emacs, and the whole topic will heat up now that
+I haved decided to introduce Emacs + ESS + Org-mode for literate
+source code programming (LitProg) and data science (DS) in all my
+classes.
+
+There is a deeper reason for Emacs and LitProg: CS people (everybody
+really) has to deal with information systems that get more and more
+complicated and conceptually difficult. Abstraction is the name of
+the game everywhere. CS and DS are system sciences (or crafts), and
+they deserve the best paradigm when it comes to system control and
+management, and Emacs is the answer to that.
+
+Here is a particularly interesting recent post
+(AdmiralBumbleBee, 2020) contrasting VS Code and Emacs, concluding
+that Emacs is a superior environment when it comes to:
+
+-   Windows management (with `ace-windows`)
+-   File management (with `Dired`)
+-   Coding (especially literate coding with `Org-mode`)
+-   Startup time (how long it takes to load)
+-   Extending functionality (`Elisp` packages)
+
+Especially for students (rather than developers with their
+state-of-the-art computers), Emacs is good because it's easy on the
+memory and the processing even if your laptop is not from 2022.
+
+I also enjoyed [Timachi's post (2019)](https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs), who switched to VS Code and
+back. Regarding Emacs' famous "steep learning curve" (which I cannot
+confirm - I remember learning Emacs for the first time ages ago, and
+re-learning it a couple of years ago):
+
+> "Emacs can be a challenge if you are used to using mouse
+> pointer. One should be willing to leave the mouse and stick with the
+> keyboard."
+
+He gushes over Org-mode, too - a main reason for our using Emacs
+this term:
+
+> "Org mode is for sure one of the most amazing pieces of software I
+> have ever seen or worked with. It does things that no other text-based
+> word processor can do, even if you are writing complex scientific
+> reports. VS code has an extension which brings less than 5% of Org
+> mode functionality, tops and that is mostly the code highlighting."
+
+
+<a id="orgbc92d62"></a>
+
+# Creating simple process diagrams in Emacs
+
+I needed diagrams because I wanted to make a simple
+diagram. Usually, I would have drawn this in Signavio, or in
+PowerPoint, made a screenshot, saved it and embedded it in the
+Org-file using Emacs. 4 steps, 4 softwares, and not much to show for
+it.
+
+Since I like to do everything in Emacs using the keyboard, I was
+curious if this can be done using ASCII, without extra tools. I
+found two ways (in fact, there is a third one, Emacs `artist` mode
+(built into Emacs) and `ditaa` (which is no longer distributed with
+Org).
+
+1.  [Poor man's UML / Emacs Artist Mode](https://robrohan.com/2015/01/17/poor-mans-uml-artist-mode.html) (Rohan, 2015)
+2.  [Generating simple process diagrams using dot and tables](https://orgmode.org/worg/org-tutorials/org-dot-diagrams.html)
+3.  [PlantUML and Emacs](https://plantuml.com/emacs) - wrapper to [GraphViz](http://www.graphviz.org/)
+
+For today, I'll only try artist mode, but I'm especially
+interested in `PlantUML`, because I want to teach the students to
+create simple UML diagrams before coding.
+
+\*Note that these diagrams do not render properly on GitHub (either
+as Org or Markdown files), or as HTML in a browser. Best look at it
+in Emacs. For this post, I have inserted screenshots.
+
+
+## Emacs Artist mode
+
+> "Most people that see me using it either think it’s the most
+> ridiculous thing they’ve seen, or they think it’s the coolest thing
+> since sliced bread." (Rob Rohan, 2015)
+
+I side with those who think it's cool. Tried this first a couple of
+years back when I returned to Emacs but haven't used it since.
+
+There is a video demo (13 min) at the end Rohan's blog post. Here,
+I'm going to retrace the demo and aim at creating my own simple
+diagram at the end.
+
+To make the ASCII art into image files, Rohan suggests [`ditaa`](http://ditaa.sourceforge.net/),
+which apparently was bundled with Org in the past, but is no longer
+bundled with it.
+
+
+## `ascii-art-to-unicode`
+
+When I looked for `artist-mode` in the `*Packages*` list, I found
+that it was built-in, but I found another neat addition in the
+package list, [`ascii-art-to-unicode`](https://elpa.gnu.org/packages/ascii-art-to-unicode.html). This package polishes simple
+line drawings and makes them look much better. Installed
+it. Here is an example:
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Key sequence</th>
+<th scope="col" class="org-left">Action or function</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">M-x artist-mode RET</td>
+<td class="org-left">Invoke artist mode</td>
+</tr>
+
+
+<tr>
+<td class="org-left">C-c C-a r</td>
+<td class="org-left"><code>artist-select-op-rectangle</code></td>
+</tr>
+</tbody>
+</table>
+
+![img](./img/aa2u.png)
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Key sequence</th>
+<th scope="col" class="org-left">Action or function</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">C-c C-c</td>
+<td class="org-left"><code>artist-mode-off</code></td>
+</tr>
+
+
+<tr>
+<td class="org-left">C-x n n</td>
+<td class="org-left"><code>narrow-to-region</code></td>
+</tr>
+
+
+<tr>
+<td class="org-left">untabify region</td>
+<td class="org-left"><code>untabify</code></td>
+</tr>
+
+
+<tr>
+<td class="org-left">M-x aa2u RET</td>
+<td class="org-left">Apply aa2u</td>
+</tr>
+</tbody>
+</table>
+
+![img](./img/aa2u1.png)
+
+Check the [vignette for aa2u](https://elpa.gnu.org/packages/ascii-art-to-unicode.html) for more details.
+
+
+## Emacs `artist-mode`
+
+`artist` mode is built in. From the vignette<sup><a id="fnr.13" class="footref" href="#fn.13">13</a></sup>:
+
+> "Artist is an Emacs lisp package that allows you to draw lines,
+> rectangles, squares, poly-lines, ellipses and circles by using your
+> mouse and/or keyboard. The shapes are made up with the ascii
+> characters |, -, / and \\."  ([Source: EmacsWiki](https://www.emacswiki.org/emacs/ArtistMode))
+
+
+### Drawing a poly-line
+
+This is the example from the vignette:
+
+    M-x artist-mode RET
+    C-c C-a p RET
+    RET
+
+![img](./img/polyline.png)                                
+
+To create it, I just moved around the screen with my cursor, and
+Emacs created a line drawing from it.
+
+
+<a id="org821beb7"></a>
 
 # References
 
-<a id="org4c33ebe"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
-You Don’t Ace Physics) [Blog]. [Online: wired.com](https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/).
+AdmiralBumbleBee (Jan 4, 2020). What I learned from 6 months with VS
+Code [blog]. [URL: admiralbumblebee.com](https://www.admiralbumblebee.com/programming/2020/01/04/Six-months-VS-Code.html).
 
-<a id="org0d53c96"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
+<a id="org1b7b879"></a> D'Introno L (30 Aug 2021). Event Recap: Bridging the
 Communications Gap with Data Literacy. [Online: datacamp.com](https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy).
 
-<a id="org4068d8a"></a> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
-and the Meaning of Life [Blog]. [Online: thenewstack.io](https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/).
-
-<a id="orge3c79c2"></a> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
+<a id="orgb343cac"></a> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
 Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast
 \#219 [Podcast]. [Online: lexfridman.com](https://lexfridman.com/donald-knuth-2/).
 
+<a id="org93708fe"></a> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
+and the Meaning of Life [Blog]. [Online: thenewstack.io](https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/).
+
+Rohan (Jan 17, 2015). Poor mans UML / Emacs Artist Mode [blog]. [URL:
+robrohan.com](https://robrohan.com/2015/01/17/poor-mans-uml-artist-mode.html).
+
+Timachi (Dec 7, 2019). Why I switched from VScode to Emacs
+[blog]. [URL: hadi.timachi.com](https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs).
+
 United States Department of Agriculture (n.d.). Performance
 Appraisal Plan Examples. [Online: dm.usda.gov.](https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf)
+
+<a id="orga54612c"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
+You Don’t Ace Physics) [Blog]. [Online: wired.com](https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/).
 
 
 # Footnotes
@@ -569,3 +787,5 @@ Linux in my classes - I just love it too much, and you must learn it.
 until 2025) version of Ubuntu Linux, a popular, well supported
 distribution. I mainly picked it also because I've worked with Ubuntu
 18.04 LTS before.
+
+<sup><a id="fn.13" href="#fnr.13">13</a></sup> A vignette is a manual page for a software package.
