@@ -436,9 +436,9 @@
   they deserve the best paradigm when it comes to system control and
   management, and Emacs is the answer to that.
 
-  Here is a particularly interesting recent post
-  (AdmiralBumbleBee, 2020) contrasting VS Code and Emacs, concluding
-  that Emacs is a superior environment when it comes to:
+  Here is a particularly interesting [[https://www.admiralbumblebee.com/programming/2020/01/04/Six-months-VS-Code.html][recent post]] by AdmiralBumbleBee
+  (2020) contrasting VS Code and Emacs, concluding that Emacs is a
+  superior environment when it comes to:
 
   * Windows management (with ~ace-windows~)
   * File management (with ~Dired~)
