@@ -641,10 +641,10 @@
 
   AdmiralBumbleBee (Jan 4, 2020). What I learned from 6 months with VS
   Code [blog]. [[https://www.admiralbumblebee.com/programming/2020/01/04/Six-months-VS-Code.html][URL: admiralbumblebee.com]].
-				   ---------
-  <<datacamp>> D'Introno ---------/2021). Event Recap: Bridging the
+	
+  <<datacamp>> D'Introno (2021). Event Recap: Bridging the
   Communications Gap with Data Literacy. [[https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy][Online: datacamp.com]].
-		-----
+
   <<fridman>> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
   Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast
   #219 [Podcast]. [[https://lexfridman.com/donald-knuth-2/][Online: lexfridman.com]].
