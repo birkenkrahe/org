@@ -1,26 +1,26 @@
 
 # Table of Contents
 
-1.  [What is this?](#org06d527c)
-2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#orgedd6183)
-3.  [Sunday, 22 August 2021 - End of first week](#org57f0dc3)
-4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#org22b4fcd)
-5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#orgedcb72d)
-6.  [Learning is like (physical) exercise (Sept 8)](#org376ff45)
-7.  [Relevance of agile methodologies (Sept 14)](#org23aebb8)
-8.  [Florida Man (Oct 5)](#org1efc451)
-9.  [Transitioning to Windows 10 (Oct 9)](#org8b1169e)
-10. [Linux app under Windows (Oct 22)](#orgec86949)
-11. [Join me in spring 2022! (Nov 3)](#org35b463b)
-12. [Thanks! (End of fall 2021)](#org4cde754)
-13. [Emacs + ESS + Org-Mode](#org95fca00)
-14. [Creating simple process diagrams in Emacs (1/4)](#org9a73db4)
-15. [My feeling before the spring term 2022](#org3566c48)
-16. [References](#orgb0ade8c)
+1.  [What is this?](#org2387708)
+2.  [Sunday, 11 July 2021 - GitHub & Cybersecurity](#org40e5b8a)
+3.  [Sunday, 22 August 2021 - End of first week](#org6940fea)
+4.  [Saturday, 28 August 2021 - Games and the Arkansas Experience](#org76722b0)
+5.  [Sunday, 29 August 2021 - KILT Lyon College Radio](#org74239cf)
+6.  [Learning is like (physical) exercise (Sept 8)](#org0401b60)
+7.  [Relevance of agile methodologies (Sept 14)](#org27c400d)
+8.  [Florida Man (Oct 5)](#org95891b1)
+9.  [Transitioning to Windows 10 (Oct 9)](#org562822c)
+10. [Linux app under Windows (Oct 22)](#orgc94e0c6)
+11. [Join me in spring 2022! (Nov 3)](#org5bf2686)
+12. [Thanks! (End of fall 2021)](#org9467d1d)
+13. [Emacs + ESS + Org-Mode](#org02a68d8)
+14. [Creating simple process diagrams in Emacs (1/4)](#org02fdd5a)
+15. [My feeling before the spring term 2022](#orgcdd2484)
+16. [References](#org327685a)
 
 
 
-<a id="org06d527c"></a>
+<a id="org2387708"></a>
 
 # What is this?
 
@@ -29,7 +29,7 @@ across all courses, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="orgedd6183"></a>
+<a id="org40e5b8a"></a>
 
 # Sunday, 11 July 2021 - GitHub & Cybersecurity
 
@@ -77,7 +77,7 @@ in the AI seminar, also in this term.
 Next stop: syllabus!
 
 
-<a id="org57f0dc3"></a>
+<a id="org6940fea"></a>
 
 # Sunday, 22 August 2021 - End of first week
 
@@ -110,7 +110,7 @@ model?"), so I must be off, but I'll be seeing you soon. Tonight:
 takeaway - first Chinese buffet.
 
 
-<a id="org22b4fcd"></a>
+<a id="org76722b0"></a>
 
 # Saturday, 28 August 2021 - Games and the Arkansas Experience
 
@@ -169,7 +169,7 @@ to me if you want to know more, or come to a Friday meeting. Don't
 just go to work and let this opportunity to learn go to waste!
 
 
-<a id="orgedcb72d"></a>
+<a id="org74239cf"></a>
 
 # Sunday, 29 August 2021 - KILT Lyon College Radio
 
@@ -183,12 +183,12 @@ very hard to beat. Oriatti presented a marvelous selection and was
 totally responsive to the listeners. He even mentioned data science!
 
 
-<a id="org376ff45"></a>
+<a id="org0401b60"></a>
 
 # Learning is like (physical) exercise (Sept 8)
 
 Read this today in an article in WIRED magazine, "How to Ace
-Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org3005bc6)):
+Physics Class (Even if You Don't Ace Physics)" ([Allain, 2021](#org43282bf)):
 
 > "Perhaps the most important thing to remember is that learning can be
 > fun, but it can also be hard and confusing. Think of it like exercise:
@@ -214,7 +214,7 @@ important to feel! If you never feel it, you're either a genius or
 you're not trying hard enough (you'd know if you're a genius).
 
 
-<a id="org23aebb8"></a>
+<a id="org27c400d"></a>
 
 # Relevance of agile methodologies (Sept 14)
 
@@ -226,10 +226,10 @@ learn this stuff and to do it well:
 > tech industry for application development. The main advantage of the
 > Agile methodology is that it creates an interactive communication
 > line between the business and engineering teams to iteratively
-> deliver value." (Source: [DataCamp, 8/30/2021](#orge27f41a))
+> deliver value." (Source: [DataCamp, 8/30/2021](#org28676bd))
 
 
-<a id="org1efc451"></a>
+<a id="org95891b1"></a>
 
 # Florida Man (Oct 5)
 
@@ -295,7 +295,7 @@ learning). Just in time for a session on "literate programming" (in
 the data science intro course), and another session on "future of
 AI" (in the AI seminar), Lex Fridman has interviewed comp sci hero
 Donald Knuth for the second time - you should check out [the podcast](https://lexfridman.com/donald-knuth-2/)
-([Fridman, 2021](#orgec78311)) (also available on youtube). It's long (an
+([Fridman, 2021](#org676426c)) (also available on youtube). It's long (an
 excellent distraction), but the length is necessary to really go
 deep (this is one of Fridman's specialties, and much needed in this
 time of short attention spans and fleeting
@@ -312,7 +312,7 @@ enticing parallel between AI and God:
 > might be some AI, but whatever, but I do believe that there is
 > something that goes beyond the realm of human understanding, that I
 > can try to learn more about how to resonate with, whatever that
-> being would like me to do.” --[Donald Knuth](#org482ea03)
+> being would like me to do.” --[Donald Knuth](#org7a69613)
 
 I'm tempted to present this as the opening statement of tomorrow's
 session of the AI seminar&#x2026;
@@ -322,7 +322,7 @@ session of the AI seminar&#x2026;
 ![img](./img/beach.jpg)
 
 
-<a id="org8b1169e"></a>
+<a id="org562822c"></a>
 
 # Transitioning to Windows 10 (Oct 9)
 
@@ -362,7 +362,7 @@ some time to go through these instructions<sup><a id="fnr.10" class="footref" hr
 ![img](./img/linux.gif)
 
 
-<a id="orgec86949"></a>
+<a id="orgc94e0c6"></a>
 
 # Linux app under Windows (Oct 22)
 
@@ -429,7 +429,7 @@ computer. After you did this, you should be able to boot Linux
 using the app.
 
 
-<a id="org35b463b"></a>
+<a id="org5bf2686"></a>
 
 # Join me in spring 2022! (Nov 3)
 
@@ -469,7 +469,7 @@ No matter what you may think: you can handle the algorithms!
 > Linux
 
 
-<a id="org4cde754"></a>
+<a id="org9467d1d"></a>
 
 # Thanks! (End of fall 2021)
 
@@ -480,7 +480,7 @@ Lyon. Looking forward to spring 2022!
 ![img](./img/awesome.png)
 
 
-<a id="org95fca00"></a>
+<a id="org02a68d8"></a>
 
 # Emacs + ESS + Org-Mode
 
@@ -530,7 +530,7 @@ this term:
 > mode functionality, tops and that is mostly the code highlighting."
 
 
-<a id="org9a73db4"></a>
+<a id="org02fdd5a"></a>
 
 # Creating simple process diagrams in Emacs (1/4)
 
@@ -753,7 +753,7 @@ video demo](https://youtu.be/cIuX87Xo8Fc) shows examples.
 Can't wait to try this with students in class!
 
 
-<a id="org3566c48"></a>
+<a id="orgcdd2484"></a>
 
 # My feeling before the spring term 2022
 
@@ -763,22 +763,25 @@ Can't wait to try this with students in class!
 
 (Source: [Twitter](https://twitter.com/zone_astronomy/status/1474930694698815488?s=20).)
 
+&#x2026;enjoying [2021's breakthroughs in maths and computer
+science](https://www.quantamagazine.org/the-year-in-math-and-computer-science-20211223/) (Quantamagazine, 2021) while preparing classes.
 
-<a id="orgb0ade8c"></a>
+
+<a id="org327685a"></a>
 
 # References
 
 AdmiralBumbleBee (Jan 4, 2020). What I learned from 6 months with VS
 Code [blog]. [URL: admiralbumblebee.com](https://www.admiralbumblebee.com/programming/2020/01/04/Six-months-VS-Code.html).
 
-<a id="orge27f41a"></a> D'Introno (2021). Event Recap: Bridging the
+<a id="org28676bd"></a> D'Introno (2021). Event Recap: Bridging the
 Communications Gap with Data Literacy. [Online: datacamp.com](https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy).
 
-<a id="orgec78311"></a> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
+<a id="org676426c"></a> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
 Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast
 \#219 [Podcast]. [Online: lexfridman.com](https://lexfridman.com/donald-knuth-2/).
 
-<a id="org482ea03"></a> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
+<a id="org7a69613"></a> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
 and the Meaning of Life [Blog]. [Online: thenewstack.io](https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/).
 
 Rohan (Jan 17, 2015). Poor mans UML / Emacs Artist Mode [blog]. [URL:
@@ -790,7 +793,7 @@ Timachi (Dec 7, 2019). Why I switched from VScode to Emacs
 United States Department of Agriculture (n.d.). Performance
 Appraisal Plan Examples. [Online: dm.usda.gov.](https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf)
 
-<a id="org3005bc6"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
+<a id="org43282bf"></a> Allain R (20 Aug 2021). How to Ace Physics Class (Even if
 You Don’t Ace Physics) [Blog]. [Online: wired.com](https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/).
 
 
