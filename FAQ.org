@@ -1359,7 +1359,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   [[./img/branching.png]]
   /Figure: branching process (source: GitHub)/
 
-  The next figure shows both branches from the exercise, with the
+  The next screenshot shows both branches from the exercise, with the
   ~readme-edit~ branch 2 commits ahead of the ~main~ branch (click on
   the ~2|1~ symbols below ~Default~ to see that).
 
@@ -1368,9 +1368,51 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   3) Opening a *pull* request. You do this once you are sure that your
      changes to the code should be imported into the main
-     project.
+     project. This kicks off a review process to validate the
+     contribution.
 
+     In the screenshot, the changes between ~main~ and ~readme-edit~
+     are shown in ~Git~ format (showing the source) or in rich
+     (display) format.
      
+  #+attr_html: :width 600px
+  [[./img/pull.png]]
+  /Figure: pull request/
+
+     After reviewing, you need to comment on the change before
+     creating the request. You can also submit a draft request. 
+  
+  4) You can now *merge* the pull request with the *main* branch. The
+     screenshot shows that there are ~no conflicts with the base
+     branch~. There is lots of additional information on this page:
+
+     * ~Continuous integration~: In software development projects, many
+     changes like obvious bugs are undisputed and their removal should
+     be automated.
+
+     * ~Open this in GitHub Desktop~: when you click on this link,
+       you're asked to download the GitHub Desktop application. This
+       is something you should do if you want to use GitHub for
+       version control (or backup) of your own projects.
+
+     * ~Command line instructions~: the ~Git~ program is originally a
+       command line program - everything you do in GitHub graphically
+       can also be done with simple text commands. This is generally
+       much faster and safer[fn:28]. Within the command line option,
+       you can submit ~Git~ commands remotely via ~https~, or use the
+       ~git~ program if you have it installed.
+
+     * ~Squash and merge~ or ~Rebase and merge~: subroutines of ~Git~
+       that lead to different levels of details of the version control
+       history.
+
+  #+attr_html: :width 600px
+  [[./img/success.png]]
+  /Figure: Pull request successfully merged and closed/
+  
+
+    5) Your *contributions* are shown on your *profile* page. 
+
 * References
 
   <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
@@ -1413,6 +1455,9 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   ubuntu.com/tutorials/ubuntu-on-windows]]
 
 * Footnotes
+
+[fn:28] In Emacs, you can also use a package called [[https://magit.vc/][~magit~]] to manage
+version control.  
 
 [fn:27]Logical structure means e.g. that the Minto pyramid rules are
 respected: MECE, horizontal groupings (subsections) are ordered and on
