@@ -642,7 +642,8 @@
   [[https://drive.google.com/file/d/1PMvBQlHSvB-gmQ4hvuvfkFg4YUxOee6m/view?usp=sharing][My feeling before the spring term 2022.]]
 
   [[./img/spring2022.png]]
-  
+
+  (Source: [[https://twitter.com/zone_astronomy/status/1474930694698815488?s=20][Twitter]].)
 * References
 
   AdmiralBumbleBee (Jan 4, 2020). What I learned from 6 months with VS
