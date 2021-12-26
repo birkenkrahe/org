@@ -644,6 +644,10 @@
   [[./img/spring2022.png]]
 
   (Source: [[https://twitter.com/zone_astronomy/status/1474930694698815488?s=20][Twitter]].)
+
+  ...enjoying [[https://www.quantamagazine.org/the-year-in-math-and-computer-science-20211223/][2021's breakthroughs in maths and computer
+  science]] (Quantamagazine, 2021) while preparing classes.
+  
 * References
 
   AdmiralBumbleBee (Jan 4, 2020). What I learned from 6 months with VS
