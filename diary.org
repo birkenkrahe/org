@@ -471,7 +471,7 @@
   mode functionality, tops and that is mostly the code highlighting."
   #+end_quote
 
-* Creating simple process diagrams in Emacs
+* Creating simple process diagrams in Emacs (1/4)
 
   I needed diagrams because I wanted to make a simple
   diagram. Usually, I would have drawn this in Signavio, or in
