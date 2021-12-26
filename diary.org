@@ -486,8 +486,9 @@
   Org).
 
   1) [[https://robrohan.com/2015/01/17/poor-mans-uml-artist-mode.html][Poor man's UML / Emacs Artist Mode]] (Rohan, 2015)
-  2) [[https://orgmode.org/worg/org-tutorials/org-dot-diagrams.html][Generating simple process diagrams using dot and tables]]
-  3) [[https://plantuml.com/emacs][PlantUML and Emacs]] - wrapper to [[http://www.graphviz.org/][GraphViz]]
+  2) [[https://flylib.com/books/en/2.27.1.72/1/][Drawing with ~picture-mode~]]
+  3) [[https://orgmode.org/worg/org-tutorials/org-dot-diagrams.html][Generating simple process diagrams using dot and tables]]
+  4) [[https://plantuml.com/emacs][PlantUML and Emacs]] - wrapper to [[http://www.graphviz.org/][GraphViz]]
 
   For today, I'll only try artist mode, but I'm especially
   interested in ~PlantUML~, because I want to teach the students to
@@ -570,25 +571,80 @@
 
 *** Rectangles
 
-        #+begin_example
+    #+begin_example
     M-x artist-mode
     C-c C-a r
-    #+end_example
+    <draw rectangles>
+#+end_example
 
     Here are a few examples[fn:14]:
 
     [[./img/rectangles.png]]
 
+*** Add text
 
-    
+   #+begin_example
+     M-x artist-mode
+     C-c C-a t
+     <enter text>
+   #+end_example
+
+   [[./img/text.png]]
+
+*** Flood fill
+
+    The following sequence created the filled rectangle below. You can
+    call upon all ~artist-mode~ commands with the mouse
+    ~<middle-button>~:
+
+    [[./img/middle.png]]
+
+    #+begin_example
+    M-x artist-mode
+    C-c C-a r
+    <draw rectangle>
+    <middle-button>
+    <flood fill>
+    #+end_example
+
+    [[./img/fill.png]]
+
+*** Other commands
+
+    The image shows the ~artist-mode~ menu.
+
+    [[./img/menu.png]]
+
+    Especially when you have a tablet, drawing with "pen" is
+    cool. Artist mode is for friends of the mouse or pen. Keyboard
+    afficionados may prefer ~picture-mode~.
+
+    Important: when drawing in an Org-mode file, use ~C-x n n~
+    (~narrow-to-region~), to draw without disturbance. The presence of
+    headlines gets ~artist-mode~ confused at times. Return to the
+    buffer with ~C-x n w~ (~widen~).
+
+    Cool: you can copy/cut/paste figures to the clipboard by drawing a
+    rectangle around it.
+
+    [[./img/clip.png]]
+
+*** Rendering ASCII art as graphics
+
+    [[https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-ditaa.html][~ditaa~]] will convert ASCII diagrams into bitmap graphics. ~ditaa~
+    is a Java library that is executed on the command line after being
+    loaded into Emacs as a Babel file. The second part of [[https://youtu.be/cIuX87Xo8Fc][Rohan's
+    video demo]] shows examples.
+
+    Can't wait to try this with students in class!
 * References
 
   AdmiralBumbleBee (Jan 4, 2020). What I learned from 6 months with VS
   Code [blog]. [[https://www.admiralbumblebee.com/programming/2020/01/04/Six-months-VS-Code.html][URL: admiralbumblebee.com]].
-
-  <<datacamp>> D'Introno L (30 Aug 2021). Event Recap: Bridging the
+				   ---------
+  <<datacamp>> D'Introno ---------/2021). Event Recap: Bridging the
   Communications Gap with Data Literacy. [[https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy][Online: datacamp.com]].
-
+		-----
   <<fridman>> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
   Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast
   #219 [Podcast]. [[https://lexfridman.com/donald-knuth-2/][Online: lexfridman.com]].
