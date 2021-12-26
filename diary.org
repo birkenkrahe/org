@@ -663,6 +663,9 @@
   <<knuth>> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
   and the Meaning of Life [Blog]. [[https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/][Online: thenewstack.io]].
 
+  Quantamagazine (Dec 23, 2021). The Year in Math and COmputer Science
+  [article]. [[https://www.quantamagazine.org/the-year-in-math-and-computer-science-20211223/][URL: quantamagazine.org]].
+  
   Rohan (Jan 17, 2015). Poor mans UML / Emacs Artist Mode [blog]. [[https://robrohan.com/2015/01/17/poor-mans-uml-artist-mode.html][URL:
   robrohan.com]].
 
