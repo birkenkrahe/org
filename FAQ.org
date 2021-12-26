@@ -1357,8 +1357,20 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   #+attr_html: :width 600px
   [[./img/branching.png]]
+  /Figure: branching process (source: GitHub)/
 
-  3) 
+  The next figure shows both branches from the exercise, with the
+  ~readme-edit~ branch 2 commits ahead of the ~main~ branch (click on
+  the ~2|1~ symbols below ~Default~ to see that).
+
+  #+attr_html: :width 600px
+  [[./img/branch.png]]
+
+  3) Opening a *pull* request. You do this once you are sure that your
+     changes to the code should be imported into the main
+     project.
+
+     
 * References
 
   <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To

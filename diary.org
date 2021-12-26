@@ -637,6 +637,10 @@
     video demo]] shows examples.
 
     Can't wait to try this with students in class!
+* My feeling before the spring term 2022
+
+  [[./img/spring2022.mp4]]
+  
 * References
 
   AdmiralBumbleBee (Jan 4, 2020). What I learned from 6 months with VS
