@@ -1347,72 +1347,78 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   data structures in GitHub. The data in a repo are version controlled
   using the ~Git~ program.
 
-  1) Create a *repository*. Choose if you wish it to be ~private~ or
-     ~public~, and if you want to add a ~README.md~ file (which will
-     be opened by default so it's the first thing a visitor will see).
+** Create a *repository*.
+   Choose if you wish it to be ~private~ or ~public~, and if you want
+   to add a ~README.md~ file (which will be opened by default so it's
+   the first thing a visitor will see).
 
-  2) Create a *branch*. Any collaborator can modify the code by
-     branching off it, submitting a *pull request*, and then asking
-     for a *merge* to update the *main* branch.
+** Create a *branch*.
+   Any collaborator can modify the code by branching off it,
+   submitting a *pull request*, and then asking for a *merge* to
+   update the *main* branch.
 
-  #+attr_html: :width 600px
-  [[./img/branching.png]]
-  /Figure: branching process (source: GitHub)/
+   #+attr_html: :width 600px
+   [[./img/branching.png]]
+   /Figure: branching process (source: GitHub)/
 
-  The next screenshot shows both branches from the exercise, with the
-  ~readme-edit~ branch 2 commits ahead of the ~main~ branch (click on
-  the ~2|1~ symbols below ~Default~ to see that).
+   The next screenshot shows both branches from the exercise, with the
+   ~readme-edit~ branch 2 commits ahead of the ~main~ branch (click on
+   the ~2|1~ symbols below ~Default~ to see that).
 
-  #+attr_html: :width 600px
-  [[./img/branch.png]]
+   #+attr_html: :width 600px
+   [[./img/branch.png]]
 
-  3) Opening a *pull* request. You do this once you are sure that your
-     changes to the code should be imported into the main
-     project. This kicks off a review process to validate the
-     contribution.
+** Open a *pull* request
+   You do this once you are sure that your changes to the code should
+   be imported into the main project. This kicks off a review
+   process to validate the contribution.
 
-     In the screenshot, the changes between ~main~ and ~readme-edit~
-     are shown in ~Git~ format (showing the source) or in rich
-     (display) format.
-     
-  #+attr_html: :width 600px
-  [[./img/pull.png]]
-  /Figure: pull request/
+   In the screenshot, the changes between ~main~ and ~readme-edit~
+   are shown in ~Git~ format (showing the source) or in rich
+   (display) format.
 
-     After reviewing, you need to comment on the change before
-     creating the request. You can also submit a draft request. 
+   #+attr_html: :width 600px
+   [[./img/pull.png]]
+   /Figure: pull request/
+
+   After reviewing, you need to comment on the change before
+   creating the request. You can also submit a draft request. 
   
-  4) You can now *merge* the pull request with the *main* branch. The
-     screenshot shows that there are ~no conflicts with the base
-     branch~. There is lots of additional information on this page:
+** *Merge* the pull request with the *main* branch.
+   The screenshot shows that there are ~no conflicts with the base
+   branch~. There is lots of additional information on this page:
 
-     * ~Continuous integration~: In software development projects, many
+   * ~Continuous integration~: In software development projects, many
      changes like obvious bugs are undisputed and their removal should
      be automated.
 
-     * ~Open this in GitHub Desktop~: when you click on this link,
-       you're asked to download the GitHub Desktop application. This
-       is something you should do if you want to use GitHub for
-       version control (or backup) of your own projects.
+   * ~Open this in GitHub Desktop~: when you click on this link,
+     you're asked to download the GitHub Desktop application. This
+     is something you should do if you want to use GitHub for
+     version control (or backup) of your own projects.
 
-     * ~Command line instructions~: the ~Git~ program is originally a
-       command line program - everything you do in GitHub graphically
-       can also be done with simple text commands. This is generally
-       much faster and safer[fn:28]. Within the command line option,
-       you can submit ~Git~ commands remotely via ~https~, or use the
-       ~git~ program if you have it installed.
+   * ~Command line instructions~: the ~Git~ program is originally a
+     command line program - everything you do in GitHub graphically
+     can also be done with simple text commands. This is generally
+     much faster and safer[fn:28]. Within the command line option,
+     you can submit ~Git~ commands remotely via ~https~, or use the
+     ~git~ program if you have it installed.
 
-     * ~Squash and merge~ or ~Rebase and merge~: subroutines of ~Git~
-       that lead to different levels of details of the version control
-       history.
+   * ~Squash and merge~ or ~Rebase and merge~: subroutines of ~Git~
+     that lead to different levels of details of the version control
+     history.
 
-  #+attr_html: :width 600px
-  [[./img/success.png]]
-  /Figure: Pull request successfully merged and closed/
+   #+attr_html: :width 600px
+   [[./img/success.png]]
+   /Figure: Pull request successfully merged and closed/
   
+** Show your contributions
+   Your *contributions* are shown on your *profile* page.
 
-    5) Your *contributions* are shown on your *profile* page. 
-
+   #+attr_html: :width 600px
+   [[./img/contrib.png]]
+   /Figure: My contributions/
+   
 * References
 
   <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
