@@ -1062,7 +1062,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   getting started with Emacs for the first time like you:
 
   * [[https://youtu.be/48JlgiBpw_I][The Absolute Beginner's Guide to Emacs]] (System Crafters, 2021) -
-    1hr30min.
+    1hr11min ([[https://github.com/birkenkrahe/org/blob/master/emacs_beginner.org#absolute-beginners-guide-to-emacs][so good that I made notes]]).
 
   And here is a (much shorter) video by a former user of the Vim
   editor who switches to GNU Emacs:
