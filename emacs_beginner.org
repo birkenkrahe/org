@@ -1,0 +1,140 @@
+* Absolute Beginner's Guide to Emacs
+
+  These are my notes taken while watching the [[https://youtu.be/48JlgiBpw_I][YouTube video]] (System
+  Crafters, 2021), with various small extensions. I thought about
+  making a video myself, but David Wilson from [[https://systemcrafters.cc/][System Crafters]] does
+  actually a great job explaining everything in the shortest amount of
+  time with live demo examples[fn:1].
+    
+  * [[https://shop.fsf.org/books-docs/gnu-emacs-manual-nineteenth-edition-emacs-version-272][GNU Emacs Manual (19th ed. GNU Emacs v27.2)]]
+  * [[https://www.masteringemacs.org/][Mastering Emacs]] (Mickey Peterson, 2021)
+
+** Installation ([[https://github.com/birkenkrahe/org/blob/master/FAQ.md#how-to-install-emacs-ess-under-windows-and-macos][FAQ]] - Emacs + ESS[fn:2])
+   * MacOS:
+   |----------+-----------------------------|
+   | [[https://brew.sh/][Homebrew]] | ~brew install --cask emacs~ |
+   | App      | [[https://emacsformacosx.com/][emacsformacosx.com]]          |
+   |----------+-----------------------------|
+   * Windows:
+   |------------+-----------------------------------|
+   | [[https://www.msys2.org/docs/what-is-msys2/][MSYS2]]      | ~pacman -S mingw-w64-86_64-emacs~ |
+   | [[https://chocolatey.org/][Chocolatey]] | ~choco install emacs~             |
+   |------------+-----------------------------------|
+   * Linux (Ubuntu): ~sudo apt-get install emacs~
+   * Emacs terminal mode: font/color limitations (~emacs -nw~)
+** User interface
+   * Menu/tool bar (with keybindings) & buffer menus
+   * You don't want to use the mouse in Emacs much
+   * Menu/tool bar can be disabled/toggled:
+     - ~menu-bar-mode~ / ~tool-bar-mode~
+   * There is no sidebar with a file tree (instead: ~dired~) but you
+     can easily add that if you like (~treemacs~)
+** Windows, Frames and Buffers
+   * Windows are usually managed by the OS not by the program
+   * Emacs window = panes that can be divided
+
+     | WHAT                     | KEY     | COMMAND                |
+     |--------------------------+---------+------------------------|
+     | split vertically         | ~C-x 3~ | ~split-window-right~   |
+     | split horizontally:      | ~C-x 2~ | ~split-window-below~   |
+     | return to single window: | ~C-x 1~ | ~delete-other-windows~ |
+     | delete window            | ~C-x 0~ | ~delete-window~        |
+
+   * New frames with ~C-x 5 2~, deleted with ~C-x 5 0~
+     - Useful when using different screens
+   * Buffers contain all the editable information
+   * Packages (ca. 5000 available community packages) have their own
+     buffers, e.g. ~Magit~
+   * Special information buffers:
+     - ~*scratch*~
+     - ~*Messages*~
+     - ~*Warnings*~ etc.
+   * See buffer list: ~C-x C-b~ (~list-buffers~)
+
+   #+attr_html: :width 600px
+   [[./img/list-buffer.png]]
+
+   * Customizable modeline: 1 per split window
+     - input method (e.g. ~U~ unicode)
+     - File name
+     - Where you are in the file (percent, line)
+     - Git version control info
+     - Major/minor modes, layout options
+   * Minibuffer/echo area:
+     - transient information
+     - interaction with Emacs, e.g. ~C-x C-f~ (~find-file~)
+	 
+** Commands
+   - See all available commands with ~M-x <TAB>~
+   - Run a command with ~M-x <command>~
+   - ~<command>~ can be a name or a key sequence
+   - See the command name with ~C-h k <keys>~
+   - Examples: ~dired~, ~calendar~, ~eshell~, ~tetris~
+   - All packages: ~M-x package-list-packages~
+** Major and minor modes
+   - Major modes for programming languages or main activities, like
+     Calendar, Org-mode, C.
+   - Only one major mode at any time per buffer
+   - Minor modes provide extra functionality, like abbreviations,
+     auto saving, display line numbers, etc.
+   - Minor modes can be executed globally or locally
+** Key binding
+   - You can bind commands to any key you like
+   - This enables personalized workflows
+   - Much more efficient than graphical menu clicking
+     |-------------+----------------------------+------------------------------+-----|
+     | KEYS        | KEYBOARD ACTION            | COMMAND                      | ARG |
+     |-------------+----------------------------+------------------------------+-----|
+     | C-g         | <CTRL + g>                 | ~quit~                       |     |
+     | C-x u       | <CTRL + x> + u             | ~undo~                       |     |
+     | C-/         | <CTRL + />                 | ~undo~                       |     |
+     | C-x C-c     | <CTRL + x> + <CTRL + c>    | ~save-buffers-kill-terminal~ |     |
+     | C-x n s     | <CTRL + n> + n + s         | ~org-narrow-to-subtree~      |     |
+     | C-x n w     |                            | ~widen~                      |     |
+     | M-x         | <ALT + x>                  | ~execute-extended-command~   | yes |
+     | S           | <Shift>                    |                              |     |
+     | s           | Super/Windows/Apple key    |                              |     |
+     | C-h k       | <CTRL + h> + k             | ~describe-key~               | yes |
+     | C-x ESC ESC | <CTRL + x> + <ESC> + <ESC> | ~repeat-complex-command~     |     |
+     | C-x C-f     | <CTRL + x> + <CTRL + f>    | ~find-file~                  | yes |
+     |-------------+----------------------------+------------------------------+-----|
+   - To see all key bindings: ~M-x describe-bindings~ (C-h b)
+** Buffer keybindings
+     |-------------+----------------------------+------------------------------+-----|
+     | KEYS        | KEYBOARD ACTION            | COMMAND                      | ARG |
+     |-------------+----------------------------+------------------------------+-----|
+     | C-x C-s | <CTRL + x > + <CTRL + s> | ~save-buffer~         |     |
+     | C-x C-b | <CTRL + x > + <CTRL + b> | ~list-buffers~        |     |
+     | C-x b   | <CTRL + x > + b          | ~switch-to-buffer~    | yes |
+     | C-x →   | <CTRL + x > + <right>    | ~next-buffer~         |     |
+     | C-x ←   | <CTRL + x > + <left>     | ~previous-buffer~     |     |
+     | M-<     | <ALT  + < >              | ~beginning-of-buffer~ |     |
+     | M->     | <ALT  + > >              | ~end-of-buffer~       |     |
+     |---------+--------------------------+-----------------------+-----|
+** Cutting/copying/pasting text
+   * Emacs does NOT use C-x/C-c/C-v to cut/copy/paste
+   * Emacs kills regions, which must be marked with C-<SPC>
+   * S-<movement> will also mark a region
+   * C-w "kills" (deletes) the text and moves it to the "kill ring"
+   * C-y "yanks" (pastes) the text to the cursor point
+   * You can rebind cut/copy/paste to C-x/C-c/C-v (~M-x cua-mode~)
+   * Undo forever with C-/ or C-x u - to return direction: C-g
+   * Cancel any operation with C-g (~quit~)
+   * 
+** Help
+   * The entire GNU Emacs manual is in Emacs (C-h r)
+** Configuring Emacs ([[https://github.com/birkenkrahe/org/blob/master/FAQ.md#how-to-customize-gnu-emacs][FAQ]] with ~.emacs~ file)
+   * Code: My ~~/.emacs~ file is sufficient to use Emacs
+   * UI: ~M-x customize~ shows all customization settings
+   * More: Wilson's [[https://github.com/daviwil/emacs-from-scratch][Emacs from Scratch]] GitHub repo + video series
+   * [[https://www.gnu.org/software/emacs/manual/html_node/elisp/][Emacs Lisp]] isn't very complicated ([[https://learnxinyminutes.com/docs/elisp/][learn it in 15 min only]])
+   * It's super fun to learn a language while customizing an editor
+     that is actually more like an operating system!
+   * Emacs Lisp is a functional programming language (like [[https://r-project.org][R]], [[https://www.haskell.org/][Haskell]])
+** References
+   System Crafters (Mar 8, 2021) The Absolute Beginner's Guide to
+   Emacs [video]. [[https://youtu.be/48JlgiBpw_I][URL: youtu.be/48JlgiBpw_I.]]
+
+* Footnotes
+
+[fn:1]Such a great job, actually, that I'm [[https://github.com/sponsors/daviwil][sponsoring]] his channel!
