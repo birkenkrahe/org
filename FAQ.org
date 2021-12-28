@@ -544,7 +544,8 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 ** My Emacs setup
 
    * The configuration file for Emacs is the ~.emacs~ file. [[https://1drv.ms/u/s!AhEvK3qWokrvitxPQ2OuaCOOQDfvZQ?e=KhLQW6][Here is
-     the ~.emacs~ file that I use for download]].
+     the ~.emacs~ file that I use for download]] (it's a text file - you
+     can download it as ~emacs.txt~ to view it).
    * Site lisp files are stored in ~/.emacs.d/~ and they are
      downloaded from a central repository. Emacs knows which ones to
      use. You can see all available and installed packages with the
