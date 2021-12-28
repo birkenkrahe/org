@@ -927,7 +927,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    * Download the latest package from [[https://cran.r-project.org/][CRAN]].
    * Run the installer - accept all presets.
    * Add the location of the executable file ~R~ to the Windows ~PATH~
-     (~C:\Program Files\R\R-4.1.2\bin\x64~[fn:1]).
+     (~C:\Program Files\R\R-4.1.2\bin\x64~[fn:1]):
      - Search for ~PATH~ and open the menu ~System Properties~
 
        #+attr_html: :width 300px
@@ -970,7 +970,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    * Download the installer [[https://sourceforge.net/projects/mingw-w64/][from sourceforge]].
    * Run the installer - accept all presets.
    * Add the location of the executable file ~gcc~ to the Windows
-     ~PATH~ (you can find it in ~C:\Program Files(x86)\mingw-w64\~).
+     ~PATH~ (you can find it in ~C:\Program Files(x86)\mingw-w64\~):
 
      - Search for ~PATH~ and open the menu ~System Properties~
 
@@ -991,8 +991,8 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      [[./img/environmentvariable.png]]
 
      - To test, search for ~CMD~, open a terminal and enter ~gcc
-       --version~ - you should get the output shown below. Close the
-       window.
+       --version~ - you should get the output shown below (or
+       similar). Close the window.
 
        #+attr_html: :width 300px
        [[./img/gcc.png]]
@@ -1000,7 +1000,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 ** MacOS
 
    Apple no longer allows GNU tools - instead, you can install the
-   Clang compiler.
+   free [[https://clang.llvm.org/][Clang]] compiler as part of the [[https://developer.apple.com/documentation/xcode][~Xcode~]] development suite.
 
    * Check if you already have a C compiler: open a terminal (search
      for ~terminal~ app) and enter ~cc -v~.
@@ -1009,6 +1009,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    * Test it by typing ~cc -v~.
 
      [[./img/cc.png]]
+
 * How to install SQLite under Windws and MacOS
 ** Windows
 
