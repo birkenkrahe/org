@@ -120,7 +120,6 @@
    * You can rebind cut/copy/paste to C-x/C-c/C-v (~M-x cua-mode~)
    * Undo forever with C-/ or C-x u - to return direction: C-g
    * Cancel any operation with C-g (~quit~)
-   * 
 ** Help
    * The entire GNU Emacs manual is in Emacs (C-h r)
 ** Configuring Emacs ([[https://github.com/birkenkrahe/org/blob/master/FAQ.md#how-to-customize-gnu-emacs][FAQ]] with ~.emacs~ file)
