@@ -9,6 +9,9 @@
   * [[https://shop.fsf.org/books-docs/gnu-emacs-manual-nineteenth-edition-emacs-version-272][GNU Emacs Manual (19th ed. GNU Emacs v27.2)]]
   * [[https://www.masteringemacs.org/][Mastering Emacs]] (Mickey Peterson, 2021)
 
+    #+attr_html: :width 700px
+    [[./img/real_programmers.png]]
+    
 ** Installation ([[https://github.com/birkenkrahe/org/blob/master/FAQ.md#how-to-install-emacs-ess-under-windows-and-macos][FAQ]] - Emacs + ESS[fn:2])
    * MacOS:
    |----------+-----------------------------|

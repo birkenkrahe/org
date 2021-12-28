@@ -9,7 +9,6 @@
 -   Future of the data science program
 -   Student profiles
 
-
 # What is data science?
 
 ![img](./img/datascience.jpg)
