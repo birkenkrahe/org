@@ -1,0 +1,55 @@
+#+startup: overview hideblocks
+* Org tips
+
+  Putting together some tips as I go along.
+
+* My custom theme
+
+  I really like my current theme - [[https://github.com/aaronjensen/night-owl-emacs]["night owl"]]. To install, type:
+
+  #+begin_example
+    M-x package-install RET night-owl-theme RET
+  #+end_example
+
+* Code block header
+
+  You can set the header arguments anywhere in an Org file, and they
+  will automatically be assumed for every program:
+
+  #+PROPERTY: header-args:C :main yes :includes stdio.h
+
+  #+begin_src C
+    puts("hello");
+  #+end_src
+
+  #+RESULTS:
+  : hello
+
+  And if you decide to use an explicit ~main~ function after all, the
+  header arguments are simply ignored:
+
+  #+begin_src C
+    #include <stdio.h>
+
+    int main(void)
+    {
+      puts("hello");
+      return 0;
+    }
+  #+end_src
+
+  #+RESULTS:
+  : hello
+
+  [[https://orgmode.org/manual/Using-Header-Arguments.html][See here for more details on header arguments.]]
+* Results format
+
+  The header argument is ~:results~. Can have different formats ([[https://orgmode.org/manual/Results-of-Evaluation.html][see
+  here]]), best is ~:results raw~. Example:
+
+  #+begin_src C :main yes :includes stdio.h :results raw
+    puts("hello world");
+  #+end_src
+
+  #+RESULTS:
+  hello world
