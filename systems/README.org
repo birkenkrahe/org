@@ -1,0 +1,259 @@
+#+TITLE:Systems
+#+AUTHOR:Systems
+#+SUBTITLE:CSC100 Introduction to Programming in C/C++
+#+STARTUP:overview
+#+OPTIONS:hideblocks
+#+OPTIONS: toc:nil num:nil ^:nil
+#+INFOJS_OPT: :view:info
+* Prelude: systems
+
+  All of my spring 2022 courses are system-related:
+
+  | Course title                          | Number | Systemic                                          |
+  |---------------------------------------+--------+---------------------------------------------------|
+  | Intro to programming with C/C++       | CSC100 | C = system programming language                   |
+  | Advanced introduction to data science | DSC205 | Data Science = System Science[fn:2]               |
+  | Database Theory and Applications      | CSC330 | Database Management Systems = information systems |
+  | Operating systems                     | CSC420 | Operating systems = information systems           |
+
+  ...which is why I may give this lecture in more course than one. I'm
+  sorry if you have to hear it twice or more! I'll make an effort to
+  adapt it to the specific course setting.
+
+* What is a system?
+
+  |System = a whole made up of several parts|
+
+  #+attr_html: :width 400px
+  [[./img/system.png]]
+
+  | PART          | STATE 1 | STATE 2 |
+  |---------------+---------+---------|
+  | Boundary      | open    | closed  |
+  | Elements      | inside  | outside |
+  | Relationships | yes     | no      |
+  | Flow          | input   | output  |
+
+  Relevant systems in Computer Science:
+  #+begin_quote
+  *Computer systems* have a *boundary* 
+  #+end_quote
+
+  
+  #+begin_quote
+  *Database management systems* have a *boundary* (data can be put in
+  or retrieved), have data as *elements*, and *relationships* between
+  the data (e.g. in Schoology: grade data belong to a student).
+  #+end_quote
+
+  #+begin_quote
+  *Operating systems* have a *boundary* (indicated by the shell), have
+   parts as *elements* (e.g. drivers, file system, kernel, UI), and
+   *relationships* between them (e.g. storing, searching files using
+   the UI). 
+  #+end_quote
+
+* System activities
+
+  To manage system processes, an overview of what can be done with and
+  in systems, is useful:
+  
+  | ACTIVITY                 | PROGRAMMING              | DATABASES     |
+  |--------------------------+--------------------------+---------------|
+  | Add/delete elements      | Assign values            | Add records   |
+  | Add/delete relationships | Define function          | Join tables   |
+  | Transcend boundary       | Remote program execution | Dump database |
+
+* Examples for systems
+
+  Your turn: fill in the details of these systems!
+
+  | System    | Boundary | Elements | Relationships | Flow |
+  |-----------+----------+----------+---------------+------|
+  | Car       |          |          |               |      |
+  | College   |          |          |               |      |
+  | Computer  |          |          |               |      |
+  | Cow       |          |          |               |      |
+  | Earth     |          |          |               |      |
+  | Nation    |          |          |               |      |
+  | Person    |          |          |               |      |
+  | Phone     |          |          |               |      |
+  | Schoology |          |          |               |      |
+
+  Can you think of things that are not systems?
+
+* Ways to describe and manipulate systems
+
+  In this section we take a look at four different ways to describe
+  and manipulate systems. As examples, we use systems of financial
+  markets (Sallans et al, 2003)[fn:1].
+
+** Models/Abstractions
+
+   The model below shows a system consisting of three elements (which
+   are systems themselves): a firm, a consumer market, and a financial
+   market.
+
+   #+attr_html: :width 500px
+   [[./img/markets.jpg]]
+
+   There are other ways of abstracting (= taking away detail to make
+   processes more manageable), e.g. graphs:
+
+   #+attr_html: :width 400px
+   [[./img/stocks.png]]
+
+   If time is an independent variable, process activity diagrams can
+   be useful models: the example shows a sales process.
+
+   #+attr_html: :width 500px
+   [[./img/sales.png]]
+
+   If time is not a variable, the model is static. In IT, Use Case
+   Diagrams are a common way of modeling systems. The diagram shows
+   some of the content of the first model.
+
+   #+attr_html: :width 500px
+   [[./img/uml.png]]
+
+** Stories/Narratives
+
+   This is the prose that explains the graphic model of the financial
+   markets in more detail (Sallans et al, 2003).
+
+   #+begin_quote
+   "The model consists of two markets: a consumer market and a
+   financial equities market. The consumer market simulates the
+   manufacture of a product by production firms, and the purchase of
+   the product by consumers. The financial market simulates trading of
+   shares. The shares are traded by financial traders. The two markets
+   are coupled: The financial traders buy and sell shares in the
+   production firms, and the managers of firms may be concerned with
+   their share price. The traders can use the performance of a firm in
+   the consumer market in order to make trading decisions. Similarly,
+   the production firms can potentially use positioning in product
+   space and pricing to influence the decisions of financial traders."
+   #+end_quote
+
+   A special story type is the "Quest":
+
+   #+begin_quote
+   "You must have a map, no matter how rough. Otherwise you wander all
+   over the place. In /The Lord Of The Rings/ I never made anyone go
+   farther than he could on a given day." (J R R Tolkien)
+   #+end_quote
+
+   Here is an example for such a map not for fiction but for
+   non-fiction: a visualization of the "networks of paths an
+   [programming language] implementation may choose as climbing a
+   mountain." (Such a map is a cross between a story and a model - a
+   model that tells a story):
+
+   #+attr_html: :width 600px
+   [[./img/interpreter.png]]
+
+   #+begin_quote
+   "You start off at the bottom with the program as raw source text,
+
+   literally just a string of characters. Each phase analyzes the program
+   and transforms it to some higher-level representation where the
+   semantics - what the author wants the computer to do - become more
+   apparent. Eventually we reach the peak. We have a bird's-eye view of
+   the user's program and can see what their code /means/. We begin our
+   descent down the other side of the mountain. We transform this
+   highest-level representation down to successively lower-level forms to
+   get closer and closer to something we know how to make the CPU
+   actually execute." (Nystrom, Crafting Interpreters)
+   #+end_quote
+
+** Algorithms/Heuristics
+
+   The article studies management compensation using a "discrete-time
+   agent-based economic model". The agent behavior is expressed
+   algorithmically as a sequence of possible actions. For example for
+   the production firm, the algorithm can be expressed as shown.
+
+   #+attr_html: :width 400px
+   [[./img/actions.png]]
+
+   Not all algorithms are born equal[fn:3]:
+
+   #+attr_html: :width 600px
+   [[./img/complexity.png]]
+
+   In fact, some deep learning algorithms are located at the right end
+   of this scale. What's also located there is "heuristics" - the way
+   in which humans commonly solve problems.
+
+** Mathematical functions
+
+   Rational agents are designed to maximize utility functions. An
+   example is the action-value or Q-function, which is "defined as the
+   expected discounted return conditioned on the current state $s$ and
+   action $a$" (of the agent):
+
+   #+attr_html: :width 400px
+   [[./img/function.png]]
+
+* Literate Programming - Org-Mode + GitHub
+
+  * High degree of abstraction = greatly concealed power
+  * Requires extra efforts to be transparent and manageable
+  * Literate Programming is a paradigm made for system programming
+
+  #+begin_quote
+  "Literate programming is a programming paradigm introduced by Donald
+  Knuth in which a computer program is given an explanation of its
+  logic in a natural language, such as English, interspersed with
+  snippets of macros and traditional source code, from which
+  compilable source code can be generated. The approach is used in
+  scientific computing and in data science routinely for reproducible
+  research and open access purposes. Literate programming tools are
+  used by millions of programmers today." (Source: [[https://en.wikipedia.org/wiki/Literate_programming][Wikipedia]])
+  #+end_quote
+
+  In this course, we use:
+
+  * GNU Emacs Org-mode files as literate notebooks for code + doc
+  * GitHub as collaborative platform that renders Org files
+
+* Summary
+
+  * Systems are everywhere (but not everything is a system)
+  * Powerful concept with many applications ("[[https://en.wikipedia.org/wiki/System][System sciences]]")
+  * Systems have: boundaries, elements, relationships, and flow
+  * Systems can be described through models, stories, algorithms, and functions
+  * The literate programming paradigm meets system programming requirements
+
+* References
+  * chaitanya.dev (Nov 22, 2020). How a developer broke the internet
+    by un-publishing his package containing 11 lines of code. [[https://dev.to/chaitanyasuvarna/how-a-developer-broke-the-internet-by-un-publishing-his-package-containing-11-lines-of-code-31ei][URL:
+    dev.to]].
+  * Nystrom (2021). Crafting Interpreters. Genever Benning. [[http://craftinginterpreters.com/][URL:
+    craftinginterpreters.com]].
+  * Sallans, Pfister and Dorffner (December 15, 2003). A Simulation
+    Study of Managerial Compensation, OEFAI Neural Computation Group
+    Technical Report, Austrian Institute for Artificial Intelligence
+    [report]. URL: [[https://ofai.at/papers/oefai-tr-2003-33.pdf][ofai.at]].
+  * Wikipedia (Dec 15, 2021). Literate Programming [wiki]. [[https://en.wikipedia.org/wiki/Literate_programming][URL:
+    en.wikipedia.org]].
+
+* Footnotes
+
+[fn:3]"Leftpad" refers to 11 lines of code that are part of ~Node.js~,
+a popular package manager. This fragment was accidentally deleted in
+2016 leading to a lot of uproar ([[https://dev.to/chaitanyasuvarna/how-a-developer-broke-the-internet-by-un-publishing-his-package-containing-11-lines-of-code-31ei][chaitanya, 2020]]).
+
+[fn:2]System sciences are sciences for which the concept of a system
+is a defining characteristic. This includes sciences that are
+interdisciplinary by nature and/or that are especially interested in
+patterns, and/or that deal with machines as a special case of
+mechanical system linked to our organic system. Examples include: data
+science (esp. data exploration), psychology (especially human-computer
+interface research), and biology!
+
+[fn:1]Why this source? There is nothing special about the paper used -
+I found it while looking for a good (visual) model of financial
+markets. It is, however, interesting that the report contains all
+four ways of describing systems - as good scientific articles
+should!
