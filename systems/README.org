@@ -64,6 +64,10 @@
   | Add/delete relationships | Define function          | Join tables   |
   | Transcend boundary       | Remote program execution | Dump database |
 
+  /Image: system vs. process (Source: Trezza, 2017)./
+  #+attr_html: :width 600px
+  [[./img/process.jpg]]
+  
 * Examples for systems
 
   Your turn: fill in the details of these systems!
@@ -81,6 +85,8 @@
   | Schoology |          |          |               |      |
 
   Can you think of things that are not systems?
+
+  (Here is a solution.)
 
 * Ways to describe and manipulate systems
 
