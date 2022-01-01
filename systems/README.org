@@ -86,7 +86,7 @@
 
   Can you think of things that are not systems?
 
-  (Here is a solution.)
+  ([[https://github.com/birkenkrahe/org/blob/master/systems/img/systems.png][Here is a solution.]])
 
 * Ways to describe and manipulate systems
 
@@ -241,6 +241,8 @@
     Study of Managerial Compensation, OEFAI Neural Computation Group
     Technical Report, Austrian Institute for Artificial Intelligence
     [report]. URL: [[https://ofai.at/papers/oefai-tr-2003-33.pdf][ofai.at]].
+  * Trezza (Feb 21, 2017). A System is NOT a Process [blog]. URL:
+    [[https://lithyem.net/a-system-is-not-a-process/][lithyem.net]].
   * Wikipedia (Dec 15, 2021). Literate Programming [wiki]. [[https://en.wikipedia.org/wiki/Literate_programming][URL:
     en.wikipedia.org]].
 
