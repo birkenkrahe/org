@@ -1,0 +1,11 @@
+* GNU Emacs Tutorial
+
+  * We will work through the beginning of the tutorial in class
+    together.
+  * Some will be faster, some will be slower. Finish it at home!
+  * The tutorial can be opened from the GNU Emacs start page
+  * To increase the font, type ~C-x C-=~ then ~+~, ~-~, or ~0~.
+
+    
+    
+
