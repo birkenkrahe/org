@@ -1424,6 +1424,10 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    [[./img/contrib.png]]
    /Figure: My contributions/
    
+* Why Emacs?
+
+  * [[https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61][15 Reasons Why I Use Emacs With GIFs]] (Tarnowski, 2020).
+  
 * References
 
   <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
@@ -1462,6 +1466,9 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   System Crafters (Mar 8, 2021). The Absolute Beginner's Guide to
   Emacs [video]. [[https://youtu.be/48JlgiBpw_I][URL: youtu.be/48JlgiBpw_I]].
 
+  Tarnowski (Mar 10, 2020). 15 Reasons Why I Use Emacs, With GIFs
+  [blog]. [[https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61][URL: medium.com]].
+  
   <<ubuntu>> Morrison G (2021). Ubuntu on Windows 10 [website]. [[https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview][URL:
   ubuntu.com/tutorials/ubuntu-on-windows]]
 

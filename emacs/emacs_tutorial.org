@@ -6,6 +6,8 @@
   * The tutorial can be opened from the GNU Emacs start page
   * To increase the font, type ~C-x C-=~ then ~+~, ~-~, or ~0~.
 
-    
-    
+** Control and Meta keys
 
+   * On MacOS, the Meta key is the <Options> key (between CTRL and
+     Apple key)
+   * 
