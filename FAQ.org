@@ -1073,7 +1073,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
     #+attr_html: :width 700px
     [[./img/real_programmers.png]]
-  
+
 ** Create configuration file
 
    To create interactive computing notebooks in Emacs, we use the
@@ -1102,17 +1102,17 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      (org-babel-do-load-languages
       'org-babel-load-languages
       '((R . t)
-	(sql . t)
-	(python . t)
-	(emacs-lisp . t)
-	(C . t)))
+        (sql . t)
+        (python . t)
+        (emacs-lisp . t)
+        (C . t)))
 
      ;; Syntax highlight code in your SRC blocks The last variable removes
      ;; the annoying “Do you want to execute” your code when you type:
      ;; C-c C-c
      (setq org-confirm-babel-evaluate nil
-	   org-src-fontify-natively t
-	   org-src-tab-acts-natively t)
+           org-src-fontify-natively t
+           org-src-tab-acts-natively t)
 
      ;; enable snippet expansion via org-structure-template-alist
      (require 'org-tempo)
@@ -1120,7 +1120,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      ;; get packages from MELPA package manager
      (require 'package)
      (add-to-list 'package-archives
-		  '("melpa-stable" . "https://stable.melpa.org/packages/"))
+                  '("melpa-stable" . "https://stable.melpa.org/packages/"))
 
    #+end_src
 
@@ -1242,11 +1242,11 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      ;; unfill region
      (defun unfill-region (beg end)
        "Unfill the region, joining text paragraphs into a single
-	 logical line.  This is useful, e.g., for use with
-	 `visual-line-mode'."
+         logical line.  This is useful, e.g., for use with
+         `visual-line-mode'."
        (interactive "*r")
        (let ((fill-column (point-max)))
-	 (fill-region beg end)))
+         (fill-region beg end)))
 
    #+end_src
 
@@ -1387,8 +1387,8 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    /Figure: pull request/
 
    After reviewing, you need to comment on the change before
-   creating the request. You can also submit a draft request. 
-  
+   creating the request. You can also submit a draft request.
+
 ** *Merge* the pull request with the *main* branch.
    The screenshot shows that there are ~no conflicts with the base
    branch~. There is lots of additional information on this page:
@@ -1416,18 +1416,138 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    #+attr_html: :width 600px
    [[./img/success.png]]
    /Figure: Pull request successfully merged and closed/
-  
+
 ** Show your contributions
    Your *contributions* are shown on your *profile* page.
 
    #+attr_html: :width 600px
    [[./img/contrib.png]]
    /Figure: My contributions/
-   
-* Why Emacs?
 
-  * [[https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61][15 Reasons Why I Use Emacs With GIFs]] (Tarnowski, 2020).
-  
+* Why Emacs for Programming?
+
+  With the Emacs editor + Org-mode, you can almost program
+  interactively (live code) with C - akin to Python or R. Org-mode
+  inside Emacs works like a REPL (Read-Evaluate-Print-Loop).
+
+  A resource to look at, and use (for free, at first) that uses the
+  REPL concept, is [[https://repl.it][repl.it]]. See image below for the "hello world"
+  program in C.
+
+  #+attr_html: :width 600px
+  [[./img/replit.png]]
+
+** What is Emacs ?
+
+   | PROPERTY                     | WHAT THIS MEANS                                      |
+   |------------------------------+------------------------------------------------------|
+   | Extensible editor            | You can adapt it to your needs[fn:4]                 |
+   | Written in C with Emacs Lisp | It's fast and smart (via Lisp[fn:5])                 |
+   | Ancient software             | Written 1976, released in 1985[fn:6]                 |
+   | Ca. 1.5M lines of code       | By comparison: Windows ca. 50M; Linux kernel ca. 30M |
+
+   #+attr_html: :width 500px
+   [[./img/panels.png]]
+   /Image: "Emacs 27.1 showing Org, Magit and Dired
+   buffers with the modus-operandi theme, without window titlebar or
+   borders." Source: [[https://en.wikipedia.org/wiki/Emacs#/media/File:Emacs27_showing_Org,_Magit,_and_Dired_with_the_modus-operandi_theme.png][Wikipedia]]/
+
+   |Challenge: which Emacs properties can you deduce from this image alone?[fn:7] |
+
+** How do you use Emacs?
+
+   See [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#which-editor-and-ide-do-you-use][FAQ]]. I use Emacs for most of my computing needs:
+
+   * Writing (teaching, research)
+   * Planning (Calendar, ToDo)
+   * Organizing (Files)
+
+   See also the article "[[https://opensource.com/article/20/3/getting-started-emacs][Getting started with Emacs"]] (Kenlon, 2020),
+   and the video "[[https://youtu.be/48JlgiBpw_I][The Absolute Beginner's Guide to Emacs]]" (System
+   Crafters, 2020) with [[https://github.com/birkenkrahe/org/blob/master/emacs/emacs_beginner.org][my notes]].
+
+   #+attr_html: :width 400px
+   [[./img/desy.jpg]]
+   /Image: DESY APE research group (1994). Can you find me?/
+
+   Other uses:
+   * As [[https://youtu.be/Wcjmx_U5alY][window manager]] (only under Linux)
+   * As [[http://www.mycpu.org/read-email-in-emacs/][email client]]
+   * Remote access (with [[https://www.gnu.org/software/tramp/][GNU Tramp]])
+
+** How will we use Emacs (in the C programming class)?
+
+   #+attr_html: :width 500px
+   [[./img/neal.jpg]]
+
+   We'll use it as:
+
+   * EDITOR to write source code,
+   * NOTEBOOK to write literate programs, and
+   * SHELL to build and run code.
+   -----
+   #+begin_quote
+   "Emacs outshines all other editing software in approximately the same
+   way that the noonday sun does the stars. It is not just bigger and
+   brighter; it simply makes everything else vanish." – Neal Stephenson,
+   In the Beginning was the Command Line (1998)[fn:8]
+   #+end_quote
+
+   We will not use Emacs as a substitute for religion even though
+   there is a [[https://www.emacswiki.org/emacs/ChurchOfEmacs]["Church of Emacs"]] (EmacsWiki)! Huh?! What?!
+
+   /Image: Notre Dame de Paris. Source: Wikipedia./
+   #+attr_html: :width 500px
+   [[./img/notredame.png]]
+
+** Does it really have to be Emacs?
+
+   You'll handle it. Keep calm and carry on coding.
+
+   If you look around, you'll see a lot of discussion on different
+   source code editors and IDEs. Currently [[https://code.visualstudio.com/][Microsoft's Visual Studio
+   (VS) Code]] seems to be the most popular contender. However, as one
+   developer said:
+
+   #+begin_quote
+   "One thing that cannot be replaced by any extension in VS code, VIM
+   or any other editor: Emacs' Org mode. Org mode is for sure one of
+   the most amazing pieces of software I have ever seen or worked
+   with. It does things that no other text-based word processor can
+   do, even if you are writing complex scientific reports. VS code has
+   an extension which brings less than 5% of Org mode functionality,
+   tops and that is mostly the code highlighting." ([[https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs][Timachi, 2019]])
+   #+end_quote
+
+   And someone else found "[[https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61][15 Reasons Why I Use Emacs, With GIFs]]"
+   (Tarnowski, 2020). [[https://github.com/birkenkrahe/org/blob/master/emacs/15_reasons.pdf][Here is the PDF]].
+
+** What about Emacs' famously "steep learning curve" ?
+
+   #+begin_quote
+   "Emacs can be a challenge if you are used to using mouse
+   pointer. One should be willing to leave the mouse and stick with
+   the keyboard." ([[https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs][Timachi, 2019]])
+   #+end_quote
+
+   Using the keyboard for everything is much faster (than mouse-only,
+   or mouse + keyboard) but takes getting used to. During the writing
+   of this paragraph, I used the following keystrokes (with the
+   command behind the keys, which your fingers will learn):
+
+   | KEY     | COMMAND                   |
+   |---------+---------------------------|
+   | <q RET  | ~org-self-insert-command~ |
+   | C-M-\   | ~indent-region~           |
+   | M-q     | ~org-fill-paragraph~      |
+   | C-a     | ~org-beginning of line~   |
+   | C-e     | ~org-end-of-line~         |
+   | C-x C-s | ~save-buffer~             |
+
+   Computer science, and IT, are largely about mastering, and creating
+   new tools. Therefore, almost any effort is justified that goes into
+   improving your *meta skills*[fn:9] in this area.
+
 * References
 
   <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
@@ -1468,14 +1588,14 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   Tarnowski (Mar 10, 2020). 15 Reasons Why I Use Emacs, With GIFs
   [blog]. [[https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61][URL: medium.com]].
-  
+
   <<ubuntu>> Morrison G (2021). Ubuntu on Windows 10 [website]. [[https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview][URL:
   ubuntu.com/tutorials/ubuntu-on-windows]]
 
 * Footnotes
 
 [fn:28] In Emacs, you can also use a package called [[https://magit.vc/][~magit~]] to manage
-version control.  
+version control.
 
 [fn:27]Logical structure means e.g. that the Minto pyramid rules are
 respected: MECE, horizontal groupings (subsections) are ordered and on
