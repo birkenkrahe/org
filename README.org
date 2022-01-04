@@ -8,7 +8,7 @@
   automatically as markdown. To see a table of contents, open the
   bullet point list on the upper left of the page.
 
-  For the mobile GitHub app, you need the Markdown *.md files.
+  You need the Markdown *.md files only for the GitHub mobile app.
 
   To be up to date, you should fork this repo to your own GitHub space
   and fetch upstream when your repo is behind.
