@@ -10,12 +10,6 @@
   should fork this repo to your own GitHub space and fetch upstream
   when your repo is behind.
 
-* [[https://github.com/birkenkrahe/org/blob/master/spring22.org][Short introduction to my upcoming courses in spring 2022]]
-
-  A short introduction to upcoming courses in Spring term 2022. Please
-  ask if anything here is unclear. Full information will be available
-  in the syllabi.
-
 * [[https://github.com/birkenkrahe/org/blob/master/FAQ.org][Frequently Asked Questions]]
 
   These are FAQs for all my courses. Each course also carries a local
@@ -31,11 +25,6 @@
 
   Discussion forum on anything in this repo, or anything that's
   relevant across all courses.
-
-* Project management
-
-  I work with [[https://scrum.org][Scrum]] (an agile project management method) in all my
-  courses. Relevant materials are also here.
 
 * Footnotes
 
