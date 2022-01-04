@@ -675,12 +675,16 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 * How should we prepare for the final presentation?
 ** Timing
 
-   +The final presentation is a presentation of 30-45 minutes (for a team of 2-3), or 20 minutes (for an individual presenter), including discussion. The exact timing depends on the course setting (numberof total presentations and available time). Ask me in class!+
+   The final presentation is a presentation of 30-45 minutes (for a
+   team of 2-3), or 20 minutes (for an individual presenter),
+   including discussion. The exact timing depends on the course
+   setting (numberof total presentations and available time). Ask me
+   in class!
 
-   In fall 2021, presentations are not time-limited: they should be as
-   long as you need to get your topic across. If you have little,
-   they'll be short, if you have a lot, you might have to select what
-   to present.
+   Online presentations are not time-limited: they should be as long
+   as you need to get your topic across. If you have little, they'll
+   be short, if you have a lot, you might have to select what to
+   present.
 
 ** Grading
    The final presentation is graded. I give a percentage grade that
