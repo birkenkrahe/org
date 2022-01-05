@@ -28,8 +28,8 @@
 
   This quote inspired me to read on and make the book from which is
   came central to my new course on "Operating Systems", which deals
-  mostly with GNU/Linux. I've also (re-)joined the Free Software
-  Foundation at the end of last year, and I'm mandating Emacs in one
+  mostly with [[https://www.gnu.org/home.en.html][GNU/Linux]]. I've also (re-)joined the [[https://www.fsf.org/][Free Software
+  Foundation]] at the end of last year, and I'm mandating Emacs in one
   (C/C++), and recommending it in all my other courses ([[https://github.com/birkenkrahe/org/blob/master/FAQ.org#why-emacs-for-programming][see also FAQ]]).
 
   #+attr_html: :width 600px
