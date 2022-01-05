@@ -11,13 +11,46 @@
 
 * The Battle Of The Five Armies (Jan 4, 2022)
 
+  Some of the story behind the picture below that I also put in all
+  courses on the Schoology platform.
+  
   What I read this morning in "The Linux Command Line" (Shotts, 2019)
   summarizes my sentiments towards open source, and why I prefer it:
 
   #+begin_quote
-
+  "Many people speak of 'freedom' with regard to Linux, but I don't
+  think most people know what this freedom really means. Freedom is the
+  power to decide what your computer does, and the only way to have this
+  freedom is to know what your computer is doing. Freedom is a computer
+  that is without secrets, one where everything can be known if you care
+  enough to find out."
   #+end_quote
 
+  This quote inspired me to read on and make the book from which is
+  came central to my new course on "Operating Systems", which deals
+  mostly with GNU/Linux. I've also (re-)joined the Free Software
+  Foundation at the end of last year, and I'm mandating Emacs in one
+  (C/C++), and recommending it in all my other courses ([[https://github.com/birkenkrahe/org/blob/master/FAQ.org#why-emacs-for-programming][see also FAQ]]).
+
+  #+attr_html: :width 600px
+  [[./img/fivearmies.jpg]]
+
+  I had already been quite bent on having fun with many languages:
+  five will take center stage in my spring 2022 courses - *C/C++* in an
+  introductory programming class, *SQL* in a class on databases, *R* in an
+  advanced introduction to data science, and *Bash* (perhaps even
+  *Awk*) in Operating Systems. Apart from R, all of these languages
+  are important to instruct computers as part of large systems, which
+  is why I created a whole lecture on "Systems" that, however, I don't
+  think I'll have time to present. Will see.
+
+  In any case, I am committed to have some programming fun and not let
+  the party be spoilt by either COVID, or by the fact that 4 classes
+  in parallel is a bit much. It'll be fine as long as I can remain
+  faithful to my style, which is to source all courses from a common
+  fount. Helpful: the ongoing support from both [[https://datacamp.com][DataCamp]] (through
+  their tutorials), and [[https://signavio.com][Signavio]] (through their process platform).
+  
 * Creating simple process diagrams in Emacs (Dec 27, 2021)
 
   I needed diagrams because I wanted to make a simple
@@ -677,7 +710,7 @@
 
   Shotts (2019). The Linux Command Line. NoStarch
   Press. [[https://linuxcommand.org/tlcl.php][URL:linuxcommand.org]].
-  
+
   Timachi (Dec 7, 2019). Why I switched from VScode to Emacs
   [blog]. [[https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs][URL: hadi.timachi.com]].
 
