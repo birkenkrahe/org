@@ -1366,7 +1366,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    submitting a *pull request*, and then asking for a *merge* to
    update the *main* branch.
 
-   #+attr_html: :width 600px
+   #+attr_html: :width 700px
    [[./img/branching.png]]
    /Figure: branching process (source: GitHub)/
 
