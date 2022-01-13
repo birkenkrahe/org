@@ -1357,6 +1357,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   using the ~Git~ program.
 
 ** Create a *repository*.
+
    Choose if you wish it to be ~private~ or ~public~, and if you want
    to add a ~README.md~ file (which will be opened by default so it's
    the first thing a visitor will see).
