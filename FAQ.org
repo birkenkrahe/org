@@ -1350,7 +1350,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    [[./img/render.png]]
 
 * Completing the GitHub "hello world" exercise
-
+  
   The [[https://docs.github.com/en/get-started/quickstart/hello-world][hello world practice exercise]] is the first stop after
   successfully creating a GitHub account. Repo[sitories] are the main
   data structures in GitHub. The data in a repo are version controlled
