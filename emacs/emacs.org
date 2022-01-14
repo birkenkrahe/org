@@ -1,0 +1,109 @@
+* GNU Emacs
+
+  #+attr_html: :width 600px
+  #+caption: Real Programmers Use Emacs (Source: xkcd).
+  [[./img/real_programmers.png]]
+
+** Overview
+
+   * Installation
+   * Guided tour
+   * GNU Emacs onboard tutorial
+     - In Emacs: C-h t
+     - [[https://www.stolaf.edu/people/humke/UNIX/emacs-tutorial.html][HTML version]]
+   * In class: Solve some sample editing problems
+
+   Additional resources:
+   * Here is a gentle, personal introduction [[https://youtu.be/1YOrd7NCGkg]["First Steps with Emacs"]]
+     with a focus on using Emacs for data science (Eddelbuettel, 2021)
+   * Here is a great article, [[https://opensource.com/article/20/3/getting-started-emacs]["Getting started with Emacs"]] (Kenlon, 2020).
+   * Here is a long video with all the details "[[https://youtu.be/48JlgiBpw_I][The Absolute
+     Beginner’s Guide to Emacs]]" (System Crafters, 2021). It's so good
+     that [[https://github.com/birkenkrahe/org/blob/master/emacs_beginner.org#absolute-beginners-guide-to-emacs][I took notes]].
+
+** Why
+
+   * A lot of what goes on in Emacs is Unix stuff - commands carry
+     over to the shell
+
+   * Emacs is a small (ca. 1.5 mio lines of code[fn:1]), extensible,
+     transparent operating system
+
+   * It's a mellow start to our journey (stuff to do)
+   
+** Install GNU Emacs
+** Emacs Guided Tour
+
+   - See also: https://www.gnu.org/software/emacs/tour/
+
+   - Emacs in a terminal (~emacs -nw~)
+   
+** Work through the Emacs onboard tutorial
+
+*** Minibuffer & basic navigation
+
+    * Starting emacs (~PATH~)
+    * Minibuffer
+    * Leaving Emacs
+
+*** Basic cursor control
+
+*** Numeric arguments
+
+*** Stopping Emacs
+
+*** Disabled commands
+
+*** Windows control (buffers/frames)
+
+*** Inserting and deleting (yank/kill)
+
+*** Undo
+
+*** File management
+
+*** Auto-save and recovery
+
+*** Modeline   
+
+*** Modes
+
+*** Searching
+
+*** Multiple windows / frames
+
+*** Getting more help
+
+*** Custom themes and fonts
+
+*** Initialization (~/.emacs~) 
+
+*** Packages
+
+*** Org-mode
+    
+** Practice: solve some sample editing problems
+
+*** Practice problem 1 - buffers
+
+*** Practice problem 2 - insert/delete
+
+*** Practice problem 3 - file management
+
+*** Practice problem 4 - searching and counting
+
+* References
+
+  Emacs Speaks Statistics (Mar 19, 2021). First Steps With Emacs
+  [video]. [[https://youtu.be/1YOrd7NCGkg][URL: youtu.be/1YOrd7NCGkg]].
+
+  Kenlon (10 Mar 2020). Getting started with Emacs [blog]. [[https://opensource.com/article/20/3/getting-started-emacs][URL:
+  opensource.com.]]
+  
+  System Crafters (Mar 8, 2021). The Absolute Beginner's Guide to
+  Emacs [video]. [[https://youtu.be/48JlgiBpw_I][URL: youtu.be/48JlgiBpw_I]].
+
+* Footnotes
+
+[fn:1]Found this via reddit. Obtained using the source code line
+counter [[ https://github.com/blackducksoftware/ohcount][ohcount]].
