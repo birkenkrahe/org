@@ -1,4 +1,4 @@
-
+;; emacs sample file
 (put 'dired-find-alternate-file 'disabled nil)
 
 ;; require ob-sqlite and ob-sql (for compilation in org src blocks) & tangle
