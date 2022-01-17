@@ -1,0 +1,25 @@
+#+TITLE:EMACS TIPS AND TRICKS
+#+AUTHOR:Marcus Birkenkrahe
+#+SUBTITLE:EMACS TIPS AND TRICKS
+#+STARTUP:overview hideblocks
+#+OPTIONS: toc:nil num:nil ^:nil
+* Pomodoro
+
+  The [[https://en.wikipedia.org/wiki/Pomodoro_Technique][pomodoro technique]] is a time management method devised by my
+  very good friend [[https://francescocirillo.com/pages/pomodoro-technique][Francesco Cirillo]]. I found out about the Org-mode
+  timer from System Crafters (2021).
+
+  1. Start session with ~org-timer-set-timer~ (C-c C-x ;)
+  2. Stop session with ~org-timer-stop~
+
+  #+caption: Time is not a predator! :-) (Source: francescocirillo.com)
+  #+attr_html: :width 500px
+  [[./img/pomodoro.jpg]]
+
+* References
+
+  Cirillo (2021). The Pomodoro® Technique [website]. [[https://francescocirillo.com/pages/pomodoro-technique][URL:
+  francescocirillo.com]].
+  
+  System Crafters (Aug 1, 2021). Emacs Has a Built-in Pomodoro Timer??
+  [video]. [[https://youtu.be/JbHE819kVGQ][URL: youtu.be/JbHE819kVGQ.]]
