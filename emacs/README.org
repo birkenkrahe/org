@@ -1,4 +1,4 @@
-#+TITLE:   file:[[./img/gnuemacs.png]]
+#+TITLE:   [[./img/gnuemacs.png]]
 #+AUTHOR:Marcus Birkenkrahe
 #+SUBTITLE:EMACS TIPS AND TRICKS
 #+STARTUP:overview hideblocks
