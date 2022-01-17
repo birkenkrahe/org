@@ -1,9 +1,36 @@
-#+TITLE:EMACS TIPS AND TRICKS
+#+TITLE:   file:[[./img/gnuemacs.png]]
 #+AUTHOR:Marcus Birkenkrahe
 #+SUBTITLE:EMACS TIPS AND TRICKS
 #+STARTUP:overview hideblocks
 #+OPTIONS: toc:nil num:nil ^:nil
-* Pomodoro
+* Emacs IRC
+
+  #+begin_quote
+  IRC [Inter Relay Chat] provides a way of communicating in real time
+  with people from all over the world. It consists of various separate
+  networks (or "nets") of IRC servers, machines that allow users to
+  connect to IRC. IRC is very similar to text messaging, but designed
+  around communicating with large groups of users instead of one on
+  one. ([[https://www.irchelp.org/][irchelp.org]])
+  #+end_quote
+
+  | TASK                  | MINIBUFFER            |
+  |-----------------------+-----------------------|
+  | Start ERC             | M-x erc RET           |
+  | Join irc.freenode.net | RET                   |
+  | Choose IRC port: 6667 | RET                   |
+  | Pick Nickname         | <your name> RET       |
+  | No Password           | RET                   |
+  | Join Lyon chat        | /JOIN #lyon RET       |
+
+  * More info: [[https://www.emacswiki.org/emacs/ErcIntroduction][ERC (Emacs IRC Client) wiki]] (web)
+  * Emacs info: C-h i > ERC
+
+  #+caption: IRC in Emacs (on Raspberry Pi)
+  #+attr_html: :width 500px
+  [[./img/erc.png]]
+
+* Pomodoro Timer
 
   The [[https://en.wikipedia.org/wiki/Pomodoro_Technique][pomodoro technique]] is a time management method devised by my
   very good friend [[https://francescocirillo.com/pages/pomodoro-technique][Francesco Cirillo]]. I found out about the Org-mode
@@ -11,6 +38,13 @@
 
   1. Start session with ~org-timer-set-timer~ (C-c C-x ;)
   2. Stop session with ~org-timer-stop~
+  3. Add this to your ~.emacs~ init file
+
+  #+begin_src emacs-lisp
+    ;; pomodoro timer
+    (require 'org)
+    (setq org-clock-sound "~/Documents/Sounds/ding.mp3")
+  #+end_src
 
   #+caption: Time is not a predator! :-) (Source: francescocirillo.com)
   #+attr_html: :width 500px
@@ -20,6 +54,9 @@
 
   Cirillo (2021). The Pomodoro® Technique [website]. [[https://francescocirillo.com/pages/pomodoro-technique][URL:
   francescocirillo.com]].
-  
+
+  irchelp.org (2016). Welcome to #irchelp [website]. [[https://www.irchelp.org/][URL:
+  www.irchelp.org]].
+
   System Crafters (Aug 1, 2021). Emacs Has a Built-in Pomodoro Timer??
   [video]. [[https://youtu.be/JbHE819kVGQ][URL: youtu.be/JbHE819kVGQ.]]
