@@ -1,3 +1,4 @@
+#+options: toc:nil
 * Short installation instructions for Emacs + ESS + R + MinGW
 
 ** Install R
