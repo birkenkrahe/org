@@ -30,15 +30,34 @@
      transparent operating system
 
    * It's a mellow start to our journey (stuff to do)
-   
+
 ** Install GNU Emacs
-** Emacs Guided Tour
+** Emacs Guided Tour & Tutorial
 
    - See also: https://www.gnu.org/software/emacs/tour/
+   - Emacs in a terminal (~emacs -nw~) - try it
 
-   - Emacs in a terminal (~emacs -nw~)
-   
-** Work through the Emacs onboard tutorial
+*** Objectives
+
+   * We will work through the beginning of the tutorial in class
+     together.
+   * You will gain fluency in using the keyboard shorts to control
+     Emacs
+   * You will no longer rely on the mouse
+   * You will be able to run code inside Emacs
+   * Some will be faster, some will be slower. Finish it at home!
+
+*** Open the tutorial
+
+   * The tutorial can be opened from the GNU Emacs start page: C-h t
+   * To increase the font, type C-x C-= then +, -, or 0.
+   * You can see the scale in the modeline next to the mode name
+
+*** Control and Meta keys
+
+    * On MacOS, the Meta key is the <Options> key (between CTRL and
+      Apple key)
+    * If you type C-z (suspend-frame) in the terminal emacs,
 
 *** Minibuffer & basic navigation
 
@@ -49,9 +68,7 @@
 *** Basic cursor control
 
 *** Numeric arguments
-
-*** Stopping Emacs
-
+*** Stopping and quitting Emacs
 *** Disabled commands
 
 *** Windows control (buffers/frames)
@@ -64,7 +81,7 @@
 
 *** Auto-save and recovery
 
-*** Modeline   
+*** Modeline
 
 *** Modes
 
@@ -76,12 +93,13 @@
 
 *** Custom themes and fonts
 
-*** Initialization (~/.emacs~) 
+*** Initialization (~/.emacs~)
 
 *** Packages
 
+*** Shell inside Emacs
 *** Org-mode
-    
+
 ** Practice: solve some sample editing problems
 
 *** Practice problem 1 - buffers
@@ -99,7 +117,7 @@
 
   Kenlon (10 Mar 2020). Getting started with Emacs [blog]. [[https://opensource.com/article/20/3/getting-started-emacs][URL:
   opensource.com.]]
-  
+
   System Crafters (Mar 8, 2021). The Absolute Beginner's Guide to
   Emacs [video]. [[https://youtu.be/48JlgiBpw_I][URL: youtu.be/48JlgiBpw_I]].
 
