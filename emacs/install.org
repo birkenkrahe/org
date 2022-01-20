@@ -1,0 +1,131 @@
+* Short installation instructions for Emacs + ESS + R + MinGW
+
+** Install R
+
+   * [ ] Download Installer from here:
+     https://cran.r-project.org/bin/windows/base/R-4.1.2-win.exe
+
+   * [ ] Run installer (double-click)
+
+   * [ ] Accept all standard settings
+
+   * [ ] Add shortcut to desktop and quick launch
+
+   * [ ] When finished, open Windows search bar and type ~PATH~
+
+   * [ ] In the window, click on ~Environment Variables~
+
+   * [ ] In the new window, select the row for ~Path~ and click ~Edit~
+
+   * [ ] In the new window, select ~New~
+
+   * [ ] Enter this string in the empty row: ~C:\Program
+     Files\R\R-4.1.2\bin\x64~
+
+   * [ ] Open Windows search bar and type ~CMD~
+
+   * [ ] Select ~Pin to taskbar~
+
+   * [ ] Open ~Command prompt~ (Terminal)
+
+   * [ ] At the prompt, type R
+
+   * [ ] To get out of R, type ~q()~ + ~n~
+
+   * [ ] To test the R GUI, open the desktop shortcut
+
+   * [ ] You can now shut down all open windows
+
+** Install Emacs
+
+   * [ ] Download Installer from here:
+     https://vigou3.gitlab.io/emacs-modified-windows/
+
+   * [ ] Run installer (double-click)
+
+   * [ ] Accept all standard settings
+
+   * [ ] Add shortcut to desktop and quick launch
+
+   * [ ] When finished, open Windows search bar and type ~PATH~
+
+   * [ ] In the window, click on ~Environment Variables~
+
+   * [ ] In the new window, select the row for ~Path~ and click ~Edit~
+
+   * [ ] In the new window, select ~New~
+
+   * [ ] Enter this string in the empty row: ~C:\Program
+     Files\Emacs\x86_64\bin~
+
+   * [ ] Open ~Command prompt~ (Terminal)
+
+   * [ ] At the prompt, type ~emacs -nw~
+
+   * [ ] In Emacs, type ~M-x R RET~
+
+   * [ ] R should open inside Emacs. You can shut Emacs now.
+
+   * [ ] To open Emacs from the desktop, double-click on the shortcut
+
+   * [ ] In Emacs, type ~M-x R RET~
+
+   * [ ] R should open inside Emacs. You can shut Emacs now.
+
+** Install gcc
+
+   * [ ] Download the installer from
+     https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe
+
+   * [ ] Run the installer - accept all standard settings
+
+   * [ ] When finished, open Windows search bar and type ~PATH~
+
+   * [ ] In the window, click on ~Environment Variables~
+
+   * [ ] In the new window, select the row for ~Path~ and click ~Edit~
+
+   * [ ] In the new window, select ~New~
+
+   * [ ] Enter this string in the empty row: ~c:/Program Files
+     (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe~
+
+   * [ ] Open ~Command prompt~
+
+   * [ ] At the prompt, type ~gcc --version~
+
+   * [ ] Open Emacs and type ~M-x eshell~
+
+   * [ ] At the prompt, type ~gcc --version~
+
+   * [ ] You can shut Emacs now.
+
+** Install sqlite
+
+   * [ ] Download ZIP file from here:
+     https://www.sqlite.org/2022/sqlite-tools-win32-x86-3370200.zip
+     
+   * [ ] Extract ZIP file to ~Program Files (x86)~
+
+   * [ ] When finished, open Windows search bar and type ~PATH~
+
+   * [ ] In the window, click on ~Environment Variables~
+
+   * [ ] In the new window, select the row for ~Path~ and click ~Edit~
+
+   * [ ] In the new window, select ~New~
+
+   * [ ] Enter this string in the empty row: ~C:\Program Files
+     (x86)\sqlite-tools-win32-x86-3360000~
+
+   * [ ] Open ~Command prompt~ (Terminal)
+
+   * [ ] At the prompt, type ~sqlite3~
+
+   * [ ] To get out of sqlite, type ~.q RET~
+
+   
+     
+   
+   
+  
