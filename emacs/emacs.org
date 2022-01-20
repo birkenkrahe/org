@@ -1,8 +1,8 @@
 * GNU Emacs
-
-  #+attr_html: :width 600px
-  #+caption: Real Programmers Use Emacs (Source: xkcd).
-  [[./img/real_programmers.png]]
+** Real Programmers Use Emacs
+   #+attr_html: :width 600px
+   #+caption: Real Programmers Use Emacs (Source: xkcd).
+   [[./img/real_programmers.png]]
 
 ** Overview
 
@@ -26,12 +26,22 @@
    * A lot of what goes on in Emacs is Unix stuff - commands carry
      over to the shell
 
-   * Emacs is a small (ca. 1.5 mio lines of code[fn:1]), extensible,
-     transparent operating system
+   * OS: Emacs is like a small (ca. 1.5 mio lines of code[fn:1]),
+     extensible, transparent operating system
+
+   * DB: an excellent way to explore data-oriented software
+
+   * C/C++/R: interactive notebook programming
 
    * It's a mellow start to our journey (stuff to do)
 
 ** Install GNU Emacs
+
+   * Already done for public PCs in Lyon 104
+
+   * See install.org and install.pdf in GitHub if you want to do this
+     on your laptop (you may have to in order to get better)
+   
 ** Emacs Guided Tour & Tutorial
 
    - See also: https://www.gnu.org/software/emacs/tour/
@@ -57,13 +67,16 @@
 
     * On MacOS, the Meta key is the <Options> key (between CTRL and
       Apple key)
-    * If you type C-z (suspend-frame) in the terminal emacs,
+    * On Windows, the Meta key is the right <Alt> key.
+    * If you type C-z (suspend-frame) in the terminal emacs, you get
+      back to the command line (shell). To get back: fg RET
+      (foreground)
 
 *** Minibuffer & basic navigation
 
-    * Starting emacs (~PATH~)
-    * Minibuffer
-    * Leaving Emacs
+    * Starting emacs (~PATH~ variable)
+    * Minibuffer: messages and input
+    * Leaving Emacs with C-x C-c
 
 *** Basic cursor control
 
