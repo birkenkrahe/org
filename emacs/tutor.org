@@ -7,14 +7,17 @@
 
    All ~PATH~ values assume that you work on a PC in Lyon 104[fn:1].
 
-** Opening Emacs
+   The sequence of lessons follows losely the GNU Emacs Reference Card
+   (PDF)
+
+** Open Emacs
 
    * If there's a Desktop shortcut, double-click on it to open Emacs
    * If there is no Destktop shortcut, open a terminal:
 
    #+begin_example
    Windows Search bar: CMD
-   #+end_example     
+   #+end_example
 
    * In the terminal, enter this:
 
@@ -27,17 +30,150 @@
    File explorer, and correct the ~PATH~ accordingly.
    #+end_quote
 
-   You should now see the Emacs startup screen:
+   You should now see the Emacs startup screen[fn:2]:
 
    #+caption: GNU Emacs startup screen
    #+attr_html: :width 500px
    [[./img/startup.png]]
+
+   You can always get back to this screen by typing CTRL+h CTRL+a (two
+   commands, hold down the CTRL key and press the letter).
+
+   Note: you can also start Emacs in the terminal alone (no graphics
+   window). To do this, add a ~-nw~ (for "no window"):
+   #+begin_example
+   C:\Program Files\GNU Emacs 27\x86_64\bin\emacs -nw &
+   #+end_example
+** Shut or suspend Emacs
+
+   Shut Emacs down with the key sequence ~C-x C-c~, which on your
+   keyboard means CTRL+x followed by CTRL+c.
+
+   To only suspend Emacs, press ~C-z~ (on the keyboard: CTRL+z).
    
-** Opening the Emacs tutorial
+** Open the Emacs tutorial
 
-   Emacs has an onboard tutorial
+   Emacs has an onboard tutorial. To open it, type
 
+   #+begin_example
+   CTRL-h t
+   #+end_example
+
+   This command consists of two parts:
+   1) press ~CTRL~, hold it and press x (you see ~C-x~ at the bottom of
+      the screen)
+   2) press ~h~
+
+   The tutorial should appear in the Emacs buffer. It takes about 1
+   hour to work through. This is well worth it if you want to use
+   Emacs.
+
+   #+begin_quote
+   Troubleshoot: if you make any mistake with your commands, type
+   CTRL-g to abort the current command, then start over.
+   #+end_quote   
+** Read a file into Emacs
+   
+   This lesson consists of several steps:
+
+   - download a text file from GitHub
+   - open an empty file inside Emacs
+   - copy ("yank") or insert the file into Emacs
+   - save the file in Emacs
+
+   1) Open a browser and go to
+      ~https://github.com/birkenkrahe/org/blob/master/emacs/emacs.txt~.
+   2) Copy the raw contents in your clipboard by clicking on the copy
+      icon at the top of the file.
+   3) Go to the Emacs window ("frame"), or open GNU Emacs, and type
+      ~C-x C-f~ (on the keyboard, this looks like CTRL+x followed by
+      CTRL-f - from now on, I will use the shorthand notation).
+   4) Delete the path all the way, and replace it by ~/ (your home
+      directory).
+   5) Enter ~emacs.txt~ after the ~/ and press ENTER (~RET~).
+      #+begin_example
+      Find file: ~/emacs.txt
+      #+end_example
+   6) In the buffer (you know that you're there because of the cursor
+      that should be blinking at you at the top of the empty page),
+      press ~C-y~.
+   7) The text that you copied to the clipboard earlier, should now
+      show up in the buffer.
+   8) The file is unsaved - indicated by the two stars left of the
+      buffer name at the bottom of the page in the "modeline"
+      ("\**"). Save it by typing ~C-x C-s~.
+   9) You should get a confirmation at the bottom of the buffer (in
+      the "echo area"), and the stars are replaced by dashes ("\---")
+
+   #+caption: emacs.txt buffer (unsaved)
+   #+attr_html: :width 500px
+   [[./img/emacstxt.png]]
+
+   #+begin_quote
+   Troubleshoot: if the copying with the copy button in GitHub does
+   not work, click on "Raw". The text will then be shown in a new tab
+   and you can copy it with CTRL+a CTRL+c.
+   #+end_quote
+
+** Insert a file into an Emacs buffer
+
+   1) Open a new file (~C-x C-f~) and name it ~~/emacs1.txt~.
+   2) In the empty buffer of the new file, enter
+      #+begin_example
+      C-i
+      emacs.txt RET
+      #+end_example
+   3) You should now see the text from the other file in the buffer.
+   4) Save the file with ~C-x C-s~ as before. 
+
+** Open a directory
+
+   The Emacs file manager is called ~dired~. You open it to the
+   current directory with ~C-x d~.
+
+   Emacs now suggests a directory to open in the echo area. If you
+   press ENTER, this is the directory that you will see, but you can
+   also enter any other directory that you're allowed to enter.
+
+   #+caption: dired buffer (current/home directory)
+   #+attr_html: :width 500px
+   [[./img/dired.png]]
+
+   There is a lot of information here that won't tell you much. But
+   you can see (on Windows) that Emacs knows that my home directory
+   ~~\~ stands for ~c:/Users/birkenkrahe~ on my Windows box.
+
+   You can see "hidden" files (starting with a dot) - mostly for
+   configuration by the PC, and regular files.
+
+   Press ~s~ inside the buffer to sort the files according to the
+   creation date. You can now see your recent work at the top. File
+   names followed by a tilde (~~~) are automatically generated backup
+   files. Unsaved files have a hash (~#new.txt~) and can
+   be recovered if you accidentally shut down Emacs.
+
+   #+caption: dired buffer sorted
+   #+attr_html: :width 500px
+   [[./img/direds.png]]
+   
+** Open the buffer list
+   
+** Move around in a file
+
+** Mark a region, "kill" and "yank" it back
+   
+   
 * Footnotes
+
+[fn:2]This screen differs from the one you see when I work with Emacs
+in class, because I have disabled the menu bar, the tool bar, and the
+tool tips. You can do this in your ~.emacs~ file later on, or you can
+do it right away by typing, in Emacs, the commands:
+#+begin_example
+  M-x menu-bar-mode
+  M-x tool-bar-mode
+  M-x tooltip-mode
+#+end_example
 
 [fn:1]The ~PATH~ variable is the search path that the computer uses to
 find a file. You can set it yourself on a computer where you have
