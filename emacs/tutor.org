@@ -1,0 +1,45 @@
+* GNU Emacs
+** Overview
+
+   This short tutorial to guide you to your first steps with the GNU
+   Emacs editor. You should also take time to complete the onboard
+   tutorial. I will make a video of this tutorial, too.
+
+   All ~PATH~ values assume that you work on a PC in Lyon 104[fn:1].
+
+** Opening Emacs
+
+   * If there's a Desktop shortcut, double-click on it to open Emacs
+   * If there is no Destktop shortcut, open a terminal:
+
+   #+begin_example
+   Windows Search bar: CMD
+   #+end_example     
+
+   * In the terminal, enter this:
+
+   #+begin_example
+   C:\Program Files\GNU Emacs 27\x86_64\bin\emacs &
+   #+end_example
+
+   #+begin_quote
+   Troubleshoot: check the location of the file ~emacs.exe~ using the
+   File explorer, and correct the ~PATH~ accordingly.
+   #+end_quote
+
+   You should now see the Emacs startup screen:
+
+   #+caption: GNU Emacs startup screen
+   #+attr_html: :width 500px
+   [[./img/startup.png]]
+   
+** Opening the Emacs tutorial
+
+   Emacs has an onboard tutorial
+
+* Footnotes
+
+[fn:1]The ~PATH~ variable is the search path that the computer uses to
+find a file. You can set it yourself on a computer where you have
+administrative capabilities (such as your personal computer but not in
+the lab).
