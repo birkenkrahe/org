@@ -1,3 +1,8 @@
+#+TITLE:GNU Emacs Tutorial
+#+AUTHOR:Marcus Birkenkrahe
+#+SUBTITLE:Lyon College courses Spring 2022
+#+STARTUP:overview hideblocks
+#+OPTIONS: toc:nil num:nil ^:nil
 * GNU Emacs
 ** Overview
 
@@ -44,13 +49,14 @@
    #+begin_example
    C:\Program Files\GNU Emacs 27\x86_64\bin\emacs -nw &
    #+end_example
+
 ** Shut or suspend Emacs
 
    Shut Emacs down with the key sequence ~C-x C-c~, which on your
    keyboard means CTRL+x followed by CTRL+c.
 
    To only suspend Emacs, press ~C-z~ (on the keyboard: CTRL+z).
-   
+
 ** Open the Emacs tutorial
 
    Emacs has an onboard tutorial. To open it, type
@@ -71,9 +77,9 @@
    #+begin_quote
    Troubleshoot: if you make any mistake with your commands, type
    CTRL-g to abort the current command, then start over.
-   #+end_quote   
+   #+end_quote
 ** Read a file into Emacs
-   
+
    This lesson consists of several steps:
 
    - download a text file from GitHub
@@ -124,7 +130,7 @@
       emacs.txt RET
       #+end_example
    3) You should now see the text from the other file in the buffer.
-   4) Save the file with ~C-x C-s~ as before. 
+   4) Save the file with ~C-x C-s~ as before.
 
 ** Open a directory
 
@@ -155,15 +161,113 @@
    #+caption: dired buffer sorted
    #+attr_html: :width 500px
    [[./img/direds.png]]
-   
+
 ** Open the buffer list
-   
+
 ** Move around in a file
 
+   * Up one line: C-p
+   * Down one line: C-n
+   * Forward one char: C-f
+   * Backward one char: C-b
+   * Beginning of line: C-a
+   * End of line: C-e
+   * Top of buffer: C-<
+   * Bottom of buffer: C->
+
 ** Mark a region, "kill" and "yank" it back
+
+   * Set mark: C-SPC
+   * Kill line from cursor: C-k
+   * Kill region: C-w
+   * Yank region: C-y
+
+   These keys - like all keys - can also be rebound to the keys that
+   you are used to (copy with C-c, paste with C-v, cut with C-x), but
+   I don't recommend it.
+
+** Create an init configuration file
+
+   You find a sample ~/.emacs~ file in the GitHub ~org~ repo
+   [[https://github.com/birkenkrahe/org/blob/master/emacs/.emacs][here]]. Here is a shorter version of the code[fn:3]:
    
+   #+begin_src emacs-lisp
+     ;; required for tangling code
+     (require 'ob-R)
+
+     ;; active Babel languages
+     (org-babel-do-load-languages
+      'org-babel-load-languages
+      '((R . t)
+	(emacs-lisp . t))
+
+     ;; Syntax highlight code in your SRC blocks The last variable removes
+     ;; the annoying “Do you want to execute” your code after: C-c C-c
+     (setq org-confirm-babel-evaluate nil
+	   org-src-fontify-natively t
+	   org-src-tab-acts-natively t)
+
+     ;; enable snippet expansion via org-structure-template-alist
+     (require 'org-tempo)
+
+     ;; get packages from MELPA package manager
+     (require 'package)
+     (add-to-list 'package-archives
+		  '("melpa-stable" . "https://stable.melpa.org/packages/"))
+
+     ;; set the path to R for ESS
+     (setq inferior-ess-r-program "c:/Program Files/R/R-4.1.2/bin/R.exe")
+   #+end_src
+
+   1) Create a file ~~/.emacs~ and put the sample file code into it
+   2) Save the file (~C-x C-s~), and restart Emacs (~C-x C-c~)
+
+** Use the Emacs package manager
+
+   We're going to use the package manager to find a minor theme that
+   makes Org-mode files nicer to look at. 
    
+   1) Open the package manager with ~M-x package-list-packages RET~
+   2) In the package manager, run ~M-x package-refresh-contents~
+   3) Find the package ~org-beautify-theme~ with ~C-s~
+   4) Mark this package and the next package, ~org-bullets~ for
+      installation by typing ~i~
+   5) Install the packages with ~x~ (confirm)
+   6) Open the custom themes buffer with ~M-x custom-themes RET~
+   7) Mark ~Select more than one theme at a time~, then mark
+      ~org-beautify~[fn:4]
+   8) Click on ~Save theme settings~. This will save the necessary
+      Lisp code in your ~~/.emacs~ file.
+
+   #+caption: GNU Emacs package manager
+   #+attr_html: :width 500px
+   [[./img/packages.png]]
+   
+** Create an Org-mode file
+
+   In your home directory, create a file ~ob.org~. We will use this
+   file to explore Org-mode and the Babel package. Babel allows us to
+   run code chunks inside Emacs. Babel lets us "tangle" ~.org~ files
+   to source code files, and "weave" ~.org~ files to documentation.
+
+   Org-mode has extensive [[https://orgmode.org/][online]] and onboard documentation. To access
+   the onboard documentation, type ~C-h i~. This is the entry point
+   into the GNU Emacs Info system.
+
+   #+caption: GNU Emacs Info system
+   #+attr_html: :width 500px
+   [[./img/info.png]]
+
+** NEXT Weaving documentation
+** TODO Run code inside an Org-mode file
+** TODO Tangling source code
 * Footnotes
+
+[fn:4]When installing a new theme, Emacs might ask you to validate the
+package - since these packages could lead to an infiltration of your PC.
+
+[fn:3]I deleted those lines that are not of immediate relevance to
+this course and to running R in Emacs.
 
 [fn:2]This screen differs from the one you see when I work with Emacs
 in class, because I have disabled the menu bar, the tool bar, and the
