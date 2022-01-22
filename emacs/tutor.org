@@ -23,13 +23,19 @@
    #+begin_example
    Windows Search bar: CMD
    #+end_example
-
+   
    * In the terminal, enter this:
 
    #+begin_example
-   C:\Program Files\GNU Emacs 27\x86_64\bin\emacs &
+   "C:\Program Files\GNU Emacs 27\x86_64\bin\emacs"
    #+end_example
 
+   Or the following command to open a vanilla Emacs in the terminal
+   (no graphics):
+   #+begin_example
+   emacs -nw
+   #+end_example
+   
    #+begin_quote
    Troubleshoot: check the location of the file ~emacs.exe~ using the
    File explorer, and correct the ~PATH~ accordingly.
