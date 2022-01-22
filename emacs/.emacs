@@ -6,6 +6,7 @@
 (require 'ob-sql)
 (require 'ob-emacs-lisp)
 (require 'ob-R)
+(require 'ob-C)
 
 ;; active Babel languages
 (org-babel-do-load-languages
@@ -30,9 +31,3 @@
 (require 'package)
 (add-to-list 'package-archives
 	     '("melpa-stable" . "https://stable.melpa.org/packages/"))
-
-;; set the path to R for ESS
-(setq inferior-ess-r-program "c:/Program Files/R/R-4.1.2/bin/R.exe")
-
-;; set the path to sqlite3 for Org-mode Babel
-(setq org-babel-sqlite3-command "\"c:/Program Files (x86)/sqlite-tools-win32-x86-3360000/sqlite3.exe\"")
