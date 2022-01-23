@@ -972,29 +972,29 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
        inside the Emacs editor so that you can create notebooks.
 ** Setting the path to R for Emacs
 
-     If you cannot set the path to R using the ~PATH~ variable (e.g. in
-  the PC lab), you can give the explicit location of the R executable
-  by putting this code into your ~.emacs~ file:
+   If you cannot set the path to R using the ~PATH~ variable (e.g. in
+   the PC lab), you can give the explicit location of the R executable
+   by putting this code into your ~.emacs~ file:
 
-  #+begin_src emacs-lisp
-  ;; set the path to R for ESS
-  (setq inferior-ess-r-program "c:/Program Files/R/R-4.1.2/bin/R.exe")
-  #+end_src
+   #+begin_src emacs-lisp
+     ;; set the path to R for ESS
+     (setq inferior-ess-r-program "c:/Program Files/R/R-4.1.2/bin/R.exe")
+   #+end_src
 
-  However, on your personal computer, setting adding the absolute
-  address to the folder with ~R.exe~ in it to the ~PATH~ variable will
-  enable Emacs to find R. You can test this in the terminal with the command
+   However, on your personal computer, setting adding the absolute
+   address to the folder with ~R.exe~ in it to the ~PATH~ variable will
+   enable Emacs to find R. You can test this in the terminal with the command
 
-  #+begin_example
-  emacs -f R
-  #+end_example
+   #+begin_example
+   emacs -f R
+   #+end_example
 
-  For this to work, ~emacs~ must be in your ~PATH~, too - otherwise
-  you have to type the path yourself like this:
+   For this to work, ~emacs~ must be in your ~PATH~, too - otherwise
+   you have to type the path yourself like this:
 
-  #+begin_example
-  "c:\User\YourName\Program Files\GNU Emacs 27\bin\emacs"
-  #+end_example  
+   #+begin_example
+   "c:\User\YourName\Program Files\GNU Emacs 27\bin\emacs"
+   #+end_example
 
 * How to install GCC / a C compiler under Windows and MacOS
 ** Windows
@@ -1066,8 +1066,20 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    #+attr_html: :width 600px
    [[./img/compiler.png]]
 
-* How to install SQLite under Windws and MacOS
+* How to install SQLite under Windows and MacOS
 ** Windows
+
+   * Download ZIP file from here:
+     https://www.sqlite.org/2022/sqlite-tools-win32-x86-3370200.zip
+   * Extract ZIP file to ~Program Files (x86)~
+   * When finished, open Windows search bar and type ~PATH~
+   * In the window, click on ~Environment Variables~
+   * In the new window, select the row for ~Path~ and click ~Edit~
+   * In the new window, select ~New~
+   * Enter this string in the empty row: ~C:\Program Files)\sqlite-tools-win32-x86-3360000~
+   * Open ~Command prompt~ (Terminal)
+   * At the prompt, type ~sqlite3~
+   * To get out of sqlite, type ~.q RET~
 
 ** MacOS
 
@@ -1089,30 +1101,30 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
    * How to run SQLite in Emacs
 
-  This refers to running SQLite inside an Emacs Org-mode code block -
-  the ability to program SQLite in a literate way. This ability is
-  coded in the Org-mode Babel file ~ob-sqlite.el~. You need to have
-  the following code in your Emacs file *after* loading ~ob-sqlite~:
+   This refers to running SQLite inside an Emacs Org-mode code block -
+   the ability to program SQLite in a literate way. This ability is
+   coded in the Org-mode Babel file ~ob-sqlite.el~. You need to have
+   the following code in your Emacs file *after* loading ~ob-sqlite~:
 
-  #+name: set org-babel-sqlite3-command
-  #+begin_src emacs-lisp :exports both :results raw
-	(require 'ob-sqlite) 
-	(setq org-babel-sqlite3-command "\"c:/Program Files (x86)/sqlite-tools-win32-x86-3360000/sqlite3.exe\"")
+   #+name: set org-babel-sqlite3-command
+   #+begin_src emacs-lisp :exports both :results raw
+     (require 'ob-sqlite)
+     (setq org-babel-sqlite3-command "\"c:/Program Files (x86)/sqlite-tools-win32-x86-3360000/sqlite3.exe\"")
 
-  #+end_src
+   #+end_src
 
-  #+RESULTS: set org-babel-sqlite3-command
-  "c:/Program Files (x86)/sqlite-tools-win32-x86-3360000/sqlite3.exe"
+   #+RESULTS: set org-babel-sqlite3-command
+   "c:/Program Files (x86)/sqlite-tools-win32-x86-3360000/sqlite3.exe"
 
-  You can check that the variable is loaded properly by entering:
+   You can check that the variable is loaded properly by entering:
 
-  #+begin_example
-  C-h v org-babel-sqlite3-command RET
-  #+end_example  
+   #+begin_example
+   C-h v org-babel-sqlite3-command RET
+   #+end_example
 
-  Babel reports that "this variable may be risky if used as a
-  file-local variable," but I suppose we've got to take our chances!
-   
+   Babel reports that "this variable may be risky if used as a
+   file-local variable," but I suppose we've got to take our chances!
+
 * How to install Emacs (+ESS) under Windows and MacOS
 ** Download and Installation for Windows
 
@@ -1186,17 +1198,17 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      (org-babel-do-load-languages
       'org-babel-load-languages
       '((R . t)
-	(sql . t)
-	(python . t)
-	(emacs-lisp . t)
-	(C . t)))
+        (sql . t)
+        (python . t)
+        (emacs-lisp . t)
+        (C . t)))
 
      ;; Syntax highlight code in your SRC blocks The last variable removes
      ;; the annoying “Do you want to execute” your code when you type:
      ;; C-c C-c
      (setq org-confirm-babel-evaluate nil
-	   org-src-fontify-natively t
-	   org-src-tab-acts-natively t)
+           org-src-fontify-natively t
+           org-src-tab-acts-natively t)
 
      ;; enable snippet expansion via org-structure-template-alist
      (require 'org-tempo)
@@ -1204,7 +1216,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      ;; get packages from MELPA package manager
      (require 'package)
      (add-to-list 'package-archives
-		  '("melpa-stable" . "https://stable.melpa.org/packages/"))
+                  '("melpa-stable" . "https://stable.melpa.org/packages/"))
 
    #+end_src
 
@@ -1430,7 +1442,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    [[./img/render.png]]
 
 * Completing the GitHub "hello world" exercise
-  
+
   The [[https://docs.github.com/en/get-started/quickstart/hello-world][hello world practice exercise]] is the first stop after
   successfully creating a GitHub account. Repo[sitories] are the main
   data structures in GitHub. The data in a repo are version controlled
