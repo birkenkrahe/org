@@ -996,7 +996,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   "c:\User\YourName\Program Files\GNU Emacs 27\bin\emacs"
   #+end_example  
 
-* How to install a C compiler under Windows and MacOS
+* How to install GCC / a C compiler under Windows and MacOS
 ** Windows
    * Download the installer [[https://sourceforge.net/projects/mingw-w64/][from sourceforge]].
    * Run the installer - accept all presets.
@@ -1040,6 +1040,31 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    * Test it by typing ~cc -v~.
 
      [[./img/cc.png]]
+
+** Setting the path to GCC for Emacs
+
+   If you cannot set the path to the GCC compiler using the ~PATH~
+   variable (e.g. when you work on a computer in the lab where you
+   don't have administrative privileges), you can give the explicit
+   location of the compiler by setting the variable
+   ~Org-babel-C-compiler~.
+
+   #+name gcc path
+   #+begin_src emacs-lisp
+     ;; set the path to GCC for Org-mode Babel
+     (setq org-babel-C-compiler "\"c:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe\"")
+   #+end_src
+
+   Unlike other Babel-language extensions, this Babel package is
+   "customizable". This means that there is a menu do set the
+   variable. You find this out by looking for the variable with the
+   command: ~C-h v org-babel-c-compiler RET~. It returns the current
+   value of the variable and a link to the [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Easy-Customization.html][Easy Customization
+   Interface]].
+
+   #+caption: easy customization interface for Org Babel C Compiler
+   #+attr_html: :width 600px
+   [[./img/compiler.png]]
 
 * How to install SQLite under Windws and MacOS
 ** Windows
