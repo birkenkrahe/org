@@ -970,6 +970,32 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
      * You can now use the R console. I explain below how to run R
        inside the Emacs editor so that you can create notebooks.
+** Setting the path to R for Emacs
+
+     If you cannot set the path to R using the ~PATH~ variable (e.g. in
+  the PC lab), you can give the explicit location of the R executable
+  by putting this code into your ~.emacs~ file:
+
+  #+begin_src emacs-lisp
+  ;; set the path to R for ESS
+  (setq inferior-ess-r-program "c:/Program Files/R/R-4.1.2/bin/R.exe")
+  #+end_src
+
+  However, on your personal computer, setting adding the absolute
+  address to the folder with ~R.exe~ in it to the ~PATH~ variable will
+  enable Emacs to find R. You can test this in the terminal with the command
+
+  #+begin_example
+  emacs -f R
+  #+end_example
+
+  For this to work, ~emacs~ must be in your ~PATH~, too - otherwise
+  you have to type the path yourself like this:
+
+  #+begin_example
+  "c:\User\YourName\Program Files\GNU Emacs 27\bin\emacs"
+  #+end_example  
+
 * How to install a C compiler under Windows and MacOS
 ** Windows
    * Download the installer [[https://sourceforge.net/projects/mingw-w64/][from sourceforge]].
@@ -1034,6 +1060,34 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      [[./img/sqlite.png]]
 
    * You can also type ~sqlite3~ in a terminal to open the console.
+** Running SQLite in Emacs
+
+   * How to run SQLite in Emacs
+
+  This refers to running SQLite inside an Emacs Org-mode code block -
+  the ability to program SQLite in a literate way. This ability is
+  coded in the Org-mode Babel file ~ob-sqlite.el~. You need to have
+  the following code in your Emacs file *after* loading ~ob-sqlite~:
+
+  #+name: set org-babel-sqlite3-command
+  #+begin_src emacs-lisp :exports both :results raw
+	(require 'ob-sqlite) 
+	(setq org-babel-sqlite3-command "\"c:/Program Files (x86)/sqlite-tools-win32-x86-3360000/sqlite3.exe\"")
+
+  #+end_src
+
+  #+RESULTS: set org-babel-sqlite3-command
+  "c:/Program Files (x86)/sqlite-tools-win32-x86-3360000/sqlite3.exe"
+
+  You can check that the variable is loaded properly by entering:
+
+  #+begin_example
+  C-h v org-babel-sqlite3-command RET
+  #+end_example  
+
+  Babel reports that "this variable may be risky if used as a
+  file-local variable," but I suppose we've got to take our chances!
+   
 * How to install Emacs (+ESS) under Windows and MacOS
 ** Download and Installation for Windows
 

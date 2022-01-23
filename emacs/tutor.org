@@ -94,7 +94,8 @@
    - save the file in Emacs
 
    1) Open a browser and go to
-      ~https://github.com/birkenkrahe/org/blob/master/emacs/emacs.txt~.
+      ~https://github.com/birkenkrahe/org/blob/master/emacs/emacs.txt~
+      ([[https://github.com/birkenkrahe/org/blob/master/emacs/emacs.txt][follow this link]]).
    2) Copy the raw contents in your clipboard by clicking on the copy
       icon at the top of the file.
    3) Go to the Emacs window ("frame"), or open GNU Emacs, and type
@@ -170,6 +171,20 @@
 
 ** Open the buffer list
 
+   To see a list of open buffers, enter ~C-x C-b~.
+
+   #+caption: Buffer list
+   #+attr_html: :width 500px
+   [[./img/bufferlist.png]]
+
+   To get to the last buffer: ~C-x b~ - this command requires a
+   confirmation, but you can also enter another buffer name, helped by
+   auto-completion.
+
+   There are functions ~M-x next-buffer~ and ~M-x previous-buffer~,
+   which are bound to the keys ~C-x <right>.~ and ~C-x <left>~,
+   respectively.
+   
 ** Move around in a file
 
    * Up one line: C-p
@@ -181,6 +196,8 @@
    * Top of buffer: C-<
    * Bottom of buffer: C->
 
+   The Emacs tutorial will help you train these key sequences.
+   
 ** Mark a region, "kill" and "yank" it back
 
    * Set mark: C-SPC
@@ -189,8 +206,12 @@
    * Yank region: C-y
 
    These keys - like all keys - can also be rebound to the keys that
-   you are used to (copy with C-c, paste with C-v, cut with C-x), but
+   you are used to (copy with ~C-c~, paste with ~C-v~, cut with ~C-x~), but
    I don't recommend it.
+
+   To switch is very easy: ~M-x cua-mode RET~ does the trick. This
+   mode toggles, i.e. invoking ~M-x cua-mode RET~ again will revert to
+   the original Emacs bindings.
 
 ** Create an init configuration file
 
@@ -267,6 +288,7 @@
 ** NEXT Weaving documentation
 ** TODO Run code inside an Org-mode file
 ** TODO Tangling source code
+** TODO Run commands in a shell
 * Footnotes
 
 [fn:4]When installing a new theme, Emacs might ask you to validate the
