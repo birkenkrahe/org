@@ -135,7 +135,7 @@
    1) Open a new file (~C-x C-f~) and name it ~/emacs1.txt.
    2) In the empty buffer of the new file, enter
       #+begin_example
-      C-i
+      C-x i
       emacs.txt RET
       #+end_example
    3) You should now see the text from the other file in the buffer.
