@@ -1,0 +1,8 @@
+* Tutorial notes
+
+| C-x C-= | Change font size                         |
+| ~/      | HOME directory (Emacs default-directory) |
+|         | c:\Users\YourName (Windows)              |
+|         | c:/Users/YourName (Unix)                 |
+| C-y     | Yank/copy clipboard into buffer          |
+| C-g     | Abort Emacs key sequence                 |
