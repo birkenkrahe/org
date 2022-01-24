@@ -13,10 +13,9 @@
    
 ** Installation
 
-   All ~PATH~ values assume that you work on a PC in Lyon
-   104[fn:1]. However, it would be best if you get Emacs for your own
-   PC so that you have all the necessary privileges. [[https://github.com/birkenkrahe/org/blob/master/emacs/install.org][See here]] for
-   brief installation instructions.
+   It is best if you get Emacs for your own PC so that you have all
+   the necessary privileges. [[https://github.com/birkenkrahe/org/blob/master/emacs/install.org][See here]] for brief installation
+   instructions.
 
 ** Open Emacs
 
