@@ -132,7 +132,7 @@
 
 ** Insert a file into an Emacs buffer
 
-   1) Open a new file (~C-x C-f~) and name it ~~/emacs1.txt~.
+   1) Open a new file (~C-x C-f~) and name it ~/emacs1.txt.
    2) In the empty buffer of the new file, enter
       #+begin_example
       C-i
