@@ -1,4 +1,4 @@
-#+TITLE:GNU Emacs Tutorial
+#+TITLE:GNU Emacs & Org-mode Tutorial
 #+AUTHOR:Marcus Birkenkrahe
 #+SUBTITLE:Lyon College courses Spring 2022
 #+STARTUP:overview hideblocks
@@ -8,12 +8,15 @@
 
    This short tutorial to guide you to your first steps with the GNU
    Emacs editor. You should also take time to complete the onboard
-   tutorial. I will make a video of this tutorial, too.
+   tutorial. I will make a video of this tutorial, too. The sequence
+   of lessons follows losely the GNU Emacs Reference Card ([[https://github.com/birkenkrahe/org/blob/master/emacs/refcard.pdf][PDF]]).
+   
+** Installation
 
-   All ~PATH~ values assume that you work on a PC in Lyon 104[fn:1].
-
-   The sequence of lessons follows losely the GNU Emacs Reference Card
-   (PDF)
+   All ~PATH~ values assume that you work on a PC in Lyon
+   104[fn:1]. However, it would be best if you get Emacs for your own
+   PC so that you have all the necessary privileges. [[https://github.com/birkenkrahe/org/blob/master/emacs/install.org][See here]] for
+   brief installation instructions.
 
 ** Open Emacs
 
@@ -109,7 +112,7 @@
       #+end_example
    6) In the buffer (you know that you're there because of the cursor
       that should be blinking at you at the top of the empty page),
-      press ~C-y~.
+      press ~C-y~ ("yank" the clipboard content).
    7) The text that you copied to the clipboard earlier, should now
       show up in the buffer.
    8) The file is unsaved - indicated by the two stars left of the
@@ -285,10 +288,10 @@
    #+attr_html: :width 500px
    [[./img/info.png]]
 
-** NEXT Weaving documentation
-** TODO Run code inside an Org-mode file
-** TODO Tangling source code
-** TODO Run commands in a shell
+** Weaving documentation
+** Run code inside an Org-mode file
+** Tangling source code
+** Run commands in a shell
 * Footnotes
 
 [fn:4]When installing a new theme, Emacs might ask you to validate the
