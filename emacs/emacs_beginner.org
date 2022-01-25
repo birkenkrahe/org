@@ -55,7 +55,7 @@
    * See buffer list: ~C-x C-b~ (~list-buffers~)
 
    #+attr_html: :width 600px
-   [[./img/list-buffer.png]]
+   [[./img/bufferlist.png]]
 
    * Customizable modeline: 1 per split window
      - input method (e.g. ~U~ unicode)
