@@ -12,6 +12,8 @@
 * News - Internships, Data Science Fellowship Program and Micro-Internships
 ** Data Science Fellowship Program at CMU
 
+      (Via Prof Dave Thomas, Lyon College)
+
    #+begin_quote
    The Data Science for Social Good Fellowship is a full-time summer
    program to train aspiring data scientists to work on machine
@@ -30,10 +32,11 @@
    Learn more and apply at: https://www.dssgfellowship.org/
    #+end_quote
 
-   (Via Prof Dave Thomas, Lyon College)
-
 ** Internship opportunities at Stone Ward, Little Rock
-    #+begin_quote
+
+   (Via Matthew Stewart, Stone Ward Marketing Agency)
+   
+   #+begin_quote
 
 Stone Ward is hosting our annual *paid summer internship* in our
 Little Rock office this year. I was hoping you all could either point
@@ -81,6 +84,7 @@ Thanks so much!
     you can share this information with your colleagues in various
     departments – shoot them the [[https://drive.google.com/drive/folders/1g5xp4hgksKg0U0Yefq3CQ2uk8dcU6FOB?usp=sharing][attached student materials]] as well
     as the attached instructor letter.
+
 
 ** Virtual Micro-internships at Stone Ward
 
