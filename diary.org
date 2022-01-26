@@ -82,7 +82,7 @@ Thanks so much!
     departments – shoot them the [[https://drive.google.com/drive/folders/1g5xp4hgksKg0U0Yefq3CQ2uk8dcU6FOB?usp=sharing][attached student materials]] as well
     as the attached instructor letter.
 
-** Micro-internships at Stone Ward
+** Virtual Micro-internships at Stone Ward
 
    Also related to Stone Ward marketing agency: I'm in the process of
    revitalizing the existing (since 2020) data science partnership
@@ -94,9 +94,10 @@ Thanks so much!
    work on a data visualization project with Matthew and me (possibly
    involving R Shiny - an analysis dashboard framework based on R). 
 
-   Other micro internships might involve real clients of Stone
-   Ward. Exciting developments!
-
+   Other micro internships - each lasting about 3 weeks of focused,
+   intense work - might involve real clients of Stone Ward. While
+   these micro-internships are unpaid, they are a great opportunity to
+   learn skills, build a network, and start a project portfolio. 
 
 * The Battle Of The Five Armies (Jan 4, 2022)
 
