@@ -9,6 +9,95 @@
   across all courses, mostly to avoid lengthy emails and to park
   content that I may want to develop later on time permitting.
 
+* News - Internships, Data Science Fellowship Program and Micro-Internships
+** Data Science Fellowship Program at CMU
+
+   #+begin_quote
+   The Data Science for Social Good Fellowship is a full-time summer
+   program to train aspiring data scientists to work on machine
+   learning, data science, and AI projects with social impact in a
+   fair and equitable manner. Working closely with governments and
+   nonprofits, fellows take on real-world problems in education,
+   health, criminal justice, sustainability, public safety, workforce
+   development, human services, transportation, economic development,
+   international development, and more.
+
+   For three months they learn, hone, and apply their data science,
+   analytical, and coding skills, collaborate in a fast-paced
+   atmosphere, and learn from full-time mentors coming from industry
+   and academia.
+
+   Learn more and apply at: https://www.dssgfellowship.org/
+   #+end_quote
+
+   (Via Prof Dave Thomas, Lyon College)
+
+** Internship opportunities at Stone Ward, Little Rock
+    #+begin_quote
+
+Stone Ward is hosting our annual *paid summer internship* in our
+Little Rock office this year. I was hoping you all could either point
+me in the right direction to post this on a Lyon page or share the
+information below for me. Our internships include Brand Management,
+Public Relations, Copywriting, Graphic Design, Video Production, Email
+Marketing, Web Development, and Media Buying.
+
+If any data [science] students are interested in participating in
+the summer internship, I would suggest they look at the media or
+web development internships as those are the most numbers heavy.
+
+Thanks so much!
+    #+end_quote
+
+*** Details:
+
+    * APPLICATION DEADLINE: Friday, March 4, 2022
+    * INTERNSHIP DATES: June 6 – July 29, 2022
+    * LOCATION: Stone Ward office in Little Rock, AR
+    * $2,800 stipend for living expenses
+
+    This isn’t the kind of program where interns spend all day making
+    coffee. Our interns get the chance to make a difference. Camp
+    Reality is an exciting and immersive opportunity for students who
+    are eager to learn about the world of advertising. We offer them:
+
+    * Exposure to and experience in nine different departments, with
+      a day-to-day focus on one
+    * The opportunity to work on real-life assignments for clients
+    * Building portfolio pieces
+    * Time and space to collaborate on projects with fellow interns
+    * Field trips that provide perspective on the different aspects
+      of advertising
+    * Lessons and advice from our experts within the agency
+
+    Camp Reality is the internship for go-getters who are ready to
+    put their boots on the ground. Do you know a student who fits the
+    bill?
+
+    If you do know them, please send them our way! Forward them the
+    flyer and student letter that are attached to this email. For the
+    students you don’t know personally, print and post flyers across
+    campus. Our internships aren’t limited to any certain majors, so
+    you can share this information with your colleagues in various
+    departments – shoot them the [[https://drive.google.com/drive/folders/1g5xp4hgksKg0U0Yefq3CQ2uk8dcU6FOB?usp=sharing][attached student materials]] as well
+    as the attached instructor letter.
+
+** Micro-internships at Stone Ward
+
+   Also related to Stone Ward marketing agency: I'm in the process of
+   revitalizing the existing (since 2020) data science partnership
+   with this firm. Matthew Stewart and a colleague will come and talk
+   to us in the data science class (& I will share the talk/recording
+   with all students in my classes) some time in March.
+
+   Over the summer, there will be room for a couple of students to
+   work on a data visualization project with Matthew and me (possibly
+   involving R Shiny - an analysis dashboard framework based on R). 
+
+   Other micro internships might involve real clients of Stone
+   Ward. Exciting developments!
+
+
 * The Battle Of The Five Armies (Jan 4, 2022)
 
   Some of the story behind the picture below that I also put in all
