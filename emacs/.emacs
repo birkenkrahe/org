@@ -7,6 +7,7 @@
 (require 'ob-emacs-lisp)
 (require 'ob-R)
 (require 'ob-C)
+(require 'ob-shell)
 
 ;; active Babel languages
 (org-babel-do-load-languages
