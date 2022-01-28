@@ -1645,7 +1645,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    new tools. Therefore, almost any effort is justified that goes into
    improving your *meta skills*[fn:9] in this area.
 
-* Fixing the .emacs problem
+* Fixing the .emacs problem on Windows lab computers
 ** The problem
 
     * Whenever you sit down at a lab desktop PC, you log on with your
@@ -1664,13 +1664,33 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
     | Run ~$HOME/.emacs~ buffer functions OR | ~M-x eval buffer~      |
     | Restart Emacs[fn:4]                    | ~C-x C-c~              |
 
+    Now, ~.emacs~ will automatically be found and loaded by Emacs as
+    the configuration or [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][initialization file]].
+    
+    In the computer lab 104, your ~$HOME~ is set to
+    ~C:/.../AppData/Roaming~, which is a [[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/][hidden directory]] (you can
+    access it via system search with ~%APPDATA%~).
+
+    If this directory gets overwritten between subsequent logins, you
+    need to copy the ~.emacs~ file to ~c:/Users/yourname/~ (replacing
+    ~yourname~ by your Windows username), and start Emacs from the
+    CMD line with the command:
+
+    #+begin_example
+    > emacs -l c:\Users\yourname\.emacs
+    #+end_example
+
+    This will load ~.emacs~ as your initialization file.
+    
 ** The effect
 
     * You can now run any R, SQLite, Emacs Lisp, or C code block inside
       an Org-file.
     * To run Shell (~bash~) code, you need to have ~bash.exe~
       installed, e.g. by installing the [[https://cygwin.com/install.html][CygWin utilities package]].
-   
+    * Here is more information about the GNU Emacs [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][initialization
+      file]].
+
 * References
 
   <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
@@ -1691,8 +1711,13 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   DistroTube (). Switching to GNU Emacs [video]. [[https://youtu.be/Y8koAgkBEnM][URL:
   youtu.be/Y8koAgkBEnM]].
 
+  gnu.org (n.d.). GNU Emacs manuals [website]. [[https://www.gnu.org/software/emacs/manual/][URL: www.gnu.org.]]
+  
   <<gookin>> Gookin D (2021). Tiny C Projects. Manning. URL:
   [[https://www.manning.com/books/tiny-c-projects][manning.com]].
+
+  Hoffman (Jul 19, 2017). What Is the AppData Folder in Windows?
+  [blog]. [[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/][URL: www.howtogeek.com.]]
 
   <<minto>> Minto B (2002). The Pyramid Principle.
 
