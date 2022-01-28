@@ -1645,6 +1645,32 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    new tools. Therefore, almost any effort is justified that goes into
    improving your *meta skills*[fn:9] in this area.
 
+* Fixing the .emacs problem
+** The problem
+
+    * Whenever you sit down at a lab desktop PC, you log on with your
+      user profile. The ~.emacs~ file is then stored only on that
+      computer.
+    * If you sit at a different computer next time, there will be no
+      ~.emacs~ file in your ~$HOME~ directory, and you have to
+      reinstall it.
+
+** The solution
+
+    Learn to do this quickly on any new computer:
+
+    | Find your ~$HOME~ directory on Emacs   | ~C-x d $HOME RET~      |
+    | Download https://tinyurl.com/lyonemacs | Save as ~$HOME/.emacs~ |
+    | Run ~$HOME/.emacs~ buffer functions OR | ~M-x eval buffer~      |
+    | Restart Emacs[fn:4]                    | ~C-x C-c~              |
+
+** The effect
+
+    * You can now run any R, SQLite, Emacs Lisp, or C code block inside
+      an Org-file.
+    * To run Shell (~bash~) code, you need to have ~bash.exe~
+      installed, e.g. by installing the [[https://cygwin.com/install.html][CygWin utilities package]].
+   
 * References
 
   <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
