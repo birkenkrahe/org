@@ -2,7 +2,7 @@
 #+AUTHOR:Frequently Asked Questions
 #+SUBTITLE:Frequently Asked Questions All Courses @Lyon Fall 2021
 #+OPTIONS: ^:nil toc:1
-#+STARTUP: overview
+#+STARTUP: overview hideblocks
 * What is this?
 
   This is a Frequently Asked Questions (FAQ) file for all my courses
@@ -1671,6 +1671,10 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
     ~C:/.../AppData/Roaming~, which is a [[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/][hidden directory]] (you can
     access it via system search with ~%APPDATA%~).
 
+    #+caption: Screenshot of the hidden ~%APPDATA%~ directory on Windows 10
+    #+attr_html: :width 400px
+    [[./img/appdata.png]]
+    
     If this directory gets overwritten between subsequent logins, you
     need to copy the ~.emacs~ file to ~c:/Users/yourname/~ (replacing
     ~yourname~ by your Windows username), and start Emacs from the
