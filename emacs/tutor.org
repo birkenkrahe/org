@@ -287,10 +287,10 @@
    #+attr_html: :width 500px
    [[./img/info.png]]
 
-** Weaving documentation
-** Run code inside an Org-mode file
-** Tangling source code
-** Run commands in a shell
+** TODO Weaving documentation
+** TODO Run code inside an Org-mode file
+** TODO Tangling source code
+** TODO Run commands in a shell
 * Footnotes
 
 [fn:4]When installing a new theme, Emacs might ask you to validate the
