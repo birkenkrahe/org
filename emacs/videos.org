@@ -1,0 +1,2710 @@
+#+TITLE:Spring 2022 courses
+#+AUTHOR:Marcus Birkenkrahe
+#+startup: overview
+#+startup: hideblocks
+#+OPTIONS: num:nil
+#+OPTIONS: toc:nil
+* Tutorial videos Spring 2022
+** Installation of Emacs on your PC (with PATH setting)
+
+   The video covers finding relevant FAQs on GitHub, download and
+   install on Windows/MacOS, and setting the search ~PATH~ so that
+   your PC can find Emacs from anywhere (e.g. the CMD line/terminal).
+
+   * [[https://github.com/birkenkrahe/org/blob/master/FAQ.org#how-to-install-emacs-ess-under-windows-and-macos][FAQ on GitHub]] ([[https://github.com/birkenkrahe/org/blob/master/emacs/install.org][checklist]])
+   * [[https://youtu.be/GMUto-6IDe8][Video Emacs for Beginners 1: Installing Emacs]] on YouTube (9'30'')
+   * Test installation:
+     - Open Emacs from desktop (double-click on shortcut)
+     - Open Emacs from the terminal at the prompt with the command
+       ~emacs~
+     - Shut it down again with ~C-x C-c~ (or close the window).
+
+   The next step here is to install an initialization file ~.emacs~ -
+   that's part of a separate video.
+
+   This video is part of a [[https://youtube.com/playlist?list=PLwgb17bzeNyiuQtvKtcZ_pvSSoO9ShXv8][YouTube playlist "Emacs for Beginners"]].
+
+** Installing of R on your PC (with PATH setting)
+
+   The video covers finding relevant FAQs on GitHub, download and
+   install on Windows, and setting the search ~PATH~ variable so that
+   your PC can find R from anywhere (e.g. on the CMD line/terminal,
+   but also from within Emacs so that you can run code blocks in
+   Org-mode files - subject of another video).
+
+   * [[https://github.com/birkenkrahe/org/blob/master/FAQ.org#how-to-install-r-under-windows-and-macos][FAQ on GitHub]] ([[https://github.com/birkenkrahe/org/blob/master/emacs/install.org][checklist]])
+   * [[https://youtu.be/KQbCjUlColA][Video Installing R for Windows]] on YouTube (8'30'')
+   * Test the installation
+     - Open R in a terminal - type ~R~ at the prompt
+     - Open R in an Emacs buffer (with ESS): ~M-x R~ - then close
+       buffer (confirm ~Do you want to close this running process?~
+       with ~yes~)
+     - Open R inside an Emacs shell: ~M-x eshell~, then at the prompt,
+       enter ~R --vanilla~
+     - To leave R, type ~q()~ and confirm with ~n~ (do not save work
+       space).
+
+** Installing an Emacs initialization file ~.emacs~
+
+   If you want to run code blocks inside Emacs, some customization is
+   necessary. This is done with an initialization file that Emacs
+   picks up when starting, from the ~$HOME~ location on your PC.
+
+   The video covers download of the ~.emacs~ file from the web, and
+   opening Emacs with or without it, finding the ~$HOME~ directory. In
+   another video, I explain how to download Emacs packages with the
+   package manager, and how to change the layout.
+
+   * Get the ~.emacs~ file from the web: https://tinyurl.com/lyonemacs
+
+   * [[https://youtu.be/MICX4Al2mcQ][Video Emacs for Beginners 7: Initialization with .emacs]] on
+     YouTube (5'21'')
+
+   * Test installation: restart emacs - you should see no menu or tool
+     bar at the top (the init file that you just installed contains
+     commands to switch them off).
+
+** Installing of GCC on your Windows PC (with PATH setting)
+
+   The video covers finding relevant FAQs on GitHub, download and
+   install under Windows, and setting the search ~PATH~ variable so
+   that your PC can find the C compiler from anywhere (e.g. on the CMD
+   line/terminal, but also from within Emacs so that you can run code
+   blocks in Org-mode files - subject of another video).
+
+   * Where to get GCC for Windows: [[https://sourceforge.net/][sourceforge.net]]
+   * Test installation: open a CMD line terminal and enter ~gcc
+     --version~
+   * [[https://youtu.be/-wwXrlgzIWo][Video: Installing GCC on your Windows PC on YouTube (7'50'')]]
+
+** Running a C program inside an Org-mode file
+
+   Org-mode allows you to run code in many programming languages
+   inside GNU Emacs. This video shows how to create a simple Org-mode
+   file, define a C code block, run the file inside Emacs, extract C
+   source code from the Org-mode file, and run it on the CMD line
+   terminal. See also: [[https://github.com/birkenkrahe/cc100/blob/main/assignments/org-mode/README.org][assignment in GitHub]].
+
+   *Conditions:* you must have the [[https://youtu.be/-wwXrlgzIWo][GCC compiler ~MinGW~ installed]] and
+   in the ~PATH~, and you must have [[https://youtu.be/MICX4Al2mcQ][my ~.emacs~ file loaded by Emacs]].
+
+   * Create a working directory with ~C-x d~ followed by ~+~ and the name
+   * Create an Org-mode file (~.org~) with ~C-x C-f first.org RET~
+   * Font change with ~C-x C-=~ followed by ~+~ or ~-~ or ~0~
+   * Meta information always begins with ~#+~
+   * To undo any key sequence: ~C-/~ (or ~C-x u~)
+   * Org-mode links are surrounded by ~[[~ and ~]]~
+   * To name the code block use ~#+name:~
+   * Code block begins with ~#+begin_src~, and ends with ~#+end_src~
+   * You need to add a header (minimum: programming language, e.g. C)
+   * Add the statement inside the block
+   * To execute the code block use ~C-c C-c~ (with the cursor anywhere
+     inside the block)
+   * To mark a region, use ~C-SPC~
+   * To follow a link, use ~C-c C-o~
+
+   Video: [[https://youtu.be/6xy-3ZI-4AE][Run a C program inside an Org-mode file]] on YouTube (20 min)
+
+** Tangling C source code from an Org mode file
+
+   Org-mode allows you to tangle (or extract) source code files from
+   code blocks. Watch "Running a C program inside Emacs" before this
+   video, if you don't know how to create a named code block.
+
+   * Add header information: ~:tangle hello.c :comments both~
+   * Inside the code block, enter ~M-x org-babel-tangle~ (~C-c C-v t~)
+   * Open a UNIX shell in Emacs with ~M-x eshell~
+   * At the command prompt, enter ~ls -la~ to see all content
+   * Compile ~hello.c~ by entering: ~gcc -o hello hello.c~
+   * At the command prompt, enter ~ls -la~ to see all content
+   * Execute the file ~hello.exe~ by entering ~hello~
+   * Open Dired (~C-x d~) and look at the file ~hello.c~
+
+   Video: [[https://youtu.be/mTG8dvui8z0][Tangle C code, compile and run it in an Emacs shell]] on
+   YouTube (10 min)
+
+** Running R code inside an Org-mode file
+
+   Org-mode allows you to run code in many programming languages
+   inside GNU Emacs. This video shows you how to create a simple
+   Org-mode file, define a R code block, and run the file inside
+   Emacs. See also: [[https://github.com/birkenkrahe/ds205/tree/main/assignments/org-mode][assignment in GitHub]].
+
+   *Conditions:* you must have the [[https://youtu.be/KQbCjUlColA][R program installed]] and it must be
+   in the ~PATH~, and you must have [[https://youtu.be/MICX4Al2mcQ][my ~.emacs~ file loaded by Emacs]].
+
+   * Create a working directory with ~C-x d~ followed by ~+~ and the name
+   * Create an Org-mode file (~.org~) with ~C-x C-f first.org RET~
+   * Font change with ~C-x C-=~ followed by ~+~ or ~-~ or ~0~
+   * Meta information always begins with ~#+~
+   * To undo any key sequence: ~C-/~ (or ~C-x u~)
+   * Org-mode links are surrounded by ~[[~ and ~]]~
+   * To name the code block use ~#+name:~
+   * Code block begins with ~#+begin_src~, and ends with ~#+end_src~
+   * You need to add a header (minimum: programming language, e.g. R)
+   * Add the statement inside the block
+   * To execute the code block use ~C-c C-c~ (with the cursor anywhere
+     inside the block)
+   * To mark a region, use ~C-SPC~
+   * To follow a link, use ~C-c C-o~
+
+   Video: [[https://youtu.be/M9jNksn3pNM][Run R Code inside an Emacs Org-mode file]] on YouTube
+   (11'30'')
+   
+** Tangle R code, and run it in an Emacs shell
+
+   Org-mode allows you to tangle (or extract) source code files from
+   code blocks. Watch "Running an R program inside Emacs" before this
+   video, if you don't know how to create a named code block.
+
+   * Add header information: ~:tangle mtcars.R :comments both~
+   * Inside the code block, enter ~M-x org-babel-tangle~ (~C-c C-v t~)
+   * Open a UNIX shell in Emacs with ~M-x eshell~
+   * At the command prompt, enter ~ls -la~ to see all content
+   * Run the program with ~Rscript mtcars.R~
+   * Open Dired (~C-x d~) and look at the file ~mtcars.R~
+
+   Video: [[https://youtu.be/QQ53hgJDwog][Tangle R code and run it in an Emacs shell]] on YouTube (3 min)
+
+** Create and run a shell script inside an Org-mode file
+
+   In this video, I show how to create a hello world shell script as
+   an Emacs Org-mode code block, then start an Emacs shell
+   (i.e. inside Emacs) and run the same script there, too.
+
+   *Conditions:* you must have ~bash.exe~ installed and in the ~PATH~
+   of your PC so that it can be found by Emacs. You must have [[https://youtu.be/GMUto-6IDe8][GNU
+   Emacs installed]]. You must have my sample [[https://youtu.be/MICX4Al2mcQ][~.emacs~ file loaded by
+   Emacs]].
+
+   To install the ~bash.exe~ shell program, download and install
+   ~CygWin~, a suite of utility programs for Windows [[https://cygwin.com/install.html][from here]].
+
+   * Make sure you have ~bash~ shell: open ~eshell~ inside Emacs (~M-x
+     eshell~) and enter the command ~which bash~. On Windows, you
+     should get the location of the file ~bash.exe~
+   * Create a code source block for the language ~bash~ in an Org-mode
+     file.
+   * Add a bash statement: ~echo hello world~
+   * Run the code block with ~C-c C-c~. You should see the output.
+   * Next, create a file ~hello.sh~ which has in its first line the
+     code ~#![path to bash.exe]~. Get the ~[path to bash.exe]~ from
+     the shell with ~which bash~.
+   * Save the file and run it in the eshell with ~./hello.sh~.
+
+   Video: [[https://youtu.be/N3wnKKHBLQE][Create and run shell scripts in GNU Emacs on YouTube]] (12')
+
+** Inserting an inline image in an Org-mode file (and a lot about links)
+
+   In the video, you see how Emacs handles links. You can link to any
+   named object - be it a code chunk, a reference, a file, a URL or an
+   image. Not shown: links to files and URLs - same syntax though.
+
+   Video: [[https://youtu.be/7pCU7rgIFa0][GNU Emacs links and inline images]] on YouTube (9'30'')
+   
+*** Preliminaries on links
+
+    * Below you see a link to a code chunk (~chunk~), and to a reference
+    * In the next section, we'll look at inline images
+
+    [[chunk]] ([[knuth][Knuth, 1984]])
+   
+    #+name: chunk
+    #+begin_src R :exports both :session :results output
+
+    #+end_src
+
+**** References
+     
+    <<knuth>> Knuth
+
+*** Inline image link
+
+    * Open the link to the image [[hobbit]] with ~C-c C-x C-v~
+
+    #+caption: The Hobbit: Battle of the Five Armies (Source...)
+    #+name: hobbit
+    #+attr_html: :width 600px
+    [[./img/fivearmies1.jpg]]
+
+
+    * You can embed links to references, files, images, code chunks
+
+** Weaving documentation from an Org-mode file and printing it
+
+   * To render, use ~C-c C-e~ (opens the Org-export-dispatcher)
+   * We can render Org-mode files in many different formats. I use:
+     - HTML (In browser)
+     - ODT (Open Office - like WORD)
+     - LaTeX (for scientific publications and pretty scripts)
+
+   Video: [[https://youtu.be/OTH3aBX1ags][Rendering different document formats from Org-mode files]] on
+   YouTube (9')
+* Emacs
+** M-x find-grep-dired won't work in GNU Emacs for Windows
+
+   But it does work under Ubuntu
+   https://twitter.com/mickeynp/status/1483861601740537857?s=20
+
+** Emacs package of the week
+*** [[https://github.com/vibhavp/emacs-xkcd][An xkcd reader for Emacs]] (cartoons)
+    #+begin_example
+    M-x package-list-packages RET
+    C-s xkcd RET
+    i (package-menu-mark-install) RET
+    x (package-menu-execute) RET
+    M-x load-library xkcd RET
+    M-x xkcd
+    #+end_example
+*** ace-windows (windows management)
+*** org-beautify and org-bullets (layout)
+*** org-tree-slide (presentation)
+*** [[https://github.com/marcinkoziej/org-pomodoro][org-pomodoro]] (time management)
+*** [[https://www.orgroam.com/][org-roam]] (notes)
+*** treemacs (file explorer)
+
+* CSC 100 Introduction to programming in C/C++
+** TODO Org-mode assignment sample solution
+   DEADLINE: <2022-01-29 Sat>
+
+   You've all fought hard with Emacs last week - well done on
+   Dagobah. The Force is with you. The only thing left to is to
+   practice. For the issues related to the computer lab, I can offer
+   quick fixes (see course FAQ).
+
+   The complete solutions for the Org-mode assignment are [[https://github.com/birkenkrahe/cc100/tree/main/assignments/org-mode/solutions][in GitHub]]. I
+   generated a HTML file and printed it as a PDF. Please note that the
+   complete submission must include references of the software (and
+   other sources) used.
+   
+** TODO Quiz 3
+   DEADLINE: <2022-01-31 Mon 10:00>
+
+** Quiz 2 - C vs C++ and infrastructure
+*** Update notice
+
+    #+begin_quote
+    Quiz 2 (10 questions) is now available to you. Try to complete it
+    before class tomorrow (11 AM). Takes no more than 5-10
+    minutes. Cheers!
+    #+end_quote
+
+*** Settings text
+
+    #+begin_quote
+    This is the second quiz of the term. It addresses last week's
+    issues - especially the last part of the introduction to C (C vs.
+    C++, and the installation of a C compiler). Feedback is provided
+    where useful and applicable.
+
+    This quiz is not graded. You can play it once before the next
+    class. You can play it unlimited times thereafter. The most
+    difficult questions may reappear in the final exam.
+    #+end_quote
+
+*** What's the difference between C and C++?
+
+    Match the property and the language.
+
+    | C                                                     | C++                                  |
+    |-------------------------------------------------------+--------------------------------------|
+    | Created by Thompson/Ritchie 1970s                     | Created by Stroustrup 1980s          |
+    | Imperative procedural langauge                        | Object-oriented Programming language |
+    | System programming language                           | More used for Games programming      |
+    | Important for Internet of Things (embedded computing) | Important for airflight Software     |
+
+*** In OOP, classes are used for code reuse and maintenance
+
+    OOP stands for Object-Oriented Programming, a programming paradigm.
+
+    TRUE
+
+    Feedback: An example is the PowerPlant class that has the
+    subclasses NuclearPowerPlant, CoalPowerPlant, and
+    GasPowerPlant. Code for the PowerPlant class can be reused in the
+    subclasses (so-called "inheritance").
+
+*** C is an object-oriented programming language
+
+    FALSE
+
+    Feedback: C++ is an object-oriented superset of C. C is not OOP,
+    but C++ is. Other OOP languages are: Java, C#, Smalltalk.
+
+*** What do you need to create and run a C program?
+
+    TRUE:
+    * An editor (like Emacs)
+    * An operating system (like Windows)
+    * A compiler + linker (like GCC)
+
+    FALSE:
+    * A hosting platform (like GitHub)
+    * A learning management system (like Schoology)
+
+*** Know your code
+
+    Match the term and the definition!
+
+    | Source code  | Human-readable program      |
+    | Machine code | Program ready for execution |
+    | Object code  | Code produced by a compiler |
+
+*** Which of these are valid ~PATH~ settings?
+
+    TRUE:
+    * ~C:\Program Files\Emacs\x86_64\bin~ (in Windows)
+    * ~C:\Program Files (x86)\mingw-w64\bin~ (in Windows)
+    * ~/usr/bin~ (in MacOS/Linux)
+
+    FALSE:
+    * ~C:/Program Files/Emacs/x86_64/bin~ (in Windows)
+    * ~C:/Program Files (x86)/mingw-w64/bin~ (in Windows)
+    * ~E:\usr\bin~ (in MacOS/Linux)
+    * ~E:/usr/local/bin~ (in MacOS/Linux)
+
+    Feedback: Under Windows, the folders in the search ~PATH~ are
+    separated by a backslash (~\~), while on MacOS/Linux, they are
+    separated by a forward slash (~/~). Under MacOS/Linux, path
+    names have no drive identifier like ~E:~ or ~C:~.
+
+*** The ~PATH~ tells the PC where to look for a program
+
+    TRUE
+
+*** Know your shell
+
+    The ~--version~ (in Windows) or ~-v~ (in MacOS) is a program
+    option (or flag).
+
+    #+begin_example
+    Windows> gcc --version
+    MacOS>   cc -v
+    #+end_example
+
+    TRUE
+
+    Feedback: This option for the programs ~gcc~ or ~cc~ returns the
+    program version that is installed on your PC.
+
+*** What is GCC?
+
+    We installed GCC on Windows as MinGW.
+
+    TRUE:
+    * Open source software and part of the GNU project
+    * A bundle of programs including the ~gcc~ C compiler
+
+    FALSE:
+    * A standard library for C programming
+    * A program to translate machine code into source code
+
+    Feedback: GCC is the GNU Compiler collection, which allows
+    compilation (transformation of source code into machine or object
+    code) for a bunch of different languages including C and
+    C++. ~gcc~ is one of these compiler programs. A standard library
+    (like ~stdio.h~) is common for most high level languages (like C
+    and C++). Alas, under Windows, GCC and gcc are not distinguished
+    (try it).
+
+*** The "binary" of a program (like ~gcc~) only runs on your type of PC
+
+    TRUE
+
+    Feedback: a binary is machine code built from source code,
+    specifically built for your PC's architecture, including the
+    specific chips that make up your CPU.
+
+** Quiz 1 - introduction to C and to the course
+
+   This is the first weekly quiz. Time = 15 minutes, 10 points max.
+
+*** GNU Emacs is a literate programming tool
+
+    TRUE
+
+    #+begin_quote
+    GNU Emacs is a customizable, extensible editor. Via Org-mode, a
+    major environmental mode, Emacs can be used to write programs in a
+    "literate" style, by mixing documentation, code and output.
+    #+end_quote
+
+*** Where does C come from?
+
+    TRUE:
+    * C is a by-product of the UNIX operating system | C was written
+      as a language for Unix, and then Unix was rewritten in C.
+
+    FALSE:
+    * C is a by-product of the Linux operating system | UNIX, and C
+      are 30 years older than Linux.
+    * C was the first programming language | Not by a long shot. When
+      C was created, there were already hundreds of programming
+      languages in use.
+
+*** Which of the following are strengths of the C programming language?
+
+    TRUE:
+    * Portability | C programs can be compiled and executed on almost
+      any computer system
+    * Standard Library | Because it is so old and established, many
+      functions for C are prewritten and bundled in libraries that you
+      can just use
+    * Speed and efficiency | It's fast and small programs can achieve
+      a lot
+
+    FALSE
+    * Permissiveness | This refers to the fact that it is easy to make
+      mistakes in C - the language doesnt check itself very carefully
+    * Terseness and understanding for humans | C is very terse, the
+      source code is hard to read because it is highly compressed
+    * Maintenance of large programs | C is harder to maintain for
+      large programs
+
+*** Android (for phones) is largely written in Python
+
+    FALSE
+
+    #+begin_quote
+    Android is essentially Linux. Operating systems (OS) are usually
+    written (mostly) in C. Python is much too slow a language for OS
+    needs.
+    #+end_quote
+
+*** How will this course be graded?
+
+    TRUE:
+    * Class assignments: 10%
+    * Monthly tests: 30%
+    * Lab projects: 30%
+    * Final exam: 30%
+
+*** Match glossary items
+
+    Note: all terms relate to the use of the word in computer science
+
+    | TERM             | DEFINITION                                          |
+    |------------------+-----------------------------------------------------|
+    | Software Library | Bundle of useful functions                          |
+    | Portability      | Ability of software to run on different hardwares   |
+    | Algorithms       | Fixed process or set of rules                       |
+    | String           | A data type representing text                       |
+    | UNIX             | Operating System (ca. 1969)                         |
+    | Compiler         | Software to translate source code into machine code |
+
+*** Match GitHub action and definition
+
+    | ACTION            | MEANING                                     |
+    |-------------------+---------------------------------------------|
+    | Create repository | Create a place for your code                |
+    | Create branch     | Create a modified copy of a main repository |
+    | Open pull request | Request for changes of main repository      |
+    | Merge branch      | After review, merge changes into main repo  |
+    | Submit issue      | Make a comment on a repository              |
+    | Commit            | Make changes permanent                      |
+
+*** What's a computer?
+
+    Which of these makes up a computer?
+
+    TRUE:
+    * CPU + Memory + Harddisk | You don't need peripherals, though
+      they are nice to have
+    * x86-64 + 4GB RAM + 500GB SSD | Chip set + volatile memory +
+      non-volatile memory
+
+    FALSE:
+    * CPU + Keyboard + Mouse | Memory is missing (RAM and Hard disk)
+    * Editor + Screen + Motherboard | Editor is an application only,
+      screen and keyboard are peripherals - CPU and memory are missing
+
+*** How are programs processed?
+
+    Programming consists of a series of steps. Bring them in the right
+    order, beginning with the creation of source code.
+
+    1. write program in editor (harddisk)
+    2. compile program to machine format (RAM)
+    3. run program (CPU)
+    4. display results (harddisk)
+
+*** Literate programs contain documentation + code + output
+
+    TRUE
+
+    #+begin_quote
+    There is more to literate programming, but this is what you should
+    remember. Programming in this way, e.g. by using interactive
+    notebooks, directly helps you develop your computer and data literacy.
+    #+end_quote
+
+
+** Quiz question not yet used
+*** What is a system?
+
+    TRUE:
+    * A whole made up of several parts
+    * A entity with a boundary, elements and relationships between
+      them
+
+    FALSE:
+    * An Input/Output process
+    * A container
+    * A diagram
+
+*** What is GNU?
+
+    Note: I'm looking for the technical meaning of the term.
+
+    TRUE:
+    * GNU's not UNIX
+    * A UNIX-like operating system
+    * Home to Emacs and GCC
+
+    FALSE:
+    * A wildebeest (antelope)
+    * A Linux distribution
+    * A church
+
+*** C++ is a superset of C (C is a subset of C++)
+
+    TRUE
+*** Match these facts to C and C++, respectively
+
+    | C                                          | C++                                  |
+    |--------------------------------------------+--------------------------------------|
+    | Developed in the 1970s                     | Developed in the 1980s               |
+    | Imperative procedural programming language | Object-oriented programming language |
+    | Good as system programming language        | Good to program games, graphics      |
+    | Used for the Internet of Things            | Used for flight software             |
+
+** [[https://docs.google.com/forms/d/1OYm9fMBi8LNAlbRSo3hiRzsLL0psOuF7TmyoYj9U4kM/edit][Entry quiz Google Forms (Dec 21, 2021)]]
+*** Text
+    Please answer a few questions to help me prepare the
+    introductory programming class for Spring '22. Takes 5 min
+    only. Link to the form: https://forms.gle/QbN6jzpKs62XpMEm7
+
+    If you need motivation to do this, especially this close to
+    Christmas: Responding to his survey will get you extra credit
+    points before the course has even started!
+
+    Send me an email (birkenkrahe@lyon.edu) if you have special wishes
+    or just want to say hi! I'm looking forward to meeting you!
+
+    Cheers and Merry Christmas,
+
+    Marcus Birkenkrahe
+
+    PS. At the end of the survey you find a short video "Why C
+    Programming is awesome" Check it out!
+
+** [[https://github.com/birkenkrahe/cc100/tree/main/0_systems#examples-for-systems][Examples for system and non-systems]]
+
+   Your turn: fill in the details of these systems!
+
+   | System    | Boundary  | Elements         | Relationships       | Flow                    |
+   |-----------+-----------+------------------+---------------------+-------------------------|
+   | Car       | body      | tires, breaks    | breaking            | entering, leaving       |
+   |-----------+-----------+------------------+---------------------+-------------------------|
+   | College   | border    | student, faculty | learning, teaching  | joining, graduating     |
+   |-----------+-----------+------------------+---------------------+-------------------------|
+   | Computer  | chassis   | printer, driver  | printing            | logging in, logging out |
+   |-----------+-----------+------------------+---------------------+-------------------------|
+   | Cow       | hide      | udder, cowgirl   | milking             | food in, milk out       |
+   |-----------+-----------+------------------+---------------------+-------------------------|
+   | Earth     | crust     | water, river     | flowing, containing | rain, evaporate         |
+   |-----------+-----------+------------------+---------------------+-------------------------|
+   | Nation    | border    | city, citizen    | building, living    | immigration, emigration |
+   |-----------+-----------+------------------+---------------------+-------------------------|
+   | Person    | skin      | mouth, hand      | being fed, feed     | eat, defecate           |
+   |-----------+-----------+------------------+---------------------+-------------------------|
+   | Phone     | frame     | screen,sensor    | touching, sensing   | signal in, signal out   |
+   |-----------+-----------+------------------+---------------------+-------------------------|
+   | Schoology | dashboard | course, member   | attending           | grade out, quiz in      |
+
+   Can you think of things that are not systems?
+
+   * Universe (no boundary, presumably)
+   * Quark (elementary particle, presumably)
+
+** [[https://docs.github.com/en/get-started/quickstart/hello-world][GitHub assignment (graded / in class)]]
+
+   * Complete the "Hello World" exercise.
+   * Submit screenshot to Schoology
+
+** [[https://github.com/birkenkrahe/cc100/blob/main/2_installation/org_mode_assignment/README.org][Org-mode assignment]]
+   * [X] PDF printed for distribution
+   * [X] GitHub folder (README)
+   * [X] [[file:~/Documents/GitHub/cc100/assignments/org-mode/README.org]]
+   * [X] Updated sheet (more header args)
+   * [X] [[https://github.com/birkenkrahe/cc100/blob/main/assignments/org-mode/MarcusBirkenkrahe.org][Sample solution in R]] (ds205 gh)
+** Stuff
+*** [[https://www.freecodecamp.org/news/for-loops-in-c/][For Loops in C - explained with code examples]]
+*** [[https://youtu.be/KJgsSFOSQv0][C Programming Tutorial for Beginners (2018)]] (3hr45min)
+
+    ([[https://youtu.be/3lQEunpmtRA][Shorter version for developers - 25 min]])
+
+    * Course Contents
+    * (0:00:00) Introduction
+    * (0:01:22) Windows Setup
+    * (0:05:02) Mac Setup
+    * (0:09:04) Hello World
+    * (0:12:51) Drawing a Shape
+    * (0:20:56) Variables
+    * (0:32:25) Data Types
+    * (0:38:32) Printf
+    * (0:45:22) Working With Numbers
+    * (0:52:20) Comments
+    * (0:56:00) Constants
+    * (1:00:13) Getting User Input
+    * (1:12:08) Building a Basic Calculator
+    * (1:17:43) Building a Mad Libs Game
+    * (1:26:29) Arrays
+    * (1:36:44) Functions
+    * (1:45:37) Return Statement
+    * (1:53:21) If Statements
+    * (2:07:11) Building a Better Calculator
+    * (2:14:51) Switch Statements
+    * (2:21:27) Structs
+    * (2:29:43) While Loops
+    * (2:37:48) Building a Guessing Game
+    * (2:50:11) For Loops
+    * (2:59:05) 2D Arrays & Nested Loops
+    * (3:09:10) Memory Addresses
+    * (3:17:20) Pointers
+    * (3:27:41) Dereferencing Pointers
+    * (3:32:37) Writing Files
+    * (3:41:52) Reading Files
+
+    Course developed by Mike Dane. Check out his YouTube channel for
+    more great programming courses:
+    https://www.youtube.com/channel/UCvmI...
+
+    * Follow Mike on Twitter: https://twitter.com/GiraffeAcademy
+
+
+    * The Giraffe Academy website: http://www.giraffeacademy.com/
+
+    * Other full courses by Giraffe Academy on our channel ⭐️
+    * Python: https://youtu.be/rfscVS0vtbw
+    * SQL: https://youtu.be/HXV3zeQKqGY
+    * Ruby: https://youtu.be/t_ispmWmdjY
+    * PHP: https://youtu.be/OK_JCtrrv-c
+*** [[https://youtu.be/KlPC3O1DVcg][Bjarne Stroustrup: Why the Programming Language C Is Obsolete | Big Think]] (3 min)
+*** [[https://youtu.be/zGrTT4k1-yc][Explain C.C++C#. Like I'm Five.]] (6 min)
+*** [[https://youtu.be/smGalmxPVYc][Why C Programming is Awesome]] (8 min)
+
+*** [[https://open.kattis.com/help][Kattis problem archive]]
+
+**** General information
+     You start out by finding a suitable problem to solve. Then you
+     write code to solve the problem. After this, you submit the code to
+     us for review. We will then compile your code and run it on some
+     secret input. After some careful deliberation, you will get a
+     judgement informing you whether your code behaved as expected or
+     not.
+
+**** Input/Output
+     Your program should read its input from standard input and produce
+     output on standard output. This can for instance be done using
+     scanf / printf. Anything written on standard error (stderr) will be
+     ignored. This can be used for debugging your program during
+     development (i.e., you do not have to remove debug output before
+     submitting if you use standard error for debug output). Of course,
+     writing to standard error will take some runtime.
+
+     Input will always follow the input specification (so you do not
+     need to validate the input). Your output must follow the output
+     specification.
+
+**** Compiler settings
+     For C, we use gcc version gcc (Ubuntu 9.3.0-10ubuntu2) 9.3.0 with
+     the following flags: -g -O2 -std=gnu11 -static {files} -lm.
+
+**** System libraries
+     You are allowed to use all standard libraries included with C.
+
+**** Hardware
+     We are currently using Dell PowerEdge R230 servers for
+     judging. These are equipped with an Intel Xeon E3-1220V6 CPU
+     running at 3.0 GHz and 8 GB RAM. A 64-bit Linux kernel is used.
+
+**** Exiting
+     We will inspect the exit code of your program. If it is non-zero,
+     we will judge your submission as Run Time Error.
+
+*** [[https://youtu.be/1YOrd7NCGkg][First steps with Emacs]]
+
+    * 7 min video with slides
+    * Excellent advice - includes ESS (needed for stats)
+
+*** [[https://youtu.be/9ahR5K_wkNQ][M-x Forever: Why Emacs will outlast text editor trends - David Wilson (System Crafters)]]
+* DSC 205 Intro to advanced data science
+** Early alerts
+*** TODO Early alerts Week 3 / 28 January 2022
+    DEADLINE: <2022-01-29 Sat>
+**** Michael Hullett
+
+     Missed: 3 subsequent classes so far.
+
+     Michael missed the classes in this whole 3rd week of the course
+     CSC 482/DSC 205 on three subsequent dates without an excuse and
+     without notifying me. He attended other classes this week
+     though. He has also not turned in the first two (weekly) class
+     assignments.
+
+
+     Michael had a lot of absences last term (close to 4 weeks), which
+     is why I am concerned.
+     
+**** Connor Westlake
+
+     Connor missed 3 classes so far, on
+     - Friday, January 14, 2022
+     - Wednesday, January 26, 2022
+     - Friday, January 28, 2022
+
+     He did not turn in the 2nd weekly assignment. He did notify me of
+     this absence for the first missed class (14 Jan) only.
+
+     Connor left half way through last time, which is why I am
+     concerned.
+     
+** TODO Org-mode assignment sample solution
+   DEADLINE: <2022-01-29 Sat>
+
+   You've all fought hard with Emacs last week - well done on
+   Dagobah. The Force is with you. The only thing left to is to
+   practice. For the issues related to the computer lab, I can offer
+   quick fixes (see course FAQ).
+
+   The complete solutions for the Org-mode assignment are [[https://github.com/birkenkrahe/ds205/tree/main/assignments/org-mode/solutions][in GitHub]]. I
+   generated a HTML file and printed it as a PDF. Please note that the
+   complete submission must include references of the software (and
+   other sources) used.
+
+** TODO Quiz 3
+   DEADLINE: <2022-01-31 Mon 14:00>
+** NEXT ds DataCamp assignments
+   DEADLINE: <2022-01-31 Mon 15:00>
+
+   * [ ] [[https://campus.datacamp.com/courses/intermediate-r/chapter-1-conditionals-and-control-flow?ex=1][*Intermediate R: conditionals and control flow*]]
+   * [ ] Intermediate R: loops
+   * [ ] Intermediate R: functions
+   * [ ] Intermediate R: apply family
+   * [ ] Intermediate R: utilities
+
+** DONE Emacs assignment 1 - config file
+   DEADLINE: <2022-01-24 Mon>
+
+   CREATE AN .EMACS FILE IN YOUR HOME DIRECTORY AND SUBMIT SCREENSHOT
+
+   Your mission: create an Emacs configuration file.
+
+   /(Extra credit for doing this by Monday 24th January 3 PM on your
+   own. If not, we'll do it in class together.)/
+
+   1. To create the file, you can use ~C-x C-f~
+   2. [[https://github.com/birkenkrahe/org/blob/master/emacs/.emacs][Get the code from here]] - e.g. copy the ~raw~ code and save it
+      (with ~C-y~) in the ~.emacs~ file on your PC
+   3. To save the file, you can use ~C-x C-s~
+   4. Save the file in your default directory
+   5. To find out where that is, use the command ~C-h v
+      default-directory RET~
+   6. Upload a screenshot of the directory that shows the ~.emacs~ file
+      at the top as a [[https://github.com/birkenkrahe/cc100/issues][GitHub issue to the course repo]] (you can just
+      drag and drop the screenshot into the issue box).
+   7. Use ~C-x d~ to open the directory view, and ~s~ to sort it so
+      that the last edited file is on top.
+
+      [[https://github.com/birkenkrahe/org/issues/6][Here is my sample solution.]]
+
+      #+caption: .emacs file sample solution
+      #+attr_html: :width 500px
+      [[./img/emacs.png]]
+
+      If you don't see ~gcc --version~ in your terminal, you need to
+      add a couple of lines to the ~.emacs~ file - see course FAQ.
+
+** WAITING Ben Honors Contract
+   DEADLINE: <2022-01-25 Tue>
+** WAITING Wyatt Honors Contract
+   DEADLINE: <2022-01-25 Tue>
+*** Purpose
+    To learn more about R and how it can be used to visualize interesting
+    problems and their solutions.
+
+*** Introduction
+    What have I done before What (do I think) we're doing in the course How do I want to expand the course
+
+*** Method
+    How am I going to do it
+    Look at data visualization DataCamp course
+    Identify interesting visualization for sample problem (C++)
+    Interface C++ and R using the Rcpp package
+*** Results
+    What are you expecting? (Paper? Presentation?)
+*** Discussion
+    What does it all mean?
+*** Time schedule
+*** References
+    R (type citation() in R)
+** Quiz 2: GNU Emacs installation and first steps
+
+*** Update notice
+
+    #+begin_quote
+    Quiz 2 (10 questions) is now available to you. Try to complete it
+    before class tomorrow (3 PM). Takes no more than 5-10
+    minutes. Cheers!
+    #+end_quote
+
+*** Settings text
+
+    #+begin_quote
+    This is the second quiz of the term. It addresses last week's class
+    contents (see recording/whiteboard in GDrive, or ~notes.org~ in
+    GitHub). Feedback is provided where useful and applicable.
+
+    This quiz is not graded. You can play it once before the next
+    class. You can play it unlimited times thereafter. The most
+    difficult questions may reappear in the final exam.
+    #+end_quote
+
+*** Which of these are valid ~PATH~ settings?
+
+    TRUE:
+    * ~C:\Program Files\Emacs\x86_64\bin~
+    * ~C:\Program Files (x86)\R\R-4.1.2\x64\bin~
+    * ~~/R/R-4.1.2~
+
+    FALSE:
+    * ~C:/Program Files/Emacs/x86_64/bin~
+    * ~C:/Program Files (x86)/R/R-4.1.2/x64/bin~
+    * ~c:/usr/bin~
+
+    Feedback: Under Windows, the folders in the search ~PATH~ are
+    separated by a backslash (~\~), while on MacOS/Linux, they are
+    separated by a forward slash (~/~). Under MacOS/Linux, path
+    names have no drive identifier like ~E:~ or ~C:~.
+
+*** The ~PATH~ is a variable only for the Windows operating system
+
+    FALSE
+
+    Feedback: Every computer must search for a program when you ask
+    for it. The ~PATH~ variable is the list of folders that the
+    computers searches, in Windows, MacOS/Unix and Linux.
+
+*** Know your shell
+
+    ~--version~ and ~-nw~ in the following code chunk are program
+    options or flags.
+
+    #+begin_example
+    prompt> R --version
+    prompt> emacs -nw
+    #+end_example
+
+    TRUE
+
+    Feedback: ~R --version~ returns the program version that is
+    installed on your PC, while ~emacs -nw~ opens Emacs in the
+    terminal (without certain graphics capabilities), as long as
+    either programis in the ~PATH~.
+
+*** You can configure GNU Emacs using a "hidden" initial configuration file ~~/.emacs~
+
+    TRUE
+
+    Feedback: the dot (~.~) before the file name marks this file as
+    "hidden" in the sense that you normally need to tell the Operating
+    System that you wish to see these files, too (except under Linux,
+    of course, where users are not afraid of extra information).
+
+*** Which symbols mark Org-mode meta data?
+
+    Tip: Org-mode meta data include the document title, author
+    information, and different options for how to render the Org-mode file.
+
+    TRUE:
+    * ~#+~
+
+    FALSE:
+    * ~##~
+    * ~/* */~
+    * ~//~
+
+    Feedback: Examples are ~#+CAPTION:~ for an image caption,
+    ~#+TITLE:~, ~#+OPTION:~ and ~#+STARTUP:~. Check any of my Org-mode
+    files on GitHub to see these in action. ~##~ is Org-mode comment, ~/*
+    */~ and ~//~ are C programming comments.
+
+*** Font, font size and theme of a GNU Emacs buffer cannot be changed
+
+    FALSE
+
+    Feedback: To change the font size, use ~C-x C-=~. To change the
+    custom theme, enter ~M-x custom-themes RET~. For font setting
+    information, check the Emacs manual, or type ~C-h a font RET~
+    (~a~propos ~font~).
+
+*** Keybindings for Emacs functions can be changed
+
+    TRUE
+
+    Feedback: Emacs is fully customizable. You can, for example, switch
+    Emacs' kill/yank keys (~C-w~/~C-y~) to the keys for cut/copy/paste
+    that you're used to, by entering ~M-x cua-mode RET~ (toggles -
+    i.e. applying the function again returns to the default state).
+
+*** How can you abort or quit any command in GNU Emacs?
+
+    TRUE:
+    * ~C-g~
+
+    FALSE:
+    * ~q()~
+
+    Feedback: ~q()~ or ~quit()~ exits the R shell program, not Emacs.
+
+*** How can you see all Emacs buffers that are currently open?
+
+    TRUE:
+    * ~M-x list-buffers~
+    * ~C-x C-b~
+
+    FALSE:
+    * ~ListBuffers()~
+    * ~C-M-\~
+
+    Feedback: Each key sequence, like ~C-x C-b~, corresponds to a Lisp
+    function, in this case ~list-buffers~. To find the function
+    belonging to a key, type ~C-h k <key sequence>~. ~C-M-\~ is the
+    ~indent-region~ function. Check it yourself!
+
+*** How can you close all buffers except one?
+
+    TRUE:
+    * ~C-x 1~
+
+    FALSE:
+    * ~C-x 2~
+    * ~C-x 3~
+    * ~C-x 5 2~
+    * ~C-x 5 0~
+
+    Feedback: ~C-x 2~/~C-x 3~ opens another horizontal/vertical buffer
+    window. ~C-x 5 2~ creates another Emacs frame. ~C-x 5 0~ closes
+    the current frame.
+
+** Quiz 1: Course introduction and installation of R
+   This is the first weekly quiz. Time = 15 minutes, 10 points max.
+   After the first play, the quiz will be opened for unlimited play.
+   The quiz questions may be reused in the final exam.
+*** Bring the data science pipeline steps in the right order
+
+    1) Import data
+    2) Clean data
+    3) Understand data
+    4) Communicate insights
+
+*** One-fifth of published genetics papers have errors due to improper spreadsheet usage
+
+    TRUE
+
+    #+begin_quote
+    “Gene Name Errors Are Widespread in the Scientific Literature” by Mark
+    Ziemann, Yotam Eren, and Assam El-Osta, Genome Biol 17, 177
+    (2016). doi:10.1186/s13059-016-1044-7
+    #+end_quote
+
+*** What is the Tidyverse?
+
+    TRUE:
+    * A bundle of R packages
+
+    FALSE:
+    * A tidy universe of R
+    * An R package
+
+*** You cannot do data science just on the command line
+
+    FALSE
+
+    #+begin_quote
+    Yes, you can. I showed a recent (technical) book with that title.
+    #+end_quote
+
+*** What are regular expressions?
+
+    TRUE:
+    * Search pattern
+    * Sequence of characters
+
+    FALSE:
+    * Data structures | regex are just text, not separate data structures
+    * Variables | regex can be used to defined variables
+    * Programming language | No, though regex are used by languages like awk
+
+*** Which of these are interactive notebooks?
+
+    TRUE:
+    * GNU Emacs Org-mode
+    * Kaggle notebooks
+    * Google Colaboratory
+    * Jupyter notebooks
+
+*** You have to complete an EDA project in this course
+
+    FALSE
+
+    #+begin_quote
+    Unlike last term, your grade is not determined by a project. You can,
+    however, complete a project as extra credit if you like, or as an
+    honors project.
+    #+end_quote
+
+*** What is the right order for the R installation under Windows?
+
+    1) Download base R from CRAN
+    2) Check the ~checksum~ of the download
+    3) Run installer executable
+    4) Check ~PATH~ to R
+    5) Start R console program
+
+*** Which files are automatically created when you save the R workspace upon exiting?
+
+    TRUE:
+    * ~.Rhistory~ | All the R session commands you typed
+    * ~.RData~  | Binary data file to recreate last R session
+
+    FALSE:
+    * ~.Rprofile~ | This is a configuration file that you can create
+    * ~.Rplots~ | This is created if you created plots only
+
+*** What do you need to run R inside GNU Emacs?
+
+    TRUE:
+    * The ESS (Emacs Speaks Statistics) package
+
+    FALSE:
+    * Linux
+    * The latest version of R
+    * The latest version of Emacs
+
+** [[https://github.com/birkenkrahe/ds205/blob/main/assignments/org-mode/README.org][Org-mode assignment]]
+   * [X] PDF printed for distribution
+   * [X] GitHub folder (README)
+   * [X] file:~/Documents/GitHub/ds205/assignments/org-mode/README.org
+   * [X] Updated sheet (more header args)
+   * [X] [[https://github.com/birkenkrahe/ds205/blob/main/assignments/org-mode/MarcusBirkenkrahe.org][Sample solution in C]] (cc100 gh)
+** Email to Debjanee/Benjamin
+
+   Good evening -
+
+   I promised I'd write to you about GitHub. This is an assignment
+   that all the other students had to complete in one of my other
+   courses. Please do this as soon as you're able. The 3rd step will
+   become clear once you've completed the 2nd step.
+
+   1. [[https://github.com][Create a GitHub account]]
+   2. [[https://docs.github.com/en/get-started/quickstart/hello-world][Complete the GitHub Hello World exercise]]
+   3. [[https://github.com/birkenkrahe/ds205/issues][Submit an issue to the ~ds205~ GitHub repo to confirm completion.]]
+
+   Let me know if you encounter any problems. This shouldn't take more
+   than 20 minutes of your time. You can also bring any questions that
+   you may have with you to class!
+
+   Purpose of this exercise:
+   * Engage with the GitHub software development platform
+   * Understand how to submit issues (aka corrections, suggestions etc.)
+   * Understand how software developers work in the cloud using the Git
+     version control software
+
+   More information (esp. on what else to do if you wish) is [[https://github.com/birkenkrahe/org/blob/master/FAQ.org][in the
+   FAQ]]. Ask away if there are any issues or questions.
+
+   Cheers,
+   MB
+
+** Entry quiz DSC 205
+   [[https://drive.google.com/drive/folders/1gSCyDppoOFBMLXB1f_NGPVGMAeyKBQkK?usp=sharing][Drive screenshots (DataCamp practice)]]
+
+   Description:
+
+   Welcome to the first proper quiz of the season! Plenty of problems
+   are waiting for you. This entry quiz is mostly sourced from
+   DataCamp practice problems for the "Introduction to R" course. To
+   keep your skills fresh, download the mobile app and practice daily
+   for 5 min.
+
+   Achtung: If you did not complete DSC101, you must pass this quiz
+   with > 50% to join DSC 205.
+
+*** Which of the following data structures can contain multiple data types?
+
+    TRUE:
+    * Data frames and lists
+
+    FALSE:
+    * Matrices and lists
+    * Matrices and vectors
+    * Data frames and matrices
+
+    -----
+
+    In the code block, three variables are defined and then added to a
+    ~list~. The data frame ~df~ holds three different data types (can
+    you name them?).
+
+    #+name:list
+    #+begin_src R :exports both :session :results output
+      vec <- 1:6
+      mat <- matrix(1:6,nrow=2)
+      df <- data.frame(x="one",y=8,z=FALSE)
+
+      my_list <- list(vec,mat,df)
+      my_list
+    #+end_src
+
+    #+RESULTS: list
+    #+begin_example
+
+    [[1]]
+    [1] 1 2 3 4 5 6
+
+    [[2]]
+         [,1] [,2] [,3]
+    [1,]    1    3    5
+    [2,]    2    4    6
+
+    [[3]]
+        x y     z
+    1 one 8 FALSE
+    #+end_example
+
+*** Which function enables you to show the last observation of a data frame?
+
+    TRUE:
+    * ~tail()~
+
+    FALSE:
+    * ~head()~
+    * ~header~
+    * ~last()~
+
+    -----
+
+    Examples for ~utils::tail~ with the ~mtcars~ data set. To reset
+    the number of observations/rows shown, change the attribute
+    ~n~. Default: ~n=6~.
+
+    #+name:tail
+    #+begin_src R :exports both :session :results output
+      tail(mtcars,n=3)
+    #+end_src
+
+    #+RESULTS: tail
+    :                mpg cyl disp  hp drat   wt qsec vs am gear carb
+    : Ferrari Dino  19.7   6  145 175 3.62 2.77 15.5  0  1    5    6
+    : Maserati Bora 15.0   8  301 335 3.54 3.57 14.6  0  1    5    8
+    : Volvo 142E    21.4   4  121 109 4.11 2.78 18.6  1  1    4    2
+
+*** Factor: Complete the code to return the output
+
+    Code:
+    #+begin_example
+      my_factor <- factor(???)
+      my_factor
+    #+end_example
+    Output:
+    #+begin_example
+    : [1] Male   Female
+    : Levels: Female Male
+    #+end_example
+
+    TRUE:
+    * ~c("Male","Female")~
+
+    FALSE:
+    * ~matrix("Male","Female")~
+    * ~list("Male","Female")~
+    * ~c("Female","Male")~
+
+    -----
+    * There are nominal (unordered) and ordinal (unordered)
+      categorical data. Categorical data are best stored in ~factor~
+      vectors.
+    * The ~factor~ of a nominal variable assumes alphabetical order
+      unless an order is specified using the ~levels~ and ~ordered~
+      attributes.
+
+    #+name:nominal
+    #+begin_src R :exports both :session :results output
+      colors <- c("red","blue","green") # nominal categorical data
+      factor(colors) # levels are alphabetically ordered
+      colors[2]>colors[1] # 'b' comes before 'r'
+    #+end_src
+
+    #+RESULTS: nominal
+    :
+    : [1] red   blue  green
+    : Levels: blue green red
+    :
+    : [1] FALSE
+
+    To create a factor from naturally ordered data, set the attribute
+    ~ordered=TRUE~ and set the order explicitly using the ~levels~
+    (attribute) vector.
+
+    #+name:ordinal
+    #+begin_src R :exports both :session :results output
+      diff <- c("hard","medium","easy","medium") # nominal categorical data
+      factor(diff,
+             ordered=TRUE,
+             levels=c("easy","medium","hard")) # levels are explicitly ordered
+    #+end_src
+
+    #+RESULTS: ordinal
+    :
+    : [1] hard   medium easy   medium
+    : Levels: easy < medium < hard
+
+    In the example, ~my_factor~ is a nominal variable with two not
+    naturally ordered data, ~"Male"~ and ~"Female"~.
+
+    #+name:factor
+    #+begin_src R :exports both :session :results output
+      my_factor <- factor(c("Male","Female"))
+      my_factor
+    #+end_src
+
+    #+RESULTS: factor
+    :
+    : [1] Male   Female
+    : Levels: Female Male
+
+*** What is the output of this code?
+
+    #+begin_example
+      a <- "r"
+      a
+    #+end_example
+
+    TRUE:
+    * [1] "r"
+
+    FALSE
+    * [1] 1.2
+    * [1] 0
+    * r
+
+    -----
+    #+begin_src R :exports both :session :results output
+      a <- "r"
+      a
+    #+end_src
+
+    #+RESULTS:
+    :
+    : [1] "r"
+
+*** Subset: Complete the code to return the output
+
+    Code:
+    #+begin_example
+      name <- c("Python","R","SQL")
+      type <- c("Practice","Project","Lecture")
+      number <- c(100,430,200)
+      courses_df <- data.frame(name,type,number)
+      subset(courses_df,number < ???)
+    #+end_example
+
+    Output:
+    #+begin_example
+    :     name     type number
+    : 1 Python Practice    100
+    #+end_example
+
+    TRUE:
+    * 200
+
+    FALSE:
+    * 100
+    * number
+    * col=3
+
+    -----
+
+    #+name:subset
+    #+begin_src R :exports both :session :results output
+      name <- c("Python","R","SQL")
+      type <- c("Practice","Project","Lecture")
+      number <- c(100,430,200)
+      courses_df <- data.frame(name,type,number)
+      subset(courses_df,number < 200)
+    #+end_src
+
+    #+RESULTS: subset
+    :
+    :     name     type number
+    : 1 Python Practice    100
+
+*** Vectorisation: What would be the output of the last command?
+
+    #+begin_src R :exports both :session :results output
+      x <- c(1,2,3,4)
+      y <- c(5,6,7)
+      x*y
+    #+end_src
+
+    TRUE:
+    * Warning: unequal vector length
+    * 5 12 21 20
+
+    FALSE:
+    * 5 12 21
+    * 5 12 21 28
+
+      -----
+    #+name:vectorization
+    #+begin_src R :exports both :session :results output
+      x <- c(1,2,3,4)
+      y <- c(5,6,7)
+      x*y
+    #+end_src
+
+    #+RESULTS: vectorization
+    :
+    : [1]  5 12 21 20
+    : Warning message:
+    : In x * y : longer object length is not a multiple of shorter object length
+
+*** Which function is used to give names to elements of a vector?
+
+    TRUE:
+    * ~names()~
+
+    FALSE:
+    * ~vector()~
+    * ~list()~
+    * ~help()~
+
+    -----
+
+    #+name:names
+    #+begin_src R :exports both :session :results output
+      vec <- 1:5
+      names(vec) <- letters[1:5]
+      vec
+    #+end_src
+
+    #+RESULTS: names
+    :
+    : a b c d e
+    : 1 2 3 4 5
+
+*** Which function is used to extract or replace parts from a vector?
+
+    TRUE:
+    * ~[]~
+
+    FALSE:
+    * ~sub()~
+    * ~str()~
+    * ~filter()~
+
+*** Complete the code to return the output
+
+    Code:
+    #+begin_example
+      nums <- list(
+          p =c(2,4,6),
+          q = c(16,17,18),
+          r = c(25,30,35))
+      nums [[???]][2]
+    #+end_example
+
+    Output:
+    #+begin_example
+    [1] 30
+    #+end_example
+
+    TRUE:
+    * ~3~
+
+    FALSE:
+    * ~2~
+    * ~1~
+    * ~0~
+
+    -----
+    #+name:indexing
+    #+begin_src R :exports both :session :results output
+      nums <- list(
+          p =c(2,4,6),
+          q = c(16,17,18),
+          r = c(25,30,35))
+      nums [[3]][2]
+    #+end_src
+
+    #+RESULTS: indexing
+    :
+    : [1] 30
+
+*** Complete the code to return the output
+
+    Code:
+    #+begin_example
+      temp <- data.frame(jan=39)
+      ???(temp,sep=57)
+    #+end_example
+
+    Output:
+    #+begin_example
+    : $jan
+    : [1] 39
+    :
+    : $sep
+    : [1] 57
+    #+end_example
+
+    TRUE:
+    * c
+
+    FALSE:
+    * append
+    * concat
+    * combine
+
+    -----
+
+    #+name:c
+    #+begin_src R :exports both :session :results output
+      temp <- data.frame(jan=39)
+      c(temp,sep=57)
+    #+end_src
+
+    #+RESULTS: c
+    :
+    : $jan
+    : [1] 39
+    :
+    : $sep
+    : [1] 57
+
+** Prerequisites
+*** To the new students
+    Dear students!
+
+    You enrolled in DSC 205, "Introduction to Advanced Data
+    Science". The course assumes some basic knowledge of data science,
+    and of the statistical programming language R.
+
+    As a prerequisite, you need to work on your own through two online
+    courses on the DataCamp platform, "Datascience for everyone" and
+    "Introduction to R".
+
+    These course are self-paced, and they're quite fun. They consist of
+    short lessons with practical exercises - each lesson takes between
+    20-30 minutes.
+
+    #+attr_html: :width 500px
+    [[./img/prereq.png]]
+
+    To be able to do this, you need to register at datacamp *with your
+    Lyon email* [[https://www.datacamp.com/groups/shared_links/fdce691a298232cdffec5ba07b5b93552f2443832c5c941799bb408d21e482b5][using this link]]. Please do this ASAP so that I can see
+    that you're enrolled in the course[fn:1].
+
+    Once enrolled, you've got until our first session on *Wednesday,
+    January 12, 3 PM* to complete all lessons.
+
+    Please let me know if you have any questions or if you run into any
+    issues (and don't wait until the last minute)[fn:2].
+
+    Cheers, and merry Christmas,
+    Marcus Birkenkrahe
+
+    [[./img/running.gif]]
+
+*** To the old students
+
+    Good evening -
+
+    For your information: I created some assignments for those
+    participants of DSC 205, who did not complete DSC 101. You might
+    still like to take a look at "Datascience for
+    Everyone". Especially the last chapter of that course will be new
+    to you.
+
+    There will be an entry quiz in Schoology shortly before the start
+    of the course, which I am sure you'll have no trouble passing with
+    flying colors!
+
+    Cheers and see you in 2022 - Marcus Birkenkrahe
+
+** Entry quiz Google Forms (Jan 5, 2021)
+** Stuff
+*** NEXT [[https://www.covidchartsquiz.com/state-vs-state][Covid Charts Quiz]]
+*** [[https://youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN][Statistical Rethinking by Richard McElreath]] (playlist)
+*** [[https://blog.ephorie.de/learning-r-the-ultimate-introduction-incl-machine-learning][Learning R: The Ultimate Introduction (incl. Machine Learning!)]] (vonjd)
+*** READ [[https://www.datacamp.com/community/blog/an-interview-with-ron-pearson-author-of-data-visualization-in-r?irclickid=SZQ28rw6axyITTSRPCW%3AZSHZUkG1FxUcKVGhxo0&irgwc=1][An Interview With Ron Pearson, author of Data Visualization in R (Dec 20, 2016)]]
+
+    * Video (18 min, DataCamp 2016)
+    * Mentions the [[https://cran.r-project.org/package=partykit][~partykit~ package]]for "representing, summarizing,
+      and visualizing tree-structured regression and classification
+      models".
+    * To cite a package, use ~citation(package="[NAME]")~ (OPIG, 2013).
+    * Max Kuhn directs the "[[https://www.tidymodels.org/][tidymodels]]" group at RStudio. He gave a
+      conference talk at rstudio::global 2021 (Kuhn, 2021). There is
+      also bookdown book (Kuhn/Silge, 2021), and another book on
+      predictive models (Kuhn/Johnson, 2019). This last book contains a
+      useful quote:
+      #+begin_quote
+      "Exploratory visualizations of the data are crucial for
+      understanding relationships among predictors and between
+      predictors and the response, especially for high-dimensional
+      data. In addition, visualizations can be used to assist in
+      understanding the nature of individual predictors including
+      predictors’ skewness and missing data patterns."
+      (Kuhn/Johnson 2019)
+      #+end_quote
+
+    * "How does modeling fit into the data analysis process?"
+      (Kuhn/Silge, 2019 ch. 1.3) - internal thought workflow (table)
+
+    * [[https://www.tmwr.org/tidyverse.html][A tidyverse primer]] (Kuhn/Silge, 2021).
+    * R for Data Science (Grolemund/Wickham, 2017):
+      - [[https://www.amazon.com/R-Data-Science-Hadley-Wickham/dp/1491910399/ref=as_li_ss_tl?ie=UTF8&qid=1469550189&sr=8-1&keywords=R+for+data+science&linkCode=sl1&tag=devtools-20&linkId=6fe0069f9605cf847ed96c191f4e84dd][Print copy (paperback) from Amazon]]
+      - [[https://bookdown.org/roy_schumacher/r4ds/][Free online "bookdown"]]
+      - [[https://r4ds.had.co.nz/introduction.html][Free "evolving" online version]] (2020)
+
+    * [[https://jrnold.github.io/r4ds-exercise-solutions/][R4DS Textbook solutions]]
+
+    * Tidyverse "unifying principles"
+
+*** TODO [[http://dirk.eddelbuettel.com/blog/2021/12/08/#034_less_is_more][Less is more]] / [[https://github.com/Zeughaus/simplermarkdown][Simplermarkdown]]
+*** [[https://www.economist.com/graphic-detail/2021/11/26/who-will-win-the-world-chess-championship][Who will win the world chess championship?]]
+
+    * The heatmap shows the frequency at which moves were made to
+      certain squares of the board for two contenders over many games
+      (not between these two).
+    * Question: how meaningful is this pattern for the question at
+      hand?
+
+      #+attr_html: :width 500px
+      [[./img/chess.png]]
+
+*** [[https://www.economist.com/graphic-detail/coronavirus-excess-deaths-estimates][The pandemic’s true death toll]]
+
+    * Estimated global excess deaths with 95% confidence interval vs. official global covid-19 deaths
+
+      #+attr_html: :width 500px
+      [[./img/covid.png]]
+
+    * Excess death
+
+    #+begin_quote
+    Excess death: "The gap between how many people died in a given region
+    during a given time period, regardless of cause, and how many deaths
+    would have been expected if a particular circumstance (such as a
+    natural disaster or disease outbreak) had not occurred."
+    #+end_quote
+
+    This means that 12.6 mio excess deaths can be attributed to deaths
+    not directly related to covid.
+
+    * Confidence intervals
+
+    #+begin_quote
+    Confidence interval: "Range of values that describes the
+    uncertainty surrounding an estimate. [...] It is itself an
+    estimate. The '90%' in the confidence interval represents a level
+    of certainty about our estimate. If we were to repeatedly make new
+    estimates using exactly the same procedure (by drawing a new
+    sample, conducting new interviews, calculating new estimates and
+    new confidence intervals), the confidence intervals would contain
+    the average of all estimates 90% of the time. We have therefore
+    produced a single estimate in a way that, if repeated indefinitely,
+    would result in 90% of the confidence intervals formed containing
+    the true value." ([[https://www.census.gov/programs-surveys/saipe/guidance/confidence-intervals.html][Source]])
+    #+end_quote
+
+*** [[https://www.mpg.de/17840610/1112-nepf-artificial-intelligence-predicts-eye-movements-149575-x][Artificial intelligence predicts eye movements]]
+    Scientists develop a software that can be used in combination with
+    MRI data for research and diagnosis
+
+    NOVEMBER 12, 2021 Artificial intelligence Brain Cognitive Research
+    Medicine Viewing behavior provides a window into many central
+    aspects of human cognition and health, and it is an important
+    variable in many functional magnetic resonance imaging (fMRI)
+    studies. Researchers from the Max Planck Institute for Human
+    Cognitive and Brain Sciences in Leipzig and the Kavli Institute for
+    Systems Neuroscience in Trondheim have now developed software that
+    uses artificial intelligence to directly predict eye position and
+    eye movements from MRI images. The method opens up rapid and
+    cost-effective research and diagnostic possibilities, for example,
+    in neurological diseases that often manifest as changes in
+    eye-movement patterns.
+
+    [[https://github.com/DeepMReye/DeepMReye/][GitHub source DeepMReye]]
+
+*** Noether networks
+
+    * [[https://dylandoblar.github.io/noether-networks/][Noether Networks: meta-learning useful conserved quantities]]
+
+*** [[https://content.dataiku.com/dataiku10?utm_campaign=CONTENT+Dataiku+10+Nov+2021][Daitaku demo]] (15 min)
+*** TinyML
+
+    * Forbes article Nov 8, 2021
+    * [[https://courses.edx.org/dashboard/programs/f7868191-7d7f-4292-b117-64549f1f483a/][MOOC (EdX) TinyML Fundamentals]] ([[https://youtu.be/BLqa7LGD_cQ][Intro video]])
+    * Intro to TinyML Part 1: Training a Neural Network for Arduino in
+      TensorFlow | Digi-Key Electronics ([[https://youtu.be/BzzqYNYOcWc][video, 11 min]])
+
+*** [[https://youtu.be/1YOrd7NCGkg][First steps with Emacs]]
+
+    * 7 min video with slides
+    * Excellent advice - includes ESS (needed for stats)
+
+*** [[https://www.youtube.com/watch?v=lYWt-aCnE2U&list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG&index=2][Cassie Cozyrkov Google ML course]]
+
+    * Introduction to ML - [[https://bit.ly/mfml_part1][bit.ly/mfml_part1]]
+    * Life of a Machine Learning Project - [[https://bit.ly/mfml_part2][bit.ly/mfml_part2]]
+    * AI from Prototype and Production - [[https://bit.ly/mfml_part3][bit.ly/mfml_part3]]
+    * Opening the Black Box - [[https://bit.ly/mfml_part4][bit.ly/mfml_part4]]
+
+*** [[https://ropensci.org/blog/2021/11/16/how-to-cite-r-and-r-packages/][Cite R and R packages]]
+*** [[https://linear.axler.net/LADRvideos.html][Linear algebra done right (videos)]]
+*** [[https://atrebas.github.io/post/2019-03-03-datatable-dplyr/][A data.table and dplyr tour (2019)]]
+*** [[https://rkabacoff.github.io/datavis/][Dataviz with ~ggplot2~ (Kabacoff)]]
+
+    * This is a good book, very systematic, free
+    * Unfortunately, it only uses ~ggplot2~
+
+* CSC 330 Database theory and applications
+** TODO Quiz 3
+   DEADLINE: <2022-02-01 Tue 12:00>
+** DONE Class assignment: Run SQLite in Emacs
+   DEADLINE: <2022-01-27 Thu 13:00>
+
+   CREATE AND RUN AN SQLITE CODE BLOCK INSIDE EMACS
+
+   Extra credit, if you get this assignment done by *Thursday, 27 Jan,
+   03:00 PM*. For those, who don't: we'll do this together in class.
+
+   NOTE: The following instructions will only work if (1) you have
+   installed SQLite3 and Emacs ([[https://github.com/birkenkrahe/org/blob/master/FAQ.org][see FAQ]]) on your PC, (2) if you have
+   set the ~$PATH~ for the program ~sqlite3.exe~ so that Emacs can
+   find it, and (3) if you have put the ~.emacs~ configuration file
+   into your ~$HOME~ directory (~/).
+
+   * Open Emacs (from your desktop)
+   * Create a file ~sqlite.org~ (C-x C-f)
+   * Get the content of the Org file [[https://raw.githubusercontent.com/birkenkrahe/db330/main/assignments/sqlite.org][from GitHub here]][fn:3] and put it
+     into the file. Save the file.
+   * In ~sqlite.org~, go with the cursor into the first code block
+     (named ~create db~) and enter ~C-c C-c~ to execute the block.
+   * Move with the cursor to the next code block (named ~check db~)
+     and enter ~C-c C-c~ to execute the block.
+   * You should now see output in the file that looks like this:
+     #+begin_example
+     #+RESULTS: check db
+     : main: c:\Users\...\sqlite.db r/w
+     #+end_example
+   * Save the file, and make a screenshot of the file as it is ([[https://github.com/birkenkrahe/db330/blob/main/assignments/img/sqlite.png][see my
+     sample solution here]]).
+   * Post the screenshot as a ~New issue~ in the ~birkenkrahe/db330~
+     GitHub repository.
+
+** IN PROGRESS db DataCamp assignment
+   DEADLINE: <2022-02-01 Tue 13:00>
+
+   #+begin_quote
+   We'll pick up on past assignments in class - short review including
+   questions for the audience (you!)  Completing this assignment on
+   time gets you 10 points (100%).  Late completion (after the due
+   date): 5 points (50%).
+   #+end_quote
+
+   * [X] [[https://campus.datacamp.com/courses/cloud-computing-for-everyone/introduction-to-cloud-computing?ex=1][Cloud Computing: introduction to cloud computing]]
+   * [ ] [[https://campus.datacamp.com/courses/cloud-computing-for-everyone/cloud-deployment?ex=1][Cloud Computing: Cloud deployment]]
+   * [ ] Cloud Computing: introduction
+
+** Quiz 2: DB foundations and Emacs
+
+*** Update notice
+
+    #+begin_quote
+    Quiz 2 (10 questions) is now available to you. Try to complete it
+    before class tomorrow (1 PM). Takes no more than 5-10
+    minutes. Cheers!
+    #+end_quote
+
+*** Settings text
+
+    #+begin_quote
+    This is the second quiz of the term. It addresses last week's class
+    contents (see recording/whiteboard in GDrive, or ~notes.org~ in
+    GitHub). Feedback is provided where useful and applicable.
+
+    This quiz is not graded. You can play it once before the next
+    class. You can play it unlimited times thereafter. The most
+    difficult questions may reappear in the final exam.
+    #+end_quote
+
+*** Match the Emacs keyboard shortcut and the action
+
+    | Up one line       | C-p |
+    | Down one line     | C-n |
+    | Forward one char  | C-f |
+    | Backward one char | C-b |
+    | Beginning of line | C-a |
+    | End of line       | C-e |
+    | Top of buffer     | C-< |
+    | Bottom of buffer  | C-> |
+
+    Feedback: To find out what a key stroke does, type ~C-h k~
+    followed by the key stroke, and you get the help for the function
+    that the key stroke is bound to.
+
+*** What can you do in the Emacs minibuffer?
+
+    The minibuffer (at the bottom of the Emacs window) is also called
+    the "echo area".
+
+    TRUE:
+    * Display of error messages (e.g. ~C-x C-y is undefined~)
+    * Echoing of key strokes (e.g. ~C-x d~)
+    * Entering input (e.g. directory name)
+    * Display of state messages (e.g. "Use +,-,0 for font adjustment")
+
+    FALSE:
+    * Percentage of file displayed (e.g. ~55%~)
+    * Line number of the cursor (e.g. ~(198)~)
+    * Save state (e.g. ~**-~ for "not saved")
+    * File mode (e.g. ~Org~, or ~C~)
+
+    Feedback: Percentage, line numbers, save state, and file mode are
+    shown in the modeline above the echo area.
+
+*** Emacs has a Unix-style file-management system
+
+    TRUE
+
+    Feedback: You can see this with the command ~C-x d~ ("dired"),
+    which gives the folder information like in Unix or Linux. Also,
+    all commands to move the cursor, kill, copy or paste, are Linux
+    commands. Finally, Emacs contains a complete shell (try ~M-x
+    eshell~).
+
+*** How can you close the GNU Emacs window?
+
+    TRUE:
+    * Close the buffer window (with the mouse)
+    * ~C-x C-c~ (exit)
+    * ~C-x z~ (suspend)
+
+    FALSE:
+    * ~C-g~ (abort)
+    * ~C-k~ (kill)
+
+    Feedback: Exiting Emacs and closing the window (if there is only
+    one Emacs frame) end the Emacs process. Suspending keeps the
+    process alive. To continue editing, you must bring it back into
+    the foreground (in a Linux terminal: "fg"). ~C-g~ quits only the
+    last Emacs command, and ~C-k~ deletes from the cursor to the end
+    of the line and copies the content to the kill ring for later
+    yanking/pasting.
+
+*** Which system-wide variable contains the location where the computer searches for executable programs?
+
+    TRUE:
+    * ~PATH~
+
+    FALSE:
+    * ~HappyPath~
+    * ~HOME~
+    * ~~/~
+
+    Feedback: "HappyPath" is a lame in-joke for participants of my
+    data modeling course (Fall 2021). ~HOME~ contains the default or
+    home directory, and ~~/~ is the Linux or Emacs location for ~HOME~
+    (to see this, type ~M-x eshell RET~ and at the prompt, type ~echo
+    HOME RET~, and ~echo ~/~.
+
+*** ~C-x C-f~ finds a file in Emacs
+
+    TRUE
+
+    Feedback: to see what this keystroke really does, type ~C-h k C-x
+    C-f~. This opens the Emacs help for ~find-file~.
+
+*** You can recover files later when leaving Emacs without saving them
+
+    TRUE
+
+    Feedback: you can check the definition of this Lisp function by
+    typing ~C-h f recover-file~. In dired (~C-x d~), recoverable files
+    have a ~#~ character before and after the file name.
+
+*** What are the properties of SQL?
+
+    TRUE:
+    * DDL (data definition)
+    * DML (data manipulation)
+    * DQL (data querying)
+    * DCL (data control)
+
+    FALSE:
+    * DRL (data relations)
+    * DKL (data knowledge)
+    * DFL (data files)
+
+*** Match database architecture layer and example application
+
+    | External layer           | Table with customer information            |
+    | Conceptual/Logical layer | Customer name, phone, address etc.         |
+    | Internal layer           | Database servers with customer information |
+
+*** Which information does the database dictionary contain?
+
+    TRUE:
+    * Meta data tables
+
+    FALSE:
+    * Dictionary information
+    * Technical terminology
+    * Glossary definitions
+
+** Quiz 1: Introduction to the course and to databases
+
+   This is the first weekly quiz. Time = 5 minutes, 10 points max.
+
+*** Literate programs contain documentation + code + output
+
+    TRUE
+
+    #+begin_quote
+    There is more to literate programming, but this is what you should
+    remember. Programming in this way, e.g. by using interactive
+    notebooks, directly helps you develop your computer and data literacy.
+    #+end_quote
+
+*** Match GitHub action and definition
+
+    | ACTION            | MEANING                                    |
+    |-------------------+--------------------------------------------|
+    | Create repository | Place for your code                        |
+    | Create branch     | Create a modified copy of a main repo      |
+    | Open pull request | Request for changes of main repo           |
+    | Merge branch      | After review, merge changes into main repo |
+    | Submit issue      | Make a comment on a repository             |
+    | Commit change     | Make change permanent                      |
+
+*** How will this course be graded?
+
+    TRUE:
+    * Class assignments: 10%
+    * Weekly quizzes: 10%
+    * Monthly tests: 30%
+    * DataCamp assignments: 30%
+    * Final exam: 20%
+
+    FALSE:
+    * Attendance: 10%
+    * Group project: 20%
+    * Essay: 20%
+    * Mid term exam: 30%
+    * Presentation: 20%
+
+*** What will you learn in this course?
+
+    TRUE:
+    * Learn relational database query languages
+    * Learn how to use and program the shell
+    * Learn how to design database applications
+
+    FALSE:
+    * Learn how to hack your way into databases
+    * Learn how to make predictions from public datasets
+    * Learn how databases relate to machine learning
+
+*** What's GitHub?
+
+    TRUE:
+    * Platform for software developers
+    * Owned by Microsoft
+    * Ca. 77 mio users + 200 mio software projects
+
+
+    FALSE:
+    * Version control program | Git is the version control software,
+      which runs on GitHub
+    * Created by Linus Torvalds | Torvalds wrote Git, not GitHub
+    * Ca. 7 mio users + 20 mio software projects | You're off by a
+      factor 10
+
+    #+begin_quote
+    GitHub is a cloud platform for developers - there are many other
+    platforms like that, all using the free, open source software Git, but
+    GitHub is probably the largest.
+    #+end_quote
+
+*** How does MooCall sensor operate?
+
+    Bring the following processes in the right order.
+
+    1) Edge computing: data are generated and pre-processed locally
+    2) Cloud computing: data are processed globally to generate a signal
+    3) Local computing: signal is transmitted to the user
+
+*** What's a database system?
+
+    TRUE:
+    * Database management system + database
+
+    FALSE:
+    * Database + user application
+    * File system + database application
+
+    #+begin_quote
+    The database management system (DBMS) sits between the user
+    application and the data storage. Data management based on a file
+    system predates the development of DBMS software.
+    #+end_quote
+
+*** A database is defined within a specific business process or problem setting
+
+    TRUE
+
+    #+begin_quote
+    Data themselves are independent of their use - they simply come from
+    the real world. A database is a rational, systematic attempt to store
+    the data, and reflects a specific purpose - beginning with the type of
+    data to be stored (e.g. text data, numerical data, video data etc.)
+    #+end_quote
+
+*** Which data items should be stored in the database?
+
+    As an example scenario, assume the "MooCall" sensor application,
+    which we looked at and discussed in class, to support cow calving.
+
+    We're looking for entities that make sense for a MooCall database
+    given its purpose.
+
+    TRUE:
+    * Cow ID
+    * Cow temperature
+    * Cow location and motion data
+    * Farmer's phone number
+    * Farmer's user ID and password
+
+    FALSE:
+    * Size of cow pasture
+    * Cow weight
+    * Cow height
+
+    #+begin_quote
+    ID, temperature, and geo data, are all locally obtained through
+    the sensor. User data are necessary for the signal submission (via
+    SMS). Pasture size, weight and height of the cow may be relevant
+    for some other setting but they cannot be obtained through the
+    sensor and either not directly relevant to calving (pasture size),
+    or not volatile enough (they change too slowly for the setting of
+    interest).
+    #+end_quote
+
+*** What's part of the 3V definition of Big Data?
+
+    TRUE:
+    * Data volume
+    * Data variety
+    * Data velocity
+
+    FALSE:
+    * Data value
+    * Data veracity
+
+    #+begin_quote
+    Data "value" and "veracity" are often mentioned as part of a "5V"
+    definition of big data. As discussed, they are too volatile, and not
+    directly measurable, and therefore less useful for a definition.
+    #+end_quote
+
+** The missing 10 min at the end of today's session:
+
+   Interactive script vs. interactive notebook (literate programming
+   demo)
+
+   I created this short screencast as a demonstration of "interactive
+   script" vs. "interactive notebook" (aka Literate Programming). I
+   used GNU Emacs, a remote shell to a Linux Box, and an Org-mode file
+   mixing documentation + code + output.
+
+   While the language used in the example is SQLite, there is no
+   conceptual difference to bash (the shell scripting language
+   relevant for operating systems).
+
+   [[https://youtu.be/8HJGz3IYoHI][Here is the YouTube link]]. Have a listen, and learn. Added this to
+   the growing YouTube playlist for this course (linked in Schoology)
+   where I put videos of interest.
+
+** GitHub Hello World Assignment (13 Jan 1PM)
+*** Instructions
+    1. [[https://github.com/][Create a GitHub account]] (ideally, your username should be
+       "FirstnameLastname")
+    2. +Send email to birkenkrahe@lyon.edu with GitHub name and course ID(s)+
+    3. Complete the [[https://docs.github.com/en/get-started/quickstart/hello-world][GitHub Hello World exercise]]
+    4. [[https://github.com/birkenkrahe/db330/issues][Submit an issue to the db330 repo]] confrming that you completed
+       the exercise.
+
+    If you are in more than one of my courses, you only have to do
+    (3) once, but you still need to complete the other steps to
+    complete the assignment.
+
+    Any questions, contact me directly outside or in class, or leave a
+    comment here.
+
+*** Submissions
+
+    | NAME           | GITHUB     | ISSUE SUBMITTED |
+    |----------------+------------+-----------------|
+    | Spencer Rhoden | SRhoden42  |                 |
+    | Thien-Kim Ho   | thk14      |                 |
+    | Hunter Perkins | vtdubz     |                 |
+    | Hakeem Yatim   | lyonhakeem |                 |
+    | Emma Brandes   | EmmaBrandes |                 |
+
+** First meeting 11 Jan 1PM
+
+   We will meet online for our first session:
+
+   CSC 330 (DB)
+   Tuesday, January 11 · 1:00 – 2:15pm
+   Google Meet joining info
+   Video call link: https://meet.google.com/tsr-qteh-hoh
+   Or dial: ‪(US) +1 260-216-5549‬ PIN: ‪935 405 734‬#
+
+   On the agenda:
+
+   * Introduction to the course & to the lecturer
+   * Access to the course materials on GitHub
+   * Course syllabus - content/grading/schedule
+   * Homework assignments: GNU Emacs/GitHub Hello World
+
+   Your (virtual) attendance is mandatory. Masks will not be required:
+   a great opportunity to see everyone face to face! If you find the
+   time, please fill in the readiness survey on Google Forms.
+
+   #+attr_html: :width 300px
+   [[./img/welcomeback.gif]]
+
+   The regular room for this course is in the Lyon Building room 104.
+
+** Entry quiz Google Forms (Jan 9, 2021)
+*** Text
+    Please answer a few questions to help me prepare the database class
+    for the spring '22 term. Takes 5 min only. Link to the form:
+    https://forms.gle/EhHFQULSoyfeYuv2A
+
+    If you need motivation to do this: responding to his survey will
+    get you extra credit points before the course has even started!
+
+    Send me an email (birkenkrahe@lyon.edu) if you have special wishes
+    or just want to say hi! I'm looking forward to meeting you (again)!
+
+    Cheers,
+    Marcus Birkenkrahe
+
+    PS. At the end of the survey you find a short video on the history
+    of databases. Check it out!
+
+** Stuff
+*** [[https://www.freecodecamp.org/news/learn-nosql-in-3-hours/][FreeCodeCamp: NoSQL in 3 hours]]
+* CSC 420 Operating systems
+** TODO Quiz 3
+   DEADLINE: <2022-02-01 Tue 08:30>
+** DONE Class assignment: hello world shell program in Emacs
+   DEADLINE: <2022-01-27 Thu 09:30>
+
+   CREATE AND RUN A HELLO WORLD SHELL PROGRAM IN EMACS
+
+   Extra credit, if you get this assignment done by *Thursday, 27 Jan,
+   09:30 AM*. For those, who don't: we'll do this together in class.
+
+   * Open the Windows CMD prompt (terminal)
+   * Open a terminal emacs with ~> emacs -nw -q~
+   * Create (and save) a file ~hello.sh~. It only has two lines*:
+   #+begin_example
+   #!c:/Windows/system32/bash.exe
+   echo hello world
+   #+end_example
+   * Open a shell inside Emacs with: ~M-x eshell RET~
+   * At the shell prompt, run the program: ~$ ./hello.sh~
+   * Split the buffers up as shown in [[https://github.com/birkenkrahe/os420/blob/main/img/helloworld.png][my sample solution]] to show both
+     the program *hello.sh*, the output (in the *eshell* buffer, and
+     your name in another *shell* window (open it with ~M-x shell
+     RET~).
+   * Post the screenshot as an issue in the ~os420~ GitHub repository.
+
+   Remember: it'll help you do go through the Emacs Tutorial (~C-h t~)
+   to learn Emacs. It's best to do this with the terminal Emacs so
+   that you're not tempted to use the mouse (it doesn't work there).
+
+   *) Troubleshooting: If the program does not run, it is possible
+   that your bash.exe file is in another location. You can try to
+   located it inside the eshell with the command ~$ which bash~.
+
+** IN PROGRESS DataCamp assignments
+   DEADLINE: <2022-02-01 Tue 09:30>
+
+   * [ ] Intro to Shell: manipulating files and directories
+   * [ ] Intro to Shell: manipulating data
+   * [ ] Intro to Shell: combining tools
+   * [ ] Intro to Shell: Batch processing
+   * [ ] Intro to Shell: Creating new tools
+
+** Quiz 2: OS mgmt tasks, Linux, getting started with Emacs
+*** Update notice
+
+    #+begin_quote
+    Quiz 2 (10 questions) is now available to you. Try to complete it
+    before class tomorrow (09.30 AM). Takes no more than 5-10
+    minutes. Cheers!
+    #+end_quote
+
+*** Settings text
+
+    #+begin_quote
+    This is the second quiz of the term. It addresses last week's
+    issues - OS mgmt tasks, getting Linux under Windows, and getting
+    started with GNU Emacs. Feedback is provided where useful and
+    applicable.
+
+    This quiz is not graded. You can play it once before the next
+    class. You can play it unlimited times thereafter. The most
+    difficult questions may reappear in the final exam.
+    #+end_quote
+
+*** Emacs commands generally involve the CONTROL or the META key
+
+    TRUE
+
+    Feedback: On most keyboards, ~C-x~ stands for CTRL + x, and ~M-x~
+    ("Meta-x") stands for ALT + x (on MacOS: OPTION + x). There are
+    other commands, like ~C-g~ to abort or ~C-u~ to enter arguments.
+
+*** Which information is given in the GNU Emacs modeline?
+
+    TRUE:
+    * Buffer number
+    * Buffer saved or not saved
+    * File name
+    * Percentage of file displayed
+    * Line number of the cursor
+    * File mode (e.g. ~Org~, or ~C~)
+
+
+*** What does the symbol ~~/~ in the Emacs minibuffer/echo area stand for?
+
+    TRUE:
+    * Your ~HOME~ directory (on Windows ~c:/Users/YourName/~)
+    * The Emacs ~default-directory~
+
+    FALSE:
+    * On Windows: the C: drive
+    * On MacOS: ~/usr/local/bin~
+
+    Feedback: Check the value of ~default-directory~ in Emacs with the
+    key sequence ~C-h v default-directory RET~. As a default
+    ~/usr/local/bin~ contains local executables only (borrowed from
+    Unix).
+
+*** In Emacs, I can switch line number display in a buffer on or off
+
+    TRUE
+
+    Feedback: Try ~M-x global-display-line-numbers-mode RET~ (toggles,
+    which means that applying the function again returns you to the
+    default).
+
+*** How can I get additional functions in Linux?
+
+    TRUE:
+    * By adding them with a package manager (like ~apt~ for
+      Debian-type systems)
+
+    FALSE:
+    * By downloading them from the Google Play store
+    * By downloading them from the Microsoft App Store
+    * By downloading them from the Apple store
+
+    Feedback: GNU Emacs uses the same approach. In Emacs, you can see
+    the available packages with the command ~M-x package-list-packages
+    RET~.
+
+*** In Linux (and MacOS), the ~sudo~ command gives you administrative super-user privileges
+
+    TRUE
+
+    Feedback: this is equivalent to "kernel mode", or mode-bit 0, as
+    opposed to the normal user mode, or mode-bit 1. Super-user
+    privileges enable you to execute system-wide commands and alter
+    the OS, even delete it altogether.
+
+*** How can you get Linux functions (like ~ps~, ~ls~) on your Windows PC
+
+    TRUE:
+    * Install the ~cygwin~ bundle
+    * Install Ubuntu App from the Microsoft Store
+    * Install Linux in a VirtualBox
+    * Dual boot with Linux and Windows
+    * ~ssh~ to a Linux box
+
+    Feedback: you've seen the tunneling to the Raspberry Pi Linux box
+    with ~ssh~ online and in a demo video.
+
+*** What is "booting"?
+
+    Bring the steps in the right order
+
+    1) The OS kernel program is loaded into memory
+    2) The BIOS is executed to establish basic I/O
+    3) The system daemon (~systemd~ on Linux) starts other daemons and
+       services
+
+*** What are the OS management tasks?
+
+    TRUE:
+    * Process management
+    * Memory management
+    * File-system management
+    * Network management
+    * Mass-storage management
+
+    FALSE:
+    * Database management
+    * Firmware updates
+    * Monitor settings
+
+    Feedback: Databases, firmware and monitor are not part of the
+    OS. Database management systems are applications, firmware is
+    middleware, and a monitor is a peripheral, outside of the
+    computer.
+
+*** How does the OS prevent infinite loops or process resource hogging?
+
+    TRUE:
+    * With a timer set to interrupt the computer
+
+    FALSE:
+    * By checking in with each process to see if it is finished ("pooling")
+    * By batch processing (multiprogramming)
+    * By multitasking (time sharing)
+
+    Feedback: the OS does not pool, it handles processes with
+    interrupts instead. Batch processing refers to the system used to
+    work on many jobs sequentially. Multitasking is the illusion
+    provided by the fact that the CPU switches its jobs very fast.
+
+** Quiz 1: Introduction to the course and to operating systems
+
+   This is the first weekly quiz. Time = 5 minutes, 10 points max.
+
+*** Git is an operating system
+
+    FALSE
+
+    #+begin_quote
+    Git is a version control system/software/program. An OS is a
+    system that interfaces between the computer hardware and
+    applications, and enables you to use the computer at all.
+    #+end_quote
+
+*** What can you do in GitHub?
+
+    TRUE:
+    * Control software versions using Git
+    * Submit issues to code repositories
+    * Discuss with collaborators
+    * Edit Markdown files
+
+    FALSE:
+    * Take programming courses
+
+    #+begin_quote
+    GitHub classroom is a platform created by GitHub to teach
+    programming courses, but that's a different application from the
+    standard purpose of GitHub, which is software development support.
+    #+end_quote
+
+*** What is Emacs?
+
+    Which of the statements is true for GNU Emacs?
+
+    TRUE:
+    * Extensible, customizable text editor | Through Emacs Lisp, a
+      Lisp dialect
+    * Written in C and Lisp | Core is written in C, extensions in
+      Emacs Lisp
+    * Literate programming IDE | Integrated Development Environment
+      allowing to develop programs in a "literate" way" via the
+      Org-mode package
+    * Open source software | Distributed under the GNU license
+
+    FALSE:
+    * Operating system | I compared it with an OS because it covers so
+      many OS management tasks, but it is not strictly speaking an OS
+    * Owned by Google | One of the few things not owned by Google!
+    * Twenty-five years old | It's older - developed in 1976, first
+      released in 1985.
+
+*** What is a shell (in computing)?
+
+    We've used the term "shell" for a few concepts and applications -
+    identify them.
+
+    TRUE:
+    * Command line interface | Also CLI as opposed to GUI
+    * Bash (Linux) | One of many shell programs (zsh, csh, sh, etc.)
+    * Terminal (MacOS) | A synonym for the shell also under Linux
+    * Command prompt (Windows) | Windows' name for the command line
+
+    FALSE:
+    * Graphical User Interface (GUI) |A shell is a program used on a
+      Command Line Interface (CLI), without graphics (other than
+      ASCII)
+    * Integrated Development Environment (IDE) | No - though it can be
+      used that way if you know enough shell commands.
+    * PuTTY (ssh client for Windows) | A program that runs on the
+      shell and uses another shell, the ssh program for remote access
+
+*** The kernel has complete control of the hardware and is always in memory.
+
+    TRUE
+
+    #+begin_quote
+    The kernel is the part of the OS that is loaded into volatile memory
+    (RAM) first and that runs as long as the computer is "on".
+    #+end_quote
+
+*** Match computer part and attribute
+
+    | CPU      | Very fast |
+    | RAM      | Fast      |
+    | Harddisk | Slow      |
+
+*** Which of these views are part of the ARIS model?
+
+    TRUE:
+    * Organizational view | E.g. the organization of the computer:
+      CPU + Memory + Hard disk
+    * Process view | E.g. the shell program and other applications
+      that are running on the computer
+    * Data view | E.g. input and output data
+    * Control view | E.g. the interrupt handler, and the device
+      controller
+
+    FALSE:
+    * Overview | Too general - all aspects of ARIS provide an overview
+    * Daemon | A special type of process or service (controller
+      program) that runs in the background
+    * ERP (Enterprise Resource Planning) | A class of information
+      systems - ARIS was originally developed for ERP systems
+
+*** Which of these are editors?
+
+    TRUE:
+    * nano | General purpose editor under Linux
+    * vim | General purpose editor under all  S
+    * sed | String manipulation editor under Linux
+    * Emacs | Powerful editor, all OS
+
+    FALSE:
+    * cat | a viewing program
+    * dog | an animal
+
+*** Bring these components into the right order
+
+    These concepts relate to the abstract (layered) view of the
+    components of a computer.
+
+    1) User
+    2) Application programs
+    3) Operating System
+    4) Computer hardware
+
+*** Middleware is part of the operating system
+
+    FALSE
+
+    #+begin_quote
+    Middleware is a type of computer software that provides services
+    to software applications beyond those available from the operating
+    system. It can be described as "software glue" between the
+    infrastructure and the user applications.
+    #+end_quote
+
+
+** Interactive script vs. interactive notebook (literate programming demo)
+
+   I created this 13 min screencast as a demonstration of "interactive
+   script" vs. "interactive notebook" (aka Literate Programming) for
+   the database course. I used the ssh connection to the Raspberry Pi
+   that you saw in class.
+
+   While the language used in the example is SQLite, there is no
+   conceptual difference to bash (the shell scripting language
+   relevant for operating systems).
+
+   [[https://youtu.be/8HJGz3IYoHI][Here is the YouTube link]]. Have a listen, and learn. Added this to
+   the growing YouTube playlist for this course (linked in Schoology)
+   where I put videos of interest.
+
+** GitHub Hello World Assignment  (13 Jan 9AM)
+*** Instructions
+    1. [[https://github.com/][Create a GitHub account]] (ideally, your username should be
+       "FirstnameLastname")
+    2. +Send email to birkenkrahe@lyon.edu with GitHub name and course ID(s)+
+    3. Complete the [[https://docs.github.com/en/get-started/quickstart/hello-world][GitHub Hello World exercise]]
+    4. [[https://github.com/birkenkrahe/os420/issues][Submit an issue to the os420 repo]] confrming that you completed
+       the exercise.
+
+    If you are in more than one of my courses, you only have to do
+    (3) once, but you still need to complete the other steps to
+    complete the assignment.
+
+    Any questions, contact me directly outside or in class, or leave a
+    comment here.
+
+*** Submissions
+
+    | NAME           | GITHUB       | ISSUE SUBMITTED |
+    |----------------+--------------+-----------------|
+    | Spencer Rhoden | SRhoden42    |                 |
+    | Aidan Pantoya  | AidanPantoya |                 |
+    | Amber McClurg  | AmberMcClurg |                 |
+    | Emma Brandes   | EmmaBrandes  |                 |
+
+** First meeting 11 Jan 09:30AM
+
+   We will meet online for our first session:
+
+   CSC 420 (OS)
+   Tuesday, January 18 · 9:30 – 10:45am
+   Google Meet joining info
+   Video call link: https://meet.google.com/awp-xzzp-cwi
+   Or dial: ‪(US) +1 510-671-1353‬ PIN: ‪402 989 277‬#
+
+   On the agenda:
+
+   * Introduction to the course & to the lecturer
+   * Access to the course materials on GitHub
+   * Course syllabus - content/grading/schedule
+   * Homework assignments: GNU Emacs/GitHub Hello World
+
+   Your (virtual) attendance is mandatory. Masks will not be required: a
+   great opportunity to see everyone face to face! If you find the
+   time, please fill in the readiness survey on Google Forms.
+
+   #+attr_html: :width 300px
+   [[./img/welcomeback.gif]]
+
+   The regular room for this course is in the Lyon Building room 104.
+
+** Entry quiz Google Forms (Jan 9, 2021)
+*** Text
+    Please answer a few questions to help me prepare the operating
+    systems class for the spring '22 term. Takes 5 min only. Link to
+    the form: https://forms.gle/yLsovcvpE2Cdjqy1A
+
+    If you need motivation to do this: responding to his survey will
+    get you extra credit points before the course has even started!
+
+    Send me an email (birkenkrahe@lyon.edu) if you have special wishes
+    or just want to say hi! I'm looking forward to meeting you (again)!
+
+    Cheers,
+    Marcus Birkenkrahe
+
+    PS. At the end of the survey you find a short (13 min), fun, geeky
+    video on the history of operating systems. Check it out!
+
+** Stuff
+*** [[https://medium.com/@mkmety/beginners-guide-to-installing-raspberry-pi-os-on-a-raspberry-pi-6d437ce2f54b][Install Raspbian (medium)]]
+*** [[https://www.coursera.org/learn/os-power-user/home/welcome][Google certificate course Linux/Windows]]
+*** [[https://techexplorations.com/guides/rpi/begin/rpios/][Pi Operating Systems (blog)]]
+*** [[https://s-matyukevich.github.io/raspberry-pi-os/docs/Introduction.html][Raspberry Pi OS (creating)]]
+*** [[http://cs.westminstercollege.edu/~greg/osc10e/vm/index.html][Virtual Machine for Silberschatz (VirtualBox)]]
+*** [[https://youtu.be/FaILnmUYS_U][I made an entire OS that only runs Tetris]]
+*** Trisquel Linux operating system (VirtualBox)
+*** [[https://www.freecodecamp.org/news/learn-the-50-most-used-linux-terminal-commands/][50 most used Linux commands]]
+*** [[https://www.gnu.org/software/emacs/manual/html_node/tramp/Quick-Start-Guide.html][Remote editing in Emacs with TRAMP]]
+*** [[https://craftinginterpreters.com/contents.html][Creating Interpreters]]
+*** [[https://emea01.safelinks.protection.outlook.com/][Host software (first Request For Comments RFC)]]
+
+    #+begin_quote
+    This week’s paper is “Host Software” by Steve Crocker published
+    in 1969. "Host Software" was the first RFC (Request for Comments)
+    to be published and it describes the basic "handshake" protocol
+    between two ARPANET hosts. Crocker was a 25 year old UCLA grad
+    student at the time. He worked all night on the document, writing
+    in the bathroom as to not wake up his roommates.
+    #+end_quote
+
+*** [[https://www.developer.com/design/event-driven-microservices/][Event Driven Microservices]]
+*** [[https://blog.logrocket.com/libp2p-tutorial-build-a-peer-to-peer-app-in-rust/][~libp2p~ tutorial: build a peer-to-peer app in Rust]]
+* CSC 301 Supervision internship
+** First meeting
+
+   Good evening - 
+
+   Alas, only one student appeared at the first scheduled meeting
+   today. Please make sure you either attend the next meeting (it
+   should be in your Google calendar for Fri 12.15-1pm) - we meet in
+   the Derby Science center room 207.
+
+   Also, none of you have accepted my invitation to the private GitHub
+   repo yet - the original invitations have expired. I have just
+   issued new ones. Here are your todos *for this week*:
+
+   * Join the GitHub repo (check email or contact me if you don't get
+     one)
+   * Please check out [[https://github.com/birkenkrahe/internship#readme][this README file]] carefully.
+   * Please submit your first blog post as a text (or markdown) file
+     [[https://github.com/birkenkrahe/internship/tree/main/blogs/week_1][to this repo]] - topic "Your hiring process" (week 1) - minimum 150
+     words (deadline = *Thursday, 3rd February, 11:59 PM*). You find
+     detailed instructions in this [[https://github.com/birkenkrahe/internship/tree/main/blogs/week_1#readme][README]] file.
+   * To show you how it's done, there's one blog post from last term
+     still in there.
+   
+   Next Friday, we'll talk about your contributions, and I'll answer
+   any questions you may have. You can of course contact me with
+   questions beforehand, but please join the GitHub repo and check the
+   README file first! 
+
+** Garrett
+
+   Garrett Russell:
+   #+begin_quote
+   I just learned last week that I got an internship with an alarm
+   company over winter break. I was wondering if you could tell me the
+   criteria I would need so that I could possibly get a credit for this
+   through the class. Feel free to get back to me when you can, I'm in no
+   rush.
+   #+end_quote
+
+   David Sonnier:
+   #+begin_quote
+   I was the one who told him to contact you, but he didn't say it was
+   during the break.  You could just tell him no, but if you're
+   willing to spend a little time it's possible.
+
+   This is how we can do it if you're okay with it....We sign him up
+   for one hour for this coming Spring.  He needs to be in contact
+   with you about the details, who he's working for, what he's doing,
+   etc., and you meet / talk with him a few times over the break.
+   Then during the Spring semester he does a presentation at some
+   point for one of our groups of students who would find it whatever
+   he did interesting.
+
+   I suppose it also depends on how much time he's spending with this
+   alarm company.  All day every day for 3 weeks?
+
+   You decide on whether to spend time on it.  I would add that
+   Garrett is a great student and a very decent guy, but if the timing
+   isn't convenient for you then it won't work.  Your call.
+   #+end_quote
+
+   Answer (24 Dec 2021)
+   #+begin_quote
+   I am sorry to respond to you so late - your email reached me right
+   when I had to go to Germany, and then there was the end of term,
+   and family emergencies...now, about the internship: the course is
+   really meant to be in parallel to the internship, but I'd be happy
+   to sign you up for 1 hour (and 1 credit, or 2 if your performance
+   excels) this coming spring.
+
+   I think you'll find the internship course interesting even if your
+   internship is already over at that point. You'll have to do a
+   weekly blog post (150 words) on a given topic, and a short
+   presentation on your internship at some point for the other
+   internship students (perhaps with guests).
+
+   If that sounds good to you, let me know and we can meet over the
+   break to hammer out the details if you want. I'm thinking Thursday
+   January 6th at 1 PM in my office, if that suits you?
+   #+end_quote
+** Welcome message (13 Jan)
+
+   Participants:
+   * Marlon Durand
+   * Chase Griffith
+   * Malcolm Howard
+   * +Garrett Russell+
+   * Molly Mellor
+   * Benjamin Grafton
+
+   Good evening!  You've enrolled in the supervision internship course
+   (CSC 301) this term. The course comes with this fully equipped GitHub
+   repository. I have enrolled you in the repo just now. Please take a
+   look.
+
+   Next, we need to find a permanent place to meet for ca. 1 hr every
+   week. I've got a few slots available Mon-Fri. Since you're all in
+   my Operating Systems class (CSC 420), we could perhaps find a date
+   next Tuesday in class.
+
+   Looking forward to meeting you - best wishes,
+   MB
+
+** 20 January
+
+   Good evening!
+
+   I'd like to meet for the internship course on Friday 12-1 PM after
+   my morning class. I still need to find a room for that, probably
+   Derby 207 if it is still available. I hope you can make it at that
+   time. I would start next week, on Fri 28 January.
+
+   Please let me know if that time works for you - and accept my GitHub
+   invitation to https://github.com/birkenkrahe/internship
+
+   There's nothing else you need to do for this week. Cheers, MB
+
+** Chase
+
+   Hi Chase, Got the notice that you're in quarantine - sorry to hear
+   it, and I hope you're not too ill. Re: internship - will talk to
+   Marlon/Garrett/Malcolm on Tuesday about a date to meet - what are
+   your available slots (1 hr) in the week? Cheers and good recovery, MB
+
+* References
+
+  * DataCamp (Dec 20, 2016). DataChats | Episode 5 | An Interview With
+    Ron Pearson [video]. [[https://youtu.be/BeAptv-mdOU][URL: youtu.be/BeAptv-mdOU]].
+  * Kuhn (Jan 21,
+    2021). What's new in tidymodels? [blog]. [[https://www.rstudio.com/resources/rstudioglobal-2021/whats-new-in-tidymodels/][URL: rstudio.com]].
+  * Kuhn/Johnson (2019). Feature Engineering and Selection: A
+    Practical Approach for Predictive Models. [[http://feat.engineering][URL: feat.engineering]].
+  * Kuhn/Silge (2021). Tidy Modeling with R. [[https://tmwr.org][URL: tmwr.org]].
+  * OPIG/Oxford Protein Informatics Group (Jul 16, 2013). Citing R
+    packages in your Thesis/Paper/Assignments [blog]. [[https://www.blopig.com/blog/2013/07/citing-r-packages-in-your-thesispaperassignments/][URL: blopig.com]].
+  * System Crafters (Aug 1, 2021). Emacs Has a Built-in Pomodoro
+    Timer?? [video]. [[https://youtu.be/JbHE819kVGQ][URL: youtu.be/JbHE819kVGQ.]]
+  * Torsten Hothorn, Achim Zeileis (2015). [[https://cran.r-project.org/web/packages/partykit/index.html][partykit]]: A Modular Toolkit
+    for Recursive Partytioning in R. Journal of Machine Learning
+    Research, 16, 3905-3909. [[https://jmlr.org/papers/v16/hothorn15a.html][URL: jmlr.org]].
+
+* Footnotes
+
+[fn:3]If the direct link won't work: this file is in the
+~birkenkrahe/db330~ repo in the ~/assignment~ directory.
+
+[fn:2]Even with the best of intentions and luck you'll need at least
+1/2 day of concentrated work to complete all lessons.
+
+[fn:1]You have full access to (almost) all DataCamp courses through
+an academic alliance, which I have negotiated with the provider. Your
+free subscription has a value of $300 per year.
