@@ -9,6 +9,17 @@
   across all courses, mostly to avoid lengthy emails and to park
   content that I may want to develop later on time permitting.
 
+* Rasperry Pi projectL 5-inch touchscreen
+
+  What I did over the weekend after recording a bunch of [[https://youtube.com/playlist?list=PLwgb17bzeNygo8GU6SivwwjsQj9QabqAJ][tutorial
+  videos for Emacs]]. This touchscreen can also be attached directly to
+  the Pi. I think I might find another way of mounting it or attach it
+  to another Pi.
+
+  #+caption: Elecrow 5' touchscreen with a Raspberry Pi 4B
+  #+attr_html: :width 600px
+  [[./img/screen.jpg]]
+
 * News - Internships, Data Science Fellowship Program and Micro-Internships
 ** Data Science Fellowship Program at CMU
 
