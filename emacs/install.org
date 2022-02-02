@@ -75,7 +75,7 @@
 
 ** Install gcc
 
-   * [ ] Download the installer from
+   * [ ] Download the installer[fn:1] from
      https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe
 
    * [ ] Run the installer - accept all standard settings
@@ -125,8 +125,8 @@
 
    * [ ] To get out of sqlite, type ~.q RET~
 
-   
-     
-   
-   
-  
+* Footnotes
+
+[fn:1]A more complicated setup uses [[https://osdn.net/projects/mingw/][this setup program]] - you end up in
+an installer manager where you have to select gcc and g++, but then
+everything works like in the rest of the description. 
