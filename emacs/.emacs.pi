@@ -50,12 +50,12 @@
 (org-tree-slide-simple-profile) ;; no headers
 
 ;; Find and open TODO and agenda
-(find-file "~/Documents/GitHub/admin/todo.org")
+(find-file "~/GitHub/admin/todo.org")
 (global-set-key (kbd "C-c a") 'org-agenda)
 (org-agenda nil "a")
 ;; set agenda files
-(setq org-agenda-files (list "~/Documents/GitHub/admin/todo.org"
-			     "~/Documents/GitHub/admin/spring22/spring22.org"
+(setq org-agenda-files (list "~/GitHub/admin/todo.org"
+			     "~/GitHub/admin/spring22/spring22.org"
                              ))
 
 ;; require org-tempo so that <s <TAB> self-insert works
@@ -202,19 +202,17 @@
 ;; plink.exe must be in the PATH
 (setq tramp-default-method "plink")
 (setq tramp-default-user "pi")
-
-;; pomodoro timer
-(require 'org)
-(setq org-clock-sound "~/Documents/Sounds/ding.mp3")
-
-;; set the path to R for ESS
-;;(setq inferior-ess-r-program "c:/Program Files/R/R-4.1.2/bin/R.exe")
-
-;; set the path to sqlite3 for Org-mode Babel
-;;(setq org-babel-sqlite3-command "\"c:/Program Files (x86)/sqlite-tools-win32-x86-3360000/sqlite3.exe\"")
-
-;; set the path to GCC for Org-mode Babel
-;; (setq org-babel-C-compiler "\"c:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe\"")
-
-;; set default working directory to c:/Documents/GitHub/
-(setq default-directory "c:\\Users\\birkenkrahe\\Documents\\GitHub\\")
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes '(org-beautify night-owl))
+ '(custom-safe-themes
+   '("071f18fb366412734b6215fa97918f465cedad058285f426504f3bf84aae7a3b" "e081d167861aa1af9e423a10b00c560b1c18ab8f3627dfbe35ff4455bd993d36" default)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
