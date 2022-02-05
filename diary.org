@@ -22,7 +22,7 @@
   contains the complete instructions, independent of GCS.
 
   Even better: on GNU Emacs, Tramp + rclone enable seamless access to
-  remote servers: in the figure, you see GDrive in the top buffer,
+  remote servers: in the picture, you see GDrive in the top buffer,
   below it you can see that autocompletion works as well. Tramp
   requires the format ~/rclone:gdrive:/~, where ~rclone~ is the
   method, like ~ssh~ or ~ftp~ etc.
@@ -33,7 +33,20 @@
 
   Easy access to my Lyon GDrive was the last reason to keep my Windoze
   box. I am now full time on a tiny Raspberry Pi running Raspbian
-  Linux. I will take it to class, too, and use it as my desktop.
+  Linux. I will take it to class, too, and use it as my desktop
+  (especially since the front desktop PC is the last old PC left in
+  the room, and even slower than my 4GB Pi 4). Since all the Pi knows
+  is on its 32 GB SD card, I am more portable than I've ever been.
+
+  The only benefit from looking at GCS: I found out that you can get
+  access to a free shell - in the picture, you see information about
+  the OS and the CPUs. Apparently, this is a docker image.
+
+1  #+caption: Google Cloud Services shell
+  #+attr_html: :width 600ps
+  [[./img/cgs.png]]
+
+  The process is journaled in the [[https://github.com/birkenkrahe/os420/blob/main/FAQ.org][CSC420 (Operating Systems) FAQ]].
 
 * Rasperry Pi projectL 5-inch touchscreen
 
