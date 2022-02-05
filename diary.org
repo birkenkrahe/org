@@ -42,7 +42,7 @@
   access to a free shell - in the picture, you see information about
   the OS and the CPUs. Apparently, this is a docker image.
 
-1  #+caption: Google Cloud Services shell
+  #+caption: Google Cloud Services shell
   #+attr_html: :width 600ps
   [[./img/cgs.png]]
 
