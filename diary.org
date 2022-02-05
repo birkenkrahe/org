@@ -269,7 +269,7 @@ Thanks so much!
    which apparently was bundled with Org in the past, but is no longer
    bundled with it.
 
-   ~artist~ mode is built in. From the vignette[fn:13]:
+   ~artist~ mode is built in. From the vignette[fn:1]:
 
    #+begin_quote
    "Artist is an Emacs lisp package that allows you to draw lines,
@@ -301,7 +301,7 @@ Thanks so much!
     <draw rectangles>
 #+end_example
 
-    Here are a few examples[fn:14]:
+    Here are a few examples[fn:2]:
 
     [[./img/rectangles.png]]
 
@@ -480,14 +480,14 @@ Thanks so much!
   forces you to know the keystrokes instead of having to move back and
   forth between keyboard and mouse). The path to getting this app to
   run is, alas, not for the faint-hearted. Brittany sketched it for
-  me - try this on your machine[fn:11]!
+  me - try this on your machine[fn:3]!
 
 ** Download Linux
 
    Type ~Microsoft store~ in the search bar (next to the task bar),
    and then search for ~Ubuntu~ in the search field inside the
    store. You find different distributions. Pick ~Ubuntu 20.04
-   LTS~[fn:12] and click on ~Get~ to download the installer. The
+   LTS~[fn:4] and click on ~Get~ to download the installer. The
    distribution will take about 0.5 GB disk space.
 
    /Image: info about the distribution from Canonical/
@@ -544,7 +544,7 @@ Thanks so much!
   comments rang in my ears from past courses, and I experienced
   students' difficulties of Windows + R myself: it seemed appropriate
   to share their development burden and get off my high Linux
-  horse[fn:9]. Also, here was an opportunity to try Emacs + ESS +
+  horse[fn:5]. Also, here was an opportunity to try Emacs + ESS +
   Org-Mode + R as a bundle and perhaps bring some students with me to
   the bright side!
 
@@ -558,11 +558,11 @@ Thanks so much!
   changes in my source code via forks and issues. Some students seem
   to have forked my repos, but so far nobody has submitted an issue.
 
-  The installation of [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#org6e00b83][Emacs + ESS + R as a scientific stats IDE]][fn:10], and
+  The installation of [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#org6e00b83][Emacs + ESS + R as a scientific stats IDE]][fn:6], and
   the installation and [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#orgf34e53d][use of GitHub Desktop]] are subject of two new
   FAQs. Let me know how you get on with these - in the data science
   course (where I also work with Google Colaboratory), we may take
-  some time to go through these instructions[fn:8]
+  some time to go through these instructions[fn:7]
 
   #+attr_html: :width 600px
   [[./img/linux.gif]]
@@ -572,7 +572,7 @@ Thanks so much!
 
    I'm very grateful for fall break: it's given me my first opportunity
    for a vacation in over 2 years. Here's me looking quizzically into
-   the future (taken in Pensacola, FL, over the weekend[fn:5]):
+   the future (taken in Pensacola, FL, over the weekend[fn:8]):
 
    #+attr_html: :width 600px
    [[./img/beachpic.jpg]]
@@ -595,7 +595,7 @@ Thanks so much!
    am talking about. As a manager, I spent a lot of time with similar
    tools, and I remain unconvinced of their actual value to the
    employee and to the company. /Image: German assessment
-   center[fn:6]./
+   center[fn:9]./
 
    #+attr_html: :width 600px
    [[./img/german.jpg]]
@@ -632,7 +632,7 @@ Thanks so much!
    excellent distraction), but the length is necessary to really go
    deep (this is one of Fridman's specialties, and much needed in this
    time of short attention spans and fleeting
-   attractions)[fn:7]. There's also a [[https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/][summary]] of the long interview if
+   attractions)[fn:10]. There's also a [[https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/][summary]] of the long interview if
    you have little time or patience but a need for soundbites and
    essence.
 
@@ -689,7 +689,7 @@ Thanks so much!
   there were none, when I was a student, and it reminds me of Sheldon
   Cooper in that Big Bang Theory show where he gets a bloody nose
   because he thinks he can ride a bike after watching YouTube videos
-  about it[fn:4].
+  about it[fn:11].
 
   Anyway, I wouldn't overstate the importance of confusion - some
   confusion comes from badly written textbooks, badly taught classes,
@@ -796,12 +796,12 @@ Thanks so much!
    late to get up to scratch with Lyon's "Schoology" platform. Pro:
    opportunity to include Git and GitHub in the course. Con: separate
    platform. Another plus - just discovered that Emacs Org-mode renders
-   as Markdown automatically[fn:1].
+   as Markdown automatically[fn:12].
 
    Figured out how to link the GitHub remote repository (~master~) and
    the local repo (~origin~) and update the remote repo from the command
    line. In the end, however, I resorted to drag-and-drop addition of the
-   org-file in question ([[https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.org][1_overview.org]][fn:2]), because I could not update the
+   org-file in question ([[https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.org][1_overview.org]][fn:13]), because I could not update the
    file inside the ~1_overview~ directory remotely. The best (fastest)
    solution would be to set up remote services using Emacs' [[https://magit.vc/][magit]].
 
@@ -821,7 +821,7 @@ Thanks so much!
    it via "snail mail" as it used to be called (does it still?). He's
    been "radicalized" in a way by media reports and books like this one
    by Harvard's Carissa Veliz, "[[https://www.harvard.com/book/privacy_is_power/][Privacy is Power: Why and How You Should
-   Take Back Control of Your Data]]"[fn:3]. This made me think, once again,
+   Take Back Control of Your Data]]"[fn:14]. This made me think, once again,
    that it might be neat to focus on cybersecurity and create a course
    offering a couple of terms down the line. I recently read this 2020
    book on "[[https://www.packtpub.com/product/cyber-warfare-truth-tactics-and-strategies/9781839216992][Cyber Warfare-Truth, Tactics, and Strategies]]", which is far
@@ -866,27 +866,27 @@ Thanks so much!
 
 * Footnotes
 
-[fn:14]I'll always smoothen my diagrams with with
+[fn:2]I'll always smoothen my diagrams with with
 ~ascii-art-to-unicode~ adjunct to ~artist-mode~ as explained in this
 post earlier, and I won't especially mention this.
 
-[fn:13] A vignette is a manual page for a software package.
+[fn:1] A vignette is a manual page for a software package.
 
-[fn:12] This is the most recent Long Term Support (LTS - supported
+[fn:4] This is the most recent Long Term Support (LTS - supported
 until 2025) version of Ubuntu Linux, a popular, well supported
 distribution. I mainly picked it also because I've worked with Ubuntu
 18.04 LTS before.
 
-[fn:11]If you attend my "operating systems" or "C/C++ programming"
+[fn:3]If you attend my "operating systems" or "C/C++ programming"
 courses, you'll have to do this anyway, since there's no way around
 Linux in my classes - I just love it too much, and you must learn it.
 
-[fn:10]In fact the Emacs distribution I found has a bunch of fantastic
+[fn:6]In fact the Emacs distribution I found has a bunch of fantastic
 software on board, including AUCTeX (a version of the typesetting
 system TeX), and secure network communications that allow to use Emacs
 as a news or email client, too (though this is not something I do).
 
-[fn:9]If you want both Linux and Windows 10, you can either install
+[fn:5]If you want both Linux and Windows 10, you can either install
 Linux in a VirtualBox (open source software owned by Oracle), or run a
 dual boot system. But I already know Linux well, and my interest is to
 have the most productive, most efficient work environment - so if I
@@ -897,26 +897,26 @@ hard to get LaTeX for Windows, which means it's hard to generate PDFs
 (except by generating HTML code and then printing it as PDF). There
 are many reasons, why [[https://www.lifewire.com/windows-vs-linux-mint-2200609][Linux is better than Windows]].
 
-[fn:8]As part of the session on literate programming and (later)
+[fn:7]As part of the session on literate programming and (later)
 package and code development in R. Of course, there is also always
 RStudio, but that's a commercial solution (freemium model)
 increasingly wed to the "tidyverse", which I find increasingly
 unsuitable (see the update of Matloff's "TidyverseSceptic" essay.
 
-[fn:7] Fridman is a Russian machine learning expert from MIT, and if
+[fn:10] Fridman is a Russian machine learning expert from MIT, and if
 you know Russians then you know that they tend to extremes (ever read
 Tolstoy? Dostoyevsky?). I love this though I can only take so much of
 it - I like that fact that it's different from what everyone does, and
 I like the result that Fridman gets with his method. You should check
 out some of his other podcasts, e.g. with Elon Musk.
 
-[fn:6]An assessment center is an event where many applicants are
+[fn:9]An assessment center is an event where many applicants are
 simultaneously assessed for their suitability. It usually lasts longer
 (one day or more) and involves solo and team exercises, interviews,
 etc. The whole thing is often observed by senior members of the
 company or organization. Naturally, all challenges are standardized.
 
-[fn:5]This is a 10-hour drive from Batesville, AR. In Germany, 10
+[fn:8]This is a 10-hour drive from Batesville, AR. In Germany, 10
 hours get you from Flensburg in the North (on the Danish border) to
 Garmisch-Partenkirchen in the Alps (on the border to Austria). That's
 as far as you can go in Germany, and in the Southlands, it gets you to
@@ -926,18 +926,18 @@ maps bot, announces each state, "Welcome in Alabama" etc.). You'd
 think that I'd be knackered after driving for 20 hours but actually, I
 am not, quite the opposite, I'm rather energized by the experience!
 
-[fn:4]That (early) trust in the Internet is both endearing and
+[fn:11]That (early) trust in the Internet is both endearing and
 endangering. Endangering, because our brains don't have a switch or a
 safety valve that reacts to fake Internet content, we are its
 victims. Endearing, because so many people (I wanted to know how many
 but I couldn't find reliable statistics - data science project!?)
 upload helpful information for complete strangers.
 
-[fn:3]An excerpt from this book might become an assignment for this
+[fn:14]An excerpt from this book might become an assignment for this
 course and/or for the AI seminar.
 
-[fn:2]Org-mode insight: to switch off automatic replacement of
+[fn:13]Org-mode insight: to switch off automatic replacement of
 sub/superscripts, add the line ~#+OPTIONS: ^:nil~ at startup.
 
-[fn:1]Though the wiki pages cannot be added, they have to be exported
+[fn:12]Though the wiki pages cannot be added, they have to be exported
 into Markdown, which is a bit of work. Note to self: automate workflow!
