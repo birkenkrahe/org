@@ -9,6 +9,32 @@
   across all courses, mostly to avoid lengthy emails and to park
   content that I may want to develop later on time permitting.
 
+* Connecting to GDrive on the Pi
+
+  Spent a few hours figuring this out. I was mislead by a 2019 blog
+  post, which suggested to create an app with Google Cloud Services
+  (GCS) to do this, and then using the ~rclone~ program to access the
+  app. This involved setting up an account with GCS, leaving billing
+  information, setting up the API, etc.
+
+  After I had done all that, I started ~rclone~ on the Pi and realized
+  that it was all a lot easier than I had thought: ~rclone.org/drive~
+  contains the complete instructions, independent of GCS.
+
+  Even better: on GNU Emacs, Tramp + rclone enable seamless access to
+  remote servers: in the figure, you see GDrive in the top buffer,
+  below it you can see that autocompletion works as well. Tramp
+  requires the format ~/rclone:gdrive:/~, where ~rclone~ is the
+  method, like ~ssh~ or ~ftp~ etc.
+
+  #+caption: GDrive in GNU Emacs
+  #+attr_html: :width 700px
+  [[./img/rclone.png]]
+
+  Easy access to my Lyon GDrive was the last reason to keep my Windoze
+  box. I am now full time on a tiny Raspberry Pi running Raspbian
+  Linux. I will take it to class, too, and use it as my desktop.
+
 * Rasperry Pi projectL 5-inch touchscreen
 
   What I did over the weekend after recording a bunch of [[https://youtube.com/playlist?list=PLwgb17bzeNygo8GU6SivwwjsQj9QabqAJ][tutorial
@@ -23,7 +49,7 @@
 * News - Internships, Data Science Fellowship Program and Micro-Internships
 ** Data Science Fellowship Program at CMU
 
-      (Via Prof Dave Thomas, Lyon College)
+   (Via Prof Dave Thomas, Lyon College)
 
    #+begin_quote
    The Data Science for Social Good Fellowship is a full-time summer
@@ -46,7 +72,7 @@
 ** Internship opportunities at Stone Ward, Little Rock
 
    (Via Matthew Stewart, Stone Ward Marketing Agency)
-   
+
    #+begin_quote
 
 Stone Ward is hosting our annual *paid summer internship* in our
@@ -61,7 +87,7 @@ the summer internship, I would suggest they look at the media or
 web development internships as those are the most numbers heavy.
 
 Thanks so much!
-    #+end_quote
+   #+end_quote
 
 *** Details:
 
@@ -107,18 +133,18 @@ Thanks so much!
 
    Over the summer, there will be room for a couple of students to
    work on a data visualization project with Matthew and me (possibly
-   involving R Shiny - an analysis dashboard framework based on R). 
+   involving R Shiny - an analysis dashboard framework based on R).
 
    Other micro internships - each lasting about 3 weeks of focused,
    intense work - might involve real clients of Stone Ward. While
    these micro-internships are unpaid, they are a great opportunity to
-   learn skills, build a network, and start a project portfolio. 
+   learn skills, build a network, and start a project portfolio.
 
 * The Battle Of The Five Armies (Jan 4, 2022)
 
   Some of the story behind the picture below that I also put in all
   courses on the Schoology platform.
-  
+
   What I read this morning in "The Linux Command Line" (Shotts, 2019)
   summarizes my sentiments towards open source, and why I prefer it:
 
@@ -155,7 +181,7 @@ Thanks so much!
   faithful to my style, which is to source all courses from a common
   fount. Helpful: the ongoing support from both [[https://datacamp.com][DataCamp]] (through
   their tutorials), and [[https://signavio.com][Signavio]] (through their process platform).
-  
+
 * Creating simple process diagrams in Emacs (Dec 27, 2021)
 
   I needed diagrams because I wanted to make a simple
