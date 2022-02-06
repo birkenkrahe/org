@@ -1648,52 +1648,84 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 * Fixing the .emacs problem on Windows lab computers
 ** The problem
 
-    * Whenever you sit down at a lab desktop PC, you log on with your
-      user profile. The ~.emacs~ file is then stored only on that
-      computer.
-    * If you sit at a different computer next time, there will be no
-      ~.emacs~ file in your ~$HOME~ directory, and you have to
-      reinstall it.
+   * Whenever you sit down at a lab desktop PC, you log on with your
+     user profile. The ~.emacs~ file is then stored only on that
+     computer.
+   * If you sit at a different computer next time, there will be no
+     ~.emacs~ file in your ~$HOME~ directory, and you have to
+     reinstall it.
 
 ** The solution
 
-    Learn to do this quickly on any new computer:
+   Learn to do this quickly on any new computer:
 
-    | Find your ~$HOME~ directory on Emacs   | ~C-x d $HOME RET~      |
-    | Download https://tinyurl.com/lyonemacs | Save as ~$HOME/.emacs~ |
-    | Run ~$HOME/.emacs~ buffer functions OR | ~M-x eval buffer~      |
-    | Restart Emacs[fn:4]                    | ~C-x C-c~              |
+   | Find your ~$HOME~ directory on Emacs   | ~C-x d $HOME RET~      |
+   | Download https://tinyurl.com/lyonemacs | Save as ~$HOME/.emacs~ |
+   | Run ~$HOME/.emacs~ buffer functions OR | ~M-x eval buffer~      |
+   | Restart Emacs[fn:4]                    | ~C-x C-c~              |
 
-    Now, ~.emacs~ will automatically be found and loaded by Emacs as
-    the configuration or [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][initialization file]].
-    
-    In the computer lab 104, your ~$HOME~ is set to
-    ~C:/.../AppData/Roaming~, which is a [[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/][hidden directory]] (you can
-    access it via system search with ~%APPDATA%~).
+   Now, ~.emacs~ will automatically be found and loaded by Emacs as
+   the configuration or [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][initialization file]].
 
-    #+caption: Screenshot of the hidden ~%APPDATA%~ directory on Windows 10
-    #+attr_html: :width 400px
-    [[./img/appdata.png]]
-    
-    If this directory gets overwritten between subsequent logins, you
-    need to copy the ~.emacs~ file to ~c:/Users/yourname/~ (replacing
-    ~yourname~ by your Windows username), and start Emacs from the
-    CMD line with the command:
+   In the computer lab 104, your ~$HOME~ is set to
+   ~C:/.../AppData/Roaming~, which is a [[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/][hidden directory]] (you can
+   access it via system search with ~%APPDATA%~).
 
-    #+begin_example
-    > emacs -l c:\Users\yourname\.emacs
-    #+end_example
+   #+caption: Screenshot of the hidden ~%APPDATA%~ directory on Windows 10
+   #+attr_html: :width 400px
+   [[./img/appdata.png]]
 
-    This will load ~.emacs~ as your initialization file.
-    
+   If this directory gets overwritten between subsequent logins, you
+   need to copy the ~.emacs~ file to ~c:/Users/yourname/~ (replacing
+   ~yourname~ by your Windows username), and start Emacs from the
+   CMD line with the command:
+
+   #+begin_example
+   > emacs -l c:\Users\yourname\.emacs
+   #+end_example
+
+   This will load ~.emacs~ as your initialization file.
+
 ** The effect
 
-    * You can now run any R, SQLite, Emacs Lisp, or C code block inside
-      an Org-file.
-    * To run Shell (~bash~) code, you need to have ~bash.exe~
-      installed, e.g. by installing the [[https://cygwin.com/install.html][CygWin utilities package]].
-    * Here is more information about the GNU Emacs [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][initialization
-      file]].
+   * You can now run any R, SQLite, Emacs Lisp, or C code block inside
+     an Org-file.
+   * To run Shell (~bash~) code, you need to have ~bash.exe~
+     installed, e.g. by installing the [[https://cygwin.com/install.html][CygWin utilities package]].
+   * Here is more information about the GNU Emacs [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][initialization
+     file]].
+
+* How do I get Emacs to accept C:\Users\myname as start directory?
+** Problem
+
+   On Windows, Emacs will sometimes "wake up" in a directory whose
+   name ends with ~/AppData/Roaming/~ - this is a hidden
+   directory. You can find it in the file explorer by typing
+   ~%APPDATA%~ in the Windows search bar.
+
+   Another, related problem: Emacs wakes up in a directory like
+   ~C:/Program Files/Emacs/bin/~ - if you try to save anything here,
+   Emacs complains (because this directory is protected).
+
+   The question is: how can you set the start directory (called
+   ~default-directory~ by Emacs)?
+
+** Solutions
+
+   1) Add the following line to your ~.emacs~ file, provided your user
+      directory is ~C:/Users/joey~, then save ~.emacs~ and restart Emacs
+   #+begin_example
+   (setq default-directory "C:/Users/joey")
+   #+end_example
+   2) Start Emacs from the command line (found by entering ~CMD~ in
+      the Windows search field) with the command
+   #+begin_example
+    emacs --chdir="c:\\Users/joey"
+   #+end_example
+
+   Because Windows paths use backward instead of forward slashes, you
+   may have to change ~"c:/Users/joey"~ to ~"c:\\Users\\joey"~ -
+   something to play around with until you got it right!
 
 * References
 
@@ -1716,7 +1748,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   youtu.be/Y8koAgkBEnM]].
 
   gnu.org (n.d.). GNU Emacs manuals [website]. [[https://www.gnu.org/software/emacs/manual/][URL: www.gnu.org.]]
-  
+
   <<gookin>> Gookin D (2021). Tiny C Projects. Manning. URL:
   [[https://www.manning.com/books/tiny-c-projects][manning.com]].
 
