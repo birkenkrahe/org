@@ -1724,7 +1724,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    #+end_example
 
    Because Windows paths use backward instead of forward slashes, you
-   may have to change ~"c:/Users/joey"~ to ~"c:\\Users\\joey"~ -
+   may have to change "c:/Users/joey" to "c:\\Users\\joey" -
    something to play around with until you got it right!
 
 * References
