@@ -1681,7 +1681,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    CMD line with the command:
 
    #+begin_example
-   > emacs -l c:\Users\yourname\.emacs
+   > emacs -l "c:\Users\yourname\.emacs"
    #+end_example
 
    This will load ~.emacs~ as your initialization file.
