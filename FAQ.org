@@ -1727,6 +1727,13 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    may have to change "c:/Users/joey" to "c:\\Users\\joey" -
    something to play around with until you got it right!
 
+* How do I get Emacs to stop asking me to confirm the coding system?
+  Add this to your ~.emacs~ file and restart Emacs:
+  #+begin_example
+   ;; UTF-8 as default encoding
+   (set-language-environment "UTF-8")
+  #+end_example
+
 * References
 
   <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
