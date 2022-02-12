@@ -9,6 +9,30 @@
   across all courses, mostly to avoid lengthy emails and to park
   content that I may want to develop later on time permitting.
 
+* Charting your career
+
+  Did a free online "career" test with truity.com. These 94 questions
+  aren't really enough to establish independence - 400 or so are more
+  like it. Still, I suppose problem solving to improve the world is my
+  thing, leaning towards innovation.
+
+  #+caption: Information processing and problem-solving process (Source: truity.com)
+  #+attr_html: :width 600px
+  [[./img/truity.png]]
+
+  My "career interests" are more in line with how I see myself: I like
+  making and building things, not necessarily creatively. As a
+  teacher, I am a persuasion professional. Personally, I don't feel
+  like much of a "thinker" and more like a "doer" but the test
+  disagrees.
+
+  #+caption: Career interests (Source: truity.com)
+  #+attr_html: :width 600px
+  [[./img/truity1.png]]
+
+  If you're interested in career building, don't trust in these tests,
+  but read Richard Bolles' "[[https://www.amazon.com/What-Color-Your-Parachute-2021/dp/198485786X][What color is your parachute]]" instead![fn:15]
+  
 * Connecting to GDrive on the Pi
 
   Spent a few hours figuring this out. I was mislead by a 2019 blog
@@ -865,6 +889,10 @@ Thanks so much!
   You Don’t Ace Physics) [Blog]. [[https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/][Online: wired.com]].
 
 * Footnotes
+
+[fn:15]Don't get the digital version, get the paperback, because this
+is a book that you'll want to work through, mark passages, leaf
+through etc. It's a companion, not just a resource.
 
 [fn:2]I'll always smoothen my diagrams with with
 ~ascii-art-to-unicode~ adjunct to ~artist-mode~ as explained in this
