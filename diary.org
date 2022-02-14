@@ -69,8 +69,13 @@
   longer need them, I don't use them, and I forget them quickly
   enough.
 
-  Alas, I don't see many students do that, and I don't understand why.
-  
+  Alas, I don't see many students do that, and I don't understand
+  why. You can even have fun with flags!
+
+  #+caption: Fun with flags (Big Bang Theory)
+  #+attr_html: :width 500px
+  [[./img/funwithflags.jpg]]
+
 * Charting your career
 
   Did a free online "career" test with truity.com. These 94 questions
