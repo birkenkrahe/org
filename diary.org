@@ -9,21 +9,68 @@
   across all courses, mostly to avoid lengthy emails and to park
   content that I may want to develop later on time permitting.
 
-* "I can teach it to you but I cannot learn it for you"[fn:16]
- 
+* "I can teach it to you but I cannot learn it for you"
+
+  This quote always impressed me as a profoundd, perhaps trivial
+  truth[fn:16]. I think it whenever I feel bad about a student
+  failing on my watch, which does happen, though not all that often,
+  I think. Last week, a bunch of students kind of failed a few of my
+  tests. "Kind of" means that most of them did not actually fail (<
+  50%) but the average success was still below my expectations -
+  below 65% in three out of four courses.
+
+  Today this quote flickered across my screen:
+
+  #+caption: Feynman quote
+  #+attr_html: :width 500px
+  [[./img/feynman.png]]
+
+  This relates, because, unfortunately for many of the students, it
+  all begins with "memorization" of many initially unconnected
+  facts. Computer science is much more like a craft, much more like
+  medicine than mathematics. In practice, it is more focused on
+  diagnostics and problem solving through heuristics than on
+  creativity, thinking, understanding and questioning.
+
+  In order to be a successful computer diagnostician, i.e. assess
+  problems quickly and identify a catalog of possible solutions, you
+  simply need to have a lot of facts at your hands. Unlike
+  mathematics, and more like in biology perhaps, and medicine, these
+  facts are not neatly organized so that learning a few principles or
+  formulas enables you to save yourself from the woes of
+  memorization. In fact there are many patterns but a beginner can't
+  see them.
+
+  One of my jobs as a teacher is to help students see the
+  patterns. I do this by showing them how I use them - and I do this
+  again and again and again. Different students develop the ability
+  to see and act upon identified patterns at different speed and to
+  different degrees. I have no doubt that some of them get much
+  better at it than I could ever be.
+
+  Put differently, to divide the lofty goals - thinking, understanding
+  and questioning - from "memorization" is unfair and
+  unrealistic. Some degree of memorization goes a long way towards
+  developing these other abilities.
+
+  The trick is not to avoid memorization - e.g. by dreaming that
+  anything can be found online given good finding skills (a hope that
+  is more often disappointed than justified, though Google will not
+  hasten to let you know it). The trick is to make memorization fun.
+
+  Now, unlike in medicine and biology, fun memorizing in computer
+  science is always possible simply by playing around with programs
+  and computers. For example, being able to use the command line for
+  data science - to navigate, alter, and analyze files - depends on
+  the knowledge (aka memory) of dozens of Unix commands. I have never
+  tried to memorize a single of these commands, but I have spent
+  countless hours trying to solve problems and playing around with
+  them. In the process of doing that, I learnt using them. If I no
+  longer need them, I don't use them, and I forget them quickly
+  enough.
+
+  Alas, I don't see many students do that, and I don't understand why.
   
-   #+caption: Feynman quote
-   #+attr_html: :width 500px
-   [[./img/feynman.png]]
-
-   Unfortunately for many of you, computer science is much more like a
-   craft, much more like medicine than mathematics. In practice, it is
-   more focused on diagnostics and problem solving through heuristics
-   than on creativity, thinking, understanding and questioning.
-
-   I try to 
-s
-
 * Charting your career
 
   Did a free online "career" test with truity.com. These 94 questions
@@ -47,7 +94,7 @@ s
 
   If you're interested in career building, don't trust in these tests,
   but read Richard Bolles' "[[https://www.amazon.com/What-Color-Your-Parachute-2021/dp/198485786X][What color is your parachute]]" instead![fn:1]
-  
+
 * Connecting to GDrive on the Pi
 
   Spent a few hours figuring this out. I was mislead by a 2019 blog
