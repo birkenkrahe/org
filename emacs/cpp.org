@@ -1,0 +1,46 @@
+#+STARTUP: overview hideblocks
+#+OPTIONS: toc:nil ^:nil
+* C++ source code blocks in Org-mode
+
+  Source: [[https://www.orgmode.org/worg/org-contrib/babel/languages/ob-doc-C.html][orgmode.org]]
+
+* Simple C-style C++ file
+  #+begin_src C++ :includes <stdio.h> :tangle cpp.cpp
+    int a=1;
+    int b=1;
+    printf("%d\n", a+b);
+  #+end_src
+
+  #+RESULTS:
+  : 2
+
+* C++ Output
+  #+begin_src C++ :includes <iostream>
+    std::cout << "Hello world!\n";
+  #+end_src
+
+  #+RESULTS:
+  : Hello world!
+
+* C++ Input
+
+  This is a little weird: Emacs will not wait for input (this is not
+  shell mode), so you have to enter text from outside using the
+  ~:cmdline~ argument option.
+  #+name: cpp
+  #+begin_src C++  :cmdline < in.txt :tangle input.cpp
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+  int i;
+  cout << "Please enter an integer value: ";
+  cin >> i;
+  cout << "The value you entered is " << i;
+  return 0;
+}
+  #+end_src
+
+  #+RESULTS:
+  : Please enter an integer value: The value you entered is 10
