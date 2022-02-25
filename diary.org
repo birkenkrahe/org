@@ -9,6 +9,20 @@
   across all courses, mostly to avoid lengthy emails and to park
   content that I may want to develop later on time permitting.
 
+* Literate programming for C, R, SQLite
+
+  #+caption: Display output in Emacs Org mode file
+  #+attr_html: :width 600px
+  [[./img/litprogc.png]]
+
+  #+caption: Display output in Emacs Org mode file
+  #+attr_html: :width 600px
+  [[./img/litprogr.png]]
+
+  #+caption: Display output in Emacs Org mode file
+  #+attr_html: :width 600px
+  [[./img/litprogsqlite.png]]
+  
 * "I can teach it to you but I cannot learn it for you"
 
   This quote always impressed me as a profound, perhaps trivial
