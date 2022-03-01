@@ -1736,7 +1736,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
 * What does weaving doc and tangling C code from Org-mode mean?
 
-  * The concept of literate programming seems to be unclear to some
+  * The concept of <<literate programming>> seems to be unclear to some
     students. So I came up with a few more examples - below for the
     introductory class on C and C++.
     
