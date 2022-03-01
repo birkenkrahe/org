@@ -1734,6 +1734,77 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    (set-language-environment "UTF-8")
   #+end_example
 
+* What does weaving doc and tangling C code from Org-mode mean?
+
+  * The concept of literate programming seems to be unclear to some
+    students. So I came up with a few more examples - below for the
+    introductory class on C and C++.
+    
+  * Concept review: Can you answer the following questions?
+
+    | What is Emacs?                             |
+    | What is Org-mode?                          |
+    | What does "tangle" C code mean?            |
+    | What does it mean to "weave" documentation |
+
+  #+caption: overview literate programming process
+  #+attr_html: :width 600px
+  [[./img/litprogshort.png]]
+
+  #+caption: complete literate programming processes
+  #+attr_html: :width 600px
+  [[./img/litprog_cheat_sheet.png]]
+
+  #+caption: Org mode file ("literate code" or "program")
+  #+attr_html: :width 400px
+  [[./img/code.png]]
+
+  #+caption: Tangled file (C source code, or compilable program)
+  #+attr_html: :width 400px
+  [[./img/tangle.png]]
+
+  #+caption: Woven file (readable documentation)
+  #+attr_html: :width 400px
+  [[./img/weave.png]]
+
+  #+caption: Display output in Emacs Org mode file
+  #+attr_html: :width 400px
+  [[./img/orgmode.png]]
+
+  #+caption: Compile source code and run program in terminal
+  #+attr_html: :width 400px
+  [[./img/cmd.png]]
+
+* How can I do Literate programming for C, R, SQLite?
+
+  * The processes for literate programming with interactive Org mode
+    files in Emacs are slightly different.
+
+  * C code (or the code of any compiled language) can be run inside
+    Org-mode, or it can be tangled and run separately.
+    
+  #+caption: Display output in Emacs Org mode file
+  #+attr_html: :width 600px
+  [[./img/litprogc.png]]
+
+   * R code is run inside Org-mode via a session in an ESS
+      buffer. This session can be visited and used independently.
+
+  #+caption: Display output in Emacs Org mode file
+  #+attr_html: :width 600px
+  [[./img/litprogr.png]]
+
+   * SQLite (or generally shell code like bash) is run inside Org-mode
+     only. No session is generated.
+     
+  #+caption: Display output in Emacs Org mode file
+  #+attr_html: :width 600px
+  [[./img/litprogsqlite.png]]
+
+   * This works whenever you have Emacs and Org-mode, on Windows,
+     MacOS or Linux.
+       
+
 * References
 
   <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
