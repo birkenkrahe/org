@@ -1804,6 +1804,46 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    * This works whenever you have Emacs and Org-mode, on Windows,
      MacOS or Linux.
        
+* How can I improve my mid-term grades?
+
+   * You can ask me personally and specifically, what to do to get
+     your grades up
+     
+   * There is no reason not to have at good grade in my class:
+     1. You can usually submit in-class assignments late
+     2. The deadlines of the DataCamp assignments are well known
+     3. The quizzes contain ample instructions and can be repeated
+     4. Class attendance + Whiteboard screenshots + GitHub info
+     5. You can always talk to me for personal support
+
+   * Hence, to improve your grade, do:
+     - Submit in-class assignments if you could not attend class
+     - Complete DataCamp assignments on time
+     - Play the quizzes until you have 100% and read the feedback
+     - Attend class + look at screenshots + files afterwards
+     - Practice your skills whenever you can
+     - When you are attending in person, really attend
+     - Ask me in or outside of class if anything is unclear
+
+   * These skills are related to successful studying, which in turn is
+     related to success in life through traditional values:
+     *discipline*, *duty*, and *diligence*. This doesn't have anything
+     to do with computer science.
+
+   * What I'm going for in my classes is what I think computer
+     scientists need more than anything else:
+
+     1. Critical thinking and analysis skills
+     2. Troubleshooting skills
+     3. Research skills
+
+     This is nicely mirrored in [[https://github.com/birkenkrahe/org/issues/19][this comment]] to the question "Why are
+     computer science degrees so math intensive when the field doesn't
+     seem to use much math at all?" on Quora.
+
+     #+caption: What's math got do to with computer science?
+     #+attr_html: :width 500px
+     [[./img/quora.png]]
 
 * References
 
