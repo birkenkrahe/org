@@ -1825,6 +1825,11 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
      - When you are attending in person, really attend
      - Ask me in or outside of class if anything is unclear
 
+   * If you want to improve your grade through extra credit, you can
+     talk to me about doing a small, independent research project
+     leading to a writeup in the form of a notebook, or a short (10-15
+     min) presentation. The topic must be related to the course.
+       
    * These skills are related to successful studying, which in turn is
      related to success in life through traditional values:
      *discipline*, *duty*, and *diligence*. This doesn't have anything
