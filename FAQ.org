@@ -1883,6 +1883,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
     (set-home-dir "C:/Users/birkenkrahe/")
   #+end_src
 
+  (Source: [[https://www.reddit.com/r/emacs/comments/a6ka23/change_home_folder_location_windows/][subreddit r/emacs]])
 * References
 
   <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
