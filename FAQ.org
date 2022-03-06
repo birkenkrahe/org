@@ -1739,7 +1739,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   * The concept of <<literate programming>> seems to be unclear to some
     students. So I came up with a few more examples - below for the
     introductory class on C and C++.
-    
+
   * Concept review: Can you answer the following questions?
 
     | What is Emacs?                             |
@@ -1782,73 +1782,104 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   * C code (or the code of any compiled language) can be run inside
     Org-mode, or it can be tangled and run separately.
-    
+
   #+caption: Display output in Emacs Org mode file
   #+attr_html: :width 600px
   [[./img/litprogc.png]]
 
-   * R code is run inside Org-mode via a session in an ESS
-      buffer. This session can be visited and used independently.
+  * R code is run inside Org-mode via a session in an ESS
+    buffer. This session can be visited and used independently.
 
   #+caption: Display output in Emacs Org mode file
   #+attr_html: :width 600px
   [[./img/litprogr.png]]
 
-   * SQLite (or generally shell code like bash) is run inside Org-mode
-     only. No session is generated.
-     
+  * SQLite (or generally shell code like bash) is run inside Org-mode
+    only. No session is generated.
+
   #+caption: Display output in Emacs Org mode file
   #+attr_html: :width 600px
   [[./img/litprogsqlite.png]]
 
-   * This works whenever you have Emacs and Org-mode, on Windows,
-     MacOS or Linux.
-       
+  * This works whenever you have Emacs and Org-mode, on Windows,
+    MacOS or Linux.
+
 * How can I improve my mid-term grades?
 
-   * You can ask me personally and specifically, what to do to get
-     your grades up
-     
-   * There is no reason not to have at good grade in my class:
-     1. You can usually submit in-class assignments late
-     2. The deadlines of the DataCamp assignments are well known
-     3. The quizzes contain ample instructions and can be repeated
-     4. Class attendance + Whiteboard screenshots + GitHub info
-     5. You can always talk to me for personal support
+  * You can ask me personally and specifically, what to do to get
+    your grades up
 
-   * Hence, to improve your grade, do:
-     - Submit in-class assignments if you could not attend class
-     - Complete DataCamp assignments on time
-     - Play the quizzes until you have 100% and read the feedback
-     - Attend class + look at screenshots + files afterwards
-     - Practice your skills whenever you can
-     - When you are attending in person, really attend
-     - Ask me in or outside of class if anything is unclear
+  * There is no reason not to have at good grade in my class:
+    1. You can usually submit in-class assignments late
+    2. The deadlines of the DataCamp assignments are well known
+    3. The quizzes contain ample instructions and can be repeated
+    4. Class attendance + Whiteboard screenshots + GitHub info
+    5. You can always talk to me for personal support
 
-   * If you want to improve your grade through extra credit, you can
-     talk to me about doing a small, independent research project
-     leading to a writeup in the form of a notebook, or a short (10-15
-     min) presentation. The topic must be related to the course.
-       
-   * These skills are related to successful studying, which in turn is
-     related to success in life through traditional values:
-     *discipline*, *duty*, and *diligence*. This doesn't have anything
-     to do with computer science.
+  * Hence, to improve your grade, do:
+    - Submit in-class assignments if you could not attend class
+    - Complete DataCamp assignments on time
+    - Play the quizzes until you have 100% and read the feedback
+    - Attend class + look at screenshots + files afterwards
+    - Practice your skills whenever you can
+    - When you are attending in person, really attend
+    - Ask me in or outside of class if anything is unclear
 
-   * What I'm going for in my classes is what I think computer
-     scientists need more than anything else:
+  * If you want to improve your grade through extra credit, you can
+    talk to me about doing a small, independent research project
+    leading to a writeup in the form of a notebook, or a short (10-15
+    min) presentation. The topic must be related to the course.
 
-     1. Critical thinking and analysis skills
-     2. Troubleshooting skills
-     3. Research skills
+  * These skills are related to successful studying, which in turn is
+    related to success in life through traditional values:
+    *discipline*, *duty*, and *diligence*. This doesn't have anything
+    to do with computer science.
 
-     This is nicely mirrored in [[https://github.com/birkenkrahe/org/issues/19][this comment]] to the question "Why are
-     computer science degrees so math intensive when the field doesn't
-     seem to use much math at all?" on Quora.
+  * What I'm going for in my classes is what I think computer
+    scientists need more than anything else:
 
-     #+caption: What's math got do to with computer science?
-     #+attr_html: :width 500px
-     [[./img/quora.png]]
+    1. Critical thinking and analysis skills
+    2. Troubleshooting skills
+    3. Research skills
+
+    This is nicely mirrored in [[https://github.com/birkenkrahe/org/issues/19][this comment]] to the question "Why are
+    computer science degrees so math intensive when the field doesn't
+    seem to use much math at all?" on Quora.
+
+    #+caption: What's math got do to with computer science?
+    #+attr_html: :width 500px
+    [[./img/quora.png]]
+
+* How to set a new Emacs home directory
+
+  On many Windows boxes, Emacs automatically takes a hidden directory
+  as its home location. This is where the ~.emacs~ file must reside.
+
+  You can locate this directory by typing ~%APPDATA%~ in the Windows
+  desktop search bar, but it's a major pain.
+
+  To redefine Emacs' HOME directory,
+  - put the following code at the end of your ~.emacs~ file
+  - change the path in the last line from ~birkenkrahe/~ to the name
+    of your Windows ~User~ directory
+  - copy the ~.emacs~ file into that directory
+  - restart Emacs
+  - you should now see the message ~HOME location is ...~
+  - your new Emacs home directory ~ will now be this location.
+
+  If you'd like to have all your Emacs stuff in another directory,
+  e.g. ~C:/Users/yourName/emacs~, you can also use that as a path.
+
+  #+begin_src emacs-lisp
+    ;; Set new home directory ~/ in Emacs
+    (defun set-home-dir (dir)
+      "Set a new HOME directory. This is where Emacs will look for init files and
+       where '~' will default to."
+      (setenv "HOME" dir)
+      (message (format "HOME location is %s" (getenv "HOME"))))
+
+    (set-home-dir "C:/Users/birkenkrahe/")
+  #+end_src
 
 * References
 
