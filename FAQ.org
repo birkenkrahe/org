@@ -1865,7 +1865,9 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   - copy the ~.emacs~ file into that directory
   - restart Emacs
   - you should now see the message ~HOME location is ...~
-  - your new Emacs home directory ~ will now be this location.
+  - your new Emacs home directory ~ will now be this location - this
+    is where Emacs will "wake up" from now on. It will also create a
+    new ~.emacs.d~ directory where packages will be stored.
 
   If you'd like to have all your Emacs stuff in another directory,
   e.g. ~C:/Users/yourName/emacs~, you can also use that as a path.
