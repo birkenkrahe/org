@@ -9,6 +9,38 @@
   across all courses, mostly to avoid lengthy emails and to park
   content that I may want to develop later on time permitting.
 
+* Anti-Windows Rant (another one)
+
+  Windows makes everything harder, nothing easier, unless you're
+  happy just streaming YouTube, playing Candy Crush, or editing in
+  WORD - technologies from the mid-1990s. Sorry, I just had to say it
+  (again), after countless hours of frustration with nothing to show
+  for. Which is why brainless articles with bad logic like this one
+  get me upset: "[[https://www.makeuseof.com/reasons-switch-from-linux-to-windows/][8 Reasons to Switch From Linux to Windows]]".
+
+  * WSL is not Linux. Not even close.
+  * "The best Apps" are not identified.
+  * Windows offers better support? Sure, for issues caused by Windows.
+  * Choice is consumer power, and Windows offers none.
+  * Nostalgic for Windows? Hmmm. Putin's nostalgic for the Soviet
+    Union. That's no reason to support Russia's war on Ukraine...
+
+  Instead, some truth-telling from the installation instructions for
+  AUCTEX (a free typesetting program based on TeX):
+
+  #+begin_quote
+  "Windows is a problematic platform for installation scripts. The main
+  problem is that the installation procedure requires consistent file
+  names in order to find its way in the directory hierarchy, and Windows
+  path names are a mess." ([[https://www.gnu.org/software/auctex/manual/auctex/Installation-under-MS-Windows.html][gnu.org]])
+  #+end_quote
+
+  The crazy thing is that I will never get these hours of struggling
+  with Windows back! And unlike my previous, equally countless hours
+  of struggling with Linux, I did not learn a single thing, and very
+  little is useful in the future, because where the journey goes
+  nobody knows with Windows, and paying for the trip does not give
+  you the privilege of knowing.
 
 * "I can teach it to you but I cannot learn it for you"
 
