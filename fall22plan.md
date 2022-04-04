@@ -27,7 +27,7 @@ Contact me if you want details on any of these. I'm looking forward to seeing yo
 
 -   Fall'22 - **Snap! Programming Playground** (COR 100). Create exciting games,
     animation and media computation, and learn computer and data
-    science principles by playing with data. **What this is about.** In
+    science principles by playing with data. In
     this course, you will complete a series of game and animation
     projects using the visual, drag-and-drop programming language
     Snap!  You will learn basic computer and data science principles,
@@ -35,14 +35,14 @@ Contact me if you want details on any of these. I'm looking forward to seeing yo
     us. You will graduate from mere consumer and user to powerful
     programmer while playing around with blocks on the
     screen. Acquiring programming skills will help you develop your
-    critical thinking. **What we will do.** We will meet weekly for
+    critical thinking. We will meet weekly for an hour only of
     practical problem solving and interactive exercises. In between
     classes, you will work on small assignments like this [Time
     Machine](https://snap.berkeley.edu/project?user=birkenkrahe&project=TimeMachine), and you will read short textbook chapters or watch short
     instructional videos. You'll get to present your own work and
     (optionally) publish your finished projects for the whole world
     to see, and if things go well, perhaps we'll go to Snap!Con in
-    California next year! **Why you should do it.** This course is for
+    California next year! This course is for
     you if you're curious about visual programming, if you don't know
     if working with computers is for you, or if you're interested in
     media, the arts, data, or in developing games. Snap! is also a
