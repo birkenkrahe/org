@@ -110,7 +110,7 @@ Contact me if you want details on any of these. I'm looking forward to seeing yo
     cross-referenced as a math special topics course (MTH 445). This
     course will be offered again in fall 2024.
 
--   Fall'22 - **Internship course:** An internship can be an important
+-   Fall'22 - **Junior and Senior nternship course:** An internship can be an important
     "rite of passage", allowing you to test your skills in a real
     work environment. It can help you to find out who you are, what
     you want (or don't want) to do with your life and your education,
@@ -120,7 +120,6 @@ Contact me if you want details on any of these. I'm looking forward to seeing yo
     internship and help you make the most of the experience. We will
     meet weekly for one hour of discussion, you will write a weekly
     short (150 words) blog on GitHub, and briefly present your
-    internship. Prerequisites: none. This course is offered every
-    term.
+    internship. Prerequisites: none. Offered again in spring 2023.
 
 
