@@ -122,4 +122,5 @@ Contact me if you want details on any of these. I'm looking forward to seeing yo
     short (150 words) blog on GitHub, and briefly present your
     internship. Prerequisites: none. Offered again in spring 2023.
 
+![img](./img/adventure1.gif "You're going on an adventure!")
 
