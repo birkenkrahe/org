@@ -1,5 +1,5 @@
 
-# I'm teaching the following courses in fall 2022:
+# I'm teaching the following courses in the summer and fall of 2022:
 
 Contact me if you want details on any of these. I'm looking forward to seeing you in class!
 
