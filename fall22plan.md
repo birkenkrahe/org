@@ -90,7 +90,7 @@ Contact me if you want details on any of these. I'm looking forward to seeing yo
     introduction to programming (CSC 100 or CSC 115), or consent of
     the instructor. This course will be offered again in fall 2024.
 
--   Fall'22 - **Applied math for data science (CSC 482):** Data science
+-   Fall'22 - **Applied math for data science (DSC 482):** Data science
     is known to be math and stats heavy, but most of the math power
     is under the hood - you don't see much of it. This course will
     help you bridge the gap between what you already know and what is
