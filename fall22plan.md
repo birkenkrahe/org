@@ -5,7 +5,7 @@ Contact me if you want details on any of these. I'm looking forward to seeing yo
 
 ![img](./img/adventure.gif "You're going on an adventure!")
 
--   Summer '22 - **Introduction to programming in C**. This course
+-   Summer '22 - **Introduction to programming in C** (CSC 100). This course
     introduces you to programming using C. We cover C++ as an
     extension. C is a system programming language of pure power: it
     enables you to converse with the computer at a level unknown to
@@ -25,7 +25,7 @@ Contact me if you want details on any of these. I'm looking forward to seeing yo
     structures with C++" (CSC 240) and "Algorithms" (CSC
     265). Prerequisites: none.
 
--   Fall'22 - **Snap! Programming Playground**. Create exciting games,
+-   Fall'22 - **Snap! Programming Playground** (COR 100). Create exciting games,
     animation and media computation, and learn computer and data
     science principles by playing with data. **What this is about.** In
     this course, you will complete a series of game and animation
