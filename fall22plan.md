@@ -1,8 +1,9 @@
 
 # I'm teaching the following courses in fall 2022:
 
-Contact me if you want details on any of these - the descriptions
-are also on GitHub. I'm looking forward to seeing you in class!
+Contact me if you want details on any of these. I'm looking forward to seeing you in class!
+
+![img](./img/adventure.gif "You're going on an adventure!")
 
 -   Summer '22 - **Introduction to programming in C**. This course
     introduces you to programming using C. We cover C++ as an
@@ -122,5 +123,4 @@ are also on GitHub. I'm looking forward to seeing you in class!
     internship. Prerequisites: none. This course is offered every
     term.
 
-![img](./img/adventure.gif "You're going on an adventure!")
 
