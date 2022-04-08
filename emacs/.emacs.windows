@@ -218,3 +218,5 @@
 
 ;; set default working directory to c:/Documents/GitHub/
 (setq default-directory "c:\\Users\\birkenkrahe\\Documents\\GitHub\\")
+
+(setq-default org-hide-emphasis-markers t)
