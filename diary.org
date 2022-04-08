@@ -9,6 +9,22 @@
   across all courses, mostly to avoid lengthy emails and to park
   content that I may want to develop later on time permitting.
 
+* Teaching programming with hacker tools: literate programming didactics
+
+  This was the long, convoluted title of my faculty colloquium talk
+  this afternoon (April 8, 2022) at Lyon College. Considering the
+  arcane topic, it was packed - I was especially pleased that there
+  were a bunch of students in attendance. Some even contributed with
+  smart questions, and others through the informal poll regarding GNU
+  Emacs that I had launched a week earlier.
+
+  [[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WILtLJR2sHSfr6Fs/edit?usp=sharing][Here is the link to the presentation + references + backup slides]].
+
+  Some good conversations about work, life, and science fiction
+  literature afterwards. I've got delightful colleagues!
+  
+  Back to work!
+
 * How to get a job as a computer scientist
 
   If you're a senior, who's heading for the job market, or a junior

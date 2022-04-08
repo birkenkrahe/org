@@ -202,6 +202,9 @@
 ;; plink.exe must be in the PATH
 (setq tramp-default-method "plink")
 (setq tramp-default-user "pi")
+
+(setq-default org-hide-emphasis-markers t)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

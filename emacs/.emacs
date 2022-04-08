@@ -33,4 +33,4 @@
 (add-to-list 'package-archives
 	     '("melpa-stable" . "https://stable.melpa.org/packages/"))
 
-
+(setq-default org-hide-emphasis-markers t)
