@@ -14,7 +14,7 @@ Contact me if you want details on any of these. I'm looking forward to seeing yo
     editors Emacs, using C for Internet of Things (IoT) devices,
     cybersecurity, using pseudocode and process modeling. You get a
     foundation in critical thinking in concert with one of the three
-    currently most popular languages (the other two are Python and
+    currently most popular languages (the other two, according to the [TIOBE index](https://www.tiobe.com/tiobe-index/), are Python and
     Java). The course is for anyone who is interested in learning
     computational thinking and basic programming skills. You get:
     short lectures and practice sessions with interactive notebooks,
