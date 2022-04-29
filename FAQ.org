@@ -128,7 +128,7 @@
 * How can you read more research papers?
 
   The title comes from [[https://www.louisbouchard.ai/research-papers/][this article]] by Louis Bouchard (23 June
-  2021)[fn:9]. It's useful and you should all read it and take from it what
+  2021)[fn:8]. It's useful and you should all read it and take from it what
   you want. Here, I'm offering a few comments, organized by the
   different stages addressed in the article.
 
@@ -149,7 +149,7 @@
   The article mentioned only addresses the second question in
   detail. The first question is touched upon in a paragraph on bias
   and trustworthiness at the end. In short: don't trust anyone until
-  you've checked the results yourselves[fn:10].
+  you've checked the results yourselves[fn:9].
 
   The author's answer to the first question is based on a series of
   software tools that can support your search. I only knew 2 of these
@@ -214,12 +214,12 @@
 
   1) *install* Git locally (i.e. on your work computer)
   2) *initialize* Git locally in a repository ("repo")
-  3) *register* a GitHub account (don't use your real name!)[fn:12]
+  3) *register* a GitHub account (don't use your real name!)[fn:10]
   4) *send me* your account name so that I can add you[fn:11]
   5) *upload* your files to my repo when requested to do so
-  6) *raise* a repo issue to comment upon something [optional][fn:13]
+  6) *raise* a repo issue to comment upon something [optional][fn:12]
   7) *discuss* in your course discussion forums [optional]
-  8) *fork* my repo to your GitHub account [optional][fn:14]
+  8) *fork* my repo to your GitHub account [optional][fn:13]
   9) *create* your own (private or public) repo [optional]
   10) *invite* me as a collaborator to your repo [optional]
 
@@ -441,7 +441,7 @@
 
   Emacs is hands down the best editor in the world, written in [[https://en.wikipedia.org/wiki/Lisp_(programming_language)][LISP]][fn:2],
   one of the earliest programming languages for AI research, and the
-  second oldest language in widespread use (after FORTRAN)[fn:21].
+  second oldest language in widespread use (after FORTRAN)[fn:14].
 
   They say the learning curve of this "complex beast" ([[https://masteringemacs.org/article/beginners-guide-to-emacs][Petersen, 2019]])
   is steep but don't believe it.  Here is an link to [[https://opensource.com/article/20/3/getting-started-emacs][get started with
@@ -529,7 +529,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
     I like to create code notebooks in Org-mode files. To do this, I
     use the following syntax for R (if I want to see the output right
-    below the chunk)[fn:16]:
+    below the chunk)[fn:15]:
 
     #+begin_example
    #+begin_src R :session output
@@ -565,7 +565,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   All of this saves me tons of time - GitHub + Emacs + Org-mode (in
   Emacs) are my two or three main productivity tools to run a proper
   ship even with four or five courses in parallel, and with a fair
-  amount of involvement and new developments[fn:15].
+  amount of involvement and new developments[fn:16].
 
   To work with GitHub under Windows, the easiest way is to download
   GitHub desktop, and create a local copy of your remote repo, or the
@@ -701,22 +701,22 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    |-----+-------------+-------------------------------------------------------------------------------|
    |   1 | Content     | Did you research the topic (literature review)?                               |
    |   2 |             | Did you make an effort to quantify statements (graphs, tables)?               |
-   |   3 |             | Were your graphs and tables clear and unambiguous?[fn:26]                     |
+   |   3 |             | Were your graphs and tables clear and unambiguous?[fn:21]                     |
    |   4 |             | Did you explain where your content came from?                                 |
    |   5 |             | Did you demonstrate an effort to validate your sources?                       |
    |   6 |             | Were you able to answer questions about the slides?                           |
    |   7 |             | Are you aware of the limitations of your research (method and personal bias)? |
    |   8 |             | Did you select those results suitable for presentation?                       |
-   |   9 | Form        | Did you make an effort to optimize your slides?[fn:25]                        |
+   |   9 | Form        | Did you make an effort to optimize your slides?[fn:22]                        |
    |  10 |             | Did you control your diction, spelling, mistakes on slides?                   |
    |  11 |             | Did the presentation seem rehearsed and well-tested?                          |
-   |  12 |             | Were you dressed appropriate to the occasion?[fn:22]                          |
-   |  13 |             | Did the presentation have a clear, logical structure?[fn:27]                  |
+   |  12 |             | Were you dressed appropriate to the occasion?[fn:23]                          |
+   |  13 |             | Did the presentation have a clear, logical structure?[fn:24]                  |
    |  14 | Interaction | Did you make an effort to involve the audience?                               |
    |  15 | References  | Did you provide references, with consistent and complete citations            |
    |  16 |             | Did you use inline references on slides?                                      |
-   |  17 | Team        | How well did you work together during the presentation[fn:24]                 |
-   |  18 | Timing      | Did you respect the timelines (start/end)?[fn:23]                             |
+   |  17 | Team        | How well did you work together during the presentation[fn:25]                 |
+   |  18 | Timing      | Did you respect the timelines (start/end)?[fn:26]                             |
 
    I will give you short formative (qualitative) feedback based on the
    question breakdown above so that you know where your grade comes
@@ -831,7 +831,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    Type ~Microsoft store~ in the search bar (next to the task bar),
    and then search for ~Ubuntu~ in the search field inside the
    store. You find different distributions. Pick ~Ubuntu 20.04
-   LTS~[fn:12] and click on ~Get~ to download the installer. The
+   LTS~[fn:10] and click on ~Get~ to download the installer. The
    distribution will take about 0.5 GB disk space.
 
    /Image: info about the distribution from Canonical/
@@ -860,6 +860,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    [[./img/ubuntu2.png]]
 
 ** Enable Windows subsystem for Linux
+   <<WSL2>>
 
    Go to the Windows search bar and look for ~Turn Windows features on
    or off~. A screen pops up. Scroll down until you see ~Windows
@@ -1502,7 +1503,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    * ~Command line instructions~: the ~Git~ program is originally a
      command line program - everything you do in GitHub graphically
      can also be done with simple text commands. This is generally
-     much faster and safer[fn:28]. Within the command line option,
+     much faster and safer[fn:27]. Within the command line option,
      you can submit ~Git~ commands remotely via ~https~, or use the
      ~git~ program if you have it installed.
 
@@ -1587,7 +1588,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    "Emacs outshines all other editing software in approximately the same
    way that the noonday sun does the stars. It is not just bigger and
    brighter; it simply makes everything else vanish." – Neal Stephenson,
-   In the Beginning was the Command Line (1998)[fn:8]
+   In the Beginning was the Command Line (1998)[fn:28]
    #+end_quote
 
    We will not use Emacs as a substitute for religion even though
@@ -1643,7 +1644,7 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
    Computer science, and IT, are largely about mastering, and creating
    new tools. Therefore, almost any effort is justified that goes into
-   improving your *meta skills*[fn:9] in this area.
+   improving your *meta skills*[fn:8] in this area.
 
 * Fixing the .emacs problem on Windows lab computers
 ** The problem
@@ -1884,6 +1885,138 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   #+end_src
 
   (Source: [[https://www.reddit.com/r/emacs/comments/a6ka23/change_home_folder_location_windows/][subreddit r/emacs]])
+* How to set up a Docker container for command line work
+
+  These instructions come from [[cmdline][Janssens (2021)]]. I've tried them on a
+  Windows box running Windows 10 but they should run on a Mac or a
+  Linux machine, too (though under Linux, you already have a native
+  UNIX environment, so why bother?).
+
+  [[Docker][See below]] for information on Docker. In short, Docker is a container
+  software that allows you to run Linux under Windows or MacOS. You
+  can load the container with all kinds of additional software, too,
+  that otherwise would have to be installed. The machine has to work
+  quite hard when running a container (a virtualized OS) so it might
+  get hot and slow. On my Dell Precision 2021 I have not noticed any
+  slowdown but the computer sounds like a Tesla factory...
+
+  Requirements: 1GB available space for the docker image.
+
+  1. Download the Docker desktop app [[https://www.docker.com/products/docker-desktop/][from here]] (Windows or MacOS)
+  2. Run the docker Desktop Installer program that you downloaded
+  3. You'll have to restart your computer.
+  4. If you [[https://www.docker.com/get-started/][sign up with Docker]] and login (choose the free package)
+     you can create your own images and upload them to the Docker
+     Hub - I think this is optional.
+  5. Open a CMD line terminal on Windows and run [[https://hub.docker.com/r/datasciencetoolbox/dsatcl2e][this image]] with the
+     following command (see figure [[docker1]] below).
+
+     It is possible that you first need to login to the application
+     (not the Hub) by typing ~docker login~.
+
+     #+begin_example bash
+       docker run --rm -it datasciencetoolbox/dsatcl2e
+     #+end_example
+
+     #+name: docker1
+     #+attr_html: :width 500px
+     #+caption: screen dialog to run the docker image
+     [[./img/docker1.png]]
+
+  6. The Docker container has to be built now, which takes a few
+     minutes depending on what else you've got going on but once it's
+     built, you can run it instantly with the ~docker run~ command.
+
+     #+name: docker2
+     #+attr_html: :width 500px
+     #+caption: list of csvkit tools in the container
+     [[./img/docker2.png]]
+
+     As ~cat /etc/os-release~ shows, this container runs Ubuntu
+     21.04. You can (and should) update and upgrade the distribution
+     on the command line as you would in any other OS, with ~sudo apt
+     update -y~ and ~sudo apt upgrade -y~.
+
+     #+name: docker3
+     #+attr_html: :width 500px
+     #+caption: operating system run in the container
+     [[./img/docker3.png]]
+
+  7. To interact with the container and in particular put data in its
+     file system so that you can work with it as with any other file,
+     you have to find/establish a directory to exchange data between
+     the two systems (one of which, docker-Ubuntu, lives parasitically
+     on your Windows-OS, using the WSL or "Windows Subsystem for
+     Linux"[fn:29]).
+
+     In this case, Docker creates a directory ~/data~ where you can put
+     your files in Windows and where you can retrieve files from
+     Linux. But to get it, you have to run Docker with this command
+     that maps ~/data on /data in the container.
+
+     #+begin_example bash
+       docker run --rm -it -v "%cd%":/data datasciencetoolbox/dsatcl2e
+     #+end_example
+
+     Figure [[docker4]] shows
+
+     #+name: docker4
+     #+attr_html: :width 500px
+     #+caption: /data directory in the container (top) and Windows (bottom)
+     [[./img/docker4.png]]
+     
+
+  8. This is the same command line that you get when you log into
+     ~replit.com~ except that it already has the ~csvkit~ library
+     installed.
+
+     Alternatives: buy a Raspberry Pi 400 ($99), which comes with
+     Raspbian Linux but you can also put the latest Ubuntu Linux and
+     many other distros on it.
+
+     Now your cow can have her say, too:
+
+     [[./img/cowsay.png]]
+
+** What is Docker anyway?
+
+   (This section was lifted from the notes for the Operating Systems
+   class CSC 420, spring 2022)
+
+   <<Docker>> explains it well ([[https://www.docker.com/resources/what-container][docker.com]]):
+
+   #+begin_quote
+   "A container is a standard unit of software that packages up code and
+   all its dependencies so the application runs quickly and reliably from
+   one computing environment to another."
+   #+end_quote
+
+   The concept is similar to a Java VM runtime environment: but
+   instead of just running Java, you can run pretty much anything in
+   the container. As the figure shows, the Docker separates the app
+   from the Operating System (Linux, Windows, MacOS). This is
+   convenient, because now you don't need to bother with the OS. But
+   it also stops you from learning anything about how apps interact
+   with the system itself. It's super cool if all you are about is
+   building apps, especially web apps, like replit.com. It's not so
+   cool if you're up against legacy systems (old software or
+   hardware), or if you actually like interacting with the OS (via
+   the shell), or if you want to create anything new, or if your mojo
+   is performance improvement (e.g. making algorithms or data
+   pipelines faster), because that depends on deeper knowledge. The
+   good news: everyone can install a container, and they safe
+   (actually, that's another problem...more layers, more potential
+   attack points). Here is a [[https://www.ondat.io/blog/6-problems-with-container-technology-in-the-enterprise][list of 6 issues]] ([[docker][Brandon, 2021]]).
+
+   Long story short: important concept and technology, you should try
+   it out and explore it a little, perhaps you fall in love, and in
+   the least you get another marketable skill.
+
+   #+caption: Containerized applications (docker.com)
+   #+attr_html: :width 500px
+   [[./img/docker.png]]
+
+
 * References
 
   <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
@@ -1903,6 +2036,9 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
   DistroTube (). Switching to GNU Emacs [video]. [[https://youtu.be/Y8koAgkBEnM][URL:
   youtu.be/Y8koAgkBEnM]].
+
+  <<cmdline>> Janssens (2021). Data science on the command line
+  (2e). O'Reilly. [[https://datascienceatthecommandline.com/][URL: datascienceatthecommandline.com.]]
 
   gnu.org (n.d.). GNU Emacs manuals [website]. [[https://www.gnu.org/software/emacs/manual/][URL: www.gnu.org.]]
 
@@ -1935,134 +2071,22 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
 * Footnotes
 
-[fn:28] In Emacs, you can also use a package called [[https://magit.vc/][~magit~]] to manage
-version control.
-
-[fn:27]Logical structure means e.g. that the Minto pyramid rules are
-respected: MECE, horizontal groupings (subsections) are ordered and on
-the same level, vertical groupings follow the IMRaD rule, or are
-otherwise well motivated by the research question and the method.
-
-[fn:26]Graphs are (usually) better than tables. All illustrations that
-are important should ideally be created by you for the
-presentation. If they are not important, don't show them in the final
-presentation.
-
-[fn:25]So many possibilities here: not too much text on each slide,
-use illustrations, including images, graphs, tables - which you
-created yourself rather than just copy them. Number slides (for easy
-reference), indicate your process flow (e.g. by marking on each slide
-where you are and how much stuff is still left). Make sure slides are
-readable even from a distance (font, face, color). This is something
-that you have likely experimented with during the sprint reviews and
-drawn comments from the product owner and the audience.
-
-[fn:24]Irrelevant if you present on your own - though there is still
-the issue of managing transitions between different parts of your
-presentation - think Situation-Complication-Question, and Q&A.
-
-[fn:23]Make sure that you understand how much time you have. Design your
-content/slides deck accordingly. Have a minimum set of slides that you
-must present, a few more that you'd like to show, and more that you
-could show when asked for details.
-
-[fn:22]This may surprise you (I hope it does not): the final
-presentation is a momentous occasion. There are no second impressions
-when you present your final product to the customer, no "I'll shave
-next time!", or "Next time, I'll wear a clean shirt!"
-
-[fn:21]Here is an enthusiastic review and tutorial called "[[https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html][A CEO's
-Guide To Emacs]]" ([[stella][Stella, 2015]]), which you might enjoy reading. The
-author is (was?) the CEO of Fugue, a cloud security platform.
-
-[fn:20]As a Shell manager, I had the opportunity to learn the method
-first hand from Barbara Minto herself (as you can hear in one of my
-two short videos).
-
-[fn:19]Some of the items that I mentioned and asked for certainly are
-not invariant: quantification, prioritized bullet points, less is more
-on the page etc. - all of these do depend on audiences and topic!
-Still, as university students, now and later, you're more likely to
-have to report on numbers in a systematic, minimal way, hence these
-suggestions are still useful.
-
-[fn:18]Invariants in physics and mathematics is anything that does not
-change under transformation, from one reference frame to another.
-
-[fn:17]"Rapport is a close and harmonious relationship in which the
-people or groups concerned are "in sync" with each other, understand
-each other's feelings or ideas, and communicate smoothly." ([[https://en.wikipedia.org/wiki/Rapport][Wikipedia]])
-
-[fn:16]This would work for any language that Emacs supports, which is
-pretty much every programming language in existence.
-
-[fn:15]If you never make any changes you don't need to watch
-productivity, because you can just regurgitate old stuff. However,
-personally, I would get bored to death.
-
-[fn:14]"Forking" means that you create an active copy of the repo in
-your own workspace. Whenever the owner makes changes to the forked
-repo, you'll be notified so that you can follow the change ("fetch
-upstream").
-
-[fn:13]The difference between "discussion" and "issue" is that the
-latter suggests a change or a comment by the developers. Discussions
-on the other hand are free form.
-
-[fn:12]Once you register, you'll be asked to complete the "[[https://guides.github.com/activities/hello-world/][Hello
-World]]" activity - do it - takes 15 minutes of your time!
-
-[fn:11]You will then be a "collaborator" on my repo, which means that
-you can raise issues, discuss, upload files, create branches, and make
-pull requests.
-
-[fn:10]There's something else worth noticing: this article, as most
-articles on the web, are written by self starters and by independent
-students or scholars. Nothing wrong with that but if you're lucky
-enough to study at an institution, you can use experts around you to
-find out about the best papers. These experts act like curators. For
-example, I scan a lot of literature and will often pass interesting
-articles on to you - like this one!
-
-[fn:9]I received this online publication because I am subscribed to an
-aggregator service. If you're not subscribed, you only have a limited
-number of articles that you can view for free.
-
-[fn:8]I do this in Emacs using [[https://magit.vc/][Magit]], a text-based user interface to
-Git.
-
-[fn:7]About that: most texts are not well written. Students often
-feel it but don't know it for sure - but if a text does not speak to
-you even though you honestly want to learn, it is more likely the
-fault of its author. Or it could be that you need to read it not on a
-digital device - I e.g. need to read mathematical texts on paper - I
-cannot follow when I only see it displayed on a screen. If you cannot
-find a well written text, try to write one yourself! Many excellent
-books by excellent people were created that way (I should cite
-examples here, but this is anecdotal knowledge - I should look it up,
-or you could look it up and let me know).
-
-[fn:6]Though in the case of the abovementioned online course, the
-reason is that the course is quite boring, so I use the props to keep
-myself entertained. If coding is not entertaining to you, something
-else may be, e.g. making mindmaps or recording a log of what you
-learnt, or doodling.
-
-[fn:5]For the abovementioned online course on basic probability using
-R, I fired up my R program and type examples into the console as I
-listen to the lecture, and when I summarize it. If I work out a
-lecture, I use my trusty Emacs editor to write an Org-mode file, which
-includes code chunks, a concept and a code summary.
-
-[fn:4]It doesn't have to be rocket science: recently, I took an online
-course on basic probability. Since I had not looked at the material
-for a long time, I had lost all mathematical intuition, and I had to
-write down every example mentioned in the instruction video, to
-recover at least some of it.
-
 [fn:1]This is a principle of utility, which you will recognize as a
 guiding principle for AI, especially for autonomous agents. Even if
 you don't subscribe to it, you need to understand it.
+
+[fn:2]For example, as I am writing this, I'm watching "[[https://techtv.mit.edu/videos/10268-the-thinking-machine-1961---mit-centennial-film][The Thinking
+Machine]]" (53 min. 1961). It's fascinating, but as I'm skimming
+(i.e. listening to the first few minutes, looking at reviews ([[https://www.fastcompany.com/90399709/to-understand-ai-in-2019-watch-this-1960-tv-show][like
+this one from 2019]]) or secondary sources to validate the content (who
+are the authors? Whom does this text serve? When was it written? Where
+was it published?), and going to two or three places in the film (to
+see if the initial quality holds), I realize that I will have to dive
+more deeply into this material - the equivalent of reading type (4)
+where I take notes, jot down questions and my own ideas, perhaps even
+branch into (5) and use a prop like a mindmap. If I go there or not
+will depend on a number of factors: time available, alternative
+sources, my mood, the weather, other priorities, etc.
 
 [fn:3]I don't know about your attention span, but my attention span is
 atrociously short: I always have so much running through my mind that
@@ -2077,15 +2101,132 @@ than that, it doesn't only distract you but it also re-orients you
 quickly, so you're probably able to deal with more stimulation than
 other people.
 
-[fn:2]For example, as I am writing this, I'm watching "[[https://techtv.mit.edu/videos/10268-the-thinking-machine-1961---mit-centennial-film][The Thinking
-Machine]]" (53 min. 1961). It's fascinating, but as I'm skimming
-(i.e. listening to the first few minutes, looking at reviews ([[https://www.fastcompany.com/90399709/to-understand-ai-in-2019-watch-this-1960-tv-show][like
-this one from 2019]]) or secondary sources to validate the content (who
-are the authors? Whom does this text serve? When was it written? Where
-was it published?), and going to two or three places in the film (to
-see if the initial quality holds), I realize that I will have to dive
-more deeply into this material - the equivalent of reading type (4)
-where I take notes, jot down questions and my own ideas, perhaps even
-branch into (5) and use a prop like a mindmap. If I go there or not
-will depend on a number of factors: time available, alternative
-sources, my mood, the weather, other priorities, etc.
+[fn:4]It doesn't have to be rocket science: recently, I took an online
+course on basic probability. Since I had not looked at the material
+for a long time, I had lost all mathematical intuition, and I had to
+write down every example mentioned in the instruction video, to
+recover at least some of it.
+
+[fn:5]For the abovementioned online course on basic probability using
+R, I fired up my R program and type examples into the console as I
+listen to the lecture, and when I summarize it. If I work out a
+lecture, I use my trusty Emacs editor to write an Org-mode file, which
+includes code chunks, a concept and a code summary.
+
+[fn:6]Though in the case of the abovementioned online course, the
+reason is that the course is quite boring, so I use the props to keep
+myself entertained. If coding is not entertaining to you, something
+else may be, e.g. making mindmaps or recording a log of what you
+learnt, or doodling.
+
+[fn:7]About that: most texts are not well written. Students often
+feel it but don't know it for sure - but if a text does not speak to
+you even though you honestly want to learn, it is more likely the
+fault of its author. Or it could be that you need to read it not on a
+digital device - I e.g. need to read mathematical texts on paper - I
+cannot follow when I only see it displayed on a screen. If you cannot
+find a well written text, try to write one yourself! Many excellent
+books by excellent people were created that way (I should cite
+examples here, but this is anecdotal knowledge - I should look it up,
+or you could look it up and let me know).
+
+[fn:8]I received this online publication because I am subscribed to an
+aggregator service. If you're not subscribed, you only have a limited
+number of articles that you can view for free.
+
+[fn:9]There's something else worth noticing: this article, as most
+articles on the web, are written by self starters and by independent
+students or scholars. Nothing wrong with that but if you're lucky
+enough to study at an institution, you can use experts around you to
+find out about the best papers. These experts act like curators. For
+example, I scan a lot of literature and will often pass interesting
+articles on to you - like this one!
+
+[fn:10]Once you register, you'll be asked to complete the "[[https://guides.github.com/activities/hello-world/][Hello
+World]]" activity - do it - takes 15 minutes of your time!
+
+[fn:11]You will then be a "collaborator" on my repo, which means that
+you can raise issues, discuss, upload files, create branches, and make
+pull requests.
+
+[fn:12]The difference between "discussion" and "issue" is that the
+latter suggests a change or a comment by the developers. Discussions
+on the other hand are free form.
+
+[fn:13]"Forking" means that you create an active copy of the repo in
+your own workspace. Whenever the owner makes changes to the forked
+repo, you'll be notified so that you can follow the change ("fetch
+upstream").
+
+[fn:14]Here is an enthusiastic review and tutorial called "[[https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html][A CEO's
+Guide To Emacs]]" ([[stella][Stella, 2015]]), which you might enjoy reading. The
+author is (was?) the CEO of Fugue, a cloud security platform.
+
+[fn:15]This would work for any language that Emacs supports, which is
+pretty much every programming language in existence.
+
+[fn:16]If you never make any changes you don't need to watch
+productivity, because you can just regurgitate old stuff. However,
+personally, I would get bored to death.
+
+[fn:17]"Rapport is a close and harmonious relationship in which the
+people or groups concerned are "in sync" with each other, understand
+each other's feelings or ideas, and communicate smoothly." ([[https://en.wikipedia.org/wiki/Rapport][Wikipedia]])
+
+[fn:18]Invariants in physics and mathematics is anything that does not
+change under transformation, from one reference frame to another.
+
+[fn:19]Some of the items that I mentioned and asked for certainly are
+not invariant: quantification, prioritized bullet points, less is more
+on the page etc. - all of these do depend on audiences and topic!
+Still, as university students, now and later, you're more likely to
+have to report on numbers in a systematic, minimal way, hence these
+suggestions are still useful.
+
+[fn:20]As a Shell manager, I had the opportunity to learn the method
+first hand from Barbara Minto herself (as you can hear in one of my
+two short videos).
+
+[fn:21]Graphs are (usually) better than tables. All illustrations that
+are important should ideally be created by you for the
+presentation. If they are not important, don't show them in the final
+presentation.
+
+[fn:22]So many possibilities here: not too much text on each slide,
+use illustrations, including images, graphs, tables - which you
+created yourself rather than just copy them. Number slides (for easy
+reference), indicate your process flow (e.g. by marking on each slide
+where you are and how much stuff is still left). Make sure slides are
+readable even from a distance (font, face, color). This is something
+that you have likely experimented with during the sprint reviews and
+drawn comments from the product owner and the audience.
+
+[fn:23]This may surprise you (I hope it does not): the final
+presentation is a momentous occasion. There are no second impressions
+when you present your final product to the customer, no "I'll shave
+next time!", or "Next time, I'll wear a clean shirt!"
+
+[fn:24]Logical structure means e.g. that the Minto pyramid rules are
+respected: MECE, horizontal groupings (subsections) are ordered and on
+the same level, vertical groupings follow the IMRaD rule, or are
+otherwise well motivated by the research question and the method.
+
+[fn:25]Irrelevant if you present on your own - though there is still
+the issue of managing transitions between different parts of your
+presentation - think Situation-Complication-Question, and Q&A.
+
+[fn:26]Make sure that you understand how much time you have. Design your
+content/slides deck accordingly. Have a minimum set of slides that you
+must present, a few more that you'd like to show, and more that you
+could show when asked for details.
+
+[fn:27] In Emacs, you can also use a package called [[https://magit.vc/][~magit~]] to manage
+version control.
+
+[fn:28]I do this in Emacs using [[https://magit.vc/][Magit]], a text-based user interface to
+Git.
+
+[fn:29]This is the same sub-system that is used to install and run the
+Ubuntu App featured in this FAQ - however, the installation requires
+more steps. If your Docker installation fails, you may also have to
+enable [[WSL2][WSL2]].
