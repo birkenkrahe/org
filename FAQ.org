@@ -2016,6 +2016,62 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    #+attr_html: :width 500px
    [[./img/docker.png]]
 
+* Should I take a data science minor or a business minor?
+
+  A student asked me recently and I thought I had better put my answer
+  in writing.
+  
+  A business major or minor degree is still much more common place
+  than a data science degree. This means that "business" is more
+  recognizable, but also that there's likely more competition for
+  available jobs.
+
+  Because data science, rightly or wrongly, is still perceived as new
+  and somewhat exotic, companies may have a hard time knowing how to
+  recruit for a data scientist (even if they know that they have a
+  need for this particular skillset).
+
+  Typically, anything with "business intelligence", "analytics" or
+  "prediction" in the job description, or anything listing tools like
+  Tableau, Power BI, SQL, R or Python, asks for a data scientist.
+
+  Because the field of data science moves quite rapidly, it is more
+  important to keep up with it at large than with business at
+  large. Put differently: in data science, new things must often be
+  learnt from papers, blogs or preprints, while in business, there are
+  people to tell you what's important and what's not important.
+
+  This doesn't mean that there isn't a science to business but as a
+  general rule I've found it to be more decouple from the practice of
+  business than in data science.
+
+  If you are naturally curious about data, what they mean, and how to
+  manipulate and use them, if you live, as it were, closer to the
+  machine than to the people, data science may more be your cup of tea
+  than business.
+
+  Having said all that, a combination of business and data science is
+  the winning combination because most applications of data science
+  are in business, and domain knowledge of business processes and the
+  people running businesses, is key to using data meaningfully.
+
+  So the question "business or data science" isn't really very good. A
+  better question would be "how much more of each", and that depends,
+  at this stage of your life, largely of the jobs that you think you'd
+  like to get after school.
+
+  I recommend going through many job descriptions that are currently
+  posted and sorting them in three lists: (mainl) "business", (mainly)
+  "data science", and "business and data science". As I said earlier,
+  don't worry about the "science" part - anything with "data" in it is
+  probably relevant. Even "database administrator".
+
+  The two types of companies most vocal about data science are tech
+  companies and startups. Next to that, any company that sells stuff
+  is hungry for data and analysis of their customer data.
+
+  Hope this helps! As usual, the truth is multi-faceted...
+
 
 * References
 
