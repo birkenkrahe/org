@@ -33,4 +33,11 @@
 (add-to-list 'package-archives
 	     '("melpa-stable" . "https://stable.melpa.org/packages/"))
 
+;; hide emphasis markers
 (setq-default org-hide-emphasis-markers t)
+
+;; over ssh, emacs’ key C-SPC and C-@ no longer works
+(global-set-key [f8] (quote set-mark-command))
+
+;; you need this to be able to resize inline images
+(setq org-image-actual-width nil)
