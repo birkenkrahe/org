@@ -1,0 +1,174 @@
+#+title: Aisha question
+#+startup: overview hideblocks indent
+* PROBLEM
+
+#+begin_quote
+"I want to implement some type of "if zip code not found, then place
+0s in all columns for that row" (as a "flag" of some sorts, so we can
+see which zip codes are not being run while still not disrupting the
+function so it can keep looping through all the other zip codes in
+our input Excel file). I've tried to come up with a way to do that
+with 0s, NAs, anything -- but to no avail. Looking it up online, most
+people are trying to figure out how to get NAs out of their data
+frame, not place NAs in their data frame."
+#+end_quote
+
+   Insert ~0~ for the missing ~Value~ in the data frame ~df~ defined below.
+
+   [[https://stackoverflow.com/questions/53729693/insert-rows-with-zeros-in-data-frames-in-r][Solution source: stackoverflow.com]]
+
+   #+name: define_df
+   #+begin_src R
+     df <- data.frame(matrix(0, nrow = 18, ncol = 3,
+                             dimnames = list(NULL, c("ID","Date","Value"))))
+     df[,1] <- c(1,1,1,1,1,1,2,2,2,3,3,3,3,3,3,3,3,3)  ## ID values
+     df[,2] <- seq(as.Date("2012-01-01"),
+                   as.Date("2012-01-09"),
+                   by=1)                  ## Date values
+     df[,3] = sample(1000:10000,18,replace=T)  ## fill third column randomly
+     df = df[-c(2,3,9,10,17),]  ## remove some rows
+   #+end_src
+
+   #+RESULTS: define_df
+   | 1 | 2012-01-01 | 9300 |
+   | 1 | 2012-01-04 | 1891 |
+   | 1 | 2012-01-05 | 6027 |
+   | 1 | 2012-01-06 | 7964 |
+   | 2 | 2012-01-07 | 1303 |
+   | 2 | 2012-01-08 | 2215 |
+   | 3 | 2012-01-02 | 8040 |
+   | 3 | 2012-01-03 | 1511 |
+   | 3 | 2012-01-04 | 2706 |
+   | 3 | 2012-01-05 | 8193 |
+   | 3 | 2012-01-06 | 4912 |
+   | 3 | 2012-01-07 | 9531 |
+   | 3 | 2012-01-09 | 8651 |
+
+* "TIDYVERSE" SOLUTION 1
+
+   #+begin_src R :noweb yes
+     <<define_df>>
+     library(tidyverse)
+
+     df %>% group_by(ID) %>%
+         complete(Date = seq( min(Date), max(Date), "day"),
+                  fill = list(Value = 0))
+   #+end_src
+
+   #+RESULTS:
+   | 1 | 2012-01-01 | 7163 |
+   | 1 | 2012-01-02 |    0 |
+   | 1 | 2012-01-03 |    0 |
+   | 1 | 2012-01-04 | 8194 |
+   | 1 | 2012-01-05 | 1108 |
+   | 1 | 2012-01-06 | 1187 |
+   | 2 | 2012-01-07 | 3420 |
+   | 2 | 2012-01-08 | 9388 |
+   | 3 | 2012-01-02 | 8808 |
+   | 3 | 2012-01-03 | 1570 |
+   | 3 | 2012-01-04 | 6473 |
+   | 3 | 2012-01-05 | 3787 |
+   | 3 | 2012-01-06 | 5385 |
+   | 3 | 2012-01-07 | 3532 |
+   | 3 | 2012-01-08 |    0 |
+   | 3 | 2012-01-09 | 5386 |
+
+* "TIDYVERSE" SOLUTION 2
+
+   From the [[https://www.rdocumentation.org/packages/padr/versions/0.6.0][RDocumentation]] for ~padr~:
+   #+begin_quote
+   ~padr~ is an R package that assists with preparing time series
+   data. It provides two main functions that will quickly get the data
+   in the format you want. When data is observed on too low a level,
+   ~thicken~ will add a column of a higher interval to the data frame,
+   after which the user can apply the appropriate aggregation. When
+   there are missing records for time points where observations were
+   absent, ~pad~ will automatically insert these records. A number of
+   ~fill_~ functions help to subsequently fill the missing values.
+   #+end_quote
+
+   #+begin_src R :noweb yes
+     <<define_df>>
+     library(dplyr)
+     library(padr)
+
+     df %>%
+         pad(start_val = as.Date("2012-01-01"),
+             ppp             end_val = as.Date("2012-01-09"),
+             group = "ID") %>%
+         fill_by_value(Value)
+   #+end_src
+
+   #+RESULTS:
+   | 1 | 2012-01-01 | 2868 |
+   | 1 | 2012-01-02 |    0 |
+   | 1 | 2012-01-03 |    0 |
+   | 1 | 2012-01-04 | 6862 |
+   | 1 | 2012-01-05 | 2310 |
+   | 1 | 2012-01-06 | 8657 |
+   | 1 | 2012-01-07 |    0 |
+   | 1 | 2012-01-08 |    0 |
+   | 1 | 2012-01-09 |    0 |
+   | 2 | 2012-01-01 |    0 |
+   | 2 | 2012-01-02 |    0 |
+   | 2 | 2012-01-03 |    0 |
+   | 2 | 2012-01-04 |    0 |
+   | 2 | 2012-01-05 |    0 |
+   | 2 | 2012-01-06 |    0 |
+   | 2 | 2012-01-07 | 1197 |
+   | 2 | 2012-01-08 | 6036 |
+   | 2 | 2012-01-09 |    0 |
+   | 3 | 2012-01-01 |    0 |
+   | 3 | 2012-01-02 | 7202 |
+   | 3 | 2012-01-03 | 5601 |
+   | 3 | 2012-01-04 | 6416 |
+   | 3 | 2012-01-05 | 3702 |
+   | 3 | 2012-01-06 | 9488 |
+   | 3 | 2012-01-07 | 9561 |
+   | 3 | 2012-01-08 |    0 |
+   | 3 | 2012-01-09 | 2952 |
+
+* BASE R SOLUTION
+
+   This solution uses ~split~ to divide the input into data frames and
+   then ~lapply~ to process each of them using an implicit ~function~.
+
+   #+begin_src R :noweb yes
+     <<define_df>>
+
+     ## define result
+     result <- lapply(
+         split(df, df$ID), ## split df into groups defined by df$ID
+         function(DF) {
+             Date <- seq(min(DF$Date), max(DF$Date), by = "days")
+             DF2 <- data.frame(ID = rep(DF$ID[1], length.out = length(Date)))
+             DF2$Date <- Date
+             DF2$Value <- 0
+             DF2$Value[Date %in% DF$Date] <- DF$Value
+             DF2
+         }
+     )
+
+     ## call result
+     result <- do.call(rbind, result)
+     row.names(result) <- NULL
+     result
+   #+end_src
+
+   #+RESULTS:
+   | 1 | 2012-01-01 | 2212 |
+   | 1 | 2012-01-02 |    0 |
+   | 1 | 2012-01-03 |    0 |
+   | 1 | 2012-01-04 | 3772 |
+   | 1 | 2012-01-05 | 9362 |
+   | 1 | 2012-01-06 | 9543 |
+   | 2 | 2012-01-07 | 7212 |
+   | 2 | 2012-01-08 | 8081 |
+   | 3 | 2012-01-02 | 4369 |
+   | 3 | 2012-01-03 | 9122 |
+   | 3 | 2012-01-04 | 1020 |
+   | 3 | 2012-01-05 | 5832 |
+   | 3 | 2012-01-06 | 9827 |
+   | 3 | 2012-01-07 | 8273 |
+   | 3 | 2012-01-08 |    0 |
+   | 3 | 2012-01-09 | 4323 |
