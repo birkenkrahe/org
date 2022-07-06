@@ -15,8 +15,6 @@ frame, not place NAs in their data frame."
 
    Insert ~0~ for the missing ~Value~ in the data frame ~df~ defined below.
 
-   [[https://stackoverflow.com/questions/53729693/insert-rows-with-zeros-in-data-frames-in-r][Solution source: stackoverflow.com]]
-
    #+name: define_df
    #+begin_src R :exports both
      df <- data.frame(matrix(0, nrow = 18, ncol = 3,
@@ -172,3 +170,8 @@ frame, not place NAs in their data frame."
    | 3 | 2012-01-07 | 6311 |
    | 3 | 2012-01-08 |    0 |
    | 3 | 2012-01-09 | 7012 |
+
+* References
+
+- stackoverflow.com (Dec 11, 2018). Insert rows with zeros in data
+  frames in R [duplicate]. URL: [[https://stackoverflow.com/questions/53729693/insert-rows-with-zeros-in-data-frames-in-r][stackoverflow.com]].
