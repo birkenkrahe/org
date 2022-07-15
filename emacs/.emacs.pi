@@ -1,12 +1,12 @@
-;; my .emacs on Windows (without customization except file paths
 (put 'dired-find-alternate-file 'disabled nil)
 (put 'upcase-region 'disabled nil)
 
+;; remove GUI tool bar and menu bar
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(toggle-scroll-bar -1)
 ;; find .el files
 (add-to-list 'load-path "~/.emacs.d/lisp/")
-
-(require 'org-bullets)
-(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
 ;; suggestions from Udemy Emacs course
 ;; https://www.udemy.com/course/learning-to-work-with-emacs/learn/lecture/13551146#overview
@@ -17,11 +17,12 @@
              '("melpa" . "https://melpa.org/packages") t)
 (add-to-list 'package-archives
              '("gnu" . "https://elpa.gnu.org/packages") t)
-(add-to-list 'package-archives
-             '("org" . "https://orgmode.org/elpa/") t)
+
+(require 'org-bullets)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
 ;; remove startup screen - get it back with M-x about-emacs
-(setq inhibit-startup-screen t)
+(setq inhibit-startup-screen nil)
 
 ;; remove menu bar - to bring it back: M-x menu-bar-mode (toggles)
 (menu-bar-mode -1)
@@ -39,8 +40,8 @@
 ;; to activate: M-x org-tree-slide-mode or <f9> - stop S-<f9>
 (require 'org-tree-slide)
 (with-eval-after-load "org-tree-slide"
-  (global-set-key (kbd "<f9>") 'org-tree-slide-mode)
-  (global-set-key (kbd "S-<f9>") 'org-tree-slide-skip-done-toggle)
+  (global-set-key (kbd "<f8>") 'org-tree-slide-mode)
+  (global-set-key (kbd "S-<f8>") 'org-tree-slide-skip-done-toggle)
   (define-key org-tree-slide-mode-map (kbd "<f8>") 'org-tree-slide-move-previous-tree) ;; move forwards
   (define-key org-tree-slide-mode-map (kbd "S-<f8>") 'org-tree-slide-move-next-tree)  ;; move backwards
   )
@@ -50,13 +51,12 @@
 (org-tree-slide-simple-profile) ;; no headers
 
 ;; Find and open TODO and agenda
-(find-file "~/GitHub/admin/todo.org")
+(find-file "~/GitHub/admin/RoamNotes/20220520212655-todo.org")
 (global-set-key (kbd "C-c a") 'org-agenda)
 (org-agenda nil "a")
 ;; set agenda files
-(setq org-agenda-files (list "~/GitHub/admin/todo.org"
-			     "~/GitHub/admin/spring22/spring22.org"
-                             ))
+(setq org-agenda-files
+      (list "~/GitHub/admin/RoamNotes/20220520212655-todo.org"))
 
 ;; require org-tempo so that <s <TAB> self-insert works
 (require 'org-tempo)
@@ -102,12 +102,13 @@
 ;; invoke skeleton quickly with C-S-f4
 (define-skeleton org-skeleton
   "Header info for a emacs-org file."
-  "Title: "  
+  "Title: "
   "#+TITLE:" str " \n"
   "#+AUTHOR:" str " \n"
   "#+SUBTITLE:" str " \n"
-  "#+STARTUP:overview hideblocks\n"
+  "#+STARTUP:overview hideblocks indent\n"
   "#+OPTIONS: toc:nil num:nil ^:nil\n"
+  "#+PROPERTY: header-args:"
                                         ;  "#+AUTHOR: Your Name\n"
                                         ;  "#+email: your-email@server.com\n"
                                         ;  "#+INFOJS_OPT: :view:info \n"
@@ -145,7 +146,8 @@
         ("CANCELED" . (:foreground "blue" :weight bold))))
 
 ;; set default target for notes orgguide 9.3 sec.9
-(setq org-default-notes-file (concat org-directory "/OneDrive/org/notes.org"))
+;;(setq org-default-notes-file (concat org-directory "~/notes"))
+
 (put 'downcase-region 'disabled nil)
 
 ;; display inline images by default
@@ -156,8 +158,7 @@
 ;; set font
 ;; Set default font
 (set-face-attribute 'default nil
-                    :family "Hack"
-                    ;; :family "Source Code Pro"
+                    :family "Hack Regular"
                     :height 140
                     :weight 'normal
                     :width 'normal)
@@ -189,10 +190,10 @@
 
 ;; show ace window key in mode line
 ;; with > 2 windows show it in red
-(ace-window-display-mode 1) 
+(ace-window-display-mode 1)
 
 ;; enable global line highlighting
-(global-hl-line-mode 1)
+;;(global-hl-line-mode nil)
 
 ;; fixes the "failed to download gnu archive" error
 ;; when running package-refresh-contents
@@ -200,22 +201,153 @@
 
 ;; make PuTTY's plink.exe the default way to use ssh
 ;; plink.exe must be in the PATH
-(setq tramp-default-method "plink")
-(setq tramp-default-user "pi")
+;;(setq tramp-default-method "plink")
+;;(setq tramp-default-user "pi")
+
+;; enable recentf mode and bind it to
+;; (recentf-mode 1)
+;; (global-set-key (kbd "C-x rf") 'recentf-open-files)
 
 (setq-default org-hide-emphasis-markers t)
+(setq org-html-validation-link t)
+(require 'org-appear)
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-enabled-themes '(org-beautify night-owl))
- '(custom-safe-themes
-   '("071f18fb366412734b6215fa97918f465cedad058285f426504f3bf84aae7a3b" "e081d167861aa1af9e423a10b00c560b1c18ab8f3627dfbe35ff4455bd993d36" default)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+(load "auctex.el" nil t t)
+
+(use-package org-roam
+  :ensure t
+  :init
+  (setq org-roam-v2-ack t)
+  :custom
+  (org-roam-directory "~/GitHub/admin/RoamNotes")
+  (org-roam-completion-everywhere t)
+  :bind (("C-c n l" . org-roam-buffer-toggle)
+         ("C-c n f" . org-roam-node-find)
+         ("C-c n i" . org-roam-node-insert)
+         :map org-mode-map
+         ("C-M-i" . completion-at-point))
+  :config
+         (org-roam-db-autosync-mode))
+
+(global-set-key [f7] (quote set-mark-command))
+
+  ;;(save-place-mode 1)
+  ;;(setq history-length 25)
+  ;;(savehist-mode 1)
+
+  ;; modus vivendi theme and configs
+  (setq modus-themes-mode-line nil) ;; accented borderless padded
+  (setq modus-themes-region '(bg-only))
+  (setq modus-themes-completions 'opinionated)
+  (setq modus-themes-bold-constructs t)
+  ;; must run org-mode-restart to see changes in open org-mode files
+  (setq modus-themes-org-blocks 'tinted-background)
+  (setq modus-themes-tabs-accented t)
+  (load-theme 'modus-vivendi t)
+
+  ;; Install org-present if needed
+  (unless (package-installed-p 'org-present)
+    (package-install 'org-present))
+
+  ;; Install visual-fill-column
+  (unless (package-installed-p 'visual-fill-column)
+    (package-install 'visual-fill-column))
+
+  ;; Configure fill-width
+  (setq visual-fill-column-width 110
+        visual-fill-column-center-text t)
+
+  (defun my/org-present-start ()
+    ;; Tweak font sizes
+    (setq-local face-remapping-alist '((default (:height 1.5) variable-pitch)
+                                       (header-line (:height 4.0) variable-pitch)
+                                       (org-document-title (:height 1.75) org-document-title)
+                                       (org-code (:height 1.55) org-code)
+                                       (org-verbatim (:height 1.55) org-verbatim)
+                                       (org-block (:height 1.25) org-block)
+                                       (org-block-begin-line (:height 0.7) org-block)))
+    ;; Center the presentation and wrap lines
+    (visual-fill-column-mode 1)
+    (visual-line-mode 1))
+
+  (defun my/org-present-end ()
+    ;; Stop centering the document
+    (visual-fill-column-mode 0)
+    (visual-line-mode 0))
+
+  ;; Register hooks with org-present
+  (add-hook 'org-present-mode-hook 'my/org-present-start)
+  (add-hook 'org-present-mode-quit-hook 'my/org-present-end)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+  (custom-set-variables
+   ;; custom-set-variables was added by Custom.
+   ;; If you edit it by hand, you could mess it up, so be careful.
+   ;; Your init file should contain only one such instance.
+   ;; If there is more than one, they won't work right.
+   '(ansi-color-faces-vector
+     [default default default italic underline success warning error])
+   '(ansi-color-names-vector
+     ["#011627" "#EF5350" "#ADDB67" "#FFEB95" "#82AAFF" "#C792EA" "#7FDBCA" "#D6DEEB"])
+   '(column-number-mode t)
+   '(compilation-message-face 'default)
+   '(custom-enabled-themes '(tao-yin))
+   '(custom-safe-themes
+     '("dad40020beea412623b04507a4c185079bff4dcea20a93d8f8451acb6afc8358" "a0415d8fc6aeec455376f0cbcc1bee5f8c408295d1c2b9a1336db6947b89dd98" "dbade2e946597b9cda3e61978b5fcc14fa3afa2d3c4391d477bdaeff8f5638c5" "fe1c13d75398b1c8fd7fdd1241a55c286b86c3e4ce513c4292d01383de152cb7" "439d4ce8295685fc36fc119a062d0283bb05436ae841b053af76e9a5e42bc670" "801a567c87755fe65d0484cb2bded31a4c5bb24fd1fe0ed11e6c02254017acb2" "071f18fb366412734b6215fa97918f465cedad058285f426504f3bf84aae7a3b" "e081d167861aa1af9e423a10b00c560b1c18ab8f3627dfbe35ff4455bd993d36" default))
+   '(fci-rule-color "#010F1D")
+   '(global-hl-line-mode t)
+   '(global-linum-mode nil)
+   '(highlight-changes-colors '("#EF5350" "#7E57C2"))
+   '(highlight-tail-colors
+     '(("#010F1D" . 0)
+       ("#B44322" . 20)
+       ("#34A18C" . 30)
+       ("#3172FC" . 50)
+       ("#B49C34" . 60)
+       ("#B44322" . 70)
+       ("#8C46BC" . 85)
+       ("#010F1D" . 100)))
+   '(line-number-mode nil)
+   '(magit-diff-use-overlays nil)
+   '(menu-bar-mode nil)
+   '(org-hide-emphasis-markers t)
+   '(org-hide-leading-stars nil)
+   '(package-check-signature nil)
+   '(package-selected-packages
+     '(visual-fill-column org-present modus-themes dracula-theme tao-theme gnu-elpa-keyring-update org treemacs org-agenda-property olivetti auctex magit night-owl-theme ivy ess ace-window))
+   '(pos-tip-background-color "#FFF9DC")
+   '(pos-tip-foreground-color "#011627")
+   '(show-paren-mode t)
+   '(tool-bar-mode nil)
+   '(vc-annotate-background nil)
+   '(vc-annotate-color-map
+     '((20 . "#C792EA")
+       (40 . "#CF4F1F")
+       (60 . "#C26C0F")
+       (80 . "#FFEB95")
+       (100 . "#AB8C00")
+       (120 . "#A18F00")
+       (140 . "#989200")
+       (160 . "#8E9500")
+       (180 . "#F78C6C")
+       (200 . "#729A1E")
+       (220 . "#609C3C")
+       (240 . "#4E9D5B")
+       (260 . "#3C9F79")
+       (280 . "#7FDBCA")
+       (300 . "#299BA6")
+       (320 . "#2896B5")
+       (340 . "#2790C3")
+       (360 . "#82AAFF")))
+   '(vc-annotate-very-old-color nil)
+   '(warning-suppress-log-types '((modus-themes) (modus-themes) (comp)))
+   '(warning-suppress-types '((modus-themes) (comp)))
+   '(weechat-color-list
+     '(unspecified "#011627" "#010F1D" "#DC2E29" "#EF5350" "#D76443" "#F78C6C" "#D8C15E" "#FFEB95" "#5B8FFF" "#82AAFF" "#AB69D7" "#C792EA" "#AFEFE2" "#7FDBCA" "#D6DEEB" "#FFFFFF")))
+  (custom-set-faces
+   ;; custom-set-faces was added by Custom.
+   ;; If you edit it by hand, you could mess it up, so be careful.
+   ;; Your init file should contain only one such instance.
+   ;; If there is more than one, they won't work right.
+   '(default ((t (:family "Hack" :foundry "SRC" :slant normal :weight normal :height 143 :width normal)))))
