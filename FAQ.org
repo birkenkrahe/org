@@ -2,1719 +2,1719 @@
 #+AUTHOR:Frequently Asked Questions
 #+SUBTITLE:Frequently Asked Questions All Courses @Lyon Fall 2021
 #+OPTIONS: ^:nil toc:1
-#+STARTUP: overview hideblocks
+#+STARTUP: overview hideblocks indent
 * What is this?
 
-  This is a Frequently Asked Questions (FAQ) file for all my courses
-  at Lyon College. For individual FAQs, see the resp. course repos.
+This is a Frequently Asked Questions (FAQ) file for all my courses
+at Lyon College. For individual FAQs, see the resp. course repos.
 
 * How should you read?
-  There are different ways to read a demanding text. Since I
-  systematize everything, let me try to systematize this for you,
-  too - even though reading is quite a personal activity (involving,
-  for example, taste), I believe that it is useful to have a system
-  if your goal is to learn the most with the least effort[fn:1]. In
-  the following, you can substitute "read" for "learn using media":
-  instead of a printed book, you can also use a digital book, a
-  podcast, or a video[fn:2]. I can think of (1) skimming; (2) shallow
-  reading; (3) deep reading; (4) reading with notes; (5) reading with
-  props; (6) re-reading. What are these about?
+There are different ways to read a demanding text. Since I
+systematize everything, let me try to systematize this for you,
+too - even though reading is quite a personal activity (involving,
+for example, taste), I believe that it is useful to have a system
+if your goal is to learn the most with the least effort[fn:1]. In
+the following, you can substitute "read" for "learn using media":
+instead of a printed book, you can also use a digital book, a
+podcast, or a video[fn:2]. I can think of (1) skimming; (2) shallow
+reading; (3) deep reading; (4) reading with notes; (5) reading with
+props; (6) re-reading. What are these about?
 
-  1) *Skimming*: quickly go over the material in an intuitive fashion
-     to decide what to do with it later, or to get at least a basic
-     idea of what's being said. For scientific papers: read abstract,
-     then (if still interesting) go to the conclusions at the end.
+1) *Skimming*: quickly go over the material in an intuitive fashion
+   to decide what to do with it later, or to get at least a basic
+   idea of what's being said. For scientific papers: read abstract,
+   then (if still interesting) go to the conclusions at the end.
 
-     #+attr_html: :width 600px
-     [[./img/ai_shallow.gif]]
+   #+attr_html: :width 600px
+   [[./img/ai_shallow.gif]]
 
-  2) *Shallow reading:* read through the whole text slowly, without
-     too many breaks[fn:3], in order to get a general picture and
-     already identify areas of information (to answer questions like:
-     am I too ignorant to understand this? What do I already know? How
-     long will it take me to fully unlock this text? Will it be worth
-     it?).
+2) *Shallow reading:* read through the whole text slowly, without
+   too many breaks[fn:3], in order to get a general picture and
+   already identify areas of information (to answer questions like:
+   am I too ignorant to understand this? What do I already know? How
+   long will it take me to fully unlock this text? Will it be worth
+   it?).
 
-  3) *Deep reading:* Deep reading implies not taking breaks and
-     holding the tension of not understanding. The only break that I
-     allow myself for this mode of reading is to take my eyes off the
-     text to think. The point is not to break concentration, because
-     if you want to summon your full forces of association, you need
-     to immerse yourself in the material. Deep reading almost always
-     leaves me hungry for the next reading stage (reading with notes),
-     or for reading something else too, or instead (e.g. if the text
-     was inspiring and interesting, but just too hard to understand
-     without working through it in its entirety).
+3) *Deep reading:* Deep reading implies not taking breaks and
+   holding the tension of not understanding. The only break that I
+   allow myself for this mode of reading is to take my eyes off the
+   text to think. The point is not to break concentration, because
+   if you want to summon your full forces of association, you need
+   to immerse yourself in the material. Deep reading almost always
+   leaves me hungry for the next reading stage (reading with notes),
+   or for reading something else too, or instead (e.g. if the text
+   was inspiring and interesting, but just too hard to understand
+   without working through it in its entirety).
 
-  4) *Reading with notes:* This mode and the next are the most
-     time-intensive ones. I employ them whenever I am working out a
-     lecture, or practice exercises, or if I find something really
-     hard of I am puzzled or stumped[fn:4]. I find it important to
-     write everything with long hand in a proper notebook (lined,
-     21x31, softcover). I use a lovely fountain pen with black ink and
-     a converter that I have to refill by hand). Writing in this
-     notebook feels good and I like looking at my notes afterwards,
-     which is important, even though most of these notes will never be
-     looked at again: the point is not to duplicate the text but to
-     get it into my head. I find that taking digital notes does not
-     compare with analog notes. From all of this, you can discern that
-     the way of taking notes is quite personal and cannot be part of
-     the (universal) system. You may prefer to write with a pencil on
-     individual sheets of yellow squared paper, or in a college block,
-     or with a brush on hand-made Japanese paper. It doesn't matter.
+4) *Reading with notes:* This mode and the next are the most
+   time-intensive ones. I employ them whenever I am working out a
+   lecture, or practice exercises, or if I find something really
+   hard of I am puzzled or stumped[fn:4]. I find it important to
+   write everything with long hand in a proper notebook (lined,
+   21x31, softcover). I use a lovely fountain pen with black ink and
+   a converter that I have to refill by hand). Writing in this
+   notebook feels good and I like looking at my notes afterwards,
+   which is important, even though most of these notes will never be
+   looked at again: the point is not to duplicate the text but to
+   get it into my head. I find that taking digital notes does not
+   compare with analog notes. From all of this, you can discern that
+   the way of taking notes is quite personal and cannot be part of
+   the (universal) system. You may prefer to write with a pencil on
+   individual sheets of yellow squared paper, or in a college block,
+   or with a brush on hand-made Japanese paper. It doesn't matter.
 
-     For example, here are two pages of "reading with notes" based on
-     a series of four short videos in the Coursera course "[[https://www.coursera.org/learn/model-thinking/home/welcome][Model
-     Thinking]]", which I used to prepare a lesson in a new course on
-     "data modeling":
+   For example, here are two pages of "reading with notes" based on
+   a series of four short videos in the Coursera course "[[https://www.coursera.org/learn/model-thinking/home/welcome][Model
+   Thinking]]", which I used to prepare a lesson in a new course on
+   "data modeling":
 
-     #+attr_html: :width 600px
-     [[./img/ai_notes.jpg]]
+   #+attr_html: :width 600px
+   [[./img/ai_notes.jpg]]
 
-  5) *Reading with props:* Often, especially in computer science,
-     writing about concepts, and making computations by hand, is not
-     enough. I have to try stuff as I read[fn:5] using props. The
-     props lead to interactive (digital) notes rather than static
-     (analog) ones. Any additional medium that I use (e.g. mindmaps,
-     wiki, post-its, presentation) takes me away from the text and
-     offers additional distractions - hence, I must have a really good
-     reason to do this. More often than not, this mode is a follow-up
-     mode to deepen my knowledge and my familiarity with a
-     topic[fn:6].
+5) *Reading with props:* Often, especially in computer science,
+   writing about concepts, and making computations by hand, is not
+   enough. I have to try stuff as I read[fn:5] using props. The
+   props lead to interactive (digital) notes rather than static
+   (analog) ones. Any additional medium that I use (e.g. mindmaps,
+   wiki, post-its, presentation) takes me away from the text and
+   offers additional distractions - hence, I must have a really good
+   reason to do this. More often than not, this mode is a follow-up
+   mode to deepen my knowledge and my familiarity with a
+   topic[fn:6].
 
-     For example, here are two pages from the book "[[http://aima.cs.berkeley.edu/][Artificial
-     Intelligence - a Modern Approach]]" (AIMA) and the corresponding
-     "reading with props" notes in the Emacs editor.
+   For example, here are two pages from the book "[[http://aima.cs.berkeley.edu/][Artificial
+   Intelligence - a Modern Approach]]" (AIMA) and the corresponding
+   "reading with props" notes in the Emacs editor.
 
-     #+attr_html: :width 600px
-     [[./img/ai_aima.jpg]]
+   #+attr_html: :width 600px
+   [[./img/ai_aima.jpg]]
 
-     #+attr_html: :width 600px
-     [[./img/ai_emacs.png]]
+   #+attr_html: :width 600px
+   [[./img/ai_emacs.png]]
 
-  6) *Re-reading:* I often have to do this, because my memory is
-     leaky. Re-reading is like skimming (1) except that I (should)
-     know the text really well already and only need to remind myself
-     of core content and issues. Some instructors require re-reading -
-     e.g. Bjarne Stroustrup, for his [[https://www.stroustrup.com/programming.html][introductory programming course]],
-     writes that the student must read the section of the book
-     relevant to a session both before and after the session. I think
-     this is excellent advice, because the second reading often
-     reveals additional issues, and can be much more pleasurable,
-     since you should now have a much better understanding. Of course,
-     this only works if the text is well written[fn:7].
+6) *Re-reading:* I often have to do this, because my memory is
+   leaky. Re-reading is like skimming (1) except that I (should)
+   know the text really well already and only need to remind myself
+   of core content and issues. Some instructors require re-reading -
+   e.g. Bjarne Stroustrup, for his [[https://www.stroustrup.com/programming.html][introductory programming course]],
+   writes that the student must read the section of the book
+   relevant to a session both before and after the session. I think
+   this is excellent advice, because the second reading often
+   reveals additional issues, and can be much more pleasurable,
+   since you should now have a much better understanding. Of course,
+   this only works if the text is well written[fn:7].
 
-  7) *What now?* For example, how can you know if you've "read well"?
-     In my experience, there is only one way: you've got to be able to
-     create problems for yourself and solve them. Start with small
-     problems (extensions of the text) and then move on to bigger
-     ones. A concrete example from my reading of the AIMA book are
-     questions that I ask myself as I'm reading, and that are not
-     answered in the text (or even mentioned), e.g. "When did the
-     concept of 'intelligence' become common?", or What is
-     "first-principles reasoning"? (The term was used but not
-     explained) etc. These are almost glossary-type questions. For
-     another book that I'm working through ([[https://rafalab.github.io/dsbook/probability.html][on probability theory]]),
-     I'm trying to work out answers to simple questions that are
-     extensions of examples given in the text. Also, if you are ever
-     in a situation to teach, or even instruct, others on anything you
-     learnt (which is likely if you are in a leadership role), this
-     ability to construct assignments and exercises for practice will
-     come in very handy. Caveat: this activity takes much longer than
-     even "reading with notes" - in my case, I sometimes spend an
-     entire day devising problems and trying to solve them, when the
-     reading and note-taking only took me an hour!
+7) *What now?* For example, how can you know if you've "read well"?
+   In my experience, there is only one way: you've got to be able to
+   create problems for yourself and solve them. Start with small
+   problems (extensions of the text) and then move on to bigger
+   ones. A concrete example from my reading of the AIMA book are
+   questions that I ask myself as I'm reading, and that are not
+   answered in the text (or even mentioned), e.g. "When did the
+   concept of 'intelligence' become common?", or What is
+   "first-principles reasoning"? (The term was used but not
+   explained) etc. These are almost glossary-type questions. For
+   another book that I'm working through ([[https://rafalab.github.io/dsbook/probability.html][on probability theory]]),
+   I'm trying to work out answers to simple questions that are
+   extensions of examples given in the text. Also, if you are ever
+   in a situation to teach, or even instruct, others on anything you
+   learnt (which is likely if you are in a leadership role), this
+   ability to construct assignments and exercises for practice will
+   come in very handy. Caveat: this activity takes much longer than
+   even "reading with notes" - in my case, I sometimes spend an
+   entire day devising problems and trying to solve them, when the
+   reading and note-taking only took me an hour!
 
 * How can you read more research papers?
 
-  The title comes from [[https://www.louisbouchard.ai/research-papers/][this article]] by Louis Bouchard (23 June
-  2021)[fn:8]. It's useful and you should all read it and take from it what
-  you want. Here, I'm offering a few comments, organized by the
-  different stages addressed in the article.
+The title comes from [[https://www.louisbouchard.ai/research-papers/][this article]] by Louis Bouchard (23 June
+2021)[fn:8]. It's useful and you should all read it and take from it what
+you want. Here, I'm offering a few comments, organized by the
+different stages addressed in the article.
 
-  First of all, the problem: a lot is published on any topic under the
-  sun, and a lot more if the topic is trendy - like machine
-  learning. This is both good and bad news. The good news: many
-  publications means that the respective field is evolving fast,
-  attracting the best people, research money, and generating a market
-  (for products and people). The bad news: more and more publications
-  remain essentially unchecked and unread; many of these papers are
-  badly written, many are wrong, some are fraudulent even. There is so
-  much pressure on the publication pipeline that hundreds, or
-  thousands of papers are rushing past you in the blink of an eye.
+First of all, the problem: a lot is published on any topic under the
+sun, and a lot more if the topic is trendy - like machine
+learning. This is both good and bad news. The good news: many
+publications means that the respective field is evolving fast,
+attracting the best people, research money, and generating a market
+(for products and people). The bad news: more and more publications
+remain essentially unchecked and unread; many of these papers are
+badly written, many are wrong, some are fraudulent even. There is so
+much pressure on the publication pipeline that hundreds, or
+thousands of papers are rushing past you in the blink of an eye.
 
-  There are several questions resulting from this problem: (1) how to find
-  the best papers? (2) How to find the papers that are right for you?
+There are several questions resulting from this problem: (1) how to find
+the best papers? (2) How to find the papers that are right for you?
 
-  The article mentioned only addresses the second question in
-  detail. The first question is touched upon in a paragraph on bias
-  and trustworthiness at the end. In short: don't trust anyone until
-  you've checked the results yourselves[fn:9].
+The article mentioned only addresses the second question in
+detail. The first question is touched upon in a paragraph on bias
+and trustworthiness at the end. In short: don't trust anyone until
+you've checked the results yourselves[fn:9].
 
-  The author's answer to the first question is based on a series of
-  software tools that can support your search. I only knew 2 of these
-  (Arxiv Sanity Preserver and Zotero).
+The author's answer to the first question is based on a series of
+software tools that can support your search. I only knew 2 of these
+(Arxiv Sanity Preserver and Zotero).
 
-  Missing: conference reports via the relevant conferences, especially
-  literature reviews, and [[https://www.kcu.edu/wp-content/uploads/2014/09/Google-Scholar-Alert.pdf][Google scholar alerts]]. E.g. I have an alert
-  out for every one of my current courses and research interests. It
-  is connected with [[https://scholar.google.com/citations?hl=en&user=Vvnwsv0AAAAJ][my Google Scholar profile]].
+Missing: conference reports via the relevant conferences, especially
+literature reviews, and [[https://www.kcu.edu/wp-content/uploads/2014/09/Google-Scholar-Alert.pdf][Google scholar alerts]]. E.g. I have an alert
+out for every one of my current courses and research interests. It
+is connected with [[https://scholar.google.com/citations?hl=en&user=Vvnwsv0AAAAJ][my Google Scholar profile]].
 
-  The final advice is excellent: you only get better at reading papers
-  by reading papers!
+The final advice is excellent: you only get better at reading papers
+by reading papers!
 
 * Why are we using GitHub?
 
-  We're using GitHub for two reasons:
+We're using GitHub for two reasons:
 
-  1) GitHub will be our infrastructure for course materials and
-     assignments.
-  2) GitHub uses Git, the state-of-the-art version control system,
-     which is an important development productivity tool.
+1) GitHub will be our infrastructure for course materials and
+   assignments.
+2) GitHub uses Git, the state-of-the-art version control system,
+   which is an important development productivity tool.
 
-  Git is open source software, and used by many platforms like
-  GitHub - e.g. GitLab, BitBucket, Sourceforge, [[https://www.git-tower.com/blog/git-hosting-services-compared/][and many more]]. GitHub
-  is now owned by Microsoft, but it supports education (with GitHub
-  classroom), and it is still the largest hosting platform for open
-  source projects (and I love anything open source). Many books and
-  tutorials use GitHub for code delivery, errata and updates -
-  technical books are products that benefit from version control, too!
+   Git is open source software, and used by many platforms like
+   GitHub - e.g. GitLab, BitBucket, Sourceforge, [[https://www.git-tower.com/blog/git-hosting-services-compared/][and many more]]. GitHub
+   is now owned by Microsoft, but it supports education (with GitHub
+   classroom), and it is still the largest hosting platform for open
+   source projects (and I love anything open source). Many books and
+   tutorials use GitHub for code delivery, errata and updates -
+   technical books are products that benefit from version control, too!
 
-  Here is a link to [[https://github.com/birkenkrahe][my GitHub account]], which I use mostly for my
-  courses ([[https://github.com/birkenkrahe/ds101][like this one]]), to fork other people's repos ([[https://github.com/matloff/fasteR][like this
-  one]]), and to learn stuff ([[https://github.com/education/github-starter-course][like this one]]).
+   Here is a link to [[https://github.com/birkenkrahe][my GitHub account]], which I use mostly for my
+   courses ([[https://github.com/birkenkrahe/ds101][like this one]]), to fork other people's repos ([[https://github.com/matloff/fasteR][like this
+   one]]), and to learn stuff ([[https://github.com/education/github-starter-course][like this one]]).
 
-  I've [[https://github.com/settings/billing/plans][upgraded]] my GitHub account, by the way, e.g. to see traffic
-  data, for better workflow control (with [[https://docs.github.com/en/actions/quickstart][GitHub actions]]), and for
-  data science (e.g. via [[https://ghtorrent.org/][GHTorrent]] and [[https://www.gharchive.org/][GH Archive]]).
+   I've [[https://github.com/settings/billing/plans][upgraded]] my GitHub account, by the way, e.g. to see traffic
+   data, for better workflow control (with [[https://docs.github.com/en/actions/quickstart][GitHub actions]]), and for
+   data science (e.g. via [[https://ghtorrent.org/][GHTorrent]] and [[https://www.gharchive.org/][GH Archive]]).
 
 * What is version control?
 
-  Version control refers to professionally managing software
-  versions. Though an old hat as such, it was revolutionized by Git,
-  which was created by Linus Torvalds, the creator (and still core
-  developer-king) of the Linux kernel. It transferred the same idea on
-  which the Web is founded (local control, global availability) to
-  software development. Before Git, I worked with CVS ([[https://www.cs.umb.edu/~srevilak/cvs.html][Concurrent
-  Version control System]]), which does what Git does, except that it
-  focuses on the central repository rather than on the local
-  repository. Most of the workflow - initializing a repo, checking
-  files in (staging), checking files out, committing files to the
-  repo, checking the status, showing differences, merging versions
-  etc. carries over from other version control systems. Here is a
-  [[https://www.linkedin.com/pulse/difference-between-git-cvs-ahmed-el-emam/][direct comparison of CVS and Git]] (2017).
+Version control refers to professionally managing software
+versions. Though an old hat as such, it was revolutionized by Git,
+which was created by Linus Torvalds, the creator (and still core
+developer-king) of the Linux kernel. It transferred the same idea on
+which the Web is founded (local control, global availability) to
+software development. Before Git, I worked with CVS ([[https://www.cs.umb.edu/~srevilak/cvs.html][Concurrent
+Version control System]]), which does what Git does, except that it
+focuses on the central repository rather than on the local
+repository. Most of the workflow - initializing a repo, checking
+files in (staging), checking files out, committing files to the
+repo, checking the status, showing differences, merging versions
+etc. carries over from other version control systems. Here is a
+[[https://www.linkedin.com/pulse/difference-between-git-cvs-ahmed-el-emam/][direct comparison of CVS and Git]] (2017).
 
 * How should you use GitHub?
 
-  Notice that there are a myriad of tutorials, text, courses, and
-  videos, out there already. What I'm explaining here focuses on the use
-  of Git and GitHub in my courses, nothing more.
+Notice that there are a myriad of tutorials, text, courses, and
+videos, out there already. What I'm explaining here focuses on the use
+of Git and GitHub in my courses, nothing more.
 
-  For my courses, you need to:
+For my courses, you need to:
 
-  1) *install* Git locally (i.e. on your work computer)
-  2) *initialize* Git locally in a repository ("repo")
-  3) *register* a GitHub account (don't use your real name!)[fn:10]
-  4) *send me* your account name so that I can add you[fn:11]
-  5) *upload* your files to my repo when requested to do so
-  6) *raise* a repo issue to comment upon something [optional][fn:12]
-  7) *discuss* in your course discussion forums [optional]
-  8) *fork* my repo to your GitHub account [optional][fn:13]
-  9) *create* your own (private or public) repo [optional]
-  10) *invite* me as a collaborator to your repo [optional]
+1) *install* Git locally (i.e. on your work computer)
+2) *initialize* Git locally in a repository ("repo")
+3) *register* a GitHub account (don't use your real name!)[fn:10]
+4) *send me* your account name so that I can add you[fn:11]
+5) *upload* your files to my repo when requested to do so
+6) *raise* a repo issue to comment upon something [optional][fn:12]
+7) *discuss* in your course discussion forums [optional]
+8) *fork* my repo to your GitHub account [optional][fn:13]
+9) *create* your own (private or public) repo [optional]
+10) *invite* me as a collaborator to your repo [optional]
 
-  You can also use the "Project" facility in GitHub to manage your
-  projects using a simple Kanban board (or define a more complicated
-  workflow if you like). I will show all of this in class.
+    You can also use the "Project" facility in GitHub to manage your
+    projects using a simple Kanban board (or define a more complicated
+    workflow if you like). I will show all of this in class.
 
 * What is a sprint review?
 
-  A sprint review (a Scrum term - see [[https://www.scrum.org/resources/scrum-glossary][Scrum glossary]]) is an informal
-  presentation of the results obtained during the last sprint, or work
-  period. What you present is also called a "prototype" to accentuate
-  the fact that you're working incrementally towards a final product.
+A sprint review (a Scrum term - see [[https://www.scrum.org/resources/scrum-glossary][Scrum glossary]]) is an informal
+presentation of the results obtained during the last sprint, or work
+period. What you present is also called a "prototype" to accentuate
+the fact that you're working incrementally towards a final product.
 
-  More important than the presentation itself is the dialog with the
-  customer or "product owner" (in Scrum speech), at least before the
-  final sprint review (the presentation of the final result).
+More important than the presentation itself is the dialog with the
+customer or "product owner" (in Scrum speech), at least before the
+final sprint review (the presentation of the final result).
 
-  If you don't work on a software product, or if you don't work in a
-  team (because you're writing an essay), the same rules apply but
-  rather than be a slave to the Scrum idea, you adapt it to your
-  needs. That's what companies do in practice all over the place.
+If you don't work on a software product, or if you don't work in a
+team (because you're writing an essay), the same rules apply but
+rather than be a slave to the Scrum idea, you adapt it to your
+needs. That's what companies do in practice all over the place.
 
-  The sprint reviews themselves are not graded, though your
-  participation will be, and you have to deliver a sprint review, even
-  if you could not complete a result during the last sprint.
+The sprint reviews themselves are not graded, though your
+participation will be, and you have to deliver a sprint review, even
+if you could not complete a result during the last sprint.
 
 * What do I need to deliver at a sprint review?
 
-  You should put your sprint review results on slides, which you need
-  to upload to the specified location on time. Details in class.
+You should put your sprint review results on slides, which you need
+to upload to the specified location on time. Details in class.
 
-  The following questions should be covered in a sprint review:
+The following questions should be covered in a sprint review:
 
-  1) What did we want to achieve in the last sprint?
-  2) What did we achieve in the last sprint?
-  3) What are we especially proud of in the last sprint?
-  4) What did we not achieve in the last sprint?
-  5) What are we going to do different in the next sprint?
-  6) What are our questions to the product owner?
-  7) What are our questions to the other teams?
+1) What did we want to achieve in the last sprint?
+2) What did we achieve in the last sprint?
+3) What are we especially proud of in the last sprint?
+4) What did we not achieve in the last sprint?
+5) What are we going to do different in the next sprint?
+6) What are our questions to the product owner?
+7) What are our questions to the other teams?
 
-  These questions may not all apply equally. You can use them to
-  structure your presentation though you should feel free to be
-  creative and mix them up. Remember that the purpose of the sprint
-  review is dialog, not a perfect performance or a perfect product.
+   These questions may not all apply equally. You can use them to
+   structure your presentation though you should feel free to be
+   creative and mix them up. Remember that the purpose of the sprint
+   review is dialog, not a perfect performance or a perfect product.
 
 * What should we do in the first sprint?
 
-  In the first sprint, focus on QUESTION - what do you want to find
-  out, and who'll care (who is the beneficiary, apart from you)? The
-  most important deliverable is the research question (with sub
-  questions, perhaps with one or more testable hypotheses) that says
-  what exactly you wish to investigate.
+In the first sprint, focus on QUESTION - what do you want to find
+out, and who'll care (who is the beneficiary, apart from you)? The
+most important deliverable is the research question (with sub
+questions, perhaps with one or more testable hypotheses) that says
+what exactly you wish to investigate.
 
-  The research question must be validated by a literature review,
-  and/or by primary data in the form of expert views. These views can
-  be primary data (generated by you, e.g. through an interview), or
-  secondary data (e.g. a podcast where an expert was
-  interviewed).
+The research question must be validated by a literature review,
+and/or by primary data in the form of expert views. These views can
+be primary data (generated by you, e.g. through an interview), or
+secondary data (e.g. a podcast where an expert was
+interviewed).
 
-  In data science, authors are often blissfully unaware of the need to
-  embed research in a scientific context. This is not good (though
-  common especially in new disciplines, who are high on new
-  discoveries and free exploration), and can even be dangerous (can
-  you see why?). We'll discuss good examples in class - if you find
-  any, share them!
+In data science, authors are often blissfully unaware of the need to
+embed research in a scientific context. This is not good (though
+common especially in new disciplines, who are high on new
+discoveries and free exploration), and can even be dangerous (can
+you see why?). We'll discuss good examples in class - if you find
+any, share them!
 
-  The first sprint covers the "I" (for Introduction) of the IMRaD
-  structure of scientific papers (see FAQ).
+The first sprint covers the "I" (for Introduction) of the IMRaD
+structure of scientific papers (see FAQ).
 
 * What should we do in the second sprint?
 
-  In the second sprint, focus on METHOD. The most important deliverable
-  is an account of how exactly you want to analyze the datasets that are
-  relevant to your research question.
+In the second sprint, focus on METHOD. The most important deliverable
+is an account of how exactly you want to analyze the datasets that are
+relevant to your research question.
 
-  Method also needs to be validated (same as the research question).
-  Some authors do not justify their method other than by applying it -
-  as if getting a result was justification enough. This is not true,
-  not good, and can even be dangerous (can you see why?). We'll
-  discuss good examples in class - if you find any, share them!
+Method also needs to be validated (same as the research question).
+Some authors do not justify their method other than by applying it -
+as if getting a result was justification enough. This is not true,
+not good, and can even be dangerous (can you see why?). We'll
+discuss good examples in class - if you find any, share them!
 
-  "Method" is often not taught in college. It is assumed that this is
-  more of a graduate or post-graduate necessity. Far from it. If you
-  cannot say why you applied a certain strategy during your research,
-  you may not be aware of different, potentially better, methods.
+"Method" is often not taught in college. It is assumed that this is
+more of a graduate or post-graduate necessity. Far from it. If you
+cannot say why you applied a certain strategy during your research,
+you may not be aware of different, potentially better, methods.
 
-  The second sprint covers the "M" (for "Method") of the IMRaD structure
-  of scientific papers (see FAQ).
+The second sprint covers the "M" (for "Method") of the IMRaD structure
+of scientific papers (see FAQ).
 
 * How do you report on and plan a research "method"?
 
-  The focus of the second sprint review is "method", i.e. the "how" of
-  your research process. The main deliverable in this case is a
-  research report (a written essay) of moderate length (2,500-5000
-  words).
+The focus of the second sprint review is "method", i.e. the "how" of
+your research process. The main deliverable in this case is a
+research report (a written essay) of moderate length (2,500-5000
+words).
 
-  So what does "reporting on method" mean? Generally speaking it means
-  that you need to inform the audience what exactly you plan to do in
-  the course of your research, and convince them that you've chosen well.
+So what does "reporting on method" mean? Generally speaking it means
+that you need to inform the audience what exactly you plan to do in
+the course of your research, and convince them that you've chosen well.
 
-  Let's look at an example - a short conference paper that I wrote on
-  storytelling ([[https://github.com/birkenkrahe/mod482/blob/main/6_storytelling/IEEE-ICCI-CC-14-BIRKENKRAHE.final_copy.pdf][Birkenkrahe, 2014]]). The main achievement of this paper
-  is - you guessed it - a model, shown in the figure below.
+Let's look at an example - a short conference paper that I wrote on
+storytelling ([[https://github.com/birkenkrahe/mod482/blob/main/6_storytelling/IEEE-ICCI-CC-14-BIRKENKRAHE.final_copy.pdf][Birkenkrahe, 2014]]). The main achievement of this paper
+is - you guessed it - a model, shown in the figure below.
 
-  [[./img/model.png]]
+[[./img/model.png]]
 
-  The main purpose of the paper was to research my hypothesis that the
-  storytelling arc (e.g. in a traditional novel) can be mapped onto
-  the IMRaD structure for scientific papers.
+The main purpose of the paper was to research my hypothesis that the
+storytelling arc (e.g. in a traditional novel) can be mapped onto
+the IMRaD structure for scientific papers.
 
-  My methods of investigation were:
+My methods of investigation were:
 
-  1) a short *literature review*. This review looked at publications
-     that were also sitting "on the fence" between science and fiction
-     writing. It was short because there wasn't very much. Most
-     authors didn't think that writing in science and writing in
-     fiction had much in common.
-  2) data from a collection of *personal examples*, gathered in the
-     course of a few years before this research. They included my own
-     fiction writing and supervising students' writing (in a number of
-     different settings).
-  3) the outline of a *planned experiment* with students of a new
-     course.
+1) a short *literature review*. This review looked at publications
+   that were also sitting "on the fence" between science and fiction
+   writing. It was short because there wasn't very much. Most
+   authors didn't think that writing in science and writing in
+   fiction had much in common.
+2) data from a collection of *personal examples*, gathered in the
+   course of a few years before this research. They included my own
+   fiction writing and supervising students' writing (in a number of
+   different settings).
+3) the outline of a *planned experiment* with students of a new
+   course.
 
-  My methods therefore included checking work done by others (1),
-  analyzing my own experiences (2), and making a plan for testing my
-  model in a real setting (3).
+   My methods therefore included checking work done by others (1),
+   analyzing my own experiences (2), and making a plan for testing my
+   model in a real setting (3).
 
-  Hopefully, this structural breakdown will help you think about your
-  modeling paper.
+   Hopefully, this structural breakdown will help you think about your
+   modeling paper.
 
 * What should we do in the third sprint?
 
-  In the third sprint, focus on getting RESULTS. This is highly
-  dependent on your research question and on your product type. Let's
-  look at only one example here - an EDA or Exploratory Data Analysis
-  of a dataset.
+In the third sprint, focus on getting RESULTS. This is highly
+dependent on your research question and on your product type. Let's
+look at only one example here - an EDA or Exploratory Data Analysis
+of a dataset.
 
-  There are many different ways of analyzing a dataset (in the light
-  of your research question or, as it were, free form, following a
-  scent, guided by invisible hands, feeling creative) - some of which
-  you will have seen in the course by the time this sprint review
-  rolls around. Examples include: statistical summaries, functions,
-  contingency tables, plots of various types (histograms, barplots,
-  heatmaps, scatterplots, regression plots), and descriptions. Which
-  are relevant here depend entirely on your data and on your research
-  question. This part of the EDA is the playful part, only restricted
-  by your technical prowess. Hence, you can draw on a myriad of
-  examples in blogs, papers, etc.
+There are many different ways of analyzing a dataset (in the light
+of your research question or, as it were, free form, following a
+scent, guided by invisible hands, feeling creative) - some of which
+you will have seen in the course by the time this sprint review
+rolls around. Examples include: statistical summaries, functions,
+contingency tables, plots of various types (histograms, barplots,
+heatmaps, scatterplots, regression plots), and descriptions. Which
+are relevant here depend entirely on your data and on your research
+question. This part of the EDA is the playful part, only restricted
+by your technical prowess. Hence, you can draw on a myriad of
+examples in blogs, papers, etc.
 
-  The variety of results in this example carries over to other types
-  of results - e.g. a literature review (of a bunch of papers, or of a
-  book), or an application concept. The result is pretty much anything
-  you've been able to find out so far using the tools you committed to
-  use (your method).
+The variety of results in this example carries over to other types
+of results - e.g. a literature review (of a bunch of papers, or of a
+book), or an application concept. The result is pretty much anything
+you've been able to find out so far using the tools you committed to
+use (your method).
 
-  The Third sprint covers the "R" (for "Results") of the IMRaD
-  structure of scientific papers. (See FAQ.)
+The Third sprint covers the "R" (for "Results") of the IMRaD
+structure of scientific papers. (See FAQ.)
 
 * What should we do in the fourth sprint?
 
-  In the fourth and final sprint, focus on the MEANING of your
-  analysis. Your most important deliverables are: an interpretation of
-  the data, perhaps a discussion of your hypotheses (if you had any
-  explicit hypotheses).
+In the fourth and final sprint, focus on the MEANING of your
+analysis. Your most important deliverables are: an interpretation of
+the data, perhaps a discussion of your hypotheses (if you had any
+explicit hypotheses).
 
-  A decisive activity of this sprint is the comparison with existing
-  literature (which you have gathered in the first sprint, and watched
-  ever since), and/or expert views (which you have solicited and
-  watched ever since).
+A decisive activity of this sprint is the comparison with existing
+literature (which you have gathered in the first sprint, and watched
+ever since), and/or expert views (which you have solicited and
+watched ever since).
 
-  Another important aspect of this sprint are the LIMITATIONS - a
-  thorough description of your sources of bias and what to do about
-  it.
+Another important aspect of this sprint are the LIMITATIONS - a
+thorough description of your sources of bias and what to do about
+it.
 
-  Finally, you can also provide an OUTLOOK - interesting avenues for
-  further investigations. Notice that some papers (and virtually all
-  blog posts and other non-scientific articles) are missing a
-  (non-trivial) discussion of bias. This is not good, and always
-  dangerous (can you see why?).
+Finally, you can also provide an OUTLOOK - interesting avenues for
+further investigations. Notice that some papers (and virtually all
+blog posts and other non-scientific articles) are missing a
+(non-trivial) discussion of bias. This is not good, and always
+dangerous (can you see why?).
 
-  Many EDAs (at least in non-scientific publications) are also missing
-  a comparison with existing literature, which means that, as the
-  reader, you have no idea if what you're reading is original,
-  relevant or important at all. No investigation is an island.
+Many EDAs (at least in non-scientific publications) are also missing
+a comparison with existing literature, which means that, as the
+reader, you have no idea if what you're reading is original,
+relevant or important at all. No investigation is an island.
 
-  The fourth sprint covers the "D" (for "Discussion") of the IMRaD
-  structure of scientific papers. See FAQ for more on IMRaD.
+The fourth sprint covers the "D" (for "Discussion") of the IMRaD
+structure of scientific papers. See FAQ for more on IMRaD.
 
 * Where I can find out more about "IMRaD"?
 
-  See [[https://youtu.be/dip7UwZ3wUM][this short (15 min) YouTube video]] - produced for a course on
-  "research methods" for graduate students at the Berlin School of
-  Economics and Law (MBAs). See also my paper on storytelling and
-  scientific writing ([[birk14][Birkenkrahe, 2014]]).
+See [[https://youtu.be/dip7UwZ3wUM][this short (15 min) YouTube video]] - produced for a course on
+"research methods" for graduate students at the Berlin School of
+Economics and Law (MBAs). See also my paper on storytelling and
+scientific writing ([[birk14][Birkenkrahe, 2014]]).
 
-  The structural similarity between storyline and other successful
-  forms of writing (like in science) is actually not surprising when
-  you think about it. Whatever you may think about progress - some
-  things were found to be true long ago (e.g. the most effective form
-  for a story - by Aristotle, 2500 years ago), and they still work as
-  well, or better, than many inventions that came after them.
+The structural similarity between storyline and other successful
+forms of writing (like in science) is actually not surprising when
+you think about it. Whatever you may think about progress - some
+things were found to be true long ago (e.g. the most effective form
+for a story - by Aristotle, 2500 years ago), and they still work as
+well, or better, than many inventions that came after them.
 
-  You may perhaps wonder why nobody has told you about "IMRaD" before:
-  all scientists and scholars use it, but not all reflect upon their
-  writing, I think, at least in the STEM disciplines.
+You may perhaps wonder why nobody has told you about "IMRaD" before:
+all scientists and scholars use it, but not all reflect upon their
+writing, I think, at least in the STEM disciplines.
 
 * Which editor and IDE do you use?
 
-  I use the free [[https://www.gnu.org/software/emacs/][Emacs]] editor. For R, I use Emacs + [[https://ess.r-project.org/][ESS]] ("Emacs Speaks
-  Statistics"), for general notebooking and task management
-  and...everything really, I use Emacs + ESS + [[https://orgmode.org/][Org-mode]] (a
-  general-purpose task manager inside Emacs, first developed by
-  physicists like me). For slides, I use the [[https://github.com/hakimel/reveal.js/][reveal.js]] (JavaScript)
-  framework (generates HTML), or [[https://github.com/takaxp/org-tree-slide][org-tree-slide]] (for presenting
-  straight from Org-mode).
+I use the free [[https://www.gnu.org/software/emacs/][Emacs]] editor. For R, I use Emacs + [[https://ess.r-project.org/][ESS]] ("Emacs Speaks
+Statistics"), for general notebooking and task management
+and...everything really, I use Emacs + ESS + [[https://orgmode.org/][Org-mode]] (a
+general-purpose task manager inside Emacs, first developed by
+physicists like me). For slides, I use the [[https://github.com/hakimel/reveal.js/][reveal.js]] (JavaScript)
+framework (generates HTML), or [[https://github.com/takaxp/org-tree-slide][org-tree-slide]] (for presenting
+straight from Org-mode).
 
-  Emacs is hands down the best editor in the world, written in [[https://en.wikipedia.org/wiki/Lisp_(programming_language)][LISP]][fn:2],
-  one of the earliest programming languages for AI research, and the
-  second oldest language in widespread use (after FORTRAN)[fn:14].
+Emacs is hands down the best editor in the world, written in [[https://en.wikipedia.org/wiki/Lisp_(programming_language)][LISP]][fn:2],
+one of the earliest programming languages for AI research, and the
+second oldest language in widespread use (after FORTRAN)[fn:14].
 
-  They say the learning curve of this "complex beast" ([[https://masteringemacs.org/article/beginners-guide-to-emacs][Petersen, 2019]])
-  is steep but don't believe it.  Here is an link to [[https://opensource.com/article/20/3/getting-started-emacs][get started with
-  Emacs easily]] (Kenlon, 2019). Tale a look!
+They say the learning curve of this "complex beast" ([[https://masteringemacs.org/article/beginners-guide-to-emacs][Petersen, 2019]])
+is steep but don't believe it.  Here is an link to [[https://opensource.com/article/20/3/getting-started-emacs][get started with
+Emacs easily]] (Kenlon, 2019). Tale a look!
 
-  Here is a 2021 "[[https://ess-intro.github.io/][Introduction to Emacs Speaks Statistics]]" site with
-  lots of additional information.
+Here is a 2021 "[[https://ess-intro.github.io/][Introduction to Emacs Speaks Statistics]]" site with
+lots of additional information.
 
-  The figure shows four (out of an arbitrary number of) panels inside
-  the editor
+The figure shows four (out of an arbitrary number of) panels inside
+the editor
 
-  #+attr_html: :width 600px
-  [[./img/panels.png]]
+#+attr_html: :width 600px
+[[./img/panels.png]]
 
 * How can I install Emacs as a data science IDE on Windows 10?
 
-  GNU Emacs is a free, extensible editor written in a dialect of Lisp,
-  a programming language that used to be the main language for
-  Artificial Intelligence applications (besides PROLOG) until Python
-  and R came along. After my Linux laptop went on the fritz, I
-  switched to a Windows 10 box myself. Since most if not all of you
-  are committed Windows users, I decided to stay down there with
-  you. As a consequence, I had to figure out how to run my favorite
-  development environment, Emacs + ESS + R, under this OS. Here are
-  the steps I used to do that. Let me know if this works for you!
+GNU Emacs is a free, extensible editor written in a dialect of Lisp,
+a programming language that used to be the main language for
+Artificial Intelligence applications (besides PROLOG) until Python
+and R came along. After my Linux laptop went on the fritz, I
+switched to a Windows 10 box myself. Since most if not all of you
+are committed Windows users, I decided to stay down there with
+you. As a consequence, I had to figure out how to run my favorite
+development environment, Emacs + ESS + R, under this OS. Here are
+the steps I used to do that. Let me know if this works for you!
 
 ** Download and install Emacs + ESS
 
-   For Windows, you can download and install the latest Emacs version
-   bundled with Org-mode and ESS from here:
-   https://vigou3.gitlab.io/emacs-modified-windows/
+For Windows, you can download and install the latest Emacs version
+bundled with Org-mode and ESS from here:
+https://vigou3.gitlab.io/emacs-modified-windows/
 
-   The installation is standard and worked without a hitch. Put a
-   launcher/link to Emacs on the Desktop and on your tasklist. Open
-   Emacs.
+The installation is standard and worked without a hitch. Put a
+launcher/link to Emacs on the Desktop and on your tasklist. Open
+Emacs.
 
 ** Emacs tutorial
 
-   The first thing you need to do is to complete the Emacs onboard
-   tutorial. Open it from the Startup screen, or open it any time with
-   the key sequence ~<CTRL>-h t~. These key sequences will take some
-   time to get used to but once you got them in your fingers, you
-   won't want to look back, because you're going to be much faster
-   than any mouse.
+The first thing you need to do is to complete the Emacs onboard
+tutorial. Open it from the Startup screen, or open it any time with
+the key sequence ~<CTRL>-h t~. These key sequences will take some
+time to get used to but once you got them in your fingers, you
+won't want to look back, because you're going to be much faster
+than any mouse.
 
 ** Download and install R
 
-   You only need to do this if you want to work with R. Even if you
-   don't, you can use Emacs to develop programs in any language, or
-   use Org-mode to run your life more merrily.
+You only need to do this if you want to work with R. Even if you
+don't, you can use Emacs to develop programs in any language, or
+use Org-mode to run your life more merrily.
 
-   Download R from ~rproject.org~ for Windows and do a standard
-   installation. Launch R independently from Emacs to test that it
-   works. Try to plot something with ~plot(rnorm(100))~ to test the
-   graphic device.
+Download R from ~rproject.org~ for Windows and do a standard
+installation. Launch R independently from Emacs to test that it
+works. Try to plot something with ~plot(rnorm(100))~ to test the
+graphic device.
 
 ** Set the ~PATH~ environment variable
 
-   You have to pass the path to the R executable to Windows so that it
-   can find it when Emacs asks for it. To do this, open the Shell in
-   Emacs with ~M-x shell~, type ~PATH~ to see the current load path,
-   and then add that (absolute) folder address with ~PATH=~. This is
-   how it looks for me:
+You have to pass the path to the R executable to Windows so that it
+can find it when Emacs asks for it. To do this, open the Shell in
+Emacs with ~M-x shell~, type ~PATH~ to see the current load path,
+and then add that (absolute) folder address with ~PATH=~. This is
+how it looks for me:
 
-   #+begin_example sh
+#+begin_example sh
 PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\birkenkrahe\AppData\Local\Microsoft\WindowsApps;C:\Users\birkenkrahe\AppData\Local\GitHubDesktop\bin;C:\Users\birkenkrahe\Documents\R\R-4.1.0\bin\x64;
-   #+end_example
+#+end_example
 
 ** Test run your new setup
 
 *** Opening R
 
-    Open R with ~M-x R~. Emacs asks if you want to open R in the
-    current directory (which is the folder you can get with ~getwd()~
-    inside R.
+Open R with ~M-x R~. Emacs asks if you want to open R in the
+current directory (which is the folder you can get with ~getwd()~
+inside R.
 
 *** Running R from the shell inside Emacs
 
-    Frankly, I don't know which shell program Emacs uses here. I
-    suspect it is the Microsoft PowerShell - something else that I
-    need to figure out on a rainy afternoon. You can start the shell
-    inside Emacs with ~M-x shell~ and then run R inside it.
+Frankly, I don't know which shell program Emacs uses here. I
+suspect it is the Microsoft PowerShell - something else that I
+need to figure out on a rainy afternoon. You can start the shell
+inside Emacs with ~M-x shell~ and then run R inside it.
 
 *** Running R inside source code chunks in org files
 
-    I like to create code notebooks in Org-mode files. To do this, I
-    use the following syntax for R (if I want to see the output right
-    below the chunk)[fn:15]:
+I like to create code notebooks in Org-mode files. To do this, I
+use the following syntax for R (if I want to see the output right
+below the chunk)[fn:15]:
 
-    #+begin_example
-   #+begin_src R :session output
-    <code>
-   #+end_src
-    #+end_example
+#+begin_example
+#+begin_src R :session output
+<code>
+#+end_src
+#+end_example
 
-    And now I can run the ~<code>~ inside the chunk with ~C-o C-o~, or
-    I can open the code in a separate buffer and e.g. save it as an R
-    file.
+And now I can run the ~<code>~ inside the chunk with ~C-o C-o~, or
+I can open the code in a separate buffer and e.g. save it as an R
+file.
 
 ** My Emacs setup
 
-   * The configuration file for Emacs is the ~.emacs~ file. [[https://1drv.ms/u/s!AhEvK3qWokrvitxPQ2OuaCOOQDfvZQ?e=KhLQW6][Here is
-     the ~.emacs~ file that I use for download]] (it's a text file - you
-     can download it as ~emacs.txt~ to view it).
-   * Site lisp files are stored in ~/.emacs.d/~ and they are
-     downloaded from a central repository. Emacs knows which ones to
-     use. You can see all available and installed packages with the
-     command ~M-x package-list-packages~.
+* The configuration file for Emacs is the ~.emacs~ file. [[https://1drv.ms/u/s!AhEvK3qWokrvitxPQ2OuaCOOQDfvZQ?e=KhLQW6][Here is
+the ~.emacs~ file that I use for download]] (it's a text file - you
+can download it as ~emacs.txt~ to view it).
+* Site lisp files are stored in ~/.emacs.d/~ and they are
+downloaded from a central repository. Emacs knows which ones to
+use. You can see all available and installed packages with the
+command ~M-x package-list-packages~.
 
 * How to use GitHub Desktop to backup your code to GitHub
 
-  With GitHub, you develop locally, and collaborate remotely. Even if
-  you don't collaborate but only use GitHub as a repository as I do
-  for our courses, it is useful: I don't need to worry about setting
-  up a separate backup to a cloud location with complicated sharing
-  rules. Once I make local changes, I can push them to the remote main
-  repo. And if someone improves my remote repo (via the issue-branch
-  mechanism of Git), I can pull the code and merge it with my local
-  code.
+With GitHub, you develop locally, and collaborate remotely. Even if
+you don't collaborate but only use GitHub as a repository as I do
+for our courses, it is useful: I don't need to worry about setting
+up a separate backup to a cloud location with complicated sharing
+rules. Once I make local changes, I can push them to the remote main
+repo. And if someone improves my remote repo (via the issue-branch
+mechanism of Git), I can pull the code and merge it with my local
+code.
 
-  All of this saves me tons of time - GitHub + Emacs + Org-mode (in
-  Emacs) are my two or three main productivity tools to run a proper
-  ship even with four or five courses in parallel, and with a fair
-  amount of involvement and new developments[fn:16].
+All of this saves me tons of time - GitHub + Emacs + Org-mode (in
+Emacs) are my two or three main productivity tools to run a proper
+ship even with four or five courses in parallel, and with a fair
+amount of involvement and new developments[fn:16].
 
-  To work with GitHub under Windows, the easiest way is to download
-  GitHub desktop, and create a local copy of your remote repo, or the
-  other way around, create a remote GitHub repo from your local
-  folder.
+To work with GitHub under Windows, the easiest way is to download
+GitHub desktop, and create a local copy of your remote repo, or the
+other way around, create a remote GitHub repo from your local
+folder.
 
-  Using the GitHub desktop does not replace the command line (CLI)
-  use, which gives you more flexibility, but for my purpose, it
-  suffices.
+Using the GitHub desktop does not replace the command line (CLI)
+use, which gives you more flexibility, but for my purpose, it
+suffices.
 
-  /Image: GitHub desktop screenshots/
+/Image: GitHub desktop screenshots/
 
-  1) I made a local change to ~FAQ.org~ which is monitored by Git. I
-     click "commit" to indicate that I want the change to become
-     permanent.
+1) I made a local change to ~FAQ.org~ which is monitored by Git. I
+   click "commit" to indicate that I want the change to become
+   permanent.
 
-     #+attr_html:       :width 600px
-     [[./img/github.png]]
+   #+attr_html:       :width 600px
+   [[./img/github.png]]
 
-  2) Git suggests that I push the changed file to the remote
-     repository, which is by default called ~origin~. The remote repo
-     currently looks at the ~main~ branch (that's the head - I can
-     change that to another branch if it exists).
+2) Git suggests that I push the changed file to the remote
+   repository, which is by default called ~origin~. The remote repo
+   currently looks at the ~main~ branch (that's the head - I can
+   change that to another branch if it exists).
 
-     #+attr_html:       :width 600px
-     [[./img/github1.png]]
+   #+attr_html:       :width 600px
+   [[./img/github1.png]]
 
-  3) After entering a summary of my change, I can execute the
-     push. Git now informs me that there are no local changes
-     pending.
+3) After entering a summary of my change, I can execute the
+   push. Git now informs me that there are no local changes
+   pending.
 
-     #+attr_html: :width 600px
-     [[./img/github2.png]]
+   #+attr_html: :width 600px
+   [[./img/github2.png]]
 
 ** Important files
 
-   * ~README.md~ is a markdown file that automatically opens when you
-     open the repo - it's like an index file.
-   * ~.gitignore~ is a file with those files that you don't want to
-     version control - like backup files or intermediate files
-     (e.g. ~.dvi~ when you process a LaTeX file).
+* ~README.md~ is a markdown file that automatically opens when you
+open the repo - it's like an index file.
+* ~.gitignore~ is a file with those files that you don't want to
+version control - like backup files or intermediate files
+(e.g. ~.dvi~ when you process a LaTeX file).
 
 * How can you always create a great presentation?
 
-  Here are some things people might say when asked what makes a
-  presentation good, i.e. worth listening to:
+Here are some things people might say when asked what makes a
+presentation good, i.e. worth listening to:
 
-  | WHAT     | HOW                      | WHEN   |
-  |----------+--------------------------+--------|
-  | Facts    | Validation & Relevance   | Always |
-  | Story    | Message, Plot, Character | Always |
-  | Delivery | Body and Soul            | Always |
+| WHAT     | HOW                      | WHEN   |
+|----------+--------------------------+--------|
+| Facts    | Validation & Relevance   | Always |
+| Story    | Message, Plot, Character | Always |
+| Delivery | Body and Soul            | Always |
 
-  But what makes a presentation "great" (i.e. highly memorable,
-  unforgettable, totally inspiring)?
+But what makes a presentation "great" (i.e. highly memorable,
+unforgettable, totally inspiring)?
 
-  Barbara Minto's Pyramid Principle ([[minto][Minto, 2002]]) has a claim to being
-  the method to achieve this. Here is an illustration followed by an
-  example below.
+Barbara Minto's Pyramid Principle ([[minto][Minto, 2002]]) has a claim to being
+the method to achieve this. Here is an illustration followed by an
+example below.
 
-  #+attr_html: :width 700px
-  [[./img/minto.png]]
+#+attr_html: :width 700px
+[[./img/minto.png]]
 
-  (Image source: [[minto1][powerusersoftwares.com, 2016]])
+(Image source: [[minto1][powerusersoftwares.com, 2016]])
 
 **  Minto Pyramid Principle
 
-   The SCQA method is not the same as the pyramid principle, but it is
-   the dominant technique to arrive at a pyramid structure for your
-   presentation, paper, essay, or even email.
+The SCQA method is not the same as the pyramid principle, but it is
+the dominant technique to arrive at a pyramid structure for your
+presentation, paper, essay, or even email.
 
 *** Situation ("What's going on?")
 
-    * (Almost) nobody likes giving presentations
-    * Especially among nerds/geeks
-    * Presentations are performance-oriented
-    * Since you'll have to present, focus on efficiency
-    * Efficient group or audience communication = rapport[fn:17]
+* (Almost) nobody likes giving presentations
+* Especially among nerds/geeks
+* Presentations are performance-oriented
+* Since you'll have to present, focus on efficiency
+* Efficient group or audience communication = rapport[fn:17]
 
 *** Complication ("What should we do?")
 
-    Audience composition, presentation purpose, circumstances, cultural
-    factors, timing, and many more attributes, vary wildly from one
-    presentation to the next. To always create a winning presentation,
-    one needs a set of rules that remain unchanged.
+Audience composition, presentation purpose, circumstances, cultural
+factors, timing, and many more attributes, vary wildly from one
+presentation to the next. To always create a winning presentation,
+one needs a set of rules that remain unchanged.
 
 *** Question ("What's the problem?")
 
-    Are there any invariants[fn:18], i.e. things, processes, attributes
-    that remain unchanged from one presentation to the next?[fn:19]
+Are there any invariants[fn:18], i.e. things, processes, attributes
+that remain unchanged from one presentation to the next?[fn:19]
 
 *** Answer
 
-    Audience rapport is a relationship invariant for all
-    presentations. According to Barbara Minto ([[minto][Minto, 2002]]), the SCQA
-    method delivers an invariant structure for all presentations, to
-    all audiences. I am inclined to agree with her[fn:20].
+Audience rapport is a relationship invariant for all
+presentations. According to Barbara Minto ([[minto][Minto, 2002]]), the SCQA
+method delivers an invariant structure for all presentations, to
+all audiences. I am inclined to agree with her[fn:20].
 
 ** Minto tutorial videos
 
-   For a short overview see the video: [[https://vimeo.com/87537935][Harrison Metal (2014)]].
+For a short overview see the video: [[https://vimeo.com/87537935][Harrison Metal (2014)]].
 
-   For a lecture in 2 parts by me ([[birk][2016]]), see here:
-   * Minto Pyramid Principle Part 1 - [[https://youtu.be/HrmBZQuCSzo][Introductory Stories]]
-   * Minto Pyramid Principle Part 2 - [[https://youtu.be/k_FJXpYPbQY][What Audiences Want]]
+For a lecture in 2 parts by me ([[birk][2016]]), see here:
+* Minto Pyramid Principle Part 1 - [[https://youtu.be/HrmBZQuCSzo][Introductory Stories]]
+* Minto Pyramid Principle Part 2 - [[https://youtu.be/k_FJXpYPbQY][What Audiences Want]]
 
 * How should we prepare for the final presentation?
 ** Timing
 
-   The final presentation is a presentation of 30-45 minutes (for a
-   team of 2-3), or 20 minutes (for an individual presenter),
-   including discussion. The exact timing depends on the course
-   setting (numberof total presentations and available time). Ask me
-   in class!
+The final presentation is a presentation of 30-45 minutes (for a
+team of 2-3), or 20 minutes (for an individual presenter),
+including discussion. The exact timing depends on the course
+setting (numberof total presentations and available time). Ask me
+in class!
 
-   Online presentations are not time-limited: they should be as long
-   as you need to get your topic across. If you have little, they'll
-   be short, if you have a lot, you might have to select what to
-   present.
+Online presentations are not time-limited: they should be as long
+as you need to get your topic across. If you have little, they'll
+be short, if you have a lot, you might have to select what to
+present.
 
 ** Grading
-   The final presentation is graded. I give a percentage grade that
-   you can translate to a letter grade if you like using the grading
-   table in your course syllabus.
+The final presentation is graded. I give a percentage grade that
+you can translate to a letter grade if you like using the grading
+table in your course syllabus.
 
-   You can treat this list like a checklist and make sure at least
-   that you thought about every single question, and give yourself an
-   honest score for how well you expect you will perform in each
-   category. Items are listed in alphabetical order first. The
-   sub-questions within each aspect are not ordered.
+You can treat this list like a checklist and make sure at least
+that you thought about every single question, and give yourself an
+honest score for how well you expect you will perform in each
+category. Items are listed in alphabetical order first. The
+sub-questions within each aspect are not ordered.
 
-   | NO. | ASPECT      | QUESTIONS                                                                     |
-   |-----+-------------+-------------------------------------------------------------------------------|
-   |   1 | Content     | Did you research the topic (literature review)?                               |
-   |   2 |             | Did you make an effort to quantify statements (graphs, tables)?               |
-   |   3 |             | Were your graphs and tables clear and unambiguous?[fn:21]                     |
-   |   4 |             | Did you explain where your content came from?                                 |
-   |   5 |             | Did you demonstrate an effort to validate your sources?                       |
-   |   6 |             | Were you able to answer questions about the slides?                           |
-   |   7 |             | Are you aware of the limitations of your research (method and personal bias)? |
-   |   8 |             | Did you select those results suitable for presentation?                       |
-   |   9 | Form        | Did you make an effort to optimize your slides?[fn:22]                        |
-   |  10 |             | Did you control your diction, spelling, mistakes on slides?                   |
-   |  11 |             | Did the presentation seem rehearsed and well-tested?                          |
-   |  12 |             | Were you dressed appropriate to the occasion?[fn:23]                          |
-   |  13 |             | Did the presentation have a clear, logical structure?[fn:24]                  |
-   |  14 | Interaction | Did you make an effort to involve the audience?                               |
-   |  15 | References  | Did you provide references, with consistent and complete citations            |
-   |  16 |             | Did you use inline references on slides?                                      |
-   |  17 | Team        | How well did you work together during the presentation[fn:25]                 |
-   |  18 | Timing      | Did you respect the timelines (start/end)?[fn:26]                             |
+| NO. | ASPECT      | QUESTIONS                                                                     |
+|-----+-------------+-------------------------------------------------------------------------------|
+|   1 | Content     | Did you research the topic (literature review)?                               |
+|   2 |             | Did you make an effort to quantify statements (graphs, tables)?               |
+|   3 |             | Were your graphs and tables clear and unambiguous?[fn:21]                     |
+|   4 |             | Did you explain where your content came from?                                 |
+|   5 |             | Did you demonstrate an effort to validate your sources?                       |
+|   6 |             | Were you able to answer questions about the slides?                           |
+|   7 |             | Are you aware of the limitations of your research (method and personal bias)? |
+|   8 |             | Did you select those results suitable for presentation?                       |
+|   9 | Form        | Did you make an effort to optimize your slides?[fn:22]                        |
+|  10 |             | Did you control your diction, spelling, mistakes on slides?                   |
+|  11 |             | Did the presentation seem rehearsed and well-tested?                          |
+|  12 |             | Were you dressed appropriate to the occasion?[fn:23]                          |
+|  13 |             | Did the presentation have a clear, logical structure?[fn:24]                  |
+|  14 | Interaction | Did you make an effort to involve the audience?                               |
+|  15 | References  | Did you provide references, with consistent and complete citations            |
+|  16 |             | Did you use inline references on slides?                                      |
+|  17 | Team        | How well did you work together during the presentation[fn:25]                 |
+|  18 | Timing      | Did you respect the timelines (start/end)?[fn:26]                             |
 
-   I will give you short formative (qualitative) feedback based on the
-   question breakdown above so that you know where your grade comes
-   from, and you get a summary that looks like the figure below
-   ([[bps][Source: BPS]]).
+I will give you short formative (qualitative) feedback based on the
+question breakdown above so that you know where your grade comes
+from, and you get a summary that looks like the figure below
+([[bps][Source: BPS]]).
 
-   #+attr_html: :width 600px
-   [[./img/presentation.png]]
+#+attr_html: :width 600px
+[[./img/presentation.png]]
 
 ** What's the best strategy?
 
-   If any one of the items in the checklist is very well done, it may
-   save your presentation, even if a few of the other items aren't all
-   that great. Likewise, completely disregarding one of these items
-   could sink your presentation.
+If any one of the items in the checklist is very well done, it may
+save your presentation, even if a few of the other items aren't all
+that great. Likewise, completely disregarding one of these items
+could sink your presentation.
 
-   The best strategy is to (1) cover as many of the questions as you
-   can and (2) excel in (at least) one aspect. Also, the best
-   presentation of a group sets the higher bar for everyone, just as
-   the worst presentation of a group sets the lower bar.
+The best strategy is to (1) cover as many of the questions as you
+can and (2) excel in (at least) one aspect. Also, the best
+presentation of a group sets the higher bar for everyone, just as
+the worst presentation of a group sets the lower bar.
 
-   The best strategy overall is to put enough time into your work, and
-   ask for feedback before it is too late.
+The best strategy overall is to put enough time into your work, and
+ask for feedback before it is too late.
 
 ** Ask if you have questions!
 
-   If in doubt about any of these, or about the quality of your
-   presentation (slides), ask me directly while there's still time to
-   fix things! A few people have shown me their stuff beforehand and it
-   hasn't been to their disadvantage - at the very minimum it means
-   that they care.
+If in doubt about any of these, or about the quality of your
+presentation (slides), ask me directly while there's still time to
+fix things! A few people have shown me their stuff beforehand and it
+hasn't been to their disadvantage - at the very minimum it means
+that they care.
 
-   You should know what type of final product you must submit to pass
-   the course. If in doubt, check the syllabus or ask me directly!
+You should know what type of final product you must submit to pass
+the course. If in doubt, check the syllabus or ask me directly!
 
 * What do we have to deliver for the final essay or presentation?
 
-  You have to deliver these items before you can get a grade from me.
+You have to deliver these items before you can get a grade from me.
 
-  * The essay, presentation or report and all accompanying material
-    (if any) are uploaded to the respective GitHub folder.
-  * All authors must fill in the application form shown below,
-    print their names, sign, date and add "pledged" on their line.
-  * For a presentation, all team members must be present and
-    contributing during the presentation, both as presenters and by
-    answering questions.
+* The essay, presentation or report and all accompanying material
+(if any) are uploaded to the respective GitHub folder.
+* All authors must fill in the application form shown below,
+print their names, sign, date and add "pledged" on their line.
+* For a presentation, all team members must be present and
+contributing during the presentation, both as presenters and by
+answering questions.
 
-  #+attr_html: :width 600px
-  [[./img/pledge.png]]
+#+attr_html: :width 600px
+[[./img/pledge.png]]
 
 * How is the final essay graded?
 
-  The image below shows the assessment template for the final
-  essay. This is essentially a template based on the IMRaD structure
-  used for all scientific publications - journal or conference papers,
-  essays, reports, whitepapers, bachelor, master or PhD theses.
+The image below shows the assessment template for the final
+essay. This is essentially a template based on the IMRaD structure
+used for all scientific publications - journal or conference papers,
+essays, reports, whitepapers, bachelor, master or PhD theses.
 
-  #+attr_html: :width 600px
-  [[./img/essay.png]]
+#+attr_html: :width 600px
+[[./img/essay.png]]
 
-  There is a complete rubric behind these categories, which you could
-  use as a checklist. [[https://drive.google.com/file/d/1rg8-n_cOACi0FTACdH1zYMNuMeWueMPy/view?usp=sharing][Here is the link to the PDF.]] For the essay, only
-  section D "Report" of this rubric is directly relevant (image shows
-  a screenshot excerpt).
+There is a complete rubric behind these categories, which you could
+use as a checklist. [[https://drive.google.com/file/d/1rg8-n_cOACi0FTACdH1zYMNuMeWueMPy/view?usp=sharing][Here is the link to the PDF.]] For the essay, only
+section D "Report" of this rubric is directly relevant (image shows
+a screenshot excerpt).
 
-  #+attr_html: :width 600px
-  [[./img/rubric.png]]
+#+attr_html: :width 600px
+[[./img/rubric.png]]
 
-  You should know what type of final product you must submit to pass
-  the course. If in doubt, check the syllabus or ask me directly!
+You should know what type of final product you must submit to pass
+the course. If in doubt, check the syllabus or ask me directly!
 
 * What's the difference between an essay and an EDA report?
 
-  This is relevant if you deliver a presentation in connection with a
-  data science notebook that includes code, text, and program output
-  (see image below - screenshot excerpt from a notebook submission on
-  Kaggle).
+This is relevant if you deliver a presentation in connection with a
+data science notebook that includes code, text, and program output
+(see image below - screenshot excerpt from a notebook submission on
+Kaggle).
 
-  #+attr_html: :width 600px
-  [[./img/nb.png]]
+#+attr_html: :width 600px
+[[./img/nb.png]]
 
-  For the report, the same criteria apply as for the final essay, wher
-  the code part is your "empirical study".
+For the report, the same criteria apply as for the final essay, wher
+the code part is your "empirical study".
 
-  You should know what type of final product you must submit to pass
-  the course. If in doubt, check the syllabus or ask me directly!
+You should know what type of final product you must submit to pass
+the course. If in doubt, check the syllabus or ask me directly!
 
 * How can I install Linux under Windows 10?
 
-  I use the open source operating system Linux in several courses
-  (Intro to programming in C/C++, Operating Systems, Intro to Data
-  Science). For computer scientists, some knowledge of Linux and shell
-  commands is important. There are different ways to get Linux on your
-  machine:
+I use the open source operating system Linux in several courses
+(Intro to programming in C/C++, Operating Systems, Intro to Data
+Science). For computer scientists, some knowledge of Linux and shell
+commands is important. There are different ways to get Linux on your
+machine:
 
-  1) As dual boot setup - when starting your computer, you can opt for
-     either Windows or Linux.
-  2) Using Linux on a virtual box inside Windows.
-  3) Running Linux from a USB stick (as an external drive).
-  4) Running Cygwin, which is almost like Linux but not quite.
-  5) Running Linux as an app inside Windows.
+   1) As dual boot setup - when starting your computer, you can opt for
+      either Windows or Linux.
+   2) Using Linux on a virtual box inside Windows.
+   3) Running Linux from a USB stick (as an external drive).
+   4) Running Cygwin, which is almost like Linux but not quite.
+   5) Running Linux as an app inside Windows.
 
-  Which of these is for you also depends on your computer. I have
-  found the Microsoft Ubuntu app to be easy to use (as of November
-  2021). I found out about this from [[gookin][Gookin (2021)]].
+      Which of these is for you also depends on your computer. I have
+      found the Microsoft Ubuntu app to be easy to use (as of November
+      2021). I found out about this from [[gookin][Gookin (2021)]].
 
-  Update November 25, 2021: here is another complete [[https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview][installation
-  tutorial]] from the makers of the app ([[ubuntu][Morrison, 2021]]).
+      Update November 25, 2021: here is another complete [[https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview][installation
+      tutorial]] from the makers of the app ([[ubuntu][Morrison, 2021]]).
 
 ** Download Linux
 
-   Type ~Microsoft store~ in the search bar (next to the task bar),
-   and then search for ~Ubuntu~ in the search field inside the
-   store. You find different distributions. Pick ~Ubuntu 20.04
-   LTS~[fn:10] and click on ~Get~ to download the installer. The
-   distribution will take about 0.5 GB disk space.
+Type ~Microsoft store~ in the search bar (next to the task bar),
+and then search for ~Ubuntu~ in the search field inside the
+store. You find different distributions. Pick ~Ubuntu 20.04
+LTS~[fn:10] and click on ~Get~ to download the installer. The
+distribution will take about 0.5 GB disk space.
 
-   /Image: info about the distribution from Canonical/
-   #+attr_html: :width 600px
-   [[./img/ubuntu.png]]
+/Image: info about the distribution from Canonical/
+#+attr_html: :width 600px
+[[./img/ubuntu.png]]
 
-   When I tried to launch this app, I got an error due to Windows
-   security settings, since you're messing with the system level here
-   (so this does make sense).
+When I tried to launch this app, I got an error due to Windows
+security settings, since you're messing with the system level here
+(so this does make sense).
 
 ** Turn Developer Mode On
 
-   Go to the Windows search bar and look for ~Windows Security
-   Settings~. The following page will open.
+Go to the Windows search bar and look for ~Windows Security
+Settings~. The following page will open.
 
-   /Image: Windows Security settings/
-   #+attr_html: :width 600px
-   [[./img/ubuntu1.png]]
+/Image: Windows Security settings/
+#+attr_html: :width 600px
+[[./img/ubuntu1.png]]
 
-   Find the developers menu point on the left hand side and open the
-   menu. In this menu, ~Developer Mode~ needs to be turned ~On~ as
-   shown in the image below.
+Find the developers menu point on the left hand side and open the
+menu. In this menu, ~Developer Mode~ needs to be turned ~On~ as
+shown in the image below.
 
-   /Image: Windows Security Settings for Developers/
-   #+attr_html: :width 600px
-   [[./img/ubuntu2.png]]
+/Image: Windows Security Settings for Developers/
+#+attr_html: :width 600px
+[[./img/ubuntu2.png]]
 
 ** Enable Windows subsystem for Linux
-   <<WSL2>>
+<<WSL2>>
 
-   Go to the Windows search bar and look for ~Turn Windows features on
-   or off~. A screen pops up. Scroll down until you see ~Windows
-   Subsystem for Linux~. This allows Linux to take a portion of the
-   system disk for itself (I think). Check this option as shown below.
+Go to the Windows search bar and look for ~Turn Windows features on
+or off~. A screen pops up. Scroll down until you see ~Windows
+Subsystem for Linux~. This allows Linux to take a portion of the
+system disk for itself (I think). Check this option as shown below.
 
-   /Image: Enable Windows Subsystem for Linux/
-   #+attr_html: :width 600px
-   [[./img/ubuntu3.png]]
+/Image: Enable Windows Subsystem for Linux/
+#+attr_html: :width 600px
+[[./img/ubuntu3.png]]
 
-   When saving this menu with ~OK~, you'll be prompted to restart the
-   computer. After you did this, you should be able to boot Linux
-   using the app.
+When saving this menu with ~OK~, you'll be prompted to restart the
+computer. After you did this, you should be able to boot Linux
+using the app.
 
 * How can I get Linux tools under Windows 10?
 
-  * Cygwin is a large collection of GNU and Open Source tools which
-    provide a functionality similar to GNU/Linux on Windows.
-  * Programs appear as part of a drive called ~cygdrive~. The
-    distribution consists of an executable ~setup.exe~ and a ~.dll~
-    file (Windows' dynamically linked library file type).
-  * To run /native/ Linux apps on cygwin, they must be compiled from
-    the source.
+* Cygwin is a large collection of GNU and Open Source tools which
+provide a functionality similar to GNU/Linux on Windows.
+* Programs appear as part of a drive called ~cygdrive~. The
+distribution consists of an executable ~setup.exe~ and a ~.dll~
+file (Windows' dynamically linked library file type).
+* To run /native/ Linux apps on cygwin, they must be compiled from
+the source.
 
-    #+begin_quote
-    [[./img/cygwin.png]]
-    #+end_quote
-    /Image: screenshot of the cygwin terminal command ~pwd~/
+#+begin_quote
+[[./img/cygwin.png]]
+#+end_quote
+/Image: screenshot of the cygwin terminal command ~pwd~/
 
 ** Download and Installation
 
-   * Go to the [[https://cygwin.com/install.html][Cygwin install page]] and download [[https://cygwin.com/setup-x86_64.exe][~setup-x86_64.exe~]]
-   * Run ~setup-x86_64.exe~ and accept all settings until you come to
-     the package selection screen.
+* Go to the [[https://cygwin.com/install.html][Cygwin install page]] and download [[https://cygwin.com/setup-x86_64.exe][~setup-x86_64.exe~]]
+* Run ~setup-x86_64.exe~ and accept all settings until you come to
+the package selection screen.
 
-   #+attr_html: :width 500px
-   [[./img/cygwin1.png]]
+#+attr_html: :width 500px
+[[./img/cygwin1.png]]
 
-   Choose ~Full~ in the ~View~ menu on the upper left, then continue
-   with ~Next~ until the installation is finished. Agree to put the
-   launcher into startup and a shortcut on the desktop.
+Choose ~Full~ in the ~View~ menu on the upper left, then continue
+with ~Next~ until the installation is finished. Agree to put the
+launcher into startup and a shortcut on the desktop.
 
-   #+attr_html: :width 500px
-   [[./img/cygwin2.png]]
+#+attr_html: :width 500px
+[[./img/cygwin2.png]]
 
 ** Using cygwin
 
-   * Start ~cygwin~ by executing the launcher. A terminal window (also
-     called Command Line or shell) opens. You can now use many
-     programs that Linux users have, too. Most importantly for our
-     purposes, you have ~gcc~, the GNU compiler bundle. To test this,
-     execute the following commands (press ~Enter~ after each
-     command).
+* Start ~cygwin~ by executing the launcher. A terminal window (also
+called Command Line or shell) opens. You can now use many
+programs that Linux users have, too. Most importantly for our
+purposes, you have ~gcc~, the GNU compiler bundle. To test this,
+execute the following commands (press ~Enter~ after each
+command).
 
-   #+attr_html: :width 500px
-   [[./img/cygwin3.png]]
+#+attr_html: :width 500px
+[[./img/cygwin3.png]]
 
-   * To close cygwin, close the window or enter ~exit~ on the command
-     line.
+* To close cygwin, close the window or enter ~exit~ on the command
+line.
 
-   * To update or install cygwin, start the ~setup-x68_64.exe~ program
-     again add missing programs, or uninstall them, in the
-     installation menu. [[https://youtu.be/VyIY8cjn9xY][Here is a good video]] (MacDonald, 2020)
-     explaining how to do that from the command line with a few
-     keystrokes - a good illustration for the power of the command
-     line.
+* To update or install cygwin, start the ~setup-x68_64.exe~ program
+again add missing programs, or uninstall them, in the
+installation menu. [[https://youtu.be/VyIY8cjn9xY][Here is a good video]] (MacDonald, 2020)
+explaining how to do that from the command line with a few
+keystrokes - a good illustration for the power of the command
+line.
 
 * How to install R under Windows and MacOS
 ** Windows
-   * Download the latest package from [[https://cran.r-project.org/][CRAN]].
-   * Run the installer - accept all presets.
-   * Add the location of the executable file ~R~ to the Windows ~PATH~
-     (~C:\Program Files\R\R-4.1.2\bin\x64~[fn:1]):
-     - Search for ~PATH~ and open the menu ~System Properties~
+* Download the latest package from [[https://cran.r-project.org/][CRAN]].
+* Run the installer - accept all presets.
+* Add the location of the executable file ~R~ to the Windows ~PATH~
+(~C:\Program Files\R\R-4.1.2\bin\x64~[fn:1]):
+- Search for ~PATH~ and open the menu ~System Properties~
 
-       #+attr_html: :width 300px
-       [[./img/systemproperties.png]]
+  #+attr_html: :width 300px
+  [[./img/systemproperties.png]]
 
-     - Open the menu ~Environment Variables~, click on the ~PATH~
-       variable and choose ~Edit~
+- Open the menu ~Environment Variables~, click on the ~PATH~
+  variable and choose ~Edit~
 
-       #+attr_html: :width 300px
-       [[./img/path.png]]
+  #+attr_html: :width 300px
+  [[./img/path.png]]
 
-     - Click on ~New~ and paste the path ~C:\Program
-       Files\R\R-4.1.2\bin\x64~ into the empty line[fn:2]. Confirm three
-       times with ~OK~ to close all menus.
+- Click on ~New~ and paste the path ~C:\Program
+  Files\R\R-4.1.2\bin\x64~ into the empty line[fn:2]. Confirm three
+  times with ~OK~ to close all menus.
 
-       #+attr_html: :width 300px
-       [[./img/environmentvariable.png]]
+  #+attr_html: :width 300px
+  [[./img/environmentvariable.png]]
 
-     - To test, search for ~CMD~, open a terminal and enter ~R~. The R
-       program opens. At the ~>~ prompt, enter ~hist(Nile)~. The
-       histogram below should open in a new screen. Close the window.
+- To test, search for ~CMD~, open a terminal and enter ~R~. The R
+  program opens. At the ~>~ prompt, enter ~hist(Nile)~. The
+  histogram below should open in a new screen. Close the window.
 
-       #+attr_html: :width 300px
-       [[./img/histogram.png]]
+  #+attr_html: :width 300px
+  [[./img/histogram.png]]
 
 ** MacOS
-   * Download the latest package from [[https://cran.r-project.org/][CRAN]].
-   * Open the ~.pkg~ binary - accept all presets.
-   * To test, search for ~terminal~, open the app and enter ~R~. The R
-     program opens. At the ~>~ prompt, enter ~hist(Nile)~. The
-     histogram below should open in a new screen. Close the window.
+* Download the latest package from [[https://cran.r-project.org/][CRAN]].
+* Open the ~.pkg~ binary - accept all presets.
+* To test, search for ~terminal~, open the app and enter ~R~. The R
+program opens. At the ~>~ prompt, enter ~hist(Nile)~. The
+histogram below should open in a new screen. Close the window.
 
-     #+attr_html: :width 300px
-     [[./img/histogram.png]]
+#+attr_html: :width 300px
+[[./img/histogram.png]]
 
-     * You can now use the R console. I explain below how to run R
-       inside the Emacs editor so that you can create notebooks.
+* You can now use the R console. I explain below how to run R
+inside the Emacs editor so that you can create notebooks.
 ** Setting the path to R for Emacs
 
-   If you cannot set the path to R using the ~PATH~ variable (e.g. in
-   the PC lab), you can give the explicit location of the R executable
-   by putting this code into your ~.emacs~ file:
+If you cannot set the path to R using the ~PATH~ variable (e.g. in
+the PC lab), you can give the explicit location of the R executable
+by putting this code into your ~.emacs~ file:
 
-   #+begin_src emacs-lisp
-     ;; set the path to R for ESS
-     (setq inferior-ess-r-program "c:/Program Files/R/R-4.1.2/bin/R.exe")
-   #+end_src
+#+begin_src emacs-lisp
+  ;; set the path to R for ESS
+  (setq inferior-ess-r-program "c:/Program Files/R/R-4.1.2/bin/R.exe")
+#+end_src
 
-   However, on your personal computer, setting adding the absolute
-   address to the folder with ~R.exe~ in it to the ~PATH~ variable will
-   enable Emacs to find R. You can test this in the terminal with the command
+However, on your personal computer, setting adding the absolute
+address to the folder with ~R.exe~ in it to the ~PATH~ variable will
+enable Emacs to find R. You can test this in the terminal with the command
 
-   #+begin_example
-   emacs -f R
-   #+end_example
+#+begin_example
+emacs -f R
+#+end_example
 
-   For this to work, ~emacs~ must be in your ~PATH~, too - otherwise
-   you have to type the path yourself like this:
+For this to work, ~emacs~ must be in your ~PATH~, too - otherwise
+you have to type the path yourself like this:
 
-   #+begin_example
-   "c:\User\YourName\Program Files\GNU Emacs 27\bin\emacs"
-   #+end_example
+#+begin_example
+"c:\User\YourName\Program Files\GNU Emacs 27\bin\emacs"
+#+end_example
 
 * How to install GCC / a C compiler under Windows and MacOS
 ** Windows
-   * Download the installer [[https://sourceforge.net/projects/mingw-w64/][from sourceforge]].
-   * Run the installer - accept all presets.
-   * Add the location of the executable file ~gcc~ to the Windows
-     ~PATH~ (you can find it in ~C:\Program Files(x86)\mingw-w64\~):
+* Download the installer [[https://sourceforge.net/projects/mingw-w64/][from sourceforge]].
+* Run the installer - accept all presets.
+* Add the location of the executable file ~gcc~ to the Windows
+~PATH~ (you can find it in ~C:\Program Files(x86)\mingw-w64\~):
 
-     - Search for ~PATH~ and open the menu ~System Properties~
+- Search for ~PATH~ and open the menu ~System Properties~
 
-       #+attr_html: :width 300px
-       [[./img/systemproperties.png]]
+  #+attr_html: :width 300px
+  [[./img/systemproperties.png]]
 
-     - Open the menu ~Environment Variables~, click on the ~PATH~
-       variable and choose ~Edit~
+- Open the menu ~Environment Variables~, click on the ~PATH~
+  variable and choose ~Edit~
 
-       #+attr_html: :width 300px
-       [[./img/path.png]]
+  #+attr_html: :width 300px
+  [[./img/path.png]]
 
-     - Click on ~New~ and paste the path into the empty line. Confirm
-       three times with ~OK~ to close all
-     menus.
+- Click on ~New~ and paste the path into the empty line. Confirm
+  three times with ~OK~ to close all
+  menus.
 
-     #+attr_html: :width 300px
-     [[./img/environmentvariable.png]]
+  #+attr_html: :width 300px
+  [[./img/environmentvariable.png]]
 
-     - To test, search for ~CMD~, open a terminal and enter ~gcc
-       --version~ - you should get the output shown below (or
-       similar). Close the window.
+  - To test, search for ~CMD~, open a terminal and enter ~gcc
+    --version~ - you should get the output shown below (or
+    similar). Close the window.
 
-       #+attr_html: :width 300px
-       [[./img/gcc.png]]
+    #+attr_html: :width 300px
+    [[./img/gcc.png]]
 
 ** MacOS
 
-   Apple no longer allows GNU tools - instead, you can install the
-   free [[https://clang.llvm.org/][Clang]] compiler as part of the [[https://developer.apple.com/documentation/xcode][~Xcode~]] development suite.
+Apple no longer allows GNU tools - instead, you can install the
+free [[https://clang.llvm.org/][Clang]] compiler as part of the [[https://developer.apple.com/documentation/xcode][~Xcode~]] development suite.
 
-   * Check if you already have a C compiler: open a terminal (search
-     for ~terminal~ app) and enter ~cc -v~.
-   * If no compiler is found, download it by entering ~xcode-select
-     --install~
-   * Test it by typing ~cc -v~.
+* Check if you already have a C compiler: open a terminal (search
+for ~terminal~ app) and enter ~cc -v~.
+* If no compiler is found, download it by entering ~xcode-select
+--install~
+* Test it by typing ~cc -v~.
 
-     [[./img/cc.png]]
+[[./img/cc.png]]
 
 ** Setting the path to GCC for Emacs
 
-   If you cannot set the path to the GCC compiler using the ~PATH~
-   variable (e.g. when you work on a computer in the lab where you
-   don't have administrative privileges), you can give the explicit
-   location of the compiler by setting the variable
-   ~Org-babel-C-compiler~.
+If you cannot set the path to the GCC compiler using the ~PATH~
+variable (e.g. when you work on a computer in the lab where you
+don't have administrative privileges), you can give the explicit
+location of the compiler by setting the variable
+~Org-babel-C-compiler~.
 
-   #+name gcc path
-   #+begin_src emacs-lisp
-     ;; set the path to GCC for Org-mode Babel
-     (setq org-babel-C-compiler "\"c:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe\"")
-   #+end_src
+#+name gcc path
+#+begin_src emacs-lisp
+  ;; set the path to GCC for Org-mode Babel
+  (setq org-babel-C-compiler "\"c:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe\"")
+#+end_src
 
-   Unlike other Babel-language extensions, this Babel package is
-   "customizable". This means that there is a menu do set the
-   variable. You find this out by looking for the variable with the
-   command: ~C-h v org-babel-c-compiler RET~. It returns the current
-   value of the variable and a link to the [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Easy-Customization.html][Easy Customization
-   Interface]].
+Unlike other Babel-language extensions, this Babel package is
+"customizable". This means that there is a menu do set the
+variable. You find this out by looking for the variable with the
+command: ~C-h v org-babel-c-compiler RET~. It returns the current
+value of the variable and a link to the [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Easy-Customization.html][Easy Customization
+Interface]].
 
-   #+caption: easy customization interface for Org Babel C Compiler
-   #+attr_html: :width 600px
-   [[./img/compiler.png]]
+#+caption: easy customization interface for Org Babel C Compiler
+#+attr_html: :width 600px
+[[./img/compiler.png]]
 
 * How to install SQLite under Windows and MacOS
 ** Windows
 
-   * Download ZIP file from here:
-     https://www.sqlite.org/2022/sqlite-tools-win32-x86-3370200.zip
-   * Extract ZIP file to ~Program Files (x86)~
-   * When finished, open Windows search bar and type ~PATH~
-   * In the window, click on ~Environment Variables~
-   * In the new window, select the row for ~Path~ and click ~Edit~
-   * In the new window, select ~New~
-   * Enter this string in the empty row: ~C:\Program Files)\sqlite-tools-win32-x86-3360000~
-   * Open ~Command prompt~ (Terminal)
-   * At the prompt, type ~sqlite3~
-   * To get out of sqlite, type ~.q RET~
+* Download ZIP file from here:
+https://www.sqlite.org/2022/sqlite-tools-win32-x86-3370200.zip
+* Extract ZIP file to ~Program Files (x86)~
+* When finished, open Windows search bar and type ~PATH~
+* In the window, click on ~Environment Variables~
+* In the new window, select the row for ~Path~ and click ~Edit~
+* In the new window, select ~New~
+* Enter this string in the empty row: ~C:\Program Files)\sqlite-tools-win32-x86-3360000~
+* Open ~Command prompt~ (Terminal)
+* At the prompt, type ~sqlite3~
+* To get out of sqlite, type ~.q RET~
 
 ** MacOS
 
-   * Go to the [[https://sqlite.org/download.html][download page]] and download the ~.zip~ bundle for MacOS
-     (x86).
+* Go to the [[https://sqlite.org/download.html][download page]] and download the ~.zip~ bundle for MacOS
+(x86).
 
-     #+attr_html: :width 300px
-     [[./img/sqlite.png]]
+#+attr_html: :width 300px
+[[./img/sqlite.png]]
 
-   * Double-click the ~.zip~ file to open it.
-   * Right-click on the executable file ~sqlite3~ and confirm that you
-     want to open it. Now SQLite will open in a new terminal window.
+* Double-click the ~.zip~ file to open it.
+* Right-click on the executable file ~sqlite3~ and confirm that you
+want to open it. Now SQLite will open in a new terminal window.
 
-     #+attr_html: :width 300px
-     [[./img/sqlite.png]]
+#+attr_html: :width 300px
+[[./img/sqlite.png]]
 
-   * You can also type ~sqlite3~ in a terminal to open the console.
+* You can also type ~sqlite3~ in a terminal to open the console.
 ** Running SQLite in Emacs
 
-   * How to run SQLite in Emacs
+* How to run SQLite in Emacs
 
-   This refers to running SQLite inside an Emacs Org-mode code block -
-   the ability to program SQLite in a literate way. This ability is
-   coded in the Org-mode Babel file ~ob-sqlite.el~. You need to have
-   the following code in your Emacs file *after* loading ~ob-sqlite~:
+This refers to running SQLite inside an Emacs Org-mode code block -
+the ability to program SQLite in a literate way. This ability is
+coded in the Org-mode Babel file ~ob-sqlite.el~. You need to have
+the following code in your Emacs file *after* loading ~ob-sqlite~:
 
-   #+name: set org-babel-sqlite3-command
-   #+begin_src emacs-lisp :exports both :results raw
-     (require 'ob-sqlite)
-     (setq org-babel-sqlite3-command "\"c:/Program Files (x86)/sqlite-tools-win32-x86-3360000/sqlite3.exe\"")
+#+name: set org-babel-sqlite3-command
+#+begin_src emacs-lisp :exports both :results raw
+  (require 'ob-sqlite)
+  (setq org-babel-sqlite3-command "\"c:/Program Files (x86)/sqlite-tools-win32-x86-3360000/sqlite3.exe\"")
 
-   #+end_src
+#+end_src
 
-   #+RESULTS: set org-babel-sqlite3-command
-   "c:/Program Files (x86)/sqlite-tools-win32-x86-3360000/sqlite3.exe"
+#+RESULTS: set org-babel-sqlite3-command
+"c:/Program Files (x86)/sqlite-tools-win32-x86-3360000/sqlite3.exe"
 
-   You can check that the variable is loaded properly by entering:
+You can check that the variable is loaded properly by entering:
 
-   #+begin_example
-   C-h v org-babel-sqlite3-command RET
-   #+end_example
+#+begin_example
+C-h v org-babel-sqlite3-command RET
+#+end_example
 
-   Babel reports that "this variable may be risky if used as a
-   file-local variable," but I suppose we've got to take our chances!
+Babel reports that "this variable may be risky if used as a
+file-local variable," but I suppose we've got to take our chances!
 
 * How to install Emacs (+ESS) under Windows and MacOS
 ** Download and Installation for Windows
 
-   * Download GNU Emacs + ESS as a modified version for [[https://vigou3.gitlab.io/emacs-modified-windows/][Windows]].
-   * Run the installer - accept all presets.
-   * Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
-   * Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
+* Download GNU Emacs + ESS as a modified version for [[https://vigou3.gitlab.io/emacs-modified-windows/][Windows]].
+* Run the installer - accept all presets.
+* Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
+* Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
 
 ** Download and Installation for MacOS
 
-   * Download GNU Emacs + ESS as a modified version for [[https://vigou3.gitlab.io/emacs-modified-macos/][MacOS]].
-   * Run the installer - accept all presets.
-   * Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
-   * Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
+* Download GNU Emacs + ESS as a modified version for [[https://vigou3.gitlab.io/emacs-modified-macos/][MacOS]].
+* Run the installer - accept all presets.
+* Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
+* Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
 * How to customize GNU Emacs
 
-  GNU Emacs is much more than a text editor and an IDE. It's more like
-  an operating system inside your operating system. Among the many
-  things that Emacs is capable of, we only need one for this class:
-  the ability to create and run interactive notebooks.
+GNU Emacs is much more than a text editor and an IDE. It's more like
+an operating system inside your operating system. Among the many
+things that Emacs is capable of, we only need one for this class:
+the ability to create and run interactive notebooks.
 
-  This will give you the power of Jupyter notebooks or Colaboratory on
-  your computer, and you can share notebooks with anyone, who has
-  Emacs.
+This will give you the power of Jupyter notebooks or Colaboratory on
+your computer, and you can share notebooks with anyone, who has
+Emacs.
 
-  The central package for many day to day tasks is ~Org-mode~. Here is
-  a set of [[https://orgmode.org/worg/org-tutorials/][Org-mode tutorials]] (with videos) covering many interesting
-  applications. Org-mode is especially popular among scientists, and
-  among these, physicists (my original tribe), who developed it.
+The central package for many day to day tasks is ~Org-mode~. Here is
+a set of [[https://orgmode.org/worg/org-tutorials/][Org-mode tutorials]] (with videos) covering many interesting
+applications. Org-mode is especially popular among scientists, and
+among these, physicists (my original tribe), who developed it.
 
-  And here is an excellent video tutorial by someone who is also
-  getting started with Emacs for the first time like you:
+And here is an excellent video tutorial by someone who is also
+getting started with Emacs for the first time like you:
 
-  * [[https://youtu.be/48JlgiBpw_I][The Absolute Beginner's Guide to Emacs]] (System Crafters, 2021) -
-    1hr11min ([[https://github.com/birkenkrahe/org/blob/master/emacs_beginner.org#absolute-beginners-guide-to-emacs][so good that I made extensive notes]]).
+* [[https://youtu.be/48JlgiBpw_I][The Absolute Beginner's Guide to Emacs]] (System Crafters, 2021) -
+1hr11min ([[https://github.com/birkenkrahe/org/blob/master/emacs_beginner.org#absolute-beginners-guide-to-emacs][so good that I made extensive notes]]).
 
-  And here is a (much shorter) video by a former user of the Vim
-  editor who switches to GNU Emacs:
+And here is a (much shorter) video by a former user of the Vim
+editor who switches to GNU Emacs:
 
-  * [[https://youtu.be/Y8koAgkBEnM][Switching to GNU Emacs]] (DistroTube, 2019) - 22 min.
+* [[https://youtu.be/Y8koAgkBEnM][Switching to GNU Emacs]] (DistroTube, 2019) - 22 min.
 
-    #+attr_html: :width 700px
-    [[./img/real_programmers.png]]
+#+attr_html: :width 700px
+[[./img/real_programmers.png]]
 
 ** Create configuration file
 
-   To create interactive computing notebooks in Emacs, we use the
-   [[https://orgmode.org/][Org-mode]] and [[https://orgmode.org/worg/org-contrib/babel/intro.html][Babel]] packages. Both are already installed in your
-   version of Emacs, but you have to tell Babel, which languages you
-   want to work with.
+To create interactive computing notebooks in Emacs, we use the
+[[https://orgmode.org/][Org-mode]] and [[https://orgmode.org/worg/org-contrib/babel/intro.html][Babel]] packages. Both are already installed in your
+version of Emacs, but you have to tell Babel, which languages you
+want to work with.
 
-   Customization like this is done with a configuration file ~.emacs~,
-   which is placed in your home directory (~~/~~). Where this folder
-   is actually located on your computer depends on your operating
-   system.
+Customization like this is done with a configuration file ~.emacs~,
+which is placed in your home directory (~~/~~). Where this folder
+is actually located on your computer depends on your operating
+system.
 
-   Download the configuration file [[https://github.com/birkenkrahe/cc100/blob/main/2_installation/.emacs][from GitHub]]. Here is the code, in
-   case you want to copy and paste it from here.
+Download the configuration file [[https://github.com/birkenkrahe/cc100/blob/main/2_installation/.emacs][from GitHub]]. Here is the code, in
+case you want to copy and paste it from here.
 
-   #+begin_src emacs-lisp :exports both
+#+begin_src emacs-lisp :exports both
 
-     (put 'dired-find-alternate-file 'disabled nil)
+  (put 'dired-find-alternate-file 'disabled nil)
 
-     ;; require ob-sqlite and ob-sql (for compilation in org src blocks) & tangle
-     (require 'ob-sqlite)
-     (require 'ob-sql)
-     (require 'ob-emacs-lisp)
-     (require 'ob-R)
+  ;; require ob-sqlite and ob-sql (for compilation in org src blocks) & tangle
+  (require 'ob-sqlite)
+  (require 'ob-sql)
+  (require 'ob-emacs-lisp)
+  (require 'ob-R)
 
-     ;; active Babel languages
-     (org-babel-do-load-languages
-      'org-babel-load-languages
-      '((R . t)
-        (sql . t)
-        (python . t)
-        (emacs-lisp . t)
-        (C . t)))
+  ;; active Babel languages
+  (org-babel-do-load-languages
+   'org-babel-load-languages
+   '((R . t)
+     (sql . t)
+     (python . t)
+     (emacs-lisp . t)
+     (C . t)))
 
-     ;; Syntax highlight code in your SRC blocks The last variable removes
-     ;; the annoying “Do you want to execute” your code when you type:
-     ;; C-c C-c
-     (setq org-confirm-babel-evaluate nil
-           org-src-fontify-natively t
-           org-src-tab-acts-natively t)
+  ;; Syntax highlight code in your SRC blocks The last variable removes
+  ;; the annoying “Do you want to execute” your code when you type:
+  ;; C-c C-c
+  (setq org-confirm-babel-evaluate nil
+        org-src-fontify-natively t
+        org-src-tab-acts-natively t)
 
-     ;; enable snippet expansion via org-structure-template-alist
-     (require 'org-tempo)
+  ;; enable snippet expansion via org-structure-template-alist
+  (require 'org-tempo)
 
-     ;; get packages from MELPA package manager
-     (require 'package)
-     (add-to-list 'package-archives
-                  '("melpa-stable" . "https://stable.melpa.org/packages/"))
+  ;; get packages from MELPA package manager
+  (require 'package)
+  (add-to-list 'package-archives
+               '("melpa-stable" . "https://stable.melpa.org/packages/"))
 
-   #+end_src
+#+end_src
 
 ** Create sample notebook
 
-   To create a notebook, create an ~.org~ file. Then type ~C-c C-,~
-   and select your chunk from the list. You can also abbreviate this
-   by entering ~<s~ on any line.
+To create a notebook, create an ~.org~ file. Then type ~C-c C-,~
+and select your chunk from the list. You can also abbreviate this
+by entering ~<s~ on any line.
 
-   Check out [[./babel.org]] for examples with both R and C code in the
-   same file[fn:3].
+Check out [[./babel.org]] for examples with both R and C code in the
+same file[fn:3].
 
 ** Layout changes
 
-   You can completely change anything about the way Emacs looks, feels
-   and behaves. Here are a few suggestions with code snippets based on
-   my own customizations.
+You can completely change anything about the way Emacs looks, feels
+and behaves. Here are a few suggestions with code snippets based on
+my own customizations.
 
-   If you change your ~~/.emacs~ file, you need to evaluate the file
-   (~M-x h evaluate-region~) or restart Emacs to see the changes.
+If you change your ~~/.emacs~ file, you need to evaluate the file
+(~M-x h evaluate-region~) or restart Emacs to see the changes.
 
-   Emacs Lisp is a fun language to learn, because through Emacs you
-   can play around with it and see what it does much more easily than
-   with other languages. Here is a [[https://www.gnu.org/software/emacs/manual/html_node/eintr/][complete tutorial for
-   non-programmers]]. Lisp (and Emacs Lisp) is a functional programming
-   language (like R).
+Emacs Lisp is a fun language to learn, because through Emacs you
+can play around with it and see what it does much more easily than
+with other languages. Here is a [[https://www.gnu.org/software/emacs/manual/html_node/eintr/][complete tutorial for
+non-programmers]]. Lisp (and Emacs Lisp) is a functional programming
+language (like R).
 
 *** Customize theme and font
 
-    To change the theme, enter ~M-x custom-themes~. Activate ~Save
-    theme settings~ if you want the settings to become permanent. This
-    will modify your ~.emacs~ configuration file.
+To change the theme, enter ~M-x custom-themes~. Activate ~Save
+theme settings~ if you want the settings to become permanent. This
+will modify your ~.emacs~ configuration file.
 
-    You can also upload fonts and change fonts. You can do this
-    easiest by opening the ~Options~ menu at the top of the Emacs
-    screen and selecting ~Set default font~ from the list.
+You can also upload fonts and change fonts. You can do this
+easiest by opening the ~Options~ menu at the top of the Emacs
+screen and selecting ~Set default font~ from the list.
 
-    If you don't have the menu bar, enter ~M-x menu-bar-mode~ - this
-    will toggle the menu bar, i.e. you can make it appear or disappear
-    with this command. If you don't have a mouse, you can open the
-    menus with ~<F10>~. I don't tend to use it at all, since one of
-    the advantages of Emacs is that everything can be done with the
-    keyboard (which is way faster than the mouse).
+If you don't have the menu bar, enter ~M-x menu-bar-mode~ - this
+will toggle the menu bar, i.e. you can make it appear or disappear
+with this command. If you don't have a mouse, you can open the
+menus with ~<F10>~. I don't tend to use it at all, since one of
+the advantages of Emacs is that everything can be done with the
+keyboard (which is way faster than the mouse).
 
-    If you want to get into this for whatever reason, [[https://zzamboni.org/post/beautifying-org-mode-in-emacs/][check this out]]
-    (Zamboni, 2018).
+If you want to get into this for whatever reason, [[https://zzamboni.org/post/beautifying-org-mode-in-emacs/][check this out]]
+(Zamboni, 2018).
 
 ** Installing additional packages
 
-   There are hundreds of useful packages available for instant
-   installation. To see them, enter ~M-x package-list-packages~.
+There are hundreds of useful packages available for instant
+installation. To see them, enter ~M-x package-list-packages~.
 
-   The screenshot shows part of the listing, with ~available~,
-   ~installed~ (by me), and ~built-in~ (by GNU Emacs) files.
+The screenshot shows part of the listing, with ~available~,
+~installed~ (by me), and ~built-in~ (by GNU Emacs) files.
 
-   #+attr_html: :width 400px
-   [[./img/packages.png]]
+#+attr_html: :width 400px
+[[./img/packages.png]]
 
-   To install a package
-   * search and find it (forward search with ~C-s~ or backward search
-     with ~C-r~)
-   * enter ~i~ to mark the package for installation
-   * enter ~x~ to install it.
+To install a package
+* search and find it (forward search with ~C-s~ or backward search
+with ~C-r~)
+* enter ~i~ to mark the package for installation
+* enter ~x~ to install it.
 
 ** Presenting in Emacs
 
-   I often present in Emacs, especially when I use interactive
-   notebooks. I use ~org-slide-tree-mode~ for that ([[https://github.com/takaxp/org-tree-slide][see
-   documentation]]). You need to install the package ~org-tree-slide~
-   and put the code below into your ~/.emacs~ file.
+I often present in Emacs, especially when I use interactive
+notebooks. I use ~org-slide-tree-mode~ for that ([[https://github.com/takaxp/org-tree-slide][see
+documentation]]). You need to install the package ~org-tree-slide~
+and put the code below into your ~/.emacs~ file.
 
-   #+attr_html: :width 400px
-   [[./img/orgtreeslide.png]]
+#+attr_html: :width 400px
+[[./img/orgtreeslide.png]]
 
-   #+begin_src emacs-lisp :exports both
+#+begin_src emacs-lisp :exports both
 
-     ;; org-tree-slide: https://github.com/takaxp/org-tree-slide
-     ;; to activate: M-x org-tree-slide-mode or <f9> - stop S-<f9>
-     (require 'org-tree-slide)
-     (with-eval-after-load "org-tree-slide"
-       (global-set-key (kbd "<f9>") 'org-tree-slide-mode)
-       (global-set-key (kbd "S-<f9>") 'org-tree-slide-skip-done-toggle)
-       (define-key org-tree-slide-mode-map (kbd "<f8>") 'org-tree-slide-move-previous-tree) ;; move forwards
-       (define-key org-tree-slide-mode-map (kbd "S-<f8>") 'org-tree-slide-move-next-tree)  ;; move backwards
-       )
-     (setq org-image-actual-width nil)
-     (setq org-tree-slide-skip-outline-level 0)
-     (setq org-tree-slide-slide-effect t)
-     (org-tree-slide-simple-profile) ;; no headers
+  ;; org-tree-slide: https://github.com/takaxp/org-tree-slide
+  ;; to activate: M-x org-tree-slide-mode or <f9> - stop S-<f9>
+  (require 'org-tree-slide)
+  (with-eval-after-load "org-tree-slide"
+    (global-set-key (kbd "<f9>") 'org-tree-slide-mode)
+    (global-set-key (kbd "S-<f9>") 'org-tree-slide-skip-done-toggle)
+    (define-key org-tree-slide-mode-map (kbd "<f8>") 'org-tree-slide-move-previous-tree) ;; move forwards
+    (define-key org-tree-slide-mode-map (kbd "S-<f8>") 'org-tree-slide-move-next-tree)  ;; move backwards
+    )
+  (setq org-image-actual-width nil)
+  (setq org-tree-slide-skip-outline-level 0)
+  (setq org-tree-slide-slide-effect t)
+  (org-tree-slide-simple-profile) ;; no headers
 
-   #+end_src
+#+end_src
 
-   #+RESULTS:
-   : simple profile: ON
+#+RESULTS:
+: simple profile: ON
 
-   In the code, ~<f9>~ is used to switch the mode on or off (~SHIFT +
-   <f9>~), and ~<f8>~ to move one slide forward or backward (~SHIFT +
-   <f8>~). Slide headers have been removed. If you want slide
-   headers, comment the last line by putting ~;;~ in front of it like
-   this:
+In the code, ~<f9>~ is used to switch the mode on or off (~SHIFT +
+<f9>~), and ~<f8>~ to move one slide forward or backward (~SHIFT +
+<f8>~). Slide headers have been removed. If you want slide
+headers, comment the last line by putting ~;;~ in front of it like
+this:
 
-   #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
-     ;; (org-tree-slide-simple-profile) ;; no headers
+  ;; (org-tree-slide-simple-profile) ;; no headers
 
-   #+end_src
+#+end_src
 
 ** Definitions and functions
 
-   You can use ~M-Q~ to fill a region (wrap the text and cut it off
-   after 70 characters, a value set in ~fill-column~). Sometimes it
-   is useful to unfill a region (put it on one line, for example to
-   copy it into an email). If you put the following definition into
-   your ~~/.emacs~ file, you can use ~M-x unfill-region~ to achieve
-   that.
+You can use ~M-Q~ to fill a region (wrap the text and cut it off
+after 70 characters, a value set in ~fill-column~). Sometimes it
+is useful to unfill a region (put it on one line, for example to
+copy it into an email). If you put the following definition into
+your ~~/.emacs~ file, you can use ~M-x unfill-region~ to achieve
+that.
 
-   #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
-     ;; unfill region
-     (defun unfill-region (beg end)
-       "Unfill the region, joining text paragraphs into a single
-         logical line.  This is useful, e.g., for use with
-         `visual-line-mode'."
-       (interactive "*r")
-       (let ((fill-column (point-max)))
-         (fill-region beg end)))
+  ;; unfill region
+  (defun unfill-region (beg end)
+    "Unfill the region, joining text paragraphs into a single
+      logical line.  This is useful, e.g., for use with
+      `visual-line-mode'."
+    (interactive "*r")
+    (let ((fill-column (point-max)))
+      (fill-region beg end)))
 
-   #+end_src
+#+end_src
 
-   #+RESULTS:
-   : unfill-region
+#+RESULTS:
+: unfill-region
 
-   If you like to bind the function to a key sequence, you can use
-   this code - now ~C-M-Q~ will invoke the function:
+If you like to bind the function to a key sequence, you can use
+this code - now ~C-M-Q~ will invoke the function:
 
-   #+begin_src emacs-lisp
+#+begin_src emacs-lisp
 
-     ;; bind unfill-region to C-M-Q
-     (define-key global-map "\C-\M-Q" 'unfill-region)
+  ;; bind unfill-region to C-M-Q
+  (define-key global-map "\C-\M-Q" 'unfill-region)
 
-   #+end_src
+#+end_src
 
-   #+RESULTS:
-   : unfill-region
+#+RESULTS:
+: unfill-region
 
 ** Adding images and links to Org-mode files
 
-   My lecture scripts and notebooks often contain images and
-   links. It is easy to add image and links (internal to Emacs or
-   Internet URLs) to an Org-mode file.
+My lecture scripts and notebooks often contain images and
+links. It is easy to add image and links (internal to Emacs or
+Internet URLs) to an Org-mode file.
 
-   Images can be named and given captions. Here is an example with
-   figure [[fig:trend]] below. To show/hide images, use ~C-c C-x C-v~
-   (~org-toggle-inline-images~). The ~#+ATTR_HTML:~ line sets the
-   display size of the image (both in Emacs and in the HTML export).
+Images can be named and given captions. Here is an example with
+figure [[fig:trend]] below. To show/hide images, use ~C-c C-x C-v~
+(~org-toggle-inline-images~). The ~#+ATTR_HTML:~ line sets the
+display size of the image (both in Emacs and in the HTML export).
 
-   #+begin_example
+#+begin_example
 
-   #+CAPTION: Google search trends for popular editors
-   #+NAME: fig:trend
-   #+ATTR_HTML: :width 400px
-   [[./img/trend.png]]
+#+CAPTION: Google search trends for popular editors
+#+NAME: fig:trend
+#+ATTR_HTML: :width 400px
+[[./img/trend.png]]
 
-   #+end_example
+#+end_example
 
-   #+CAPTION: Google search trends for popular editors
-   #+NAME: fig:trend
-   #+ATTR_HTML: :width 600px
-   [[./img/trend.png]]
+#+CAPTION: Google search trends for popular editors
+#+NAME: fig:trend
+#+ATTR_HTML: :width 600px
+[[./img/trend.png]]
 
-   And here is the link to the image - when viewing ~setup.org~ in
-   Emacs, you can open links with ~C-c C-o~ (~org-open-at-point~).
+And here is the link to the image - when viewing ~setup.org~ in
+Emacs, you can open links with ~C-c C-o~ (~org-open-at-point~).
 
-   https://github.com/birkenkrahe/cc100/raw/main/2_installation/img/trend.png
+https://github.com/birkenkrahe/cc100/raw/main/2_installation/img/trend.png
 
 ** Tables
 
-   Org-mode has powerful table manipulation capabilities. I don't use
-   Excel, I use active tables in Org-mode for my spreadsheet needs
-   (e.g. computation of grades). There is too much to learn here - I
-   suggest working through this short [[https://orgmode.org/worg/org-tutorials/tables.html][tutorial]]. For using tables as
-   spreadsheets, see this short [[https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][tutorial]].
+Org-mode has powerful table manipulation capabilities. I don't use
+Excel, I use active tables in Org-mode for my spreadsheet needs
+(e.g. computation of grades). There is too much to learn here - I
+suggest working through this short [[https://orgmode.org/worg/org-tutorials/tables.html][tutorial]]. For using tables as
+spreadsheets, see this short [[https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][tutorial]].
 
 ** Export
 
-   You can see the different export options for any Emacs buffer with
-   ~C-c C-e~ (~org-export-dispatch~). This command requires you to
-   pick an option and enter the corresponding code in the mini
-   buffer - see image.
+You can see the different export options for any Emacs buffer with
+~C-c C-e~ (~org-export-dispatch~). This command requires you to
+pick an option and enter the corresponding code in the mini
+buffer - see image.
 
-   #+attr_html: :width 500px
-   [[./img/export.png]]
+#+attr_html: :width 500px
+[[./img/export.png]]
 
-   However, if an export is successful depends on the availability of
-   programs in the background. For example, you need some extras to
-   generate a PDF file straight from a LaTeX file. ~.odt~ files are
-   OpenOffice files (XML formatted) that can be opened with WORD.
+However, if an export is successful depends on the availability of
+programs in the background. For example, you need some extras to
+generate a PDF file straight from a LaTeX file. ~.odt~ files are
+OpenOffice files (XML formatted) that can be opened with WORD.
 
-   What always works is HTML (~.html~) export, and Markdown (~.md~)
-   export. Markdown is the standard format for GitHub text
-   files. However, to get the markdown export option with ~C-c C-e~
-   you need to export once per Emacs session manually by entering ~M-x
-   org-export-to-markdown~.
+What always works is HTML (~.html~) export, and Markdown (~.md~)
+export. Markdown is the standard format for GitHub text
+files. However, to get the markdown export option with ~C-c C-e~
+you need to export once per Emacs session manually by entering ~M-x
+org-export-to-markdown~.
 
-   The HTML export is displayed using your default browser and looks
-   as shown below for this file. You can print it from the browser if
-   you need a paper print version.
+The HTML export is displayed using your default browser and looks
+as shown below for this file. You can print it from the browser if
+you need a paper print version.
 
-   #+attr_html: :width 500px
-   [[./img/html.png]]
+#+attr_html: :width 500px
+[[./img/html.png]]
 
-   What works really well in HTML are mathematical formulae. This
-   LaTeX equation for example only renders well in HTML (see image):
+What works really well in HTML are mathematical formulae. This
+LaTeX equation for example only renders well in HTML (see image):
 
-   #+begin_quote
-   \begin{equation}
-    Q^\pi = E[\sum_{\tau=1}^{\infty}
-            \gamma^{\tau-1}r_\tau|s_t = s, a_t = 1]
-   \end{equation}
-   #+end_quote
+#+begin_quote
+\begin{equation}
+ Q^\pi = E[\sum_{\tau=1}^{\infty}
+         \gamma^{\tau-1}r_\tau|s_t = s, a_t = 1]
+\end{equation}
+#+end_quote
 
-   #+attr_html: :width 600px
-   [[./img/render.png]]
+#+attr_html: :width 600px
+[[./img/render.png]]
 
 * Completing the GitHub "hello world" exercise
 
-  The [[https://docs.github.com/en/get-started/quickstart/hello-world][hello world practice exercise]] is the first stop after
-  successfully creating a GitHub account. Repo[sitories] are the main
-  data structures in GitHub. The data in a repo are version controlled
-  using the ~Git~ program.
+The [[https://docs.github.com/en/get-started/quickstart/hello-world][hello world practice exercise]] is the first stop after
+successfully creating a GitHub account. Repo[sitories] are the main
+data structures in GitHub. The data in a repo are version controlled
+using the ~Git~ program.
 
 ** Create a *repository*.
 
-   Choose if you wish it to be ~private~ or ~public~, and if you want
-   to add a ~README.md~ file (which will be opened by default so it's
-   the first thing a visitor will see).
+Choose if you wish it to be ~private~ or ~public~, and if you want
+to add a ~README.md~ file (which will be opened by default so it's
+the first thing a visitor will see).
 
 ** Create a *branch*.
-   Any collaborator can modify the code by branching off it,
-   submitting a *pull request*, and then asking for a *merge* to
-   update the *main* branch.
+Any collaborator can modify the code by branching off it,
+submitting a *pull request*, and then asking for a *merge* to
+update the *main* branch.
 
-   #+attr_html: :width 700px
-   [[./img/branching.png]]
-   /Figure: branching process (source: GitHub)/
+#+attr_html: :width 700px
+[[./img/branching.png]]
+/Figure: branching process (source: GitHub)/
 
-   The next screenshot shows both branches from the exercise, with the
-   ~readme-edit~ branch 2 commits ahead of the ~main~ branch (click on
-   the ~2|1~ symbols below ~Default~ to see that).
+The next screenshot shows both branches from the exercise, with the
+~readme-edit~ branch 2 commits ahead of the ~main~ branch (click on
+the ~2|1~ symbols below ~Default~ to see that).
 
-   #+attr_html: :width 600px
-   [[./img/branch.png]]
+#+attr_html: :width 600px
+[[./img/branch.png]]
 
 ** Open a *pull* request
-   You do this once you are sure that your changes to the code should
-   be imported into the main project. This kicks off a review
-   process to validate the contribution.
+You do this once you are sure that your changes to the code should
+be imported into the main project. This kicks off a review
+process to validate the contribution.
 
-   In the screenshot, the changes between ~main~ and ~readme-edit~
-   are shown in ~Git~ format (showing the source) or in rich
-   (display) format.
+In the screenshot, the changes between ~main~ and ~readme-edit~
+are shown in ~Git~ format (showing the source) or in rich
+(display) format.
 
-   #+attr_html: :width 600px
-   [[./img/pull.png]]
-   /Figure: pull request/
+#+attr_html: :width 600px
+[[./img/pull.png]]
+/Figure: pull request/
 
-   After reviewing, you need to comment on the change before
-   creating the request. You can also submit a draft request.
+After reviewing, you need to comment on the change before
+creating the request. You can also submit a draft request.
 
 ** *Merge* the pull request with the *main* branch.
-   The screenshot shows that there are ~no conflicts with the base
-   branch~. There is lots of additional information on this page:
+The screenshot shows that there are ~no conflicts with the base
+branch~. There is lots of additional information on this page:
 
-   * ~Continuous integration~: In software development projects, many
-     changes like obvious bugs are undisputed and their removal should
-     be automated.
+* ~Continuous integration~: In software development projects, many
+changes like obvious bugs are undisputed and their removal should
+be automated.
 
-   * ~Open this in GitHub Desktop~: when you click on this link,
-     you're asked to download the GitHub Desktop application. This
-     is something you should do if you want to use GitHub for
-     version control (or backup) of your own projects.
+* ~Open this in GitHub Desktop~: when you click on this link,
+you're asked to download the GitHub Desktop application. This
+is something you should do if you want to use GitHub for
+version control (or backup) of your own projects.
 
-   * ~Command line instructions~: the ~Git~ program is originally a
-     command line program - everything you do in GitHub graphically
-     can also be done with simple text commands. This is generally
-     much faster and safer[fn:27]. Within the command line option,
-     you can submit ~Git~ commands remotely via ~https~, or use the
-     ~git~ program if you have it installed.
+* ~Command line instructions~: the ~Git~ program is originally a
+command line program - everything you do in GitHub graphically
+can also be done with simple text commands. This is generally
+much faster and safer[fn:27]. Within the command line option,
+you can submit ~Git~ commands remotely via ~https~, or use the
+~git~ program if you have it installed.
 
-   * ~Squash and merge~ or ~Rebase and merge~: subroutines of ~Git~
-     that lead to different levels of details of the version control
-     history.
+* ~Squash and merge~ or ~Rebase and merge~: subroutines of ~Git~
+that lead to different levels of details of the version control
+history.
 
-   #+attr_html: :width 600px
-   [[./img/success.png]]
-   /Figure: Pull request successfully merged and closed/
+#+attr_html: :width 600px
+[[./img/success.png]]
+/Figure: Pull request successfully merged and closed/
 
 ** Show your contributions
-   Your *contributions* are shown on your *profile* page.
+Your *contributions* are shown on your *profile* page.
 
-   #+attr_html: :width 600px
-   [[./img/contrib.png]]
-   /Figure: My contributions/
+#+attr_html: :width 600px
+[[./img/contrib.png]]
+/Figure: My contributions/
 
 * Why Emacs for Programming?
 
-  With the Emacs editor + Org-mode, you can almost program
-  interactively (live code) with C - akin to Python or R. Org-mode
-  inside Emacs works like a REPL (Read-Evaluate-Print-Loop).
+With the Emacs editor + Org-mode, you can almost program
+interactively (live code) with C - akin to Python or R. Org-mode
+inside Emacs works like a REPL (Read-Evaluate-Print-Loop).
 
-  A resource to look at, and use (for free, at first) that uses the
-  REPL concept, is [[https://repl.it][repl.it]]. See image below for the "hello world"
-  program in C.
+A resource to look at, and use (for free, at first) that uses the
+REPL concept, is [[https://repl.it][repl.it]]. See image below for the "hello world"
+program in C.
 
-  #+attr_html: :width 600px
-  [[./img/replit.png]]
+#+attr_html: :width 600px
+[[./img/replit.png]]
 
 ** What is Emacs ?
 
-   | PROPERTY                     | WHAT THIS MEANS                                      |
-   |------------------------------+------------------------------------------------------|
-   | Extensible editor            | You can adapt it to your needs[fn:4]                 |
-   | Written in C with Emacs Lisp | It's fast and smart (via Lisp[fn:5])                 |
-   | Ancient software             | Written 1976, released in 1985[fn:6]                 |
-   | Ca. 1.5M lines of code       | By comparison: Windows ca. 50M; Linux kernel ca. 30M |
+| PROPERTY                     | WHAT THIS MEANS                                      |
+|------------------------------+------------------------------------------------------|
+| Extensible editor            | You can adapt it to your needs[fn:4]                 |
+| Written in C with Emacs Lisp | It's fast and smart (via Lisp[fn:5])                 |
+| Ancient software             | Written 1976, released in 1985[fn:6]                 |
+| Ca. 1.5M lines of code       | By comparison: Windows ca. 50M; Linux kernel ca. 30M |
 
-   #+attr_html: :width 500px
-   [[./img/panels.png]]
-   /Image: "Emacs 27.1 showing Org, Magit and Dired
-   buffers with the modus-operandi theme, without window titlebar or
-   borders." Source: [[https://en.wikipedia.org/wiki/Emacs#/media/File:Emacs27_showing_Org,_Magit,_and_Dired_with_the_modus-operandi_theme.png][Wikipedia]]/
+#+attr_html: :width 500px
+[[./img/panels.png]]
+/Image: "Emacs 27.1 showing Org, Magit and Dired
+buffers with the modus-operandi theme, without window titlebar or
+borders." Source: [[https://en.wikipedia.org/wiki/Emacs#/media/File:Emacs27_showing_Org,_Magit,_and_Dired_with_the_modus-operandi_theme.png][Wikipedia]]/
 
-   |Challenge: which Emacs properties can you deduce from this image alone?[fn:7] |
+|Challenge: which Emacs properties can you deduce from this image alone?[fn:7] |
 
 ** How do you use Emacs?
 
-   See [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#which-editor-and-ide-do-you-use][FAQ]]. I use Emacs for most of my computing needs:
+See [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#which-editor-and-ide-do-you-use][FAQ]]. I use Emacs for most of my computing needs:
 
-   * Writing (teaching, research)
-   * Planning (Calendar, ToDo)
-   * Organizing (Files)
+* Writing (teaching, research)
+* Planning (Calendar, ToDo)
+* Organizing (Files)
 
-   See also the article "[[https://opensource.com/article/20/3/getting-started-emacs][Getting started with Emacs"]] (Kenlon, 2020),
-   and the video "[[https://youtu.be/48JlgiBpw_I][The Absolute Beginner's Guide to Emacs]]" (System
-   Crafters, 2020) with [[https://github.com/birkenkrahe/org/blob/master/emacs/emacs_beginner.org][my notes]].
+See also the article "[[https://opensource.com/article/20/3/getting-started-emacs][Getting started with Emacs"]] (Kenlon, 2020),
+and the video "[[https://youtu.be/48JlgiBpw_I][The Absolute Beginner's Guide to Emacs]]" (System
+Crafters, 2020) with [[https://github.com/birkenkrahe/org/blob/master/emacs/emacs_beginner.org][my notes]].
 
-   #+attr_html: :width 400px
-   [[./img/desy.jpg]]
-   /Image: DESY APE research group (1994). Can you find me?/
+#+attr_html: :width 400px
+[[./img/desy.jpg]]
+/Image: DESY APE research group (1994). Can you find me?/
 
-   Other uses:
-   * As [[https://youtu.be/Wcjmx_U5alY][window manager]] (only under Linux)
-   * As [[http://www.mycpu.org/read-email-in-emacs/][email client]]
-   * Remote access (with [[https://www.gnu.org/software/tramp/][GNU Tramp]])
+Other uses:
+* As [[https://youtu.be/Wcjmx_U5alY][window manager]] (only under Linux)
+* As [[http://www.mycpu.org/read-email-in-emacs/][email client]]
+* Remote access (with [[https://www.gnu.org/software/tramp/][GNU Tramp]])
 
 ** How will we use Emacs (in the C programming class)?
 
-   #+attr_html: :width 500px
-   [[./img/neal.jpg]]
+#+attr_html: :width 500px
+[[./img/neal.jpg]]
 
-   We'll use it as:
+We'll use it as:
 
-   * EDITOR to write source code,
-   * NOTEBOOK to write literate programs, and
-   * SHELL to build and run code.
-   -----
-   #+begin_quote
-   "Emacs outshines all other editing software in approximately the same
-   way that the noonday sun does the stars. It is not just bigger and
-   brighter; it simply makes everything else vanish." – Neal Stephenson,
-   In the Beginning was the Command Line (1998)[fn:28]
-   #+end_quote
+* EDITOR to write source code,
+* NOTEBOOK to write literate programs, and
+* SHELL to build and run code.
+-----
+#+begin_quote
+"Emacs outshines all other editing software in approximately the same
+way that the noonday sun does the stars. It is not just bigger and
+brighter; it simply makes everything else vanish." – Neal Stephenson,
+In the Beginning was the Command Line (1998)[fn:28]
+#+end_quote
 
-   We will not use Emacs as a substitute for religion even though
-   there is a [[https://www.emacswiki.org/emacs/ChurchOfEmacs]["Church of Emacs"]] (EmacsWiki)! Huh?! What?!
+We will not use Emacs as a substitute for religion even though
+there is a [[https://www.emacswiki.org/emacs/ChurchOfEmacs]["Church of Emacs"]] (EmacsWiki)! Huh?! What?!
 
-   /Image: Notre Dame de Paris. Source: Wikipedia./
-   #+attr_html: :width 500px
-   [[./img/notredame.png]]
+/Image: Notre Dame de Paris. Source: Wikipedia./
+#+attr_html: :width 500px
+[[./img/notredame.png]]
 
 ** Does it really have to be Emacs?
 
-   You'll handle it. Keep calm and carry on coding.
+You'll handle it. Keep calm and carry on coding.
 
-   If you look around, you'll see a lot of discussion on different
-   source code editors and IDEs. Currently [[https://code.visualstudio.com/][Microsoft's Visual Studio
-   (VS) Code]] seems to be the most popular contender. However, as one
-   developer said:
+If you look around, you'll see a lot of discussion on different
+source code editors and IDEs. Currently [[https://code.visualstudio.com/][Microsoft's Visual Studio
+(VS) Code]] seems to be the most popular contender. However, as one
+developer said:
 
-   #+begin_quote
-   "One thing that cannot be replaced by any extension in VS code, VIM
-   or any other editor: Emacs' Org mode. Org mode is for sure one of
-   the most amazing pieces of software I have ever seen or worked
-   with. It does things that no other text-based word processor can
-   do, even if you are writing complex scientific reports. VS code has
-   an extension which brings less than 5% of Org mode functionality,
-   tops and that is mostly the code highlighting." ([[https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs][Timachi, 2019]])
-   #+end_quote
+#+begin_quote
+"One thing that cannot be replaced by any extension in VS code, VIM
+or any other editor: Emacs' Org mode. Org mode is for sure one of
+the most amazing pieces of software I have ever seen or worked
+with. It does things that no other text-based word processor can
+do, even if you are writing complex scientific reports. VS code has
+an extension which brings less than 5% of Org mode functionality,
+tops and that is mostly the code highlighting." ([[https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs][Timachi, 2019]])
+#+end_quote
 
-   And someone else found "[[https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61][15 Reasons Why I Use Emacs, With GIFs]]"
-   (Tarnowski, 2020). [[https://github.com/birkenkrahe/org/blob/master/emacs/15_reasons.pdf][Here is the PDF]].
+And someone else found "[[https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61][15 Reasons Why I Use Emacs, With GIFs]]"
+(Tarnowski, 2020). [[https://github.com/birkenkrahe/org/blob/master/emacs/15_reasons.pdf][Here is the PDF]].
 
 ** What about Emacs' famously "steep learning curve" ?
 
-   #+begin_quote
-   "Emacs can be a challenge if you are used to using mouse
-   pointer. One should be willing to leave the mouse and stick with
-   the keyboard." ([[https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs][Timachi, 2019]])
-   #+end_quote
+#+begin_quote
+"Emacs can be a challenge if you are used to using mouse
+pointer. One should be willing to leave the mouse and stick with
+the keyboard." ([[https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs][Timachi, 2019]])
+#+end_quote
 
-   Using the keyboard for everything is much faster (than mouse-only,
-   or mouse + keyboard) but takes getting used to. During the writing
-   of this paragraph, I used the following keystrokes (with the
-   command behind the keys, which your fingers will learn):
+Using the keyboard for everything is much faster (than mouse-only,
+or mouse + keyboard) but takes getting used to. During the writing
+of this paragraph, I used the following keystrokes (with the
+command behind the keys, which your fingers will learn):
 
-   | KEY     | COMMAND                   |
-   |---------+---------------------------|
-   | <q RET  | ~org-self-insert-command~ |
-   | C-M-\   | ~indent-region~           |
-   | M-q     | ~org-fill-paragraph~      |
-   | C-a     | ~org-beginning of line~   |
-   | C-e     | ~org-end-of-line~         |
-   | C-x C-s | ~save-buffer~             |
+| KEY     | COMMAND                   |
+|---------+---------------------------|
+| <q RET  | ~org-self-insert-command~ |
+| C-M-\   | ~indent-region~           |
+| M-q     | ~org-fill-paragraph~      |
+| C-a     | ~org-beginning of line~   |
+| C-e     | ~org-end-of-line~         |
+| C-x C-s | ~save-buffer~             |
 
-   Computer science, and IT, are largely about mastering, and creating
-   new tools. Therefore, almost any effort is justified that goes into
-   improving your *meta skills*[fn:8] in this area.
+Computer science, and IT, are largely about mastering, and creating
+new tools. Therefore, almost any effort is justified that goes into
+improving your *meta skills*[fn:8] in this area.
 
 * Fixing the .emacs problem on Windows lab computers
 ** The problem
 
-   * Whenever you sit down at a lab desktop PC, you log on with your
-     user profile. The ~.emacs~ file is then stored only on that
-     computer.
-   * If you sit at a different computer next time, there will be no
-     ~.emacs~ file in your ~$HOME~ directory, and you have to
-     reinstall it.
+* Whenever you sit down at a lab desktop PC, you log on with your
+user profile. The ~.emacs~ file is then stored only on that
+computer.
+* If you sit at a different computer next time, there will be no
+~.emacs~ file in your ~$HOME~ directory, and you have to
+reinstall it.
 
 ** The solution
 
-   Learn to do this quickly on any new computer:
+Learn to do this quickly on any new computer:
 
-   | Find your ~$HOME~ directory on Emacs   | ~C-x d $HOME RET~      |
-   | Download https://tinyurl.com/lyonemacs | Save as ~$HOME/.emacs~ |
-   | Run ~$HOME/.emacs~ buffer functions OR | ~M-x eval buffer~      |
-   | Restart Emacs[fn:4]                    | ~C-x C-c~              |
+| Find your ~$HOME~ directory on Emacs   | ~C-x d $HOME RET~      |
+| Download https://tinyurl.com/lyonemacs | Save as ~$HOME/.emacs~ |
+| Run ~$HOME/.emacs~ buffer functions OR | ~M-x eval buffer~      |
+| Restart Emacs[fn:4]                    | ~C-x C-c~              |
 
-   Now, ~.emacs~ will automatically be found and loaded by Emacs as
-   the configuration or [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][initialization file]].
+Now, ~.emacs~ will automatically be found and loaded by Emacs as
+the configuration or [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][initialization file]].
 
-   In the computer lab 104, your ~$HOME~ is set to
-   ~C:/.../AppData/Roaming~, which is a [[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/][hidden directory]] (you can
-   access it via system search with ~%APPDATA%~).
+In the computer lab 104, your ~$HOME~ is set to
+~C:/.../AppData/Roaming~, which is a [[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/][hidden directory]] (you can
+access it via system search with ~%APPDATA%~).
 
-   #+caption: Screenshot of the hidden ~%APPDATA%~ directory on Windows 10
-   #+attr_html: :width 400px
-   [[./img/appdata.png]]
+#+caption: Screenshot of the hidden ~%APPDATA%~ directory on Windows 10
+#+attr_html: :width 400px
+[[./img/appdata.png]]
 
-   If this directory gets overwritten between subsequent logins, you
-   need to copy the ~.emacs~ file to ~c:/Users/yourname/~ (replacing
-   ~yourname~ by your Windows username), and start Emacs from the
-   CMD line with the command:
+If this directory gets overwritten between subsequent logins, you
+need to copy the ~.emacs~ file to ~c:/Users/yourname/~ (replacing
+~yourname~ by your Windows username), and start Emacs from the
+CMD line with the command:
 
-   #+begin_example
-   > emacs -l "c:\Users\yourname\.emacs"
-   #+end_example
+#+begin_example
+> emacs -l "c:\Users\yourname\.emacs"
+#+end_example
 
-   This will load ~.emacs~ as your initialization file.
+This will load ~.emacs~ as your initialization file.
 
 ** The effect
 
-   * You can now run any R, SQLite, Emacs Lisp, or C code block inside
-     an Org-file.
-   * To run Shell (~bash~) code, you need to have ~bash.exe~
-     installed, e.g. by installing the [[https://cygwin.com/install.html][CygWin utilities package]].
-   * Here is more information about the GNU Emacs [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][initialization
-     file]].
+* You can now run any R, SQLite, Emacs Lisp, or C code block inside
+an Org-file.
+* To run Shell (~bash~) code, you need to have ~bash.exe~
+installed, e.g. by installing the [[https://cygwin.com/install.html][CygWin utilities package]].
+* Here is more information about the GNU Emacs [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][initialization
+file]].
 
 * How do I get Emacs to accept C:\Users\myname as start directory?
 ** Problem
 
-   On Windows, Emacs will sometimes "wake up" in a directory whose
-   name ends with ~/AppData/Roaming/~ - this is a hidden
-   directory. You can find it in the file explorer by typing
-   ~%APPDATA%~ in the Windows search bar.
+On Windows, Emacs will sometimes "wake up" in a directory whose
+name ends with ~/AppData/Roaming/~ - this is a hidden
+directory. You can find it in the file explorer by typing
+~%APPDATA%~ in the Windows search bar.
 
-   Another, related problem: Emacs wakes up in a directory like
-   ~C:/Program Files/Emacs/bin/~ - if you try to save anything here,
-   Emacs complains (because this directory is protected).
+Another, related problem: Emacs wakes up in a directory like
+~C:/Program Files/Emacs/bin/~ - if you try to save anything here,
+Emacs complains (because this directory is protected).
 
-   The question is: how can you set the start directory (called
-   ~default-directory~ by Emacs)?
+The question is: how can you set the start directory (called
+~default-directory~ by Emacs)?
 
 ** Solutions
 
-   1) Add the following line to your ~.emacs~ file, provided your user
-      directory is ~C:/Users/joey~, then save ~.emacs~ and restart Emacs
+1) Add the following line to your ~.emacs~ file, provided your user
+   directory is ~C:/Users/joey~, then save ~.emacs~ and restart Emacs
    #+begin_example
    (setq default-directory "C:/Users/joey")
    #+end_example
@@ -1729,146 +1729,146 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
    something to play around with until you got it right!
 
 * How do I get Emacs to stop asking me to confirm the coding system?
-  Add this to your ~.emacs~ file and restart Emacs:
-  #+begin_example
-   ;; UTF-8 as default encoding
-   (set-language-environment "UTF-8")
-  #+end_example
+Add this to your ~.emacs~ file and restart Emacs:
+#+begin_example
+ ;; UTF-8 as default encoding
+ (set-language-environment "UTF-8")
+#+end_example
 
 * What does weaving doc and tangling C code from Org-mode mean?
 
-  * The concept of <<literate programming>> seems to be unclear to some
-    students. So I came up with a few more examples - below for the
-    introductory class on C and C++.
+* The concept of <<literate programming>> seems to be unclear to some
+students. So I came up with a few more examples - below for the
+introductory class on C and C++.
 
-  * Concept review: Can you answer the following questions?
+* Concept review: Can you answer the following questions?
 
-    | What is Emacs?                             |
-    | What is Org-mode?                          |
-    | What does "tangle" C code mean?            |
-    | What does it mean to "weave" documentation |
+| What is Emacs?                             |
+| What is Org-mode?                          |
+| What does "tangle" C code mean?            |
+| What does it mean to "weave" documentation |
 
-  #+caption: overview literate programming process
-  #+attr_html: :width 600px
-  [[./img/litprogshort.png]]
+#+caption: overview literate programming process
+#+attr_html: :width 600px
+[[./img/litprogshort.png]]
 
-  #+caption: complete literate programming processes
-  #+attr_html: :width 600px
-  [[./img/litprog_cheat_sheet.png]]
+#+caption: complete literate programming processes
+#+attr_html: :width 600px
+[[./img/litprog_cheat_sheet.png]]
 
-  #+caption: Org mode file ("literate code" or "program")
-  #+attr_html: :width 400px
-  [[./img/code.png]]
+#+caption: Org mode file ("literate code" or "program")
+#+attr_html: :width 400px
+[[./img/code.png]]
 
-  #+caption: Tangled file (C source code, or compilable program)
-  #+attr_html: :width 400px
-  [[./img/tangle.png]]
+#+caption: Tangled file (C source code, or compilable program)
+#+attr_html: :width 400px
+[[./img/tangle.png]]
 
-  #+caption: Woven file (readable documentation)
-  #+attr_html: :width 400px
-  [[./img/weave.png]]
+#+caption: Woven file (readable documentation)
+#+attr_html: :width 400px
+[[./img/weave.png]]
 
-  #+caption: Display output in Emacs Org mode file
-  #+attr_html: :width 400px
-  [[./img/orgmode.png]]
+#+caption: Display output in Emacs Org mode file
+#+attr_html: :width 400px
+[[./img/orgmode.png]]
 
-  #+caption: Compile source code and run program in terminal
-  #+attr_html: :width 400px
-  [[./img/cmd.png]]
+#+caption: Compile source code and run program in terminal
+#+attr_html: :width 400px
+[[./img/cmd.png]]
 
 * How can I do Literate programming for C, R, SQLite?
 
-  * The processes for literate programming with interactive Org mode
-    files in Emacs are slightly different.
+* The processes for literate programming with interactive Org mode
+files in Emacs are slightly different.
 
-  * C code (or the code of any compiled language) can be run inside
-    Org-mode, or it can be tangled and run separately.
+* C code (or the code of any compiled language) can be run inside
+Org-mode, or it can be tangled and run separately.
 
-  #+caption: Display output in Emacs Org mode file
-  #+attr_html: :width 600px
-  [[./img/litprogc.png]]
+#+caption: Display output in Emacs Org mode file
+#+attr_html: :width 600px
+[[./img/litprogc.png]]
 
-  * R code is run inside Org-mode via a session in an ESS
-    buffer. This session can be visited and used independently.
+* R code is run inside Org-mode via a session in an ESS
+buffer. This session can be visited and used independently.
 
-  #+caption: Display output in Emacs Org mode file
-  #+attr_html: :width 600px
-  [[./img/litprogr.png]]
+#+caption: Display output in Emacs Org mode file
+#+attr_html: :width 600px
+[[./img/litprogr.png]]
 
-  * SQLite (or generally shell code like bash) is run inside Org-mode
-    only. No session is generated.
+* SQLite (or generally shell code like bash) is run inside Org-mode
+only. No session is generated.
 
-  #+caption: Display output in Emacs Org mode file
-  #+attr_html: :width 600px
-  [[./img/litprogsqlite.png]]
+#+caption: Display output in Emacs Org mode file
+#+attr_html: :width 600px
+[[./img/litprogsqlite.png]]
 
-  * This works whenever you have Emacs and Org-mode, on Windows,
-    MacOS or Linux.
+* This works whenever you have Emacs and Org-mode, on Windows,
+MacOS or Linux.
 
 * How can I improve my mid-term grades?
 
-  * You can ask me personally and specifically, what to do to get
-    your grades up
+* You can ask me personally and specifically, what to do to get
+your grades up
 
-  * There is no reason not to have at good grade in my class:
-    1. You can usually submit in-class assignments late
-    2. The deadlines of the DataCamp assignments are well known
-    3. The quizzes contain ample instructions and can be repeated
-    4. Class attendance + Whiteboard screenshots + GitHub info
-    5. You can always talk to me for personal support
+* There is no reason not to have at good grade in my class:
+1. You can usually submit in-class assignments late
+2. The deadlines of the DataCamp assignments are well known
+3. The quizzes contain ample instructions and can be repeated
+4. Class attendance + Whiteboard screenshots + GitHub info
+5. You can always talk to me for personal support
 
-  * Hence, to improve your grade, do:
-    - Submit in-class assignments if you could not attend class
-    - Complete DataCamp assignments on time
-    - Play the quizzes until you have 100% and read the feedback
-    - Attend class + look at screenshots + files afterwards
-    - Practice your skills whenever you can
-    - When you are attending in person, really attend
-    - Ask me in or outside of class if anything is unclear
+* Hence, to improve your grade, do:
+- Submit in-class assignments if you could not attend class
+- Complete DataCamp assignments on time
+- Play the quizzes until you have 100% and read the feedback
+- Attend class + look at screenshots + files afterwards
+- Practice your skills whenever you can
+- When you are attending in person, really attend
+- Ask me in or outside of class if anything is unclear
 
-  * If you want to improve your grade through extra credit, you can
-    talk to me about doing a small, independent research project
-    leading to a writeup in the form of a notebook, or a short (10-15
-    min) presentation. The topic must be related to the course.
+* If you want to improve your grade through extra credit, you can
+talk to me about doing a small, independent research project
+leading to a writeup in the form of a notebook, or a short (10-15
+min) presentation. The topic must be related to the course.
 
-  * These skills are related to successful studying, which in turn is
-    related to success in life through traditional values:
-    *discipline*, *duty*, and *diligence*. This doesn't have anything
-    to do with computer science.
+* These skills are related to successful studying, which in turn is
+related to success in life through traditional values:
+*discipline*, *duty*, and *diligence*. This doesn't have anything
+to do with computer science.
 
-  * What I'm going for in my classes is what I think computer
-    scientists need more than anything else:
+* What I'm going for in my classes is what I think computer
+scientists need more than anything else:
 
-    1. Critical thinking and analysis skills
-    2. Troubleshooting skills
-    3. Research skills
+1. Critical thinking and analysis skills
+2. Troubleshooting skills
+3. Research skills
 
-    This is nicely mirrored in [[https://github.com/birkenkrahe/org/issues/19][this comment]] to the question "Why are
-    computer science degrees so math intensive when the field doesn't
-    seem to use much math at all?" on Quora.
+   This is nicely mirrored in [[https://github.com/birkenkrahe/org/issues/19][this comment]] to the question "Why are
+   computer science degrees so math intensive when the field doesn't
+   seem to use much math at all?" on Quora.
 
-    #+caption: What's math got do to with computer science?
-    #+attr_html: :width 500px
-    [[./img/quora.png]]
+   #+caption: What's math got do to with computer science?
+   #+attr_html: :width 500px
+   [[./img/quora.png]]
 
 * How to set a new Emacs home directory
 
-  On many Windows boxes, Emacs automatically takes a hidden directory
-  as its home location. This is where the ~.emacs~ file must reside.
+On many Windows boxes, Emacs automatically takes a hidden directory
+as its home location. This is where the ~.emacs~ file must reside.
 
-  You can locate this directory by typing ~%APPDATA%~ in the Windows
-  desktop search bar, but it's a major pain.
+You can locate this directory by typing ~%APPDATA%~ in the Windows
+desktop search bar, but it's a major pain.
 
-  To redefine Emacs' HOME directory,
-  - put the following code at the end of your ~.emacs~ file
-  - change the path in the last line from ~birkenkrahe/~ to the name
-    of your Windows ~User~ directory
-  - copy the ~.emacs~ file into that directory
-  - restart Emacs
-  - you should now see the message ~HOME location is ...~
-  - your new Emacs home directory ~ will now be this location - this
-    is where Emacs will "wake up" from now on. It will also create a
-    new ~.emacs.d~ directory where packages will be stored.
+To redefine Emacs' HOME directory,
+- put the following code at the end of your ~.emacs~ file
+- change the path in the last line from ~birkenkrahe/~ to the name
+  of your Windows ~User~ directory
+- copy the ~.emacs~ file into that directory
+- restart Emacs
+- you should now see the message ~HOME location is ...~
+- your new Emacs home directory ~ will now be this location - this
+  is where Emacs will "wake up" from now on. It will also create a
+  new ~.emacs.d~ directory where packages will be stored.
 
   If you'd like to have all your Emacs stuff in another directory,
   e.g. ~C:/Users/yourName/emacs~, you can also use that as a path.
@@ -1887,84 +1887,84 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
   (Source: [[https://www.reddit.com/r/emacs/comments/a6ka23/change_home_folder_location_windows/][subreddit r/emacs]])
 * How to set up a Docker container for command line work
 
-  These instructions come from [[cmdline][Janssens (2021)]]. I've tried them on a
-  Windows box running Windows 10 but they should run on a Mac or a
-  Linux machine, too (though under Linux, you already have a native
-  UNIX environment, so why bother?).
+These instructions come from [[cmdline][Janssens (2021)]]. I've tried them on a
+Windows box running Windows 10 but they should run on a Mac or a
+Linux machine, too (though under Linux, you already have a native
+UNIX environment, so why bother?).
 
-  [[Docker][See below]] for information on Docker. In short, Docker is a container
-  software that allows you to run Linux under Windows or MacOS. You
-  can load the container with all kinds of additional software, too,
-  that otherwise would have to be installed. The machine has to work
-  quite hard when running a container (a virtualized OS) so it might
-  get hot and slow. On my Dell Precision 2021 I have not noticed any
-  slowdown but the computer sounds like a Tesla factory...
+[[Docker][See below]] for information on Docker. In short, Docker is a container
+software that allows you to run Linux under Windows or MacOS. You
+can load the container with all kinds of additional software, too,
+that otherwise would have to be installed. The machine has to work
+quite hard when running a container (a virtualized OS) so it might
+get hot and slow. On my Dell Precision 2021 I have not noticed any
+slowdown but the computer sounds like a Tesla factory...
 
-  Requirements: 1GB available space for the docker image.
+Requirements: 1GB available space for the docker image.
 
-  1. Download the Docker desktop app [[https://www.docker.com/products/docker-desktop/][from here]] (Windows or MacOS)
-  2. Run the docker Desktop Installer program that you downloaded
-  3. You'll have to restart your computer.
-  4. If you [[https://www.docker.com/get-started/][sign up with Docker]] and login (choose the free package)
-     you can create your own images and upload them to the Docker
-     Hub - I think this is optional.
-  5. Open a CMD line terminal on Windows and run [[https://hub.docker.com/r/datasciencetoolbox/dsatcl2e][this image]] with the
-     following command (see figure [[docker1]] below).
+1. Download the Docker desktop app [[https://www.docker.com/products/docker-desktop/][from here]] (Windows or MacOS)
+2. Run the docker Desktop Installer program that you downloaded
+3. You'll have to restart your computer.
+4. If you [[https://www.docker.com/get-started/][sign up with Docker]] and login (choose the free package)
+   you can create your own images and upload them to the Docker
+   Hub - I think this is optional.
+5. Open a CMD line terminal on Windows and run [[https://hub.docker.com/r/datasciencetoolbox/dsatcl2e][this image]] with the
+   following command (see figure [[docker1]] below).
 
-     It is possible that you first need to login to the application
-     (not the Hub) by typing ~docker login~.
+   It is possible that you first need to login to the application
+   (not the Hub) by typing ~docker login~.
 
-     #+begin_example bash
-       docker run --rm -it datasciencetoolbox/dsatcl2e
-     #+end_example
+   #+begin_example bash
+     docker run --rm -it datasciencetoolbox/dsatcl2e
+   #+end_example
 
-     #+name: docker1
-     #+attr_html: :width 500px
-     #+caption: screen dialog to run the docker image
-     [[./img/docker1.png]]
+   #+name: docker1
+   #+attr_html: :width 500px
+   #+caption: screen dialog to run the docker image
+   [[./img/docker1.png]]
 
-  6. The Docker container has to be built now, which takes a few
-     minutes depending on what else you've got going on but once it's
-     built, you can run it instantly with the ~docker run~ command.
+6. The Docker container has to be built now, which takes a few
+   minutes depending on what else you've got going on but once it's
+   built, you can run it instantly with the ~docker run~ command.
 
-     #+name: docker2
-     #+attr_html: :width 500px
-     #+caption: list of csvkit tools in the container
-     [[./img/docker2.png]]
+   #+name: docker2
+   #+attr_html: :width 500px
+   #+caption: list of csvkit tools in the container
+   [[./img/docker2.png]]
 
-     As ~cat /etc/os-release~ shows, this container runs Ubuntu
-     21.04. You can (and should) update and upgrade the distribution
-     on the command line as you would in any other OS, with ~sudo apt
-     update -y~ and ~sudo apt upgrade -y~.
+   As ~cat /etc/os-release~ shows, this container runs Ubuntu
+   21.04. You can (and should) update and upgrade the distribution
+   on the command line as you would in any other OS, with ~sudo apt
+   update -y~ and ~sudo apt upgrade -y~.
 
-     #+name: docker3
-     #+attr_html: :width 500px
-     #+caption: operating system run in the container
-     [[./img/docker3.png]]
+   #+name: docker3
+   #+attr_html: :width 500px
+   #+caption: operating system run in the container
+   [[./img/docker3.png]]
 
-  7. To interact with the container and in particular put data in its
-     file system so that you can work with it as with any other file,
-     you have to find/establish a directory to exchange data between
-     the two systems (one of which, docker-Ubuntu, lives parasitically
-     on your Windows-OS, using the WSL or "Windows Subsystem for
-     Linux"[fn:29]).
+7. To interact with the container and in particular put data in its
+   file system so that you can work with it as with any other file,
+   you have to find/establish a directory to exchange data between
+   the two systems (one of which, docker-Ubuntu, lives parasitically
+   on your Windows-OS, using the WSL or "Windows Subsystem for
+   Linux"[fn:29]).
 
-     In this case, Docker creates a directory ~/data~ where you can put
-     your files in Windows and where you can retrieve files from
-     Linux. But to get it, you have to run Docker with this command
-     that maps ~/data on /data in the container.
+   In this case, Docker creates a directory ~/data~ where you can put
+   your files in Windows and where you can retrieve files from
+   Linux. But to get it, you have to run Docker with this command
+   that maps ~/data on /data in the container.
 
-     #+begin_example bash
-       docker run --rm -it -v "%cd%":/data datasciencetoolbox/dsatcl2e
-     #+end_example
+   #+begin_example bash
+     docker run --rm -it -v "%cd%":/data datasciencetoolbox/dsatcl2e
+   #+end_example
 
-     Figure [[docker4]] shows
+   Figure [[docker4]] shows
 
-     #+name: docker4
-     #+attr_html: :width 500px
-     #+caption: /data directory in the container (top) and Windows (bottom)
-     [[./img/docker4.png]]
-     
+   #+name: docker4
+   #+attr_html: :width 500px
+   #+caption: /data directory in the container (top) and Windows (bottom)
+   [[./img/docker4.png]]
+
 
   8. This is the same command line that you get when you log into
      ~replit.com~ except that it already has the ~csvkit~ library
@@ -1980,150 +1980,193 @@ PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32
 
 ** What is Docker anyway?
 
-   (This section was lifted from the notes for the Operating Systems
-   class CSC 420, spring 2022)
+(This section was lifted from the notes for the Operating Systems
+class CSC 420, spring 2022)
 
-   <<Docker>> explains it well ([[https://www.docker.com/resources/what-container][docker.com]]):
+<<Docker>> explains it well ([[https://www.docker.com/resources/what-container][docker.com]]):
 
-   #+begin_quote
-   "A container is a standard unit of software that packages up code and
-   all its dependencies so the application runs quickly and reliably from
-   one computing environment to another."
-   #+end_quote
+#+begin_quote
+"A container is a standard unit of software that packages up code and
+all its dependencies so the application runs quickly and reliably from
+one computing environment to another."
+#+end_quote
 
-   The concept is similar to a Java VM runtime environment: but
-   instead of just running Java, you can run pretty much anything in
-   the container. As the figure shows, the Docker separates the app
-   from the Operating System (Linux, Windows, MacOS). This is
-   convenient, because now you don't need to bother with the OS. But
-   it also stops you from learning anything about how apps interact
-   with the system itself. It's super cool if all you are about is
-   building apps, especially web apps, like replit.com. It's not so
-   cool if you're up against legacy systems (old software or
-   hardware), or if you actually like interacting with the OS (via
-   the shell), or if you want to create anything new, or if your mojo
-   is performance improvement (e.g. making algorithms or data
-   pipelines faster), because that depends on deeper knowledge. The
-   good news: everyone can install a container, and they safe
-   (actually, that's another problem...more layers, more potential
-   attack points). Here is a [[https://www.ondat.io/blog/6-problems-with-container-technology-in-the-enterprise][list of 6 issues]] ([[docker][Brandon, 2021]]).
+The concept is similar to a Java VM runtime environment: but
+instead of just running Java, you can run pretty much anything in
+the container. As the figure shows, the Docker separates the app
+from the Operating System (Linux, Windows, MacOS). This is
+convenient, because now you don't need to bother with the OS. But
+it also stops you from learning anything about how apps interact
+with the system itself. It's super cool if all you are about is
+building apps, especially web apps, like replit.com. It's not so
+cool if you're up against legacy systems (old software or
+hardware), or if you actually like interacting with the OS (via
+the shell), or if you want to create anything new, or if your mojo
+is performance improvement (e.g. making algorithms or data
+pipelines faster), because that depends on deeper knowledge. The
+good news: everyone can install a container, and they safe
+(actually, that's another problem...more layers, more potential
+attack points). Here is a [[https://www.ondat.io/blog/6-problems-with-container-technology-in-the-enterprise][list of 6 issues]] ([[docker][Brandon, 2021]]).
 
-   Long story short: important concept and technology, you should try
-   it out and explore it a little, perhaps you fall in love, and in
-   the least you get another marketable skill.
+Long story short: important concept and technology, you should try
+it out and explore it a little, perhaps you fall in love, and in
+the least you get another marketable skill.
 
-   #+caption: Containerized applications (docker.com)
-   #+attr_html: :width 500px
-   [[./img/docker.png]]
+#+caption: Containerized applications (docker.com)
+#+attr_html: :width 500px
+[[./img/docker.png]]
 
 * Should I take a data science minor or a business minor?
 
-  A student asked me recently and I thought I had better put my answer
-  in writing.
+A student asked me recently and I thought I had better put my answer
+in writing.
+
+A business major or minor degree is still much more common place
+than a data science degree. This means that "business" is more
+recognizable, but also that there's likely more competition for
+available jobs.
+
+Because data science, rightly or wrongly, is still perceived as new
+and somewhat exotic, companies may have a hard time knowing how to
+recruit for a data scientist (even if they know that they have a
+need for this particular skillset).
+
+Typically, anything with "business intelligence", "analytics" or
+"prediction" in the job description, or anything listing tools like
+Tableau, Power BI, SQL, R or Python, asks for a data scientist.
+
+Because the field of data science moves quite rapidly, it is more
+important to keep up with it at large than with business at
+large. Put differently: in data science, new things must often be
+learnt from papers, blogs or preprints, while in business, there are
+people to tell you what's important and what's not important.
+
+This doesn't mean that there isn't a science to business but as a
+general rule I've found it to be more decouple from the practice of
+business than in data science.
+
+If you are naturally curious about data, what they mean, and how to
+manipulate and use them, if you live, as it were, closer to the
+machine than to the people, data science may more be your cup of tea
+than business.
+
+Having said all that, a combination of business and data science is
+the winning combination because most applications of data science
+are in business, and domain knowledge of business processes and the
+people running businesses, is key to using data meaningfully.
+
+So the question "business or data science" isn't really very good. A
+better question would be "how much more of each", and that depends,
+at this stage of your life, largely of the jobs that you think you'd
+like to get after school.
+
+I recommend going through many job descriptions that are currently
+posted and sorting them in three lists: (mainl) "business", (mainly)
+"data science", and "business and data science". As I said earlier,
+don't worry about the "science" part - anything with "data" in it is
+probably relevant. Even "database administrator".
+
+The two types of companies most vocal about data science are tech
+companies and startups. Next to that, any company that sells stuff
+is hungry for data and analysis of their customer data.
+
+Hope this helps! As usual, the truth is multi-faceted...
+
+* In which order should I take data science classes?
+
+- Because the data science program at Lyon College is new, you may not
+  have taken classes in the intended order:
+
+  | DSC 105 | Introduction to data science (fall 2021, fall 2022) |
+  |         | (was: Data science tools and methods, DSC 101)      |
+  | DSC 205 | Advanced introduction to data science (spring 2022) |
+  | DSC 302 | Data visualization                                  |
+  | DSC 305 | Machine learning                                    |
+  | DSC 482 | Artificial Intelligence (fall 2021)                 |
+  |         | Data modeling (fall 2021)                           |
+  |         | Applied math for data science (fall 2022)           |
+
+  This should not be a problem because I review the computational
+  infrastructure (R programming, Emacs + ESS + Org-mode) at the start
+  of every class. It should be clear, however, that more advanced
+  classes may require you to put in extra work especially at the
+  start, because I will pick up speed as the term progresses.
+
+- You may be working alongside other students with much more
+  experience. This could be beneficial because you can learn from
+  them - just make sure you ask them. Also, if you're working on a
+  project, it may be more efficient and exciting to work alongside
+  someone with more knowledge (though also a little intimidating). Use
+  the opportunity!
+
+* How can I prepare for your classes?
+
+All data science classes are using the statistical programming
+language R at varying levels of sophistication. Short of working
+through a textbook yourself, there are two ways in which you can
+prepare for classes:
+
+- Complete the [[https://www.datacamp.com/courses/free-introduction-to-r]["Introduction to R" course at DataCamp]]. You need to be
+  enrolled by me to do this - Lyon College is part of the academic
+  classroom program. The course takes about 4 hours.
+- Work through the first chapters of the online tutorial "fasteR" by
+  Norm Matloff, [[https://github.com/matloff/fasteR][freely available on GitHub]]. This tutorial is made for
+  novice learners and does not assume any previous study.
+- For Matloff's tutorial, and for your own studies, you need to
+  download and install R first either [[https://cran.r-project.org/bin/windows/base/][for Windows]], or [[https://cran.r-project.org/bin/macosx/][MacOS]]. In either
+  case, feel free to contact me if you encounter any difficulties.
   
-  A business major or minor degree is still much more common place
-  than a data science degree. This means that "business" is more
-  recognizable, but also that there's likely more competition for
-  available jobs.
-
-  Because data science, rightly or wrongly, is still perceived as new
-  and somewhat exotic, companies may have a hard time knowing how to
-  recruit for a data scientist (even if they know that they have a
-  need for this particular skillset).
-
-  Typically, anything with "business intelligence", "analytics" or
-  "prediction" in the job description, or anything listing tools like
-  Tableau, Power BI, SQL, R or Python, asks for a data scientist.
-
-  Because the field of data science moves quite rapidly, it is more
-  important to keep up with it at large than with business at
-  large. Put differently: in data science, new things must often be
-  learnt from papers, blogs or preprints, while in business, there are
-  people to tell you what's important and what's not important.
-
-  This doesn't mean that there isn't a science to business but as a
-  general rule I've found it to be more decouple from the practice of
-  business than in data science.
-
-  If you are naturally curious about data, what they mean, and how to
-  manipulate and use them, if you live, as it were, closer to the
-  machine than to the people, data science may more be your cup of tea
-  than business.
-
-  Having said all that, a combination of business and data science is
-  the winning combination because most applications of data science
-  are in business, and domain knowledge of business processes and the
-  people running businesses, is key to using data meaningfully.
-
-  So the question "business or data science" isn't really very good. A
-  better question would be "how much more of each", and that depends,
-  at this stage of your life, largely of the jobs that you think you'd
-  like to get after school.
-
-  I recommend going through many job descriptions that are currently
-  posted and sorting them in three lists: (mainl) "business", (mainly)
-  "data science", and "business and data science". As I said earlier,
-  don't worry about the "science" part - anything with "data" in it is
-  probably relevant. Even "database administrator".
-
-  The two types of companies most vocal about data science are tech
-  companies and startups. Next to that, any company that sells stuff
-  is hungry for data and analysis of their customer data.
-
-  Hope this helps! As usual, the truth is multi-faceted...
-
-
 * References
 
-  <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
-  Improve Emotion, Motivation and Attitude Of Students Writing
-  Scientific Papers And Theses. In: Proceedings of the 13th IEEE
-  Int. Conf. on Cognitive Informatics & Cognitive Computing, London,
-  August 18-20, 2014. [[https://drive.google.com/file/d/0B9ubV5NfnNPpdlNycWxkaTFQc1k/view?usp=sharing][URL: researchgate.net]]
+<<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
+Improve Emotion, Motivation and Attitude Of Students Writing
+Scientific Papers And Theses. In: Proceedings of the 13th IEEE
+Int. Conf. on Cognitive Informatics & Cognitive Computing, London,
+August 18-20, 2014. [[https://drive.google.com/file/d/0B9ubV5NfnNPpdlNycWxkaTFQc1k/view?usp=sharing][URL: researchgate.net]]
 
-  <<birk>> Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
-  1 - Introductory stories. [[https://youtu.be/HrmBZQuCSzo][Online: youtube.com.]]
+<<birk>> Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
+1 - Introductory stories. [[https://youtu.be/HrmBZQuCSzo][Online: youtube.com.]]
 
-  Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
-  2 - What audiences want. [[https://youtu.be/k_FJXpYPbQY][Online: youtube.com.]]
+Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
+2 - What audiences want. [[https://youtu.be/k_FJXpYPbQY][Online: youtube.com.]]
 
-  <<bps>> Berlin Professional School (BPS). Presentation Assessment
-  Form.
+<<bps>> Berlin Professional School (BPS). Presentation Assessment
+Form.
 
-  DistroTube (). Switching to GNU Emacs [video]. [[https://youtu.be/Y8koAgkBEnM][URL:
-  youtu.be/Y8koAgkBEnM]].
+DistroTube (). Switching to GNU Emacs [video]. [[https://youtu.be/Y8koAgkBEnM][URL:
+youtu.be/Y8koAgkBEnM]].
 
-  <<cmdline>> Janssens (2021). Data science on the command line
-  (2e). O'Reilly. [[https://datascienceatthecommandline.com/][URL: datascienceatthecommandline.com.]]
+<<cmdline>> Janssens (2021). Data science on the command line
+(2e). O'Reilly. [[https://datascienceatthecommandline.com/][URL: datascienceatthecommandline.com.]]
 
-  gnu.org (n.d.). GNU Emacs manuals [website]. [[https://www.gnu.org/software/emacs/manual/][URL: www.gnu.org.]]
+gnu.org (n.d.). GNU Emacs manuals [website]. [[https://www.gnu.org/software/emacs/manual/][URL: www.gnu.org.]]
 
-  <<gookin>> Gookin D (2021). Tiny C Projects. Manning. URL:
-  [[https://www.manning.com/books/tiny-c-projects][manning.com]].
+<<gookin>> Gookin D (2021). Tiny C Projects. Manning. URL:
+[[https://www.manning.com/books/tiny-c-projects][manning.com]].
 
-  Hoffman (Jul 19, 2017). What Is the AppData Folder in Windows?
-  [blog]. [[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/][URL: www.howtogeek.com.]]
+Hoffman (Jul 19, 2017). What Is the AppData Folder in Windows?
+[blog]. [[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/][URL: www.howtogeek.com.]]
 
-  <<minto>> Minto B (2002). The Pyramid Principle.
+<<minto>> Minto B (2002). The Pyramid Principle.
 
-  Harrison Metal (2014). Storytelling & Presenting 1: Thank You,
-  Barbara Minto [video]. [[https://vimeo.com/87537935][Online: vimeo.com]]
+Harrison Metal (2014). Storytelling & Presenting 1: Thank You,
+Barbara Minto [video]. [[https://vimeo.com/87537935][Online: vimeo.com]]
 
-  <<minto1>> Power-user (Jul 31, 2016). Give a brilliant structure to
-  your presentations with the Pyramid Principle [website]. [[https://www.powerusersoftwares.com/post/2016/07/31/give-a-brilliant-structure-to-your-presentations-with-the-pyramid-principle][Online:
-  powerusersoftwares.com]]
+<<minto1>> Power-user (Jul 31, 2016). Give a brilliant structure to
+your presentations with the Pyramid Principle [website]. [[https://www.powerusersoftwares.com/post/2016/07/31/give-a-brilliant-structure-to-your-presentations-with-the-pyramid-principle][Online:
+powerusersoftwares.com]]
 
-  <<stella>> Stella J (Nov 11, 2015). A CEO's Guide to Emacs
-  [blog]. [[https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html][Online: fugue.co]].
+<<stella>> Stella J (Nov 11, 2015). A CEO's Guide to Emacs
+[blog]. [[https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html][Online: fugue.co]].
 
-  System Crafters (Mar 8, 2021). The Absolute Beginner's Guide to
-  Emacs [video]. [[https://youtu.be/48JlgiBpw_I][URL: youtu.be/48JlgiBpw_I]].
+System Crafters (Mar 8, 2021). The Absolute Beginner's Guide to
+Emacs [video]. [[https://youtu.be/48JlgiBpw_I][URL: youtu.be/48JlgiBpw_I]].
 
-  Tarnowski (Mar 10, 2020). 15 Reasons Why I Use Emacs, With GIFs
-  [blog]. [[https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61][URL: medium.com]].
+Tarnowski (Mar 10, 2020). 15 Reasons Why I Use Emacs, With GIFs
+[blog]. [[https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61][URL: medium.com]].
 
-  <<ubuntu>> Morrison G (2021). Ubuntu on Windows 10 [website]. [[https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview][URL:
-  ubuntu.com/tutorials/ubuntu-on-windows]]
+<<ubuntu>> Morrison G (2021). Ubuntu on Windows 10 [website]. [[https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview][URL:
+ubuntu.com/tutorials/ubuntu-on-windows]]
 
 * Footnotes
 
