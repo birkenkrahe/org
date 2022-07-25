@@ -228,7 +228,7 @@ For my courses, you need to:
     workflow if you like). I will show all of this in class.
 
 * What is a sprint review?
-
+<<scrum>>
 A sprint review (a Scrum term - see [[https://www.scrum.org/resources/scrum-glossary][Scrum glossary]]) is an informal
 presentation of the results obtained during the last sprint, or work
 period. What you present is also called a "prototype" to accentuate
@@ -412,7 +412,7 @@ The fourth sprint covers the "D" (for "Discussion") of the IMRaD
 structure of scientific papers. See FAQ for more on IMRaD.
 
 * Where I can find out more about "IMRaD"?
-
+<<imrad>>
 See [[https://youtu.be/dip7UwZ3wUM][this short (15 min) YouTube video]] - produced for a course on
 "research methods" for graduate students at the Berlin School of
 Economics and Law (MBAs). See also my paper on storytelling and
@@ -543,13 +543,13 @@ file.
 
 ** My Emacs setup
 
- - The configuration file for Emacs is the ~.emacs~ file. [[https://1drv.ms/u/s!AhEvK3qWokrvitxPQ2OuaCOOQDfvZQ?e=KhLQW6][Here is the
-   ~.emacs~ file that I use for download]] (it's a text file - you can
-   download it as ~emacs.txt~ to view it).
- - Site lisp files are stored in ~/.emacs.d/~ and they are downloaded
-   from a central repository. Emacs knows which ones to use. You can
-   see all available and installed packages with the command ~M-x
-   package-list-packages~.
+- The configuration file for Emacs is the ~.emacs~ file. [[https://1drv.ms/u/s!AhEvK3qWokrvitxPQ2OuaCOOQDfvZQ?e=KhLQW6][Here is the
+  ~.emacs~ file that I use for download]] (it's a text file - you can
+  download it as ~emacs.txt~ to view it).
+- Site lisp files are stored in ~/.emacs.d/~ and they are downloaded
+  from a central repository. Emacs knows which ones to use. You can
+  see all available and installed packages with the command ~M-x
+  package-list-packages~.
 
 * How to use GitHub Desktop to backup your code to GitHub
 
@@ -602,11 +602,11 @@ suffices.
 
 ** Important files
 
- - ~README.md~ is a markdown file that automatically opens when you open
-   the repo - it's like an index file.
- - ~.gitignore~ is a file with those files that you don't want to
-   version control - like backup files or intermediate files
-   (e.g. ~.dvi~ when you process a LaTeX file).
+- ~README.md~ is a markdown file that automatically opens when you open
+  the repo - it's like an index file.
+- ~.gitignore~ is a file with those files that you don't want to
+  version control - like backup files or intermediate files
+  (e.g. ~.dvi~ when you process a LaTeX file).
 
 * How can you always create a great presentation?
 
@@ -639,11 +639,11 @@ presentation, paper, essay, or even email.
 
 *** Situation ("What's going on?")
 
- - (Almost) nobody likes giving presentations
- - Especially among nerds/geeks
- - Presentations are performance-oriented
- - Since you'll have to present, focus on efficiency
- - Efficient group or audience communication = rapport[fn:17]
+- (Almost) nobody likes giving presentations
+- Especially among nerds/geeks
+- Presentations are performance-oriented
+- Since you'll have to present, focus on efficiency
+- Efficient group or audience communication = rapport[fn:17]
 
 *** Complication ("What should we do?")
 
@@ -669,8 +669,8 @@ all audiences. I am inclined to agree with her[fn:20].
 For a short overview see the video: [[https://vimeo.com/87537935][Harrison Metal (2014)]].
 
 For a lecture in 2 parts by me ([[birk][2016]]), see here:
- - Minto Pyramid Principle Part 1 - [[https://youtu.be/HrmBZQuCSzo][Introductory Stories]]
- - Minto Pyramid Principle Part 2 - [[https://youtu.be/k_FJXpYPbQY][What Audiences Want]]
+- Minto Pyramid Principle Part 1 - [[https://youtu.be/HrmBZQuCSzo][Introductory Stories]]
+- Minto Pyramid Principle Part 2 - [[https://youtu.be/k_FJXpYPbQY][What Audiences Want]]
 
 * How should we prepare for the final presentation?
 ** Timing
@@ -756,16 +756,16 @@ the course. If in doubt, check the syllabus or ask me directly!
 
 You have to deliver these items before you can get a grade from me.
 
- - The essay, presentation or report and all accompanying material
+- The essay, presentation or report and all accompanying material
 (if any) are uploaded to the respective GitHub folder.
- - All authors must fill in the application form shown below, print
-   their names, sign, date and add "pledged" on their line.
- - For a presentation, all team members must be present and
-   contributing during the presentation, both as presenters and by
-   answering questions.
+- All authors must fill in the application form shown below, print
+  their names, sign, date and add "pledged" on their line.
+- For a presentation, all team members must be present and
+  contributing during the presentation, both as presenters and by
+  answering questions.
 
-   #+attr_html: :width 600px
-   [[./img/pledge.png]]
+  #+attr_html: :width 600px
+  [[./img/pledge.png]]
 
 * How is the final essay graded?
 
@@ -812,19 +812,19 @@ Science). For computer scientists, some knowledge of Linux and shell
 commands is important. There are different ways to get Linux on your
 machine:
 
-   1) As dual boot setup - when starting your computer, you can opt for
-      either Windows or Linux.
-   2) Using Linux on a virtual box inside Windows.
-   3) Running Linux from a USB stick (as an external drive).
-   4) Running Cygwin, which is almost like Linux but not quite.
-   5) Running Linux as an app inside Windows.
+1) As dual boot setup - when starting your computer, you can opt for
+   either Windows or Linux.
+2) Using Linux on a virtual box inside Windows.
+3) Running Linux from a USB stick (as an external drive).
+4) Running Cygwin, which is almost like Linux but not quite.
+5) Running Linux as an app inside Windows.
 
-      Which of these is for you also depends on your computer. I have
-      found the Microsoft Ubuntu app to be easy to use (as of November
-      2021). I found out about this from [[gookin][Gookin (2021)]].
+   Which of these is for you also depends on your computer. I have
+   found the Microsoft Ubuntu app to be easy to use (as of November
+   2021). I found out about this from [[gookin][Gookin (2021)]].
 
-      Update November 25, 2021: here is another complete [[https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview][installation
-      tutorial]] from the makers of the app ([[ubuntu][Morrison, 2021]]).
+   Update November 25, 2021: here is another complete [[https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview][installation
+   tutorial]] from the makers of the app ([[ubuntu][Morrison, 2021]]).
 
 ** Download Linux
 
@@ -877,98 +877,98 @@ using the app.
 
 * How can I get Linux tools under Windows 10?
 
- - Cygwin is a large collection of GNU and Open Source tools which
-   provide a functionality similar to GNU/Linux on Windows.
- - Programs appear as part of a drive called ~cygdrive~. The
-   distribution consists of an executable ~setup.exe~ and a ~.dll~ file
-   (Windows' dynamically linked library file type).
- - To run /native/ Linux apps on cygwin, they must be compiled from the
-   source.
+- Cygwin is a large collection of GNU and Open Source tools which
+  provide a functionality similar to GNU/Linux on Windows.
+- Programs appear as part of a drive called ~cygdrive~. The
+  distribution consists of an executable ~setup.exe~ and a ~.dll~ file
+  (Windows' dynamically linked library file type).
+- To run /native/ Linux apps on cygwin, they must be compiled from the
+  source.
 
-   #+attr_html: :width 300px
-   #+caption: Screenshot of the cygwin terminal command "pwd"
-   [[./img/cygwin.png]]
-  
+  #+attr_html: :width 300px
+  #+caption: Screenshot of the cygwin terminal command "pwd"
+  [[./img/cygwin.png]]
+
 
 ** Download and Installation
 
- - Go to the [[https://cygwin.com/install.html][Cygwin install page]] and download [[https://cygwin.com/setup-x86_64.exe][~setup-x86_64.exe~]]
- -  Run ~setup-x86_64.exe~ and accept all settings until you come to the
-   package selection screen.
+- Go to the [[https://cygwin.com/install.html][Cygwin install page]] and download [[https://cygwin.com/setup-x86_64.exe][~setup-x86_64.exe~]]
+-  Run ~setup-x86_64.exe~ and accept all settings until you come to the
+  package selection screen.
 
-   #+attr_html: :width 500px
-   [[./img/cygwin1.png]]
+  #+attr_html: :width 500px
+  [[./img/cygwin1.png]]
 
-   Choose ~Full~ in the ~View~ menu on the upper left, then continue with
-   ~Next~ until the installation is finished. Agree to put the launcher
-   into startup and a shortcut on the desktop.
+  Choose ~Full~ in the ~View~ menu on the upper left, then continue with
+  ~Next~ until the installation is finished. Agree to put the launcher
+  into startup and a shortcut on the desktop.
 
-   #+attr_html: :width 500px
-   [[./img/cygwin2.png]]
+  #+attr_html: :width 500px
+  [[./img/cygwin2.png]]
 
 ** Using cygwin
 
- - Start ~cygwin~ by executing the launcher. A terminal window (also
-   called Command Line or shell) opens. You can now use many programs
-   that Linux users have, too. Most importantly for our purposes, you
-   have ~gcc~, the GNU compiler bundle. To test this, execute the
-   following commands (press ~Enter~ after each command).
+- Start ~cygwin~ by executing the launcher. A terminal window (also
+  called Command Line or shell) opens. You can now use many programs
+  that Linux users have, too. Most importantly for our purposes, you
+  have ~gcc~, the GNU compiler bundle. To test this, execute the
+  following commands (press ~Enter~ after each command).
 
-   #+attr_html: :width 500px
-   [[./img/cygwin3.png]]
+  #+attr_html: :width 500px
+  [[./img/cygwin3.png]]
 
- - To close cygwin, close the window or enter ~exit~ on the command
-   line.
+- To close cygwin, close the window or enter ~exit~ on the command
+  line.
 
- - To update or install cygwin, start the ~setup-x68_64.exe~ program
-   again add missing programs, or uninstall them, in the installation
-   menu. [[https://youtu.be/VyIY8cjn9xY][Here is a good video]] (MacDonald, 2020) explaining how to do
-   that from the command line with a few keystrokes - a good
-   illustration for the power of the command line.
+- To update or install cygwin, start the ~setup-x68_64.exe~ program
+  again add missing programs, or uninstall them, in the installation
+  menu. [[https://youtu.be/VyIY8cjn9xY][Here is a good video]] (MacDonald, 2020) explaining how to do
+  that from the command line with a few keystrokes - a good
+  illustration for the power of the command line.
 
 * How to install R under Windows and MacOS
 ** Windows
- - Download the latest package from [[https://cran.r-project.org/][CRAN]].
- - Run the installer - accept all presets.
- - Add the location of the executable file ~R~ to the Windows ~PATH~
-   (~C:\Program Files\R\R-4.1.2\bin\x64~[fn:1]):
-- Search for ~PATH~ and open the menu ~System Properties~
+  - Download the latest package from [[https://cran.r-project.org/][CRAN]].
+  - Run the installer - accept all presets.
+  - Add the location of the executable file ~R~ to the Windows ~PATH~
+    (~C:\Program Files\R\R-4.1.2\bin\x64~[fn:1]):
+  - Search for ~PATH~ and open the menu ~System Properties~
 
-  #+attr_html: :width 300px
-  [[./img/systemproperties.png]]
+    #+attr_html: :width 300px
+    [[./img/systemproperties.png]]
 
-- Open the menu ~Environment Variables~, click on the ~PATH~
-  variable and choose ~Edit~
+  - Open the menu ~Environment Variables~, click on the ~PATH~
+    variable and choose ~Edit~
 
-  #+attr_html: :width 300px
-  [[./img/path.png]]
+    #+attr_html: :width 300px
+    [[./img/path.png]]
 
-- Click on ~New~ and paste the path ~C:\Program
-  Files\R\R-4.1.2\bin\x64~ into the empty line[fn:2]. Confirm three
-  times with ~OK~ to close all menus.
+  - Click on ~New~ and paste the path ~C:\Program
+    Files\R\R-4.1.2\bin\x64~ into the empty line[fn:2]. Confirm three
+    times with ~OK~ to close all menus.
 
-  #+attr_html: :width 300px
-  [[./img/environmentvariable.png]]
+    #+attr_html: :width 300px
+    [[./img/environmentvariable.png]]
 
-- To test, search for ~CMD~, open a terminal and enter ~R~. The R
-  program opens. At the ~>~ prompt, enter ~hist(Nile)~. The
-  histogram below should open in a new screen. Close the window.
+  - To test, search for ~CMD~, open a terminal and enter ~R~. The R
+    program opens. At the ~>~ prompt, enter ~hist(Nile)~. The
+    histogram below should open in a new screen. Close the window.
+
+    #+attr_html: :width 300px
+    [[./img/histogram.png]]
+
+** MacOS
+- Download the latest package from [[https://cran.r-project.org/][CRAN]].
+- Open the ~.pkg~ binary - accept all presets.
+- To test, search for ~terminal~, open the app and enter ~R~. The R
+  program opens. At the ~>~ prompt, enter ~hist(Nile)~. The histogram
+  below should open in a new screen. Close the window.
 
   #+attr_html: :width 300px
   [[./img/histogram.png]]
 
-** MacOS
- - Download the latest package from [[https://cran.r-project.org/][CRAN]].
- - Open the ~.pkg~ binary - accept all presets.
- - To test, search for ~terminal~, open the app and enter ~R~. The R
-   program opens. At the ~>~ prompt, enter ~hist(Nile)~. The histogram
-   below should open in a new screen. Close the window.
-
-   #+attr_html: :width 300px
-   [[./img/histogram.png]]
-
- - You can now use the R console. I explain below how to run R inside
-   the Emacs editor so that you can create notebooks.
+- You can now use the R console. I explain below how to run R inside
+  the Emacs editor so that you can create notebooks.
 
 ** Setting the path to R for Emacs
 
@@ -998,30 +998,30 @@ you have to type the path yourself like this:
 
 * How to install GCC / a C compiler under Windows and MacOS
 ** Windows
- - Download the installer [[https://sourceforge.net/projects/mingw-w64/][from sourceforge]].
- - Run the installer - accept all presets.
- - Add the location of the executable file ~gcc~ to the Windows ~PATH~
-   (you can find it in ~C:\Program Files(x86)\mingw-w64\~):
+  - Download the installer [[https://sourceforge.net/projects/mingw-w64/][from sourceforge]].
+  - Run the installer - accept all presets.
+  - Add the location of the executable file ~gcc~ to the Windows ~PATH~
+    (you can find it in ~C:\Program Files(x86)\mingw-w64\~):
 
-- Search for ~PATH~ and open the menu ~System Properties~
+  - Search for ~PATH~ and open the menu ~System Properties~
 
-  #+attr_html: :width 300px
-  [[./img/systemproperties.png]]
+    #+attr_html: :width 300px
+    [[./img/systemproperties.png]]
 
-- Open the menu ~Environment Variables~, click on the ~PATH~
-  variable and choose ~Edit~
+  - Open the menu ~Environment Variables~, click on the ~PATH~
+    variable and choose ~Edit~
 
-  #+attr_html: :width 300px
-  [[./img/path.png]]
+    #+attr_html: :width 300px
+    [[./img/path.png]]
 
-- Click on ~New~ and paste the path into the empty line. Confirm
-  three times with ~OK~ to close all
-  menus.
+  - Click on ~New~ and paste the path into the empty line. Confirm
+    three times with ~OK~ to close all
+    menus.
 
-  #+attr_html: :width 300px
-  [[./img/environmentvariable.png]]
+    #+attr_html: :width 300px
+    [[./img/environmentvariable.png]]
 
-- To test, search for ~CMD~, open a terminal and enter ~gcc
+  - To test, search for ~CMD~, open a terminal and enter ~gcc
     --version~ - you should get the output shown below (or
     similar). Close the window.
 
@@ -1033,13 +1033,13 @@ you have to type the path yourself like this:
 Apple no longer allows GNU tools - instead, you can install the free
 [[https://clang.llvm.org/][Clang]] compiler as part of the [[https://developer.apple.com/documentation/xcode][~Xcode~]] development suite.
 
- - Check if you already have a C compiler: open a terminal (search for
-   ~terminal~ app) and enter ~cc -v~.
- - If no compiler is found, download it by entering ~xcode-select
-   --install~
- - Test it by typing ~cc -v~.
+- Check if you already have a C compiler: open a terminal (search for
+  ~terminal~ app) and enter ~cc -v~.
+- If no compiler is found, download it by entering ~xcode-select
+  --install~
+- Test it by typing ~cc -v~.
 
-   [[./img/cc.png]]
+  [[./img/cc.png]]
 
 ** Setting the path to GCC for Emacs
 
@@ -1070,74 +1070,74 @@ Interface]].
 
 ** Windows
 
- - Download ZIP file from here:
- https://www.sqlite.org/2022/sqlite-tools-win32-x86-3370200.zip
- - Extract ZIP file to ~Program Files (x86)~
- - When finished, open Windows search bar and type ~PATH~
- - In the window, click on ~Environment Variables~
- - In the new window, select the row for ~Path~ and click ~Edit~
- - In the new window, select ~New~
- - Enter this string in the empty row: ~C:\Program
-   Files)\sqlite-tools-win32-x86-3360000~
- - Open ~Command prompt~ (Terminal)
- - At the prompt, type ~sqlite3~
- - To get out of sqlite, type ~.q RET~
+- Download ZIP file from here:
+  https://www.sqlite.org/2022/sqlite-tools-win32-x86-3370200.zip
+  - Extract ZIP file to ~Program Files (x86)~
+  - When finished, open Windows search bar and type ~PATH~
+  - In the window, click on ~Environment Variables~
+  - In the new window, select the row for ~Path~ and click ~Edit~
+  - In the new window, select ~New~
+  - Enter this string in the empty row: ~C:\Program
+    Files)\sqlite-tools-win32-x86-3360000~
+  - Open ~Command prompt~ (Terminal)
+  - At the prompt, type ~sqlite3~
+  - To get out of sqlite, type ~.q RET~
 
 ** MacOS
 
- - Go to the [[https://sqlite.org/download.html][download page]] and download the ~.zip~ bundle for MacOS
-   (x86).
+- Go to the [[https://sqlite.org/download.html][download page]] and download the ~.zip~ bundle for MacOS
+  (x86).
 
-   #+attr_html: :width 300px
-   [[./img/sqlite.png]]
+  #+attr_html: :width 300px
+  [[./img/sqlite.png]]
 
- - Double-click the ~.zip~ file to open it.
- - Right-click on the executable file ~sqlite3~ and confirm that you
-   want to open it. Now SQLite will open in a new terminal window.
+- Double-click the ~.zip~ file to open it.
+- Right-click on the executable file ~sqlite3~ and confirm that you
+  want to open it. Now SQLite will open in a new terminal window.
 
-   #+attr_html: :width 300px
-   [[./img/sqlite.png]]
+  #+attr_html: :width 300px
+  [[./img/sqlite.png]]
 
 * You can also type ~sqlite3~ in a terminal to open the console.
 ** Running SQLite in Emacs
 
- - How to run SQLite in Emacs
+- How to run SQLite in Emacs
 
-   This refers to running SQLite inside an Emacs Org-mode code block -
-   the ability to program SQLite in a literate way. This ability is
-   coded in the Org-mode Babel file ~ob-sqlite.el~. You need to have the
-   following code in your Emacs file *after* loading ~ob-sqlite~:
+  This refers to running SQLite inside an Emacs Org-mode code block -
+  the ability to program SQLite in a literate way. This ability is
+  coded in the Org-mode Babel file ~ob-sqlite.el~. You need to have the
+  following code in your Emacs file *after* loading ~ob-sqlite~:
 
-   #+name: set org-babel-sqlite3-command
-   #+begin_src emacs-lisp :exports both :results silent
-     (require 'ob-sqlite)
-     (setq org-babel-sqlite3-command
-       "\"c:/Program Files (x86)/sqlite-tools-win32-x86-3360000/sqlite3.exe\"")
-   #+end_src
+  #+name: set org-babel-sqlite3-command
+  #+begin_src emacs-lisp :exports both :results silent
+    (require 'ob-sqlite)
+    (setq org-babel-sqlite3-command
+          "\"c:/Program Files (x86)/sqlite-tools-win32-x86-3360000/sqlite3.exe\"")
+  #+end_src
 
-   You can check that the variable is loaded properly by entering:
+  You can check that the variable is loaded properly by entering:
 
-   #+begin_example
-   C-h v org-babel-sqlite3-command RET
-   #+end_example
+  #+begin_example
+  C-h v org-babel-sqlite3-command RET
+  #+end_example
 
-   Babel reports that "this variable may be risky if used as a
-   file-local variable," but I suppose we've got to take our chances!
+  Babel reports that "this variable may be risky if used as a
+  file-local variable," but I suppose we've got to take our chances!
 
 * How to install Emacs (+ESS) under Windows and MacOS
 ** Download and Installation for Windows
 
- - Download GNU Emacs + ESS as a modified version for [[https://vigou3.gitlab.io/emacs-modified-windows/][Windows]].
- - Run the installer - accept all presets.
- - Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
- - Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
+- Download GNU Emacs + ESS as a modified version for [[https://vigou3.gitlab.io/emacs-modified-windows/][Windows]].
+- Run the installer - accept all presets.
+- Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
+- Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
 
 ** Download and Installation for MacOS
 
- - Download GNU Emacs + ESS as a modified version for [[https://vigou3.gitlab.io/emacs-modified-macos/][MacOS]].
- - Run the installer - accept all presets.
- - Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
- - Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
+- Download GNU Emacs + ESS as a modified version for [[https://vigou3.gitlab.io/emacs-modified-macos/][MacOS]].
+- Run the installer - accept all presets.
+- Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
+- Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
 * How to customize GNU Emacs
 
 GNU Emacs is much more than a text editor and an IDE. It's more like
@@ -1157,16 +1157,16 @@ among these, physicists (my original tribe), who developed it.
 And here is an excellent video tutorial by someone who is also
 getting started with Emacs for the first time like you:
 
- - [[https://youtu.be/48JlgiBpw_I][The Absolute Beginner's Guide to Emacs]] (System Crafters, 2021) -
-   1hr11min ([[https://github.com/birkenkrahe/org/blob/master/emacs_beginner.org#absolute-beginners-guide-to-emacs][so good that I made extensive notes]]).
+- [[https://youtu.be/48JlgiBpw_I][The Absolute Beginner's Guide to Emacs]] (System Crafters, 2021) -
+  1hr11min ([[https://github.com/birkenkrahe/org/blob/master/emacs_beginner.org#absolute-beginners-guide-to-emacs][so good that I made extensive notes]]).
 
-   And here is a (much shorter) video by a former user of the Vim
-   editor who switches to GNU Emacs:
+  And here is a (much shorter) video by a former user of the Vim
+  editor who switches to GNU Emacs:
 
- - [[https://youtu.be/Y8koAgkBEnM][Switching to GNU Emacs]] (DistroTube, 2019) - 22 min.
+- [[https://youtu.be/Y8koAgkBEnM][Switching to GNU Emacs]] (DistroTube, 2019) - 22 min.
 
-   #+attr_html: :width 700px
-   [[./img/real_programmers.png]]
+  #+attr_html: :width 700px
+  [[./img/real_programmers.png]]
 
 ** Create configuration file
 
@@ -1275,10 +1275,10 @@ The screenshot shows part of the listing, with ~available~,
 [[./img/packages.png]]
 
 To install a package
- - search and find it (forward search with ~C-s~ or backward search with
-   ~C-r~)
- - enter ~i~ to mark the package for installation
- - enter ~x~ to install it.
+- search and find it (forward search with ~C-s~ or backward search with
+  ~C-r~)
+- enter ~i~ to mark the package for installation
+- enter ~x~ to install it.
 
 ** Presenting in Emacs
 
@@ -1487,26 +1487,26 @@ creating the request. You can also submit a draft request.
 The screenshot shows that there are ~no conflicts with the base
 branch~. There is lots of additional information on this page:
 
- - ~Continuous integration~: In software development projects, many
-   changes like obvious bugs are undisputed and their removal should
-   be automated.
- - ~Open this in GitHub Desktop~: when you click on this link, you're
-   asked to download the GitHub Desktop application. This is something
-   you should do if you want to use GitHub for version control (or
-   backup) of your own projects.
- - ~Command line instructions~: the ~Git~ program is originally a command
-   line program - everything you do in GitHub graphically can also be
-   done with simple text commands. This is generally much faster and
-   safer[fn:27]. Within the command line option, you can submit ~Git~
-   commands remotely via ~https~, or use the ~git~ program if you have it
-   installed.
- - ~Squash and merge~ or ~Rebase and merge~: subroutines of ~Git~ that lead
-   to different levels of details of the version control history.
+- ~Continuous integration~: In software development projects, many
+  changes like obvious bugs are undisputed and their removal should
+  be automated.
+- ~Open this in GitHub Desktop~: when you click on this link, you're
+  asked to download the GitHub Desktop application. This is something
+  you should do if you want to use GitHub for version control (or
+  backup) of your own projects.
+- ~Command line instructions~: the ~Git~ program is originally a command
+  line program - everything you do in GitHub graphically can also be
+  done with simple text commands. This is generally much faster and
+  safer[fn:27]. Within the command line option, you can submit ~Git~
+  commands remotely via ~https~, or use the ~git~ program if you have it
+  installed.
+- ~Squash and merge~ or ~Rebase and merge~: subroutines of ~Git~ that lead
+  to different levels of details of the version control history.
 
- #+attr_html: :width 600px
+  #+attr_html: :width 600px
 #+caption: Pull request successfully merged and closed
 [[./img/success.png]]
- 
+
 ** Show your contributions
 
 Your *contributions* are shown on your *profile* page.
@@ -1549,9 +1549,9 @@ borders." Source: [[https://en.wikipedia.org/wiki/Emacs#/media/File:Emacs27_show
 
 See [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#which-editor-and-ide-do-you-use][FAQ]]. I use Emacs for most of my computing needs:
 
- - Writing (teaching, research)
- - Planning (Calendar, ToDo)
- - Organizing (Files)
+- Writing (teaching, research)
+- Planning (Calendar, ToDo)
+- Organizing (Files)
 
 See also the article "[[https://opensource.com/article/20/3/getting-started-emacs][Getting started with Emacs"]] (Kenlon, 2020), and
 the video "[[https://youtu.be/48JlgiBpw_I][The Absolute Beginner's Guide to Emacs]]" (System
@@ -1562,9 +1562,9 @@ Crafters, 2020) with [[https://github.com/birkenkrahe/org/blob/master/emacs/emac
 /Image: DESY APE research group (1994). Can you find me?/
 
 Other uses:
- - As [[https://youtu.be/Wcjmx_U5alY][window manager]] (only under Linux)
- - As [[http://www.mycpu.org/read-email-in-emacs/][email client]]
- - Remote access (with [[https://www.gnu.org/software/tramp/][GNU Tramp]])
+- As [[https://youtu.be/Wcjmx_U5alY][window manager]] (only under Linux)
+- As [[http://www.mycpu.org/read-email-in-emacs/][email client]]
+- Remote access (with [[https://www.gnu.org/software/tramp/][GNU Tramp]])
 
 * How will we use Emacs (in the C programming class)?
 
@@ -1573,9 +1573,9 @@ Other uses:
 
 We'll use it as:
 
- - EDITOR to write source code,
- - NOTEBOOK to write literate programs, and
- - SHELL to build and run code.
+- EDITOR to write source code,
+- NOTEBOOK to write literate programs, and
+- SHELL to build and run code.
 
 #+begin_quote
 "Emacs outshines all other editing software in approximately the same
@@ -1646,10 +1646,10 @@ improving your *meta skills*[fn:8] in this area.
 * How to fix the .emacs problem on Windows lab computers?
 ** The problem
 
- - Whenever you sit down at a lab desktop PC, you log on with your
-   user profile. The ~.emacs~ file is then stored only on that computer.
- - If you sit at a different computer next time, there will be no
-   ~.emacs~ file in your ~$HOME~ directory, and you have to reinstall it.
+- Whenever you sit down at a lab desktop PC, you log on with your
+  user profile. The ~.emacs~ file is then stored only on that computer.
+- If you sit at a different computer next time, there will be no
+  ~.emacs~ file in your ~$HOME~ directory, and you have to reinstall it.
 
 ** The solution
 
@@ -1684,11 +1684,11 @@ This will load ~.emacs~ as your initialization file.
 
 ** The effect
 
- - You can now run any R, SQLite, Emacs Lisp, or C code block inside
-   an Org-file.
- - To run Shell (~bash~) code, you need to have ~bash.exe~ installed,
-   e.g. by installing the [[https://cygwin.com/install.html][CygWin utilities package]].
- - Here is more information about the GNU Emacs [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][initialization file]].
+- You can now run any R, SQLite, Emacs Lisp, or C code block inside
+  an Org-file.
+- To run Shell (~bash~) code, you need to have ~bash.exe~ installed,
+  e.g. by installing the [[https://cygwin.com/install.html][CygWin utilities package]].
+- Here is more information about the GNU Emacs [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][initialization file]].
 
 * How do I get Emacs to accept C:\Users\myname as start directory?
 
@@ -1733,16 +1733,16 @@ Add this to your ~.emacs~ file and restart Emacs:
 
 * What does weaving doc and tangling C code from Org-mode mean?
 
- - The concept of <<literate programming>> seems to be unclear to some
-   students. So I came up with a few more examples - below for the
-   introductory class on C and C++.
+- The concept of <<literate programming>> seems to be unclear to some
+  students. So I came up with a few more examples - below for the
+  introductory class on C and C++.
 
- - Concept review: Can you answer the following questions?
+- Concept review: Can you answer the following questions?
 
-   | What is Emacs?                             |
-   | What is Org-mode?                          |
-   | What does "tangle" C code mean?            |
-   | What does it mean to "weave" documentation |
+  | What is Emacs?                             |
+  | What is Org-mode?                          |
+  | What does "tangle" C code mean?            |
+  | What does it mean to "weave" documentation |
 
 #+caption: overview literate programming process
 #+attr_html: :width 600px
@@ -1774,78 +1774,78 @@ Add this to your ~.emacs~ file and restart Emacs:
 
 * How can I do Literate programming for C, R, SQLite?
 
- - The processes for literate programming with interactive Org mode
-   files in Emacs are slightly different.
+- The processes for literate programming with interactive Org mode
+  files in Emacs are slightly different.
 
- - C code (or the code of any compiled language) can be run inside
-   Org-mode, or it can be tangled and run separately.
+- C code (or the code of any compiled language) can be run inside
+  Org-mode, or it can be tangled and run separately.
 
-   #+caption: Display output in Emacs Org mode file
-   #+attr_html: :width 600px
-   [[./img/litprogc.png]]
+  #+caption: Display output in Emacs Org mode file
+  #+attr_html: :width 600px
+  [[./img/litprogc.png]]
 
- -  R code is run inside Org-mode via a session in an ESS
-    buffer. This session can be visited and used independently.
+-  R code is run inside Org-mode via a session in an ESS
+  buffer. This session can be visited and used independently.
 
-    #+caption: Display output in Emacs Org mode file
-    #+attr_html: :width 600px
-    [[./img/litprogr.png]]
+  #+caption: Display output in Emacs Org mode file
+  #+attr_html: :width 600px
+  [[./img/litprogr.png]]
 
- - SQLite (or generally shell code like bash) is run inside Org-mode
-   only. No session is generated.
+- SQLite (or generally shell code like bash) is run inside Org-mode
+  only. No session is generated.
 
-   #+caption: Display output in Emacs Org mode file
-   #+attr_html: :width 600px
-   [[./img/litprogsqlite.png]]
+  #+caption: Display output in Emacs Org mode file
+  #+attr_html: :width 600px
+  [[./img/litprogsqlite.png]]
 
- - This works whenever you have Emacs and Org-mode, on Windows, MacOS
-   or Linux.
+- This works whenever you have Emacs and Org-mode, on Windows, MacOS
+  or Linux.
 
 * How can I improve my mid-term grades?
 
- - You can ask me personally and specifically, what to do to get your
-   grades up
+- You can ask me personally and specifically, what to do to get your
+  grades up
 
- - There is no reason not to have at good grade in my class:
-   1. You can usually submit in-class assignments late
-   2. The deadlines of the DataCamp assignments are well known
-   3. The quizzes contain ample instructions and can be repeated
-   4. Class attendance + Whiteboard screenshots + GitHub info
-   5. You can always talk to me for personal support
+- There is no reason not to have at good grade in my class:
+  1. You can usually submit in-class assignments late
+  2. The deadlines of the DataCamp assignments are well known
+  3. The quizzes contain ample instructions and can be repeated
+  4. Class attendance + Whiteboard screenshots + GitHub info
+  5. You can always talk to me for personal support
 
- - Hence, to improve your grade, do:
-   1. Submit in-class assignments if you could not attend class
-   2. Complete DataCamp assignments on time
-   3. Play the quizzes until you have 100% and read the feedback
-   4. Attend class + look at screenshots + files afterwards
-   5. Practice your skills whenever you can
-   6. When you are attending in person, really attend
-   7. Ask me in or outside of class if anything is unclear
+- Hence, to improve your grade, do:
+  1. Submit in-class assignments if you could not attend class
+  2. Complete DataCamp assignments on time
+  3. Play the quizzes until you have 100% and read the feedback
+  4. Attend class + look at screenshots + files afterwards
+  5. Practice your skills whenever you can
+  6. When you are attending in person, really attend
+  7. Ask me in or outside of class if anything is unclear
 
- - If you want to improve your grade through extra credit, you can
-   talk to me about doing a small, independent research project
-   leading to a writeup in the form of a notebook, or a short (10-15
-   min) presentation. The topic must be related to the course.
+- If you want to improve your grade through extra credit, you can
+  talk to me about doing a small, independent research project
+  leading to a writeup in the form of a notebook, or a short (10-15
+  min) presentation. The topic must be related to the course.
 
- - These skills are related to successful studying, which in turn is
-   related to success in life through traditional values: *discipline*,
-   *duty*, and *diligence*. This doesn't have anything to do with computer
-   science.
+- These skills are related to successful studying, which in turn is
+  related to success in life through traditional values: *discipline*,
+  *duty*, and *diligence*. This doesn't have anything to do with computer
+  science.
 
- - What I'm going for in my classes is what I think computerscientists
-   need more than anything else:
+- What I'm going for in my classes is what I think computerscientists
+  need more than anything else:
 
-   1. Critical thinking and analysis skills
-   2. Troubleshooting skills
-   3. Research skills
+  1. Critical thinking and analysis skills
+  2. Troubleshooting skills
+  3. Research skills
 
-   This is nicely mirrored in a [[https://github.com/birkenkrahe/org/issues/19][comment]] to the question "Why are
-   computer science degrees so math intensive when the field doesn't
-   seem to use much math at all?" on Quora.
+  This is nicely mirrored in a [[https://github.com/birkenkrahe/org/issues/19][comment]] to the question "Why are
+  computer science degrees so math intensive when the field doesn't
+  seem to use much math at all?" on Quora.
 
-   #+caption: What's math got do to with computer science?
-   #+attr_html: :width 500px
-   [[./img/quora.png]]
+  #+caption: What's math got do to with computer science?
+  #+attr_html: :width 500px
+  [[./img/quora.png]]
 
 * How to set a new Emacs home directory
 
@@ -2096,7 +2096,7 @@ Hope this helps! As usual, the truth is multi-faceted...
   someone with more knowledge (though also a little intimidating). Use
   the opportunity!
 
-* How can I prepare for your classes?
+* How can I prepare for your data science classes?
 
 All data science classes are using the statistical programming
 language R at varying levels of sophistication. Short of working
@@ -2131,6 +2131,20 @@ or the [[https://orgmode.org/][Org-mode pages]] (however, we're going to cover t
 
 As for other topics, check out the syllabus or, if it has not been
 posted yet, contact me for a copy and/or a list of relevant literature.
+
+* What is an agile team term project?
+
+- Executed by a small team of 2-3 members
+- Generates *IMRaD* document and/or presentation (see [[imrad][FAQ]])
+- Managed as an agile project using (modified) *Scrum* (see [[scrum][FAQ]])
+- Deliverables:
+  1) Description of the dataset
+  2) Introduction of the problem statement
+  3) Description of the methods used
+  4) Visualization of the data (plots!)
+  5) Analysis of the plots
+  6) Limitations of own analysis
+  7) References
 
 * References
 
