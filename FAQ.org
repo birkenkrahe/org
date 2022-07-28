@@ -928,34 +928,34 @@ using the app.
 
 * How to install R under Windows and MacOS
 ** Windows
-  - Download the latest package from [[https://cran.r-project.org/][CRAN]].
-  - Run the installer - accept all presets.
-  - Add the location of the executable file ~R~ to the Windows ~PATH~
-    (~C:\Program Files\R\R-4.1.2\bin\x64~[fn:1]):
-  - Search for ~PATH~ and open the menu ~System Properties~
+- Download the latest package from [[https://cran.r-project.org/][CRAN]].
+- Run the installer - accept all presets.
+- Add the location of the executable file ~R~ to the Windows ~PATH~
+  (~C:\Program Files\R\R-4.1.2\bin\x64~[fn:1]):
+- Search for ~PATH~ and open the menu ~System Properties~
 
-    #+attr_html: :width 300px
-    [[./img/systemproperties.png]]
+  #+attr_html: :width 300px
+  [[./img/systemproperties.png]]
 
-  - Open the menu ~Environment Variables~, click on the ~PATH~
-    variable and choose ~Edit~
+- Open the menu ~Environment Variables~, click on the ~PATH~
+  variable and choose ~Edit~
 
-    #+attr_html: :width 300px
-    [[./img/path.png]]
+  #+attr_html: :width 300px
+  [[./img/path.png]]
 
-  - Click on ~New~ and paste the path ~C:\Program
-    Files\R\R-4.1.2\bin\x64~ into the empty line[fn:2]. Confirm three
-    times with ~OK~ to close all menus.
+- Click on ~New~ and paste the path ~C:\Program
+  Files\R\R-4.1.2\bin\x64~ into the empty line[fn:2]. Confirm three
+  times with ~OK~ to close all menus.
 
-    #+attr_html: :width 300px
-    [[./img/environmentvariable.png]]
+  #+attr_html: :width 300px
+  [[./img/environmentvariable.png]]
 
-  - To test, search for ~CMD~, open a terminal and enter ~R~. The R
-    program opens. At the ~>~ prompt, enter ~hist(Nile)~. The
-    histogram below should open in a new screen. Close the window.
+- To test, search for ~CMD~, open a terminal and enter ~R~. The R
+  program opens. At the ~>~ prompt, enter ~hist(Nile)~. The
+  histogram below should open in a new screen. Close the window.
 
-    #+attr_html: :width 300px
-    [[./img/histogram.png]]
+  #+attr_html: :width 300px
+  [[./img/histogram.png]]
 
 ** MacOS
 - Download the latest package from [[https://cran.r-project.org/][CRAN]].
@@ -998,35 +998,35 @@ you have to type the path yourself like this:
 
 * How to install GCC / a C compiler under Windows and MacOS
 ** Windows
-  - Download the installer [[https://sourceforge.net/projects/mingw-w64/][from sourceforge]].
-  - Run the installer - accept all presets.
-  - Add the location of the executable file ~gcc~ to the Windows ~PATH~
-    (you can find it in ~C:\Program Files(x86)\mingw-w64\~):
+- Download the installer [[https://sourceforge.net/projects/mingw-w64/][from sourceforge]].
+- Run the installer - accept all presets.
+- Add the location of the executable file ~gcc~ to the Windows ~PATH~
+  (you can find it in ~C:\Program Files(x86)\mingw-w64\~):
 
-  - Search for ~PATH~ and open the menu ~System Properties~
+- Search for ~PATH~ and open the menu ~System Properties~
 
-    #+attr_html: :width 300px
-    [[./img/systemproperties.png]]
+  #+attr_html: :width 300px
+  [[./img/systemproperties.png]]
 
-  - Open the menu ~Environment Variables~, click on the ~PATH~
-    variable and choose ~Edit~
+- Open the menu ~Environment Variables~, click on the ~PATH~
+  variable and choose ~Edit~
 
-    #+attr_html: :width 300px
-    [[./img/path.png]]
+  #+attr_html: :width 300px
+  [[./img/path.png]]
 
-  - Click on ~New~ and paste the path into the empty line. Confirm
-    three times with ~OK~ to close all
-    menus.
+- Click on ~New~ and paste the path into the empty line. Confirm
+  three times with ~OK~ to close all
+  menus.
 
-    #+attr_html: :width 300px
-    [[./img/environmentvariable.png]]
+  #+attr_html: :width 300px
+  [[./img/environmentvariable.png]]
 
-  - To test, search for ~CMD~, open a terminal and enter ~gcc
-    --version~ - you should get the output shown below (or
-    similar). Close the window.
+- To test, search for ~CMD~, open a terminal and enter ~gcc
+  --version~ - you should get the output shown below (or
+  similar). Close the window.
 
-    #+attr_html: :width 300px
-    [[./img/gcc.png]]
+  #+attr_html: :width 300px
+  [[./img/gcc.png]]
 
 ** MacOS
 
@@ -2134,6 +2134,10 @@ posted yet, contact me for a copy and/or a list of relevant literature.
 
 * What is an agile team term project?
 
+Short answer: something you do in steps (aka sprints) using the course
+infrastructure - R (for analysis/graphs), Emacs + Org-mode (for
+coding/documentation).
+
 - Executed by a small team of 2-3 members
 - Generates *IMRaD* document and/or presentation (see [[imrad][FAQ]])
 - Managed as an agile project using (modified) *Scrum* (see [[scrum][FAQ]])
@@ -2146,57 +2150,121 @@ posted yet, contact me for a copy and/or a list of relevant literature.
   6) Limitations of own analysis
   7) References
 
+* Do you have project examples?
+
+** The following examples vary strongly in depth and difficulty.
+
+- Examples on Kaggle ([[https://www.kaggle.com/ekrembayar/election-2016-trump-clinton-spatial-visualization][example]])
+- Examples on data science blogs ([[https://rweekly.org/][example]])
+- Translate from Python to R ([[https://theartandscienceofdata.wordpress.com/2021/02/20/funniest-friends/][example]])
+- Extend someone else's EDA ([[https://towardsdatascience.com/what-matters-in-speed-dating-34d29102f6cb][example]])
+- Document an R package ([[https://www.rdocumentation.org/packages/ggplot2/versions/3.3.3][example]])
+- Use your own data ([[http://adomingues.github.io/2020/11/25/visual-cv/][example]])
+
+** Some commented project ideas:
+
+- Student grades [[https://github.com/birkenkrahe/grades][example]]: plot grades over time
+
+- Data or graph checking project ([[https://github.com/birkenkrahe/dsc101/blob/main/diary.org#data-or-graph-checking-projects][example]]): recreate results
+
+- [[https://lucidmanager.org/data-science/text-adventure//][Adventure games]]: What's the project idea here? Understand how the
+  adventure game is built, program your own (different) game and
+  document the process and the result. Nice presentation opportunity:
+  you can let your audience play the game and perhaps gather
+  statistics, too.
+
+- [[https://blog.ephorie.de/the-polya-urn-model-a-simple-simulation-of-the-rich-get-richer][Polya urn model]]: What's the project idea here? The blog post
+  describes the model purely in terms of R (very easy to play through
+  actually - do it!). It does not provide any of the mathematics. A
+  project could write about this with references (missing in the blog)
+  and maths, and present this topic more systematically.
+
+- [[https://blog.rstudio.com/2021/09/07/my-excel-and-r-journey-in-financial-services/][Excel vs R in Finance]]: What's the project idea? The article has no
+  references, only claims. Your project would be to contrast Excel and
+  R using one or more simple examples. An example could come from some
+  other class.
+
+- Pick an R package and document it with examples - like [[https://www.rdocumentation.org/packages/RSQL/versions/0.2.1][RSQL]], or
+  [[https://rsqlite.r-dbi.org/articles/rsqlite][RSQLite]], or one of the aspects of a large package like [[https://rdrr.io/cran/data.table/f/vignettes/datatable-intro.Rmd][data.table]].
+
+* Can I do a project as an absolute beginner?
+
+Absolutely yes! Participants of my introductory data science course
+have successfully completed small projects and used them as showcases
+to get prestigious internships and jobs! ([[https://www.lyon.edu/news/posts/double-the-internship-double-the-fun-][Example, 2022.]])
+
+- KISS: Keep It Simply Scientific (cp. [[https://youtu.be/dip7UwZ3wUM][IMRaD video]]): stick to a
+  simple structure and make the problem (research question, what
+  you want to find out) as small as humanly possible while still
+  retaining relevance
+
+- Look at examples (e.g. in my > 1000 [[https://github.com/birkenkrahe/ds101/blob/master/ds_bookmarks.md#orgd1a5760][bookmarks]]): there are
+  examples from many data science applications available e.g. in
+  the [[https://rweekly.org/][R Weekly blog]], on [[https://www.kaggle.com/getting-started/114864][Kaggle]] or on [[https://app.datacamp.com/learn/projects][DataCamp]]
+
+- Create your own data (e.g. your productivity, sports, dieting):
+  create a daily log and put the numbers into a spreadsheet or
+  directly into a data frame
+
+- ARAB: All Researchers Are Beginners
+  + it wouldn't be research if the answers (or the successful
+    methods) were already known
+  + Whole areas of research were forgotten and have to be
+    rediscovered
+  + There are too many questions out there - most research only
+    answers part of each question and leaves the rest for others
+
 * References
 
-<<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
-Improve Emotion, Motivation and Attitude Of Students Writing
-Scientific Papers And Theses. In: Proceedings of the 13th IEEE
-Int. Conf. on Cognitive Informatics & Cognitive Computing, London,
-August 18-20, 2014. [[https://drive.google.com/file/d/0B9ubV5NfnNPpdlNycWxkaTFQc1k/view?usp=sharing][URL: researchgate.net]]
+- <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
+  Improve Emotion, Motivation and Attitude Of Students Writing
+  Scientific Papers And Theses. In: Proceedings of the 13th IEEE
+  Int. Conf. on Cognitive Informatics & Cognitive Computing, London,
+  August 18-20, 2014. [[https://drive.google.com/file/d/0B9ubV5NfnNPpdlNycWxkaTFQc1k/view?usp=sharing][URL: researchgate.net]]
 
-<<birk>> Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
-1 - Introductory stories. [[https://youtu.be/HrmBZQuCSzo][Online: youtube.com.]]
+- <<birk>> Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
+  1 - Introductory stories. [[https://youtu.be/HrmBZQuCSzo][Online: youtube.com.]]
 
-Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part
-2 - What audiences want. [[https://youtu.be/k_FJXpYPbQY][Online: youtube.com.]]
+- Birkenkrahe M (Feb 7, 2016). Minto Pyramid Principle Part 2 - What
+  audiences want. [[https://youtu.be/k_FJXpYPbQY][Online: youtube.com.]]
 
-<<bps>> Berlin Professional School (BPS). Presentation Assessment
-Form.
+- <<bps>> Berlin Professional School (BPS). Presentation Assessment
+  Form.
 
-DistroTube (). Switching to GNU Emacs [video]. [[https://youtu.be/Y8koAgkBEnM][URL:
-youtu.be/Y8koAgkBEnM]].
+- DistroTube (). Switching to GNU Emacs [video]. [[https://youtu.be/Y8koAgkBEnM][URL:
+  youtu.be/Y8koAgkBEnM]].
 
-<<cmdline>> Janssens (2021). Data science on the command line
-(2e). O'Reilly. [[https://datascienceatthecommandline.com/][URL: datascienceatthecommandline.com.]]
+- <<cmdline>> Janssens (2021). Data science on the command line
+  (2e). O'Reilly. [[https://datascienceatthecommandline.com/][URL: datascienceatthecommandline.com.]]
 
-gnu.org (n.d.). GNU Emacs manuals [website]. [[https://www.gnu.org/software/emacs/manual/][URL: www.gnu.org.]]
+- gnu.org (n.d.). GNU Emacs manuals [website]. [[https://www.gnu.org/software/emacs/manual/][URL: www.gnu.org.]]
 
-<<gookin>> Gookin D (2021). Tiny C Projects. Manning. URL:
-[[https://www.manning.com/books/tiny-c-projects][manning.com]].
+- <<gookin>> Gookin D (2021). Tiny C Projects. Manning. URL:
+  [[https://www.manning.com/books/tiny-c-projects][manning.com]].
 
-Hoffman (Jul 19, 2017). What Is the AppData Folder in Windows?
-[blog]. [[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/][URL: www.howtogeek.com.]]
+- Hoffman (Jul 19, 2017). What Is the AppData Folder in Windows?
+  [blog]. [[https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/][URL: www.howtogeek.com.]]
 
-<<minto>> Minto B (2002). The Pyramid Principle.
+- <<minto>> Minto B (2002). The Pyramid Principle.
 
-Harrison Metal (2014). Storytelling & Presenting 1: Thank You,
-Barbara Minto [video]. [[https://vimeo.com/87537935][Online: vimeo.com]]
+- Harrison Metal (2014). Storytelling & Presenting 1: Thank You,
+  Barbara Minto [video]. [[https://vimeo.com/87537935][Online: vimeo.com]]
 
-<<minto1>> Power-user (Jul 31, 2016). Give a brilliant structure to
-your presentations with the Pyramid Principle [website]. [[https://www.powerusersoftwares.com/post/2016/07/31/give-a-brilliant-structure-to-your-presentations-with-the-pyramid-principle][Online:
-powerusersoftwares.com]]
+- <<minto1>> Power-user (Jul 31, 2016). Give a brilliant structure to
+  your presentations with the Pyramid Principle [website]. [[https://www.powerusersoftwares.com/post/2016/07/31/give-a-brilliant-structure-to-your-presentations-with-the-pyramid-principle][Online:
+  powerusersoftwares.com]]
 
-<<stella>> Stella J (Nov 11, 2015). A CEO's Guide to Emacs
-[blog]. [[https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html][Online: fugue.co]].
+- <<stella>> Stella J (Nov 11, 2015). A CEO's Guide to Emacs
+  [blog]. [[https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html][Online: fugue.co]].
 
-System Crafters (Mar 8, 2021). The Absolute Beginner's Guide to
-Emacs [video]. [[https://youtu.be/48JlgiBpw_I][URL: youtu.be/48JlgiBpw_I]].
+- System Crafters (Mar 8, 2021). The Absolute Beginner's Guide to
+  Emacs [video]. [[https://youtu.be/48JlgiBpw_I][URL: youtu.be/48JlgiBpw_I]].
 
-Tarnowski (Mar 10, 2020). 15 Reasons Why I Use Emacs, With GIFs
-[blog]. [[https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61][URL: medium.com]].
+- Tarnowski (Mar 10, 2020). 15 Reasons Why I Use Emacs, With GIFs
+  [blog]. [[https://betterprogramming.pub/15-reasons-why-i-use-emacs-with-gifs-5b03c6608b61][URL: medium.com]].
 
-<<ubuntu>> Morrison G (2021). Ubuntu on Windows 10 [website]. [[https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview][URL:
-ubuntu.com/tutorials/ubuntu-on-windows]]
+- <<ubuntu>> Morrison G (2021). Ubuntu on Windows 10 [website]. [[https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview][URL:
+  ubuntu.com/tutorials/ubuntu-on-windows]]
 
 * Footnotes
 
