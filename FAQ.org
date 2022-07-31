@@ -2214,6 +2214,87 @@ to get prestigious internships and jobs! ([[https://www.lyon.edu/news/posts/doub
   + There are too many questions out there - most research only
     answers part of each question and leaves the rest for others
 
+* Which textbooks can you recommend to learn R?
+
+1) The recommended resource is "[[https://github.com/matloff/fasteR#faster-fast-lane-to-learning-r][fasteR]]", which is on GitHub and it
+   is free (you can clone it to your computer, or fork it to your
+   GitHub account).
+
+2) "The Art of R Programming - A Tour of Statistical Software
+   Design", by Norman Matloff, NoStarch Press (2011). You can find
+   it [[https://archive.org/details/Norman_Matloff___The_Art_of_R_Programming][online at the Internet Archive]] (I recommend buying it - a
+   wonderful text). It is not for absolute beginners to programming,
+   but it introduces R and statistics with R.
+
+3) In class, also showed a book by Irizarry "Introduction to Data
+   Science", CRC Press 2020, also available for free [[https://rafalab.github.io/dsbook/][online
+   here]]. We'll cover about 1/3 of the book (part I + II) in this
+   first course. However, there are some issues with this book.
+
+4) Two more excellent books that I have used, more about R and stats
+   than about data science perhaps, are T M Davies' "The Book of R"
+   (NoStarch Press, 2016), and R Cotton's "Learning R" (O'Reilly,
+   2013). 'The Book of R' is the main textbook from fall 2022.
+
+   There is any number of books available, many online for free,
+   available e.g. at [[https://bookdown.org/][bookdown.org]]. These books often focus on the
+   "Tidyverse" packages for R, which I think is not suitable for
+   beginners ([[https://github.com/matloff/TidyverseSkeptic][see here]] for an explanation why).
+
+   If you find a text or a book, or a tutorial that you really like,
+   please share the information with us!
+
+* Are we going to use RStudio?
+
+No. [[https://rstudio.com/][RStudio]] is worth checking out, and it may well be what you use
+later in your data science career, but I think it is much too
+complex for beginners, and not really necessary at all.
+
+RStudio is a so-called "IDE" (Integrated Development Environment) -
+it presents a file editor (to create R programs, or notebooks), an R
+console (to enter commands interactively), a graphical output device
+(for plots), a file explorer, and an environment explorer (for
+loaded variables etc.), and more. It's a tool created for
+professionals and developers of packages.
+
+It is unfortunate, that people (usually newbies) believe that "R =
+RStudio = Tidyverse". This has to do with the great marketing
+successes of RStudio (the company behind the product). Don't get me
+wrong: there are many wonderful things about RStudio (e.g. it's Open
+source). But you don't need it and it has a "lock-in" effect. I
+e.g. use *Emacs + ESS + Org-mode* instead, but I also would not
+recommend it for beginners[fn:30].
+
+I want you to focus on the basics. As a beginner, this will serve
+you best, I believe. It's a little like learning to drive on gear
+shift, and then upgrading to automatic transmission.
+
+I will however, show you RStudio, and we may also use it together
+(optionally) during the session on "Literate Programming".
+
+If you want to install RStudio on your computer, here is an
+excellent [[https://techvidvan.com/tutorials/install-r/][beginner's tutorial]].
+
+* How can I update R on my computer?
+
+- Why update? Because some packages won't work unless you upgrade
+  base R, and also because the language changes and gets better.
+
+- Check the version you have by opening the R console, or by typing ~R
+  --version~ in the terminal (command line). Then compare with the
+  latest version from [[https://cran.r-project.org/][CRAN]].
+
+- You can update in the R GUI:
+
+  #+attr_html: :width 400px
+  [[./img/update.jpg]]
+
+- Or you can update in the R console itself (after starting R)
+  either with ~RGui~ or ~RTerm~:
+
+  #+attr_html: :width 400px
+  [[./img/updateR.png]]
+
 * References
 
 - <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
@@ -2427,3 +2508,7 @@ Git.
 Ubuntu App featured in this FAQ - however, the installation requires
 more steps. If your Docker installation fails, you may also have to
 enable [[WSL2][WSL2]].
+
+[fn:30]In fact, in spring 2022, I began using Emacs + Org-mode in all
+my classes at Lyon College, and Emacs + ESS + Org-mode in all my
+R-related classes. This turned out to be very successful ([[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WILtLJR2sHSfr6Fs/edit?usp=sharing][see here]]).
