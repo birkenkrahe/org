@@ -39,6 +39,9 @@
 ;; org-display-inline-images set to <f6>
 (global-set-key (kbd "<f6>") 'org-display-inline-images)
 
+;; org-remove-inline-images set to <f7>
+(global-set-key (kbd "<f7>") 'org-remove-inline-images)
+
 ;; over ssh, emacs’ key C-SPC and C-@ no longer works
 ;;(global-set-key [f8] (quote set-mark-command))
 
