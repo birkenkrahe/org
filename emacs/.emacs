@@ -56,4 +56,7 @@
 ;;   (message (format "HOME location is %s" (getenv "HOME"))))
 
 ;; (set-home-dir "C:/Users/birkenkrahe/")
-    
+
+;; load Emacs-Speaks-Statistics (ESS) see ess.r-project.org
+(add-to-list 'load-path "~/.emacs.d/elpa/ess-20220727.1131")
+(load "ess-autoloads")
