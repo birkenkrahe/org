@@ -2295,6 +2295,39 @@ excellent [[https://techvidvan.com/tutorials/install-r/][beginner's tutorial]].
   #+attr_html: :width 400px
   [[./img/updateR.png]]
 
+* How can I install Emacs + ESS + R on my Chromebook?
+
+I did this just now, for a student's new chromebook (August 2022) -
+ask me if you need help.
+
+1) Open settings in chromebook
+2) In the "developers" section, "turn on" Linux ([[https://support.google.com/chromebook/answer/9145439?hl=en][source]])
+3) Linux will install (takes a few minutes)
+4) A bash terminal will open
+5) As of August 2022, this is GNU Linux "bullseye" (same as on the
+   Rasperry Pi), a Debian clone.
+6) Update the system software:
+   #+begin_example bash
+   > sudo apt update -y
+   > sudo apt upgrade -y
+   #+end_example
+7) Install emacs with ~sudo apt-get install emacs~
+8) Install R with ~sudo apt install r-base -y~ ([[https://www.how2shout.com/linux/install-the-latest-r-programming-language-version-on-debian-11-bullseye/][source]])
+9) Download my ~.emacs~ file from GitHub ([[https://github.com/birkenkrahe/org/blob/master/emacs/.emacs][in the ~/org/emacs~ repo]]).
+10) Open Emacs and save ~.emacs~ in the home directory as
+    ~~/.emacs~. There will be an error message because ESS is not found
+11) Install the ~ess~ package from the package list manager:
+    #+begin_example emacs-lisp
+     M-x package-refresh-content ;; refresh packages
+     M-x package-list-packages  ;; open package manager 
+     C-s ess  ;; find ess package
+     i  ;; mark ess package for install
+     x  ;; install package
+    #+end_example
+    ESS will have to be byte-compiled. 
+12) Go to the ~.emacs~ file and re-run it with ~M-x eval-buffer~
+13) Open R inside Emacs with ~M-x R~
+
 * References
 
 - <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
