@@ -2319,14 +2319,62 @@ ask me if you need help.
 11) Install the ~ess~ package from the package list manager:
     #+begin_example emacs-lisp
      M-x package-refresh-content ;; refresh packages
-     M-x package-list-packages  ;; open package manager 
+     M-x package-list-packages  ;; open package manager
      C-s ess  ;; find ess package
      i  ;; mark ess package for install
      x  ;; install package
     #+end_example
-    ESS will have to be byte-compiled. 
+    ESS will have to be byte-compiled.
 12) Go to the ~.emacs~ file and re-run it with ~M-x eval-buffer~
 13) Open R inside Emacs with ~M-x R~
+
+* How can I see your lecture notes?
+
+I create all my lectures and practice material using GNU Emacs +
+Org-mode. The notes are contained in a notes block, and they do not
+render on GitHub but they are contained in the PDF printout that I
+generate once I'm happy with the final version of a lecture.
+
+Example:
+- [[https://github.com/birkenkrahe/ds1/blob/piHome/org/2_datascience.org#data-science-as-a-field-of-scientific-study][this section]] on the definition of data science comes with a lot of
+  notes that are not visible in GitHub
+- [[https://github.com/birkenkrahe/ds1/blob/piHome/pdf/2_datascience.pdf][this PDF version]] of the same lecture contains the notes on
+  page 4. Some PDFs are better than others.
+
+The notes contain additional remarks, references, and solutions to
+questions from my lectures and practice sessions.
+
+* What package do you use to present Org-mode files in class?
+
+The "slides" that you see in class are rendered inside Emacs using
+~org-present~. [[https://www.youtube.com/watch?v=SCPoF1PTZpI][This video]] (30 min) introduced the package to me (worth
+watching if you like Emacs).
+
+Here is the code that you need to add to your ~.emacs~ file - after
+that, you can render slides with ~M-x org-present~[fn:31]:
+
+#+begin_example emacs-lisp
+;; Install org-present if needed
+  (unless (package-installed-p 'org-present)
+    (package-install 'org-present))
+;; Install visual-fill-column
+  (unless (package-installed-p 'visual-fill-column)
+    (package-install 'visual-fill-column))
+;; Configure fill-width
+  (setq visual-fill-column-width 110
+        visual-fill-column-center-text t)
+  (defun my/org-present-start ()
+;; Center the presentation and wrap lines
+    (visual-fill-column-mode 1)
+    (visual-line-mode 1))
+(defun my/org-present-end ()
+    ;; Stop centering the document
+    (visual-fill-column-mode 0)
+    (visual-line-mode 0))
+;; Register hooks with org-present
+  (add-hook 'org-present-mode-hook 'my/org-present-start)
+  (add-hook 'org-present-mode-quit-hook 'my/org-present-end)
+#+end_example
 
 * References
 
@@ -2545,3 +2593,6 @@ enable [[WSL2][WSL2]].
 [fn:30]In fact, in spring 2022, I began using Emacs + Org-mode in all
 my classes at Lyon College, and Emacs + ESS + Org-mode in all my
 R-related classes. This turned out to be very successful ([[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WILtLJR2sHSfr6Fs/edit?usp=sharing][see here]]).
+
+[fn:31]David Wilson's video introduces a few more settings,
+e.g. modified font sizes, which I don't like.
