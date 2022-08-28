@@ -2376,6 +2376,46 @@ that, you can render slides with ~M-x org-present~[fn:31]:
   (add-hook 'org-present-mode-quit-hook 'my/org-present-end)
 #+end_example
 
+* Will MELPA in the .emacs file conflict with my Linux package manager?
+
+Student:
+#+begin_quote
+I was looking over the .emacs file you gave us to install, and I
+noticed some customizations that concerned me:
+#+end_quote
+#+begin_example emacs-lisp
+;; get packages from MELPA package manager
+(require 'package)
+(add-to-list 'package-archives
+'("melpa-stable" . "https://stable.melpa.org/packages/"))
+
+;; load Emacs-Speaks-Statistics (ESS) see ess.r-project.org
+(add-to-list 'load-path "~/.emacs.d/elpa/ess-20220727.1131")
+(load "ess-autoloads")
+#+end_example
+#+begin_quote
+Since I'm using Linux, I have a package manager I use for my programs
+already. I don't know if the MELPA package manager here listed is just
+for Emacs or if there's any possibility of it conflicting with my
+already present package manager. As for ESS, I already installed it on
+my laptop, but I don't see any such file to load from in the listed
+directory. I assume that I don't need this code, but I don't know for
+sure. Since I was wary of any conflicts, I commented these lines out
+for the time being. Could you help me figure out if I need these
+uncommented and/or altered in some way?
+#+end_quote
+
+*Answer:* Your Linux package manager (probably apt for Debian?) has
+nothing to with elpa for Emacs. Emacs is rather like its own OS in
+this regard. You can only download emacs-lisp files, which are then
+byte-compiled for your machine. If you already have ESS and it works,
+you do not need the ESS code, but you do need the other code for the
+[[https://melpa.org/#/][MELPA archive]] if you ever want to install a new or update an old
+package. Having said that, Emacs versions are very stable and
+self-standing so you probably never run into trouble. In any case,
+there is zero overlap with Linux data. Parallel worlds. I rarely leave
+Emacs even on my Linux computer. I use the shell but only inside
+Emacs.
 * References
 
 - <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
