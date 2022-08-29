@@ -2416,6 +2416,23 @@ self-standing so you probably never run into trouble. In any case,
 there is zero overlap with Linux data. Parallel worlds. I rarely leave
 Emacs even on my Linux computer. I use the shell but only inside
 Emacs.
+* How can I update and upgrade my Emacs packages?
+In Emacs, like in Linux, you should routinely update and upgrade your
+plugins. To do this, run the following commands:
+
+#+begin_example emacs-lisp
+M-x package-refresh-contents
+M-x package-list-packages
+U RET
+x RET
+#+end_example
+
+The ~U~ looks for upgrades (~M-x package-menu-mark-upgrades~), and the ~x~
+tries to update (~M-x package-menu-execute~) in the package manager. You
+may have to accept ~melpa~ and ~elpa~ online repos as safe the first time
+you try to do this.
+
+
 * References
 
 - <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
