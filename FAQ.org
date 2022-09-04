@@ -2417,6 +2417,7 @@ there is zero overlap with Linux data. Parallel worlds. I rarely leave
 Emacs even on my Linux computer. I use the shell but only inside
 Emacs.
 * How can I update and upgrade my Emacs packages?
+
 In Emacs, like in Linux, you should routinely update and upgrade your
 plugins. To do this, run the following commands:
 
@@ -2432,6 +2433,33 @@ tries to update (~M-x package-menu-execute~) in the package manager. You
 may have to accept ~melpa~ and ~elpa~ online repos as safe the first time
 you try to do this.
 
+* How do Emacs + Org-mode + ESS work work together?
+#+attr_html: :width 700px
+[[./img/emacsorg.png]]
+
+The figure shows an Emacs window with 7 open buffers:
+1) ~3_raw_data.org~ is an Org-mode file that shows an R code block and
+   the results of running the code block. When rendering this file as
+   HTML or MarkDown (GitHub), the meta data that control the code
+   block, the ~#+name:~ and ~#+Results:~ information is invisible.
+2) ~*R*~ is an R session buffer that shows the commands and the output
+   from the Org-mode file code block, as well as commands ~search()~ and
+   ~ls()~ entered directly in the session buffer.
+3) ~*Org Agenda*~ is a ~Dired~ buffer showing the directory ~org~, which,
+   for Emacs is ~~/Document/GitHub/dsmath/org~, relative to Emacs' home
+   directory ~~/~, which is, for the Windows OS,
+   ~C:/Users/birkenkrahe~. This is the absolute path that you see at the
+   top of the buffer.
+4) ~*Org Agenda*~ is an agenda buffer. Org-mode's original job was to
+   serve as a task management system, to schedule activities. Another
+   sub-system is ~Org-roam~, which supports easy note-taking.
+5) ~*eshell*~ is a shell buffer that shows the Windows CMD shell with
+   additional Linux-type commands (like ~ls~ to list files as shown
+   here). This shell interacts directly with the Windows OS. For
+   example, I use the eshell to run Git version control commands.
+6) ~*Messages*~ shows messages that Emacs sends about its
+   processes. These messages are first displayed in
+7) the minibuffer or the echo area at the bottom of the screen.
 
 * References
 
