@@ -2461,6 +2461,9 @@ The figure shows an Emacs window with 7 open buffers:
    processes. These messages are first displayed in
 7) the minibuffer or the echo area at the bottom of the screen.
 
+More information on: [[https://www.gnu.org/software/emacs/][GNU Emacs]], [[https://orgmode.org/][Org-mode]], [[https://ess.r-project.org/][ESS]] ("Emacs Speaks
+Statistics), [[https://www.r-project.org/][R]], and [[https://www.orgroam.com/][Org-roam]]. 
+
 * References
 
 - <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
