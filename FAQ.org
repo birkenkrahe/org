@@ -2462,7 +2462,35 @@ The figure shows an Emacs window with 7 open buffers:
 7) the minibuffer or the echo area at the bottom of the screen.
 
 More information on: [[https://www.gnu.org/software/emacs/][GNU Emacs]], [[https://orgmode.org/][Org-mode]], [[https://ess.r-project.org/][ESS]] ("Emacs Speaks
-Statistics), [[https://www.r-project.org/][R]], and [[https://www.orgroam.com/][Org-roam]]. 
+Statistics), [[https://www.r-project.org/][R]], and [[https://www.orgroam.com/][Org-roam]].
+* Are code blocks and R sessions linked?
+
+Yes they are. You can try this yourself:
+
+1) Start an R session with ~M-x R~. In Emacs, the session gets a buffer
+   name, like ~*R*~ (special buffers are enclosed by ~*~) but you can give
+   it any name you like later.
+2) In the session, define a variable, e.g. ~y <- 1~. This variable is
+   now stored in the session work space. All objects in the work space
+   can be seen with the ~ls()~ command.
+3) Create an Org-mode file ~test.org~. In it, create an R code block
+   like shown below and run it:
+
+   #+begin_example
+   #+begin_src R :session *R* :results output
+       ls()
+   #+end_src
+   #+end_example
+
+   The session name must be identical to your R session. The ~#+RESULTS~
+   of your code block will list ~y~. 
+
+   You can have any number of R sessions linked to code blocks.
+
+* What happens if I do not give an R code block a session name?
+
+  The session then remains invisible until you add a session name to
+  the header matter with ~:session [name]~. 
 
 * References
 
