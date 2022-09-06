@@ -2492,6 +2492,29 @@ Yes they are. You can try this yourself:
   The session then remains invisible until you add a session name to
   the header matter with ~:session [name]~. 
 
+* How to install Snap! locally on your PC
+
+- On Windows 10 (depending on your browser), you can download the Snap
+  app from this site: https://snap.berkeley.edu/snap/snap.html.
+
+- You'll find a download symbol in the upper right corner of your
+  status bar (where the URL is shown). Click it to install, then open
+  the app from the Windows search bar and pin it to your taskbar.
+
+- Alternatively, you can go to
+  https://github.com/jmoenig/Snap/releases/tag/v8.0.0 - at the bottom
+  of the page you find a link to ~Source~. There is a version for the
+  zip, and a version for tar and gzip compression programs. Pick
+  whatever you use to extract/decompress file archive. The archive is
+  pretty hefty (over 100 MB).
+
+- In the extracted archive, you find a file ~snap.html~. Double-click on
+  it to start the app inside a browser. Again, add it to your taskbar
+  and/or desktop. This will only work if you extract the archive
+  first!
+  #+attr_html: :width 500px
+  [[./img/snap.png]]
+
 * References
 
 - <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
