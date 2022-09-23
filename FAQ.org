@@ -309,7 +309,7 @@ cannot say why you applied a certain strategy during your research,
 you may not be aware of different, potentially better, methods.
 
 The second sprint covers the "M" (for "Method") of the IMRaD structure
-of scientific papers (see FAQ).
+of scientific papers ([[imrad][see FAQ]]).
 
 * How do you report on and plan a research "method"?
 
