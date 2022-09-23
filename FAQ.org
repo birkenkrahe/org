@@ -323,8 +323,8 @@ that you need to inform the audience what exactly you plan to do in
 the course of your research, and convince them that you've chosen well.
 
 Let's look at an example - a short conference paper that I wrote on
-storytelling ([[https://github.com/birkenkrahe/mod482/blob/main/6_storytelling/IEEE-ICCI-CC-14-BIRKENKRAHE.final_copy.pdf][Birkenkrahe, 2014]]). The main achievement of this paper
-is - you guessed it - a model, shown in the figure below.
+scientific storytelling ([[https://github.com/birkenkrahe/mod482/blob/main/6_storytelling/IEEE-ICCI-CC-14-BIRKENKRAHE.final_copy.pdf][Birkenkrahe, 2014]]). The main achievement of
+this paper is - you guessed it - a model, shown in the figure below.
 
 [[./img/model.png]]
 
