@@ -2483,14 +2483,14 @@ Yes they are. You can try this yourself:
    #+end_example
 
    The session name must be identical to your R session. The ~#+RESULTS~
-   of your code block will list ~y~. 
+   of your code block will list ~y~.
 
    You can have any number of R sessions linked to code blocks.
 
 * What happens if I do not give an R code block a session name?
 
-  The session then remains invisible until you add a session name to
-  the header matter with ~:session [name]~. 
+The session then remains invisible until you add a session name to
+the header matter with ~:session [name]~.
 
 * How to install Snap! locally on your PC
 
@@ -2514,6 +2514,53 @@ Yes they are. You can try this yourself:
   first!
   #+attr_html: :width 500px
   [[./img/snap.png]]
+
+* How can I present in Emacs?
+
+What follows is a code snippet that you should put into your Emacs
+configuration file ~.emacs~. Then you present with ~M-x org-present~. The
+command ~C-c C-q~ stops the presentation.
+
+I learnt this from a [[https://www.youtube.com/watch?v=SCPoF1PTZpI][YouTube video by David Wilson aka
+SystemCrafters]]. I am not using some of his settings. Watch the video
+for a lot more detail.
+
+This code snippet in ~.emacs~ enables you to present your material just
+as I do it in class in every session:
+- You can open code, notes, quotes, headlines, images at will
+- Put ~#+startup: overview hideblocks indent~ at the top of your
+  presentation to hide everything by default. Add ~inlineimages~ if you
+  want to show all images by default
+
+#+begin_example emacs-lisp
+  (unless (package-installed-p 'org-present)
+    (package-install 'org-present))
+
+  (unless (package-installed-p 'visual-fill-column)
+    (package-install 'visual-fill-column))
+
+  (setq visual-fill-column-width 110
+        visual-fill-column-center-text t)
+
+  (defun my/org-present-start ()
+    (visual-fill-column-mode 1)
+    (visual-line-mode 1))
+
+  (defun my/org-present-end ()
+    (visual-fill-column-mode 0)
+    (visual-line-mode 0))
+
+  (add-hook 'org-present-mode-hook 'my/org-present-start)
+  (add-hook 'org-present-mode-quit-hook 'my/org-present-end)
+#+end_example
+
+There are many different methods of presentation from within Emacs
+(mainly to avoid having to create separate material, but also because
+you can make changes right away). I have tried a bunch and found the
+~org-present~ package to be the most flexible for my purposes (with
+~org-tree-slide~ a close second).
+
+Give this a try and if you run into problems, give me a shout.
 
 * References
 
