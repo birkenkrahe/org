@@ -12,16 +12,15 @@ working on the command line, text editors Emacs, using C for Internet
 of Things (IoT) devices, cybersecurity, using pseudocode and process
 modeling. You get a foundation in critical thinking in concert with
 one of the three currently most popular languages (the other two,
-according to the [TIOBE index](https://www.tiobe.com/tiobe-index/),
-are Python and Java). The course is for anyone who is interested in
-learning computational thinking and basic programming skills. You get:
-short lectures and practice sessions with interactive notebooks,
-weekly quizzes and program assignments. You'll learn some great tools:
-we use the "hacker's editor" Emacs, the world's foremost software
-engineering platform, GitHub, and SAP Signavio for process
-modeling. This course also prepares you for "Data structures with C++"
-(CSC 240) and "Algorithms" (CSC 265). Prerequisites: none. Offered
-again in: summer 2023, spring 2024.
+according to the [[https://www.tiobe.com/tiobe-index/][TIOBE index]], are Python and Java). The course is for
+anyone who is interested in learning computational thinking and basic
+programming skills. You get: short lectures and practice sessions with
+interactive notebooks, weekly quizzes and program assignments. You'll
+learn some great tools: we use the "hacker's editor" Emacs, the
+world's foremost software engineering platform, GitHub, and SAP
+Signavio for process modeling. This course also prepares you for "Data
+structures with C++" (CSC 240) and "Algorithms" (CSC
+265). Prerequisites: none. Offered again in: summer 2023, spring 2024.
 
 #+attr_html: :width 700px
 [[./img/celtic.png]]
@@ -61,7 +60,7 @@ contrast to the basic introduction (DSC 105), we will explore some
 "Tidyverse" packages like ~dplyr~ (for data frame manipulation) and
 ~ggplot2~ (for plotting), as well as the RStudio IDE and R Markdown for
 data science publishing. The course is accompanied by DataCamp
-assignments from the "Intermediate R" course and includes a
+assignments from the [[https://app.datacamp.com/learn/courses/intermediate-r]["Intermediate R"]] course and includes a
 certificate. This course prepares you well for 300-level data science
 courses like data visualization (302) and machine learning (305) or
 special topics courses like "Extending R" (482). You'll also learn
@@ -107,6 +106,6 @@ the basics of R on your own[fn:1]!
 * Footnotes
 
 [fn:1]as taught in DSC 105 or obtained independently by completing the
-DataCamp online course "Introduction to R", or "fasteR: Fast Lane to
-Learning R!"  (chapter 1-15 only, freely available on GitHub), or
+free DataCamp online course [[https://app.datacamp.com/learn/courses/free-introduction-to-r]["Introduction to R"]], or [[https://github.com/matloff/fasteR]["fasteR: Fast Lane
+to Learning R!"]]  (chapter 1-15 only, freely available on GitHub), or
 Davies, The Book of R (NoStarch, 2016, Part I only).
