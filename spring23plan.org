@@ -112,10 +112,10 @@ the basics of R on your own[fn:1]!
     DataCamp, Intermediate R (2020), and Matloff, The Art of R
     Programming (2011).
   - DSC 305: Grokking Machine Learning (Serrano, 2020), The Art of
-    Machine Learning (Matloff, 2023), and Deep Learning with R
+    Machine Learning (Matloff, 2023), and Deep Learning with R/2e
     (Chollet, 2022). This course may also include a Python portion.
-  - CSC 105: Pearson, Exploratory Data Analysis (2016), chapter 8, and selected
-    texts, like Robinson/Silge, Text mining with R (2017).
+  - CSC 105: Pearson, Exploratory Data Analysis (2016), chapter 8, and
+    selected texts, like Robinson/Silge, Text mining with R (2017).
 
   
 * Footnotes
