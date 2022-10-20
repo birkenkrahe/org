@@ -3,24 +3,24 @@
 [[./img/celtic.png]]
 ** Introduction to Programming in C/C++ (CSC 100)
 
-*Introduction to programming in C* (CSC 100). This course introduces
-you to programming using C. We cover C++ as an extension. C is a
-system programming language of pure power: it enables you to converse
-with the computer at a level unknown to users other high level
-languages many of which come from C. You also learn about: compilers,
-working on the command line, text editors Emacs, using C for Internet
-of Things (IoT) devices, cybersecurity, using pseudocode and process
-modeling. You get a foundation in critical thinking in concert with
-one of the three currently most popular languages (the other two,
-according to the [[https://www.tiobe.com/tiobe-index/][TIOBE index]], are Python and Java). The course is for
-anyone who is interested in learning computational thinking and basic
-programming skills. You get: short lectures and practice sessions with
-interactive notebooks, weekly quizzes and program assignments. You'll
-learn some great tools: we use the "hacker's editor" Emacs, the
-world's foremost software engineering platform, GitHub, and SAP
-Signavio for process modeling. This course also prepares you for "Data
-structures with C++" (CSC 240) and "Algorithms" (CSC
-265). Prerequisites: none. Offered again in: summer 2023, spring 2024.
+This course introduces you to programming using C. We cover C++ as an
+extension. C is a system programming language of pure power: it
+enables you to converse with the computer at a level unknown to users
+other high level languages many of which come from C. You also learn
+about: compilers, working on the command line, text editors Emacs,
+using C for Internet of Things (IoT) devices, cybersecurity, using
+pseudocode and process modeling. You get a foundation in critical
+thinking in concert with one of the three currently most popular
+languages (the other two, according to the [[https://www.tiobe.com/tiobe-index/][TIOBE index]], are Python and
+Java). The course is for anyone who is interested in learning
+computational thinking and basic programming skills. You get: short
+lectures and practice sessions with interactive notebooks, weekly
+quizzes and program assignments. You'll learn some great tools: we use
+the "hacker's editor" Emacs, the world's foremost software engineering
+platform, GitHub, and SAP Signavio for process modeling. This course
+also prepares you for "Data structures with C++" (CSC 240) and
+"Algorithms" (CSC 265). Prerequisites: none. Offered again in: summer
+2023, spring 2024.
 
 #+attr_html: :width 700px
 [[./img/celtic.png]]
