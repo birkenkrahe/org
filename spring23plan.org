@@ -108,4 +108,4 @@ the basics of R on your own[fn:1]!
 [fn:1]as taught in DSC 105 or obtained independently by completing the
 free DataCamp online course [[https://app.datacamp.com/learn/courses/free-introduction-to-r]["Introduction to R"]], or [[https://github.com/matloff/fasteR]["fasteR: Fast Lane
 to Learning R!"]]  (chapter 1-15 only, freely available on GitHub), or
-Davies, The Book of R (NoStarch, 2016, Part I only).
+Davies, [[https://nostarch.com/bookofr][The Book of R]] (NoStarch, 2016, Part I only).
