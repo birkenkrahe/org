@@ -1,4 +1,4 @@
-* Data and computer science courses Spring 23
+* My data and computer science courses Spring 23
 #+attr_html: :width 700px
 [[./img/celtic.png]]
 ** Introduction to Programming in C/C++ (CSC 100)
