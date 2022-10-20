@@ -1,4 +1,4 @@
-* Class descriptions Spring 23
+* Data and computer science courses Spring 23
 #+attr_html: :width 700px
 [[./img/celtic.png]]
 ** Introduction to Programming in C/C++ (CSC 100)
@@ -23,7 +23,7 @@ modeling. This course also prepares you for "Data structures with C++"
 (CSC 240) and "Algorithms" (CSC 265). Prerequisites: none. Offered
 again in: summer 2023, spring 2024.
 
-*#+attr_html: :width 700px
+#+attr_html: :width 700px
 [[./img/celtic.png]]
 ** Digital humanities - working with text data (CSC 105)
 
@@ -50,7 +50,7 @@ Scrum. Offered again in: spring 2025. *Prerequisites:*
 none. Introductory knowledge of R or of another programming language
 is useful but not obligatory[fn:1].
 
-*#+attr_html: :width 700px
+#+attr_html: :width 700px
 [[./img/celtic.png]]
 ** Introduction to advanced data science (DSC 205)
 
@@ -76,7 +76,7 @@ course "Introduction to R" or "fasteR: Fast Lane to Learning R!"
 of R (NoStarch, 2016, Part I only). Basic R concepts are repeated and
 practiced at the start of the term.
 
-*#+attr_html: :width 700px
+#+attr_html: :width 700px
 [[./img/celtic.png]]
 ** Machine learning (DSC 305)
 *Why?* Machine learning (ML), a subfield of Artificial Intelligence (AI)
@@ -101,7 +101,8 @@ advanced introduction to data science (DSC 205) and/or data
 visualization (DSC 302), this course is definitely for you. If you're
 just curious but not sure if you can manage, talk to me and/or learn
 the basics of R on your own[fn:1]!
-
+#+attr_html: :width 700px
+[[./img/celtic.png]]
 
 * Footnotes
 
