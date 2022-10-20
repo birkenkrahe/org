@@ -103,6 +103,21 @@ the basics of R on your own[fn:1]!
 #+attr_html: :width 700px
 [[./img/celtic.png]]
 
+* Textbooks
+
+  These books are likely to play a role in my courses next term:
+  - CSC 100: C Programming by King (2008), Modern C (Gustedt, 2021), Tiny C
+    projec (Gookin, 2021) and others.
+  - DSC 205: Based mostly on Davies, Book of R (2016), Part II,
+    DataCamp, Intermediate R (2020), and Matloff, The Art of R
+    Programming (2011).
+  - DSC 305: Grokking Machine Learning (Serrano, 2020), The Art of
+    Machine Learning (Matloff, 2023), and Deep Learning with R
+    (Chollet, 2022). This course may also include a Python portion.
+  - CSC 105: Pearson, Exploratory Data Analysis (2016), chapter 8, and selected
+    texts, like Robinson/Silge, Text mining with R (2017).
+
+  
 * Footnotes
 
 [fn:1]as taught in DSC 105 or obtained independently by completing the
