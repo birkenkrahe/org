@@ -3,7 +3,7 @@
 [[./img/celtic.png]]
 ** Introduction to Programming in C/C++ (CSC 100)
 
-**Introduction to programming in C** (CSC 100). This course introduces
+*Introduction to programming in C* (CSC 100). This course introduces
 you to programming using C. We cover C++ as an extension. C is a
 system programming language of pure power: it enables you to converse
 with the computer at a level unknown to users other high level
