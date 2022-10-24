@@ -2562,6 +2562,15 @@ you can make changes right away). I have tried a bunch and found the
 
 Give this a try and if you run into problems, give me a shout.
 
+* How can I construct an abstract/summary of my project?
+ 
+One way is to use the categories highlighted and explained in this
+/Nature/ magazine summary:
+#+attr_html: :width 400px
+[[./img/template.jpg]]
+
+
+
 * References
 
 - <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
