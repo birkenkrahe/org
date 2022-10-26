@@ -6,34 +6,36 @@
   knowledge. It is highly *interdisciplinary*, even more so than other
   related fields like business intelligence or artificial
   intelligence. This interdisciplinarity leads to its alleged
-  'sexyness' (Davenport/Patil, 2012 and 2022) - it purports to be
-  open to students from a wide variety of backgrounds - like biology
-  or psychology, who are interested in widely different
-  applications - like genome analysis or marketing predictions (???).
+  'sexyness' (Davenport/Patil, 2012 and 2022) - it purports to be open
+  to students from a wide variety of backgrounds - like biology or
+  psychology, who are interested in widely different applications -
+  like genome analysis or marketing predictions (Davenport/Patil,
+  2012).
 
   This versatility comes at a price: the beginner's learning path in
   data science is highly fragmented - it involves different
   programming languages, data visualization techniques, mathematical
   and process modeling, and knowledge of computing infrastructure
-  (???).
+  (Adhikari et al, 2021).
 
   The problem is how to get enough of an overview of all of these
   aspects while learning about data science to solve real-world
   problems, especially for absolute beginners of data science
-  (???). For this study, I have employed the (in computer science
-  terms) ancient art of literate programming for instruction,
-  interaction, and immersion in data science. To facilitate this
-  triade of methods, the equally ancient text editor GNU Emacs with
-  the ESS ('Emacs Speaks Statistics') and Org-mode plugins were used.
+  (Matloff, 2022). For this study, I have employed the (in computer
+  science terms) ancient art of literate programming for instruction,
+  interaction, and immersion in data science (Knuth, 1984;
+  Birkenkrahe, 2015). To facilitate this triade of methods, the
+  equally ancient text editor GNU Emacs with the ESS ('Emacs Speaks
+  Statistics') and Org-mode plugins were used (Stavrou, 2022).
 
-  Data science teaching practice has focused on creating special
-  tools like RStudio, a popular IDE for R, packages like the
-  "Tidyverse", or online platforms like DataCamp to make learning
-  data science (in this case via an R programming track) more
-  palatable. Unfortunately, these parallel infrastructures achieve
-  little when it comes to preparing students for the real world
-  (???). The methodological attitude is well summarized by the "low
-  code/no code" trend in IT (???).
+  Data science teaching practice has focused on creating special tools
+  like RStudio, a popular IDE for R, packages like the "Tidyverse", or
+  online platforms like DataCamp to make learning data science (in
+  this case via an R programming track) more palatable. Unfortunately,
+  these parallel infrastructures achieve little when it comes to
+  preparing students for the real world (Davenport/Patil, 2022). The
+  methodological attitude is behind the recent trend to "code
+  intelligence" (Li et al, 2022).
 
   We have used these methods for two consecutive terms across a
   spectrum of courses, with undergraduate students of varying
@@ -47,4 +49,25 @@
   can show if this hope will pan out.
 
   REFERENCES
-  ...
+  1) Adhikari, A., DeNero, J., & Jordan, M. I. (2021). Interleaving
+     Computational and Inferential Thinking: Data Science for
+     Undergraduates at Berkeley. Harvard Data Science Review,
+     3(2). https://doi.org/10.1162/99608f92.cb0fa8d2
+  2) Birkenkrahe, M. (2015) Building Graduate-Level, Gamified xMOOCs
+     in Moodle. In: Proceedings of EADTU, Hagen 29-30 October 2015:
+     pp. 57-73. ISBN/EAN 978-79730-17-9.
+  3) Davenport, T.H. and Patil, D.J. (2012). Data Scientist: The
+     Sexiest Job of the 21st Century. Harvard Business Review. URL:
+     hbr.org.
+  4) Davenport, T.H. and Patil, D.J. (July 15, 2022). Is Data
+     Scientist Still the Sexiest Job of the 21st Century? Harvard
+     Business Review. URL: hbr.org
+  5) Knuth, D.E. (1984) Literate programming. Comput. J (27)2: 97-111.
+  6) Li Y at al (July 2022). A Closer Look into Transformer-Based Code
+     Intelligence Through Code Transformation: Challenges and
+     Opportunities. Preprint, https://arxiv.org/abs/2207.04285
+  7) Matloff, N. (5 April 2022). Teaching R in a Kinder, Gentler, More
+     Effective Manner: Use Base-R, Not the Tidyverse [article]. URL:
+     github.com.
+  8) Stavrou, Protesilaos (2022). Living in freedom with GNU Emacs
+     [video]. LibrePlanet 2022. URL: framatube.org
