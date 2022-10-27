@@ -2569,7 +2569,30 @@ One way is to use the categories highlighted and explained in this
 #+attr_html: :width 400px
 [[./img/template.jpg]]
 
+Here is an example from my current publication project - you're the
+research participants!
 
+Your abstract should have no more than 300 words. My example has 350
+words (with many references still missing) and could easily be pruned
+to 300. [[https://github.com/birkenkrahe/org/blob/master/research/Abstract.org][The full abstract (work in progress) is here]].
+
+* What if ESS for R won't load in my Emacs?
+
+If you update your Emacs packages using the commpand sequence ~M-x
+package-list-packages U x~, and try to run R code in an Org-mode file,
+you might get an error message that ESS will not load.
+
+You then need to check the updated version of the ESS package in
+~~/.emacs.d/elpa/~. For example, at the time of my writing this, it is
+~~/.emacs.d/elpa/ess-20221021.1022/~. 
+
+Now replace the string at the end of your ~~/.emacs~ file with the new
+location:
+#+begin_example emacs-lisp
+;; load Emacs-Speaks-Statistics (ESS) see ess.r-project.org
+(add-to-list 'load-path "~/.emacs.d/elpa/ess-20220727.1131")
+(load "ess-autoloads")
+#+end_example
 
 * References
 
