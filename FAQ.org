@@ -2594,6 +2594,54 @@ location:
 (load "ess-autoloads")
 #+end_example
 
+* How can I keep my knowledge of R current?
+
+- Download the DataCamp app and practice finished chapters/courses
+
+- One session includes 5 questions with flashcards if needed
+
+- Here is a walkthrough:
+
+  1) Start screen
+     #+attr_html: :width 200px
+     [[./img/dc_mobile1.png]]  
+
+  2) Search for your courses (in progress or finished)
+     #+attr_html: :width 200px
+     [[./img/dc_mobile2.png]]  
+
+  3) Pick a chapter or train on the whole course
+     #+attr_html: :width 200px
+     [[./img/dc_mobile3.png]]  
+
+  4) Start practice workout or look at flashcards (summary)
+     #+attr_html: :width 200px
+     [[./img/dc_mobile4.png]]  
+
+  5) Start screen for the flashcards (summary knowledge)
+     #+attr_html: :width 200px
+     [[./img/dc_mobile5.png]]  
+
+  6) A practice problem
+     #+attr_html: :width 200px
+     [[./img/dc_mobile6.png]]  
+
+  7) Wrong answer to a practice problem
+     #+attr_html: :width 200px
+     [[./img/dc_mobile7.png]]  
+
+  8) Check reason before you move on
+     #+attr_html: :width 200px
+     [[./img/dc_mobile8.png]]  
+
+  9) Wrong answers will return indefinitely until answered correctly
+     #+attr_html: :width 200px
+     [[./img/dc_mobile9.png]]  
+
+  10) After 5 completed questions, your streak is reset
+      #+attr_html: :width 200px
+      [[./img/dc_mobile10.png]]  
+ 
 * References
 
 - <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
