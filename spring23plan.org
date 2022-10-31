@@ -135,9 +135,9 @@
     Machine Learning (Matloff, 2023), and Deep Learning with R/2e
     (Chollet, 2022). Machine Learning with R/3e (Lantz, 2019),
     Hands-on Machine Learning with R (Boehmke/Brandon, 2023).
-  - CSC 105: Pearson, Exploratory Data Analysis (2016), chapter 8, and
-    selected texts, like Robinson/Silge, Text mining with R (2017).
-
+  - CSC 105: Pearson, Exploratory Data Analysis (2016), chapter 8,
+    Robinson/Silge, Text mining with R (2017), Text mining in Practice
+    with R (Kwartler, 2019)
 
 * Footnotes
 
