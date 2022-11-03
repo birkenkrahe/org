@@ -2293,9 +2293,16 @@ excellent [[https://techvidvan.com/tutorials/install-r/][beginner's tutorial]].
   either with ~RGui~ or ~RTerm~ or inside Emacs:
   #+begin_example R
     library("installr")
-    updateR
+    updateR()
   #+end_example
 
+- This command will start a windows dialog. Accept all default
+  choices. In the end, the new version of R will be installed but the
+  older version of R will still be there. You will also be asked if
+  you want to copy and update all your packages (you should):
+  #+attr_html: :width 600px
+  [[./img/updateR1.png]]
+    
 * How can I install Emacs + ESS + R on my Chromebook?
 
 I did this just now, for a student's new chromebook (August 2022) -
