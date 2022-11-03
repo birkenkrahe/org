@@ -2290,10 +2290,11 @@ excellent [[https://techvidvan.com/tutorials/install-r/][beginner's tutorial]].
   [[./img/update.jpg]]
 
 - Or you can update in the R console itself (after starting R)
-  either with ~RGui~ or ~RTerm~:
-
-  #+attr_html: :width 400px
-  [[./img/updateR.png]]
+  either with ~RGui~ or ~RTerm~ or inside Emacs:
+  #+begin_example R
+    library("installr")
+    updateR
+  #+end_example
 
 * How can I install Emacs + ESS + R on my Chromebook?
 
