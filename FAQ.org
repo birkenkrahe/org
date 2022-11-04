@@ -2298,10 +2298,18 @@ excellent [[https://techvidvan.com/tutorials/install-r/][beginner's tutorial]].
 
 - This command will start a windows dialog. Accept all default
   choices. In the end, the new version of R will be installed but the
-  older version of R will still be there. You will also be asked if
+  older version(s) of R will still be there. You will also be asked if
   you want to copy and update all your packages (you should):
   #+attr_html: :width 600px
   [[./img/updateR1.png]]
+
+- If you have more than one R version installed (and in the ~PATH~,
+  which you can check with ~echo $PATH~ in an ~eshell~ buffer), you can
+  call the newest version with ~M-x R-newest~, while ~M-x R~ opens the R
+  version specified in the variable ~inferior-R-program-name~.
+
+- To customize ~inferior-R-program-name~, type ~C-h v
+  inferior-R-program-name RET~, change the variable and ~Apply and Save~.
     
 * How can I install Emacs + ESS + R on my Chromebook?
 
