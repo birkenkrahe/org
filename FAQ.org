@@ -2261,7 +2261,15 @@ successes of RStudio (the company behind the product). Don't get me
 wrong: there are many wonderful things about RStudio (e.g. it's Open
 source). But you don't need it and it has a "lock-in" effect. I
 e.g. use *Emacs + ESS + Org-mode* instead, but I also would not
-recommend it for beginners *(update 2022: changed my mind![fn:30])*.
+recommend it for beginners.
+
+#+begin_quote
+*Update 2022: I changed my mind!* Since spring 2022, I'm using Emacs +
+Org-mode in all my classes at Lyon College (e.g. C/C++ and SQL), and
+Emacs + ESS + Org-mode in all my R-related classes. This turned out to
+be successful though also somewhat time-consuming ([[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WILtLJR2sHSfr6Fs/edit?usp=sharing][see here]] - paper in
+preparation).
+#+end_quote
 
 I want you to focus on the basics. As a beginner, this will serve you
 best, I believe. It's a little like learning to drive on gear shift,
@@ -2870,10 +2878,7 @@ Ubuntu App featured in this FAQ - however, the installation requires
 more steps. If your Docker installation fails, you may also have to
 enable [[WSL2][WSL2]].
 
-[fn:30]In fact, in spring 2022, I began using Emacs + Org-mode in all
-my classes at Lyon College, and Emacs + ESS + Org-mode in all my
-R-related classes. This turned out to be very successful though also
-somewhat time-consuming ([[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WILtLJR2sHSfr6Fs/edit?usp=sharing][see here]]).
+[fn:30] DEFINITION NOT FOUND.
 
 [fn:31]David Wilson's video introduces a few more settings,
 e.g. modified font sizes, which I don't like.
