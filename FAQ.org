@@ -675,11 +675,10 @@ For a lecture in 2 parts by me ([[birk][2016]]), see here:
 * How should we prepare for the final presentation?
 ** Timing
 
-The final presentation is a presentation of 30-45 minutes (for a
-team of 2-3), or 20 minutes (for an individual presenter),
-including discussion. The exact timing depends on the course
-setting (numberof total presentations and available time). Ask me
-in class!
+The final presentation is a presentation of 30-45 minutes (for a team
+of 2-3), or 10-20 minutes (for an individual presenter), *including
+discussion*. The exact timing depends on the course setting (numberof
+total presentations and available time). Ask me in class!
 
 Online presentations are not time-limited: they should be as long
 as you need to get your topic across. If you have little, they'll
@@ -687,15 +686,15 @@ be short, if you have a lot, you might have to select what to
 present.
 
 ** Grading
-The final presentation is graded. I give a percentage grade that
-you can translate to a letter grade if you like using the grading
-table in your course syllabus.
+The final presentation is graded. I give a percentage grade that you
+can translate to a letter grade if you like using the grading table in
+your course syllabus.
 
-You can treat this list like a checklist and make sure at least
-that you thought about every single question, and give yourself an
-honest score for how well you expect you will perform in each
-category. Items are listed in alphabetical order first. The
-sub-questions within each aspect are not ordered.
+You can treat this list like a checklist and make sure at least that
+you thought about every single question, and give yourself an honest
+score for how well you expect you will perform in each category. Items
+are listed in alphabetical order first. The sub-questions within each
+aspect are not ordered.
 
 | NO. | ASPECT      | QUESTIONS                                                                     |
 |-----+-------------+-------------------------------------------------------------------------------|
@@ -719,9 +718,8 @@ sub-questions within each aspect are not ordered.
 |  18 | Timing      | Did you respect the timelines (start/end)?[fn:26]                             |
 
 I will give you short formative (qualitative) feedback based on the
-question breakdown above so that you know where your grade comes
-from, and you get a summary that looks like the figure below
-([[bps][Source: BPS]]).
+question breakdown above so that you know where your grade comes from,
+and you get a summary that looks like the figure below ([[bps][Source: BPS]]).
 
 #+attr_html: :width 600px
 [[./img/presentation.png]]
@@ -2263,11 +2261,11 @@ successes of RStudio (the company behind the product). Don't get me
 wrong: there are many wonderful things about RStudio (e.g. it's Open
 source). But you don't need it and it has a "lock-in" effect. I
 e.g. use *Emacs + ESS + Org-mode* instead, but I also would not
-recommend it for beginners[fn:30].
+recommend it for beginners *(update 2022: changed my mind![fn:30])*.
 
-I want you to focus on the basics. As a beginner, this will serve
-you best, I believe. It's a little like learning to drive on gear
-shift, and then upgrading to automatic transmission.
+I want you to focus on the basics. As a beginner, this will serve you
+best, I believe. It's a little like learning to drive on gear shift,
+and then upgrading to automatic transmission.
 
 I will however, show you RStudio, and we may also use it together
 (optionally) during the session on "Literate Programming".
@@ -2874,7 +2872,8 @@ enable [[WSL2][WSL2]].
 
 [fn:30]In fact, in spring 2022, I began using Emacs + Org-mode in all
 my classes at Lyon College, and Emacs + ESS + Org-mode in all my
-R-related classes. This turned out to be very successful ([[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WILtLJR2sHSfr6Fs/edit?usp=sharing][see here]]).
+R-related classes. This turned out to be very successful though also
+somewhat time-consuming ([[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WILtLJR2sHSfr6Fs/edit?usp=sharing][see here]]).
 
 [fn:31]David Wilson's video introduces a few more settings,
 e.g. modified font sizes, which I don't like.
