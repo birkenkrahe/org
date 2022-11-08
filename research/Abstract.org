@@ -1,4 +1,4 @@
-* TEACHNG DATA SCIENCE WITH LITERATE PROGRAMMING TOOLS
+* TEACHING DATA SCIENCE WITH LITERATE PROGRAMMING TOOLS
 
   /Marcus Birkenkrahe, in preparation, see [[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WILtLJR2sHSfr6Fs/edit?usp=sharing][presentation]]/
 
@@ -41,12 +41,12 @@
   spectrum of courses, with undergraduate students of varying
   seniority, background and interests at a small liberal arts
   college. The results were very encouraging, and contradict the
-  current "no code/low code" trend in IT. In stark contrast, the
-  study demonstrates that a "high road" approach mixing tools that
-  are considered to be difficult but that deliver deep insights into
-  both computing infrastructure and data processing, might be at
-  least as successful if not more successful. Only followup studies
-  can show if this hope will pan out.
+  current "no code/low code" trend in IT (Yan, 2021). In stark
+  contrast, the study demonstrates that a "high road" approach mixing
+  tools that are considered to be difficult but that deliver deep
+  insights into both computing infrastructure and data processing,
+  might be at least as successful if not more successful. Only
+  followup studies can show if this hope will pan out.
 
   REFERENCES
   1) Adhikari, A., DeNero, J., & Jordan, M. I. (2021). Interleaving
@@ -65,9 +65,14 @@
   5) Knuth, D.E. (1984) Literate programming. Comput. J (27)2: 97-111.
   6) Li Y at al (July 2022). A Closer Look into Transformer-Based Code
      Intelligence Through Code Transformation: Challenges and
-     Opportunities. Preprint, https://arxiv.org/abs/2207.04285
+     Opportunities. Preprint,
+     https://doi.org/10.48550/arXiv.2207.04285.
   7) Matloff, N. (5 April 2022). Teaching R in a Kinder, Gentler, More
      Effective Manner: Use Base-R, Not the Tidyverse [article]. URL:
      github.com.
   8) Stavrou, Protesilaos (2022). Living in freedom with GNU Emacs
      [video]. LibrePlanet 2022. URL: framatube.org
+  9) Yan, Z. (2021). The Impacts of Low/No-Code Development on Digital
+     Transformation and Software Development. arXiv preprint
+     arXiv:2112.14073. Preprint,
+     https://doi.org/10.48550/arXiv.2112.14073
