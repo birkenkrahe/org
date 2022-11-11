@@ -2366,38 +2366,6 @@ Example:
 The notes contain additional remarks, references, and solutions to
 questions from my lectures and practice sessions.
 
-* What package do you use to present Org-mode files in class?
-
-The "slides" that you see in class are rendered inside Emacs using
-~org-present~. [[https://www.youtube.com/watch?v=SCPoF1PTZpI][This video]] (30 min) introduced the package to me (worth
-watching if you like Emacs).
-
-Here is the code that you need to add to your ~.emacs~ file - after
-that, you can render slides with ~M-x org-present~[fn:31]:
-
-#+begin_example emacs-lisp
-;; Install org-present if needed
-  (unless (package-installed-p 'org-present)
-    (package-install 'org-present))
-;; Install visual-fill-column
-  (unless (package-installed-p 'visual-fill-column)
-    (package-install 'visual-fill-column))
-;; Configure fill-width
-  (setq visual-fill-column-width 110
-        visual-fill-column-center-text t)
-  (defun my/org-present-start ()
-;; Center the presentation and wrap lines
-    (visual-fill-column-mode 1)
-    (visual-line-mode 1))
-(defun my/org-present-end ()
-    ;; Stop centering the document
-    (visual-fill-column-mode 0)
-    (visual-line-mode 0))
-;; Register hooks with org-present
-  (add-hook 'org-present-mode-hook 'my/org-present-start)
-  (add-hook 'org-present-mode-quit-hook 'my/org-present-end)
-#+end_example
-
 * Will MELPA in the .emacs file conflict with my Linux package manager?
 
 Student:
@@ -2538,6 +2506,10 @@ the header matter with ~:session [name]~.
   [[./img/snap.png]]
 
 * How can I present in Emacs?
+
+(In the past, I have also used ~org-tree-slide-mode~ to present, but I
+prefer ~org-present~ now for lectures. For the slickest results, try
+~reveal.js~, for the quickest presentation, use ~M-x epresenter-run~)
 
 What follows is a code snippet that you should put into your Emacs
 configuration file ~.emacs~. Then you present with ~M-x org-present~. The
@@ -2877,8 +2849,3 @@ Git.
 Ubuntu App featured in this FAQ - however, the installation requires
 more steps. If your Docker installation fails, you may also have to
 enable [[WSL2][WSL2]].
-
-[fn:30] DEFINITION NOT FOUND.
-
-[fn:31]David Wilson's video introduces a few more settings,
-e.g. modified font sizes, which I don't like.
