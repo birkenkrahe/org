@@ -1280,7 +1280,10 @@ To install a package
 
 ** Presenting in Emacs
 
-*Update:* I now use ~org-present~ as [[https://systemcrafters.net/emacs-tips/presentations-with-org-present/][well explained in this video]].
+*Update I:* (Spring '22) I now use ~org-present~ as [[https://systemcrafters.net/emacs-tips/presentations-with-org-present/][well explained in this
+video]].
+
+*Update II:* (Fall '22) New FAQ for four different presentation styles
 
 I often present in Emacs, especially when I use interactive
 notebooks. I use ~org-slide-tree-mode~ for that ([[https://github.com/takaxp/org-tree-slide][see
@@ -2506,55 +2509,135 @@ the header matter with ~:session [name]~.
   [[./img/snap.png]]
 
 * How can I present in Emacs?
+** README
 
-(In the past, I have also used ~org-tree-slide-mode~ to present, but I
-prefer ~org-present~ now for lectures. For the slickest results, try
-~reveal.js~, for the quickest presentation, use ~M-x epresenter-run~)
+Introduction to four different ways of presenting from GNU Emacs
+Org-mode, with examples, installation notes and sources.
+  
+** ~org-present~
 
-What follows is a code snippet that you should put into your Emacs
-configuration file ~.emacs~. Then you present with ~M-x org-present~. The
-command ~C-c C-q~ stops the presentation.
+- This is my favorite - you've seen me present this way in class.
+- I found out about it through this excellent [[https://youtu.be/SCPoF1PTZpI][video by David Wilson]]
+- To install:
+  1) open the Emacs package manager with ~M-x package-list-packages~
+  2) find ~org-present~ in the list and enter ~i x RET~ to install
+  3) add this code at the end of your ~~/.emacs~ configuration file:
+     #+begin_example emacs-lisp
+       (unless (package-installed-p 'org-present)
+       (package-install 'org-present))
+       (unless (package-installed-p 'visual-fill-column)
+       (package-install 'visual-fill-column))
+       (setq visual-fill-column-width 110
+       visual-fill-column-center-text t)
+       (defun my/org-present-start ()
+       (visual-fill-column-mode 1)
+       (visual-line-mode 1))
+       (defun my/org-present-end ()
+       (visual-fill-column-mode 0)
+       (visual-line-mode 0))
+       (add-hook 'org-present-mode-hook 'my/org-present-start)
+       (add-hook 'org-present-mode-quit-hook 'my/org-present-end)
+     #+end_example
+  4) Restart Emacs to activate the new configuration
+- Present with ~org-present~
+- All blocks (quote, notes, code etc.) can be hidden
+- Org-mode meta stuff (~#+~) will not be shown
+- Quit it with ~C-c C-q~
 
-I learnt this from a [[https://www.youtube.com/watch?v=SCPoF1PTZpI][YouTube video by David Wilson aka
-SystemCrafters]]. I am not using some of his settings. Watch the video
-for a lot more detail.
+More information: [[https://github.com/rlister/org-present][GitHub]], [[https://geeksocket.in/posts/presentations-org-emacs/#using-org-tree-slide][blog]]
 
-This code snippet in ~.emacs~ enables you to present your material just
-as I do it in class in every session:
-- You can open code, notes, quotes, headlines, images at will
-- Put ~#+startup: overview hideblocks indent~ at the top of your
-  presentation to hide everything by default. Add ~inlineimages~ if you
-  want to show all images by default
+** ~epresent~
 
-#+begin_example emacs-lisp
-  (unless (package-installed-p 'org-present)
-    (package-install 'org-present))
+- Very simple presentation mode, [[https://github.com/eschulte/epresent][documented on GitHub]].
+- To install:
+  1) open the Emacs package manager with ~M-x package-list-packages~
+  2) find ~epresent~ in the list and enter ~i x RET~ to install
+  3) call ~epresent-run~ on an Org-mode buffer
+- Presentation slides are numbered and can be navigated.
+- Code blocks can be edited, hidden etc.
+- No configuration required
 
-  (unless (package-installed-p 'visual-fill-column)
-    (package-install 'visual-fill-column))
+** ~org-tree-slide~
 
-  (setq visual-fill-column-width 110
-        visual-fill-column-center-text t)
+- Equivalent to ~org-present~ in my view, but more slide-like
+- To install:
+  1) open the Emacs package manager with ~M-x package-list-packages~
+  2) find ~org-tree-slide~ in the list and enter ~i x RET~ to install
+  3) add the following code to your ~~/.emacs~ configuration file:
+     #+begin_example emacs-lisp
+     (require 'org-tree-slide)
+     (with-eval-after-load "org-tree-slide"
+     (global-set-key (kbd "<f9>") 'org-tree-slide-mode)
+     (define-key org-tree-slide-mode-map (kbd "<f8>") 'org-tree-slide-move-previous-tree) ;; move forwards
+     (define-key org-tree-slide-mode-map (kbd "S-<f8>") 'org-tree-slide-move-next-tree)  ;; move backwards
+     )
+     (setq org-image-actual-width nil)
+     (setq org-tree-slide-skip-outline-level 0)
+     (setq org-tree-slide-slide-effect t)
+     (org-tree-slide-simple-profile) ;; no headers
+     #+end_example
+  4) You need to restart Emacs for the configuration file to take effect
+  5) After that, you can use ~F9~ to start/end ~org-tree-slide-mode~, ~F8~
+     to move forward one slide, and ~SHIFT + F8~ to move backwards
+  6) "Simple profile" sets variables for simple use: put ~;;~ in front
+     of the line to disable it. Enter ~C-h f
+     org-tree-slide-simple-profile~ to see the settings.
 
-  (defun my/org-present-start ()
-    (visual-fill-column-mode 1)
-    (visual-line-mode 1))
+More information: [[https://github.com/takaxp/org-tree-slide][GitHub]], [[https://ravi.pro/blog/blogging-with-emacs-org-mode.html#org00267f3][blog]], [[https://youtu.be/vz9aLmxYJB0][video]] tutorial
 
-  (defun my/org-present-end ()
-    (visual-fill-column-mode 0)
-    (visual-line-mode 0))
+** ~org-reveal~
 
-  (add-hook 'org-present-mode-hook 'my/org-present-start)
-  (add-hook 'org-present-mode-quit-hook 'my/org-present-end)
-#+end_example
+- Install:
+  1) get ~ox-reveal~ from the Emacs package manager
+  2) put ~(use-package ox-reveal)~ anywhere in your ~.emacs~ file
+  3) add Org-mode meta header to your file
+     #+begin_example org
+     :REVEAL_PROPERTIES:
+     #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+     #+REVEAL_REVEAL_JS_VERSION: 4
+     :END:
+     #+end_example
+- Open slide show in browser with ~C-x C-e R B~
+- See slide array with ~ESC~
+- Speaker notes with 's' in presentation window
+- Massive customization possible
 
-There are many different methods of presentation from within Emacs
-(mainly to avoid having to create separate material, but also because
-you can make changes right away). I have tried a bunch and found the
-~org-present~ package to be the most flexible for my purposes (with
-~org-tree-slide~ a close second).
+Tutorial: [[https://youtu.be/avtiR0AUVlo][classy slideshows with org-reveal]], [[https://revealjs.com/][reveal.js]], [[https://github.com/yjwen/org-reveal][org-reveal]]
 
-Give this a try and if you run into problems, give me a shout.
+** ~modus-operandi~
+
+The other aspect of presenting is the Emacs theme. I use the
+~modus-operandi~ theme which also requires a setup. This theme and its
+light cousin (~modus-vivendi~) are built-in as of Emacs v28.1.
+
+[[https://youtu.be/JJPokfFxyFo][More info here.]]
+
+** Test file ~present_demo.org~
+
+To try these presentation methods, I have created a [[https://github.com/birkenkrahe/org/blob/master/emacs/present_demo.org][simple file]] using
+one of my lectures on data science. It covers most of the elements of
+an Org-mode file:
+
+- Meta header
+  1. Title
+  2. Author
+  3. Startup (display at startup)
+  4. Options (export options)
+  5. Property (code block header arguments)
+- Headlines
+  1. Level one
+  2. Level two
+  3. Level three
+- Inline images and Gifs
+- Blocks
+  1. Notes blocks
+  2. Quotation blocks
+  3. Example blocks
+  4. R Code blocks
+     1) Text output
+     2) Graphics output
+
+Link to file: [[https://github.com/birkenkrahe/org/blob/master/emacs/present_demo.org][GitHub]] - [[https://raw.githubusercontent.com/birkenkrahe/org/master/emacs/present_demo.org][raw Org file]] ([[https://tinyurl.com/556k452p][tinyurl.com/556k452p]])
 
 * How can I construct an abstract/summary of my project?
  
