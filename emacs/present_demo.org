@@ -16,6 +16,14 @@
 
 Just a footnote in history[fn:1].
 
+#+begin_notes
+- PhD theoretical particle physics (mostly worked alone)
+- Research interests: machine learning, data science teaching
+#+attr_html: :width 150px
+#+caption: [[https://en.wikipedia.org/wiki/Einstein_on_the_Beach][Einstein on the beach]]
+[[../img/einstein.jpg]]
+#+end_notes
+
 * Mutual introductions
 #+attr_html: :width 400px
 [[../img/1_universal_converter_box.png]]
@@ -23,47 +31,134 @@ Just a footnote in history[fn:1].
 1. Why are you here?
 2. What would delight you?
 3. What would disappoint you?
-4. Where are you headed?
 
+#+begin_notes
+Converter boxes are used to connect two or more devices together which
+otherwise couldn't be, due to differently shaped plugs, different
+voltages, or different protocols of communication.
+
+Converter boxes or converter cables are commonly found for several of
+the plugs at the top of the list - such as from USB to micro-USB. As
+this is supposed to be a Universal Converter Box, there are many
+connections.
+
+The humor from this comic comes from the sheer number of different
+standards that all claim to be the universal way to connect two
+devices, in their target market, as well as the progressively
+ridiculous conversions that this box is capable of doing, for example,
+converting audio from a 1/8 inch / 3.5 mm headphone jack, into a
+variety of fuel suitable for running your car.
+
+A connector is capable of making a connection to another connector
+only if the connectors are of the same style and the opposite gender
+("male" connector is plug, "female" connector is socket), except for
+rare "genderless" connectors, such as the token ring mentioned
+above. Gender changers are devices with two connectors of the same
+gender. The "circular center pin DC adapter tips" in the title text
+are barrel jack power plugs. There are a large number of these style
+connectors, and many of these devices look the same, leading to
+frustration.
+#+end_notes   
 * Course details
 #+attr_html: :width 400px
 [[../img/horse.gif]]
 
+#+begin_notes
+Data science is concerned with getting data to work for us, to give us
+its (presumed) hidden treasures. Data science has been called "the
+sexiest job of the 21st century". Even if you don't want to become a
+professonial data scientist, it's helpful to master the basic concepts
+if you want to succeed in today's data-driven business. This course
+focuses on data science basics, simple visualization and productivity
+tools.
+#+end_notes
+
 * Infrastructure
-#+attr_html: :width 400px
+#+attr_html: :width 600px
 [[../img/infrastructure.gif]]
 
-** Introduction to GNU Emacs + ESS + Org-mode
+#+begin_notes
+- Video lectures
+- Agile team project with Scrum
+- IMRaD structured scientific project
+- Many project opportunities
+- Introduction to DataCamp
+- Introduction to the textbook
+- Introduction to GNU Emacs + ESS + Org-modex
+#+end_notes
+** GNU Emacs + ESS + Org-mode
 #+attr_html: :width 300px
 [[../img/1_emacs_light.png]]
 
-- Emacs: self-documenting, extensible /FOSS/ text editor
-- Process, file and package management (like an OS)
-- /Literate programming/ environment for 43 languages
-- /IDE/ for R programming and /REPL/ for interactive coding
+- Self-documenting, extensible /FOSS/ editor
+- Process, file and package management
+- /Literate programming/ IDE for 43 languages
 
+#+begin_notes
+[[https://www.gnu.org/software/emacs/news/NEWS.28.1][Emacs 28.1]] has a wide variety of new features, including:
+
+- Native compilation of Lisp files
+- Text shaping with HarfBuzz and drawing with Cairo
+- Support for loading Secure Computing filters
+- Much improved display of Emoji and Emoji sequences
+- New system for documenting groups of functions
+- A minor mode for context menus
+- Mode-specific
+- Emacs shows matching parentheses by default
+- Many improvements and extensions to project.el
+#+end_notes
 *** Literate programming
 #+attr_html: :width 600px
 [[../img/1_litprog.png]]
 
-Image: "[[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WILtLJR2sHSfr6Fs/edit?usp=sharing][Teaching data science w/hacker tools]]" (Birkenkrahe, 2022)
+Image: "[[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WILtLJR2sHSfr6Fs/edit?usp=sharing][Teaching data science w/hacker tools]]"
 
 - Common practice among data scientists
-- /Paradigm/ behind interactive computing notebooks
-- Useful when learning any programming language
+- Interactive computing notebook tech
 
+#+begin_notes
+"Literate programming is a methodology that combines a programming
+language with a documentation language, thereby making programs more
+robust, more portable, more easily maintained, and arguably more fun
+to write than programs that are written only in a high-level
+language. The main idea is to treat a program as a piece of
+literature, addressed to human beings rather than to a computer. The
+program is also viewed as a hypertext document, rather like the World
+Wide Web." (Knuth, 1984)
+#+end_notes
 *** Code blocks
 
 #+begin_src R :exports both
-  head(mtcars,2)
+  head(mtcars)
   library(MASS)
   sample <- function(x) { }
 #+end_src
 
 #+RESULTS:
-:               mpg cyl disp  hp drat    wt  qsec vs am gear carb
-: Mazda RX4      21   6  160 110  3.9 2.620 16.46  0  1    4    4
-: Mazda RX4 Wag  21   6  160 110  3.9 2.875 17.02  0  1    4    4
+:                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
+: Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+: Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+: Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+: Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+: Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+: Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
+
+#+begin_notes
+#+begin_example
+'data.frame':	32 obs. of  11 variables:
+ $ mpg : num  21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 ...
+ $ cyl : num  6 6 4 6 8 6 8 4 4 6 ...
+ $ disp: num  160 160 108 258 360 ...
+ $ hp  : num  110 110 93 110 175 105 245 62 95 123 ...
+ $ drat: num  3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3.92 ...
+ $ wt  : num  2.62 2.88 2.32 3.21 3.44 ...
+ $ qsec: num  16.5 17 18.6 19.4 17 ...
+ $ vs  : num  0 0 1 1 0 1 0 1 1 1 ...
+ $ am  : num  1 1 1 0 0 0 0 0 0 0 ...
+ $ gear: num  4 4 4 3 3 3 3 4 4 4 ...
+ $ carb: num  4 4 1 1 2 1 4 2 2 4 ...
+#+end_example
+#+end_notes
 
 *** Graphics code block
 
@@ -74,7 +169,42 @@ Image: "[[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WIL
 #+RESULTS:
 [[file:../img/revealhist.png]]
 
+#+begin_notes
+Customization options of ~plot~ in R:
+#+attr_html: :width 600px
+[[../img/plot.png]]
+#+end_notes
+*** Animated graphics
+
+#+begin_src R :results silent
+  library(ggplot2)
+  library(gganimate)
+  library(gifski)
+  anim <- ggplot(mtcars, aes(x=factor(cyl), y=mpg)) + 
+    geom_boxplot() + 
+    transition_states(gear,transition_length = 2,
+                      state_length = 1) +
+    enter_fade() +
+    exit_shrink() +
+    ease_aes('sine-in-out')
+        #+end_src
+#+attr_html: :width 500px
+[[../img/gganimate.gif]]
+
+#+begin_notes
+"Here we take a simple boxplot of fuel consumption as a function of
+cylinders and lets it transition between the number of gears available
+in the cars. As this is a discrete split (gear being best described as
+an ordered factor) we use transition_states and provides a relative
+length to use for transition and state view. As not all combinations
+of data is present there are states missing a box. We define that when
+a box appears it should fade into view, whereas at should shrink away
+when it disappear. Lastly we decide to use a sinusoidal easing for all
+our aesthetics (here, only y is changing)."
+#+end_notes
+
 *** Mathematical formulas
+
 
 Org-mode recognizes $\LaTeX$. You can switch prettyprinting on with ~C-x
 C-v \~ or add it to the ~#+Startup~ meta data as ~entitiespretty~.
@@ -84,32 +214,23 @@ $p \in [0,1]$
 $x^n + y^n = z^n$
 
 Binomial coefficient $\binom{n}{k}$:
-\[
-   \binom{n}{k} = \frac{n!}{k!(n-k)!}
-\]
+\[\binom{n}{k} = \frac{n!}{k!(n-k)!}\]
 
+#+begin_notes
+#+attr_html: :width 500px
+[[../img/binom.png]]
+#+end_notes
 * Glossary
-
 #+name: glossary
 | TERM          | MEANING                                |
 |---------------+----------------------------------------|
-| Command line  | aka terminal/shell to talk to the OS   |
 | Emacs         | GNU self-extensible text editor        |
 | FOSS          | Free and Open Source Software          |
-| GitHub        | Software development platform          |
-| Git           | Version control software               |
 | GNU           | GNU's not Unix                         |
 | IDE           | Integrated Development Environment     |
-| "Literate     |                                        |
-| Programming"  | Story + code => source code + doc      |
-| Paradigm      | A standard way of looking at things    |
-| R             | FOSS statistical programming language  |
-| REPL          | Read-Eval-Print-Loop                   |
-| Repo          | Code repository                        |
-| "Tidyverse"   | Popular R package bundle               |
-| Scrum         | Agile project management method        |
-| Sprint review | Period to complete a prototype         |
-| Prototype     | Intermediate (not perfect) solution    |
+
+* References
+[[../img/books.jpg]]
 
 * Footnotes
 
