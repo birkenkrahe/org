@@ -1283,7 +1283,7 @@ To install a package
 *Update I:* (Spring '22) I now use ~org-present~ as [[https://systemcrafters.net/emacs-tips/presentations-with-org-present/][well explained in this
 video]].
 
-*Update II:* (Fall '22) New FAQ for four different presentation styles
+*Update II:* (Fall '22) [[https://github.com/birkenkrahe/org/blob/master/FAQ.org#how-can-i-present-in-emacs][New FAQ]] for four different presentation styles
 
 I often present in Emacs, especially when I use interactive
 notebooks. I use ~org-slide-tree-mode~ for that ([[https://github.com/takaxp/org-tree-slide][see
