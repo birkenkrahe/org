@@ -1,0 +1,240 @@
+#+TITLE: Course overview
+#+AUTHOR: Marcus Birkenkrahe
+#+SUBTITLE: Introduction to data science (DSC 105) Fall 2022
+#+STARTUP:overview hideblocks indent inlineimages
+#+OPTIONS: toc:nil num:nil fig:nil
+#+PROPERTY: header-args:R :session *R* :results output
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: black
+#+REVEAL_INIT_OPTIONS: transition: 'cube'
+:END:
+* About me
+#+attr_html: :width 300px
+[[../img/paratrooper.png]]
+
+* Mutual introductions
+#+attr_html: :width 400px
+[[../img/1_universal_converter_box.png]]
+
+1. Why are you here?
+2. What would delight you?
+3. What would disappoint you?
+4. Where are you headed?
+
+* Course details
+#+attr_html: :width 400px
+[[../img/horse.gif]]
+
+* Course topics
+#+attr_html: :width 300px
+[[../img/1_topics.jpg]]
+
+1) The R statistical programming language
+2) Basics of data visualization with R
+3) Professional software development methods
+** Video lectures
+#+attr_html: :width 200px
+[[../img/1_lecture.jpg]]
+
+- [[https://www.youtube.com/playlist?list=PLwgb17bzeNygo8GU6SivwwjsQj9QabqAJ][Emacs + Org-mode + R]] (Tutorial videos Spring '22)
+- [[https://www.youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f][Introduction to R: installation and shell]]
+- Vectors in R ([[https://www.youtube.com/playlist?list=PL6SfZh1-kWXl3_YDc-8SS5EuG4h1aILHz][part 1]], [[https://www.youtube.com/playlist?list=PL6SfZh1-kWXlA2axuHdNMzhwhuEhtGtlK][part 2]], [[https://www.youtube.com/playlist?list=PL6SfZh1-kWXn0PLpr1dB8NQwkDuThwkf5][part 3]])
+- [[https://www.youtube.com/playlist?list=PL6SfZh1-kWXmMY6rKe2dkUUdn41m50-n6][Data frames, matrices, lists, factors in R]]
+- [[https://www.youtube.com/playlist?list=PL6SfZh1-kWXlKpHIv66nOhGAFxztXaCEd][Data frames in R]]
+- [[https://www.youtube.com/playlist?list=PL6SfZh1-kWXkDVwgn2kXG13Y4SnoWDj9q][Base R plotting]]
+- [[https://www.youtube.com/playlist?list=PL6SfZh1-kWXnLB9cVQQKRxtAFFDfyGw0h][Plotting with ggplot2]]
+- [[https://www.youtube.com/playlist?list=PLwgb17bzeNyi9RjO0pL48am-Bk6XWol44][Data import]] with R
+- [[https://www.youtube.com/playlist?list=PL6SfZh1-kWXl3RimChL59F7lKSDGA97AZ][RStudio R Notebooks and literate programming]]
+** Agile [team] project (with "Scrum")
+#+attr_html: :width 600px
+[[../img/1_scrum.png]]
+
+The team project makes up 20% of your final grade for this course.
+
+- What is a team project? (FAQ)
+- Do you have examples for data science projects? (FAQ)
+- Can you do a project as an absolute beginner? (FAQ)
+
+*Note:* the first /[[https://github.com/birkenkrahe/org/blob/master/FAQ.org#what-is-a-sprint-review][sprint review]]/ is on August 31. Use it to present your
+initial results (see FAQ on [[https://github.com/birkenkrahe/org/blob/master/FAQ.org#what-do-i-need-to-deliver-at-a-sprint-review][what to deliver]], and [[https://github.com/birkenkrahe/org/blob/master/FAQ.org#what-should-we-do-in-the-first-sprint][1st sprint review]]).
+*** IMRaD and Scrum
+#+attr_html: :width 600px
+[[../img/1_imrad.png]]
+
+- Introduction (research question - what you want to find out)
+- Method (how you want to do it)
+- Results (what you found out)
+- Discussion (what it means)
+
+([[https://youtu.be/dip7UwZ3wUM][Video: Research Writing with IMRaD]])
+
+*** Many project opportunities
+
+#+attr_html: :width 350px
+[[../img/1_competition.png]]  
+
+- Explore and document an R package
+- Document an [[https://www.r-bloggers.com/][extended analysis example]]
+- Explore a data set of your choice
+- Complete a DataCamp competition
+- See [[https://app.datacamp.com/learn/projects][DataCamp projects]] for examples
+- You can branch out: SQL, Python, Java etc.
+- See GitHub issues for examples (e.g. [[https://github.com/birkenkrahe/ds1/issues/4][whale song]])
+- Double/triple up if you're in > 1 of my courses
+- Use problems from other courses for your project, e.g. data
+  collected by yourself, or data in economics, business, art etc.
+* Infrastructure
+#+attr_html: :width 400px
+[[../img/infrastructure.gif]]
+
+** Introduction TO DataCamp
+#+attr_html: :width 500px
+[[../img/1_datacamp.png]]
+
+- [[https://datacamp.com][DataCamp]] is a data science learning platform
+- Access for you is free (academic alliance)
+- 9/15 assignments are DataCamp assignments
+- Assignments are drawn from 4 courses
+  1. Data science for everyone
+  2. Introduction to R
+  3. Data visualization with R
+  4. Introduction to data visualization with ~ggplot2~
+- Complete them on time to get full points
+- Completed DataCamp courses can [[https://www.linkedin.com/in/birkenkrahe/][support your resume]]
+** Introduction to the textbook
+#+attr_html: :width 200px
+[[../img/1_bookofR.png]]
+
+- R is /FOSS/ with focus on stats and graphics
+- Davies' "[[https://nostarch.com/bookofr][Book of R]]" is extensive (832p.)
+- You don't have to read along but it might help
+- Many other tutorials and textbooks available
+- The best short online tutorial: [[https://github.com/matloff/fasteR][Matloff's "fasteR"]]
+- Beware of ideologies (cp. Matloff's "[[http://github.com/matloff/TidyverseSkeptic][TidyverseSceptic]]")
+** Introduction to GNU Emacs + ESS + Org-mode
+#+attr_html: :width 500px
+[[../img/1_emacs.png]]
+
+- Emacs: self-documenting, extensible /FOSS/ text editor
+- Process, file and package management (like an OS)
+- /Literate programming/ environment for 43 languages
+- /IDE/ for R programming and /REPL/ for interactive coding
+
+*** Literate programming
+#+attr_html: :width 600px
+[[../img/1_litprog.png]]
+
+Source: "[[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WILtLJR2sHSfr6Fs/edit?usp=sharing][Teaching data science with hacker tools]]" (2022)
+
+- Common practice among data scientists
+- /Paradigm/ behind interactive computing notebooks
+- Useful when learning any programming language
+
+*** R code blocks
+
+#+begin_src R :exports both
+  head(mtcars,2)
+  library(MASS)
+  sample <- function(x) { }
+#+end_src
+
+#+RESULTS:
+:               mpg cyl disp  hp drat    wt  qsec vs am gear carb
+: Mazda RX4      21   6  160 110  3.9 2.620 16.46  0  1    4    4
+: Mazda RX4 Wag  21   6  160 110  3.9 2.875 17.02  0  1    4    4
+
+
+*** R graphics code block
+
+#+begin_src R :results graphics file :file ../img/revealhist.png :exports both
+  plot(Nile)
+#+end_src
+
+#+RESULTS:
+[[file:../img/revealhist.png]]
+
+* Grading
+
+** Home assignments
+
+- There are 15 programming assignments altogether = 10 points each, or
+  30% of your final grade.
+
+- Register with DataCamp and complete the DataCamp chapter
+  [[https://lyon.instructure.com/courses/568/assignments/1420][Introduction to data science​]] by Monday, 22 August at 11 am (ca. 20
+  min).
+
+  + Data science definition
+  + Data science workflow
+  + Application to real-world problems
+  + Different professional data science roles
+
+- [[https://lyon.instructure.com/courses/568/assignments/1436][Complete the Emacs on-board tutorial]] and upload an edited copy to
+  Canvas by Friday, 26 August at 11 am (ca. 60 min).
+
+  + Get comfortable with Emacs keyboard bindings
+  + Learn how to create, view, edit, save files
+  + Learn how to insert a time stamp automatically
+** Tests (not graded except final exam)
+#+attr_html: :width 500px
+[[../img/1_entry_quiz.png]]
+
+- Tests have to be completed online, are timed, and have a deadline;
+  after the deadline, you can play them an unlimited number of times
+- There will be a revision quiz on Canvas every week, consisting of
+  5-10 multiple choice, matching and true/false questions.
+- A subset of the test questions will form the final exam (20% of your
+  final grade) - we will practice in the last week before the exam.
+
+** Practice - course infrastructure
+
+*Useful:* take notes! Practice leads to mastery and the practice
+exercises will often come back to haunt you in the tests.
+
+    1) Open a browser
+    2) Find the GitHub repos (birkenkrahe/ds1 and /org)
+    3) Open the command line terminal
+    4) Open/close R
+    5) Open Emacs
+    6) Find the Emacs tutorial
+    7) Open/close R inside Emacs
+    8) Run R in an Org-mode file
+    9) Close Emacs
+    10) Close the command line terminal
+
+*Note:* Class room practice completion = 10 points each for active
+participation.
+
+* Glossary
+
+#+name: glossary
+| TERM          | MEANING                                |
+|---------------+----------------------------------------|
+| Command line  | aka terminal/shell to talk to the OS   |
+| Emacs         | GNU self-extensible text editor        |
+| FOSS          | Free and Open Source Software          |
+| GitHub        | Software development platform          |
+| Git           | Version control software               |
+| GNU           | GNU's not Unix                         |
+| IDE           | Integrated Development Environment     |
+| "Literate     |                                        |
+| Programming"  | Story + code => source code + doc      |
+| Paradigm      | A standard way of looking at things    |
+| R             | FOSS statistical programming language  |
+| REPL          | Read-Eval-Print-Loop                   |
+| Repo          | Code repository                        |
+| "Tidyverse"   | Popular R package bundle               |
+| Scrum         | Agile project management method        |
+| Sprint review | Period to complete a prototype         |
+| Prototype     | Intermediate (not perfect) solution    |
+
+* Footnotes
+
+[fn:1]CMS = Content Management System; these are the most common
+systems in business applications - present whenever people create
+'content' of any sort (documents e.g.) and need to store it for
+later. CMS systems rely on database technology. In the case of Canvas,
+that's MySQL.
+ 
