@@ -7,7 +7,7 @@
 :REVEAL_PROPERTIES:
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 #+REVEAL_REVEAL_JS_VERSION: 4
-#+REVEAL_THEME: black
+#+REVEAL_THEME: serif
 #+REVEAL_INIT_OPTIONS: transition: 'cube'
 :END:
 * About me
@@ -222,12 +222,12 @@ Binomial coefficient $\binom{n}{k}$:
 #+end_notes
 * Glossary
 #+name: glossary
-| TERM          | MEANING                                |
-|---------------+----------------------------------------|
-| Emacs         | GNU self-extensible text editor        |
-| FOSS          | Free and Open Source Software          |
-| GNU           | GNU's not Unix                         |
-| IDE           | Integrated Development Environment     |
+| TERM  | MEANING                            |
+|-------+------------------------------------|
+| Emacs | GNU self-extensible text editor    |
+| FOSS  | Free and Open Source Software      |
+| GNU   | GNU's not Unix                     |
+| IDE   | Integrated Development Environment |
 
 * References
 [[../img/books.jpg]]
