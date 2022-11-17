@@ -7,7 +7,7 @@
 :REVEAL_PROPERTIES:
 #+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
 #+REVEAL_REVEAL_JS_VERSION: 4
-#+REVEAL_THEME: serif
+#+REVEAL_THEME: black
 #+REVEAL_INIT_OPTIONS: transition: 'cube'
 :END:
 * About me
