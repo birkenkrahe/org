@@ -204,6 +204,11 @@ repo, checking the status, showing differences, merging versions
 etc. carries over from other version control systems. Here is a
 [[https://www.linkedin.com/pulse/difference-between-git-cvs-ahmed-el-emam/][direct comparison of CVS and Git]] (2017).
 
+The figure ([[https://twitter.com/NikkiSiapno/status/1593882400983072769?s=20&t=4HYg_wsgHI3YGdUKjDgKCQ][@NikkiSiapno, 19 Nov 2022]]) illustrates central git
+commands, which I execute many times daily on the command line:
+#+attr_html: :width 400px
+[[./img/git_workflow.jpg]]
+
 * How should you use GitHub?
 
 Notice that there are a myriad of tutorials, text, courses, and
@@ -411,6 +416,86 @@ relevant or important at all. No investigation is an island.
 The fourth sprint covers the "D" (for "Discussion") of the IMRaD
 structure of scientific papers. See FAQ for more on IMRaD.
 
+* How should we prepare for the final presentation?
+** Timing
+
+The final presentation is a short presentation: the exact time depends
+on the course setting - the number of projects vs. the available time
+for presentation. But it will be no shorter than 15-20 minutes
+followed by a short discussion.
+
+Online presentations (not in real time - if you are unable to present
+in person or if I explicitly ask for an online presentation) are not
+time-limited: they should be as long as you need to get your topic
+across. If you have little, they'll be short, if you have a lot, you
+might have to select what to present.
+
+** Grading
+
+The final presentation is graded. I give a percentage grade that you
+can translate to a letter grade if you like using the grading table in
+your course syllabus.
+
+You can treat this list like a checklist and make sure at least that
+you thought about every single question, and give yourself an honest
+score for how well you expect you will perform in each category. Items
+are listed in alphabetical order first. The sub-questions within each
+aspect are not ordered.
+
+| NO. | ASPECT      | QUESTIONS                                                                     |
+|-----+-------------+-------------------------------------------------------------------------------|
+|   1 | Content     | Did you research the topic (literature review)?                               |
+|   2 |             | Did you make an effort to quantify statements (graphs, tables)?               |
+|   3 |             | Were your graphs and tables clear and unambiguous?[fn:14]                     |
+|   4 |             | Did you explain where your content came from?                                 |
+|   5 |             | Did you demonstrate an effort to validate your sources?                       |
+|   6 |             | Were you able to answer questions about the slides?                           |
+|   7 |             | Are you aware of the limitations of your research (method and personal bias)? |
+|   8 |             | Did you select those results suitable for presentation?                       |
+|   9 | Form        | Did you make an effort to optimize your slides?[fn:15]                        |
+|  10 |             | Did you control your diction, spelling, mistakes on slides?                   |
+|  11 |             | Did the presentation seem rehearsed and well-tested?                          |
+|  12 |             | Were you dressed appropriate to the occasion?[fn:16]                          |
+|  13 |             | Did the presentation have a clear, logical structure?[fn:17]                  |
+|  14 | Interaction | Did you make an effort to involve the audience?                               |
+|  15 | References  | Did you provide references, with consistent and complete citations            |
+|  16 |             | Did you use inline references on slides?                                      |
+|  17 | Team        | How well did you work together during the presentation[fn:18]                 |
+|  18 | Timing      | Did you respect the timelines (start/end)?[fn:19]                             |
+
+I will give you short formative (qualitative) feedback based on the
+question breakdown above so that you know where your grade comes from,
+and you get a summary that looks like the figure below ([[bps][Source: BPS]]).
+
+#+attr_html: :width 600px
+[[./img/presentation.png]]
+
+** What's the best strategy?
+
+If any one of the items in the checklist is very well done, it may
+save your presentation, even if a few of the other items aren't all
+that great. Likewise, completely disregarding one of these items could
+sink your presentation.
+
+The best strategy is to (1) cover as many of the questions as you can
+and (2) excel in (at least) one aspect. Also, the best presentation of
+a group sets the higher bar for everyone, just as the worst
+presentation of a group sets the lower bar.
+
+The best strategy overall is to put enough time into your work, and
+ask for feedback before it is too late.
+
+** Ask if you have questions!
+
+If in doubt about any of these, or about the quality of your
+presentation (slides), ask me directly while there's still time to
+fix things! A few people have shown me their stuff beforehand and it
+hasn't been to their disadvantage - at the very minimum it means
+that they care.
+
+You should know what type of final product you must submit to pass
+the course. If in doubt, check the syllabus or ask me directly!
+
 * Where I can find out more about "IMRaD"?
 <<imrad>>
 See [[https://youtu.be/dip7UwZ3wUM][this short (15 min) YouTube video]] - produced for a course on
@@ -441,7 +526,7 @@ straight from Org-mode).
 
 Emacs is hands down the best editor in the world, written in [[https://en.wikipedia.org/wiki/Lisp_(programming_language)][LISP]][fn:2],
 one of the earliest programming languages for AI research, and the
-second oldest language in widespread use (after FORTRAN)[fn:14].
+second oldest language in widespread use (after FORTRAN)[fn:20].
 
 They say the learning curve of this "complex beast" ([[https://masteringemacs.org/article/beginners-guide-to-emacs][Petersen, 2019]])
 is steep but don't believe it.  Here is an link to [[https://opensource.com/article/20/3/getting-started-emacs][get started with
@@ -529,7 +614,7 @@ inside Emacs with ~M-x shell~ and then run R inside it.
 
 I like to create code notebooks in Org-mode files. To do this, I
 use the following syntax for R (if I want to see the output right
-below the chunk)[fn:15]:
+below the chunk)[fn:21]:
 
 #+begin_example
 #+begin_src R :session output
@@ -565,7 +650,7 @@ code.
 All of this saves me tons of time - GitHub + Emacs + Org-mode (in
 Emacs) are my two or three main productivity tools to run a proper
 ship even with four or five courses in parallel, and with a fair
-amount of involvement and new developments[fn:16].
+amount of involvement and new developments[fn:22].
 
 To work with GitHub under Windows, the easiest way is to download
 GitHub desktop, and create a local copy of your remote repo, or the
@@ -643,7 +728,7 @@ presentation, paper, essay, or even email.
 - Especially among nerds/geeks
 - Presentations are performance-oriented
 - Since you'll have to present, focus on efficiency
-- Efficient group or audience communication = rapport[fn:17]
+- Efficient group or audience communication = rapport[fn:23]
 
 *** Complication ("What should we do?")
 
@@ -654,15 +739,15 @@ one needs a set of rules that remain unchanged.
 
 *** Question ("What's the problem?")
 
-Are there any invariants[fn:18], i.e. things, processes, attributes
-that remain unchanged from one presentation to the next?[fn:19]
+Are there any invariants[fn:24], i.e. things, processes, attributes
+that remain unchanged from one presentation to the next?[fn:25]
 
 *** Answer
 
 Audience rapport is a relationship invariant for all
 presentations. According to Barbara Minto ([[minto][Minto, 2002]]), the SCQA
 method delivers an invariant structure for all presentations, to
-all audiences. I am inclined to agree with her[fn:20].
+all audiences. I am inclined to agree with her[fn:26].
 
 ** Minto tutorial videos
 
@@ -671,84 +756,6 @@ For a short overview see the video: [[https://vimeo.com/87537935][Harrison Metal
 For a lecture in 2 parts by me ([[birk][2016]]), see here:
 - Minto Pyramid Principle Part 1 - [[https://youtu.be/HrmBZQuCSzo][Introductory Stories]]
 - Minto Pyramid Principle Part 2 - [[https://youtu.be/k_FJXpYPbQY][What Audiences Want]]
-
-* How should we prepare for the final presentation?
-** Timing
-
-The final presentation is a presentation of 30-45 minutes (for a team
-of 2-3), or 10-20 minutes (for an individual presenter), *including
-discussion*. The exact timing depends on the course setting (numberof
-total presentations and available time). Ask me in class!
-
-Online presentations are not time-limited: they should be as long
-as you need to get your topic across. If you have little, they'll
-be short, if you have a lot, you might have to select what to
-present.
-
-** Grading
-The final presentation is graded. I give a percentage grade that you
-can translate to a letter grade if you like using the grading table in
-your course syllabus.
-
-You can treat this list like a checklist and make sure at least that
-you thought about every single question, and give yourself an honest
-score for how well you expect you will perform in each category. Items
-are listed in alphabetical order first. The sub-questions within each
-aspect are not ordered.
-
-| NO. | ASPECT      | QUESTIONS                                                                     |
-|-----+-------------+-------------------------------------------------------------------------------|
-|   1 | Content     | Did you research the topic (literature review)?                               |
-|   2 |             | Did you make an effort to quantify statements (graphs, tables)?               |
-|   3 |             | Were your graphs and tables clear and unambiguous?[fn:21]                     |
-|   4 |             | Did you explain where your content came from?                                 |
-|   5 |             | Did you demonstrate an effort to validate your sources?                       |
-|   6 |             | Were you able to answer questions about the slides?                           |
-|   7 |             | Are you aware of the limitations of your research (method and personal bias)? |
-|   8 |             | Did you select those results suitable for presentation?                       |
-|   9 | Form        | Did you make an effort to optimize your slides?[fn:22]                        |
-|  10 |             | Did you control your diction, spelling, mistakes on slides?                   |
-|  11 |             | Did the presentation seem rehearsed and well-tested?                          |
-|  12 |             | Were you dressed appropriate to the occasion?[fn:23]                          |
-|  13 |             | Did the presentation have a clear, logical structure?[fn:24]                  |
-|  14 | Interaction | Did you make an effort to involve the audience?                               |
-|  15 | References  | Did you provide references, with consistent and complete citations            |
-|  16 |             | Did you use inline references on slides?                                      |
-|  17 | Team        | How well did you work together during the presentation[fn:25]                 |
-|  18 | Timing      | Did you respect the timelines (start/end)?[fn:26]                             |
-
-I will give you short formative (qualitative) feedback based on the
-question breakdown above so that you know where your grade comes from,
-and you get a summary that looks like the figure below ([[bps][Source: BPS]]).
-
-#+attr_html: :width 600px
-[[./img/presentation.png]]
-
-** What's the best strategy?
-
-If any one of the items in the checklist is very well done, it may
-save your presentation, even if a few of the other items aren't all
-that great. Likewise, completely disregarding one of these items
-could sink your presentation.
-
-The best strategy is to (1) cover as many of the questions as you
-can and (2) excel in (at least) one aspect. Also, the best
-presentation of a group sets the higher bar for everyone, just as
-the worst presentation of a group sets the lower bar.
-
-The best strategy overall is to put enough time into your work, and
-ask for feedback before it is too late.
-
-** Ask if you have questions!
-
-If in doubt about any of these, or about the quality of your
-presentation (slides), ask me directly while there's still time to
-fix things! A few people have shown me their stuff beforehand and it
-hasn't been to their disadvantage - at the very minimum it means
-that they care.
-
-You should know what type of final product you must submit to pass
-the course. If in doubt, check the syllabus or ask me directly!
 
 * What do we have to deliver for the final essay or presentation?
 
@@ -2860,41 +2867,12 @@ your own workspace. Whenever the owner makes changes to the forked
 repo, you'll be notified so that you can follow the change ("fetch
 upstream").
 
-[fn:14]Here is an enthusiastic review and tutorial called "[[https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html][A CEO's
-Guide To Emacs]]" ([[stella][Stella, 2015]]), which you might enjoy reading. The
-author is (was?) the CEO of Fugue, a cloud security platform.
-
-[fn:15]This would work for any language that Emacs supports, which is
-pretty much every programming language in existence.
-
-[fn:16]If you never make any changes you don't need to watch
-productivity, because you can just regurgitate old stuff. However,
-personally, I would get bored to death.
-
-[fn:17]"Rapport is a close and harmonious relationship in which the
-people or groups concerned are "in sync" with each other, understand
-each other's feelings or ideas, and communicate smoothly." ([[https://en.wikipedia.org/wiki/Rapport][Wikipedia]])
-
-[fn:18]Invariants in physics and mathematics is anything that does not
-change under transformation, from one reference frame to another.
-
-[fn:19]Some of the items that I mentioned and asked for certainly are
-not invariant: quantification, prioritized bullet points, less is more
-on the page etc. - all of these do depend on audiences and topic!
-Still, as university students, now and later, you're more likely to
-have to report on numbers in a systematic, minimal way, hence these
-suggestions are still useful.
-
-[fn:20]As a Shell manager, I had the opportunity to learn the method
-first hand from Barbara Minto herself (as you can hear in one of my
-two short videos).
-
-[fn:21]Graphs are (usually) better than tables. All illustrations that
+[fn:14]Graphs are (usually) better than tables. All illustrations that
 are important should ideally be created by you for the
 presentation. If they are not important, don't show them in the final
 presentation.
 
-[fn:22]So many possibilities here: not too much text on each slide,
+[fn:15]So many possibilities here: not too much text on each slide,
 use illustrations, including images, graphs, tables - which you
 created yourself rather than just copy them. Number slides (for easy
 reference), indicate your process flow (e.g. by marking on each slide
@@ -2903,24 +2881,53 @@ readable even from a distance (font, face, color). This is something
 that you have likely experimented with during the sprint reviews and
 drawn comments from the product owner and the audience.
 
-[fn:23]This may surprise you (I hope it does not): the final
+[fn:16]This may surprise you (I hope it does not): the final
 presentation is a momentous occasion. There are no second impressions
 when you present your final product to the customer, no "I'll shave
 next time!", or "Next time, I'll wear a clean shirt!"
 
-[fn:24]Logical structure means e.g. that the Minto pyramid rules are
+[fn:17]Logical structure means e.g. that the Minto pyramid rules are
 respected: MECE, horizontal groupings (subsections) are ordered and on
 the same level, vertical groupings follow the IMRaD rule, or are
 otherwise well motivated by the research question and the method.
 
-[fn:25]Irrelevant if you present on your own - though there is still
+[fn:18]Irrelevant if you present on your own - though there is still
 the issue of managing transitions between different parts of your
 presentation - think Situation-Complication-Question, and Q&A.
 
-[fn:26]Make sure that you understand how much time you have. Design your
+[fn:19]Make sure that you understand how much time you have. Design your
 content/slides deck accordingly. Have a minimum set of slides that you
 must present, a few more that you'd like to show, and more that you
 could show when asked for details.
+
+[fn:20]Here is an enthusiastic review and tutorial called "[[https://www.fugue.co/blog/2015-11-11-guide-to-emacs.html][A CEO's
+Guide To Emacs]]" ([[stella][Stella, 2015]]), which you might enjoy reading. The
+author is (was?) the CEO of Fugue, a cloud security platform.
+
+[fn:21]This would work for any language that Emacs supports, which is
+pretty much every programming language in existence.
+
+[fn:22]If you never make any changes you don't need to watch
+productivity, because you can just regurgitate old stuff. However,
+personally, I would get bored to death.
+
+[fn:23]"Rapport is a close and harmonious relationship in which the
+people or groups concerned are "in sync" with each other, understand
+each other's feelings or ideas, and communicate smoothly." ([[https://en.wikipedia.org/wiki/Rapport][Wikipedia]])
+
+[fn:24]Invariants in physics and mathematics is anything that does not
+change under transformation, from one reference frame to another.
+
+[fn:25]Some of the items that I mentioned and asked for certainly are
+not invariant: quantification, prioritized bullet points, less is more
+on the page etc. - all of these do depend on audiences and topic!
+Still, as university students, now and later, you're more likely to
+have to report on numbers in a systematic, minimal way, hence these
+suggestions are still useful.
+
+[fn:26]As a Shell manager, I had the opportunity to learn the method
+first hand from Barbara Minto herself (as you can hear in one of my
+two short videos).
 
 [fn:27] In Emacs, you can also use a package called [[https://magit.vc/][~magit~]] to manage
 version control.
