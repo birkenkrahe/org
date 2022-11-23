@@ -42,15 +42,20 @@ Each of the three ~glazes~ has at most four ~ingredients~.
 : [4] "Talc"
 
 #+begin_src R :exports both :results graphics file :file ./img/glaze.png
-  barplot(Glazes, las=1, col=colors)
+  barplot(Glazes,
+	  las=1,
+	  col=colors)
 #+end_src
 
 #+RESULTS:
 [[file:./img/glaze.png]]
 
 #+begin_src R :exports both :results graphics file :file ./img/glaze1.png
-  barplot(Glazes, las=1, col=colors, beside=TRUE)
-#+end_src
+  barplot(Glazes,
+	  las=1,
+	  col=colors,
+	  beside=TRUE)
+		#+end_src
 
 #+RESULTS:
 [[file:./img/glaze1.png]]
