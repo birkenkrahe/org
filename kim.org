@@ -1,0 +1,50 @@
+#+property: header-args:R :session *R* :exports both :results output
+* Glazes - stacked barplot
+
+Each of the three ~glazes~ has at most four ingredients
+#+begin_src R
+  ## glazes
+  glazes <- data.frame( 
+    "Lichen"  = c(33,0,77,0),
+    "Tenoku"  = c(25,80,25,0),
+    "Whiting" = c(0,15,10,80))
+
+  ## ingredients
+  ingredients <- c("Nepheline.Syenite",
+                   "Red.Iron.Oxide",
+                   "Flint",
+                   "Talc")
+  colors <- c("steelblue",
+              "red",
+              "brown",
+              "yellow")
+  rownames(glazes) <- ingredients
+
+  ## turn glazes into a matrix
+  Glazes <- as.matrix(glazes)
+  Glazes # print matrix
+  colnames(Glazes)
+  rownames(Glazes)
+#+end_src
+
+#+RESULTS:
+| Nepheline.Syenite |
+| Red.Iron.Oxide    |
+| Flint             |
+| Talc              |
+
+#+begin_src R :results graphics file :file ./img/glaze.png
+  barplot(Glazes, las=1, col=colors)
+#+end_src
+
+#+RESULTS:
+[[file:./img/glaze.png]]
+
+#+begin_src R :results graphics file :file ./img/glaze1.png
+  barplot(Glazes, las=1, col=colors, beside=TRUE)
+#+end_src
+
+#+RESULTS:
+[[file:./img/glaze1.png]]
+  
+
