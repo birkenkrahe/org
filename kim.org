@@ -1,4 +1,4 @@
-#+property: header-args:R :session *R* :exports both :results output
+#+property: header-args:R :session *R* :results output
 #+options: toc:nil num:nil
 * Glazes - stacked barplot
 
@@ -6,7 +6,7 @@ Each of the three ~glazes~ has at most four ~ingredients~.
 - Store ~glazes~ as data frame
 - Assign ~ingredients~ as its ~rownames~
 - Align a ~colors~ vector with the ~ingredients~
-#+begin_src R
+#+begin_src R  :exports both
   ## glazes
   glazes <- data.frame( 
     "Lichen"  = c(33,0,77,0),
@@ -41,14 +41,14 @@ Each of the three ~glazes~ has at most four ~ingredients~.
 : [1] "Nepheline.Syenite" "Red.Iron.Oxide"    "Flint"            
 : [4] "Talc"
 
-#+begin_src R :results graphics file :file ./img/glaze.png
+#+begin_src R :exports both :results graphics file :file ./img/glaze.png
   barplot(Glazes, las=1, col=colors)
 #+end_src
 
 #+RESULTS:
 [[file:./img/glaze.png]]
 
-#+begin_src R :results graphics file :file ./img/glaze1.png
+#+begin_src R :exports both :results graphics file :file ./img/glaze1.png
   barplot(Glazes, las=1, col=colors, beside=TRUE)
 #+end_src
 
