@@ -757,21 +757,6 @@ For a lecture in 2 parts by me ([[birk][2016]]), see here:
 - Minto Pyramid Principle Part 1 - [[https://youtu.be/HrmBZQuCSzo][Introductory Stories]]
 - Minto Pyramid Principle Part 2 - [[https://youtu.be/k_FJXpYPbQY][What Audiences Want]]
 
-* What do we have to deliver for the final essay or presentation?
-
-You have to deliver these items before you can get a grade from me.
-
-- The essay, presentation or report and all accompanying material
-(if any) are uploaded to the respective GitHub folder.
-- All authors must fill in the application form shown below, print
-  their names, sign, date and add "pledged" on their line.
-- For a presentation, all team members must be present and
-  contributing during the presentation, both as presenters and by
-  answering questions.
-
-  #+attr_html: :width 600px
-  [[./img/pledge.png]]
-
 * How is the final essay graded?
 
 The image below shows the assessment template for the final
