@@ -58,5 +58,8 @@
 ;; (set-home-dir "C:/Users/birkenkrahe/")
 
 ;; load Emacs-Speaks-Statistics (ESS) see ess.r-project.org
-(add-to-list 'load-path "~/.emacs.d/elpa/ess-20220727.1131")
+(add-to-list 'load-path "~/.emacs.d/elpa/ess-20221121.1627")
 (load "ess-autoloads")
+
+;; add prompt to SQLite buffer opened with M-x sql-sqlite
+(setq sql-sqlite-options '("-interactive"))
