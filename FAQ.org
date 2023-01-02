@@ -2711,6 +2711,16 @@ location:
       #+attr_html: :width 200px
       [[./img/dc_mobile10.png]]  
  
+* How can I open PDF files in Emacs Org-mode?
+
+I tried this with GNU Emacs 28.2 (January 2023):
+- Download MikTeX installer [[https://miktex.org/download][from here]]
+- Install for yourself as user only (just run installer)
+- Add the ~PATH~ to your user environment variables, e.g. on my Windows
+  PC, this is
+  ~C:\Users\birkenkrahe\AppData\Local\Programs\MiKTeX\miktex\bin\x64~
+- Restart Emacs: produce PDF file in Org-mode with ~C-x C-e l o~
+
 * References
 
 - <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
