@@ -1,0 +1,64 @@
+#+TITLE: Lyon computer and data science courses policy
+#+Author: Marcus Birkenkrahe
+#+options: toc:nil
+* Assignments and Honor Code
+
+There will be several assignments during the summer school,
+including programming assignments and multiple-choice tests. They
+are due at the beginning of the class period on the due date. Once
+class begins, the assigment will be considered one day late if it
+has not been turned in.  Late programs will not be accepted without
+an extension. Extensions will *not* be granted for reasons such as:
+
+- You could not get to a computer
+- You could not get a computer to do what you wanted it to do
+- The network was down
+- The printer was out of paper or toner
+- You erased your files, lost your homework, or misplaced your
+  flash drive
+- You had other coursework or family commitments that interfered
+  with your work in this course
+
+Put “Pledged” and a note of any collaboration in the comments of any
+program you turn in. Programming assignments are individual efforts,
+but you may seek assistance from another student or the course
+instructor.  You may not copy someone else’s solution. If you are
+having trouble finishing an assignment, it is far better to do your
+own work and receive a low score than to go through an honor trial and
+suffer the penalties that may be involved.
+
+What is cheating on an assignment? Here are a few examples:
+
+- Having someone else write your assignment, in whole or in part
+- Copying an assignment someone else wrote, in whole or in part
+- Collaborating with someone else to the extent that your
+  submissions are identifiably very similar, in whole or in part
+- Turning in a submission with the wrong name on it
+
+What is not cheating?  Here are some examples:
+- Talking to someone in general terms about concepts involved in an
+  assignment
+- Asking someone for help with a specific error message or bug in
+  your program
+- Getting help with the specifics of language syntax or citation
+  style
+- Utilizing information given to you by the instructor
+
+Any assistance must be clearly explained in the comments at the
+beginning of your submission.  If you have any questions about this,
+please ask or review the policies relating to the Honor Code.
+
+Absences on Days of Exams: Test “make-ups” will only be allowed if
+arrangements have been made prior to the scheduled time.  If you are
+sick the day of the test, please e-mail me or leave a message on my
+phone before the scheduled time, and we can make arrangements when
+you return.
+* Attendance policy
+
+In accordance with college policy, if you miss 4 weeks of class, you
+fail the course automatically. Any missed meetings result in an [[https://catalog.lyon.edu/class-attendance]["Early
+Alert" report]].
+
+You should take care not to miss consecutive sessions if at all
+possible - otherwise you risk losing touch with the class and falling
+behind.
