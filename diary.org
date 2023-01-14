@@ -27,7 +27,7 @@ to be that the bot has learned that I'm an advanced user. This is
 nice! I also like the ability to pitch the bot against Google search:
 in the image, you see how much more useful the bot search is for a
 (simple) programming question.
-#+attr_html: :width 600px
+#+attr_latex: :width 400px
 [[./img/chatgpt.png]]
 
 The general lack of sources and references is the greatest difference
