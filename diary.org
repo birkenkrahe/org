@@ -56,8 +56,8 @@ psychotherapist"), often more useful than Google search, and easy to
 use in class.
 
 Suggestion: if you test this tool, move from the standard
-"conversational" interface to the [[https://beta.openai.com/playground][playground]] where you can
-customize your use somewhat.
+"conversational" interface to the [[https://beta.openai.com/playground][playground]] where you can customize
+your use somewhat.
 
 * Teaching programming with hacker tools: literate programming didactics
 
