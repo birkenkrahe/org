@@ -2,251 +2,285 @@
 #+AUTHOR:Marcus Birkenkrahe
 #+SUBTITLE:GitHub diary All Courses @Lyon Fall 2021
 #+OPTIONS: ^:nil toc:1
-#+startup: overview hideblocks
+#+startup: overview hideblocks indent
 * What is this?
 
-  A place for irregular articles of possible interest to students
-  across all courses, mostly to avoid lengthy emails and to park
-  content that I may want to develop later on time permitting.
+A place for irregular articles of possible interest to students
+across all courses, mostly to avoid lengthy emails and to park
+content that I may want to develop later on time permitting.
+
+* Some observations regarding ChatGPT
+
+I've recently tested [[https://chat.openai.com/chat][ChatGPT]] on a variety of small R problems taken
+e.g. from my class exercises, or when I was working on something
+myself. For simple problems and questions, the bot performs quite
+well - if you're OK with over-complete answers. On more complex
+questions, it often hides small mistakes in the suggested code.
+
+Interestingly, unless specifically prompted, it will prefer base R to
+Tidyverse answers. An indirect admission that base R is easier for
+beginners.
+
+Its answers change over time - the same question asked a couple of
+weeks apart generated quite different responses. The difference seems
+to be that the bot has learned that I'm an advanced user. This is nice!
+
+The general lack of sources and references is the greatest difference
+to Google search and makes this tool useless for scientific research
+(except to experts). Same for programming - you already need to be a
+champion to use the bot's help.
+
+My greatest win: yesterday, I needed a workshop agenda ("Give me an
+agenda for a 2-hour workshop on Snap! Game Programming for beginners")
+and it produced a great agenda, very much along the lines of what I
+had been thinking. When I asked for an abstract, I got it and in the
+end I saved about an hour or more.
+
+My greatest disappointment: the bot does not know that Lyon College
+offers data science (or math or computer science) - [[https://twitter.com/birkenkrahe/status/1614318846541762563?s=20&t=cuZXL5Eu7b5fHDoLcECnjQ][see this tweet of
+mine]]. Another user responded "this test version is only a prototype",
+but of course normal users don't know this or aren't aware, and in any
+case the distinction between "prototype" and "product" is near
+irrelevant in this fast-moving field.
 
 * Teaching programming with hacker tools: literate programming didactics
 
-  This was the long, convoluted title of my faculty colloquium talk
-  this afternoon (April 8, 2022) at Lyon College. Considering the
-  arcane topic, it was packed - I was especially pleased that there
-  were a bunch of students in attendance. Some even contributed with
-  smart questions, and others through the informal poll regarding GNU
-  Emacs that I had launched a week earlier.
+This was the long, convoluted title of my faculty colloquium talk
+this afternoon (April 8, 2022) at Lyon College. Considering the
+arcane topic, it was packed - I was especially pleased that there
+were a bunch of students in attendance. Some even contributed with
+smart questions, and others through the informal poll regarding GNU
+Emacs that I had launched a week earlier.
 
-  [[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WILtLJR2sHSfr6Fs/edit?usp=sharing][Here is the link to the presentation + references + backup slides]].
+[[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WILtLJR2sHSfr6Fs/edit?usp=sharing][Here is the link to the presentation + references + backup slides]].
 
-  Some good conversations about work, life, and science fiction
-  literature afterwards. I've got delightful colleagues!
-  
-  Back to work!
+Some good conversations about work, life, and science fiction
+literature afterwards. I've got delightful colleagues!
+
+Back to work!
 
 * How to get a job as a computer scientist
 
-  If you're a senior, who's heading for the job market, or a junior
-  wondering what's out there, this article is going to help you a
-  lot - [[https://web.archive.org/web/20101003174039/http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions][5 essential phone screening questions]] for computer science
-  professionals (2010). This is worth working through!
+If you're a senior, who's heading for the job market, or a junior
+wondering what's out there, this article is going to help you a
+lot - [[https://web.archive.org/web/20101003174039/http://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions][5 essential phone screening questions]] for computer science
+professionals (2010). This is worth working through!
 
-  * Yegge favors GNU Emacs - see his [[https://youtu.be/lkIicfzPBys][guided tour of Emacs]] (March
-    2022), and is a [[https://youtu.be/mb8ayJEsnk8][fan of the command line]] (February 2022). I really
-    enjoyed these shows, and I learnt something in both of them even
-    though I've used the tools myself as long as Yegge.
+* Yegge favors GNU Emacs - see his [[https://youtu.be/lkIicfzPBys][guided tour of Emacs]] (March
+2022), and is a [[https://youtu.be/mb8ayJEsnk8][fan of the command line]] (February 2022). I really
+enjoyed these shows, and I learnt something in both of them even
+though I've used the tools myself as long as Yegge.
 
-  * Yegge came to fame through a widely published [[https://www.digitaltrends.com/social-media/google-engineer-who-publicly-bashed-google-nothing-bad-happened/][Google and Amazon
-    rant in 2011]].
+* Yegge came to fame through a widely published [[https://www.digitaltrends.com/social-media/google-engineer-who-publicly-bashed-google-nothing-bad-happened/][Google and Amazon
+rant in 2011]].
 
-  * He is the author of a free, pioneering 2-D MUD game, Wyvern
-    ([[https://en.wikipedia.org/wiki/Wyvern_(video_game)][Wikipedia]])
+* He is the author of a free, pioneering 2-D MUD game, Wyvern
+([[https://en.wikipedia.org/wiki/Wyvern_(video_game)][Wikipedia]])
 
-  I subscribed to his channel and I'm definitely going to be back.
+I subscribed to his channel and I'm definitely going to be back.
 
 * Anti-Windows Rant (another one)
 
-  Windows makes everything harder, nothing easier, unless you're
-  happy just streaming YouTube, playing Candy Crush, or editing in
-  WORD - technologies from the mid-1990s. Sorry, I just had to say it
-  (again), after countless hours of frustration with nothing to show
-  for. Which is why brainless articles with bad logic like this one
-  get me upset: "[[https://www.makeuseof.com/reasons-switch-from-linux-to-windows/][8 Reasons to Switch From Linux to Windows]]".
+Windows makes everything harder, nothing easier, unless you're
+happy just streaming YouTube, playing Candy Crush, or editing in
+WORD - technologies from the mid-1990s. Sorry, I just had to say it
+(again), after countless hours of frustration with nothing to show
+for. Which is why brainless articles with bad logic like this one
+get me upset: "[[https://www.makeuseof.com/reasons-switch-from-linux-to-windows/][8 Reasons to Switch From Linux to Windows]]".
 
-  * WSL is not Linux. Not even close.
-  * "The best Apps" are not identified.
-  * Windows offers better support? Sure, for issues caused by Windows.
-  * Choice is consumer power, and Windows offers none.
-  * Nostalgic for Windows? Hmmm. Putin's nostalgic for the Soviet
-    Union. That's no reason to support Russia's war on Ukraine...
+* WSL is not Linux. Not even close.
+* "The best Apps" are not identified.
+* Windows offers better support? Sure, for issues caused by Windows.
+* Choice is consumer power, and Windows offers none.
+* Nostalgic for Windows? Hmmm. Putin's nostalgic for the Soviet
+Union. That's no reason to support Russia's war on Ukraine...
 
-  Instead, some truth-telling from the installation instructions for
-  AUCTEX (a free typesetting program based on TeX):
+Instead, some truth-telling from the installation instructions for
+AUCTEX (a free typesetting program based on TeX):
 
-  #+begin_quote
-  "Windows is a problematic platform for installation scripts. The main
-  problem is that the installation procedure requires consistent file
-  names in order to find its way in the directory hierarchy, and Windows
-  path names are a mess." ([[https://www.gnu.org/software/auctex/manual/auctex/Installation-under-MS-Windows.html][gnu.org]])
-  #+end_quote
+#+begin_quote
+"Windows is a problematic platform for installation scripts. The main
+problem is that the installation procedure requires consistent file
+names in order to find its way in the directory hierarchy, and Windows
+path names are a mess." ([[https://www.gnu.org/software/auctex/manual/auctex/Installation-under-MS-Windows.html][gnu.org]])
+#+end_quote
 
-  The crazy thing is that I will never get these hours of struggling
-  with Windows back! And unlike my previous, equally countless hours
-  of struggling with Linux, I did not learn a single thing, and very
-  little is useful in the future, because where the journey goes
-  nobody knows with Windows, and paying for the trip does not give
-  you the privilege of knowing.
+The crazy thing is that I will never get these hours of struggling
+with Windows back! And unlike my previous, equally countless hours
+of struggling with Linux, I did not learn a single thing, and very
+little is useful in the future, because where the journey goes
+nobody knows with Windows, and paying for the trip does not give
+you the privilege of knowing.
 
 * "I can teach it to you but I cannot learn it for you"
 
-  This quote always impressed me as a profound, perhaps trivial
-  truth[fn:16]. I think it whenever I feel bad about a student
-  failing on my watch, which does happen, though not all that often,
-  I think. Last week, a bunch of students kind of failed a few of my
-  tests. "Kind of" means that most of them did not actually fail (<
-  50%) but the average success was still below my expectations -
-  below 65% in three out of four courses.
+This quote always impressed me as a profound, perhaps trivial
+truth[fn:16]. I think it whenever I feel bad about a student
+failing on my watch, which does happen, though not all that often,
+I think. Last week, a bunch of students kind of failed a few of my
+tests. "Kind of" means that most of them did not actually fail (<
+50%) but the average success was still below my expectations -
+below 65% in three out of four courses.
 
-  Today this quote flickered across my screen:
+Today this quote flickered across my screen:
 
-  #+caption: Feynman quote
-  #+attr_html: :width 500px
-  [[./img/feynman.png]]
+#+caption: Feynman quote
+#+attr_html: :width 500px
+[[./img/feynman.png]]
 
-  This relates, because, unfortunately for many of the students, it
-  all begins with "memorization" of many initially unconnected
-  facts. Computer science is much more like a craft, much more like
-  medicine than mathematics. In practice, it is more focused on
-  diagnostics and problem solving through heuristics than on
-  creativity, thinking, understanding and questioning.
+This relates, because, unfortunately for many of the students, it
+all begins with "memorization" of many initially unconnected
+facts. Computer science is much more like a craft, much more like
+medicine than mathematics. In practice, it is more focused on
+diagnostics and problem solving through heuristics than on
+creativity, thinking, understanding and questioning.
 
-  In order to be a successful computer diagnostician, i.e. assess
-  problems quickly and identify a catalog of possible solutions, you
-  simply need to have a lot of facts at your hands. Unlike
-  mathematics, and more like in biology perhaps, and medicine, these
-  facts are not neatly organized so that learning a few principles or
-  formulas enables you to save yourself from the woes of
-  memorization. In fact there are many patterns but a beginner can't
-  see them.
+In order to be a successful computer diagnostician, i.e. assess
+problems quickly and identify a catalog of possible solutions, you
+simply need to have a lot of facts at your hands. Unlike
+mathematics, and more like in biology perhaps, and medicine, these
+facts are not neatly organized so that learning a few principles or
+formulas enables you to save yourself from the woes of
+memorization. In fact there are many patterns but a beginner can't
+see them.
 
-  One of my jobs as a teacher is to help students see the
-  patterns. I do this by showing them how I use them - and I do this
-  again and again and again. Different students develop the ability
-  to see and act upon identified patterns at different speed and to
-  different degrees. I have no doubt that some of them get much
-  better at it than I could ever be.
+One of my jobs as a teacher is to help students see the
+patterns. I do this by showing them how I use them - and I do this
+again and again and again. Different students develop the ability
+to see and act upon identified patterns at different speed and to
+different degrees. I have no doubt that some of them get much
+better at it than I could ever be.
 
-  Put differently, to divide the lofty goals - thinking, understanding
-  and questioning - from "memorization" is unfair and
-  unrealistic. Some degree of memorization goes a long way towards
-  developing these other abilities.
+Put differently, to divide the lofty goals - thinking, understanding
+and questioning - from "memorization" is unfair and
+unrealistic. Some degree of memorization goes a long way towards
+developing these other abilities.
 
-  The trick is not to avoid memorization - e.g. by dreaming that
-  anything can be found online given good finding skills (a hope that
-  is more often disappointed than justified, though Google will not
-  hasten to let you know it). The trick is to make memorization fun.
+The trick is not to avoid memorization - e.g. by dreaming that
+anything can be found online given good finding skills (a hope that
+is more often disappointed than justified, though Google will not
+hasten to let you know it). The trick is to make memorization fun.
 
-  Now, unlike in medicine and biology, fun memorizing in computer
-  science is always possible simply by playing around with programs
-  and computers. For example, being able to use the command line for
-  data science - to navigate, alter, and analyze files - depends on
-  the knowledge (aka memory) of dozens of Unix commands. I have never
-  tried to memorize a single of these commands, but I have spent
-  countless hours trying to solve problems and playing around with
-  them. In the process of doing that, I learnt using them. If I no
-  longer need them, I don't use them, and I forget them quickly
-  enough.
+Now, unlike in medicine and biology, fun memorizing in computer
+science is always possible simply by playing around with programs
+and computers. For example, being able to use the command line for
+data science - to navigate, alter, and analyze files - depends on
+the knowledge (aka memory) of dozens of Unix commands. I have never
+tried to memorize a single of these commands, but I have spent
+countless hours trying to solve problems and playing around with
+them. In the process of doing that, I learnt using them. If I no
+longer need them, I don't use them, and I forget them quickly
+enough.
 
-  Alas, I don't see many students do that, and I don't understand
-  why. You can even have fun with flags!
+Alas, I don't see many students do that, and I don't understand
+why. You can even have fun with flags!
 
-  #+caption: Fun with flags (Big Bang Theory)
-  #+attr_html: :width 500px
-  [[./img/funwithflags.jpg]]
+#+caption: Fun with flags (Big Bang Theory)
+#+attr_html: :width 500px
+[[./img/funwithflags.jpg]]
 
 * Charting your career
 
-  Did a free online "career" test with truity.com. These 94 questions
-  aren't really enough to establish independence - 400 or so are more
-  like it. Still, I suppose problem solving to improve the world is my
-  thing, leaning towards innovation.
+Did a free online "career" test with truity.com. These 94 questions
+aren't really enough to establish independence - 400 or so are more
+like it. Still, I suppose problem solving to improve the world is my
+thing, leaning towards innovation.
 
-  #+caption: Information processing and problem-solving process (Source: truity.com)
-  #+attr_html: :width 600px
-  [[./img/truity.png]]
+#+caption: Information processing and problem-solving process (Source: truity.com)
+#+attr_html: :width 600px
+[[./img/truity.png]]
 
-  My "career interests" are more in line with how I see myself: I like
-  making and building things, not necessarily creatively. As a
-  teacher, I am a persuasion professional. Personally, I don't feel
-  like much of a "thinker" and more like a "doer" but the test
-  disagrees.
+My "career interests" are more in line with how I see myself: I like
+making and building things, not necessarily creatively. As a
+teacher, I am a persuasion professional. Personally, I don't feel
+like much of a "thinker" and more like a "doer" but the test
+disagrees.
 
-  #+caption: Career interests (Source: truity.com)
-  #+attr_html: :width 600px
-  [[./img/truity1.png]]
+#+caption: Career interests (Source: truity.com)
+#+attr_html: :width 600px
+[[./img/truity1.png]]
 
-  If you're interested in career building, don't trust in these tests,
-  but read Richard Bolles' "[[https://www.amazon.com/What-Color-Your-Parachute-2021/dp/198485786X][What color is your parachute]]" instead![fn:1]
+If you're interested in career building, don't trust in these tests,
+but read Richard Bolles' "[[https://www.amazon.com/What-Color-Your-Parachute-2021/dp/198485786X][What color is your parachute]]" instead![fn:1]
 
 * Connecting to GDrive on the Pi
 
-  Spent a few hours figuring this out. I was mislead by a 2019 blog
-  post, which suggested to create an app with Google Cloud Services
-  (GCS) to do this, and then using the ~rclone~ program to access the
-  app. This involved setting up an account with GCS, leaving billing
-  information, setting up the API, etc.
+Spent a few hours figuring this out. I was mislead by a 2019 blog
+post, which suggested to create an app with Google Cloud Services
+(GCS) to do this, and then using the ~rclone~ program to access the
+app. This involved setting up an account with GCS, leaving billing
+information, setting up the API, etc.
 
-  After I had done all that, I started ~rclone~ on the Pi and realized
-  that it was all a lot easier than I had thought: ~rclone.org/drive~
-  contains the complete instructions, independent of GCS.
+After I had done all that, I started ~rclone~ on the Pi and realized
+that it was all a lot easier than I had thought: ~rclone.org/drive~
+contains the complete instructions, independent of GCS.
 
-  Even better: on GNU Emacs, Tramp + rclone enable seamless access to
-  remote servers: in the picture, you see GDrive in the top buffer,
-  below it you can see that autocompletion works as well. Tramp
-  requires the format ~/rclone:gdrive:/~, where ~rclone~ is the
-  method, like ~ssh~ or ~ftp~ etc.
+Even better: on GNU Emacs, Tramp + rclone enable seamless access to
+remote servers: in the picture, you see GDrive in the top buffer,
+below it you can see that autocompletion works as well. Tramp
+requires the format ~/rclone:gdrive:/~, where ~rclone~ is the
+method, like ~ssh~ or ~ftp~ etc.
 
-  #+caption: GDrive in GNU Emacs
-  #+attr_html: :width 700px
-  [[./img/rclone.png]]
+#+caption: GDrive in GNU Emacs
+#+attr_html: :width 700px
+[[./img/rclone.png]]
 
-  Easy access to my Lyon GDrive was the last reason to keep my Windoze
-  box. I am now full time on a tiny Raspberry Pi running Raspbian
-  Linux. I will take it to class, too, and use it as my desktop
-  (especially since the front desktop PC is the last old PC left in
-  the room, and even slower than my 4GB Pi 4). Since all the Pi knows
-  is on its 32 GB SD card, I am more portable than I've ever been.
+Easy access to my Lyon GDrive was the last reason to keep my Windoze
+box. I am now full time on a tiny Raspberry Pi running Raspbian
+Linux. I will take it to class, too, and use it as my desktop
+(especially since the front desktop PC is the last old PC left in
+the room, and even slower than my 4GB Pi 4). Since all the Pi knows
+is on its 32 GB SD card, I am more portable than I've ever been.
 
-  The only benefit from looking at GCS: I found out that you can get
-  access to a free shell - in the picture, you see information about
-  the OS and the CPUs. Apparently, this is a docker image.
+The only benefit from looking at GCS: I found out that you can get
+access to a free shell - in the picture, you see information about
+the OS and the CPUs. Apparently, this is a docker image.
 
-  #+caption: Google Cloud Services shell
-  #+attr_html: :width 600ps
-  [[./img/cgs.png]]
+#+caption: Google Cloud Services shell
+#+attr_html: :width 600ps
+[[./img/cgs.png]]
 
-  The process is journaled in the [[https://github.com/birkenkrahe/os420/blob/main/FAQ.org][CSC420 (Operating Systems) FAQ]].
+The process is journaled in the [[https://github.com/birkenkrahe/os420/blob/main/FAQ.org][CSC420 (Operating Systems) FAQ]].
 
 * Rasperry Pi projectL 5-inch touchscreen
 
-  What I did over the weekend after recording a bunch of [[https://youtube.com/playlist?list=PLwgb17bzeNygo8GU6SivwwjsQj9QabqAJ][tutorial
-  videos for Emacs]]. This touchscreen can also be attached directly to
-  the Pi. I think I might find another way of mounting it or attach it
-  to another Pi.
+What I did over the weekend after recording a bunch of [[https://youtube.com/playlist?list=PLwgb17bzeNygo8GU6SivwwjsQj9QabqAJ][tutorial
+videos for Emacs]]. This touchscreen can also be attached directly to
+the Pi. I think I might find another way of mounting it or attach it
+to another Pi.
 
-  #+caption: Elecrow 5' touchscreen with a Raspberry Pi 4B
-  #+attr_html: :width 600px
-  [[./img/screen.jpg]]
+#+caption: Elecrow 5' touchscreen with a Raspberry Pi 4B
+#+attr_html: :width 600px
+[[./img/screen.jpg]]
 
 * News - Internships, Data Science Fellowship Program and Micro-Internships
 ** Data Science Fellowship Program at CMU
 
-   (Via Prof Dave Thomas, Lyon College)
+(Via Prof Dave Thomas, Lyon College)
 
-   #+begin_quote
-   The Data Science for Social Good Fellowship is a full-time summer
-   program to train aspiring data scientists to work on machine
-   learning, data science, and AI projects with social impact in a
-   fair and equitable manner. Working closely with governments and
-   nonprofits, fellows take on real-world problems in education,
-   health, criminal justice, sustainability, public safety, workforce
-   development, human services, transportation, economic development,
-   international development, and more.
+#+begin_quote
+The Data Science for Social Good Fellowship is a full-time summer
+program to train aspiring data scientists to work on machine
+learning, data science, and AI projects with social impact in a
+fair and equitable manner. Working closely with governments and
+nonprofits, fellows take on real-world problems in education,
+health, criminal justice, sustainability, public safety, workforce
+development, human services, transportation, economic development,
+international development, and more.
 
-   For three months they learn, hone, and apply their data science,
-   analytical, and coding skills, collaborate in a fast-paced
-   atmosphere, and learn from full-time mentors coming from industry
-   and academia.
+For three months they learn, hone, and apply their data science,
+analytical, and coding skills, collaborate in a fast-paced
+atmosphere, and learn from full-time mentors coming from industry
+and academia.
 
-   Learn more and apply at: https://www.dssgfellowship.org/
-   #+end_quote
+Learn more and apply at: https://www.dssgfellowship.org/
+#+end_quote
 
 ** Internship opportunities at Stone Ward, Little Rock
 
-   (Via Matthew Stewart, Stone Ward Marketing Agency)
+(Via Matthew Stewart, Stone Ward Marketing Agency)
 
-   #+begin_quote
+#+begin_quote
 
 Stone Ward is hosting our annual *paid summer internship* in our
 Little Rock office this year. I was hoping you all could either point
@@ -260,765 +294,765 @@ the summer internship, I would suggest they look at the media or
 web development internships as those are the most numbers heavy.
 
 Thanks so much!
-   #+end_quote
+#+end_quote
 
 *** Details:
 
-    * APPLICATION DEADLINE: Friday, March 4, 2022
-    * INTERNSHIP DATES: June 6 – July 29, 2022
-    * LOCATION: Stone Ward office in Little Rock, AR
-    * $2,800 stipend for living expenses
+* APPLICATION DEADLINE: Friday, March 4, 2022
+* INTERNSHIP DATES: June 6 – July 29, 2022
+* LOCATION: Stone Ward office in Little Rock, AR
+* $2,800 stipend for living expenses
 
-    This isn’t the kind of program where interns spend all day making
-    coffee. Our interns get the chance to make a difference. Camp
-    Reality is an exciting and immersive opportunity for students who
-    are eager to learn about the world of advertising. We offer them:
+This isn’t the kind of program where interns spend all day making
+coffee. Our interns get the chance to make a difference. Camp
+Reality is an exciting and immersive opportunity for students who
+are eager to learn about the world of advertising. We offer them:
 
-    * Exposure to and experience in nine different departments, with
-      a day-to-day focus on one
-    * The opportunity to work on real-life assignments for clients
-    * Building portfolio pieces
-    * Time and space to collaborate on projects with fellow interns
-    * Field trips that provide perspective on the different aspects
-      of advertising
-    * Lessons and advice from our experts within the agency
+* Exposure to and experience in nine different departments, with
+a day-to-day focus on one
+* The opportunity to work on real-life assignments for clients
+* Building portfolio pieces
+* Time and space to collaborate on projects with fellow interns
+* Field trips that provide perspective on the different aspects
+of advertising
+* Lessons and advice from our experts within the agency
 
-    Camp Reality is the internship for go-getters who are ready to
-    put their boots on the ground. Do you know a student who fits the
-    bill?
+Camp Reality is the internship for go-getters who are ready to
+put their boots on the ground. Do you know a student who fits the
+bill?
 
-    If you do know them, please send them our way! Forward them the
-    flyer and student letter that are attached to this email. For the
-    students you don’t know personally, print and post flyers across
-    campus. Our internships aren’t limited to any certain majors, so
-    you can share this information with your colleagues in various
-    departments – shoot them the [[https://drive.google.com/drive/folders/1g5xp4hgksKg0U0Yefq3CQ2uk8dcU6FOB?usp=sharing][attached student materials]] as well
-    as the attached instructor letter.
+If you do know them, please send them our way! Forward them the
+flyer and student letter that are attached to this email. For the
+students you don’t know personally, print and post flyers across
+campus. Our internships aren’t limited to any certain majors, so
+you can share this information with your colleagues in various
+departments – shoot them the [[https://drive.google.com/drive/folders/1g5xp4hgksKg0U0Yefq3CQ2uk8dcU6FOB?usp=sharing][attached student materials]] as well
+as the attached instructor letter.
 
 
 ** Virtual Micro-internships at Stone Ward
 
-   Also related to Stone Ward marketing agency: I'm in the process of
-   revitalizing the existing (since 2020) data science partnership
-   with this firm. Matthew Stewart and a colleague will come and talk
-   to us in the data science class (& I will share the talk/recording
-   with all students in my classes) some time in March.
+Also related to Stone Ward marketing agency: I'm in the process of
+revitalizing the existing (since 2020) data science partnership
+with this firm. Matthew Stewart and a colleague will come and talk
+to us in the data science class (& I will share the talk/recording
+with all students in my classes) some time in March.
 
-   Over the summer, there will be room for a couple of students to
-   work on a data visualization project with Matthew and me (possibly
-   involving R Shiny - an analysis dashboard framework based on R).
+Over the summer, there will be room for a couple of students to
+work on a data visualization project with Matthew and me (possibly
+involving R Shiny - an analysis dashboard framework based on R).
 
-   Other micro internships - each lasting about 3 weeks of focused,
-   intense work - might involve real clients of Stone Ward. While
-   these micro-internships are unpaid, they are a great opportunity to
-   learn skills, build a network, and start a project portfolio.
+Other micro internships - each lasting about 3 weeks of focused,
+intense work - might involve real clients of Stone Ward. While
+these micro-internships are unpaid, they are a great opportunity to
+learn skills, build a network, and start a project portfolio.
 
 * The Battle Of The Five Armies (Jan 4, 2022)
 
-  Some of the story behind the picture below that I also put in all
-  courses on the Schoology platform.
+Some of the story behind the picture below that I also put in all
+courses on the Schoology platform.
 
-  What I read this morning in "The Linux Command Line" (Shotts, 2019)
-  summarizes my sentiments towards open source, and why I prefer it:
+What I read this morning in "The Linux Command Line" (Shotts, 2019)
+summarizes my sentiments towards open source, and why I prefer it:
 
-  #+begin_quote
-  "Many people speak of 'freedom' with regard to Linux, but I don't
-  think most people know what this freedom really means. Freedom is the
-  power to decide what your computer does, and the only way to have this
-  freedom is to know what your computer is doing. Freedom is a computer
-  that is without secrets, one where everything can be known if you care
-  enough to find out."
-  #+end_quote
+#+begin_quote
+"Many people speak of 'freedom' with regard to Linux, but I don't
+think most people know what this freedom really means. Freedom is the
+power to decide what your computer does, and the only way to have this
+freedom is to know what your computer is doing. Freedom is a computer
+that is without secrets, one where everything can be known if you care
+enough to find out."
+#+end_quote
 
-  This quote inspired me to read on and make the book from which is
-  came central to my new course on "Operating Systems", which deals
-  mostly with [[https://www.gnu.org/home.en.html][GNU/Linux]]. I've also (re-)joined the [[https://www.fsf.org/][Free Software
-  Foundation]] at the end of last year, and I'm mandating Emacs in one
-  (C/C++), and recommending it in all my other courses ([[https://github.com/birkenkrahe/org/blob/master/FAQ.org#why-emacs-for-programming][see also FAQ]]).
+This quote inspired me to read on and make the book from which is
+came central to my new course on "Operating Systems", which deals
+mostly with [[https://www.gnu.org/home.en.html][GNU/Linux]]. I've also (re-)joined the [[https://www.fsf.org/][Free Software
+Foundation]] at the end of last year, and I'm mandating Emacs in one
+(C/C++), and recommending it in all my other courses ([[https://github.com/birkenkrahe/org/blob/master/FAQ.org#why-emacs-for-programming][see also FAQ]]).
 
-  #+attr_html: :width 600px
-  [[./img/fivearmies.jpg]]
+#+attr_html: :width 600px
+[[./img/fivearmies.jpg]]
 
-  I had already been quite bent on having fun with many languages:
-  five will take center stage in my spring 2022 courses - *C/C++* in an
-  introductory programming class, *SQL* in a class on databases, *R* in an
-  advanced introduction to data science, and *Bash* (perhaps even
-  *Awk*) in Operating Systems. Apart from R, all of these languages
-  are important to instruct computers as part of large systems, which
-  is why I created a whole lecture on "Systems" that, however, I don't
-  think I'll have time to present. Will see.
+I had already been quite bent on having fun with many languages:
+five will take center stage in my spring 2022 courses - *C/C++* in an
+introductory programming class, *SQL* in a class on databases, *R* in an
+advanced introduction to data science, and *Bash* (perhaps even
+*Awk*) in Operating Systems. Apart from R, all of these languages
+are important to instruct computers as part of large systems, which
+is why I created a whole lecture on "Systems" that, however, I don't
+think I'll have time to present. Will see.
 
-  In any case, I am committed to have some programming fun and not let
-  the party be spoilt by either COVID, or by the fact that 4 classes
-  in parallel is a bit much. It'll be fine as long as I can remain
-  faithful to my style, which is to source all courses from a common
-  fount. Helpful: the ongoing support from both [[https://datacamp.com][DataCamp]] (through
-  their tutorials), and [[https://signavio.com][Signavio]] (through their process platform).
+In any case, I am committed to have some programming fun and not let
+the party be spoilt by either COVID, or by the fact that 4 classes
+in parallel is a bit much. It'll be fine as long as I can remain
+faithful to my style, which is to source all courses from a common
+fount. Helpful: the ongoing support from both [[https://datacamp.com][DataCamp]] (through
+their tutorials), and [[https://signavio.com][Signavio]] (through their process platform).
 
 * Creating simple process diagrams in Emacs (Dec 27, 2021)
 
-  I needed diagrams because I wanted to make a simple
-  diagram. Usually, I would have drawn this in Signavio, or in
-  PowerPoint, made a screenshot, saved it and embedded it in the
-  Org-file using Emacs. 4 steps, 4 softwares, and not much to show for
-  it.
+I needed diagrams because I wanted to make a simple
+diagram. Usually, I would have drawn this in Signavio, or in
+PowerPoint, made a screenshot, saved it and embedded it in the
+Org-file using Emacs. 4 steps, 4 softwares, and not much to show for
+it.
 
-  Since I like to do everything in Emacs using the keyboard, I was
-  curious if this can be done using ASCII, without extra tools. I
-  found two ways (in fact, there is a third one, Emacs ~artist~ mode
-  (built into Emacs) and ~ditaa~ (which is no longer distributed with
-  Org).
+Since I like to do everything in Emacs using the keyboard, I was
+curious if this can be done using ASCII, without extra tools. I
+found two ways (in fact, there is a third one, Emacs ~artist~ mode
+(built into Emacs) and ~ditaa~ (which is no longer distributed with
+Org).
 
-  1) [[https://robrohan.com/2015/01/17/poor-mans-uml-artist-mode.html][Poor man's UML / Emacs Artist Mode]] (Rohan, 2015)
-  2) [[https://flylib.com/books/en/2.27.1.72/1/][Drawing with ~picture-mode~]]
-  3) [[https://orgmode.org/worg/org-tutorials/org-dot-diagrams.html][Generating simple process diagrams using dot and tables]]
-  4) [[https://plantuml.com/emacs][PlantUML and Emacs]] - wrapper to [[http://www.graphviz.org/][GraphViz]]
+   1) [[https://robrohan.com/2015/01/17/poor-mans-uml-artist-mode.html][Poor man's UML / Emacs Artist Mode]] (Rohan, 2015)
+   2) [[https://flylib.com/books/en/2.27.1.72/1/][Drawing with ~picture-mode~]]
+   3) [[https://orgmode.org/worg/org-tutorials/org-dot-diagrams.html][Generating simple process diagrams using dot and tables]]
+   4) [[https://plantuml.com/emacs][PlantUML and Emacs]] - wrapper to [[http://www.graphviz.org/][GraphViz]]
 
-  For today, I'll only try artist mode, but I'm especially
-  interested in ~PlantUML~, because I want to teach the students to
-  create simple UML diagrams before coding.
+      For today, I'll only try artist mode, but I'm especially
+      interested in ~PlantUML~, because I want to teach the students to
+      create simple UML diagrams before coding.
 
-  *Note that these diagrams do not render properly on GitHub (either
-  as Org or Markdown files), or as HTML in a browser. Best look at it
-  in Emacs. For this post, I have inserted screenshots.
+      *Note that these diagrams do not render properly on GitHub (either
+      as Org or Markdown files), or as HTML in a browser. Best look at it
+      in Emacs. For this post, I have inserted screenshots.
 
 ** ~ascii-art-to-unicode~
 
-   When I looked for ~artist-mode~ in the ~*Packages*~ list, I found
-   that it was built-in, but I found another neat addition in the
-   package list, [[https://elpa.gnu.org/packages/ascii-art-to-unicode.html][~ascii-art-to-unicode~]]. This package polishes simple
-   line drawings and makes them look much better. Installed
-   it. Here is an example:
+When I looked for ~artist-mode~ in the ~*Packages*~ list, I found
+that it was built-in, but I found another neat addition in the
+package list, [[https://elpa.gnu.org/packages/ascii-art-to-unicode.html][~ascii-art-to-unicode~]]. This package polishes simple
+line drawings and makes them look much better. Installed
+it. Here is an example:
 
-   | Key sequence        | Action or function           |
-   |---------------------+------------------------------|
-   | M-x artist-mode RET | Invoke artist mode           |
-   | C-c C-a r           | ~artist-select-op-rectangle~ |
+| Key sequence        | Action or function           |
+|---------------------+------------------------------|
+| M-x artist-mode RET | Invoke artist mode           |
+| C-c C-a r           | ~artist-select-op-rectangle~ |
 
 
-   [[./img/aa2u.png]]
+[[./img/aa2u.png]]
 
-   | Key sequence    | Action or function |
-   |-----------------+--------------------|
-   | C-c C-c         | ~artist-mode-off~  |
-   | C-x n n         | ~narrow-to-region~ |
-   | untabify region | ~untabify~         |
-   | M-x aa2u RET    | Apply aa2u         |
+| Key sequence    | Action or function |
+|-----------------+--------------------|
+| C-c C-c         | ~artist-mode-off~  |
+| C-x n n         | ~narrow-to-region~ |
+| untabify region | ~untabify~         |
+| M-x aa2u RET    | Apply aa2u         |
 
-   [[./img/aa2u1.png]]
+[[./img/aa2u1.png]]
 
-   Check the [[https://elpa.gnu.org/packages/ascii-art-to-unicode.html][vignette for aa2u]] for more details.
+Check the [[https://elpa.gnu.org/packages/ascii-art-to-unicode.html][vignette for aa2u]] for more details.
 
 ** Emacs ~artist-mode~
 
-   #+begin_quote
-   "Most people that see me using it either think it’s the most
-   ridiculous thing they’ve seen, or they think it’s the coolest thing
-   since sliced bread." (Rob Rohan, 2015)
-   #+end_quote
+#+begin_quote
+"Most people that see me using it either think it’s the most
+ridiculous thing they’ve seen, or they think it’s the coolest thing
+since sliced bread." (Rob Rohan, 2015)
+#+end_quote
 
-   I side with those who think it's cool. Tried this first a couple of
-   years back when I returned to Emacs but haven't used it since.
+I side with those who think it's cool. Tried this first a couple of
+years back when I returned to Emacs but haven't used it since.
 
-   There is a [[https://youtu.be/cIuX87Xo8Fc][video demo]] (13 min) at the end Rohan's blog post. Here,
-   I'm going to retrace the demo and aim at creating my own simple
-   diagram at the end. I won't bother with PNG files via ~ditaa~ for
-   now.
+There is a [[https://youtu.be/cIuX87Xo8Fc][video demo]] (13 min) at the end Rohan's blog post. Here,
+I'm going to retrace the demo and aim at creating my own simple
+diagram at the end. I won't bother with PNG files via ~ditaa~ for
+now.
 
-   To make the ASCII art into image files, Rohan suggests [[http://ditaa.sourceforge.net/][~ditaa~]],
-   which apparently was bundled with Org in the past, but is no longer
-   bundled with it.
+To make the ASCII art into image files, Rohan suggests [[http://ditaa.sourceforge.net/][~ditaa~]],
+which apparently was bundled with Org in the past, but is no longer
+bundled with it.
 
-   ~artist~ mode is built in. From the vignette[fn:2]:
+~artist~ mode is built in. From the vignette[fn:2]:
 
-   #+begin_quote
-   "Artist is an Emacs lisp package that allows you to draw lines,
-   rectangles, squares, poly-lines, ellipses and circles by using your
-   mouse and/or keyboard. The shapes are made up with the ascii
-   characters |, -, / and \."  ([[https://www.emacswiki.org/emacs/ArtistMode][Source: EmacsWiki]])
-   #+end_quote
+#+begin_quote
+"Artist is an Emacs lisp package that allows you to draw lines,
+rectangles, squares, poly-lines, ellipses and circles by using your
+mouse and/or keyboard. The shapes are made up with the ascii
+characters |, -, / and \."  ([[https://www.emacswiki.org/emacs/ArtistMode][Source: EmacsWiki]])
+#+end_quote
 
 *** Drawing a poly-line
 
-    This is the example from the vignette:
+This is the example from the vignette:
 
-    #+begin_example
-    M-x artist-mode RET
-    C-c C-a p RET
-    RET
-    #+end_example
+#+begin_example
+M-x artist-mode RET
+C-c C-a p RET
+RET
+#+end_example
 
-    [[./img/polyline.png]]
+[[./img/polyline.png]]
 
-    To create it, I just moved around the screen with my cursor, and
-    Emacs created a line drawing from it. You should try it!
+To create it, I just moved around the screen with my cursor, and
+Emacs created a line drawing from it. You should try it!
 
 *** Rectangles
 
-    #+begin_example
-    M-x artist-mode
-    C-c C-a r
-    <draw rectangles>
+#+begin_example
+M-x artist-mode
+C-c C-a r
+<draw rectangles>
 #+end_example
 
-    Here are a few examples[fn:3]:
+Here are a few examples[fn:3]:
 
-    [[./img/rectangles.png]]
+[[./img/rectangles.png]]
 
 *** Add text
 
-    #+begin_example
-      M-x artist-mode
-      C-c C-a t
-      <enter text>
-    #+end_example
+#+begin_example
+  M-x artist-mode
+  C-c C-a t
+  <enter text>
+#+end_example
 
-    [[./img/text.png]]
+[[./img/text.png]]
 
 *** Flood fill
 
-    The following sequence created the filled rectangle below. You can
-    call upon all ~artist-mode~ commands with the mouse
-    ~<middle-button>~:
+The following sequence created the filled rectangle below. You can
+call upon all ~artist-mode~ commands with the mouse
+~<middle-button>~:
 
-    [[./img/middle.png]]
+[[./img/middle.png]]
 
-    #+begin_example
-    M-x artist-mode
-    C-c C-a r
-    <draw rectangle>
-    <middle-button>
-    <flood fill>
-    #+end_example
+#+begin_example
+M-x artist-mode
+C-c C-a r
+<draw rectangle>
+<middle-button>
+<flood fill>
+#+end_example
 
-    [[./img/fill.png]]
+[[./img/fill.png]]
 
 *** Other commands
 
-    The image shows the ~artist-mode~ menu.
+The image shows the ~artist-mode~ menu.
 
-    [[./img/menu.png]]
+[[./img/menu.png]]
 
-    Especially when you have a tablet, drawing with "pen" is
-    cool. Artist mode is for friends of the mouse or pen. Keyboard
-    afficionados may prefer ~picture-mode~.
+Especially when you have a tablet, drawing with "pen" is
+cool. Artist mode is for friends of the mouse or pen. Keyboard
+afficionados may prefer ~picture-mode~.
 
-    Important: when drawing in an Org-mode file, use ~C-x n n~
-    (~narrow-to-region~), to draw without disturbance. The presence of
-    headlines gets ~artist-mode~ confused at times. Return to the
-    buffer with ~C-x n w~ (~widen~).
+Important: when drawing in an Org-mode file, use ~C-x n n~
+(~narrow-to-region~), to draw without disturbance. The presence of
+headlines gets ~artist-mode~ confused at times. Return to the
+buffer with ~C-x n w~ (~widen~).
 
-    Cool: you can copy/cut/paste figures to the clipboard by drawing a
-    rectangle around it.
+Cool: you can copy/cut/paste figures to the clipboard by drawing a
+rectangle around it.
 
-    [[./img/clip.png]]
+[[./img/clip.png]]
 
 *** Rendering ASCII art as graphics
 
-    [[https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-ditaa.html][~ditaa~]] will convert ASCII diagrams into bitmap graphics. ~ditaa~
-    is a Java library that is executed on the command line after being
-    loaded into Emacs as a Babel file. The second part of [[https://youtu.be/cIuX87Xo8Fc][Rohan's
-    video demo]] shows examples.
+[[https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-ditaa.html][~ditaa~]] will convert ASCII diagrams into bitmap graphics. ~ditaa~
+is a Java library that is executed on the command line after being
+loaded into Emacs as a Babel file. The second part of [[https://youtu.be/cIuX87Xo8Fc][Rohan's
+video demo]] shows examples.
 
-    Can't wait to try this with students in class!
+Can't wait to try this with students in class!
 * My feeling before the spring term 2022 (Dec 26, 2021)
 
-  [[https://drive.google.com/file/d/1PMvBQlHSvB-gmQ4hvuvfkFg4YUxOee6m/view?usp=sharing][My feeling before the spring term 2022.]] (30 sec video)
+[[https://drive.google.com/file/d/1PMvBQlHSvB-gmQ4hvuvfkFg4YUxOee6m/view?usp=sharing][My feeling before the spring term 2022.]] (30 sec video)
 
-  [[./img/spring2022.png]]
+[[./img/spring2022.png]]
 
-  (Source: [[https://twitter.com/zone_astronomy/status/1474930694698815488?s=20][Twitter]].)
+(Source: [[https://twitter.com/zone_astronomy/status/1474930694698815488?s=20][Twitter]].)
 
-  Also: I'm enjoying [[https://www.quantamagazine.org/the-year-in-math-and-computer-science-20211223/][2021's breakthroughs in maths and computer
-  science]] (Quantamagazine, 2021) while preparing classes.
+Also: I'm enjoying [[https://www.quantamagazine.org/the-year-in-math-and-computer-science-20211223/][2021's breakthroughs in maths and computer
+science]] (Quantamagazine, 2021) while preparing classes.
 
 * Emacs + ESS + Org-Mode (Dec 23, 2021)
 
-  There's a new kid in town - at least as far as Lyon CS is concerned:
-  Emacs + ESS + Org-mode. There are various FAQs (that nobody ever
-  asked, actually) on Emacs, and the whole topic will heat up now that
-  I haved decided to introduce Emacs + ESS + Org-mode for literate
-  source code programming (LitProg) and data science (DS) in all my
-  classes.
+There's a new kid in town - at least as far as Lyon CS is concerned:
+Emacs + ESS + Org-mode. There are various FAQs (that nobody ever
+asked, actually) on Emacs, and the whole topic will heat up now that
+I haved decided to introduce Emacs + ESS + Org-mode for literate
+source code programming (LitProg) and data science (DS) in all my
+classes.
 
-  There is a deeper reason for Emacs and LitProg: CS people (everybody
-  really) has to deal with information systems that get more and more
-  complicated and conceptually difficult. Abstraction is the name of
-  the game everywhere. CS and DS are system sciences (or crafts), and
-  they deserve the best paradigm when it comes to system control and
-  management, and Emacs is the answer to that.
+There is a deeper reason for Emacs and LitProg: CS people (everybody
+really) has to deal with information systems that get more and more
+complicated and conceptually difficult. Abstraction is the name of
+the game everywhere. CS and DS are system sciences (or crafts), and
+they deserve the best paradigm when it comes to system control and
+management, and Emacs is the answer to that.
 
-  Here is a particularly interesting [[https://www.admiralbumblebee.com/programming/2020/01/04/Six-months-VS-Code.html][recent post]] by AdmiralBumbleBee
-  (2020) contrasting VS Code and Emacs, concluding that Emacs is a
-  superior environment when it comes to:
+Here is a particularly interesting [[https://www.admiralbumblebee.com/programming/2020/01/04/Six-months-VS-Code.html][recent post]] by AdmiralBumbleBee
+(2020) contrasting VS Code and Emacs, concluding that Emacs is a
+superior environment when it comes to:
 
-  * Windows management (with ~ace-windows~)
-  * File management (with ~Dired~)
-  * Coding (especially literate coding with ~Org-mode~)
-  * Extending functionality (~Elisp~ packages)
+* Windows management (with ~ace-windows~)
+* File management (with ~Dired~)
+* Coding (especially literate coding with ~Org-mode~)
+* Extending functionality (~Elisp~ packages)
 
-  Especially for students (rather than developers with their
-  state-of-the-art computers), Emacs is good because it's easy on the
-  memory and the processing even if your laptop is not from 2022.
+Especially for students (rather than developers with their
+state-of-the-art computers), Emacs is good because it's easy on the
+memory and the processing even if your laptop is not from 2022.
 
-  I also enjoyed [[https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs][Timachi's post (2019)]], who switched to VS Code and
-  back. Regarding Emacs' famous "steep learning curve" (which I cannot
-  confirm - I remember learning Emacs for the first time ages ago, and
-  re-learning it a couple of years ago):
+I also enjoyed [[https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs][Timachi's post (2019)]], who switched to VS Code and
+back. Regarding Emacs' famous "steep learning curve" (which I cannot
+confirm - I remember learning Emacs for the first time ages ago, and
+re-learning it a couple of years ago):
 
-  #+begin_quote
-  "Emacs can be a challenge if you are used to using mouse
-  pointer. One should be willing to leave the mouse and stick with the
-  keyboard."
-  #+end_quote
+#+begin_quote
+"Emacs can be a challenge if you are used to using mouse
+pointer. One should be willing to leave the mouse and stick with the
+keyboard."
+#+end_quote
 
-  He gushes over Org-mode, too - a main reason for our using Emacs
-  this term:
+He gushes over Org-mode, too - a main reason for our using Emacs
+this term:
 
-  #+begin_quote
-  "Org mode is for sure one of the most amazing pieces of software I
-  have ever seen or worked with. It does things that no other text-based
-  word processor can do, even if you are writing complex scientific
-  reports. VS code has an extension which brings less than 5% of Org
-  mode functionality, tops and that is mostly the code highlighting."
-  #+end_quote
+#+begin_quote
+"Org mode is for sure one of the most amazing pieces of software I
+have ever seen or worked with. It does things that no other text-based
+word processor can do, even if you are writing complex scientific
+reports. VS code has an extension which brings less than 5% of Org
+mode functionality, tops and that is mostly the code highlighting."
+#+end_quote
 
 * Thanks! End of term! (Dec 16, 2021)
 
-  I've recorded a short [[https://youtu.be/IxyqEW9-12s][good-bye video]] and distributed detailed end of
-  course notes for each of my three classes, my first term at
-  Lyon. Looking forward to spring 2022!
+I've recorded a short [[https://youtu.be/IxyqEW9-12s][good-bye video]] and distributed detailed end of
+course notes for each of my three classes, my first term at
+Lyon. Looking forward to spring 2022!
 
-  #+attr_html: :width 500px
-  [[./img/awesome.png]]
+#+attr_html: :width 500px
+[[./img/awesome.png]]
 
 * Join me in spring 2022! (Nov 3)
 
-  [[./img/dog.gif]]
+[[./img/dog.gif]]
 
-  I've got around to writing down some of the things I'd like to do in
-  my spring 2022 courses. Knowing that y'all wanting to pick your
-  courses, I'm going to pin [[https://github.com/birkenkrahe/org/blob/master/spring22.md][these notes]] to the board outside my office
-  (or you can [[https://github.com/birkenkrahe/org/blob/master/spring22.pdf][print this PDF]] and distribute it among your friends and
-  family :-).
+I've got around to writing down some of the things I'd like to do in
+my spring 2022 courses. Knowing that y'all wanting to pick your
+courses, I'm going to pin [[https://github.com/birkenkrahe/org/blob/master/spring22.md][these notes]] to the board outside my office
+(or you can [[https://github.com/birkenkrahe/org/blob/master/spring22.pdf][print this PDF]] and distribute it among your friends and
+family :-).
 
-  Reading through the list of planned topics, I already know that I
-  won't be able to cover everything listed here, but an instructor can
-  have dreams, right?
+Reading through the list of planned topics, I already know that I
+won't be able to cover everything listed here, but an instructor can
+have dreams, right?
 
-  [[./img/algorithm.gif]]
+[[./img/algorithm.gif]]
 
-  If I were you, I'd have difficulty deciding which course to take! As
-  someone interested specifically in *data science*, I think both DSC
-  205 (machine learning) and CSC 330 (databases and SQL) are
-  important.
+If I were you, I'd have difficulty deciding which course to take! As
+someone interested specifically in *data science*, I think both DSC
+205 (machine learning) and CSC 330 (databases and SQL) are
+important.
 
-  The other two - C/C++ and Operating Systems - are perhaps more
-  relevant for computer science students, or for anyone interested in
-  gaining greater control over computers (which you should all want to
-  do!). These are also courses about computational literacy, since
-  system programming (which is what these courses are about) is
-  constantly changing - and the number of people who know anything
-  about it is dwindling - so these are highly marketable skills.
+The other two - C/C++ and Operating Systems - are perhaps more
+relevant for computer science students, or for anyone interested in
+gaining greater control over computers (which you should all want to
+do!). These are also courses about computational literacy, since
+system programming (which is what these courses are about) is
+constantly changing - and the number of people who know anything
+about it is dwindling - so these are highly marketable skills.
 
-  No matter what you may think: you can handle the algorithms!
-  -----
-  #+begin_quote
-  “The Linux philosophy is ‘laugh in the face of danger.’ Oops. Wrong
-  one. ‘Do it yourself.’ That's the one.” — [[https://en.wikipedia.org/wiki/Linus_Torvalds][Linus Torvalds]], creator of
-  Linux
-  #+end_quote
+No matter what you may think: you can handle the algorithms!
+-----
+#+begin_quote
+“The Linux philosophy is ‘laugh in the face of danger.’ Oops. Wrong
+one. ‘Do it yourself.’ That's the one.” — [[https://en.wikipedia.org/wiki/Linus_Torvalds][Linus Torvalds]], creator of
+Linux
+#+end_quote
 
 * Linux app under Windows (Oct 22)
 
-  Thanks to our IT services member (and CompSci student) Brittany,
-  I've now got Linux running under Windows 10 as an app from the
-  Microsoft store. This is pretty neat and fast, and beats PowerShell,
-  because now I have easy access to ~bash~ (command line shell), ~gcc~
-  (C/C++ compiler), and even Emacs (though ~-nw~, that is without
-  X-Windows, but that's fine, I prefer the downgraded version that
-  forces you to know the keystrokes instead of having to move back and
-  forth between keyboard and mouse). The path to getting this app to
-  run is, alas, not for the faint-hearted. Brittany sketched it for
-  me - try this on your machine[fn:4]!
+Thanks to our IT services member (and CompSci student) Brittany,
+I've now got Linux running under Windows 10 as an app from the
+Microsoft store. This is pretty neat and fast, and beats PowerShell,
+because now I have easy access to ~bash~ (command line shell), ~gcc~
+(C/C++ compiler), and even Emacs (though ~-nw~, that is without
+X-Windows, but that's fine, I prefer the downgraded version that
+forces you to know the keystrokes instead of having to move back and
+forth between keyboard and mouse). The path to getting this app to
+run is, alas, not for the faint-hearted. Brittany sketched it for
+me - try this on your machine[fn:4]!
 
 ** Download Linux
 
-   Type ~Microsoft store~ in the search bar (next to the task bar),
-   and then search for ~Ubuntu~ in the search field inside the
-   store. You find different distributions. Pick ~Ubuntu 20.04
-   LTS~[fn:5] and click on ~Get~ to download the installer. The
-   distribution will take about 0.5 GB disk space.
+Type ~Microsoft store~ in the search bar (next to the task bar),
+and then search for ~Ubuntu~ in the search field inside the
+store. You find different distributions. Pick ~Ubuntu 20.04
+LTS~[fn:5] and click on ~Get~ to download the installer. The
+distribution will take about 0.5 GB disk space.
 
-   /Image: info about the distribution from Canonical/
-   #+attr_html: :width 600px
-   [[./img/Ubuntu.png]]
+/Image: info about the distribution from Canonical/
+#+attr_html: :width 600px
+[[./img/Ubuntu.png]]
 
-   When I tried to launch this app, I got an error due to Windows
-   security settings, since you're messing with the system level here
-   (so this does make sense).
+When I tried to launch this app, I got an error due to Windows
+security settings, since you're messing with the system level here
+(so this does make sense).
 
 ** Turn Developer Mode On
 
-   Go to the Windows search bar and look for ~Windows Security
-   Settings~. The following page will open.
+Go to the Windows search bar and look for ~Windows Security
+Settings~. The following page will open.
 
-   /Image: Windows Security settings/
-   #+attr_html: :width 600px
-   [[./img/ubuntu1.png]]
+/Image: Windows Security settings/
+#+attr_html: :width 600px
+[[./img/ubuntu1.png]]
 
-   Find the developers menu point on the left hand side and open the
-   menu. In this menu, ~Developer Mode~ needs to be turned ~On~ as
-   shown in the image below.
+Find the developers menu point on the left hand side and open the
+menu. In this menu, ~Developer Mode~ needs to be turned ~On~ as
+shown in the image below.
 
-   /Image: Windows Security Settings for Developers/
-   #+attr_html: :width 600px
-   [[./img/ubuntu2.png]]
+/Image: Windows Security Settings for Developers/
+#+attr_html: :width 600px
+[[./img/ubuntu2.png]]
 
 ** Enable Windows subsystem for Linux
 
-   Go to the Windows search bar and look for ~Turn Windows features on
-   or off~. A screen pops up. Scroll down until you see ~Windows
-   Subsystem for Linux~. This allows Linux to take a portion of the
-   system disk for itself (I think). Check this option as shown below.
+Go to the Windows search bar and look for ~Turn Windows features on
+or off~. A screen pops up. Scroll down until you see ~Windows
+Subsystem for Linux~. This allows Linux to take a portion of the
+system disk for itself (I think). Check this option as shown below.
 
-   /Image: Enable Windows Subsystem for Linux/
-   #+attr_html: :width 600px
-   [[./img/ubuntu3.png]]
+/Image: Enable Windows Subsystem for Linux/
+#+attr_html: :width 600px
+[[./img/ubuntu3.png]]
 
-   When saving this menu with ~OK~, you'll be prompted to restart the
-   computer. After you did this, you should be able to boot Linux
-   using the app.
+When saving this menu with ~OK~, you'll be prompted to restart the
+computer. After you did this, you should be able to boot Linux
+using the app.
 * Transitioning to Windows 10 (Oct 9)
 
-  The 2019 Dell Latitude laptop (running Ubuntu Linux 18.04 LTS) that
-  I had brought from Germany, whose keyboard always reminded me of
-  home, went on the fritz with some unrecoverable RAM error. I'm not
-  too impressed with the lifetime, but then again, I put the little
-  guy through a stress test. It may be that the RAM came lose - I'd
-  have to open it to make sure, which I may do.
+The 2019 Dell Latitude laptop (running Ubuntu Linux 18.04 LTS) that
+I had brought from Germany, whose keyboard always reminded me of
+home, went on the fritz with some unrecoverable RAM error. I'm not
+too impressed with the lifetime, but then again, I put the little
+guy through a stress test. It may be that the RAM came lose - I'd
+have to open it to make sure, which I may do.
 
-  However, this was also a great opportunity to finally move to my
-  Lyon 2021 Dell Precision laptop - a heavy computing beast. At first,
-  I had wanted to dump Windows for Linux but then some of your
-  comments rang in my ears from past courses, and I experienced
-  students' difficulties of Windows + R myself: it seemed appropriate
-  to share their development burden and get off my high Linux
-  horse[fn:6]. Also, here was an opportunity to try Emacs + ESS +
-  Org-Mode + R as a bundle and perhaps bring some students with me to
-  the bright side!
+However, this was also a great opportunity to finally move to my
+Lyon 2021 Dell Precision laptop - a heavy computing beast. At first,
+I had wanted to dump Windows for Linux but then some of your
+comments rang in my ears from past courses, and I experienced
+students' difficulties of Windows + R myself: it seemed appropriate
+to share their development burden and get off my high Linux
+horse[fn:6]. Also, here was an opportunity to try Emacs + ESS +
+Org-Mode + R as a bundle and perhaps bring some students with me to
+the bright side!
 
-  I also work with GitHub Desktop now - this is an app, not the
-  command line (hence it has a lot less flexibility, like all graphic
-  environments), but it's Okay for my limited use of GitHub (namely,
-  developing scripts and text files and sharing them in the cloud -
-  something that I could achieve with GDrive). The reason why we use
-  GitHub is (a) to get to know it (most prominent development
-  environment), and (b) because it's much easier to follow/suggest
-  changes in my source code via forks and issues. Some students seem
-  to have forked my repos, but so far nobody has submitted an issue.
+I also work with GitHub Desktop now - this is an app, not the
+command line (hence it has a lot less flexibility, like all graphic
+environments), but it's Okay for my limited use of GitHub (namely,
+developing scripts and text files and sharing them in the cloud -
+something that I could achieve with GDrive). The reason why we use
+GitHub is (a) to get to know it (most prominent development
+environment), and (b) because it's much easier to follow/suggest
+changes in my source code via forks and issues. Some students seem
+to have forked my repos, but so far nobody has submitted an issue.
 
-  The installation of [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#org6e00b83][Emacs + ESS + R as a scientific stats IDE]][fn:7], and
-  the installation and [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#orgf34e53d][use of GitHub Desktop]] are subject of two new
-  FAQs. Let me know how you get on with these - in the data science
-  course (where I also work with Google Colaboratory), we may take
-  some time to go through these instructions[fn:8]
+The installation of [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#org6e00b83][Emacs + ESS + R as a scientific stats IDE]][fn:7], and
+the installation and [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#orgf34e53d][use of GitHub Desktop]] are subject of two new
+FAQs. Let me know how you get on with these - in the data science
+course (where I also work with Google Colaboratory), we may take
+some time to go through these instructions[fn:8]
 
-  #+attr_html: :width 600px
-  [[./img/linux.gif]]
+#+attr_html: :width 600px
+[[./img/linux.gif]]
 
 * Florida Man (Oct 5)
 ** Gratitude
 
-   I'm very grateful for fall break: it's given me my first opportunity
-   for a vacation in over 2 years. Here's me looking quizzically into
-   the future (taken in Pensacola, FL, over the weekend[fn:9]):
+I'm very grateful for fall break: it's given me my first opportunity
+for a vacation in over 2 years. Here's me looking quizzically into
+the future (taken in Pensacola, FL, over the weekend[fn:9]):
 
-   #+attr_html: :width 600px
-   [[./img/beachpic.jpg]]
+#+attr_html: :width 600px
+[[./img/beachpic.jpg]]
 
 ** Grading
-   Back home, I'm procrastinating: need to finish grading tests for two
-   courses, and setting midterm grades for three. I'm like a freshman:
-   these are my first midterms. In Germany, where I taught before Lyon,
-   students don't get any information on how they're doing during the
-   term. Reality often comes crashing down hard on them only at the
-   very end when it's too late. While I welcome this helpful attitude,
-   it also makes students a little less independent: if you're not told
-   how you're doing you have to ask the teacher (which is
-   uncomfortable), and question yourself honestly. Both of these
-   actions can help build skills that are useful later. Though many
-   companies have elaborate feedback structures, official feedback
-   often comes too late and is watered down as all standardized
-   procedures are. Here is a quick look at the horror of such a
-   standard, a "[[https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf][performance appraisal plan]]," if you don't know what I
-   am talking about. As a manager, I spent a lot of time with similar
-   tools, and I remain unconvinced of their actual value to the
-   employee and to the company. /Image: German assessment
-   center[fn:10]./
+Back home, I'm procrastinating: need to finish grading tests for two
+courses, and setting midterm grades for three. I'm like a freshman:
+these are my first midterms. In Germany, where I taught before Lyon,
+students don't get any information on how they're doing during the
+term. Reality often comes crashing down hard on them only at the
+very end when it's too late. While I welcome this helpful attitude,
+it also makes students a little less independent: if you're not told
+how you're doing you have to ask the teacher (which is
+uncomfortable), and question yourself honestly. Both of these
+actions can help build skills that are useful later. Though many
+companies have elaborate feedback structures, official feedback
+often comes too late and is watered down as all standardized
+procedures are. Here is a quick look at the horror of such a
+standard, a "[[https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf][performance appraisal plan]]," if you don't know what I
+am talking about. As a manager, I spent a lot of time with similar
+tools, and I remain unconvinced of their actual value to the
+employee and to the company. /Image: German assessment
+center[fn:10]./
 
-   #+attr_html: :width 600px
-   [[./img/german.jpg]]
+#+attr_html: :width 600px
+[[./img/german.jpg]]
 
 ** Ghost of Tsushima
 
-   I've come back to this game on the new PS5, and it's fantastic: the
-   mechanics of this game are so incredibly precise. I used to be a
-   fencer in my youth, and the swordplay in "Ghost of Tsushima" is so
-   close to the truth that I find myself remembering moves and parries
-   from decades ago. Also, playing on "lethal" level (since this is my
-   2nd playthrough) is almost as challenging as a "Souls" game (like
-   Demon Souls, Dark Souls or Bloodborne): every single boss encounter
-   needs to be studied, and it takes me 10 or more attempts to get
-   anywhere (often more than that). It's wonderfully frustrating but
-   of course also eats up time, which is why long game play is limited
-   to the holidays. /Image: one of those boss duels./
+I've come back to this game on the new PS5, and it's fantastic: the
+mechanics of this game are so incredibly precise. I used to be a
+fencer in my youth, and the swordplay in "Ghost of Tsushima" is so
+close to the truth that I find myself remembering moves and parries
+from decades ago. Also, playing on "lethal" level (since this is my
+2nd playthrough) is almost as challenging as a "Souls" game (like
+Demon Souls, Dark Souls or Bloodborne): every single boss encounter
+needs to be studied, and it takes me 10 or more attempts to get
+anywhere (often more than that). It's wonderfully frustrating but
+of course also eats up time, which is why long game play is limited
+to the holidays. /Image: one of those boss duels./
 
-   #+attr_html: :width 600px
-   [[./img/ghost.jpeg]]
+#+attr_html: :width 600px
+[[./img/ghost.jpeg]]
 
-   [[https://youtu.be/A5gVt028Hww][Check out the trailer]].
+[[https://youtu.be/A5gVt028Hww][Check out the trailer]].
 
 ** Game of life
 
-   Not just gaming, but science also continously generates
-   distractions, because so much interesting stuff is going on,
-   especially in my areas of interest (data science and machine
-   learning). Just in time for a session on "literate programming" (in
-   the data science intro course), and another session on "future of
-   AI" (in the AI seminar), Lex Fridman has interviewed comp sci hero
-   Donald Knuth for the second time - you should check out [[https://lexfridman.com/donald-knuth-2/][the podcast]]
-   ([[fridman][Fridman, 2021]]) (also available on youtube). It's long (an
-   excellent distraction), but the length is necessary to really go
-   deep (this is one of Fridman's specialties, and much needed in this
-   time of short attention spans and fleeting
-   attractions)[fn:11]. There's also a [[https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/][summary]] of the long interview if
-   you have little time or patience but a need for soundbites and
-   essence.
+Not just gaming, but science also continously generates
+distractions, because so much interesting stuff is going on,
+especially in my areas of interest (data science and machine
+learning). Just in time for a session on "literate programming" (in
+the data science intro course), and another session on "future of
+AI" (in the AI seminar), Lex Fridman has interviewed comp sci hero
+Donald Knuth for the second time - you should check out [[https://lexfridman.com/donald-knuth-2/][the podcast]]
+([[fridman][Fridman, 2021]]) (also available on youtube). It's long (an
+excellent distraction), but the length is necessary to really go
+deep (this is one of Fridman's specialties, and much needed in this
+time of short attention spans and fleeting
+attractions)[fn:11]. There's also a [[https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/][summary]] of the long interview if
+you have little time or patience but a need for soundbites and
+essence.
 
-   Then conversation between Knuth and Fridman meanders to an
-   enticing parallel between AI and God:
+Then conversation between Knuth and Fridman meanders to an
+enticing parallel between AI and God:
 
-   #+begin_quote
-   “It’s only for me, and — but I but I personally think of my belief
-   that God exists, although I have no idea what that means. But I
-   believe that there is something beyond human capabilities — and it
-   might be some AI, but whatever, but I do believe that there is
-   something that goes beyond the realm of human understanding, that I
-   can try to learn more about how to resonate with, whatever that
-   being would like me to do.” --[[knuth][Donald Knuth]]
-   #+end_quote
+#+begin_quote
+“It’s only for me, and — but I but I personally think of my belief
+that God exists, although I have no idea what that means. But I
+believe that there is something beyond human capabilities — and it
+might be some AI, but whatever, but I do believe that there is
+something that goes beyond the realm of human understanding, that I
+can try to learn more about how to resonate with, whatever that
+being would like me to do.” --[[knuth][Donald Knuth]]
+#+end_quote
 
-   I'm tempted to present this as the opening statement of tomorrow's
-   session of the AI seminar...
+I'm tempted to present this as the opening statement of tomorrow's
+session of the AI seminar...
 
-   /Image: Pensacola beach before the monsoon, October 4, 2021./
+/Image: Pensacola beach before the monsoon, October 4, 2021./
 
-   #+attr_html: :width 600px
-   [[./img/beach.jpg]]
+#+attr_html: :width 600px
+[[./img/beach.jpg]]
 * Relevance of agile methodologies (Sept 14)
 
-  Students in all of my classes work with agile methodologies. This
-  week, the first sprint reviews are due. Here is some motivation to
-  learn this stuff and to do it well:
+Students in all of my classes work with agile methodologies. This
+week, the first sprint reviews are due. Here is some motivation to
+learn this stuff and to do it well:
 
-  #+begin_quote
-  "Bloomberg uses the Agile methodology, which has become common in the
-  tech industry for application development. The main advantage of the
-  Agile methodology is that it creates an interactive communication
-  line between the business and engineering teams to iteratively
-  deliver value." (Source: [[datacamp][DataCamp, 8/30/2021]])
-  #+end_quote
+#+begin_quote
+"Bloomberg uses the Agile methodology, which has become common in the
+tech industry for application development. The main advantage of the
+Agile methodology is that it creates an interactive communication
+line between the business and engineering teams to iteratively
+deliver value." (Source: [[datacamp][DataCamp, 8/30/2021]])
+#+end_quote
 
 * Learning is like (physical) exercise (Sept 8)
 
-  Read this today in an article in WIRED magazine, "How to Ace
-  Physics Class (Even if You Don't Ace Physics)" ([[wired][Allain, 2021]]):
+Read this today in an article in WIRED magazine, "How to Ace
+Physics Class (Even if You Don't Ace Physics)" ([[wired][Allain, 2021]]):
 
-  #+begin_quote
-  "Perhaps the most important thing to remember is that learning can be
-  fun, but it can also be hard and confusing. Think of it like exercise:
-  The more you sweat, the more you gain. You won't get faster and
-  stronger by watching videos of people working out; you actually have
-  to do something. And remember, it’s OK to be confused. Confusion is
-  just the sweat of learning."
-  #+end_quote
+#+begin_quote
+"Perhaps the most important thing to remember is that learning can be
+fun, but it can also be hard and confusing. Think of it like exercise:
+The more you sweat, the more you gain. You won't get faster and
+stronger by watching videos of people working out; you actually have
+to do something. And remember, it’s OK to be confused. Confusion is
+just the sweat of learning."
+#+end_quote
 
-  Having studied physics and earned a PhD somehow, this makes sense
-  to me. The "watching videos won't help" resonates with me, too:
-  there were none, when I was a student, and it reminds me of Sheldon
-  Cooper in that Big Bang Theory show where he gets a bloody nose
-  because he thinks he can ride a bike after watching YouTube videos
-  about it[fn:12].
+Having studied physics and earned a PhD somehow, this makes sense
+to me. The "watching videos won't help" resonates with me, too:
+there were none, when I was a student, and it reminds me of Sheldon
+Cooper in that Big Bang Theory show where he gets a bloody nose
+because he thinks he can ride a bike after watching YouTube videos
+about it[fn:12].
 
-  Anyway, I wouldn't overstate the importance of confusion - some
-  confusion comes from badly written textbooks, badly taught classes,
-  confused instructors etc. - generally, the more mathematical a
-  topic and a presentation, the less space there should be for
-  confusion. There is also "creative confusion", which one
-  experiences e.g. when stumped by a problem. This is really
-  important to feel! If you never feel it, you're either a genius or
-  you're not trying hard enough (you'd know if you're a genius).
+Anyway, I wouldn't overstate the importance of confusion - some
+confusion comes from badly written textbooks, badly taught classes,
+confused instructors etc. - generally, the more mathematical a
+topic and a presentation, the less space there should be for
+confusion. There is also "creative confusion", which one
+experiences e.g. when stumped by a problem. This is really
+important to feel! If you never feel it, you're either a genius or
+you're not trying hard enough (you'd know if you're a genius).
 
 * KILT Lyon College Radio (Sunday, 29 August 2021)
 
-  Listened to "[[https://lyonradio.weebly.com/programming-schedule.html][Lamplight]]", an evening with classical music, by Prof
-  Oriatti, and had a great time while preparing classes and,
-  intermittently, exchanging emails with the radio host. I really love
-  that Lyon has its own radio station. Must come up with some format
-  (podcast?) on data science. If anyone has an idea, let me know. I've
-  always wanted to be on the radio. Though a classical music show is
-  very hard to beat. Oriatti presented a marvelous selection and was
-  totally responsive to the listeners. He even mentioned data science!
+Listened to "[[https://lyonradio.weebly.com/programming-schedule.html][Lamplight]]", an evening with classical music, by Prof
+Oriatti, and had a great time while preparing classes and,
+intermittently, exchanging emails with the radio host. I really love
+that Lyon has its own radio station. Must come up with some format
+(podcast?) on data science. If anyone has an idea, let me know. I've
+always wanted to be on the radio. Though a classical music show is
+very hard to beat. Oriatti presented a marvelous selection and was
+totally responsive to the listeners. He even mentioned data science!
 
 * Games and the Arkansas Experience (Saturday, 28 August 2021)
 ** Student projects
-   I survived the 2nd week, too. Despite my reservations about the
-   masks and all that, rapport is building and classes are getting more
-   active. Found out that students are not used to writing long essays,
-   and adjusted my expectations accordingly. That wasn't too hard since
-   I don't like to read long essays! Next week is all about setting up
-   the different projects - for an Exploratory Data Analysis project in
-   DSC 101, for an essay on data modeling for DSC 482.02, and for an AI
-   application project for DSC 482.01. I'm really looking forward to
-   seeing what the students come up with. In many ways, data science is
-   coming to a head - cp. the data vs. modeling debate kicked off by
-   Andrew Ng, which cuts across the subjects of all three courses.
+I survived the 2nd week, too. Despite my reservations about the
+masks and all that, rapport is building and classes are getting more
+active. Found out that students are not used to writing long essays,
+and adjusted my expectations accordingly. That wasn't too hard since
+I don't like to read long essays! Next week is all about setting up
+the different projects - for an Exploratory Data Analysis project in
+DSC 101, for an essay on data modeling for DSC 482.02, and for an AI
+application project for DSC 482.01. I'm really looking forward to
+seeing what the students come up with. In many ways, data science is
+coming to a head - cp. the data vs. modeling debate kicked off by
+Andrew Ng, which cuts across the subjects of all three courses.
 
 ** Games industry in Arkansas?
 
-   I had a nice conversation with an internship student, who turned
-   out to like similar video games like I - the Dark Souls series, and
-   other titles. From what she told me, there may be quite a pool of
-   students at Lyon interested in video games. I'm inspired to think
-   about ways in which one could use this talent for a gaming industry
-   startup. This could be fun, and it could potentially be great for
-   Lyon and for Batesville. There already is a thriving esports
-   program at the college, and this might fit right in. Also: I need
-   to get my hands on a PS5!
+I had a nice conversation with an internship student, who turned
+out to like similar video games like I - the Dark Souls series, and
+other titles. From what she told me, there may be quite a pool of
+students at Lyon interested in video games. I'm inspired to think
+about ways in which one could use this talent for a gaming industry
+startup. This could be fun, and it could potentially be great for
+Lyon and for Batesville. There already is a thriving esports
+program at the college, and this might fit right in. Also: I need
+to get my hands on a PS5!
 
 ** Community
 
-   On a losely related note: I got my Arkansas drivers license today!
-   Beginning to feel like a full member of this community. Also: very
-   impressed with the administrative processes all around. Getting
-   your license in Germany is a major headache. Weeks later, they send
-   it to you via surface mail. In Batesville, you present your
-   documents, do a visual test, and minutes later you walk out, a
-   freshly printed license and full ID in hand. It's a little like
-   moving from a Kafka novel into a story where suddenly everything
-   makes a little more sense.
+On a losely related note: I got my Arkansas drivers license today!
+Beginning to feel like a full member of this community. Also: very
+impressed with the administrative processes all around. Getting
+your license in Germany is a major headache. Weeks later, they send
+it to you via surface mail. In Batesville, you present your
+documents, do a visual test, and minutes later you walk out, a
+freshly printed license and full ID in hand. It's a little like
+moving from a Kafka novel into a story where suddenly everything
+makes a little more sense.
 
 ** How to make the most of your internship
 
-   For those interested in an internship, or already working
-   somewhere - I believe that you might benefit from my internship
-   course (and you can also pick up 1-2 credits). It involves weekly
-   meetings of an hour in my office (currently on Fridays at 12 PM). a
-   brief, informal presentation of your workplace and internship, and
-   short, weekly blog posts on topics relevant to your internship. The
-   course prepares you for the transition from college to work. Talk
-   to me if you want to know more, or come to a Friday meeting. Don't
-   just go to work and let this opportunity to learn go to waste!
+For those interested in an internship, or already working
+somewhere - I believe that you might benefit from my internship
+course (and you can also pick up 1-2 credits). It involves weekly
+meetings of an hour in my office (currently on Fridays at 12 PM). a
+brief, informal presentation of your workplace and internship, and
+short, weekly blog posts on topics relevant to your internship. The
+course prepares you for the transition from college to work. Talk
+to me if you want to know more, or come to a Friday meeting. Don't
+just go to work and let this opportunity to learn go to waste!
 * End of first week (Sunday, 22 August 2021)
 
-  I'm pretty satisfied with the first week of classes - managed to get
-  quite a bit of interesting content into each orientation session -
-  enough for tests at the start at the 2nd week, and for six follow-up
-  files. Three syllabi written though the schedules will be changing a
-  lot - I've only been able to cover 30% of my material in the
-  available time (story of my life, really).
+I'm pretty satisfied with the first week of classes - managed to get
+quite a bit of interesting content into each orientation session -
+enough for tests at the start at the 2nd week, and for six follow-up
+files. Three syllabi written though the schedules will be changing a
+lot - I've only been able to cover 30% of my material in the
+available time (story of my life, really).
 
-  Students are still a little reluctant to participate - I wouldn't be
-  any different myself with a brand new instructor. The masks are not
-  helping, of course. Harder to build rapport for me - I don't know if
-  my interventions are working, if my jokes are funny, and if my
-  lectures leave an impression. The eyes as the "windows of the soul"
-  are definitely overrated in the classroom.
+Students are still a little reluctant to participate - I wouldn't be
+any different myself with a brand new instructor. The masks are not
+helping, of course. Harder to build rapport for me - I don't know if
+my interventions are working, if my jokes are funny, and if my
+lectures leave an impression. The eyes as the "windows of the soul"
+are definitely overrated in the classroom.
 
-  Perhaps this is for the best, because this way I may stop myself
-  from talking too much, and the masks insulate the students from one
-  another. Not quite as much as sitting at home during an online
-  session, but enough to reduce intra-group distractions.
+Perhaps this is for the best, because this way I may stop myself
+from talking too much, and the masks insulate the students from one
+another. Not quite as much as sitting at home during an online
+session, but enough to reduce intra-group distractions.
 
-  Things I love: the support and the positive feeling all around -
-  everybody wants to make this term work, everybody delivers or does
-  their best - under such circumstances, it is easy to give one's
-  best, too. My office. The heat! Batesville!
+Things I love: the support and the positive feeling all around -
+everybody wants to make this term work, everybody delivers or does
+their best - under such circumstances, it is easy to give one's
+best, too. My office. The heat! Batesville!
 
-  I have two new lectures to finish ("What is AI?" and "What is a
-  model?"), so I must be off, but I'll be seeing you soon. Tonight:
-  takeaway - first Chinese buffet.
+I have two new lectures to finish ("What is AI?" and "What is a
+model?"), so I must be off, but I'll be seeing you soon. Tonight:
+takeaway - first Chinese buffet.
 
 * GitHub & Cybersecurity (Sunday, 11 July 2021)
 ** GitHub
-   Opted for GitHub as the course platform since I may be arriving too
-   late to get up to scratch with Lyon's "Schoology" platform. Pro:
-   opportunity to include Git and GitHub in the course. Con: separate
-   platform. Another plus - just discovered that Emacs Org-mode renders
-   as Markdown automatically[fn:13].
+Opted for GitHub as the course platform since I may be arriving too
+late to get up to scratch with Lyon's "Schoology" platform. Pro:
+opportunity to include Git and GitHub in the course. Con: separate
+platform. Another plus - just discovered that Emacs Org-mode renders
+as Markdown automatically[fn:13].
 
-   Figured out how to link the GitHub remote repository (~master~) and
-   the local repo (~origin~) and update the remote repo from the command
-   line. In the end, however, I resorted to drag-and-drop addition of the
-   org-file in question ([[https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.org][1_overview.org]][fn:14]), because I could not update the
-   file inside the ~1_overview~ directory remotely. The best (fastest)
-   solution would be to set up remote services using Emacs' [[https://magit.vc/][magit]].
+Figured out how to link the GitHub remote repository (~master~) and
+the local repo (~origin~) and update the remote repo from the command
+line. In the end, however, I resorted to drag-and-drop addition of the
+org-file in question ([[https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.org][1_overview.org]][fn:14]), because I could not update the
+file inside the ~1_overview~ directory remotely. The best (fastest)
+solution would be to set up remote services using Emacs' [[https://magit.vc/][magit]].
 
-   Instead of a forum, students can raise ~Issues~ in GitHub for
-   discussion. This is just as good as a forum - except that the
-   infrastructure is not protected and private. But this also helps to
-   teach the students netiquette and data literacy when being online in a
-   professional capacity.
+Instead of a forum, students can raise ~Issues~ in GitHub for
+discussion. This is just as good as a forum - except that the
+infrastructure is not protected and private. But this also helps to
+teach the students netiquette and data literacy when being online in a
+professional capacity.
 
 ** Cybersecurity
 
-   Came back from Hamburg yesterday (family good-bye). Interesting
-   conversation with a taxi driver on the way from the train station: he
-   does not own a phone and entrusts anything personal only to
-   handwritten notes. If he wants to share something personal with his
-   friends or family at a distance, he writes a letter by hand and mails
-   it via "snail mail" as it used to be called (does it still?). He's
-   been "radicalized" in a way by media reports and books like this one
-   by Harvard's Carissa Veliz, "[[https://www.harvard.com/book/privacy_is_power/][Privacy is Power: Why and How You Should
-   Take Back Control of Your Data]]"[fn:15]. This made me think, once again,
-   that it might be neat to focus on cybersecurity and create a course
-   offering a couple of terms down the line. I recently read this 2020
-   book on "[[https://www.packtpub.com/product/cyber-warfare-truth-tactics-and-strategies/9781839216992][Cyber Warfare-Truth, Tactics, and Strategies]]", which is far
-   out, in some areas. Also interesting: AI and Cybersecurity, which is
-   an active area of industry (see e.g. [[https://www.ibm.com/security/artificial-intelligence][at IBM]]), and which I will discuss
-   in the AI seminar, also in this term.
+Came back from Hamburg yesterday (family good-bye). Interesting
+conversation with a taxi driver on the way from the train station: he
+does not own a phone and entrusts anything personal only to
+handwritten notes. If he wants to share something personal with his
+friends or family at a distance, he writes a letter by hand and mails
+it via "snail mail" as it used to be called (does it still?). He's
+been "radicalized" in a way by media reports and books like this one
+by Harvard's Carissa Veliz, "[[https://www.harvard.com/book/privacy_is_power/][Privacy is Power: Why and How You Should
+Take Back Control of Your Data]]"[fn:15]. This made me think, once again,
+that it might be neat to focus on cybersecurity and create a course
+offering a couple of terms down the line. I recently read this 2020
+book on "[[https://www.packtpub.com/product/cyber-warfare-truth-tactics-and-strategies/9781839216992][Cyber Warfare-Truth, Tactics, and Strategies]]", which is far
+out, in some areas. Also interesting: AI and Cybersecurity, which is
+an active area of industry (see e.g. [[https://www.ibm.com/security/artificial-intelligence][at IBM]]), and which I will discuss
+in the AI seminar, also in this term.
 
-   Next stop: syllabus!
+Next stop: syllabus!
 
 * References
 
-  * AdmiralBumbleBee (Jan 4, 2020). What I learned from 6 months with
-    VS Code [blog]. [[https://www.admiralbumblebee.com/programming/2020/01/04/Six-months-VS-Code.html][URL: admiralbumblebee.com]].
-  * Couts (October 21, 2011). Google engineer who publicly bashed
-    Google+: ‘Nothing bad happened’ [blog]. [[https://www.digitaltrends.com/social-media/google-engineer-who-publicly-bashed-google-nothing-bad-happened/][URL: digitaltrends.com]].
-  * <<datacamp>> D'Introno (2021). Event Recap: Bridging the Communications Gap with Data Literacy. [[https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy][Online: datacamp.com]].
-  * <<fridman>> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
-    Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast
-    #219 [Podcast]. [[https://lexfridman.com/donald-knuth-2/][Online: lexfridman.com]].
-  * <<knuth>> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
-    and the Meaning of Life [Blog]. [[https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/][Online: thenewstack.io]].
-  * Quantamagazine (Dec 23, 2021). The Year in Math and COmputer
-    Science [article]. [[https://www.quantamagazine.org/the-year-in-math-and-computer-science-20211223/][URL: quantamagazine.org]].
-  * Rohan (Jan 17, 2015). Poor mans UML / Emacs Artist Mode
-    [blog]. [[https://robrohan.com/2015/01/17/poor-mans-uml-artist-mode.html][URL: robrohan.com]].
-  * Shotts (2019). The Linux Command Line. NoStarch
-    Press. [[https://linuxcommand.org/tlcl.php][URL:linuxcommand.org]].
-  * Steve Yegge (Feb 21, 2022). Stevey's Tech Talk - sed -i
-    's/sorry/not sorry/g' [video]. [[https://youtu.be/mb8ayJEsnk8][URL: youtube.com]].
-  * Steve Yegge (Mar 7, 2022). Stevey's Tech Talk - A guided tour of
-    Emacs [video]. [[https://youtu.be/lkIicfzPBys][URL: youtube]].
-  * Timachi (Dec 7, 2019). Why I switched from VScode to Emacs
-    [blog]. [[https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs][URL: hadi.timachi.com]].
-  * United States Department of Agriculture (n.d.). Performance
-  * Appraisal Plan Examples. [[https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf][Online: dm.usda.gov.]]
-  * <<wired>> Allain R (20 Aug 2021). How to Ace Physics Class (Even
-    if You Don’t Ace Physics) [Blog]. [[https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/][Online: wired.com]].
+* AdmiralBumbleBee (Jan 4, 2020). What I learned from 6 months with
+VS Code [blog]. [[https://www.admiralbumblebee.com/programming/2020/01/04/Six-months-VS-Code.html][URL: admiralbumblebee.com]].
+* Couts (October 21, 2011). Google engineer who publicly bashed
+Google+: ‘Nothing bad happened’ [blog]. [[https://www.digitaltrends.com/social-media/google-engineer-who-publicly-bashed-google-nothing-bad-happened/][URL: digitaltrends.com]].
+* <<datacamp>> D'Introno (2021). Event Recap: Bridging the Communications Gap with Data Literacy. [[https://www.datacamp.com/community/blog/event-recap-bridging-the-communications-gap-with-data-literacy][Online: datacamp.com]].
+* <<fridman>> Fridman L (Sept 9, 2021). Donald Knuth: Programming,
+Algorithms, Hard Problems & the Game of Life | Lex Fridman Podcast
+#219 [Podcast]. [[https://lexfridman.com/donald-knuth-2/][Online: lexfridman.com]].
+* <<knuth>> Cassel D (3 Oct 2021). Donald Knuth on Machine Learning
+and the Meaning of Life [Blog]. [[https://thenewstack.io/donald-knuth-on-machine-learning-and-the-meaning-of-life/][Online: thenewstack.io]].
+* Quantamagazine (Dec 23, 2021). The Year in Math and COmputer
+Science [article]. [[https://www.quantamagazine.org/the-year-in-math-and-computer-science-20211223/][URL: quantamagazine.org]].
+* Rohan (Jan 17, 2015). Poor mans UML / Emacs Artist Mode
+[blog]. [[https://robrohan.com/2015/01/17/poor-mans-uml-artist-mode.html][URL: robrohan.com]].
+* Shotts (2019). The Linux Command Line. NoStarch
+Press. [[https://linuxcommand.org/tlcl.php][URL:linuxcommand.org]].
+* Steve Yegge (Feb 21, 2022). Stevey's Tech Talk - sed -i
+'s/sorry/not sorry/g' [video]. [[https://youtu.be/mb8ayJEsnk8][URL: youtube.com]].
+* Steve Yegge (Mar 7, 2022). Stevey's Tech Talk - A guided tour of
+Emacs [video]. [[https://youtu.be/lkIicfzPBys][URL: youtube]].
+* Timachi (Dec 7, 2019). Why I switched from VScode to Emacs
+[blog]. [[https://hadi.timachi.com/2019/12/07/Why_I_switched_from_VScode_to_Emacs][URL: hadi.timachi.com]].
+* United States Department of Agriculture (n.d.). Performance
+* Appraisal Plan Examples. [[https://www.dm.usda.gov/employ/employeerelations/docs/Guide-ExPerfPlans.pdf][Online: dm.usda.gov.]]
+* <<wired>> Allain R (20 Aug 2021). How to Ace Physics Class (Even
+if You Don’t Ace Physics) [Blog]. [[https://www.wired.com/story/how-to-ace-physics-class-even-if-you-dont-ace-physics/][Online: wired.com]].
 
 * Footnotes
 
