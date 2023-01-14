@@ -23,12 +23,15 @@ beginners.
 
 Its answers change over time - the same question asked a couple of
 weeks apart generated quite different responses. The difference seems
-to be that the bot has learned that I'm an advanced user. This is nice!
+to be that the bot has learned that I'm an advanced user. This is
+nice! I also like the ability to pitch the bot against Google search:
+in the image, you see how much more useful the bot search is for a
+(simple) programming question.
 
 The general lack of sources and references is the greatest difference
 to Google search and makes this tool useless for scientific research
 (except to experts). Same for programming - you already need to be a
-champion to use the bot's help.
+champion to use the bot's help. 
 
 My greatest win: yesterday, I needed a workshop agenda ("Give me an
 agenda for a 2-hour workshop on Snap! Game Programming for beginners")
@@ -42,6 +45,10 @@ mine]]. Another user responded "this test version is only a prototype",
 but of course normal users don't know this or aren't aware, and in any
 case the distinction between "prototype" and "product" is near
 irrelevant in this fast-moving field.
+
+My verdict: a little addictive (Weizenbaum knew and feared this when
+he observed the public's response to "Eliza", his Rogerian therapist
+bot), often more useful than Google search, and easy to use in class.
 
 * Teaching programming with hacker tools: literate programming didactics
 
