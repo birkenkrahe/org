@@ -1,4 +1,5 @@
 
+
 # Tutorial videos Spring 2022
 
 
@@ -214,18 +215,18 @@ Video: [GNU Emacs links and inline images](https://youtu.be/7pCU7rgIFa0) on YouT
 -   Below you see a link to a code chunk (`chunk`), and to a reference
 -   In the next section, we'll look at inline images
 
-[1](#org6f6194b) ([Knuth, 1984](#orgecbe54c))
+[1](#org30a6477) ([Knuth, 1984](#org85be2be))
 
 -   References
 
-    <a id="orgecbe54c"></a> Knuth
+    <a id="org85be2be"></a> Knuth
 
 
 ### Inline image link
 
--   Open the link to the image [94](#org36892c8) with `C-c C-x C-v`
+-   Open the link to the image [94](#orgec2534d) with `C-c C-x C-v`
 
-![img](./img/fivearmies1.jpg "The Hobbit: Battle of the Five Armies (Source&#x2026;)")
+![img](../img/fivearmies.jpg "The Hobbit: Battle of the Five Armies (Source&#x2026;)")
 
 -   You can embed links to references, files, images, code chunks
 

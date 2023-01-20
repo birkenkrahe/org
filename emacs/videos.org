@@ -225,7 +225,7 @@
     #+caption: The Hobbit: Battle of the Five Armies (Source...)
     #+name: hobbit
     #+attr_html: :width 600px
-    [[./img/fivearmies1.jpg]]
+    [[../img/fivearmies.jpg]]
 
 
     * You can embed links to references, files, images, code chunks
