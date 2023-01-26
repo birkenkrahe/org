@@ -391,10 +391,11 @@ be using them plenty later on:
   
 - [[https://github.com/birkenkrahe/org/blob/master/emacs/refcard.pdf][GNU Emacs reference card (PDF)]]
 
-- My FAQ: enter ~emacs~ in the search field
+- [[https://github.com/birkenkrahe/org/blob/master/FAQ.org][My FAQ]]: enter ~emacs~ in the search field
   #+attr_latex: :width 400px
   #+caption: Searching for headlines with "Emacs" in the FAQ file
   [[../img/0_github_search.png]]
+  
 * Glossary / Emacs cheat sheet
 
 Here is the [[https://github.com/birkenkrahe/cc/blob/piHome/pdf/emacs.pdf][PDF version of the cheat sheet]].
