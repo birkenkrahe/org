@@ -429,7 +429,7 @@ be using them plenty later on:
 
 -   [My FAQ](https://github.com/birkenkrahe/org/blob/master/FAQ.org): enter `emacs` in the search field
     
-    ![img](../img/0_github_search.png "Searching for headlines with "Emacs" in the FAQ file")
+    ![img](../img/0_github_search.png)
 
 
 <a id="org0333755"></a>
