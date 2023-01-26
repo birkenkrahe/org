@@ -17,7 +17,7 @@
 14. [Acknowledgements](#org5d695ff)
 
 ![img](../img/real_programmers.png "xkcd: Real Programmers (<https://xkcd.com/378/>)")
-
+Image source: <https://xkcd.com/378/>
 
 <a id="org8e151f0"></a>
 
