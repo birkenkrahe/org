@@ -6,6 +6,8 @@
 #+caption: xkcd: Real Programmers (https://xkcd.com/378/)
 [[../img/real_programmers.png]]
 
+Image source: https://xkcd.com/378/
+
 * README
 #+attr_latex: :width 400px
 #+caption: Emacs logo https://www.gnu.org/software/emacs/
@@ -447,7 +449,7 @@ Here is the [[https://github.com/birkenkrahe/cc/blob/piHome/pdf/emacs.pdf][PDF v
 I'm indebted to Jacob Strickland and Jacob Wolfrom for testing the
 first version, for their careful reading and for many comments that
 helped improve this tutorial. Thanks to Natalie Packham for reminding
-me of Eliza in Emacs!
+me of Eliza in Emacs (~M-x doctor~)!
 
 * Footnotes
 
