@@ -240,3 +240,11 @@
 
    Video: [[https://youtu.be/OTH3aBX1ags][Rendering different document formats from Org-mode files]] on
    YouTube (9')
+
+* Tutorial videos Spring 2023
+
+  - [[https://github.com/birkenkrahe/org/blob/master/emacs/tutorial.md][See new Emacs tutorial for absolute beginners.]]
+
+  - Here are links to the videos ( 2 x 30 min) in which I go through
+    the tutorial step by step: [[https://youtu.be/RdRbm1wG1Gc][Part 1]] and [[https://youtu.be/VhsEMIjAaEk][Part 2]].
+

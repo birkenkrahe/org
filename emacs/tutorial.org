@@ -27,7 +27,10 @@ Image source: https://xkcd.com/378/
 - Unlike the standard tutorial, this is an instruction file: you will
   do the editing in a separate text file whose content you will
   download.
-  
+
+- Here are links to the videos ( 2 x 30 min) in which I go through the
+  tutorial step by step: [[https://youtu.be/RdRbm1wG1Gc][Part 1]] and [[https://youtu.be/VhsEMIjAaEk][Part 2]].
+
 * Buffer and key basics
    #+attr_latex: :width 400px
    #+caption: Inserting a text file into buffer with C-x i
