@@ -1121,6 +1121,7 @@ Interface]].
 - Run the installer - accept all presets.
 - Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
 - Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
+- You can also try [[https://github.com/birkenkrahe/org/blob/master/emacs/tutorial.md][my own (shorter) tutorial]].
 
 ** Download and Installation for MacOS
 
@@ -1128,6 +1129,8 @@ Interface]].
 - Run the installer - accept all presets.
 - Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
 - Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
+- You can also try [[https://github.com/birkenkrahe/org/blob/master/emacs/tutorial.md][my own (shorter) tutorial]].
+    
 * How to customize GNU Emacs
 
 GNU Emacs is much more than a text editor and an IDE. It's more like
