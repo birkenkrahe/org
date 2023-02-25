@@ -1,0 +1,115 @@
+#+TITLE:DSC 482.01 Fall 2023 Syllabus DRAFT
+#+AUTHOR: Marcus Birkenkrahe
+#+SUBTITLE: Artificial Intelligence
+#+options: toc:nil
+* General Course Information
+
+  - Meeting Times: Monday/Wednesday/Friday, 09:00-09:50 hrs
+  - Meeting place: Lyon Building computer lab room 104
+  - Professor: Marcus Birkenkrahe
+  - Office: Derby 210
+  - Phone: (870) 307-7254
+  - Text: AIMA - /Artificial Intelligence - A Modern Approach (4th
+    edition)/, by Stuart Russell and Peter Norvig, Pearson 2021.
+
+** Objectives
+
+   Artificial intelligence has been a goal of computer science (CS)
+   since the early days of the field in the 1950s. Unlike other areas
+   of CS, it has undergone major trend swings. Currently, AI enjoys
+   another (its third) spring. In truth, though, AI is not just one
+   field, but several interconnected fields. In this seminar, we will
+   work together to identify and understand the AI subfields that are
+   industrially relevant, and separate them from the more arcane areas
+   that may, or may not be relevant in the near future. This special
+   topic seminar is for everyone who is interested in AI. We will
+   discuss algorithmic, social, philosophical, commercial and
+   technical aspects of AI.
+
+** Student Learning Outcomes
+
+   Students who complete DSC 482.01 "Artificial Intelligence", will be
+   able to:
+
+   - understand the history and importance of AI for society
+   - know how to solve problems in complex environments
+   - know how AI can be used for sales and marketing
+   - understand agent-based technologies for different applications
+   - understand the conceptual basics of machine learning techniques
+   - design an own application using AI principles and techniques
+
+** Course requirements
+
+   No prior knowledge required. Some knowledge of, and experience with
+   algorithms is useful but not critical. Curiosity is essential. You
+   will gain data literacy skills by taking this course. The course
+   will prepare you for further studies in machine learning and deep
+   learning, but also in conceptual applications of AI, like machine
+   ethics.
+
+** Grading system
+
+   | WHEN            | DESCRIPTION    | IMPACT |
+   |-----------------+----------------+--------|
+   | Weekly          | Participation  |    15% |
+   | Before midterms | Protocol       |    15% |
+   | TBD             | Presentation   |    30% |
+   | Last week       | AI application |    40% |
+
+*** Grading table
+
+    This table is used to convert completion rates into letter
+    grades. For the midterm results, letter grades still carry signs,
+    while for the term results, only straight letters are given (by
+    rounding up).
+
+    |--------+-----------------+---------------|
+    |    *%* | *Midterm Grade* | *Final Grade* |
+    |--------+-----------------+---------------|
+    | 100-98 | A+              |               |
+    |  97-96 | A               | A             |
+    |  95-90 | A-              |               |
+    |--------+-----------------+---------------|
+    |  89-86 | B+              |               |
+    |  85-80 | B               | B             |
+    |  79-76 | B-              |               |
+    |--------+-----------------+---------------|
+    |  75-70 | C+              |               |
+    |  69-66 | C               | C             |
+    |  65-60 | C-              |               |
+    |--------+-----------------+---------------|
+    |  59-56 | D+              |               |
+    |  55-50 | D               | D             |
+    |--------+-----------------+---------------|
+    |   49-0 | F               | F             |
+    |--------+-----------------+---------------|
+
+
+*** Presentation (30%)
+
+    - Present part of a chapter from AIMA, OR
+    - Review and present an AI research paper, OR
+    - Research and present an AI application.
+
+*** Application (40%)
+
+    - Identify an AI application area, AND
+    - Research how AI could be used, AND
+    - Present briefly at sprint reviews, AND
+    - Present your application idea at the end of term.
+
+*** Protocol (15%)
+
+    - Record a classroom session, AND
+    - Create a protocol of the session, AND
+    - Upload the protocol to GitHub.
+
+*** Participation (15%)
+
+    - Participate in group discussions, OR
+    - Participate in class discussion, OR
+    - Present a glossary term, OR
+    - Present an interesting AI application.
+
+* [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Standard Policies (Spring 2023)]]
+* [[https://tinyurl.com/LyonPolicy][Assignments and Honor Code and Attendance Policy]]
