@@ -9,7 +9,7 @@
   - Professor: Marcus Birkenkrahe
   - Office: Derby 210
   - Phone: (870) 307-7254
-  - Text: AIMA - /Artificial Intelligence - A Modern Approach (4th
+  - Text: [[https://aima.cs.berkeley.edu/][AIMA - /Artificial Intelligence - A Modern Approach]] (4th
     edition)/, by Stuart Russell and Peter Norvig, Pearson 2021.
 
 ** Objectives
