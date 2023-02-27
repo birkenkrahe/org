@@ -1,0 +1,116 @@
+#+title: DSC 105 Syllabus
+#+author: Marcus Birkenkrahe
+#+startup: overview hideblocks indent
+#+options: toc:1 num:1 ^:nil
+#+subtitle: DSC105 Introduction to Data Science - Syllabus (Draft)
+* General Course Information
+
+- Course title: Introduction to data science
+- Course number and section: DSC 105.01
+- Meeting Times: Mon-Wed-Fri from 13:00-13:50 am
+- Meeting place: Lyon Building Computer Lab room 104
+- Professor: Marcus Birkenkrahe
+- Professor's Office: Derby Science Building 210
+- Phone: (870) 307-7254 (office) / (501) 422-4725 (private)
+- Office hours: Monday through Friday after class
+- Textbook: The Book of R (Part I, ch. 1-8) by T Davies
+  ([[https://nostarch.com/bookofr][NoStarch, 2016]]) - reserved copy available in the library
+
+** Objectives
+
+Data science is concerned with getting data to work for us, to give us
+its (presumed) hidden treasures. Data science has been called "the
+sexiest job of the 21st century". Even if you don't want to become a
+professonial data scientist, it's helpful to master the basic concepts
+if you want to succeed in today's data-driven business.
+
+This course focuses on data science basics, simple visualization and
+productivity tools.
+
+** Target audience
+
+The course is for anyone who is interested in
+becoming more data literate in their own field of interest - be it
+languages, theatre, biology, psychology or exercise science - and
+growing their personal skill stack.
+
+Visualization of data-driven insights and improved productivity when
+working with data and media is a concern for any professional.
+
+** Student Learning Outcomes
+
+Students who complete "Introduction to data science" (DSC 105) will be
+able to:
+
+- Learn computer and data science principles by playing with data
+- Acquire basic statistical programming skills using R
+- Apply literate programming principles to their work with Org-mode
+- Use infrastructure including command line, Emacs, and GitHub
+- Understand the relationship of humans, machines, and data
+- Develop their critical thinking skills
+- Know how to effectively present assignment and project results
+
+Students, who complete DSC 105 will have fulfilled the prerequisites
+for DSC 205, Introduction to advanced data science, which focuses on
+coding, data science on the command line, and R packages.
+
+** Course requirements
+
+No prior knowledge required. Some knowledge of, and experience with
+computers is useful but not critical. Curiosity is essential. You will
+gain data literacy skills by taking this course. The course will
+prepare you for further studies in computer and data science, or in
+other disciplines that use modern computing, i.e. every discipline,
+from accounting to zoology).
+
+** Grading system
+
+The table lists course requirements, number of units (classroom
+sessions), points-per-unit (PPU), total points per requirement, and
+the impact of a requirement on your total grade.
+
+#+name: tbl:grading
+| REQUIREMENT       | UNITS | PPU | TOTAL | % of TOTAL |
+|-------------------+-------+-----+-------+------------|
+| Final exam        |     1 | 100 |   100 |        20. |
+| Home assignments  |    15 |  10 |   150 |        30. |
+| Class assignments |    15 |  10 |   150 |        30. |
+| Sprint review     |     5 |  20 |   100 |        20. |
+|-------------------+-------+-----+-------+------------|
+| TOTAL             |       |     |   500 |       100. |
+|-------------------+-------+-----+-------+------------|
+#+TBLFM: @2$4=$2*$3::@2$5=(@2$4/@6$4)*100::@3$4=$2*$3::@3$5=(@3$4/@6$4)*100::@4$4=$2*$3::@4$5=(@4$4/@6$4)*100::@5$4=$2*$3::@5$5=(@5$4/@6$4)*100::@6$4=vsum(@2..@5)::@6$5=vsum(@2..@5)
+
+You should be able to see your current grade at any time using the
+gradebook for the course.
+
+** Grading table
+
+This table is used to convert completion rates into letter grades. For
+the midterm results, letter grades still carry signs, while for the
+term results, only straight letters are given (by rounding up).
+
+|--------+---------------+---------------+--------+---------|
+|      % | MIDTERM GRADE | FINAL GRADE   | POINTS | MIDTERM |
+|--------+---------------+---------------+--------+---------|
+| 100-98 | A+            |               |        |         |
+|  97-96 | A             | A (passed -   |        |         |
+|  95-90 | A-            | very good)    |   450. |   126.0 |
+|--------+---------------+---------------+--------+---------|
+|  89-86 | B+            |               |        |         |
+|  85-80 | B             | B (passed -   |        |         |
+|  79-76 | B-            | good)         |   380. |   106.4 |
+|--------+---------------+---------------+--------+---------|
+|  75-70 | C+            |               |        |         |
+|  69-66 | C             | C (passed -   |        |         |
+|  65-60 | C-            | satisfactory) |   300. |    84.0 |
+|--------+---------------+---------------+--------+---------|
+|  59-56 | D+            |               |        |         |
+|  55-50 | D             | D (passed)    |   250. |    70.0 |
+|--------+---------------+---------------+--------+---------|
+|   49-0 | F             | F (failed)    |        |         |
+|--------+---------------+---------------+--------+---------|
+#+TBLFM: @4$4=0.9*500::@7$4=0.76*500::@10$4=0.6*500::@12$4=.50*500
+* Dates and class schedule (TBC)
+* [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Standard Policies (Spring 2023)]]
+* [[https://tinyurl.com/LyonPolicy][Assignments and Honor Code and Attendance Policy]]
