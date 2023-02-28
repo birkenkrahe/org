@@ -7,12 +7,12 @@
   - Meeting Times: Monday/Wednesday/Friday, 09:00-09:50 hrs
   - Meeting place: Lyon Building computer lab room 104
   - Professor: Marcus Birkenkrahe
-  - Office: Derby 210
+  - Office: Derby 210 - Office hours every day after class.
   - Phone: (870) 307-7254
   - Text: [[https://aima.cs.berkeley.edu/][AIMA - /Artificial Intelligence - A Modern Approach]] (4th
     edition)/, by Stuart Russell and Peter Norvig, Pearson 2021.
 
-** Objectives
+* Objectives
 
    Artificial intelligence has been a goal of computer science (CS)
    since the early days of the field in the 1950s. Unlike other areas
@@ -26,7 +26,7 @@
    discuss algorithmic, social, philosophical, commercial and
    technical aspects of AI.
 
-** Student Learning Outcomes
+* Student Learning Outcomes
 
    Students who complete DSC 482.01 "Artificial Intelligence", will be
    able to:
@@ -38,7 +38,7 @@
    - understand the conceptual basics of machine learning techniques
    - design an own application using AI principles and techniques
 
-** Course requirements
+* Course requirements
 
    No prior knowledge required. Some knowledge of, and experience with
    algorithms is useful but not critical. Curiosity is essential. You
@@ -47,69 +47,17 @@
    learning, but also in conceptual applications of AI, like machine
    ethics.
 
-** Grading system
+* Grading system
 
-   | WHEN            | DESCRIPTION    | IMPACT |
-   |-----------------+----------------+--------|
-   | Weekly          | Participation  |    15% |
-   | Before midterms | Protocol       |    15% |
-   | TBD             | Presentation   |    30% |
-   | Last week       | AI application |    40% |
+   | WHEN       | DESCRIPTION        | IMPACT |
+   |------------+--------------------+--------|
+   | TBD        | Final exam         |    25% |
+   | Last week  | Final presentation |    25% |
+   | Weekly     | Practice           |    25% |
+   | Weekly     | Tests              |    25% |
 
-*** Grading table
-
-    This table is used to convert completion rates into letter
-    grades. For the midterm results, letter grades still carry signs,
-    while for the term results, only straight letters are given (by
-    rounding up).
-
-    |--------+-----------------+---------------|
-    |    *%* | *Midterm Grade* | *Final Grade* |
-    |--------+-----------------+---------------|
-    | 100-98 | A+              |               |
-    |  97-96 | A               | A             |
-    |  95-90 | A-              |               |
-    |--------+-----------------+---------------|
-    |  89-86 | B+              |               |
-    |  85-80 | B               | B             |
-    |  79-76 | B-              |               |
-    |--------+-----------------+---------------|
-    |  75-70 | C+              |               |
-    |  69-66 | C               | C             |
-    |  65-60 | C-              |               |
-    |--------+-----------------+---------------|
-    |  59-56 | D+              |               |
-    |  55-50 | D               | D             |
-    |--------+-----------------+---------------|
-    |   49-0 | F               | F             |
-    |--------+-----------------+---------------|
-
-
-*** Presentation (30%)
-
-    - Present part of a chapter from AIMA, OR
-    - Review and present an AI research paper, OR
-    - Research and present an AI application.
-
-*** Application (40%)
-
-    - Identify an AI application area, AND
-    - Research how AI could be used, AND
-    - Present briefly at sprint reviews, AND
-    - Present your application idea at the end of term.
-
-*** Protocol (15%)
-
-    - Record a classroom session, AND
-    - Create a protocol of the session, AND
-    - Upload the protocol to GitHub.
-
-*** Participation (15%)
-
-    - Participate in group discussions, OR
-    - Participate in class discussion, OR
-    - Present a glossary term, OR
-    - Present an interesting AI application.
+   To pass: 50%
 
 * [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Standard Policies (Spring 2023)]]
 * [[https://tinyurl.com/LyonPolicy][Assignments and Honor Code and Attendance Policy]]
+* Dates and class schedule (TBC)
