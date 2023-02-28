@@ -1,15 +1,15 @@
-#+TITLE:DSC 482.01 Syllabus (DRAFT)
+#+TITLE:Data And Process Modelling (DSC482.02) Draft Syllabus
 #+AUTHOR: Marcus Birkenkrahe
-#+SUBTITLE: Data and Process Modeling
+#+SUBTITLE: Data and Process Modeling Draft Syllabus
 #+options: toc:nil
 * General Course Information
 
   - Meeting Times: Tuesday & Thursday, 14:30-15:45 hrs
-  - Meeting place: Derby 209
+  - Meeting place: Lyon building computer lab room 104
   - Professor: Marcus Birkenkrahe
   - Office: Derby 210
   - Phone: (870) 307-7254
-  - Office hours: Mon/Wed/Fri 10:00-10:30 AM; Tue/Thu 4-4:30 PM
+  - Office hours: Mon-Fri after class
   - Textbooks:
     1) /Model Thinking: What You Need To Make Data Work For You/, by
        Scott E. Page, Reprint edition, Basic Books (March 16,
@@ -17,7 +17,7 @@
     2) /Exploring Modeling with Data and Differential Equations Using
        R/, by John M. Zobitz, Version 3.0.0 (Online: [[https://jmzobitz.github.io/ModelingWithR/][jmzobitz.github.io]])
 
-** Objectives
+* Objectives
 
    Models are abstractions that explain parts of the real world,
    e.g. to address, if not solve, complex problems like climate
@@ -30,7 +30,7 @@
    who is interested in using models and modeling languages to better
    understand the challenges and achievements of modeling.
 
-** Student Learning Outcomes
+* Student Learning Outcomes
 
    Students who complete DSC 482.02 are able to:
 
@@ -39,153 +39,30 @@
    - Make use of different modeling software environments
    - Understand, and can present current modeling research
    - Apply modeling tools to an area of their knowledge
-   - Write a scientific (IMRaD) essay on modern modeling methods
+   - Present or write a scientific (IMRaD) essay on modern modeling
+     methods
 
-** Course requirements
+* Course requirements
 
-   No prior knowledge required. Experience and knowledge of data or
-   process modeling methods (e.g. Entity Relationship Diagrams, or
-   Unified Modeling Language) is useful but not critical. Curiosity
-   and active participations, especially during classroom
-   presentations and discussion, is important. You will gain advanced
-   data and process literacy skills by taking this course.
+   Formal prerequisites: MTH 101 (College Algebra), otherwise no prior
+   knowledge required. Experience and knowledge of data or process
+   modeling methods (e.g. Entity Relationship Diagrams, or Unified
+   Modeling Language) is useful but not critical. Curiosity and active
+   participations, especially during classroom presentations and
+   discussion, is important. You will gain advanced data and process
+   literacy skills by taking this course.
 
-** Grading system
+* Grading
 
-   | WHEN       | DESCRIPTION   | IMPACT |
-   |------------+---------------+--------+
-   | TBD        | Final exam    |    40% |
-   | Last week  | Final essay   |    30% |
-   | Weekly lab | Practice      |    15% |
-   | Weekly lab | Participation |    15% |
+   | WHEN       | DESCRIPTION        | IMPACT |
+   |------------+--------------------+--------|
+   | TBD        | Final exam         |    25% |
+   | Last week  | Final presentation |    25% |
+   | Weekly     | Practice           |    25% |
+   | Weekly     | Tests              |    25% |
 
-*** Grading table
-
-    This table is used to convert completion rates into letter
-    grades. For the midterm results, letter grades still carry signs,
-    while for the term results, only straight letters are given (by
-    rounding up).
-
-    |--------+---------------+-------------|
-    |      % | MIDTERM GRADE | FINAL GRADE |
-    |--------+---------------+-------------|
-    | 100-98 | A+            |             |
-    |  97-96 | A             | A           |
-    |  95-90 | A-            |             |
-    |--------+---------------+-------------|
-    |  89-86 | B+            |             |
-    |  85-80 | B             | B           |
-    |  79-76 | B-            |             |
-    |--------+---------------+-------------|
-    |  75-70 | C+            |             |
-    |  69-66 | C             | C           |
-    |  65-60 | C-            |             |
-    |--------+---------------+-------------|
-    |  59-56 | D+            |             |
-    |  55-50 | D             | D           |
-    |--------+---------------+-------------|
-    |   49-0 | F             | F           |
-    |--------+---------------+-------------|
-
-*** Final exam (30%)
-
-    * Complete multiple choice questions
-    * Question examples at the start of a new week
-    * Open book exam, 120 minutes
-
-*** Final essay (40%)
-
-    * Review a book based on a model or method, OR
-    * Review an research article based on a model or method, OR
-    * Apply model(s) or method(s) to an area of your knowledge
-    * Essay length: 5-10 pages (2,500 - 5,000 words) not counting
-      references.
-
-*** Weekly practice (15%)
-
-    * Create a glossary of technical terms & present, AND
-    * Connect session content to personal domain knowledge, AND
-    * Complete set lab exercises in class
-
-*** Weekly participation (15%)
-
-    * Participate in group discussions, OR
-    * Participate in class discussion, OR
-    * Present a glossary term, OR
-    * Present a personal model application
-
-*** Grading examples
-
-**** Example - Midterm grade
-
-     At midterms, student X has achieved the following results:
-
-     | GRADE PART           | WEIGHT   | RESULT   |
-     |----------------------+----------+----------|
-     | Weekly practice      |      15% |      80% |
-     | Weekly participation |      15% |      90% |
-
-     # Student X's midterm result is computed as follows:
-
-     # #+begin_src R :session :results output
-     #   ## midterm weights (only practice and participation)
-     #   weight_m <- c("practice"=0.5,
-     #                 "participation"=0.5)
-     #   ## results vector
-     #   result_m <- c("practice"=80,
-     #                 "participation"=90)
-     #   ## midterm grade
-     #   grade_m <-
-     #     weight_m["practice"] * result_m["practice"] +
-     #     weight_m["participation"] * result_m["participation"]
-     #   names(grade_m) <- NULL
-     #   grade_m
-     # #+end_src
-
-     # #+RESULTS:
-     # : [1] 85
-
-     Student X's midterm result is a "B" (~85%~).
-
-**** Example - Final grade
-
-     After the finals, student X has achieved the following results:
-
-     | GRADE PART           | WEIGHT   | RESULT   |
-     |----------------------+----------+----------|
-     | Final exam           |      30% |      95% |
-     | Final essay          |      40% |      95% |
-     | Weekly practice      |      15% |      80% |
-     | Weekly participation |      15% |      90% |
-
-     # Student X's midterm result is computed as follows:
-
-     # #+begin_src R :session :results output
-     #   ## full term weight vector according to grading table
-     #   weight <- c("exam"= 0.3,
-     #               "essay"=0.4,
-     #               "practice"=0.15,
-     #               "participation"=0.15)
-     #   ## results vector
-     #   result <- c("exam"=95,
-     #               "essay"=95,
-     #               "practice"=80,
-     #               "participation"=90)
-     #   ## midterm grade
-     #   grade <-
-     #     weight["exam"] * result["exam"] +
-     #     weight["essay"] * result["essay"] +
-     #     weight["practice"] * result["practice"] +
-     #     weight["participation"] * result["participation"]
-     #   names(grade) <- NULL
-     #   grade
-     # #+end_src
-
-     # #+RESULTS:
-     # : [1] 92
-
-     Student X's midterm result is an "A" (~92%~).
-
+   To pass: 50%
+   
 * Dates and class schedule (TBC)
 * [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Standard Policies (Spring 2023)]]
 * [[https://tinyurl.com/LyonPolicy][Assignments and Honor Code and Attendance Policy]]
