@@ -4,6 +4,7 @@
 ;; require ob-sqlite and ob-sql (for compilation in org src blocks) & tangle
 (require 'ob-sqlite)
 (require 'ob-sql)
+(require 'python)
 (require 'ob-emacs-lisp)
 (require 'ob-R)
 (require 'ob-C)
