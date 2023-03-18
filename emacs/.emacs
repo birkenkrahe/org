@@ -8,6 +8,7 @@
 (require 'ob-R)
 (require 'ob-C)
 (require 'ob-shell)
+(require 'ob-python)
 
 ;; active Babel languages
 (org-babel-do-load-languages
@@ -63,3 +64,8 @@
 
 ;; add prompt to SQLite buffer opened with M-x sql-sqlite
 (setq sql-sqlite-options '("-interactive"))
+
+;; do not show toolbar or menubar in the graphic Emacs
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+
