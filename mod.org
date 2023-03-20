@@ -17,7 +17,9 @@
     2) /Exploring Modeling with Data and Differential Equations Using
        R/, by John M. Zobitz, Version 3.0.0 (Online:
        [[https://jmzobitz.github.io/ModelingWithR/][jmzobitz.github.io]])
-    3) 
+    3) /Modeling and Simulation in Python - An introduction for
+       scientists and engineers/, by Allen B. Downey, NoStarch
+       Press. URL: [[https://greenteapress.com/wp/modsimpy/][greenteapress.com]].
 
 * Objectives
 
