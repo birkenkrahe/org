@@ -15,7 +15,9 @@
        Scott E. Page, Reprint edition, Basic Books (March 16,
        2021). ([[https://www.amazon.com/Model-Thinker-What-Need-Know/dp/1541675711/][Amazon]])
     2) /Exploring Modeling with Data and Differential Equations Using
-       R/, by John M. Zobitz, Version 3.0.0 (Online: [[https://jmzobitz.github.io/ModelingWithR/][jmzobitz.github.io]])
+       R/, by John M. Zobitz, Version 3.0.0 (Online:
+       [[https://jmzobitz.github.io/ModelingWithR/][jmzobitz.github.io]])
+    3) 
 
 * Objectives
 
@@ -29,6 +31,17 @@
    process modeling tools. This special topic seminar is for everyone
    who is interested in using models and modeling languages to better
    understand the challenges and achievements of modeling.
+
+   Models can be explored mathematically and/or computationally via
+   simulations in a computer. We will explore the use of R and/or
+   Python to bring models froma variety of backgrounds to life,
+   including: epidemiology, the physics of toilet paper, bungee
+   jumping, and even Spider-Man.
+
+   Models can help us deal with the increasing complexity of our
+   world, and understanding them will help us deal with many claims
+   made by scientists and non-scientists about complex issues. Model
+   literacy is an essential 21st century skill.
 
 * Student Learning Outcomes
 
