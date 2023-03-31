@@ -10,16 +10,19 @@
   - Office: Derby 210
   - Phone: (870) 307-7254
   - Office hours: Mon-Fri after class
-  - Textbooks:
+  - Some textbooks that we'll be using:
     1) /Model Thinking: What You Need To Make Data Work For You/, by
-       Scott E. Page, Reprint edition, Basic Books (March 16,
-       2021). ([[https://www.amazon.com/Model-Thinker-What-Need-Know/dp/1541675711/][Amazon]])
-    2) /Exploring Modeling with Data and Differential Equations Using
-       R/, by John M. Zobitz, Version 3.0.0 (Online:
-       [[https://jmzobitz.github.io/ModelingWithR/][jmzobitz.github.io]])
-    3) /Modeling and Simulation in Python - An introduction for
-       scientists and engineers/, by Allen B. Downey, NoStarch
-       Press. URL: [[https://greenteapress.com/wp/modsimpy/][greenteapress.com]].
+       Scott E. Page, Basic Books, 2021. URL: [[https://sites.lsa.umich.edu/scottepage/home/the-model-thinker/][umich.edu]].
+    2) /Modeling and Simulation in Python/, by Allen B. Downey, NoStarch
+       Press, 2023. URL: [[https://greenteapress.com/wp/modsimpy/][greenteapress.com]].
+    3) /Exploring Modeling with Data and Differential Equations Using
+       R/, by J.M. Zobitz, Version 3.0.0. URL: [[https://jmzobitz.github.io/ModelingWithR/][jmzobitz.github.io]].
+    4) /Modeling and Simulation in Python/ by J.M. Kinser. CRC Press,
+       2022). URL: [[https://doi.org/10.1201/9781003226581][doi.org/10.1201/9781003226581]].
+    5) /Modeling Change and Uncertainty/ by W.P. Fox and R.E. Burks. CRC
+       Press, 2022. URL: [[https://doi.org/10.1201/9781003298762][doi.org/10.1201/9781003298762]]
+    6) /An introduction to mathematical modeling/ by E.A. Bender,
+       Wiley, 1978. Online: [[https://www.google.com/books/edition/An_Introduction_to_Mathematical_Modeling/adf515kSDOkC?hl=en][books.google.com]].
 
 * Objectives
 
