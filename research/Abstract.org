@@ -1,6 +1,6 @@
 * TEACHING DATA SCIENCE WITH LITERATE PROGRAMMING TOOLS
 
-  /Marcus Birkenkrahe, in preparation, see [[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WILtLJR2sHSfr6Fs/edit?usp=sharing][presentation]]/
+  /Marcus Birkenkrahe, in preparation, see [[https://docs.google.com/presentation/d/1wA7sb41EjV6GP3oBEFsOiYnoe29WILtLJR2sHSfr6Fs/edit?usp=sharing][presentation]]/ (04/08/2022)
 
   Data science draws on computer science, statistics and domain
   knowledge. It is highly *interdisciplinary*, even more so than other
