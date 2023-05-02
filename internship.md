@@ -1,25 +1,25 @@
 
 # Table of Contents
 
-1.  [What is in this repo?](#org9a71639)
-2.  [What should you do next?](#orgd8b6efc)
-3.  [What is this course about?](#org3b81425)
-4.  [What's the format of the course?](#orgf268800)
-5.  [What do you have to do to pass?](#orgd3fb41e)
-6.  [What should you write in the blog posts?](#org687edf4)
-7.  [Will there be any lectures?](#org203f555)
-8.  [Where should you post the blog posts?](#org150b54f)
-9.  [What if your internship does not 100% overlap with the term?](#orgc3aa7d9)
-10. [What's the difference between junior/senior interns?](#org7294e5c)
-11. [What should you present, and for how long?](#org40620a9)
-12. [Where should we compose our blog posts?](#orgb1c4098)
-13. [Who is your lecturer and supervisor?](#org59aefbe)
-14. [What's with the sailing boats?](#orgc709850)
-15. [References](#org0a1dc3d)
+1.  [What is in this repo?](#org5b06919)
+2.  [What should you do next?](#orgabef6b0)
+3.  [What is this course about?](#orgcc513b4)
+4.  [What's the format of the course?](#org70adac9)
+5.  [What do you have to do to pass?](#org106c103)
+6.  [What should you write in the blog posts?](#org17b1e49)
+7.  [Will there be any lectures?](#org5c7da4c)
+8.  [Where should you post the blog posts?](#org419a277)
+9.  [What if your internship does not 100% overlap with the term?](#org42fd5df)
+10. [What's the difference between junior/senior interns?](#orgdcd31d4)
+11. [What should you present, and for how long?](#orgba44052)
+12. [Where should we compose our blog posts?](#org621afdf)
+13. [Who is your lecturer and supervisor?](#org78f91a4)
+14. [What's with the sailing boats?](#org202dba6)
+15. [References](#orgde74c6d)
 
 
 
-<a id="org9a71639"></a>
+<a id="org5b06919"></a>
 
 # What is in this repo?
 
@@ -31,7 +31,7 @@
 ![img](./img/Lionel_Walden_sailing_boats.jpg)
 
 
-<a id="orgd8b6efc"></a>
+<a id="orgabef6b0"></a>
 
 # What should you do next?
 
@@ -46,7 +46,7 @@
 ![img](./img/Monet_Sailing_Boats_at_Sea.jpg)
 
 
-<a id="org3b81425"></a>
+<a id="orgcc513b4"></a>
 
 # What is this course about?
 
@@ -73,7 +73,7 @@ This is course is designed to:
 ![img](./img/Vlieger_Sailing_boats.jpg)
 
 
-<a id="orgf268800"></a>
+<a id="org70adac9"></a>
 
 # What's the format of the course?
 
@@ -96,19 +96,19 @@ Adobe Connect, Big Blue Button and Moodle.
 ![img](./img/Claude_Monet_Sailing_Boat_Evening_Effect.jpg)
 
 
-<a id="orgd3fb41e"></a>
+<a id="org106c103"></a>
 
 # What do you have to do to pass?
 
-1.  Present (your internship) at least once during the term
-2.  Actively participate in discussions (during class meetings)
-3.  Submit your weekly blog posts on time<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>
-4.  Attend all meetings
+-   Present (your internship) at least once during the term
+-   Actively participate in discussions (during class meetings)
+-   Submit your weekly blog posts on time<sup><a id="fnr.5" class="footref" href="#fn.5" role="doc-backlink">5</a></sup>
+-   Attend all meetings
 
 ![img](./img/Hans_Dahl_Fiord_with_sailing_boat.jpg)
 
 
-<a id="org687edf4"></a>
+<a id="org17b1e49"></a>
 
 # What should you write in the blog posts?
 
@@ -120,12 +120,12 @@ There are a few rules, and a few themes.
 The weekly blog posts have a theme. Let it inspire you. There are
 four small rules:
 
-1.  The blog post must have a recognizable link to the topic of the
+-   The blog post must have a recognizable link to the topic of the
     week.
-2.  The blog post must not have fewer than 150 words<sup><a id="fnr.6" class="footref" href="#fn.6" role="doc-backlink">6</a></sup>.
-3.  The blog posts must be submitted on time (deadline: Sunday 23:59
+-   The blog post must not have fewer than 150 words<sup><a id="fnr.6" class="footref" href="#fn.6" role="doc-backlink">6</a></sup>.
+-   The blog posts must be submitted on time (deadline: Sunday 23:59
     hrs).
-4.  In your own interest, do not name organizations or people in your
+-   In your own interest, do not name organizations or people in your
     blog posts<sup><a id="fnr.7" class="footref" href="#fn.7" role="doc-backlink">7</a></sup>.
 
 
@@ -142,17 +142,16 @@ The weekly themes are as follows:
 7.  Your networking
 8.  Your work values
 9.  Your work hierarchy
-
-10.Your skills
-11.Your accomplishments
-12.Your career aspirations
+10. Your skills
+11. Your accomplishments
+12. Your career aspirations
 
 Each blog post is introduced briefly in the [blogs folder](https://github.com/birkenkrahe/internship/tree/main/blogs).
 
 ![img](./img/Christoffer_Wilhelm_Eckersberg_A_Sailing_Boat_in_full_sail_(1832).jpg)
 
 
-<a id="org203f555"></a>
+<a id="org5c7da4c"></a>
 
 # Will there be any lectures?
 
@@ -175,7 +174,7 @@ able to give a lecture on it!
 ![img](./img/William_Bradford_Fishing_Boats_On_The_Bay_Of_Fundy.jpg)
 
 
-<a id="org150b54f"></a>
+<a id="org419a277"></a>
 
 # Where should you post the blog posts?
 
@@ -187,7 +186,7 @@ discussion forums too unwieldy.
 ![img](./img/Frits_Thaulow_The_Sailing_Boat.jpg)
 
 
-<a id="orgc3aa7d9"></a>
+<a id="org42fd5df"></a>
 
 # What if your internship does not 100% overlap with the term?
 
@@ -198,22 +197,22 @@ More specifically, if you cannot say anything about a particular
 weekly theme because you are not in an internship (anymore),
 "simulate" the experience. Examples:
 
-1.  Hiring process: you should have started it. If this is not the
+-   Hiring process: you should have started it. If this is not the
     case, you should not be on this course.
-2.  First impressions: what would you like your first impressions of
+-   First impressions: what would you like your first impressions of
     the job to be? What are you looking for (in terms of first
     impressions)?
-3.  Internship goals: you should have goals for the internship even
+-   Internship goals: you should have goals for the internship even
     without having landed an internship yet.
-4.  Internship system: this the system, or set of routines, or ways,
+-   Internship system: this the system, or set of routines, or ways,
     in which you go about achieving your goals. If you don't have an
     internship yet, then make plans for such a system!
-5.  Work culture: what culture would you like?
-6.  Assertiveness: can be covered independent of the internship,
+-   Work culture: what culture would you like?
+-   Assertiveness: can be covered independent of the internship,
     because assertiveness shows up in all human relationships.
-7.  Networking (with other interns): how do you network now with other
+-   Networking (with other interns): how do you network now with other
     students? Any ideas how to do that, or experiences from the past?
-8.  If you don't have an internship after this point (2 months into the term), you should not be on the course, or you should come talk to me and perhaps we can figure something out in connection with the practice office (talk to them first).
+-   If you don't have an internship after this point (2 months into the term), you should not be on the course, or you should come talk to me and perhaps we can figure something out in connection with the practice office (talk to them first).
 
 If your internship starts after the middle of the term (fall break -
 early October), we may need to talk.
@@ -221,7 +220,7 @@ early October), we may need to talk.
 ![img](./img/Leo_Gestel_Sailing_boats_in_a_canal.jpg)
 
 
-<a id="org7294e5c"></a>
+<a id="orgdcd31d4"></a>
 
 # What's the difference between junior/senior interns?
 
@@ -233,7 +232,7 @@ benefit of junior interns.
 ![img](./img/Sailing_Boats_on_an_Autumn_River.jpg)
 
 
-<a id="org40620a9"></a>
+<a id="orgba44052"></a>
 
 # What should you present, and for how long?
 
@@ -253,16 +252,16 @@ benefit of junior interns.
 
 In your presentation, include answers to:
 
-1.  How did you get this internship?
-2.  What does your company or organisation do?
-3.  What is your internship job about? What do you do?
-4.  What do you like about your internship?
-5.  What do you not like about your internship?<sup><a id="fnr.9" class="footref" href="#fn.9" role="doc-backlink">9</a></sup>
-6.  What advice have you got for other students?
-7.  Which questions have you got for others?<sup><a id="fnr.10" class="footref" href="#fn.10" role="doc-backlink">10</a></sup>
-8.  What is special about you?
-9.  When will you be done?
-10. What do you hope to take away from this internship?
+-   How did you get this internship?
+-   What does your company or organisation do?
+-   What is your internship job about? What do you do?
+-   What do you like about your internship?
+-   What do you not like about your internship?<sup><a id="fnr.9" class="footref" href="#fn.9" role="doc-backlink">9</a></sup>
+-   What advice have you got for other students?
+-   Which questions have you got for others?<sup><a id="fnr.10" class="footref" href="#fn.10" role="doc-backlink">10</a></sup>
+-   What is special about you?
+-   When will you be done?
+-   What do you hope to take away from this internship?
 
 Don't do this just because you have to - take it as an opportunity
 to learn and share important information about yourself, about the
@@ -277,7 +276,7 @@ what he was doing all day.
 ![img](./img/Adam_Willaerts_River_Scene_with_Boats.jpg)
 
 
-<a id="orgb1c4098"></a>
+<a id="org621afdf"></a>
 
 # Where should we compose our blog posts?
 
@@ -301,7 +300,7 @@ right away. This is (probably) not true for code (I'm not so sure).
 ![img](./img/Boris_grigoriev_sailing_boat_in_a_cubist_landscape.jpg)
 
 
-<a id="org59aefbe"></a>
+<a id="org78f91a4"></a>
 
 # Who is your lecturer and supervisor?
 
@@ -333,7 +332,7 @@ around online - except on GitHub (which is where you're now).
 ![img](./img/Homer_Winslow_The_Boat_Builders.jpg)
 
 
-<a id="orgc709850"></a>
+<a id="org202dba6"></a>
 
 # What's with the sailing boats?
 
@@ -348,50 +347,50 @@ around online - except on GitHub (which is where you're now).
 ![img](./img/Mikalojus_Konstantinas_Ciurlionis_SAILING_BOATS_1906.jpg)
 
 
-<a id="org0a1dc3d"></a>
+<a id="orgde74c6d"></a>
 
 # References
 
 
 ## Image references
 
-1.  Burchard Galleries Inc (n.d.). *Lionel Walden (-1933): Sailing
-    Boats* [Photograph]. Online: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lionel_Walden_-_Sailing_Boats.jpg). ([5](#orgd45ce21))
-2.  flickr (8 August 1868). *Claude Monet: Sailing Boats
-    at Sea* [Photograph]. Online: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Monet_Sailing_Boats_at_Sea_w125.jpg). ([13](#org3315034))
-3.  Museum of King Jan III’s palace at Wilanów (n.d.). *Simon
+-   Burchard Galleries Inc (n.d.). *Lionel Walden (-1933): Sailing
+    Boats* [Photograph]. Online: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lionel_Walden_-_Sailing_Boats.jpg). ([5](#org4699a83))
+-   flickr (8 August 1868). *Claude Monet: Sailing Boats
+    at Sea* [Photograph]. Online: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Monet_Sailing_Boats_at_Sea_w125.jpg). ([13](#org9a72f67))
+-   Museum of King Jan III’s palace at Wilanów (n.d.). *Simon
     de Vlieger (1600-1653)* [Photograph]. Online:
-    [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vlieger_Sailing_boats.jpg). ([23](#org1f9d4ac))
-4.  [Dudva](https://commons.wikimedia.org/wiki/User:Dudva) (4 December 2018). *Claude Monet: Sailing Boat, Evening
+    [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vlieger_Sailing_boats.jpg). ([23](#org0ab3b0e))
+-   [Dudva](https://commons.wikimedia.org/wiki/User:Dudva) (4 December 2018). *Claude Monet: Sailing Boat, Evening
     Effect (1885)* [Photograph]. Online: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Sailing_Boat,_Evening_Effect.jpg). Copyright: [CC
-    BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)<sup><a id="fnr.14" class="footref" href="#fn.14" role="doc-backlink">14</a></sup> .  ([29](#orgf50042b))
-5.  [ARCADJA](http://www.arcadja.com/auctions/en/) (28 May 2008). *Hans Dahl (1849-1937): Fjord with
-    sailing boat* [Photograph]. Online: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hans_Dahl_-_Fiord_with_sailing_boat.jpg) ([34](#org2326189))
-6.  [Christie's](https://en.wikipedia.org/wiki/Christie%27s) (1977-1998). *Christoffer Wilhelm Eckersberg
+    BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)<sup><a id="fnr.14" class="footref" href="#fn.14" role="doc-backlink">14</a></sup> .  ([29](#orge062d3a))
+-   [ARCADJA](http://www.arcadja.com/auctions/en/) (28 May 2008). *Hans Dahl (1849-1937): Fjord with
+    sailing boat* [Photograph]. Online: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hans_Dahl_-_Fiord_with_sailing_boat.jpg) ([34](#orgdbd4059))
+-   [Christie's](https://en.wikipedia.org/wiki/Christie%27s) (1977-1998). *Christoffer Wilhelm Eckersberg
     (1783-1853): A Sailing Boat in full sail* [Photograph] Online:
-    [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Christoffer_Wilhelm_Eckersberg_-_A_Sailing_Boat_in_full_sail_(1832).jpg). ([53](#org4c8d2ed))
-7.  allartpainting.com (n.d.). *William Bradford (1823-1892): Fishing
+    [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Christoffer_Wilhelm_Eckersberg_-_A_Sailing_Boat_in_full_sail_(1832).jpg). ([55](#org6771eb8))
+-   allartpainting.com (n.d.). *William Bradford (1823-1892): Fishing
     Boats on the Bay of Fundy* [Photograph] Online: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:William_Bradford_Fishing_Boats_On_The_Bay_Of_Fundy.jpg).
-    ([62](#orgba783fc))
-8.  [National Museum of Art, Architecture and Design](https://www.nasjonalmuseet.no//en/collection/object/NG.M.01248) (n.d.) *Frits
+    ([64](#org1651007))
+-   [National Museum of Art, Architecture and Design](https://www.nasjonalmuseet.no//en/collection/object/NG.M.01248) (n.d.) *Frits
     Thaulow: Norwegian Bokmål: Seilbåten* [Photograph]. Online:
-    [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Frits_Thaulow_-_The_Sailing_Boat_-_NG.M.01248_-_National_Museum_of_Art,_Architecture_and_Design.jpg). ([64](#orgff8fdbc))
-9.  [Christie's](https://en.wikipedia.org/wiki/Christie%27s) (n.d.). *Leo Gestel (-1941): Sailing boats in a
-    canal* [Photograph]. Online: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Leo_Gestel_Sailing_boats_in_a_canal.jpg). ([76](#org0da4ae5))
-10. [Uriel1022](https://commons.wikimedia.org/wiki/User:Uriel1022) (2013). *Wang Chiu-chiang: Sailing Boats on an Autumn
+    [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Frits_Thaulow_-_The_Sailing_Boat_-_NG.M.01248_-_National_Museum_of_Art,_Architecture_and_Design.jpg). ([66](#orgd56e0ef))
+-   [Christie's](https://en.wikipedia.org/wiki/Christie%27s) (n.d.). *Leo Gestel (-1941): Sailing boats in a
+    canal* [Photograph]. Online: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Leo_Gestel_Sailing_boats_in_a_canal.jpg). ([78](#org32f4e1a))
+-   [Uriel1022](https://commons.wikimedia.org/wiki/User:Uriel1022) (2013). *Wang Chiu-chiang: Sailing Boats on an Autumn
     River* [Photograph]. Online: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sailing_Boats_on_an_Autumn_River.jpg). Copyright: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
-    ([78](#org169453f))
-11. [Sotheby's](http://www.sothebys.com/) (31 January 2013). *Adam Willaerts (1577-1664): River
-    scene with boats.* [Photograph]. Online: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Adam_Willaerts_River_Scene_with_Boats.jpg). ([98](#orgf30bdc1))
-12. [Christie's](https://www.christies.com/lot/lot-boris-grigoriev-sailing-boat-in-a-cubist-5380031/?from=searchresults&intObjectID=5380031&sid=5445fdc4-5e52-4de0-9171-907d56e9e152) (2010). *Boris Grigoriev (1886-1939): Sailing boat
+    ([80](#org9ff9a36))
+-   [Sotheby's](http://www.sothebys.com/) (31 January 2013). *Adam Willaerts (1577-1664): River
+    scene with boats.* [Photograph]. Online: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Adam_Willaerts_River_Scene_with_Boats.jpg). ([100](#org3fce3e8))
+-   [Christie's](https://www.christies.com/lot/lot-boris-grigoriev-sailing-boat-in-a-cubist-5380031/?from=searchresults&intObjectID=5380031&sid=5445fdc4-5e52-4de0-9171-907d56e9e152) (2010). *Boris Grigoriev (1886-1939): Sailing boat
     in a cubist landscape* [Photograph]. Online: [Wikimedia
-    Commons](https://commons.wikimedia.org/wiki/File:Boris_grigoriev_sailing_boat_in_a_cubist_landscape.jpg). ([106](#org4619dbc))
-13. [Google Art Project](https://www.google.com/culturalinstitute/asset-viewer/zwG0Ib0V-EZa5g) (n.d.). *Homer Winslow (1836-1910): The Boat
+    Commons](https://commons.wikimedia.org/wiki/File:Boris_grigoriev_sailing_boat_in_a_cubist_landscape.jpg). ([108](#org55a7eeb))
+-   [Google Art Project](https://www.google.com/culturalinstitute/asset-viewer/zwG0Ib0V-EZa5g) (n.d.). *Homer Winslow (1836-1910): The Boat
     Builders* [Photograph]. Online: Wikimedia
-    Commons. ([110](#org8adfd68))
-14. [ciurlionis.eu](http://ciurlionis.eu/en/painting/gallery/) (5 March 2012). *Mikalojus Konstantinas
+    Commons. ([112](#orga289f94))
+-   [ciurlionis.eu](http://ciurlionis.eu/en/painting/gallery/) (5 March 2012). *Mikalojus Konstantinas
     Čiurlionis (1906): Sailing Boats* [Photograph]. Online:
-    [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mikalojus_Konstantinas_Ciurlionis_-_SAILING_BOATS_-_1906.jpg). ([114](#org5448784))
+    [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mikalojus_Konstantinas_Ciurlionis_-_SAILING_BOATS_-_1906.jpg). ([116](#orgfae66b8))
 
 
 # Footnotes
