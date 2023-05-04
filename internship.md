@@ -1,3 +1,6 @@
+# Changes for fall 2023
+
+An important addition to the course starting fall 2023: we'll simulate job and internship interviews during our meetings (in addition to discussion on the weekly blog topics when wanted and needed). 
 
 # Table of Contents
 
