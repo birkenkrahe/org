@@ -12,9 +12,9 @@ content that I may want to develop later on time permitting.
 * Using Google Bard to find references
 
 So, I am currently writing a paper on "[[https://github.com/birkenkrahe/org/blob/master/research/Abstract.org][Teaching data science with
-literate programming methods]]". A few months ago, before submitting an
-abstract that was subsequently accepted by a peer-reviewed journal, I
-did a thorough literature search and found nothing on the
+literate programming methods]]". A few months ago, before submitting
+an abstract that was subsequently accepted by a peer-reviewed journal,
+I did a thorough literature search and found nothing on the
 topic. Great!
 
 Yesterday, ChatGPT's competitor [[https://bard.google.com/][Google Bard]] came out - I tested it for
