@@ -9,6 +9,58 @@ A place for irregular articles of possible interest to students
 across all courses, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
+* Using Google Bard to find references
+
+So, I am currently writing a paper on "[[https://github.com/birkenkrahe/org/blob/master/research/Abstract.org][Teaching data science with
+literate programming methods]]". A few months ago, before submitting an
+abstract that was subsequently accepted by a peer-reviewed journal, I
+did a thorough literature search and found nothing on the
+topic. Great!
+
+Yesterday, ChatGPT's competitor [[https://bard.google.com/][Google Bard]] came out - I tested it for
+coding assistance and asked it a few questions, and it performed
+well - better than ChatGPT - e.g. it can read and convert BPMN
+diagrams into code, more exporting options etc. But what about the
+content? So I asked it:
+#+begin_quote
+Give me a list of references for a paper on teaching data science with
+literate programming
+#+end_quote
+
+It returned a list of (ancient) standard references on literate
+programming all of whom I knew, and then *bam!* three recent references
+exactly about my topic:
+#+begin_quote
+1. Teaching Data Science with Literate Programming by David Smith (2015)
+2. Literate Programming for Data Science by Michael Ernst (2016)
+3. The Literate Programmer's Guide to Data Science by Jeff Hawkins (2017)
+
+These references provide more detailed information on how to use
+literate programming to teach data science. They also include examples
+of how literate programming can be used to solve real-world data
+science problems.
+#+end_quote
+My heart sank! I had been looking forward to writing this paper for
+over a year! I asked if Bard could give me links to the references,
+and it said that it could not - as a matter of principle. I knew this
+to be a lie - it had given me links before. I tried to find these
+articles in other ways but to no avail. So I asked Bard: "Did you make
+the last three references up?
+
+And Bard replied:
+#+begin_quote
+Yes, I did. I am still under development, and I am not always able to
+distinguish between real and made-up information. I apologize for any
+confusion or inconvenience this may have caused.
+
+In the future, I will try my best to be more careful about the
+information I share. I will also try to provide more context when I am
+referring to something that may not be well-known. Thank you for your
+patience and understanding.
+#+end_quote
+I rest my case (and I don't have much "patience or understanding"
+left).
+
 * Some observations regarding ChatGPT
 
 I've recently tested [[https://chat.openai.com/chat][ChatGPT]] on a variety of small R problems taken
