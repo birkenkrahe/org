@@ -1,0 +1,34 @@
+* The Role of AI Coding Assistants: Revisiting the Need for Literate Programming in Data Science and Engineering Education
+
+(Planned talk at [[https://sites.google.com/a/uah.edu/sscet/][SSCET '2023]])
+
+Literate programming emphasizes the importance of clear code
+documentation and explanatory text integration, and fosters a deeper
+understanding of engineering concepts, effective collaboration, and
+critical thinking skills. It has been at the forefront of data science
+practice in the form of interactive notebooks like Jupyter notebooks
+for over a decade. In fact, literate programming as a technique of
+structured documentation has been used in computational physics and
+engineering education and practice since its definition by Knuth
+in 1984.
+
+This presentation critically examines the role of AI coding assistants
+and their impact on the relevance of literate programming in
+engineering education. As AI coding assistants advance, offering
+real-time feedback and automated code completion, questions arise
+regarding the necessity of literate programming principles.
+
+The session explores the benefits of AI coding assistants, including
+enhanced coding efficiency and support for novice learners. However,
+it also considers the potential drawbacks and limitations of relying
+solely on these tools. We posit a symbiotic relationship between AI
+coding assistants and literate programming: both approaches can
+complement each other by combining AI automation with human-readable
+documentation.
+
+Attendees will gain a nuanced understanding of the interplay between
+AI coding assistants and literate programming in data science and
+engineering education. They will consider the strengths and
+limitations of each approach and explore how to strike a balance to
+create a comprehensive educational experience.
+
