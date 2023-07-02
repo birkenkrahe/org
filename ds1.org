@@ -16,6 +16,13 @@
 - Textbook: The Book of R (Part I, ch. 1-8) by T Davies
   ([[https://nostarch.com/bookofr][NoStarch, 2016]]) - reserved copy available in the library
 
+* Changes for Fall 2023
+
+- While R will still be our main programming language, I want to
+  contrast data science using SQL and Python (perhaps in connection
+  with R, though interface packages), and maybe even C/C++.
+- The weekly quizzes will be graded.
+  
 * Objectives
 
 Data science is concerned with getting data to work for us, to give us
