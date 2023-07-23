@@ -26,7 +26,7 @@ demonstrations will showcase cutting-edge writing assistants and data
 science platforms accessible to early-career clinicians and
 researchers. The future of medical AI is bright, and learning how to
 effectively leverage these emerging innovations will prepare residents
-for leadership in modern data-driven medicine.
+for leadership in modern data-driven medicine.[fn:1]
 #+end_quote
 
 ** Speaker Bio
@@ -56,4 +56,11 @@ QR-code for this page:
 #+caption: https://github.com/birkenkrahe/org/blob/master/img/wrmc_qrcode.png
 [[../img/wrmc_qrcode.png]]
 
-  
+* Footnotes
+
+[fn:1]The abstract was written by [[https://claude.ai][Claude 2]] with the following prompt:
+"Write an abstract for a talk on "Medical AI - How Machine Learning
+Can Help Your Publishing Career" for resident doctors of the White
+River Medical Center, Batesville, AR. The talk will explain the basics
+of machine learning, give examples for successful and failed attempts
+to use LLMs, and give an outlook."
