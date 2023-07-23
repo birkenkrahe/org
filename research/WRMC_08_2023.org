@@ -58,9 +58,9 @@ QR-code for this page:
 
 * Footnotes
 
-[fn:1]The abstract was written by [[https://claude.ai][Claude 2]] with the following prompt:
-"Write an abstract for a talk on "Medical AI - How Machine Learning
-Can Help Your Publishing Career" for resident doctors of the White
-River Medical Center, Batesville, AR. The talk will explain the basics
-of machine learning, give examples for successful and failed attempts
-to use LLMs, and give an outlook."
+[fn:1]The abstract was written by [[https://claude.ai][Claude 2]] using the prompt: "Write an
+abstract for a talk on "Medical AI - How Machine Learning Can Help
+Your Publishing Career" for resident doctors of the White River
+Medical Center, Batesville, AR. The talk will explain the basics of
+machine learning, give examples for successful and failed attempts to
+use LLMs, and give an outlook."
