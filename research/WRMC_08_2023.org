@@ -49,6 +49,7 @@ Berlin, Germany.
 - [[https://www.lyon.edu/marcus-birkenkrahe][Lyon College]]
 
 QR-code for this page:
+#+caption: https://github.com/birkenkrahe/org/blob/master/img/wrmc_qrcode.png
 [[../img/wrmc_qrcode.png]]
 
   
