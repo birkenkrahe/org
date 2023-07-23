@@ -1,0 +1,49 @@
+#+startup: indent inlineimages overview hideblocks
+* Medical AI - How Machine Learning Can Help Your Publishing Career
+#+attr_html: :width 400px
+#+caption: Photo by Alyssa Stevenson at unsplash.com
+[[../img/wrmc.jpg]]
+
+[[https://www.lyon.edu/marcus-birkenkrahe][By Marcus Birkenkrahe, Associate Professor of Computer and Data Science
+@Lyon College]] - planned talk at White River Medical Centre, August
+8, 2023, 12pm.
+#+begin_quote
+Artificial intelligence and machine learning are transforming medical
+research and practice. These technologies are also creating new
+opportunities for physicians to advance their academic publishing and
+augment scholarly writing. This talk will provide an overview of
+medical AI and its applications in healthcare. We will demystify key
+concepts like machine learning, neural networks, and large language
+models (LLMs). Drawing on examples of successful implementations and
+pitfalls to avoid, we will demonstrate how resident physicians can
+apply AI tools to improve literature reviews, streamline manuscript
+drafting, ensure proper citation practices, and enhance overall
+research productivity. Attendees will leave this session with a
+clearer understanding of responsible AI use cases that can further
+their publishing goals and career development. Interactive
+demonstrations will showcase cutting-edge writing assistants and data
+science platforms accessible to early-career clinicians and
+researchers. The future of medical AI is bright, and learning how to
+effectively leverage these emerging innovations will prepare residents
+for leadership in modern data-driven medicine.
+#+end_quote
+
+** Speaker Bio
+#+begin_quote
+Prof. Dr. Marcus Birkenkrahe joined the Lyon faculty in 2021, on leave
+of absence from the Berlin School of Economics and Law. He earned a
+PhD in theoretical physics (lattice gauge theory). He has published
+widely in different areas, including: neural nets, multigrid
+applications, knowledge management, e-learning, literate programming,
+process modeling, and data science. He is associate editor of the
+International Journal of Data Science, editorial board member of the
+International Journal of Big Data Management, corresponding member of
+the Institute for Data-Driven Digital Transformation (d-cube) in
+Berlin, Germany. 
+#+end_quote
+
+** Network
+- [[https://www.linkedin.com/in/birkenkrahe][LinkedIn]]
+- [[https://twitter.com/birkenkrahe][Twitter (X)]]
+- [[https://en.wikipedia.org/wiki/Marcus_Birkenkrahe][Wikipedia]]
+- [[https://www.lyon.edu/marcus-birkenkrahe][Lyon College]]
