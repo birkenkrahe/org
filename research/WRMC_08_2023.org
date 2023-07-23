@@ -47,3 +47,8 @@ Berlin, Germany.
 - [[https://twitter.com/birkenkrahe][Twitter (X)]]
 - [[https://en.wikipedia.org/wiki/Marcus_Birkenkrahe][Wikipedia]]
 - [[https://www.lyon.edu/marcus-birkenkrahe][Lyon College]]
+
+QR-code for this page:
+[[../img/wrmc_qrcode.png]]
+
+  
