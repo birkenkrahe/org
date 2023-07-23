@@ -44,10 +44,13 @@ Berlin, Germany.
 #+end_quote
 
 ** Network
+- [[https://www.lyon.edu/marcus-birkenkrahe][Lyon College]]
 - [[https://www.linkedin.com/in/birkenkrahe][LinkedIn]]
 - [[https://twitter.com/birkenkrahe][Twitter (X)]]
+- [[https://www.researchgate.net/profile/Marcus-Birkenkrahe][Researchgate.net]]
+- [[https://scholar.google.com/citations?user=Vvnwsv0AAAAJ&hl=en][Google Scholar]]
+- [[https://orcid.org/my-orcid?orcid=0000-0001-9461-8474][ORCID]]
 - [[https://en.wikipedia.org/wiki/Marcus_Birkenkrahe][Wikipedia]]
-- [[https://www.lyon.edu/marcus-birkenkrahe][Lyon College]]
 
 QR-code for this page:
 #+caption: https://github.com/birkenkrahe/org/blob/master/img/wrmc_qrcode.png
