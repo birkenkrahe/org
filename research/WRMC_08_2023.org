@@ -5,7 +5,7 @@
 [[../img/wrmc.jpg]]
 
 [[https://www.lyon.edu/marcus-birkenkrahe][By Marcus Birkenkrahe, Associate Professor of Computer and Data
-Science @Lyon College]] - talk @White River Medical Centre,
+Science @Lyon College]] - invited talk @White River Medical Centre,
 Batesville, August 8, 2023, 12 pm
 
 #+begin_quote
