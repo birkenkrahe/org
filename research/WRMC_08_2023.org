@@ -382,6 +382,15 @@ Here are the creepy, underwhelming results from bing.com (Dall-e):
 #+attr_latex: :width 400px
 [[../img/dall-e_poster1.jpg]]
 
+#+attr_latex: :width 400px
+[[../img/dall-e_poster2.jpg]]
+
+#+attr_latex: :width 400px
+[[../img/dall-e_poster3.jpg]]
+
+#+attr_latex: :width 400px
+[[../img/dall-e_poster4.jpg]]
+
 * Footnotes
 
 [fn:1]This abstract was written by [[https://claude.ai][Claude 2]] using the prompt: "Write
