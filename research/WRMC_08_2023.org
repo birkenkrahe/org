@@ -206,7 +206,7 @@ Key modifications were made to achieve this:
   Birkenkrahe's signature style of instilling enthusiasm and optimism
   in his audience.
 #+end_quote
- 
+
 *** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/2022/paabo/facts/][Svante Pääbo]]" by Claude
 
 AI: "I attempted to channel Pääbo's scholarly yet poetic voice and
@@ -313,6 +313,57 @@ furthering human health through scientific advancement. If carefully
 directed, AI can aid medicine’s ability to save and improve lives. But
 these are means, not ends. Our purpose endures: alleviate suffering
 through research and care.
+#+end_quote
+
+*** Abstract by Bard
+Prompt:
+#+begin_quote
+Write an abstract for a talk on "Medical AI - How mchine learning can
+help your publishing career" for resident doctors of the White River
+Medical Center, Batesville, AR. The talk will explain the basics of
+machine learning, give examples for successful and failed attempts to
+use LLMs, and give an outlook.
+#+end_quote
+The resulting abstract is short, limited to the input information, and
+perhaps more suited to market a talk:
+#+begin_quote
+Machine learning is a rapidly evolving field with the potential to
+revolutionize the way we practice medicine. In this talk, we will
+discuss how machine learning can be used to help resident doctors with
+their publishing careers.
+
+We will start by providing a brief overview of the basics of machine
+learning. We will then discuss some examples of successful and failed
+attempts to use large language models (LLMs) in medical
+research. Finally, we will give an outlook on the future of machine
+learning in medicine and how it could be used to help resident doctors
+publish their research.
+
+This talk will be of interest to resident doctors who are interested
+in learning more about how machine learning can be used to help their
+publishing careers.
+
+Some topics that will be covered in the talk include:
+
+- The basics of machine learning
+- How machine learning can be used to analyze medical data
+- Examples of successful and failed attempts to use LLMs in medical research
+- The future of machine learning in medicine
+- How machine learning can help resident doctors publish their research
+
+I hope you will join me for this talk and learn more about how machine
+learning can help your publishing career.
+#+end_quote
+**** Rewrite "in the style of Marcus Birkenkrahe"
+
+Requests to rewrite, even with a [[https://www.researchgate.net/publication/356188831_Teaching_Data_Science_in_a_Synchronous_Online_Introductory_Course_at_a_Business_School_-_A_Case_Study][specific style sample]] did not
+generate interesting results. Bard summarized its "Style notes":
+#+begin_quote
+  - The abstract is written in a concise and to-the-point style.
+  - The key points are clearly highlighted.
+  - The call to action is clear and concise.
+  - The abstract uses a formal tone and academic vocabulary.
+  - The abstract is well-structured and flows smoothly.
 #+end_quote
 
 * Footnotes
