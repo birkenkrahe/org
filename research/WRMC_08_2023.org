@@ -368,6 +368,20 @@ generate interesting results. Bard summarized its "Style notes":
   - The abstract is well-structured and flows smoothly.
 #+end_quote
 
+** Poster art
+
+The AI should be able to create an attractive poster for the event,
+right? Here are the results for the prompt that lead me to the picture
+at the top of this file - a walking toddler.
+
+Prompt: "Poster for a talk on "Medical AI". Add the title, and as
+speaker "Dr. Marcus Birkenkrahe, Lyon College". For the poster, show a
+baby learning how to walk."
+
+Here are the creepy, underwhelming results from bing.com (Dall-e):
+#+attr_latex: :width 400px
+[[../img/dall-e_poster1.jpg]]
+
 * Footnotes
 
 [fn:1]This abstract was written by [[https://claude.ai][Claude 2]] using the prompt: "Write
