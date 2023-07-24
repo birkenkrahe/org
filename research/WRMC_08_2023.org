@@ -2,7 +2,7 @@
 * Medical AI - How Machine Learning Can Help Your Publishing Career
 #+attr_html: :width 400px
 #+caption: Photo by Alyssa Stevenson at unsplash.com
-[[../img/wrmc.jpg.png]]
+[[../img/wrmc.jpg]]
 
 Speaker: [[https://www.lyon.edu/marcus-birkenkrahe][Marcus Birkenkrahe, Associate Professor of Computer and Data
 Science @Lyon College]] - invited talk @White River Medical Centre,
