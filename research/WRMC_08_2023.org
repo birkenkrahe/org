@@ -30,26 +30,6 @@ effectively leverage these emerging innovations will prepare residents
 for leadership in modern data-driven medicine. [fn:1]
 #+end_quote
 
-** Abstract "In the style of Marcus Birkenkrahe"
-#+begin_quote
-At the precipice of transformation, medicine stands, with emerging
-technologies granting glimpses of a new horizon. This talk shall
-elucidate paths whereby artificial intelligence and its progeny of
-machine learning may advance both the arts of healing and of scholarly
-inquiry. Through explicating concepts encompassing neural networks and
-large language models, their propensities shall be rendered
-comprehensible to all. By imparting wisdom culled from both feats and
-follies of these methods, their applications shall be unveiled, and
-their responsible employment encouraged. Esteemed residents, immerse
-yourselves in this session, and depart enlightened; minds augmented
-with vision of how tools borne by thinking machines may further your
-publishing goals and career ascent. Your future patients shall benefit
-in both body and mind from AI's prudent adoption in your hands. Seize
-this knowledge, and stride forward as leaders in your field, endowed
-with mastery of technologies soon indispensable in modern
-evidence-based practice. [fn:2]
-#+end_quote
-
 ** Speaker Bio
 #+begin_quote
 Prof. Dr. Marcus Birkenkrahe joined the Lyon faculty in 2021, on leave
@@ -77,7 +57,127 @@ QR-code for this page:
 #+caption: https://github.com/birkenkrahe/org/blob/master/img/wrmc_qrcode.png
 [[../img/wrmc_qrcode.png]]
 
+** Impromptu experiments
+
+One of the intriguing abilities of conversational chatbots is the
+ability to attempt to match a real author's style. Let's see how this
+works out.
+
+*** Abstract "In the style of Marcus Birkenkrahe"
+#+begin_quote
+At the precipice of transformation, medicine stands, with emerging
+technologies granting glimpses of a new horizon. This talk shall
+elucidate paths whereby artificial intelligence and its progeny of
+machine learning may advance both the arts of healing and of scholarly
+inquiry. Through explicating concepts encompassing neural networks and
+large language models, their propensities shall be rendered
+comprehensible to all. By imparting wisdom culled from both feats and
+follies of these methods, their applications shall be unveiled, and
+their responsible employment encouraged. Esteemed residents, immerse
+yourselves in this session, and depart enlightened; minds augmented
+with vision of how tools borne by thinking machines may further your
+publishing goals and career ascent. Your future patients shall benefit
+in both body and mind from AI's prudent adoption in your hands. Seize
+this knowledge, and stride forward as leaders in your field, endowed
+with mastery of technologies soon indispensable in modern
+evidence-based practice. [fn:2]
+#+end_quote
+
+*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/2022/paabo/facts/][Svante Pääbo]]"
+#+begin_quote
+Like ancient DNA revealing human prehistory, artificial intelligence
+now unravels the mysteries of modern medicine. Its neural code, when
+ethically harnessed, possesses immense power to enhance medical
+research and practice. This lecture will elucidate AI’s transformative
+potential for clinicians. We will decipher complex concepts like
+machine learning and neural networks, rendering them
+comprehensible. Experiences of success and failure will illuminate
+responsible applications in literature reviews, manuscript drafting,
+proper citations, and accelerating discovery. However, we must proceed
+with care. AI is no oracle; it must serve clinicians, not supplant
+them. Its outputs demand critical analysis. Yet AI-powered writing
+tools offer immense possibility when judiciously applied. Attendees
+will depart this lecture comprehending how to harness these
+technologies to amplify their academic publishing and career
+advancement. But stay vigilant against complacency. There is still
+much we do not understand. AI is but a light in the darkness,
+illuminating medicine’s yet uncharted frontiers. Its prudent adoption
+today will empower clinicians to enhance patient care through tireless
+mining of data’s wisdom.
+#+end_quote
+
+*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/2018/allison/facts/][James P. Allison]]"
+#+begin_quote
+Cancer unleashed its wrath on humanity - but we’re now striking back
+with artificial intelligence. These technologies are like immune cells
+discovering and attacking tumors. Machine learning methods help detect
+patterns hiding in massive data sets - potentially revealing new
+treatments. But like an experimental drug, AI needs rigorous
+testing. Success isn’t guaranteed. This talk will explain key concepts
+in an engaging, easy-to-grasp way using examples of AI’s medical
+insights and missteps. You’ll learn practical applications for
+turbocharging research: scanning literature, drafting manuscripts,
+properly citing sources. But AI isn’t a cure-all. It requires human
+guidance to avoid misuse and bias. Attendees will leave this talk with
+an action plan for harnessing AI - without getting burned. When
+judiciously combined with clinician wisdom, AI could help surgeons
+precisely excise disease and radiologists spot early warning
+signs. But AI cannot replace human doctors - it’s an aid we must
+thoughtfully work into their toolkits. Ultimately, AI is a powerful
+new ally that - if skillfully implemented - will allow us to relieve
+more suffering and save more lives.
+#+end_quote
+
+*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/1908/ehrlich/facts/][Paul Ehrlich]]"
+#+begin_quote
+Gentlemen, we stand at the dawn of a new age of medicine, in which
+disease-causing elements may finally meet their match through
+innovations of human ingenuity. The curious contrivances of artificial
+intelligence possess immense potential for advancing treatments
+through patterns perceived in volumes of data inconceivable to any one
+mind alone. Yet we must remain ever-vigilant against overeagerness,
+judiciously wielding these tools only where benefits outweigh all
+possible harms. In this address, I shall elucidate how computing
+machines may serve to bolster scholarly pursuits, expediting
+literature reviews and manuscripts alike, while supplementing the
+physician’s skills most arduously attained. Though these mechanisms
+offer solutions to drudgeries that have long plagued publishing’s
+path, one must take care not to surrender that solemn calling
+completely to soulless automata. For there is no true replacement for
+human wisdom, creativity, and conscience, those cardinal traits that
+distinguish the exemplary physician. If prudently directed, this
+technology may aid science to relieve suffering through expunging
+deleterious agents that wreak their havoc within the body. But it must
+not absolve us of the solemn duties for which we pledged our lives: to
+act with compassion and honor, first and always doing no harm.
+#+end_quote
+
+*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/1988/elion/biographical/][Gertrude Belle Elion]]"
+#+begin_quote
+Though once mysterious in mechanism, medicine now illuminates pathways
+to overcome disease through scientific innovation. Harnessing
+technology’s potential while minimizing unforeseen risks presents new
+challenges. Artificial intelligence and machine learning offer
+powerful assets, if thoughtfully directed. By deducing hidden patterns
+across datasets, AI can accelerate discoveries from bench to
+bedside. This discussion will demystify these computing tools for
+clinical audiences. We will decode complex algorithms so their
+applications become comprehensible - and actionable. Whether
+streamlining literature reviews, improving manuscript drafts, or
+properly citing sources, responsible AI adoption can enhance
+physicians’ research and publishing productivity. However, we must
+remain vigilant. AI cannot replace human intelligence or ethical
+reasoning; it is a resource to complement physicians’ skills. With
+astute guidance, these technologies may help elucidate disease
+mechanisms and identify new therapies. Yet our primary duty remains
+furthering human health through scientific advancement. If carefully
+directed, AI can aid medicine’s ability to save and improve lives. But
+these are means, not ends. Our purpose endures: alleviate suffering
+through research and care.
+#+end_quote
+
 * Footnotes
+
 [fn:2]This abstract was written by [[https://claude.ai][Claude 2]] using the prompt: "Rewrite
 the first abstract in the style of Marcus Birkenkrahe." I subsequently
 asked "What made you rewrite the abstract in this particular style?
