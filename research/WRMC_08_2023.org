@@ -61,9 +61,11 @@ QR-code for this page:
 
 One of the intriguing abilities of conversational chatbots is the
 ability to attempt to match a real author's style. Let's see how this
-works out.
+works out. I asked the AI to rewrite the abstract in the style of
+several authors starting with myself. The others are Nobel laureates
+in medicine.
 
-*** Abstract "In the style of Marcus Birkenkrahe"
+*** Abstract "In the style of [[https://en.wikipedia.org/wiki/Marcus_Birkenkrahe][Marcus Birkenkrahe]]"
 #+begin_quote
 At the precipice of transformation, medicine stands, with emerging
 technologies granting glimpses of a new horizon. This talk shall
