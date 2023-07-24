@@ -8,6 +8,7 @@
 Science @Lyon College]] - invited talk @White River Medical Centre,
 Batesville, August 8, 2023, 12 pm
 
+** Abstract 1
 #+begin_quote
 Artificial intelligence and machine learning are transforming medical
 research and practice. These technologies are also creating new
@@ -26,7 +27,27 @@ demonstrations will showcase cutting-edge writing assistants and data
 science platforms accessible to early-career clinicians and
 researchers. The future of medical AI is bright, and learning how to
 effectively leverage these emerging innovations will prepare residents
-for leadership in modern data-driven medicine.[fn:1]
+for leadership in modern data-driven medicine. [fn:1]
+#+end_quote
+
+** Abstract 2
+#+begin_quote
+At the precipice of transformation, medicine stands, with emerging
+technologies granting glimpses of a new horizon. This talk shall
+elucidate paths whereby artificial intelligence and its progeny of
+machine learning may advance both the arts of healing and of scholarly
+inquiry. Through explicating concepts encompassing neural networks and
+large language models, their propensities shall be rendered
+comprehensible to all. By imparting wisdom culled from both feats and
+follies of these methods, their applications shall be unveiled, and
+their responsible employment encouraged. Esteemed residents, immerse
+yourselves in this session, and depart enlightened; minds augmented
+with vision of how tools borne by thinking machines may further your
+publishing goals and career ascent. Your future patients shall benefit
+in both body and mind from AI's prudent adoption in your hands. Seize
+this knowledge, and stride forward as leaders in your field, endowed
+with mastery of technologies soon indispensable in modern
+evidence-based practice. [fn:2]
 #+end_quote
 
 ** Speaker Bio
@@ -40,7 +61,7 @@ process modeling, and data science. He is associate editor of the
 International Journal of Data Science, editorial board member of the
 International Journal of Big Data Management, corresponding member of
 the Institute for Data-Driven Digital Transformation (d-cube) in
-Berlin, Germany. 
+Berlin, Germany.
 #+end_quote
 
 ** Network
@@ -57,8 +78,10 @@ QR-code for this page:
 [[../img/wrmc_qrcode.png]]
 
 * Footnotes
+[fn:2]This abstract was written by [[https://claude.ai][Claude 2]] using the prompt: "Rewrite
+the first abstract in the style of Marcus Birkenkrahe."
 
-[fn:1]The abstract was written by [[https://claude.ai][Claude 2]] using the prompt: "Write an
+[fn:1]This abstract was written by [[https://claude.ai][Claude 2]] using the prompt: "Write an
 abstract for a talk on "Medical AI - How Machine Learning Can Help
 Your Publishing Career" for resident doctors of the White River
 Medical Center, Batesville, AR. The talk will explain the basics of
