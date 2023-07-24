@@ -84,7 +84,7 @@ publishing goals and career ascent. Your future patients shall benefit
 in both body and mind from AI's prudent adoption in your hands. Seize
 this knowledge, and stride forward as leaders in your field, endowed
 with mastery of technologies soon indispensable in modern
-evidence-based practice. [fn:2]
+evidence-based practice.
 #+end_quote
 
 **** What prompted your rewriting choices?
