@@ -367,7 +367,7 @@ generate interesting results. Bard summarized its "Style notes":
   - The abstract is well-structured and flows smoothly.
 #+end_quote
 
-** Poster art
+** Poster art by Dall-e
 
 The AI should be able to create an attractive poster for the event,
 right? Here are the results for the prompt that lead me to the picture
