@@ -1,4 +1,5 @@
 #+startup: indent inlineimages overview hideblocks
+#+options: toc:1
 * Medical AI - How Machine Learning Can Help Your Publishing Career
 #+attr_html: :width 400px
 #+caption: Photo by Alyssa Stevenson at unsplash.com
