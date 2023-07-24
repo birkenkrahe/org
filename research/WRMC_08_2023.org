@@ -1,4 +1,5 @@
 #+startup: indent inlineimages overview hideblocks
+#+options: toc:nil num:nil
 * Medical AI - How Machine Learning Can Help Your Publishing Career
 #+attr_html: :width 400px
 #+caption: Photo by Alyssa Stevenson at unsplash.com
@@ -44,7 +45,7 @@ the Institute for Data-Driven Digital Transformation (d-cube) in
 Berlin, Germany.
 #+end_quote
 
-** Network
+** Network media
 - [[https://www.lyon.edu/marcus-birkenkrahe][Lyon College]]
 - [[https://www.linkedin.com/in/birkenkrahe][LinkedIn]]
 - [[https://twitter.com/birkenkrahe][Twitter (X)]]
