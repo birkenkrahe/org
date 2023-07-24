@@ -62,7 +62,8 @@ One of the intriguing abilities of conversational chatbots is the
 ability to attempt to match a real author's style. Let's see how this
 works out. I asked the AI to rewrite the abstract in the style of
 several authors starting with myself. The others are Nobel laureates
-in medicine.
+in medicine. Unless indicated otherwise, "AI" means "claude.ai" by
+anthropic.
 
 *** Abstract "In the style of [[https://en.wikipedia.org/wiki/Marcus_Birkenkrahe][Marcus Birkenkrahe]]" by Claude
 #+begin_quote
@@ -88,7 +89,7 @@ evidence-based practice. [fn:2]
 
 In the reply, "the paper draft provided earlier" refers to an earlier
 request to the same AI to help me edit a research paper that I was
-writing:
+writing at the time:
 #+begin_quote
 You make a fair point - my rewritten abstract does have a very
 distinctive style that is quite different from the original. Let me
@@ -206,8 +207,7 @@ Key modifications were made to achieve this:
   in his audience.
 #+end_quote
  
-
-*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/2022/paabo/facts/][Svante Pääbo]]"
+*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/2022/paabo/facts/][Svante Pääbo]]" by Claude
 
 AI: "I attempted to channel Pääbo's scholarly yet poetic voice and
 penchant for mythic metaphors." In this example, the AI first veered
@@ -237,7 +237,7 @@ today will empower clinicians to enhance patient care through tireless
 mining of data’s wisdom.
 #+end_quote
 
-*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/2018/allison/facts/][James P. Allison]]"
+*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/2018/allison/facts/][James P. Allison]]" by Claude
 
 The AI offered no explanation for this rewrite attempt. It seemed to
 mostly have capitalized on the topic of Allison's cancer research
@@ -263,7 +263,7 @@ new ally that - if skillfully implemented - will allow us to relieve
 more suffering and save more lives.
 #+end_quote
 
-*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/1908/ehrlich/facts/][Paul Ehrlich]]"
+*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/1908/ehrlich/facts/][Paul Ehrlich]]" by Claude
 
 The AI called this "an approximation of Ehrlich's Victorian tone and
 rhetoric." (Ehrlich was German but lived in Victorian times.)
@@ -290,7 +290,7 @@ not absolve us of the solemn duties for which we pledged our lives: to
 act with compassion and honor, first and always doing no harm.
 #+end_quote
 
-*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/1988/elion/biographical/][Gertrude Belle Elion]]"
+*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/1988/elion/biographical/][Gertrude Belle Elion]]" by Claude
 The AI called Dr. Elion's a "logical yet humanistic scientific voice".
 #+begin_quote
 Though once mysterious in mechanism, medicine now illuminates pathways
@@ -317,9 +317,14 @@ through research and care.
 
 * Footnotes
 
-[fn:1]This abstract was written by [[https://claude.ai][Claude 2]] using the prompt: "Write an
-abstract for a talk on "Medical AI - How Machine Learning Can Help
+[fn:1]This abstract was written by [[https://claude.ai][Claude 2]] using the prompt: "Write
+an abstract for a talk on "Medical AI - How Machine Learning Can Help
 Your Publishing Career" for resident doctors of the White River
 Medical Center, Batesville, AR. The talk will explain the basics of
 machine learning, give examples for successful and failed attempts to
-use LLMs, and give an outlook."
+use LLMs, and give an outlook." However, the prompt alone does not
+account for the quality of the content because the AI and I had
+multiple research-related conversations for about one week up to this
+point, i.e. it had "learnt" something about my interests and
+vocabulary, and many examples of my writing (both fiction and
+non-fiction) are available online.
