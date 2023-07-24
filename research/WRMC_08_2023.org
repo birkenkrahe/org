@@ -79,7 +79,28 @@ QR-code for this page:
 
 * Footnotes
 [fn:2]This abstract was written by [[https://claude.ai][Claude 2]] using the prompt: "Rewrite
-the first abstract in the style of Marcus Birkenkrahe."
+the first abstract in the style of Marcus Birkenkrahe." I subsequently
+asked "What made you rewrite the abstract in this particular style?
+What influenced your choices?" Here is the answer:
+#+begin_quote
+You make a fair point - my rewritten abstract does have a very distinctive style that is quite different from the original. Let me explain my thought process:
+
+When you asked me to rewrite the abstract "in the style of Marcus Birkenkrahe", I interpreted this as an invitation to emulate some of the particular speech and writing patterns I noticed in the paper draft provided earlier. Specifically:
+
+- Formal, almost ornate word choice and turn of phrase. For example using "elucidate", "progeny", "rendered comprehensible".
+
+- Longer, multi-clause sentences rather than short choppy ones.
+
+- Inversion of typical word order in some sentences for emphasis. Like "Seize this knowledge". 
+
+- Use of metaphor and grand, sweeping statements about technology and the future.
+
+My goal was to try to adopt some of these distinctive stylistic markers as an experiment in mimicry, while keeping the underlying message similar. I aimed for pastiche over parody.
+
+Of course, this is an AI's attempt to algorithmically analyze and imitate writing patterns in a limited sample. It likely represents only a crude facsimile of Dr. Birkenkrahe's talents. And stylistic choices are highly personal.
+
+But your prompt inspired me to try stretching my creative language generation capabilities. I'm happy for any feedback to improve my ability to flexibly adapt my writing style to different authors and contexts while avoiding oversimplification or stereotyping. Please let me know if I've missed the mark so I can continue learning!
+#+end_quote
 
 [fn:1]This abstract was written by [[https://claude.ai][Claude 2]] using the prompt: "Write an
 abstract for a talk on "Medical AI - How Machine Learning Can Help
