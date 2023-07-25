@@ -393,7 +393,7 @@ Here are the creepy, underwhelming results from bing.com (Dall-e):
 
 * Footnotes
 
-[fn:1]This abstract was written by [[https://claude.ai][Claude 2]] using the prompt: "Write
+[fn:1] This abstract was written by [[https://claude.ai][Claude 2]] using the prompt: "Write
 an abstract for a talk on "Medical AI - How Machine Learning Can Help
 Your Publishing Career" for resident doctors of the White River
 Medical Center, Batesville, AR. The talk will explain the basics of
