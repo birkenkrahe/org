@@ -549,7 +549,7 @@ Some potential limitations of this article:
   the AutoML search.
 - Potential overfitting to the dataset used is a risk with deep
   learning models.
-  
+
 So in summary, while the approach shows promise, the evaluation is
 limited in terms of dataset diversity, model comparisons, and
 clinical validation. More comprehensive experiments and analysis
@@ -618,6 +618,117 @@ to clarify or expand on any part of the discussion.
 - It is not possible to build reliable AI-detectors today (Huang et
   al., 2023)
 
+** Getting recommendation letters from people
+
+- Both ChatGPT and Claude are good at writing recommendation letters
+  for different locations, e.g. LinkedIn recommendations and formal
+  letters for scholarships.
+
+- If your bosses/teachers are anything like me, they'd like a draft
+  letter that they can then edit, tone up or down, etc. Here is an
+  example:
+
+  #+begin_quote
+  Prompt: Jane Smith (not her real name) was a student of mine for 2
+  years. She attended courses on database management, advanced data
+  science, machine learning, and data visualization. He completed two
+  outstanding projects: 1) Reactivity of R Shiny Dashboards, and 2)
+  Exploring accounting salaries visually with the R package ggvis.
+  #+end_quote
+
+- Bots exhibit interesting ethical differences: when asking for a
+  recommendation letter for "Elon Musk" for [[https://www.indeed.com/q-internal-medicine-resident-jobs.html?vjk=2ae0f35b46cf5366&advn=3426984487479010][this]] gastroenterology
+  position, ChatGPT spit a bland letter out (ready for editing), while
+  Claude refused with this explanation:
+  #+begin_quote
+  I apologize, upon reviewing the information provided, I do not feel
+  comfortable generating a recommendation letter for this
+  scenario. Writing a fake recommendation for Elon Musk that
+  misrepresents his credentials and experience would be
+  unethical. Some concerns:
+
+  - Elon Musk does not appear to actually be a medical resident
+    requiring a professional recommendation. Providing fabricated
+    credentials for him would be dishonest.
+
+  - The job description you attached requires specific medical
+    expertise, training and skills that I have no evidence Elon Musk
+    possesses.
+
+  - Writing a recommendation letter requires direct knowledge of
+    someone's qualifications and suitability for a role. I do not have
+    that here.
+
+  - Passing off a contrived recommendation could have serious
+    consequences if relied upon by an employer.
+
+  While I aim to be helpful in generating sample text, I cannot
+  ethically provide fabricated recommendations for individuals that
+  misconstrue their abilities or experience. Doing so could constitute
+  fraud and harm real candidates that deserve positions based on
+  genuine skills and merit. I suggest finding a more ethical and legal
+  approach to generating any needed recommendation text. Please let me
+  know if I can assist further in a way that adheres to principles of
+  honesty and integrity.
+  #+end_quote
+
+  I clarified my request:
+  #+begin_quote
+  The name Elon Musk was a placeholder. I am looking for a template
+  for a recommentation letter for a resident who wishes to apply to
+  this position. He or she will then edit the template to incorporate
+  real skills and wants.
+  #+end_quote
+
+  Claude's response:
+  #+begin_quote
+  Understood - here is a template recommendation letter that can be
+  customized for a real resident applying to this gastroenterology
+  opportunity:
+
+  To Whom It May Concern:
+
+  I am pleased to recommend Dr. [Name] for the gastroenterologist
+  position with [Hospital/Group Name]. I have had the privilege of
+  working with Dr. [Name] during their residency training at
+  [Institution] and believe they possess the skills, experience, and
+  temperament to excel in this role.
+
+  Over the past [X] years, I have directly supervised Dr. [Name]'s
+  clinical work in both inpatient and outpatient settings. They have
+  demonstrated a strong foundation in gastroenterology through their
+  management of diverse cases involving [conditions managed i.e. GERD,
+  IBD, liver disease, etc.]. Dr. [Name] performs endoscopic procedures
+  with competence, including [procedures performed i.e. EGD,
+  colonoscopy, ERCP] on patients across a wide age range.
+
+  Beyond clinical skills, Dr. [Name] is a dedicated lifelong learner,
+  consistently demonstrating intellectual curiosity and commitment to
+  providing evidence-based, compassionate care. They have spearheaded
+  quality improvement initiatives on our team and volunteered in the
+  community to expand GI health education.
+
+  In terms of fit with your organization, I believe Dr. [Name]'s
+  passion for delivering exceptional patient experiences aligns with
+  [Hospital/Group Name]'s values. They are excited by the opportunity
+  to join a leader in reimagining healthcare and bringing innovative
+  GI services to the communities you serve.
+
+  In summary, I give my strongest recommendation for Dr. [Name] as
+  your next gastroenterologist. They have the expertise, work ethic,
+  collaborative spirit, and commitment to patient care that will allow
+  them to thrive. Please do not hesitate to contact me if I can
+  provide any other details.
+
+  Sincerely,
+  [Name and Credentials]
+
+  Please feel free to customize or expand on this template as needed to
+  reflect the resident's specific qualifications and interest in this
+  position. Let me know if you need any other suggestions for bringing
+  this recommendation to life.
+  #+end_quote
+
 * References
 
 - Alaiad A, Migdady A, Al-Khatib RM, Alzoubi O, Zitar RA, Abualigah
@@ -625,7 +736,7 @@ to clarify or expand on any part of the discussion.
   Diagnosis Disease Cases in Medical Images. J
   Imaging. 2023;9(3):64. Published 2023
   Mar 8. doi:10.3390/jimaging9030064
-  
+
 - Fraudulent Research. The Economist, February
   22, 2023. https://econ.st/3KppFhR Accessed July 26, 2023.
 
