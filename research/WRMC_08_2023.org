@@ -7,7 +7,7 @@
 
 *Speaker:* [[https://www.lyon.edu/marcus-birkenkrahe][Marcus Birkenkrahe, Associate Professor of Computer and Data
 Science @Lyon College]] - invited talk @White River Medical Centre,
-Batesville, August 8, 2023, 12 pm
+Batesville, August 8, 2023, 12-1pm
 
 ** Abstract
 #+begin_quote
@@ -361,11 +361,11 @@ learning can help your publishing career.
 Requests to rewrite, even with a [[https://www.researchgate.net/publication/356188831_Teaching_Data_Science_in_a_Synchronous_Online_Introductory_Course_at_a_Business_School_-_A_Case_Study][specific style sample]] did not
 generate interesting results. Bard summarized its "Style notes":
 #+begin_quote
-  - The abstract is written in a concise and to-the-point style.
-  - The key points are clearly highlighted.
-  - The call to action is clear and concise.
-  - The abstract uses a formal tone and academic vocabulary.
-  - The abstract is well-structured and flows smoothly.
+- The abstract is written in a concise and to-the-point style.
+- The key points are clearly highlighted.
+- The call to action is clear and concise.
+- The abstract uses a formal tone and academic vocabulary.
+- The abstract is well-structured and flows smoothly.
 #+end_quote
 
 ** Poster art by Dall-e
@@ -390,6 +390,208 @@ Here are the creepy, underwhelming results from bing.com (Dall-e):
 
 #+attr_latex: :width 400px
 [[../img/dall-e_poster4small.jpg.png]]
+
+** ChatGPT simulations
+
+In this simulation, I'm using "Code Interpreter" plugin for OpenAI's
+GPT-4 model enabling data analytics, image conversions, and code
+editing. Here is the [[https://sharegpt.com/c/zzK6Mu6][full text of the conversation]].
+
+*** How can you support medical residents' publishing careers?
+
+The AI first suggested a specific SIR model simulation on sample
+data. I changed the prompt to examples of how ChatGPT could 'help
+medical residents with their publishing careers':
+
+#+begin_quote
+1. Literature review
+2. Writing assistance
+3. Statistical analysis
+4. Reference management
+5. Idea generation
+#+end_quote
+
+*** Summarize our conversation
+
+At the end of the conversation, I asked the AI to summarize it:
+#+begin_quote
+1. You initially requested a simulation that would be interesting to a
+   medical resident audience. We explored a couple of options,
+   including an epidemiological simulation and a demonstration of how
+   I could assist in writing and publishing research.
+2. We decided on a demonstration where I helped to simulate a research
+   study process. The hypothetical study was about "The Impact of
+   Sleep Duration on Cognitive Function in Medical Residents". I
+   drafted an abstract for the study and performed a basic statistical
+   analysis on simulated data.
+3. Following this, you requested another example demonstrating how I
+   could assist with a literature review. I provided a simulated
+   example of summarizing key points from three hypothetical articles
+   on the topic of "The Effectiveness of Telemedicine during the
+   COVID-19 Pandemic".
+4. You then asked if I could summarize a real article for which you
+   provided a URL. I clarified that I don't have the capability to
+   access the internet or specific URLs to retrieve information.
+5. You uploaded the article as a PDF for summarization. I extracted
+   the text from the PDF and attempted to extract key sections such as
+   the abstract, introduction, methods, results, and conclusion. Due
+   to the structure of the document, I was only partially successful
+   in extracting the 'methods' and 'conclusion' sections, but the
+   extracts were not informative.
+6. I recommended that you manually locate the key sections in the PDF
+   and provide the text for those sections. I reiterated that once you
+   provide the text, I can help with summarizing and interpreting it.
+#+end_quote
+
+The summary is a fair assessment of the interaction.
+
+** Claude simulations
+
+*** Summarize a scientific article for me
+
+To get better information, I used Claude 2 (claude.ai) for step (5)
+targeting Alaiad et al. (2023). The result was satisfying:
+#+begin_quote
+Here is a summary of the key findings from the article:
+
+- The article proposes using Autokeras, an automated deep learning
+  framework, to detect malaria parasites in blood smear images.
+
+- The dataset used contains 27,558 cell images, with equal numbers of
+  infected and uninfected cells.
+
+- Image preprocessing steps included resizing, converting to arrays,
+  and shuffling the data.
+
+- The data was split into training (56%), validation (14%) and testing
+  (30%) sets.
+
+- Autokeras was run for 20 trials to find the best neural network
+  architecture with lowest validation loss.
+
+- The best model achieved 95.6% accuracy on the test set. Other
+  metrics like precision, recall and F1-score were also around 95-96%.
+
+- Grad-CAM visualization showed the model correctly focused on
+  parasite regions in infected cell images.
+
+- Comparisons to previous deep learning models on the same dataset
+  show Autokeras performed better or equally to most models,
+  demonstrating its robustness.
+
+- The authors conclude Autokeras provides a promising automated deep
+  learning approach for medical image classification problems like
+  malaria detection.
+#+end_quote
+
+*** Assess credibility of the citations
+
+I asked if the references in the article appeared credible to the AI:
+#+begin_quote
+Based on a quick review, the references cited in this article seem
+mostly credible:
+
+- The article cites the World Health Organization reports on malaria,
+  which are authoritative sources.
+- Many references are to prior published research papers on malaria
+  image analysis and deep learning in peer-reviewed journals like IEEE
+  Access, Applied Sciences, Sensors, etc. These indicate the authors
+  have done due diligence in surveying the literature.
+- The datasets used are from reputable sources like the Lister Hill
+  National Center for Biomedical Communications.
+- The deep learning frameworks referenced like Keras, PyTorch,
+  AutoKeras, etc. are well-established in the field.
+- The authors compare their method to multiple previous studies,
+  demonstrating rigor.
+- Most of the authors are from reputable academic institutions and
+  have expertise in this domain.
+- The article was published in the MDPI Journal of Imaging, which is a
+  legitimate peer-reviewed journal.
+
+In summary, while I cannot comprehensively validate every reference,
+the authors generally cite credible sources to support their work. The
+journal it is published in also lends some legitimacy. So based on
+this quick review, the references appear mostly solid. Let me know if
+you need me to dig deeper on any specific references.
+#+end_quote
+
+*** What are the limitations of the article?
+
+This was the best result of our conversation since the article does
+not possess a separate section on research limitations (without which
+it really should not have been published):
+
+#+begin_quote
+Some potential limitations of this article:
+
+- The dataset used contains only 27,558 images, which is relatively
+  small for training deep learning models. More data could help the
+  models generalize better.
+- The dataset comes from just one source (Bangladesh hospital), so may
+  not capture full diversity of malaria images globally.
+- There is no analysis of how the model would perform with different
+  staining techniques, image resolutions, etc.
+- Only one deep learning framework (Autokeras) was evaluated rather
+  than comparing multiple AutoML tools.
+- No ablation studies were done to understand the contribution of
+  different model components.
+- The focus was binary classification of infected vs
+  uninfected. Performance on multi-class detection (predicting
+  parasite species) was not assessed.
+- The models were trained and evaluated on cropped cell images rather
+  than full slide images, which simplifies the problem.
+- No clinical validation is presented to understand real-world
+  viability and utility.
+- Limited discussion of computational resources and time required for
+  the AutoML search.
+- Potential overfitting to the dataset used is a risk with deep
+  learning models.
+  
+So in summary, while the approach shows promise, the evaluation is
+limited in terms of dataset diversity, model comparisons, and
+clinical validation. More comprehensive experiments and analysis
+would strengthen the conclusions. But this provides a good
+proof-of-concept demonstration.
+#+end_quote
+
+*** Summarize our conversation so far.
+
+#+begin_quote
+Here's a summary of our conversation so far:
+
+- I summarized the key findings of the research article, which
+  proposed using Autokeras for automated malaria detection in blood
+  smear images.
+
+- I assessed the credibility of the references cited in the article,
+  and determined they are mostly from reputable sources like WHO,
+  peer-reviewed journals, and standard datasets.
+
+- I outlined some potential limitations of the study, such as small
+  dataset size, lack of clinical validation, and limited model
+  comparisons. More comprehensive experiments could strengthen the
+  conclusions.
+
+- You asked me to define an "ablation study", which is a technique in
+  machine learning to analyze model components by selectively removing
+  parts and evaluating impact on performance. This provides insights
+  into what contributes to model success.
+
+- I provided an AMA-style reference for the article.
+
+Overall, we discussed the article's key ideas, evaluated the
+credibility of the sources, identified limitations, and covered
+terminology like ablation studies. Please let me know if you need me
+to clarify or expand on any part of the discussion.
+#+end_quote
+
+* References
+
+- Alaiad A, Migdady A, Al-Khatib RM, Alzoubi O, Zitar RA, Abualigah
+  L. Autokeras Approach: A Robust Automated Deep Learning Network for
+  Diagnosis Disease Cases in Medical Images. J
+  Imaging. 2023;9(3):64. Published 2023
+  Mar 8. doi:10.3390/jimaging9030064
 
 * Footnotes
 
