@@ -588,12 +588,15 @@ terminology like ablation studies. Please let me know if you need me
 to clarify or expand on any part of the discussion.
 #+end_quote
 
-** Q&A
+** Fraud in medical research
 
 - Could AI help keep authors more honest and more diligent?
+
 - The limitations analysis by Claude is excellent (and too many papers
   are un- or half-aware of their own limitations)
+
 - Papers could be checked for plagiarism more efficiently
+
 - "There is a worrying amount of fraud in medical research"
   ([[https://www.economist.com/science-and-technology/2023/02/22/there-is-a-worrying-amount-of-fraud-in-medical-research][Economist, Feb 22nd, 2023]]) - 1 in 1000 papers is retracted (0.1%)
   1) Fabricated data
@@ -609,7 +612,9 @@ to clarify or expand on any part of the discussion.
 - Though 0.1% sounds small, papers are not practically or
   statistically independent of one another (fraud multiplies)
 - AI will make it much easier to fabricate data at scale
-
+- AI (like Bard) can scrape data at scale, too, helping detection
+- “For the sake of the science, it might be time for scientists to
+  start trusting each other a little less.” Stuart Ritchie (2020).
 
 
 * References
@@ -620,8 +625,13 @@ to clarify or expand on any part of the discussion.
   Imaging. 2023;9(3):64. Published 2023
   Mar 8. doi:10.3390/jimaging9030064
   
-- Fradulent Research. The Economist, February
+- Fraudulent Research. The Economist, February
   22, 2023. https://econ.st/3KppFhR Accessed July 26, 2023.
+
+- Ritchie S. Science Fictions: How Fraud, Bias, Negligence, and Hype
+  Undermine the Search for Truth. New York, NY: Metropolitan
+  Books; 2020. [[https://us.macm.com/books/9781250222695][us.macm.com/books/9781250222695]]. Accessed July
+  26, 2023.
 
 * Footnotes
 
