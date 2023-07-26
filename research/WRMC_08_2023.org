@@ -615,7 +615,8 @@ to clarify or expand on any part of the discussion.
 - AI (like Bard) can scrape data at scale, too, helping detection
 - “For the sake of the science, it might be time for scientists to
   start trusting each other a little less.” Stuart Ritchie (2020).
-
+- It is not possible to build reliable AI-detectors today (Huang et
+  al., 2023)
 
 * References
 
@@ -627,6 +628,11 @@ to clarify or expand on any part of the discussion.
   
 - Fraudulent Research. The Economist, February
   22, 2023. https://econ.st/3KppFhR Accessed July 26, 2023.
+
+- Huang P, Pashevich N, Ramesh A, Zhu C, Radford A, Sutskever
+  I. Measuring scale, generalization and limits in large language
+  models. arXiv. 2023. https://arxiv.org/abs/2303.11156. Accessed July
+  26, 2023
 
 - Ritchie S. Science Fictions: How Fraud, Bias, Negligence, and Hype
   Undermine the Search for Truth. New York, NY: Metropolitan
