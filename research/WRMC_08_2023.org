@@ -2,8 +2,8 @@
 #+options: toc:nil num:nil
 * Medical AI - How Machine Learning Can Help Your Publishing Career
 #+attr_html: :width 400px
-#+caption: Photo by Alyssa Stevenson at unsplash.com
-[[../img/wrmc.jpg]]
+#+caption: Poster by Lucia Birkenkrahe, photo by Alyssa Stevenson @unsplash.com
+[[../img/wrmc_qrcode_poster.png]]
 
 *Speaker:* [[https://www.lyon.edu/marcus-birkenkrahe][Marcus Birkenkrahe, Associate Professor of Computer and Data
 Science @Lyon College]] - invited talk @White River Medical Centre,
@@ -58,7 +58,7 @@ QR-code for this page:
 #+caption: https://github.com/birkenkrahe/org/blob/master/img/wrmc_qrcode.png
 [[../img/wrmc_qrcode.png]]
 
-** Impromptu experiments
+** Impromptu experiments [23 July 2023]
 
 One of the intriguing abilities of conversational chatbots is the
 ability to attempt to match a real author's style. Let's see how this
@@ -368,7 +368,7 @@ generate interesting results. Bard summarized its "Style notes":
 - The abstract is well-structured and flows smoothly.
 #+end_quote
 
-** Poster art by Dall-e
+** Poster art by Dall-e [23 July 2023]
 
 The AI should be able to create an attractive poster for the event,
 right? Here are the results for the prompt that lead me to the picture
@@ -391,7 +391,7 @@ Here are the creepy, underwhelming results from bing.com (Dall-e):
 #+attr_latex: :width 400px
 [[../img/dall-e_poster4small.jpg.png]]
 
-** ChatGPT simulations
+** ChatGPT simulations [26 July 2023]
 
 In this simulation, I'm using "Code Interpreter" plugin for OpenAI's
 GPT-4 model enabling data analytics, image conversions, and code
@@ -445,7 +445,10 @@ At the end of the conversation, I asked the AI to summarize it:
 
 The summary is a fair assessment of the interaction.
 
-** Claude simulations
+** Claude simulations [26 July 2023]
+
+After the negative result with summarizing a perfectly fine PDF paper,
+I changed bot. Our conversation is available online [[https://claude.ai/chat/17f6f78d-ee07-4d58-a609-6f866c61fc81][here]].
 
 *** Summarize a scientific article for me
 
@@ -585,6 +588,30 @@ terminology like ablation studies. Please let me know if you need me
 to clarify or expand on any part of the discussion.
 #+end_quote
 
+** Q&A
+
+- Could AI help keep authors more honest and more diligent?
+- The limitations analysis by Claude is excellent (and too many papers
+  are un- or half-aware of their own limitations)
+- Papers could be checked for plagiarism more efficiently
+- "There is a worrying amount of fraud in medical research"
+  ([[https://www.economist.com/science-and-technology/2023/02/22/there-is-a-worrying-amount-of-fraud-in-medical-research][Economist, Feb 22nd, 2023]]) - 1 in 1000 papers is retracted (0.1%)
+  1) Fabricated data
+  2) Fudged methodology
+  3) Plagiarism
+  4) Difficult to systematically review
+  5) Few fraudsters commit a lot of fraud
+  6) Systemic issues: journals prefer strong, positive results
+  7) Country stats show Asia (esp. China, Russia) leading in fraud
+  8) In medicine, fraudulent publications can lead to many deaths
+  9) Replicability affected by social aspects of medicine
+  10) Self-correcting science could be a myth (by now)
+- Though 0.1% sounds small, papers are not practically or
+  statistically independent of one another (fraud multiplies)
+- AI will make it much easier to fabricate data at scale
+
+
+
 * References
 
 - Alaiad A, Migdady A, Al-Khatib RM, Alzoubi O, Zitar RA, Abualigah
@@ -592,6 +619,9 @@ to clarify or expand on any part of the discussion.
   Diagnosis Disease Cases in Medical Images. J
   Imaging. 2023;9(3):64. Published 2023
   Mar 8. doi:10.3390/jimaging9030064
+  
+- Fradulent Research. The Economist, February
+  22, 2023. https://econ.st/3KppFhR Accessed July 26, 2023.
 
 * Footnotes
 
