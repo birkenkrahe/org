@@ -1,5 +1,6 @@
 #+startup: indent inlineimages overview hideblocks
 #+options: toc:nil num:nil
+#+property: header-args:python :results output :noweb yes
 * Medical AI - How Machine Learning Can Help Your Publishing Career
 #+attr_html: :width 400px
 #+caption: Poster by Lucia Birkenkrahe, photo by Alyssa Stevenson @unsplash.com
@@ -729,6 +730,175 @@ to clarify or expand on any part of the discussion.
   this recommendation to life.
   #+end_quote
 
+** Analyzing scientific publications
+
+Sample papers from WRHC:
+1. https://journals.sagepub.com/doi/full/10.1177/2324709620947891
+2. https://journals.sagepub.com/doi/10.1177/2324709620940492
+3. https://journals.sagepub.com/doi/full/10.1177/2324709620942372
+4. https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jha2.21
+
+*** Getting ChatGPT to digest a scanned PDF file
+
+The conversation for this section is [[https://sharegpt.com/c/PF0H8Zi][saved here]].
+
+- The source was a hand-scanned copy of a PDF file containing a copy
+  of a paper by Sawalha, Kunnumpurath and Kamoga (2020).
+
+- The AI was ChatGPT with the GPT-4 model and the Code Interpreter
+  plugin.
+
+- Prompt: "Summarize this paper for me please" (the scan was
+  uploaded).
+
+- The AI uses OCR (optical character recognition) to extract the text.
+
+- Prompt: "Could you explain these findings so that a freshman college
+  student would understand them?"
+
+- Prompt: "Could you translate these findings to German, please."
+
+- Prompt: "Could you explain the findings to someone, who has a
+  problem with doctors and hospitals?"
+
+- Prompt: "What were the limitations of this research?"
+
+- Prompt: "Given these limitations, how credible are the findings?"
+
+*** Analyzing a research paper
+
+- The questions were repeated after uploading a full PDF copy of the
+  paper [[https://www.researchgate.net/publication/342824198_The_Efficacy_of_Intravenous_Insulin_Infusion_in_the_Management_of_Hypertriglyceridemia-Induced_Pancreatitis_in_a_Rural_Community_Hospital][found here]].
+
+- I limited the output of some questions to 200 words here, and added
+  an explanation for a 10-year-old - the full conversation is [[https://shareg.pt/9C7BJyp][here]].
+
+*** Getting Claude to produce a correct citation
+
+- When asking Claude for an AMA-formatted reference of [[https://www.researchgate.net/publication/342824198_The_Efficacy_of_Intravenous_Insulin_Infusion_in_the_Management_of_Hypertriglyceridemia-Induced_Pancreatitis_in_a_Rural_Community_Hospital][this paper]], the
+  third author was not listed. Only after being prompted for that
+  error did the AI correct the mistake.
+- Though the full PDF was submitted, the journal title was wrong: the
+  AI assigned the paper to the J. Rural Med. instead of the correct
+  place of publication. The DOI also was not correct and the
+  pagination was made up.
+- It took a severe talking to ("Why can't you get this right?") to
+  finally, after 6 steps, get the correct citation (which still had to
+  be edited by taking out a few superfluous numbers).
+- When asked "could I have got there more quickly?", Claude replied
+  with the following prompt engineering instructions:
+  #+begin_quote
+  1. Providing the full paper up front rather than just the title. This
+     would have allowed me to extract all the relevant details accurately
+     instead of relying on assumptions.
+  2. Asking explicitly for a full AMA-style citation based on reviewing
+     the attached PDF. This makes it clear I need to cite directly from
+     the source.
+  3. Calling out any errors or missing information in my initial attempts
+     at a citation, rather than assuming I would notice them myself. This
+     helps identify gaps in my process.
+  4. Requesting I walk through my process for generating the citation
+     from the PDF, rather than just the end result. This allows you to
+     evaluate my approach.
+  5. Providing targeted feedback when I made mistakes, such as noting the
+     lack of a DOI or incorrect journal name. This assists my learning
+     process.
+  #+end_quote
+
+- I tested the process with another article, and this time it got it
+  right - Answer from Claude:
+  #+begin_quote
+  Absolutely, let me walk through citing this paper step-by-step:
+
+  1. I open the attached PDF and review the title page and abstract to
+     identify key metadata elements needed for the citation:
+     - Author names: Wang S, Sawalha K, Khan A
+     - Article title: An Unusual Case of Drug-Induced Thrombocytopenia
+     - Journal name: Journal of Investigative Medicine High Impact Case
+       Reports
+     - Year: 2020
+     - Volume and issue: Volume 8
+     - Page range: Pages 1-4
+     - DOI: 10.1177/2324709620947891
+  2. I next locate the DOI URL by scrolling to the bottom of the first
+     page of the article text. The DOI URL is provided as:
+     http://dx.doi.org/10.1177/2324709620947891
+  3. With all the necessary details extracted, I construct the AMA
+     citation as follows:
+
+     Wang S, Sawalha K, Khan A. An Unusual Case of Drug-Induced
+     Thrombocytopenia. J Investig Med High Impact Case
+     Rep. 2020;8:1-4. doi:10.1177/2324709620947891
+
+  I double check against the PDF to ensure I have captured the author names, article title, journal name, year, volume/issue, page range, and DOI URL accurately.
+  Let me know if you would like me to clarify or expand on any part of this process for generating the AMA citation from the original source document. Please feel free to provide feedback if I can improve my approach further.
+  #+end_quote
+
+*** Extracting tabular data as a data frame
+*** Plotting the data from the table
+
+- The article by Wang, Sawalha and Khan contains a table and a simple
+  line plot with a legend. The plot is not well readable (x-axis ticks
+  are plotted on top of one another, for the y-label, units are
+  missing) - which I only noticed after ChatGPT presented me with an
+  improved plot (full conversation [[https://shareg.pt/5p8ER0i][here]]).
+
+- The screenshot shows the advantages:
+  #+attr_latex: :width 400px
+  [[../img/article2table1plot.png]]
+
+- The diagram is already minimally customized and more readable. The
+  Python code is given, allowing for easy replication or expansion.
+
+- Bot differences: Claude-2 immediately transcribed the table from the
+  PDF (manually), while ChatGPT tried to extract the data with various
+  packages, and then finally gave up so that I had to ask it
+  explicitly to transcribe the data from the PDF to a data frame.
+
+- Checking the Claude-2 results:
+  1) data import
+  2) data plotting
+  #+begin_src python
+    import pandas as pd
+
+    data = {'Time': ['October 9, 2019; 21:25','October 10, 2019; 3:55','October 11, 2019; 10:07','October 11, 2019; 11:30','October 11, 2019; 17:18','October 12, 2019; 6:40','October 12, 2019; 15:17','October 13, 2019; 5:21'],
+            'Platelet count (K/μL)': [221,195,15,16,141,89,133,142],
+            'White blood cells (K/μL)': [8.6,7.6,12.6,12.7,11.4,7.9,None,8.6],
+            'Hemoglobin (g/dL)': [12.8,12.0,11.6,11.3,10.6,10.5,None,10.7],
+            'Hematocrit (%)': [40.0,37.4,35.9,35.1,33.4,33.9,None,33.5]}
+
+    df = pd.DataFrame(data)
+    print(df)
+
+    import matplotlib.pyplot as plt
+
+    df = pd.DataFrame(data)
+
+    plt.plot(df['Time'], df['Platelet count (K/μL)'])
+    plt.title('Platelet Count Over Time')
+    plt.xlabel('Time')
+    plt.ylabel('Platelet Count (K/μL)')
+    plt.xticks(rotation=90)
+    plt.show()
+  #+end_src
+
+  #+RESULTS:
+  #+begin_example
+                        Time  ...  Hematocrit (%)
+  0   October 9, 2019; 21:25  ...            40.0
+  1   October 10, 2019; 3:55  ...            37.4
+  2  October 11, 2019; 10:07  ...            35.9
+  3  October 11, 2019; 11:30  ...            35.1
+  4  October 11, 2019; 17:18  ...            33.4
+  5   October 12, 2019; 6:40  ...            33.9
+  6  October 12, 2019; 15:17  ...             NaN
+  7   October 13, 2019; 5:21  ...            33.5
+
+  [8 rows x 5 columns]
+  #+end_example
+
+*** [[https://sharegpt.com/c/FQiDsXM][Explain AI to Jane Austen, Dostoyevsky, Stalin etc.]]
+
 * References
 
 - Alaiad A, Migdady A, Al-Khatib RM, Alzoubi O, Zitar RA, Abualigah
@@ -749,6 +919,16 @@ to clarify or expand on any part of the discussion.
   Undermine the Search for Truth. New York, NY: Metropolitan
   Books; 2020. [[https://us.macm.com/books/9781250222695][us.macm.com/books/9781250222695]]. Accessed July
   26, 2023.
+
+- Sawalha K, Kunnumpurath A, Kamoga G-R. The Efficacy of Intravenous
+  Insulin Infusion in the Management of Hypertriglyceridemia-Induced
+  Pancreatitis in a Rural Community Hospital. Journal of
+  Investigative Medicine High Impact Case
+  Reports. 2020;8. doi:10.1177/2324709620940492
+
+- Wang S, Sawalha K, Khan A. An Unusual Case of Drug-Induced
+  Thrombocytopenia. J Investig Med High Impact Case
+  Rep. 2020;8:1-4. doi:10.1177/2324709620947891
 
 * Footnotes
 
