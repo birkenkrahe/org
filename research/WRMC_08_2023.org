@@ -2,6 +2,7 @@
 #+options: toc:nil num:nil
 #+property: header-args:python :results output :noweb yes
 * Medical AI - How Machine Learning Can Help Your Publishing Career
+** Poster
 #+attr_html: :width 400px
 #+caption: Poster by Lucia Birkenkrahe, photo by Alyssa Stevenson @unsplash.com
 [[../img/wrmc_qrcode_poster.png]]
@@ -897,7 +898,122 @@ The conversation for this section is [[https://sharegpt.com/c/PF0H8Zi][saved her
   [8 rows x 5 columns]
   #+end_example
 
-*** [[https://sharegpt.com/c/FQiDsXM][Explain AI to Jane Austen, Dostoyevsky, Stalin etc.]]
+- With plot customization (chosen by the AI):
+  #+begin_src python :results silent
+    import matplotlib.pyplot as plt
+    import matplotlib.dates as mdates
+    import pandas as pd
+
+    data = {'Time': ['October 9, 2019; 21:25','October 10, 2019; 3:55','October 11, 2019; 10:07','October 11, 2019; 11:30','October 11, 2019; 17:18','October 12, 2019; 6:40','October 12, 2019; 15:17','October 13, 2019; 5:21'],
+            'Platelet count (K/μL)': [221,195,15,16,141,89,133,142],
+            'White blood cells (K/μL)': [8.6,7.6,12.6,12.7,11.4,7.9,None,8.6],
+            'Hemoglobin (g/dL)': [12.8,12.0,11.6,11.3,10.6,10.5,None,10.7],
+            'Hematocrit (%)': [40.0,37.4,35.9,35.1,33.4,33.9,None,33.5]}
+
+    df = pd.DataFrame(data)
+
+    # Convert time to datetime
+    df['Time'] = pd.to_datetime(df['Time'])
+
+    # Plot platelet count
+    fig, ax = plt.subplots(figsize=(8,6))
+    ax.plot(df['Time'], df['Platelet count (K/μL)'], marker='o', linewidth=3)
+
+    # Format x-axis ticks as dates
+    ax.xaxis.set_major_locator(mdates.DayLocator())
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %d'))
+
+    # Set axis labels and title
+    ax.set_xlabel('Date', fontsize=14)
+    ax.set_ylabel('Platelet Count (K/μL)', fontsize=14)
+    ax.set_title('Platelet Count Over Time', fontsize=16)
+
+    # Set y-axis range
+    ax.set_ylim(0,250)
+
+    # Adjust plot layout
+    fig.tight_layout()
+
+    plt.show()
+  #+end_src
+
+  #+RESULTS:
+
+- This result is even more impressive for publication:
+
+  #+attr_latex: :width 400px
+  [[../img/article2table1plotClaude.png]]
+  
+- When comparing with the plot in the paper, I noticed that I
+  overlooked the "Tirofiban Administration" on 10/10/19 at 9:hrs. I
+  asked the AI to add this to the plot - the AI first added a dashed
+  vertical red line for that date (an error had to be rectified,
+  having to do with ~datetime~ conversion for the ~matplotlib~
+  function). I asked to add the text and the point in red to the line
+  plot, leading to the final result ([[https://claude.ai/chat/1dcf604a-a385-453b-abaf-13a0866c72f4][whole conversation online here]]):
+  #+begin_src python :results silent
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    import matplotlib.dates as mdates
+
+    # Create dataframe  
+    data = {'Time': ['October 9, 2019; 21:25','October 10, 2019; 3:55','October 11, 2019; 10:07','October 11, 2019; 11:30','October 11, 2019; 17:18','October 12, 2019; 6:40','October 12, 2019; 15:17','October 13, 2019; 5:21'],
+            'Platelet count (K/μL)': [221,195,15,16,141,89,133,142],
+            'White blood cells (K/μL)': [8.6,7.6,12.6,12.7,11.4,7.9,None,8.6],
+            'Hemoglobin (g/dL)': [12.8,12.0,11.6,11.3,10.6,10.5,None,10.7],
+            'Hematocrit (%)': [40.0,37.4,35.9,35.1,33.4,33.9,None,33.5]}
+
+    df = pd.DataFrame(data)
+
+    # Convert time to datetime 
+    df['Time'] = pd.to_datetime(df['Time'])
+
+    # Tirofiban administration time
+    tirofiban_time = pd.to_datetime('2019-10-10 09:40:00')  
+
+    # Create plot
+    fig, ax = plt.subplots(figsize=(8,6))
+
+    # Plot platelet data
+    ax.plot(df['Time'], df['Platelet count (K/μL)'], marker='o', linewidth=3)
+
+    # Add vertical red dashed line 
+    ax.axvline(tirofiban_time, linestyle='--', color='red', label='Tirofiban Administered')
+
+    # Add left aligned text box to right of line
+    ax.text(tirofiban_time + pd.Timedelta('0.1D'), 180, 'Tirofiban\nadministration\n10/10/19 9:40 hrs',  
+            ha='left', fontsize=12)
+
+    # Format x-axis ticks  
+    ax.xaxis.set_major_locator(mdates.DayLocator())
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %d')) 
+
+    # Label axes, set title
+    ax.set_xlabel('Date', fontsize=14)
+    ax.set_ylabel('Platelet Count (K/μL)', fontsize=14)
+    ax.set_title('Platelet Count Over Time', fontsize=16)  
+
+    # Set y-axis range 
+    ax.set_ylim(0,250)
+
+    # Add legend, improve layout
+    ax.legend()
+    fig.tight_layout()  
+
+    # Display plot
+    plt.show()
+  #+end_src
+
+- The final plot in direct comparison with the paper:
+  #+attr_latex: :width 400px
+  [[../img/article2table1plotClaudeFinal.png]] [[../img/article2table1plot2.png]]
+
+*** [[https://sharegpt.com/c/FQiDsXM][Explain AI to Jane Austen, Dostoyevsky, etc.]]
+
+
+Had this idea - to ask the AI to explain itself to a fictional
+character from a Jane Austen novel after watching the 1980 TV
+adaptation written by novelist Fay Weldon.
 
 * References
 
