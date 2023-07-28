@@ -5,7 +5,7 @@
 ** Poster
 #+attr_html: :width 400px
 #+caption: Poster by Lucia Birkenkrahe, photo by Alyssa Stevenson @unsplash.com
-[[../img/wrmc_qrcode_poster.png]]
+[[../img/wrmc_qrcode_poster_small.png]]
 
 *Speaker:* [[https://www.lyon.edu/marcus-birkenkrahe][Marcus Birkenkrahe, Associate Professor of Computer and Data
 Science @Lyon College]] - invited talk @White River Medical Centre,
