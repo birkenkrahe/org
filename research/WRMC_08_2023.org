@@ -2,7 +2,7 @@
 #+options: toc:nil num:nil
 #+property: header-args:python :results output :noweb yes
 * Medical AI - How Machine Learning Can Help Your Publishing Career
-** Poster
+* Poster
 #+attr_html: :width 400px
 #+caption: Poster by Lucia Birkenkrahe, photo by Alyssa Stevenson @unsplash.com
 [[../img/wrmc_qrcode_poster_small.png]]
@@ -11,7 +11,7 @@
 Science @Lyon College]] - invited talk @White River Medical Centre,
 Batesville, August 8, 2023, 12-1pm
 
-** Abstract
+* Abstract
 #+begin_quote
 Artificial intelligence and machine learning are transforming medical
 research and practice. These technologies are also creating new
@@ -33,7 +33,7 @@ effectively leverage these emerging innovations will prepare residents
 for leadership in modern data-driven medicine. [fn:1]
 #+end_quote
 
-** Speaker Bio
+* Speaker Bio
 #+begin_quote
 Prof. Dr. Marcus Birkenkrahe joined the Lyon faculty in 2021, on leave
 of absence from the Berlin School of Economics and Law. He earned a
@@ -47,7 +47,7 @@ the Institute for Data-Driven Digital Transformation (d-cube) in
 Berlin, Germany.
 #+end_quote
 
-** Network media
+* Network media
 - [[https://www.lyon.edu/marcus-birkenkrahe][Lyon College]]
 - [[https://www.linkedin.com/in/birkenkrahe][LinkedIn]]
 - [[https://twitter.com/birkenkrahe][Twitter (X)]]
@@ -60,7 +60,7 @@ QR-code for this page:
 #+caption: https://github.com/birkenkrahe/org/blob/master/img/wrmc_qrcode.png
 [[../img/wrmc_qrcode.png]]
 
-** Impromptu experiments [23 July 2023]
+* Impromptu experiments [23 July 2023]
 
 One of the intriguing abilities of conversational chatbots is the
 ability to attempt to match a real author's style. Let's see how this
@@ -69,7 +69,7 @@ several authors starting with myself. The others are Nobel laureates
 in medicine. Unless indicated otherwise, "AI" means "claude.ai" by
 anthropic.
 
-*** Abstract "In the style of [[https://en.wikipedia.org/wiki/Marcus_Birkenkrahe][Marcus Birkenkrahe]]" by Claude
+** Abstract "In the style of [[https://en.wikipedia.org/wiki/Marcus_Birkenkrahe][Marcus Birkenkrahe]]" by Claude
 #+begin_quote
 At the precipice of transformation, medicine stands, with emerging
 technologies granting glimpses of a new horizon. This talk shall
@@ -89,7 +89,7 @@ with mastery of technologies soon indispensable in modern
 evidence-based practice.
 #+end_quote
 
-**** What prompted your rewriting choices?
+*** What prompted your rewriting choices?
 
 In the reply, "the paper draft provided earlier" refers to an earlier
 request to the same AI to help me edit a research paper that I was
@@ -131,7 +131,7 @@ contexts while avoiding oversimplification or stereotyping. Please let
 me know if I've missed the mark so I can continue learning!
 #+end_quote
 
-*** Abstract "In the style of Marcus Birkenkrahe" by ChatGPT
+** Abstract "In the style of Marcus Birkenkrahe" by ChatGPT
 #+begin_quote
 Title: "Embracing Medical AI: A Toolkit for Turbocharging Your
 Publishing Career with Machine Learning - A Primer for Resident
@@ -166,7 +166,7 @@ AI-driven publishing landscape and the inspiration to let ML fuel your
 career growth.
 #+end_quote
 
-**** What prompted your rewriting choices?
+*** What prompted your rewriting choices?
 
 ChatGPT (actually GPT4's) answer to what prompted its choices when
 trying to match my writing style is more structured, less
@@ -211,7 +211,7 @@ Key modifications were made to achieve this:
   in his audience.
 #+end_quote
 
-*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/2022/paabo/facts/][Svante Pääbo]]" by Claude
+** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/2022/paabo/facts/][Svante Pääbo]]" by Claude
 
 AI: "I attempted to channel Pääbo's scholarly yet poetic voice and
 penchant for mythic metaphors." In this example, the AI first veered
@@ -241,7 +241,7 @@ today will empower clinicians to enhance patient care through tireless
 mining of data’s wisdom.
 #+end_quote
 
-*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/2018/allison/facts/][James P. Allison]]" by Claude
+** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/2018/allison/facts/][James P. Allison]]" by Claude
 
 The AI offered no explanation for this rewrite attempt. It seemed to
 mostly have capitalized on the topic of Allison's cancer research
@@ -267,7 +267,7 @@ new ally that - if skillfully implemented - will allow us to relieve
 more suffering and save more lives.
 #+end_quote
 
-*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/1908/ehrlich/facts/][Paul Ehrlich]]" by Claude
+** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/1908/ehrlich/facts/][Paul Ehrlich]]" by Claude
 
 The AI called this "an approximation of Ehrlich's Victorian tone and
 rhetoric." (Ehrlich was German but lived in Victorian times.)
@@ -294,7 +294,7 @@ not absolve us of the solemn duties for which we pledged our lives: to
 act with compassion and honor, first and always doing no harm.
 #+end_quote
 
-*** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/1988/elion/biographical/][Gertrude Belle Elion]]" by Claude
+** Abstract "In the style of [[https://www.nobelprize.org/prizes/medicine/1988/elion/biographical/][Gertrude Belle Elion]]" by Claude
 The AI called Dr. Elion's a "logical yet humanistic scientific voice".
 #+begin_quote
 Though once mysterious in mechanism, medicine now illuminates pathways
@@ -319,7 +319,7 @@ these are means, not ends. Our purpose endures: alleviate suffering
 through research and care.
 #+end_quote
 
-*** Abstract by Bard
+** Abstract by Bard
 Prompt:
 #+begin_quote
 Write an abstract for a talk on "Medical AI - How mchine learning can
@@ -358,7 +358,7 @@ Some topics that will be covered in the talk include:
 I hope you will join me for this talk and learn more about how machine
 learning can help your publishing career.
 #+end_quote
-**** Rewrite "in the style of Marcus Birkenkrahe"
+*** Rewrite "in the style of Marcus Birkenkrahe"
 
 Requests to rewrite, even with a [[https://www.researchgate.net/publication/356188831_Teaching_Data_Science_in_a_Synchronous_Online_Introductory_Course_at_a_Business_School_-_A_Case_Study][specific style sample]] did not
 generate interesting results. Bard summarized its "Style notes":
@@ -370,7 +370,7 @@ generate interesting results. Bard summarized its "Style notes":
 - The abstract is well-structured and flows smoothly.
 #+end_quote
 
-** Poster art by Dall-e [23 July 2023]
+* Poster art by Dall-e [23 July 2023]
 
 The AI should be able to create an attractive poster for the event,
 right? Here are the results for the prompt that lead me to the picture
@@ -393,13 +393,13 @@ Here are the creepy, underwhelming results from bing.com (Dall-e):
 #+attr_latex: :width 400px
 [[../img/dall-e_poster4small.jpg.png]]
 
-** ChatGPT simulations [26 July 2023]
+* ChatGPT simulations [26 July 2023]
 
 In this simulation, I'm using "Code Interpreter" plugin for OpenAI's
 GPT-4 model enabling data analytics, image conversions, and code
 editing. Here is the [[https://sharegpt.com/c/zzK6Mu6][full text of the conversation]].
 
-*** How can you support medical residents' publishing careers?
+** How can you support medical residents' publishing careers?
 
 The AI first suggested a specific SIR model simulation on sample
 data. I changed the prompt to examples of how ChatGPT could 'help
@@ -413,7 +413,7 @@ medical residents with their publishing careers':
 5. Idea generation
 #+end_quote
 
-*** Summarize our conversation
+** Summarize our conversation
 
 At the end of the conversation, I asked the AI to summarize it:
 #+begin_quote
@@ -447,12 +447,12 @@ At the end of the conversation, I asked the AI to summarize it:
 
 The summary is a fair assessment of the interaction.
 
-** Claude simulations [26 July 2023]
+* Claude simulations [26 July 2023]
 
 After the negative result with summarizing a perfectly fine PDF paper,
 I changed bot. Our conversation is available online [[https://claude.ai/chat/17f6f78d-ee07-4d58-a609-6f866c61fc81][here]].
 
-*** Summarize a scientific article for me
+** Summarize a scientific article for me
 
 To get better information, I used Claude 2 (claude.ai) for step (5)
 targeting Alaiad et al. (2023). The result was satisfying:
@@ -489,7 +489,7 @@ Here is a summary of the key findings from the article:
   malaria detection.
 #+end_quote
 
-*** Assess credibility of the citations
+** Assess credibility of the citations
 
 I asked if the references in the article appeared credible to the AI:
 #+begin_quote
@@ -520,7 +520,7 @@ this quick review, the references appear mostly solid. Let me know if
 you need me to dig deeper on any specific references.
 #+end_quote
 
-*** What are the limitations of the article?
+** What are the limitations of the article?
 
 This was the best result of our conversation since the article does
 not possess a separate section on research limitations (without which
@@ -559,7 +559,7 @@ would strengthen the conclusions. But this provides a good
 proof-of-concept demonstration.
 #+end_quote
 
-*** Summarize our conversation so far.
+** Summarize our conversation so far.
 
 #+begin_quote
 Here's a summary of our conversation so far:
@@ -590,7 +590,7 @@ terminology like ablation studies. Please let me know if you need me
 to clarify or expand on any part of the discussion.
 #+end_quote
 
-** Fraud in medical research
+* Fraud in medical research [27 July 2023]
 
 - Could AI help keep authors more honest and more diligent?
 
@@ -620,7 +620,7 @@ to clarify or expand on any part of the discussion.
 - It is not possible to build reliable AI-detectors today (Huang et
   al., 2023)
 
-** Getting recommendation letters from people
+* Getting recommendation letters from people [27 July 2023]
 
 - Both ChatGPT and Claude are good at writing recommendation letters
   for different locations, e.g. LinkedIn recommendations and formal
@@ -731,7 +731,7 @@ to clarify or expand on any part of the discussion.
   this recommendation to life.
   #+end_quote
 
-** Analyzing scientific publications
+* Analyzing scientific publications [28 July 2023]
 
 Sample papers from WRHC:
 1. https://journals.sagepub.com/doi/full/10.1177/2324709620947891
@@ -739,7 +739,7 @@ Sample papers from WRHC:
 3. https://journals.sagepub.com/doi/full/10.1177/2324709620942372
 4. https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/jha2.21
 
-*** Getting ChatGPT to digest a scanned PDF file
+** Getting ChatGPT to digest a scanned PDF file
 
 The conversation for this section is [[https://sharegpt.com/c/PF0H8Zi][saved here]].
 
@@ -766,7 +766,7 @@ The conversation for this section is [[https://sharegpt.com/c/PF0H8Zi][saved her
 
 - Prompt: "Given these limitations, how credible are the findings?"
 
-*** Analyzing a research paper
+** Analyzing a research paper
 
 - The questions were repeated after uploading a full PDF copy of the
   paper [[https://www.researchgate.net/publication/342824198_The_Efficacy_of_Intravenous_Insulin_Infusion_in_the_Management_of_Hypertriglyceridemia-Induced_Pancreatitis_in_a_Rural_Community_Hospital][found here]].
@@ -774,7 +774,7 @@ The conversation for this section is [[https://sharegpt.com/c/PF0H8Zi][saved her
 - I limited the output of some questions to 200 words here, and added
   an explanation for a 10-year-old - the full conversation is [[https://shareg.pt/9C7BJyp][here]].
 
-*** Getting Claude to produce a correct citation
+** Getting Claude to produce a correct citation
 
 - When asking Claude for an AMA-formatted reference of [[https://www.researchgate.net/publication/342824198_The_Efficacy_of_Intravenous_Insulin_Infusion_in_the_Management_of_Hypertriglyceridemia-Induced_Pancreatitis_in_a_Rural_Community_Hospital][this paper]], the
   third author was not listed. Only after being prompted for that
@@ -835,8 +835,8 @@ The conversation for this section is [[https://sharegpt.com/c/PF0H8Zi][saved her
   Let me know if you would like me to clarify or expand on any part of this process for generating the AMA citation from the original source document. Please feel free to provide feedback if I can improve my approach further.
   #+end_quote
 
-*** Extracting tabular data as a data frame
-*** Plotting the data from the table
+** Extracting tabular data as a data frame
+** Plotting the data from the table
 
 - The article by Wang, Sawalha and Khan contains a table and a simple
   line plot with a legend. The plot is not well readable (x-axis ticks
@@ -1008,7 +1008,7 @@ The conversation for this section is [[https://sharegpt.com/c/PF0H8Zi][saved her
   #+attr_latex: :width 400px
   [[../img/article2table1plotClaudeFinal.png]] [[../img/article2table1plot2.png]]
 
-*** [[https://sharegpt.com/c/FQiDsXM][Explain AI to Jane Austen, Dostoyevsky, etc.]]
+** [[https://sharegpt.com/c/FQiDsXM][Explain AI to Jane Austen, Dostoyevsky, etc.]]
 
 
 Had this idea - to ask the AI to explain itself to a fictional
