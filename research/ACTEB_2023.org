@@ -38,7 +38,7 @@ engineering and entrepreneurship education. They will consider the
 strengths and limitations of each approach and explore how to strike a
 balance to create a comprehensive educational experience.
 
-* Speaker Bio
+** Speaker Bio
 #+begin_quote
 Prof. Dr. Marcus Birkenkrahe is an Associate Professor of Computer and
 Data Science at Lyon College in Batesville, AR. He joined the Lyon
@@ -53,7 +53,7 @@ Data Management, and corresponding member of the Institute for
 Data-Driven Digital Transformation (d-cube) in Berlin, Germany.
 #+end_quote
 
-* Network media
+** Network media
 - [[https://www.lyon.edu/marcus-birkenkrahe][Lyon College]]
 - [[https://www.linkedin.com/in/birkenkrahe][LinkedIn]]
 - [[https://twitter.com/birkenkrahe][Twitter (X)]]
@@ -61,7 +61,7 @@ Data-Driven Digital Transformation (d-cube) in Berlin, Germany.
 - [[https://scholar.google.com/citations?user=Vvnwsv0AAAAJ&hl=en][Google Scholar]]
 - [[https://orcid.org/my-orcid?orcid=0000-0001-9461-8474][ORCID]]
 - [[https://en.wikipedia.org/wiki/Marcus_Birkenkrahe][Wikipedia]]
-* References
+** References
 
 - Birkenkrahe, M. Teaching Data Science with Literate Programming
   Tools. Preprints
