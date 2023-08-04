@@ -1,9 +1,11 @@
 #+startup: indent overview
 * The Role of AI in Education ([[https://www.lyon.edu/acteb-conference][ACTEB]]'23)
+** Title
 
-Proposed title: The Role of AI Coding Assistants: Revisiting the Need
-for Literate Programming in Data Science, Engineering and
-Entrepreneurship Education
+The Role of AI Coding Assistants: Revisiting the Need for Literate
+Programming in Data Science and Entrepreneurship Education
+
+** Abstract
 
 Literate programming emphasizes the importance of clear code
 documentation and explanatory text integration, and fosters a deeper
@@ -36,6 +38,29 @@ engineering and entrepreneurship education. They will consider the
 strengths and limitations of each approach and explore how to strike a
 balance to create a comprehensive educational experience.
 
+* Speaker Bio
+#+begin_quote
+Prof. Dr. Marcus Birkenkrahe is an Associate Professor of Computer and
+Data Science at Lyon College in Batesville, AR. He joined the Lyon
+faculty in 2021, on leave of absence from the Berlin School of
+Economics and Law. He earned a PhD in theoretical physics (lattice
+gauge theory). He has published widely in different areas, including:
+neural nets, multigrid applications, knowledge management, e-learning,
+literate programming, process modeling, entrepreneurship, and data
+science. He is associate editor of the International Journal of Data
+Science, editorial board member of the International Journal of Big
+Data Management, and corresponding member of the Institute for
+Data-Driven Digital Transformation (d-cube) in Berlin, Germany.
+#+end_quote
+
+* Network media
+- [[https://www.lyon.edu/marcus-birkenkrahe][Lyon College]]
+- [[https://www.linkedin.com/in/birkenkrahe][LinkedIn]]
+- [[https://twitter.com/birkenkrahe][Twitter (X)]]
+- [[https://www.researchgate.net/profile/Marcus-Birkenkrahe][Researchgate.net]]
+- [[https://scholar.google.com/citations?user=Vvnwsv0AAAAJ&hl=en][Google Scholar]]
+- [[https://orcid.org/my-orcid?orcid=0000-0001-9461-8474][ORCID]]
+- [[https://en.wikipedia.org/wiki/Marcus_Birkenkrahe][Wikipedia]]
 * References
 
 - Birkenkrahe, M. Teaching Data Science with Literate Programming
