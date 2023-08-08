@@ -835,7 +835,6 @@ The conversation for this section is [[https://sharegpt.com/c/PF0H8Zi][saved her
   Let me know if you would like me to clarify or expand on any part of this process for generating the AMA citation from the original source document. Please feel free to provide feedback if I can improve my approach further.
   #+end_quote
 
-** Extracting tabular data as a data frame
 ** Plotting the data from the table
 
 - The article by Wang, Sawalha and Khan contains a table and a simple
@@ -1000,7 +999,8 @@ The conversation for this section is [[https://sharegpt.com/c/PF0H8Zi][saved her
     ax.legend()
     fig.tight_layout()  
 
-    # Display plot
+    # Display plot with grid
+    ax.grid(linestyle = "dashed")
     plt.show()
   #+end_src
 
@@ -1044,7 +1044,7 @@ adaptation written by novelist Fay Weldon.
 
 - Wang S, Sawalha K, Khan A. An Unusual Case of Drug-Induced
   Thrombocytopenia. J Investig Med High Impact Case
-  Rep. 2020;8:1-4. doi:10.1177/2324709620947891
+  Rep. 2020;8:1-4. doi:10.1177/2324709620947891 
 
 * Footnotes
 
