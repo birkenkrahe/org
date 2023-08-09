@@ -1,0 +1,1027 @@
+#+title: Medical AI - How Machine Learning Can Help Your Publishing Career
+#+subtitle: White River Medical Center, Batesville AR
+#+author: Marcus Birkenkrahe, Lyon College
+#+startup: overview hideblocks indent inlineimages
+#+options: toc:nil
+* Poll
+#+attr_html: :width 400px
+#+caption: Entry survey for participants
+[[./img/wrmc_poll.png]]
+
+Poll responses at: https://tinyurl.com/wrmc-poll-done
+
+* Title
+#+attr_html: :width 400px
+#+caption: Images: unsplash.com and leonardo.ai
+[[./img/wrmc_cover.png]]
+
+The image on the right was created by leonardo.ai, an AI for graphic
+design and image generation using the prompt: "Inspirational image for
+a lecture on medical artificial intelligence to medical residents,"
+using the DreamShaper v7 model (created on 02/08/23).
+
+* Who am I?
+
+I would not normally spend so much time talking about my own person -
+except perhaps at the start of a semester-long class. I feel that it
+is indicated for three reasons:
+1) I am an expert of some, but not on all of AI which is a vast field
+2) I am not a physician but a physicist
+3) I'd like for this talk to be the beginning of a fruitful
+   collaboration between Lyon College and WRMC.
+
+** Youth
+#+attr_html: :width 400px
+#+caption: Boy in Emerson Respirator, Nat'l Mus of Health and Medicine
+[[./img/wrmc_iron_lung.jpg]]
+
+I am very excited to be here and speak to my very first group of
+medical residents ever on AI. I'm not a physician but a physicist. My
+closest personal connection to your profession is through my dad who
+was an anaesthesiologist, who worked a lot and often took me to the
+hospital, which I remember as a place of play. I remember doctors and
+nurses fondly as people trying to keep me out of harm's way, which
+wasn't easy because I was a very active, curious child.
+
+** Research
+#+attr_html: :width 400px
+#+caption: DESY, Hamburg, Germany, 1994.
+[[./img/desy.jpg]]
+
+Advised by my father, the doctor, not to become a doctor, I became a
+theoretical particle physicist instead, which ultimately lead to
+computing and data science. Thirty years ago, as a graduate student, I
+dabbled in and published on neural networks, which form the technical
+basis of most of what I'll talk about today, Large Language Models
+like ChatGPT.
+
+** Industry
+#+attr_html: :width 400px
+#+caption: London with Shell Centre and the London Eye, UK
+[[./img/wrmc_shell.jpg]]
+
+Because I was in the right place at the right time (particle physics
+research at CERN), I was able to contribute to the original
+development of the WWW (often mistakenly called "The Internet") in the
+early 1990s. This opened new opportunities for work outside of
+academia and I spent a few years in industry - mostly working in
+knowledge management, which is another important application area of
+AI.
+
+** Teaching
+#+attr_html: :width 400px
+#+caption: UBMS class "Game and Robotics programming with Snap! and Python"
+[[./img/ubms.jpg]]
+
+These days, I teach computer and data science, including machine
+learning, data visualization, game programming and robotics to
+undergraduates and upward bound math and science high school kids
+(photo). In terms of raw output, I've published 60 peer-reviewed
+articles so far. My current (new) research focus is AI-assisted
+literate programming for data science.
+
+* What's on the agenda
+#+attr_html: :width 400px
+#+caption: Slide: questions covered in this presentation
+[[./img/wrmc_agenda.png]]
+
+#+begin_notes
+Here are some of the topics I'd like to cover in the next hour. I'll
+begin by clarifying the problem we're trying to address with AI.
+
+The field of AI is young in years but because it is focused on
+optimization in the most general sense, we need to narrow it down
+severely. Hence we'll begin by talking about the problem of publishing
+that was promised in the title, and we will try not to stray too far
+from it so that we can achieve anything in the short time.
+
+Then we'll look at the part of AI in the eye of the hype hurricane -
+Large Language Models as part of a subfield of AI called Deep
+Learning. To appreciate what these models can and cannot do, we need
+to understand at least in principle how they work.
+
+In preparation for this talk, I have conducted many little experiments
+with several conversational AI applications or chatbots as they used
+to be called. All experiments were focused on scientific paper
+production.
+
+This field is in extreme flux right now - new tools are emerging all
+the time, and I want to summarize the most likely roads of future
+development that may help you in your publishing career.
+#+end_notes
+
+* Part I: What's the problem?
+
+Here are four aspects of research, not just research writing, that
+make scientific publishing challenging:
+- Research requires skills
+- Research takes time
+- Research data are critical
+- Research writing is standardized
+
+** Research requires skills
+#+attr_html: :width 400px
+#+caption: Slide: Research skills 
+[[./img/wrmc_skills.png]]
+
+This is only a subset of (more or less losely ordered) specific
+activities under the general umbrella of "research" in any field. The
+abstract concepts are deceptive: in reality, every step is highly
+customized and customizable depending on the scientific discipline.
+
+Example: a typical particle physics experiment of today generates
+ca. 100 TB of data for analysis per second. By comparison, an X-ray
+represents information of the order of 1 MB - physics works with 100
+million times as much information hitting the computers per second.
+
+The data volume ("Big Data" - high volume, high velocity and low
+variety in physics; low volume, low velocity, high variety in
+medicine) influences all other skill areas. Example: it is no longer
+possible to evaluate particle physics experimental results
+manually. Most of the pre-analysis efforts go into cleaning the data
+for processing and visualization.
+
+Specifically for publication: a typical experimental particle physics
+paper has hundreds of authors. A (by now) standard way to prevent
+fraud is to make all data available: for physics data, this requires
+dedicated big data infrastructures designed specifically for the
+experiment.
+
+Another difference is methodological: most of the published papers
+that I've seen come out of WRMC were "case reports" to draw
+qualitative conclusions for treatment based on a small sample of
+quantitative data. This is a typical methodology in applied sciencies
+that are focused on humans where experiments cannot be repeated easily
+(if ever) and where special ethical considerations rule.
+
+There's a trend here: a growing importance of data, and a greater need
+for technological augmentation or automation. One price to pay
+(besides money) for methodological and technological innovation is
+having to unlearn old skills and pick up new skills at an
+unprecedented rate.
+
+For a recent (3 August 2023) literature review on "Scientific
+discovery in the age of artificial intelligence", see: Wang, H., Fu,
+T., Du, Y. et al. Scientific discovery in the age of artificial
+intelligence. Nature 620, 47–60
+(2023). https://doi.org/10.1038/s41586-023-06221-2
+
+** Research takes time
+#+attr_html: :width 400px
+#+caption: Slide: Many research activities are highly iterative
+[[./img/wrmc_time.png]]
+
+You know this of course: having an individual skill is not enough, you
+also have to have the time, stamina and experience required to iterate
+these steps perhaps not ad infinitum but (for some of these) many
+times until you have even reached the "writing" phase.
+
+The ability to iterate efficiently is developed, alas, only over time
+itself and often eludes young researchers, or researchers who work
+alone without the support of more experienced researchers.
+
+High number of iterations are required for: searching the literature,
+modeling, analysing and visualizing the data. AI augmentation here has
+the greatest impact on saving time.
+
+Things aren't quite as clear for the last three steps - these may also
+have to be iterated but not nearly as many times as the research
+process steps themselves:
+1) Writing the paper is inherently highly time-consuming but can be
+   much more so if you don't write in your native language, or if
+   you're not in full possession of technical language (e.g. because
+   of lack of experience or when you've just entered a new field).
+2) Revising the paper takes time because it often involves (ample)
+   correspondence with the publisher and/or reviewers. The less
+   experienced a researcher is the more time he or she will have to
+   spend on it.
+3) Marketing the paper is no longer just the responsibility of the
+   publisher: I checked and found that many residents maintain
+   accounts at researchgate.net and have ORCID numbers. To stand out,
+   they are likely active on other social networks, too, like Twitter
+   or LinkedIn. Some may even have their own blogs. A fair amount of
+   extra writing in a very specific style is required to do social
+   network communication well.
+
+To get started on AI augmentation examples, see [[https://shareg.pt/PPx35Ic][this conversation]] on
+one of my own sentences above and the use of a word. This could be a
+typical exchange for a non-native speaker who tends to overuse or
+misuse words. In a non-AI scenario, I'd have to look at a translation
+engine like linguee.com or deepl.com (that also use AI).
+
+** Research data are critical
+#+attr_html: :width 400px
+#+caption: Slide: illustrating data science as a critical research skill
+[[./img/wrmc_data.png]]
+
+I've already commented on the importance of having data-related
+skills, which are related to IT rather than one's own medical
+research.
+
+Data science is a very young, highly interdisciplinary field that gets
+all its importance from the need to turn raw data into actionable
+insights using programming and statistics knowledge. "Story" is a
+synonym for these insights, and the terms "data storytelling" and
+"data literacy" both relate to it.
+
+I'm highlighting this sub-skillset because I am most acquainted with
+it but also because "data science" includes "machine learning", the
+part of AI that is responsible for conversational apps like ChatGPT.
+
+As a medical researcher, it will in the future be critical to have a
+working knowledge of at least one of these areas: data manipulation,
+coding, statistics or storytelling. A fair knowledge of statistics
+seems to be required according to my brief look at medical papers. The
+need for coding may be alleviated through low-code or no-code
+platforms, or AI assistants, but it will never completely disappear if
+you work with computers (a "no-code" platform simply requires
+different 'coding' skills but it still produces code). Data
+manipulation is essentially an engineering task and highly
+technical. By contrast, storytelling can be considered more creative -
+see however this paper for parallels between storytelling and IMRaD:
+M. Birkenkrahe, "Using storytelling methods to improve emotion,
+motivation and attitude of students writing scientific papers and
+theses," 2014 IEEE 13th International Conference on Cognitive
+Informatics and Cognitive Computing, London, UK, 2014, pp. 140-145,
+doi: [[https://www.researchgate.net/publication/265515052_Using_storytelling_methods_to_improve_emotion_motivation_and_attitude_of_students_writing_scientific_papers_and_theses][10.1109/ICCI-CC.2014.6921453]].
+
+** Research writing is standardized
+#+attr_html: :width 300px
+#+caption: Slide: IMRaD structure of scientific papers
+[[./img/wrmc_imrad1.png]]
+
+The standardization of scientific writing is the only good news in
+this pile of problems: all publications follow the IMRaD structure,
+where:
+1) the "Introduction" says *why* the author wanted to do the research
+   (including a literature review for validation),
+2) the "Method" says *how* the author wanted to do it and how it was
+   done in the end (not necessarily the same method),
+3) the "Results" say *what* the author found out through this research
+   (including, quite possibly, nothing much),
+4) the "Discussion" says *why* anybody whould pay attention, and what
+   the results (or lack thereof) mean in the context of other research
+   on the same or a related topic, including limitations of the
+   research.
+
+Standardization is an opportunity for automation as long as it is
+reliable. In fact, as we will see, the success of AI in using
+scientific documents to comment upon and help support new scientific
+research largely depends on the standard structure of the documents
+that the LLMs have gobbled up, and open the path to better, more
+customized AI assistants - for example only for medical research.
+
+** Summary I
+#+attr_html: :width 400px
+#+caption: Slide: summary for part I (what's the problem?)
+[[./img/wrmc_summary_1.png]]
+
+* Part II: What's the solution?
+
+Glad you asked. In this second part of my talk, we'll delve into
+understanding what AI is and how it can support medical research
+publications. This foundational knowledge will help you appreciate the
+examples and conclusions I'll present later on.
+
+Please remember, I didn't promise an introduction to "Medical AI" in
+its broadest sense. That would necessitate a completely different talk
+and might not be as relevant to your diverse specializations.
+
+Delving into AI, particularly in the medical field, is complex. To
+illustrate, consider a recent study from July 2023: economists at MIT
+conducted an experiment involving 180 tele-radiologists both within
+and outside the US. With AI assistance, they encountered several
+challenges, even though the AI's performance was on par with human
+expertise. One author on Twitter: "We gave 180 radiologists an
+expert-level AI for diagnosis. But instead of improving, their
+performance didn't budge. Why? Radiologists implictly discount AI
+predictions, favoring their own judgement - a bias we call 'automation
+neglect'." A clinician on Twitter responded critically, suggesting,
+“AI proponents need to engage clinicians without undermining our
+intelligence or alienating us.” I take that feedback seriously!
+#+attr_html: :width 400px
+#+caption: David S Chang (@@dschan02) on Twitter, July 31, 2023.
+[[./img/wrmc_twitter.png]]
+
+For further insight, you can [[https://shareg.pt/i5yqwcy][check out my conversation with ChatGPT]]. I
+sought a summary, participant data, references, a list of limitations,
+and details about the methodology and experimental design used.
+
+Reference: Agarwal N, Moehring A, Rajpurkar P, Salz T. Combining Human
+Expertise with Artificial Intelligence: Experimental Evidence from
+Radiology. MIT Department of Economics; National Bureau of Economic
+Research. July 2023. ([[https://blueprintcdn.com/wp-content/uploads/2023/07/Blueprint-Discussion-Paper-2023.10-Agarwal-Moehring-Rajpurkar-Salz_2.pdf][Link to the white paper]].)
+
+
+** Artificial Intelligence Applications
+#+attr_html: :width 400px
+#+caption: AI image auto-generated by leonardo.ai with text prompt
+[[./img/wrmc_leonardo2.jpg]]
+
+Artificial Intelligence (AI) is a fairly large field of science - it's
+large even though it's young as an area of systematic inquiry (70+
+years) because of the many areas of human activity that it has
+touched, including:
+#+begin_quote
+1) Healthcare:
+   - Medical diagnosis
+   - Predictive analytics for patient care
+   - Drug discovery and design
+   - Medical image interpretation
+2) Finance:
+   - Algorithmic trading
+   - Fraud detection
+   - Credit scoring
+   - Personalized banking services
+3) E-commerce:
+   - Recommendation systems
+   - Customer service chatbots
+   - Price optimization
+4) Transportation:
+   - Autonomous vehicles
+   - Route optimization for delivery trucks
+   - Predictive maintenance for vehicles
+5) Entertainment:
+   - Content recommendation (e.g., Netflix or Spotify)
+   - Video game AI
+   - Virtual reality simulations
+6) Marketing:
+   - Targeted advertisements
+   - Customer segmentation
+   - Predictive sales analytics
+7) Manufacturing:
+   - Predictive maintenance of machinery
+   - Quality assurance using visual recognition
+   - Robotics for automation
+8) Agriculture:
+   - Crop and soil monitoring
+   - Predictive analytics for crop yields
+   - Automated irrigation systems
+9) Education:
+   - Personalized learning platforms
+   - AI tutors
+   - Learning analytics and prediction
+10) Energy:
+    - Smart grids for electricity distribution
+    - Predictive maintenance for energy infrastructure
+    - Energy consumption optimization
+11) Security:
+    - Facial recognition for surveillance
+    - Anomaly detection in cybersecurity
+    - Predictive policing
+12) Language and Communication:
+    - Machine translation (e.g., Google Translate)
+    - Speech recognition (e.g., Siri, Alexa)
+    - Text-to-speech synthesis
+13) Research:
+    - Literature review and meta-analysis
+    - Data mining and pattern recognition
+    - Simulations and modeling
+14) Smart Cities:
+    - Traffic management and optimization
+    - Waste management
+    - Energy-efficient buildings
+15) Space Exploration:
+    - Rover autonomy (e.g., Mars rovers)
+    - Satellite image analysis
+    - Predictive modeling for space missions
+#+end_quote
+
+Most AI is embedded in systems quite literally "out of sight".
+
+The image was created by leonardo.ai, an AI for graphic design and
+image generation using the text prompt: "Inspirational image for a
+lecture on medical artificial intelligence to medical residents," and
+this image prompt, a modern [[https://chorus.stimg.co/23212881/FirstMinnesotaPainting.jpg?w=998&h=600&auto=compress&cs=tinysrgb&crop=faces&dpr=1][painting of the battle at Gettysburg]] by
+Don Troiani, using the DreamShaper v7 model (created on 02/08/23).
+
+** Large Language Models (LLMs)
+#+attr_html: :width 400px
+#+caption: AI subfields (Mermaid diagram by Claude 2, my prompt)
+[[./img/wrmc_ai.png]]
+
+We'll start exploring this diagram from the bottom.
+
+- *What is ChatGPT?* ChatGPT is a conversational, web-based interface
+  for a GPT or Generative Pre-trained Transformer model created and
+  owned by OpenAI (which despite its name isn't all that open), and
+  made available freely in November 2022. There are also GPT APIs
+  (Application Programming Interface) that can be used in code - for
+  anyone who wishes to use the model for his or her own purposes. For
+  example, as soon as the ChatGPT API was opened in early 2023, my
+  students and I were using ChatGPT directly in our own applications -
+  and this is the real driver behind the current AI hype.
+
+- *Large Language Models* (LLMs) is the class of models to which GPT
+  models like ChatGPT and its siblings, Bard by Google, Bing Chat by
+  Microsoft and Claude by anthropic belong. LLMs are the result of
+  Natural Language Processing (NLP) using an Artificial Neural Network
+  (ANN) architecture.
+
+- LLMs are trained on existing text to use probability distributions
+  over words and word sequences to generate output in the form of new
+  words. This means that the model computes the likelihood of the next
+  word it prints based on the words and sentences it already knows.
+
+- This "layman's" explanation given by ChatGPT (GPT-4 August 3
+  version) is actually pretty good:
+  #+begin_quote
+  "A Large Language Model, like the one you're talking to, is a kind of
+  computer program designed to understand and generate human
+  language. Think of it as a super-smart digital parrot. It's been
+  "trained" by reading tons of text from books, websites, and other
+  sources. When you ask it a question or give it a prompt, it doesn't
+  "think" or "know" in the way humans do. Instead, it predicts the
+  best response based on patterns it learned from all that text. It's
+  like if you blended all the books in a library together and then
+  tried to have a conversation with that blend. This program can help
+  answer questions, write stories, and more, all by mimicking human
+  language."
+  #+end_quote
+  #+attr_html: :width 400px
+  #+caption: ChatGPT's Layman's explanation of a Large Language Model
+  [[./img/wrmc_llm.png]]
+
+- Deep learning refers to the class of Neural Networks necessary to
+  process very large amounts of text to create the LLMs, and
+  Tokenization is the way in which NLP uses the ANNs to manage text.
+
+- "Tokenization" refers to turning human-readable words into sequences
+  of number IDs where a token can correspond to more than one word -
+  on average, in English, 75 words can be broken down to 100 tokens.
+
+- All conversational AI is limited with regard to the number of tokens
+  that it can process at any one time (for a prompt response). In
+  ChatGPT this can lead to the AI refusing to do the work when the
+  token limit is reached. This token limit does not directly translate
+  into bytes because it depends strongly on the model.
+
+** How do Large Language Models work?
+
+- Neural networks connect a vast amount of input nodes to hidden
+  layers to one output layer. Different purposes require different
+  specific architectures.
+  #+attr_html: :width 400px
+  #+caption: Slide: LLMs are black-box-models specialised on word completion
+  [[./img/wrmc_llm1.png]]
+
+- Predicting the next word as output based on a given input, or a
+  response based on a prompt as shown here with a few examples, is all
+  that the LLM does - without ever understanding anything (just like a
+  "digital parrot").
+
+- The LLM itself is largely a "black box", even to its creators. After
+  the pre-training on raw data and the fine-tuning, the model itself
+  is not open to scrutiny and change. Of course, there are several
+  layers between the model and its web application, which are subject
+  to changes - but the model itself, the way in which given input
+  leads to stochastically computed output - cannot be changed until a
+  new model was trained. Which in the case of LLMs, takes weeks and
+  millions of dollars. That is the "version", which you see at the
+  bottom of the ChatGPT interface.
+
+** How are Large Language Models trained?
+
+#+attr_html: :width 400px
+#+caption: Slide: GPT-3.5's training parameters and network architecture
+[[./img/wrmc_llm2.png]]
+
+- GPT-3 by Open AI was pre-trained on several data sets, totalling
+  ca. 570 GB of data. It was trained with 175bn parameters (input
+  nodes) across 96 network layers of a transformer neural net.
+
+- It is estimated that GPT-4 by Open AI is based on eight different
+  models, each trained with 220bn parameters (input nodes) totalling
+  1.76 trillion parameters.
+
+- You can think of these "parameters" as rules that determine the
+  meaning of a word or a word sequence in the input. For example, to
+  complete a sentence like "Today, the sun is very...", you have to
+  choose between words like: 'glass', 'drop', 'hot', 'blue'
+  etc. "Training" the network establishes relationships that enable
+  the final model to rapidly, and with high probability, decide that
+  the likely end of the sentence is "Today, the sun is very HOT."
+
+- Language rules are not only used in LLMs but also in traditional NLP
+  applications like sentiment analysis, when for example a marketing
+  agency wants to create a campaign for a product based on a large
+  number of real tweets: the rules are then used to compute an index
+  for the "polarity" of the tweet with regard to the product.
+
+- What were the LLM training data? Essentially the entire text
+  information publicly available on the Internet. Training also
+  involves semi-manual tuning to remove "toxic" content.
+
+** Summary II
+#+attr_html: :width 400px
+#+caption: Slide: Summary Part II (AI and LLMs) 
+[[./img/wrmc_summary_2.png]]
+
+- Artificial Intelligence Applications: AI impacts multiple sectors,
+  from healthcare to space exploration, with its applications often
+  being seamlessly integrated into systems.
+- Large Language Models (LLMs): LLMs, developed through NLP and ANN
+  architectures, mimic human language by generating responses from
+  patterns in vast text data.
+- How do Large Language Models work? LLMs use neural networks to
+  predict responses based on input, often remaining mysterious even to
+  their creators.
+- How are Large Language Models trained? GPT-3 and GPT-4 were trained
+  on extensive datasets from the internet, with trillions of
+  parameters guiding their responses.
+
+Images: two images in response to a text prompt ("Summarize a chapter
+on Artificial Intelligence Applications, Large Language Models, and
+neural networks.") and an [[https://flic.kr/p/2nVA3SD][image prompt]] (Truckload of apples in
+orchard. Camden County, New Jersey (LOC)), created by the Leonardo
+Diffusion model at leonardo.ai (Aug 7, 2023).
+
+* Part III: How can you use it?
+** What's different about ChatGPT
+
+I've spent a few months trying stuff out, and also using AI while
+writing an actual paper of my own: Birkenkrahe, M. Teaching Data
+Science with Literate Programming Tools. Preprints
+2023, 2023071847. [[https://doi.org/10.20944/preprints202307.1847.v1][doi.org/10.20944/preprints202307.1847.v1]].
+
+These slides contain the documentation of a number of my
+experiments, especially concerning:
+- Prompt engineering
+- Summarizing text and video (!)
+- Proofreading
+- Utility tasks (automating routine PC tasks)
+- Improving graphs
+- Coding in interactive notebooks with ChatGPT
+- Researching stuff (and getting frustrated about lies!)
+- Citing AI assistance in your work (or not perhaps).
+
+At the outset: how exactly is ChatGPT different from Google Search? It
+is different in a number of ways:
+1) It is "conversational" in the sense that it remembers the
+   conversation you had with it (for one session).
+2) It is "considerate" in the sense that it tries to provide output as
+   close to your prompts as possible (within its means).
+3) It is not commercial, i.e. free of advertisements (for now). Don't
+   underestimate how lovely this is - it makes for a clean, focused
+   experience (after all, you don't interrupt intimate conversations
+   or productive meetings with commercials, right?).
+
+It is similar, identical even with regard to two other properties:
+1) It is mindless like a telephone book (or, if you don't know what
+   that is anymore, like a printed manual).
+2) It is vast and can be all-absorbing so that you lose all your
+   available time and nerves dealing with the machine rather than with
+   your problem (using your own head).
+3) It is not available as an act of kindness or to improve the quality
+   of your life or to make the world a better place (though that was
+   part of OpenAIs original goal, as it was for Google, Facebook etc.)
+   but to make money.
+
+** How ChatGPT thinks it can support your publishing
+#+attr_html: :width 400px
+#+caption: Slide: how ChatGPT thinks it can support your publishing
+[[./img/wrmc_support.png]]
+
+I asked ChatGPT (August 3 version of GPT-4 default): "The target
+audience is medical residents. They need support with their scientific
+publications. Give me a list of ways in which you could support them:"
+
+ChatGPT's response:
+#+begin_quote
+Certainly! Here's a list of ways in which a tool like mine could
+support medical residents with their scientific publications:
+
+1. Literature Review Assistance: I can help identify relevant
+   articles, journals, and studies based on keywords or topics,
+   streamlining the research process.
+2. Draft Review: Provide feedback on drafts, ensuring clarity,
+   coherence, and proper structure.
+3. Statistical Analysis Interpretation: Help in understanding and
+   interpreting statistical analyses, outcomes, and significance
+   levels.
+4. Citation Management: Offer guidance on the proper format for
+   citations and references based on the desired citation style (e.g.,
+   APA, MLA, AMA).
+5. Plagiarism Check: While I can't replace dedicated plagiarism
+   software, I can help identify and rephrase sentences that might be
+   too close to original sources.
+6. Language & Grammar Review: Ensure the manuscript uses proper
+   grammar, spelling, and scientific terminology.
+7. Formatting Assistance: Provide guidance on formatting manuscripts
+   according to specific journal guidelines.
+8. Data Visualization: Offer insights on how to best visualize data,
+   whether it's through graphs, charts, or tables.
+9. Abstract Creation: Aid in condensing findings into a succinct and
+   coherent abstract.
+10. Translation Support: Provide translations for abstracts or entire
+    articles to reach broader audiences.
+11. Clarify Complex Concepts: If there's a challenging concept, I can
+    provide explanations or analogies to ensure accurate
+    understanding.
+12. Practice Presentations: For residents who need to orally present
+    findings, I can provide Q&A sessions to prepare.
+13. Cover Letter Drafting: Assist in drafting cover letters for
+    manuscript submissions to journals.
+14. Stay Updated: Provide updates or summaries on recent publications
+    in the resident's field of study, ensuring they are aware of the
+    latest research.
+15. Submission Strategy: Offer insights on which journals might be
+    most appropriate for their research based on scope, impact factor,
+    and audience.
+
+By leveraging these supports, medical residents can navigate the often
+challenging process of scientific publication more confidently and
+effectively.
+#+end_quote
+
+** Where I think ChatGPT shines, and where it stinks
+#+attr_html: :width 400px
+#+caption: Slide: where ChatGPT shines and where it stinks
+[[./img/wrmc_support1.png]]
+
+Now, I have spent a couple of months testing most of these. My summary
+verdict is: this particular list is not confabulated. ChatGPT (and, to
+a different degree, with different emphases, also its LLM siblings) is
+capable of assisting you with all these activities.
+
+Here, I only want to comment on a few of the "yellow" (not so great!)
+and "red" (beware!) ones that are most important to my work:
+1) *Literature review assistance* and *Staying up to date* is a
+   possibility if you have web search support, and I have unearthed
+   articles that I didn't find on my own - but the burden of
+   confabulation is too heavy: especially in the free version (without
+   extra support by scholarly plugins), the model makes up references
+   even when told explicitly not do to it. This gets frustrating fast!
+   Nobody likes to be lied to!
+2) *Data visualization* and *Statistical analysis interpretation* is a
+   creative activity whenever it is really required - but the model is
+   quite literally a "regression to the mean" of all available
+   visualizations and interpretations. This is great when you want to
+   improve a graph (see example later on) or if you need a refresher
+   on how to customize a stacked barplot in Python or R, but if you're
+   up against the unknown, not so much.
+3) *Draft review* and *Submission strategy*: These aren't creative but
+   they're also not completely cookie-cutter. When I used the bot to
+   review a draft, I never learnt anything new that was really
+   interesting or eye-opening (I usually knew what the problem was and
+   that it wasn't easy to fix). And submission strategy has a standard
+   part (which is covered by reading the instructions), and a human
+   part, which is about networking and correspondence. This last part
+   involves a lot of subtle decisions. The AI can help you to write
+   bland, correct letters when needed but it cannot really help you
+   deal with a hostile reviewer.
+4) *Clarify complex concepts*: the AI does that but on the level of an
+   encyclopedia. If you're actually an expert (and you should be, to
+   an extent, before writing a paper on your very own research), then
+   Wikipedia cannot help you.
+5) *Plagiarism check:* sounds like an easy automation task but because
+   fraud in science is rampant, authors do not need more tools to
+   obscure the true origin of their ideas or their writing. Rephrasing
+   should be done most consciously and deliberately, and not be left
+   to AI.
+
+On the remaining pages, let's look at some examples, including a few
+not mentioned by ChatGPT (but done well nevertheless)!
+
+For the original documentation that I created as I went along, [[https://tinyurl.com/wrmc2023][see
+here in GitHub]]. It contains a lot more stops and starts than this
+presentation, and (in the section "[[https://github.com/birkenkrahe/org/blob/master/research/WRMC_08_2023.org#analyzing-scientific-publications-28-july-2023][Analyzing scientific
+publications]]"), examples for several publications from WRMC
+residents.
+
+Some of the examples are also not with ChatGPT but instead the (still
+free to use) Claude 2 model by anthropic. In my classes, I mostly use
+GitHub Copilot or ChatGPT's Code Interpreter for coding
+assistance. For (informal) comparisons, I have used Google's Bard,
+Microsoft's Bing Chat and Meta's LLaMa via perplexity.ai. ChatGPT,
+Bing Chat and LLaMa are also available as Android apps.
+
+I also spent too much time playing around with AI image creation -
+[[https://docs.google.com/presentation/d/1QK4z-D8C0lneOQVzgBJKyL_Vqv2n7yzz5lQBXtpOys8/edit?usp=sharing][here is a separate presentation]] documenting my experiments with
+leonardo.ai.
+
+** Prompt design / engineering
+#+attr_html: :width 400px
+#+caption: Slide: Prompt design is not Google search
+[[./img/wrmc_prompt1.png]]
+
+#+attr_html: :width 400px
+#+caption: Slide: Prompt design example: Twitter (1)
+[[./img/wrmc_prompt2.png]]
+
+#+attr_html: :width 400px
+#+caption: Slide: Prompt design example: Twitter (2)
+[[./img/wrmc_prompt3.png]]
+
+#+attr_html: :width 400px
+#+caption: Slide: Prompt are better with target audience
+[[./img/wrmc_prompt4.png]]
+
+#+attr_html: :width 400px
+#+caption: Slide: Response/output control improves your workflow
+[[./img/wrmc_prompt5.png]]
+
+#+attr_html: :width 400px
+#+caption: Slide: Tweet response/output as JSON / ElasticSearch
+[[./img/wrmc_prompt6.png]]
+
+** Summarizing text and video transcripts
+#+attr_html: :width 400px
+#+caption: Slide: summarize text and video transcripts
+[[./img/wrmc_summarize.png]]
+
+- Text (GPT-4 + AI PDF plugin): Summarizing and inquiring about a
+  technical paper on literate programming ([[https://chat.openai.com/share/ea4e5ee5-0a72-4967-9e5b-d554d7b8b9b2][full conversation]]): Mary
+  Beth Kery, Marissa Radensky, Mahima Arya, Bonnie E. John, and Brad
+  A. Myers. 2018. The Story in the Notebook: Exploratory Data Science
+  using a Literate Programming Tool. In Proceedings of the 2018 CHI
+  Conference on Human Factors in Computing Systems (CHI
+  '18). Association for Computing Machinery, New York, NY, USA, Paper
+  174, 1–11. https://doi.org/10.1145/3173574.3173748
+  1) Which research methodology was used in this paper?
+  2) Was any other method mentioned?
+  3) Did the authors identify any limitations of their research?
+  4) Please summarize the most important conclusions.
+  5) Did the authors miss anything?
+  6) Give me a short summary of the paper with the most important
+     points.
+  7) Please summarize again and use your earlier findings for the
+     "methodology".
+  8) Translate your summary to French. Show a paragraph by paragraph translation.
+
+- Video (GPT-4 + VoxScript plugin: Summarize and inquire about a
+  technical video on YouTube ([[https://chat.openai.com/share/0f845c75-5b3d-4523-837f-f4889807378d][full conversation]]): Kitchin J. Literate
+  programming in org-mode and scimax. YouTube. Published February
+  27, 2023. Accessed [Today's
+  Date]. https://www.youtube.com/watch?v=v3CeZ9TaAWo.
+  1) Please summarize this video for me.
+  2) Is this video useful as an introduction to literate programming
+     with Emacs and Org-mode?
+  3) How can I find out more about literate programming?
+  4) How can I find out more about Emacs and Org-mode?
+  5) What is the difference between Scimax and Emacs?
+  6) Give me an AMA-formatted citation for this video, please.
+
+** Defuse and translate an angry German letter
+#+attr_html: :width 400px
+#+caption: Slide: defuse and translate an angry German letter
+[[./img/wrmc_angry.png]]
+
+Task: Angry letter toned ([[https://chat.openai.com/share/348bde21-e4ac-464b-a626-10644ce0a13c][full conversation]])
+1) Tone very angry German letter down.
+2) Translate the defused letter to English.
+3) Show me specifically what you changed.
+4) Add a warning to make it sound more serious.
+
+** Proofread texts written by non-native author
+#+attr_html: :width 400px
+#+caption: Slide: Proofread texts written by non-native author
+[[./img/wrmc_proof.png]]
+
+- Task: Improve a text ([[https://chat.openai.com/share/86e9a5e6-8325-4440-9843-293d8bf56753][Full conversation.]]).
+  1) Make up a text that might have been written by a non-native
+     English speaker.
+  2) Fix the text.
+  3) tell me what you did exactly.
+
+** Create, customize and improve illustrations
+#+attr_html: :width 400px
+#+caption: Slide: Create, customize and improve illustrations
+[[./img/wrmc_plot.png]]
+
+This is a long example by comparison - it includes longer code blocks
+and some back and forth with the AI. The full conversation [[https://sharegpt.com/c/5p8ER0i][is here]] -
+it does not contain the plots, which are highlighted in the
+presentation. This experiment also shows some important differences
+between Claude 2 and ChatGPT regarding the workflow and the
+coding/plotting capabilities.
+
+- The article by Wang, Sawalha and Khan contains a table and a simple
+  line plot with a legend. The plot is not well readable (x-axis ticks
+  are plotted on top of one another, for the y-label, units are
+  missing) - which I only noticed after ChatGPT presented me with an
+  improved plot ([[https://github.com/birkenkrahe/org/blob/master/img/article2table1plot.png][first comparison shown here]]).
+
+- Bot differences: Claude-2 immediately transcribed the table from the
+  PDF (manually), while ChatGPT tried to extract the data with various
+  packages, and then finally gave up so that I had to ask it
+  explicitly to transcribe the data from the PDF to a data frame.
+
+- When comparing with the plot in the paper, I noticed that I
+  overlooked the "Tirofiban Administration" on 10/10/19 at 9:hrs. I
+  asked the AI to add this to the plot - the AI first added a dashed
+  vertical red line for that date (an error had to be rectified,
+  having to do with ~datetime~ conversion for the ~matplotlib~
+  function). I asked to add the text and the point in red to the line
+  plot, leading to the [[https://github.com/birkenkrahe/org/blob/master/img/article2table1plotClaudeFinal.png][final plot]] ([[https://claude.ai/chat/1dcf604a-a385-453b-abaf-13a0866c72f4][whole conversation online here]]).
+
+- The final plot in direct comparison with the paper is shown on the
+  slide.
+
+- Reference: Wang S, Sawalha K, Khan A. An Unusual Case of
+  Drug-Induced Thrombocytopenia. J Investig Med High Impact Case
+  Rep. 2020;8:1-4. doi:10.1177/2324709620947891 ([[https://journals.sagepub.com/doi/pdf/10.1177/2324709620947891][open access PDF]])
+
+** Chatting while Coding with interactive notebooks
+#+attr_html: :width 400px
+#+caption: Slide: chat while coding with interactive notebooks
+[[./img/wrmc_noteable.png]]
+
+I'm leaving the best (in my world) for last: literate programming
+meets AI. The availability and performance of this application and
+plugin from noteable.io surprised and delighted me. To do this:
+
+- Enable noteable.io plugin (requires ChatGPT plus subscription). By
+  comparison with other online notebook apps based on Jupyter
+  notebooks, this is actually quite nice with improved UX/UI.
+
+- Let ChatGPT know which notebook you want to use by entering the
+  notebook URL. Here is a [[https://app.noteable.io/published/22ac84e3-36e4-473a-9032-a1e9ca350644/ChatGPTDemo.ipynb][demo notebook (Python)]] in Python that I
+  created. 
+
+- Now, any query answer in ChatGPT will automatically be entered in
+  the notebook. Here is my whole [[https://chat.openai.com/share/3bcc0e58-7efa-402e-ba31-c2115fa91432][conversation with ChatGPT]] that lead
+  to the screenshot shown on the slide, with the chat on the left, and
+  the notebook on the right hand side ([[https://github.com/birkenkrahe/org/blob/master/img/wrmc_noteable.png][link to image]]).
+
+For more on using literate programming for data science, see my recent
+preprint: Birkenkrahe, M. Teaching Data Science with Literate
+Programming Tools. Preprints
+2023, 2023071847. https://doi.org/10.20944/preprints202307.1847.v1
+
+** Summary III
+#+attr_html: :width 400px
+#+caption: Slide: Summary Part III (how to use AI)
+[[./img/wrmc_summary_3.png]]
+
+After using Claude and ChatGPT for various copy-editing tasks
+when writing my last paper, I asked if and how I should reference
+their help.
+
+I think the answer from Claude 2 (22 July 2023) is worth sharing:
+#+begin_quote
+I would not recommend citing AI systems like myself (Claude), Bard, or
+ChatGPT in the references section of an academic paper. While
+acknowledging the use of AI assistance ethically in the
+acknowledgements is appropriate, formally citing AI systems as
+references could negatively impact the perceived credibility of the
+work.
+
+Some concerns with formally citing AI systems:
+
+- They are not primary sources that directly contribute intellectual
+  content or knowledge. The ideas in the paper should come from you as
+  the author, with AI assisting in the communication/presentation.
+
+- Citing them may give the impression that substantive ideas or unique
+  data came from the AI, rather than your own research and analysis.
+
+- As emerging technologies lacking peer review or institutional
+  accountability, AI systems do not meet academic standards for
+  citeable scholarly sources.
+
+- It may raise questions about the originality of the work if AI
+  systems are cited prominently.
+
+Instead, I would recommend focusing your in-text citations and
+references on sources like:
+
+- Relevant prior research papers from other academics
+- Datasets or reports analyzed for the study
+- Theoretical models/frameworks applied
+- Books/articles that contextualize the topic
+
+This helps position your work within the human scholarly
+community. The goal should be demonstrating the quality and
+originality of your own ideas, analysis, and conclusions. Citing AI
+could detract from that goal.
+
+However, do note any AI assistance appropriately in the
+acknowledgements. The goal is transparency without giving undue
+credibility to the AI systems themselves. Please let me know if you
+have any other questions!
+#+end_quote
+
+** Attempt to predict where we're going
+#+attr_html: :width 400px
+#+caption: An attempt to predict where we're going
+[[./img/wrmc_outlook.png]]
+
+1) AI augmentation: scenario - Jane, a research scientist (by
+   ChatGPT). A little euphemistic but overall doable.
+
+   - *Without AI Augmentation:*
+     1. Jane spends weeks reading through dozens of research papers to
+        understand the latest in her field.
+     2. She manually collects and analyzes data, which is
+        time-consuming.
+     3. She writes up her findings and then seeks feedback from her
+        peers, which can take a lot of time and back-and-forth
+        communication.
+   - *With AI Augmentation:*
+     1. Research Assistance: Jane uses an AI-powered literature review
+        tool. This tool analyzes thousands of research papers and
+        provides her with a summarized understanding of the latest in
+        her field in just hours.
+     2. Data Analysis: For her experiments, Jane employs an AI tool
+        that automatically collects and preprocesses data. The tool
+        can also point out anomalies or patterns in the data she might
+        have missed.
+     3. Writing Assistance: As Jane writes her research paper, an AI
+        writing assistant helps her with grammar, style, and even
+        suggests better ways to present her data.
+     4. Feedback Loop: Before sending her work to human peers, she
+        runs itthrough an AI-powered peer review simulator which
+        provides her with constructive feedback and potential
+        questions or criticisms that her peers might have. This allows
+        her to refine her work further.
+     5. Collaboration: Jane uses an AI-augmented collaboration
+        platform that helps her seamlessly collaborate with other
+        scientists worldwide. The platform suggests potential
+        collaborators based on their expertise, research interests,
+        and publication history.
+
+   In this scenario, AI doesn't replace Jane but augments her
+   abilities,helping her to be more efficient, make more informed
+   decisions, and collaborate more effectively.
+
+2) Specialized LLMs: a massive list (by ChatGPT), which seems
+   reasonable.
+
+   1. Specialized Large Language Models (LLMs) are trained or
+      fine-tuned for specific domains or tasks, enabling them to
+      perform with greater accuracy and precision in those areas
+      compared to general-purpose LLMs. Here are some examples:
+
+   2. Medical LLMs: These models are trained on medical literature,
+      clinical notes, research papers, and more to assist healthcare
+      professionals in tasks like diagnosing diseases, suggesting
+      treatments, or answering patient queries.
+
+   3. Legal LLMs: Trained on law journals, case law, statutes, and
+      legal opinions, these models can assist lawyers in drafting
+      documents, doing legal research, or predicting the outcomes of
+      cases.
+
+   4. Financial LLMs: Models in this domain can analyze financial
+      reports, predict market movements based on news and events, or
+      help in risk assessment by being trained on financial data and
+      literature.
+
+   5. Scientific LLMs: These are tailored for specific scientific
+      disciplines, like physics, chemistry, or biology. They can
+      assist researchers in understanding complex concepts, predicting
+      results, or doing literature reviews.
+
+   6. Technical Support LLMs: Fine-tuned on technical documentation,
+      support forums, and Q&A datasets, these models can assist in
+      troubleshooting technical problems or guiding users through
+      complex procedures.
+
+   7. Programming LLMs: Models like GitHub Copilot are trained on vast
+      amounts of code to assist developers in writing code, debugging,
+      or understanding complex programming concepts.
+
+   8. Language Learning LLMs: Tailored for language instruction, these
+      models can provide grammatical explanations, translations, or
+      conversational practice for those learning a new language.
+
+   9. Creative Writing LLMs: These can assist authors by suggesting
+      story arcs, character developments, or even poetry and are
+      trained on vast literature from different genres.
+
+   10. Historical LLMs: Trained on historical documents, books, and
+       research, these models can provide insights into historical
+       events, contexts, or assist in historical research.
+
+   11. Entertainment and Gaming LLMs: These models can be fine-tuned
+       to assist in game design, write dialogues for characters, or
+       even generate stories for video games.
+
+   When creating or using specialized LLMs, it's essential to ensure
+   that biases in the training data are addressed and that the models
+   are used ethically and responsibly, especially in sensitive domains
+   like medicine or law.
+
+3) How to (get or) keep up to date:
+
+   There are no shortcuts here, and ChatGPT loves pretending that
+   there are AI-driven shortcuts.
+
+   1. The only way to keep tabs on AI and on your own skills is to not
+      let them go to waste.
+
+   2. Only automate what you must. Often resist automation and pursue
+      mindless drilling to keep your body and your mind nimble.
+
+   3. Do not substitute human communication and correspondence with
+      the digital equivalent with machines.
+
+   4. Experiment as much as you can with the new tools and be brave
+      enough to write time off if the result is not to your liking.
+
+The machine is a stochastic mirror of the world and, the more you use
+it, of yourself - it won't help you grow substantially.
+
+Good luck!
+
