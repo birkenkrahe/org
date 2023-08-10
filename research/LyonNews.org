@@ -1,0 +1,44 @@
+* claude.ai
+
+Prompt: Please summarize this text. The target audience is a
+copywriter who wants to write a news article based on these questions
+and answers.
+
+Response:
+#+begin_quote
+Here is a summary of the key points from the conversation:
+
+The talk was focused on how conversational AI like ChatGPT can support
+medical research, not on medical AI applications more broadly. The
+speaker aimed to explain the potential benefits but also serious
+limitations of large language models to medical residents.
+
+Key concepts like machine learning, neural networks, and large
+language models were demystified. The speaker explained how chatbots
+can mimic human conversation despite having no real understanding.
+
+The speaker advised using AI writing tools ethically by acknowledging
+their use, but not formally citing them as references. Credibility of
+work is important.
+
+Benefits of AI tools include improving literature reviews, drafting
+manuscripts, enhancing research productivity. Useful for non-creative
+tasks like citations, grammar checks, summarizing. But not for
+creative work or coding.
+
+Residents should augment their work with AI where appropriate, while
+maintaining diligence. More data doesn't equal better insights. Focus
+on specialized, curated knowledge repositories. Prepare by
+experimenting with new tools, maintaining critical distance, and
+upholding due diligence.
+
+The future will likely see more data-driven medicine. Residents can
+benefit from AI assistants but need to invest time and manage
+expectations. Critical thinking remains essential.
+#+end_quote
+
+* chat.openai.com
+
+Prompt: Please summarize this text. The target audience is a
+copywriter who wants to write a news article based on these questions
+and answers.
