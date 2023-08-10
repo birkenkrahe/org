@@ -8,11 +8,11 @@
 - Course title: Introduction to data science
 - Course number and section: DSC 105.01
 - Meeting Times: Mon-Wed-Fri from 13:00-13:50 am
-- Meeting place: Lyon Building Computer Lab room 104
+- Meeting place: Derby Science Building computer lab room 209
 - Professor: Marcus Birkenkrahe
 - Professor's Office: Derby Science Building 210
 - Phone: (870) 307-7254 (office) / (501) 422-4725 (private)
-- Office hours: Monday through Friday after class
+- Office hours: MWF 10-10.30am, 2-4pm / TTH 9.30-11am, 12.15-2.15pm
 - Textbook: The Book of R (Part I, ch. 1-8) by T Davies
   ([[https://nostarch.com/bookofr][NoStarch, 2016]]) - reserved copy available in the library
 
