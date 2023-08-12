@@ -12,7 +12,7 @@
 - Professor: Marcus Birkenkrahe
 - Professor's Office: Derby Science Building 210
 - Phone: (870) 307-7254 (office) / (501) 422-4725 (private)
-- Office hours: MWF 10-10.30am, 2-4pm / TTH 9.30-11am, 12.15-2.15pm
+- Office hours: Mon/Wed 2-3pm, Tue 4-4.45pm, Thu 9.30-10:45am   
 - Textbook: The Book of R (Part I, ch. 1-8) by T Davies
   ([[https://nostarch.com/bookofr][NoStarch, 2016]]) - reserved copy available in the library
 

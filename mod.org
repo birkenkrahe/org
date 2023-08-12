@@ -9,8 +9,8 @@
   - Professor: Marcus Birkenkrahe
   - Office: Derby Science Center room 210
   - Phone: (870) 307-7254
-  - Office hours: MWF 10-10.30am, 2-4.30pm / TTH 9.30-11am, 12.15-2.15pm
-  - Some textbooks that we'll be using:
+  - Office hours: MWF 10-10.30am, 2-4pm / TTH 9.30-11am, 12.15-2.15pm
+  - Some textbooks that we might be using:
     1) /Model Thinking: What You Need To Make Data Work For You/, by
        Scott E. Page, Basic Books, 2021. URL: [[https://sites.lsa.umich.edu/scottepage/home/the-model-thinker/][umich.edu]].
     2) /Modeling and Simulation in Python/, by Allen B. Downey, NoStarch
