@@ -53,12 +53,12 @@
 
 * Grading system
 
-   | WHEN       | DESCRIPTION        | IMPACT |
-   |------------+--------------------+--------|
-   | TBD        | Final exam         |    25% |
-   | Last week  | Final presentation |    25% |
-   | Weekly     | Practice           |    25% |
-   | Weekly     | Tests              |    25% |
+   | WHEN      | DESCRIPTION          | IMPACT |
+   |-----------+----------------------+--------|
+   | TBD       | Final exam           |    25% |
+   | Last week | Final presentation   |    25% |
+   | Weekly    | DataCamp assignments |    25% |
+   | Weekly    | Tests                |    25% |
 
    To pass: 50%
 
