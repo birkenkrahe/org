@@ -1,8 +1,8 @@
-#+title: Introduction to Data Science (DSC 105) Draft Syllabus
+#+title: Introduction to Data Science (DSC 105) Syllabus
 #+author: Marcus Birkenkrahe
 #+startup: overview hideblocks indent
 #+options: toc:1 num:1 ^:nil
-#+subtitle: DSC105 Introduction to Data Science - Syllabus (Draft)
+#+subtitle: DSC105 Introduction to Data Science - Syllabus
 * General Course Information
 
 - Course title: Introduction to data science
@@ -16,13 +16,6 @@
 - Textbook: The Book of R (Part I, ch. 1-8) by T Davies
   ([[https://nostarch.com/bookofr][NoStarch, 2016]]) - reserved copy available in the library
 
-* Changes for Fall 2023
-
-- While R will still be our main programming language, I want to
-  contrast data science using SQL and Python (perhaps in connection
-  with R, though interface packages), and maybe even C/C++.
-- The weekly quizzes will be graded.
-  
 * Objectives
 
 Data science is concerned with getting data to work for us, to give us
@@ -32,7 +25,8 @@ professonial data scientist, it's helpful to master the basic concepts
 if you want to succeed in today's data-driven business.
 
 This course focuses on data science basics, simple visualization and
-productivity tools.
+productivity tools using the statistical programming language R as our
+starting point.
 
 * Target audience
 
@@ -52,14 +46,16 @@ able to:
 - Learn computer and data science principles by playing with data
 - Acquire basic statistical programming skills using R
 - Apply literate programming principles to their work with Org-mode
-- Use infrastructure including command line, Emacs, and GitHub
+- Use infrastructure including command line, Jupyter notebooks, GitHub
 - Understand the relationship of humans, machines, and data
 - Develop their critical thinking skills
 - Know how to effectively present assignment and project results
 
 Students, who complete DSC 105 will have fulfilled the prerequisites
 for DSC 205, Introduction to advanced data science, which focuses on
-coding, data science on the command line, and R packages.
+advanced practices in data exploration, visualization, and integration
+with databases and other languages through R and Python packages and
+APIs.
 
 * Course requirements
 
@@ -75,15 +71,48 @@ i.e. every discipline, from accounting to zoology).
 
 * Grading
 
-| WHEN       | DESCRIPTION        | IMPACT |
-|------------+--------------------+--------|
-| TBD        | Final exam         |    25% |
-| Last week  | Final presentation |    25% |
-| Weekly     | Practice           |    25% |
-| Weekly     | Tests              |    25% |
+| WHEN    | DESCRIPTION                 | IMPACT |
+|---------+-----------------------------+--------|
+| Weekly  | DataCamp assignments        |    25% |
+| Monthly | Sprint review presentations |    25% |
+| Weekly  | Tests                       |    25% |
+| TBD     | Final exam                  |    25% |
 
-To pass: 50%
+Notes:
+- To pass: 60%
+- DataCamp assignments: there are 15 assignments spread out over 3
+  courses. Each assignment contributes 1.6667% (25/15) to your final
+  grade. Late assignments are counted as 60% complete only.
+- Sprint review presentations: a customer-focused team effort
+  resulting in a project presentation, with 4 Scrum sprint reviews.
+- Tests: weekly online quizzes, which are previewed and reviewed in
+  class.
+- Final exam: selection of the most challenging weekly quiz questions.
 
-* [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Standard Policies (Spring 2023)]]
-* [[https://tinyurl.com/LyonPolicy][Assignments and Honor Code and Attendance Policy]]
-* Dates and class schedule (TBC)
+* Dates and class schedule
+
+| Week | Date          | Datacamp assignments | Project           |
+|------+---------------+----------------------+-------------------|
+|    1 | Aug 21-Aug 25 |                      |                   |
+|    2 | Aug 28-Sep 01 |                      |                   |
+|    3 | Sep 04-Sep 08 |                      |                   |
+|    4 | Sep 11-Sep 15 |                      | 1st sprint review |
+|    5 | Sep 18-Sep 22 |                      |                   |
+|    6 | Sep 25-Sep 29 | Introduction to R    |                   |
+|    7 | Oct 02-Oct 06 |                      |                   |
+|    8 | Oct 09-Oct 13 |                      | 2nd sprint review |
+|    9 | Oct 16-Oct 20 |                      |                   |
+|   10 | Oct 23-Oct 27 |                      |                   |
+|   11 | Oct 30-Nov 03 | data.table in R      |                   |
+|   12 | Nov 06-Nov 10 |                      | 3rd sprint review |
+|   13 | Nov 13-Nov 17 |                      |                   |
+|   14 | Nov 20-Nov 24 |                      |                   |
+|   15 | Nov 27-Dec 01 | Python for R users   |                   |
+|   16 | Dec 04-Dec 08 |                      | 4th sprint review |
+
+#+begin_notes
+NO CLASSES: Aug 21, Oct 9 (Fall break), Nov 22 + 24 (Thanksgiving) see
+[[https://catalog.lyon.edu/202324-academic-calendar][2023-2024 academic calendar]] for Lyon College.
+#+end_notes
+
+* [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Lyon Standard Policies (Fall 2023)]]
