@@ -53,14 +53,14 @@
 
 * Grading system
 
-   | WHEN      | DESCRIPTION          | IMPACT |
-   |-----------+----------------------+--------|
-   | TBD       | Final exam           |    25% |
-   | Last week | Final presentation   |    25% |
-   | Weekly    | DataCamp assignments |    25% |
-   | Weekly    | Tests                |    25% |
+   | WHEN   | DESCRIPTION          | IMPACT | MODE   |
+   |--------+----------------------+--------+--------|
+   | Weekly | DataCamp assignments |    25% | Single |
+   | TBD    | Presentation         |    25% | Single |
+   | TBD    | Session protocol     |    25% | Single |
+   | TBD    | AI application       |    25% | Team   |
 
-   To pass: 50%
+   To pass: 60%
 
 * [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Standard Policies (Spring 2023)]]
 * [[https://tinyurl.com/LyonPolicy][Assignments and Honor Code and Attendance Policy]]
