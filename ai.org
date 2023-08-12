@@ -10,8 +10,11 @@
   - Office: Derby Science Center room 210
   - Office hours: Mon/Wed 2-3pm, Tue 4-4.45pm, Thu 9.30-10:45am 
   - Phone: (870) 307-7254
-  - Text: [[https://aima.cs.berkeley.edu/][AIMA - /Artificial Intelligence - A Modern Approach]] (4th
-    edition)/, by Stuart Russell and Peter Norvig, Pearson 2021.
+  - Textbooks we'll be using:
+    1) [[https://aima.cs.berkeley.edu/][AIMA - /Artificial Intelligence - A Modern Approach]] (4th
+       edition)/, by Stuart Russell and Peter Norvig, Pearson 2021.
+    2) [[https://www.manning.com/books/learn-ai-assisted-python-programming][Learn AI-Assisted Python Programming]] - With GitHub Copilot and
+       ChatGPT, by Leo Porter and Daniel Zingaro, Manning 2023.
 
 * Objectives
 
