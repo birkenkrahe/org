@@ -67,26 +67,26 @@ To pass: 60%
 
 Important dates: see [[https://catalog.lyon.edu/202324-academic-calendar][2023-2024 academic calendar]] for Lyon College
 
-| WEEK | DATE          | ASSIGNMENTS | DATACAMP         | NO CLASS  |
-|------+---------------+-------------+------------------+-----------|
-|    1 | Aug 21-Aug 25 | Intro to AI |                  | Aug 21    |
-|    2 | Aug 28-Sep 01 | AI History  |                  |           |
-|    3 | Sep 04-Sep 08 | AI agents   |                  |           |
-|    4 | Sep 11-Sep 15 | 1st review  | Understanding AI |           |
-|    5 | Sep 18-Sep 22 | Deployment  |                  |           |
-|    6 | Sep 25-Sep 29 | Medical AI  | Intro to ChatGPT |           |
-|    7 | Oct 02-Oct 06 | Pres 1,2    |                  |           |
-|    8 | Oct 09-Oct 13 | 2nd review  | Understanding ML | Oct 9     |
-|    9 | Oct 16-Oct 20 | Pres 3,4    |                  |           |
-|      | Oct 23-Oct 27 | Pres 5,6    |                  |           |
-|   11 | Oct 30-Nov 03 | Pres 7,8    |                  |           |
-|   12 | Nov 06-Nov 10 | 3rd review  | LLM Concepts     |           |
-|   13 | Nov 13-Nov 17 | Pres 9,10   |                  |           |
-|   14 | Nov 20-Nov 24 | Pres 11,12  |                  | Nov 22,24 |
-|   15 | Nov 27-Dec 01 | Pres 13,14  |                  |           |
-|   16 | Dec 04-Dec 08 | PROJECTS    | Generative AI    |           |
+| WEEK | DATE          | ASSIGNMENTS      | DATACAMP         | PROJECTS   |
+|------+---------------+------------------+------------------+------------|
+|    1 | Aug 21-Aug 25 | Intro to AI      |                  |            |
+|    2 | Aug 28-Sep 01 | AI History       |                  |            |
+|    3 | Sep 04-Sep 08 | AI agents        |                  |            |
+|    4 | Sep 11-Sep 15 | State-of-the-Art | Understanding AI | 1st review |
+|    5 | Sep 18-Sep 22 | Future of AI     |                  |            |
+|    6 | Sep 25-Sep 29 | Machine Learning | Intro to ChatGPT |            |
+|    7 | Oct 02-Oct 06 | Sales/marketing  |                  |            |
+|    8 | Oct 09-Oct 13 | Natural Language | Understanding ML | 2nd review |
+|    9 | Oct 16-Oct 20 | Medical AI       |                  |            |
+|      | Oct 23-Oct 27 | Pres 1           |                  |            |
+|   11 | Oct 30-Nov 03 | Pres 2,3,4       |                  |            |
+|   12 | Nov 06-Nov 10 | Pres 5,6,7       | LLM Concepts     | 3rd review |
+|   13 | Nov 13-Nov 17 | Pres 8,9,10      |                  |            |
+|   14 | Nov 20-Nov 24 | Pres 11          |                  |            |
+|   15 | Nov 27-Dec 01 | Pres 12,13,14    |                  |            |
+|   16 | Dec 04-Dec 08 | PROJECTS         | Generative AI    | 4th review |
 
-NO CLASSES: Aug 21, Oct 9 (Fall break), Nov 22-24 (Thanksgiving)
+NO CLASSES: Aug 21, Oct 9 (Fall break), Nov 22 + 24 (Thanksgiving)
 
 * [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Standard Policies (Spring 2023)]]
 * [[https://tinyurl.com/LyonPolicy][Assignments and Honor Code and Attendance Policy]]
