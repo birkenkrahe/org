@@ -95,8 +95,9 @@ Notes:
 |   16 | Dec 04-Dec 08 | PROJECTS          | Generative AI    | 4th  |
 
 #+begin_notes
-NO CLASSES: Aug 21, Oct 9 (Fall break), Nov 22 + 24 (Thanksgiving) see
-[[https://catalog.lyon.edu/202324-academic-calendar][2023-2024 academic calendar]] for Lyon College.
+- NO CLASSES: Aug 21, Oct 9 (Fall break), Nov 22 + 24
+  (Thanksgiving). See [[https://catalog.lyon.edu/202324-academic-calendar][2023-2024 academic calendar]].
+- ONLINE CLASSES: Sept 15 + 22.
 #+end_notes
 
 * [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Lyon College Standard Policies (Fall 2023)]]
