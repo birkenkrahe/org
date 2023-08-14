@@ -1,86 +1,145 @@
 #+TITLE:Data And Process Modelling (DSC482.02) Draft Syllabus
 #+AUTHOR: Marcus Birkenkrahe
 #+SUBTITLE: Data and Process Modeling Draft Syllabus
-#+options: toc:nil
+#+startup: overview hideblocks indent inlineimages
 * General Course Information
 
-  - Meeting Times: Tuesday & Thursday, 14:30-15:45 hrs
-  - Meeting place: Derby Science Center computer lab 209
-  - Professor: Marcus Birkenkrahe
-  - Office: Derby Science Center room 210
-  - Phone: (870) 307-7254
-  - Office hours: MWF 10-10.30am, 2-4pm / TTH 9.30-11am, 12.15-2.15pm
-  - Some textbooks that we might be using:
-    1) /Model Thinking: What You Need To Make Data Work For You/, by
-       Scott E. Page, Basic Books, 2021. URL: [[https://sites.lsa.umich.edu/scottepage/home/the-model-thinker/][umich.edu]].
-    2) /Modeling and Simulation in Python/, by Allen B. Downey, NoStarch
-       Press, 2023. URL: [[https://greenteapress.com/wp/modsimpy/][greenteapress.com]].
-    3) /Exploring Modeling with Data and Differential Equations Using
-       R/, by J.M. Zobitz, Version 3.0.0. URL: [[https://jmzobitz.github.io/ModelingWithR/][jmzobitz.github.io]].
-    4) /Modeling and Simulation in Python/ by J.M. Kinser. CRC Press,
-       2022). URL: [[https://doi.org/10.1201/9781003226581][doi.org/10.1201/9781003226581]].
-    5) /Modeling Change and Uncertainty/ by W.P. Fox and R.E. Burks. CRC
-       Press, 2022. URL: [[https://doi.org/10.1201/9781003298762][doi.org/10.1201/9781003298762]]
-    6) /An introduction to mathematical modeling/ by E.A. Bender,
-       Wiley, 1978. Online: [[https://www.google.com/books/edition/An_Introduction_to_Mathematical_Modeling/adf515kSDOkC?hl=en][books.google.com]].
+- Meeting Times: Tuesday & Thursday, 14:30-15:45 hrs
+- Meeting place: Derby Science Center computer lab 209
+- Professor: Marcus Birkenkrahe
+- Office: Derby Science Center room 210
+- Phone: (870) 307-7254
+- Office hours: MWF 10-10.30am, 2-4pm / TTH 9.30-11am, 12.15-2.15pm
 
 * Objectives
 
-   Models are abstractions that explain parts of the real world,
-   e.g. to address, if not solve, complex problems like climate
-   change, pandemics, or space exploration. Since the real world is
-   only accessible to us through observation, observable data are key
-   to building, verifying and using models. To support
-   decision-making, data and processes are mined and modeled. In this
-   course, we will explore model thinking and a wide array of data and
-   process modeling tools. This special topic seminar is for everyone
-   who is interested in using models and modeling languages to better
-   understand the challenges and achievements of modeling.
+Models are abstractions that explain parts of the real world,
+e.g. to address, if not solve, complex problems like climate
+change, pandemics, or space exploration. Since the real world is
+only accessible to us through observation, observable data are key
+to building, verifying and using models. To support
+decision-making, data and processes are mined and modeled. In this
+course, we will explore model thinking and a wide array of data and
+process modeling tools. This special topic seminar is for everyone
+who is interested in using models and modeling languages to better
+understand the challenges and achievements of modeling.
 
-   Models can be explored mathematically and/or computationally via
-   simulations in a computer. We will explore the use of R and/or
-   Python to bring models froma variety of backgrounds to life,
-   including: epidemiology, the physics of toilet paper, bungee
-   jumping, and even Spider-Man.
+Models can be explored mathematically and/or computationally via
+simulations in a computer. We will explore the use of R and/or
+Python to bring models froma variety of backgrounds to life,
+including: epidemiology, the physics of toilet paper, bungee
+jumping, and even Spider-Man.
 
-   Models can help us deal with the increasing complexity of our
-   world, and understanding them will help us deal with many claims
-   made by scientists and non-scientists about complex issues. Model
-   literacy is an essential 21st century skill.
+Models can help us deal with the increasing complexity of our
+world, and understanding them will help us deal with many claims
+made by scientists and non-scientists about complex issues. Model
+literacy is an essential 21st century skill.
 
 * Student Learning Outcomes
 
-   Students who complete DSC 482.02 are able to:
+Students who complete DSC 482.02 are able to:
 
-   - Understand data and process modeling challenges
-   - Use a variety of modeling languages to create models
-   - Make use of different modeling software environments
-   - Understand, and can present current modeling research
-   - Apply modeling tools to an area of their knowledge
-   - Present or write a scientific (IMRaD) essay on modern modeling
-     methods
+- Understand data and process modeling challenges
+- Use a variety of modeling languages to create models
+- Make use of different modeling software environments
+- Understand, and can present current modeling research
+- Apply modeling tools to an area of their knowledge
+- Present or write a scientific (IMRaD) essay on modern modeling
+  methods
 
 * Course requirements
 
-   Formal prerequisites: MTH 101 (College Algebra), otherwise no prior
-   knowledge required. Experience and knowledge of data or process
-   modeling methods (e.g. Entity Relationship Diagrams, or Unified
-   Modeling Language) is useful but not critical. Curiosity and active
-   participations, especially during classroom presentations and
-   discussion, is important. You will gain advanced data and process
-   literacy skills by taking this course.
+Formal prerequisites: MTH 101 (College Algebra), otherwise no prior
+knowledge required. Experience and knowledge of data or process
+modeling methods (e.g. Entity Relationship Diagrams, or Unified
+Modeling Language) is useful but not critical. Curiosity and active
+participations, especially during classroom presentations and
+discussion, is important. You will gain advanced data and process
+literacy skills by taking this course.
 
 * Grading
 
-   | WHEN       | DESCRIPTION        | IMPACT |
-   |------------+--------------------+--------|
-   | TBD        | Final exam         |    25% |
-   | Last week  | Final presentation |    25% |
-   | Weekly     | Practice           |    25% |
-   | Weekly     | Tests              |    25% |
+| WHEN   | DESCRIPTION                 | IMPACT |
+|--------+-----------------------------+--------|
+| Weekly | Home assignment             |    25% |
+| Weekly | Tests                       |    25% |
+| TBD    | Sprint review presentations |    25% |
+| TBD    | Final exam                  |    25% |
 
-   To pass: 50%
-   
-* Dates and class schedule (TBC)
-* [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Standard Policies (Spring 2023)]]
-* [[https://tinyurl.com/LyonPolicy][Assignments and Honor Code and Attendance Policy]]
+*Notes:*
+- To pass: 60%
+- There will be 15 home assignments in the form of interactive Python
+  notebooks. Each assignment contributes 1.6667% (25/15) to your final
+  grade. Late assignments are counted as 60% complete only.
+- Sprint review presentations: a customer-focused single/team effort
+  resulting in a project presentation, with 4 Scrum sprint reviews.
+- Tests: weekly online quizzes, which are previewed and reviewed in
+  class.
+- Final exam: selection of the most challenging weekly quiz questions.
+
+* Dates and class schedule
+
+| Week | Date          | Assignments                 | Project        |
+|------+---------------+-----------------------------+----------------|
+|    1 | Aug 21-Aug 25 | Modeling with Python        |                |
+|    2 | Aug 28-Sep 01 | Bike share system           |                |
+|    3 | Sep 04-Sep 08 | Iterative modeling          |                |
+|    4 | Sep 11-Sep 15 | Parameters/metrics          | 1st sprint rev |
+|    5 | Sep 18-Sep 22 | Population models           |                |
+|    6 | Sep 25-Sep 29 | Iterating population models |                |
+|    7 | Oct 02-Oct 06 | Limits to Growth            |                |
+|    8 | Oct 09-Oct 13 | Projecting into the future  | 2nd sprint rev |
+|    9 | Oct 16-Oct 20 | Analysis and computation    |                |
+|   10 | Oct 23-Oct 27 | Case studies part I         |                |
+|   11 | Oct 30-Nov 03 | Epidemiology/SIR models     |                |
+|   12 | Nov 06-Nov 10 | Quantifying interventions   | 3rd sprint rev |
+|   13 | Nov 13-Nov 17 | Sweeping parameters         |                |
+|   14 | Nov 20-Nov 24 | Nondimensionalization       |                |
+|   15 | Nov 27-Dec 01 | Thermal systems             |                |
+|   16 | Dec 04-Dec 08 | Modeling blood sugar        | 4th sprint rev |
+
+- NO CLASSES: Aug 21, Oct 10 (Fall break), Oct 19 (Service day), Nov
+  23 (Thanksgiving). See [[https://catalog.lyon.edu/202324-academic-calendar][2023-2024 academic calendar]].
+
+* Textbooks (optional)
+
+- You do not need to buy any books for this course.
+
+- Some textbooks that I used to prepare this course:
+  1) /Model Thinking: What You Need To Make Data Work For You/, by
+     Scott E. Page, Basic Books, 2021. URL: [[https://sites.lsa.umich.edu/scottepage/home/the-model-thinker/][umich.edu]].
+  2) /Modeling and Simulation in Python/, by Allen B. Downey, NoStarch
+     Press, 2023. URL: [[https://greenteapress.com/wp/modsimpy/][greenteapress.com]].
+  3) /Exploring Modeling with Data and Differential Equations Using
+     R/, by J.M. Zobitz, Version 3.0.0. URL: [[https://jmzobitz.github.io/ModelingWithR/][jmzobitz.github.io]].
+  4) /Modeling and Simulation in Python/ by J.M. Kinser. CRC Press,
+     2022). URL: [[https://doi.org/10.1201/9781003226581][doi.org/10.1201/9781003226581]].
+  5) /Modeling Change and Uncertainty/ by W.P. Fox and R.E. Burks. CRC
+     Press, 2022. URL: [[https://doi.org/10.1201/9781003298762][doi.org/10.1201/9781003298762]]
+  6) /An introduction to mathematical modeling/ by E.A. Bender,
+     Wiley, 1978. Online: [[https://www.google.com/books/edition/An_Introduction_to_Mathematical_Modeling/adf515kSDOkC?hl=en][books.google.com]].
+
+* Learning management system
+
+- We use Lyon's Canvas installation for this course.
+- The home page contains: assignments, grades, pages, people,
+  syllabus, quizzes, Google Drive, Course evaluation and Zoom.
+- The Zoom page includes cloud recordings of all past sessions.
+- Recorded sessions will be deleted after the last class.
+
+* DataCamp (courses/workspace)
+
+The course includes a free subscription to the DataCamp classroom at
+[[https://datacamp.com/][datacamp.com]] for further study, and for the opportunity to earn
+certificates. DataCamp is a popular data science online learning
+platform. DataCamp assignments are optional.
+
+* GitHub (course materials)
+
+All course materials are available in a public GitHub repository
+([[https://github.com/birkenkrahe/ai482][github.com/birkenkrahe/ai482]]). GitHub is the worldwide largest online
+platform for software development.
+
+* [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Lyon College Standard Policies (Fall 2023)]]
+
+Online: https://tinyurl.com/LyonPolicyF23, see also [[https://catalog.lyon.edu/class-attendance][Class Attendance]]
