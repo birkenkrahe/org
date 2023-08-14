@@ -2,7 +2,6 @@
 #+AUTHOR: Marcus Birkenkrahe
 #+SUBTITLE: Artificial Intelligence
 #+startup: overview hideblocks indent inlineimages
-#+options: toc:nil
 * General Course Information
 
 - Meeting Times: Monday/Wednesday/Friday, 09:00-09:50 hrs
@@ -94,11 +93,30 @@ Notes:
 |   15 | Nov 27-Dec 01 | Pres 12,13,14     |                  |      |
 |   16 | Dec 04-Dec 08 | PROJECTS          | Generative AI    | 4th  |
 
-#+begin_notes
 - NO CLASSES: Aug 21, Oct 9 (Fall break), Nov 22 + 24
   (Thanksgiving). See [[https://catalog.lyon.edu/202324-academic-calendar][2023-2024 academic calendar]].
 - ONLINE CLASSES: Sept 15 + 22.
-#+end_notes
+
+* Learning management system
+
+- We use Lyon's Canvas installation for this course.
+- The home page contains: assignments, grades, pages, people,
+  syllabus, quizzes, Google Drive, Course evaluation and Zoom.
+- The Zoom page includes cloud recordings of all past sessions.
+- Recorded sessions will be deleted after the last class.
+
+* DataCamp
+
+The course includes a free subscription to the DataCamp classroom at
+[[https://datacamp.com/][datacamp.com]] for further study, and for the opportunity to earn
+certificates. DataCamp is a popular data science online learning
+platform.
+
+* GitHub
+
+All course materials are available in a public GitHub repository
+([[https://github.com/birkenkrahe/ai482][github.com/birkenkrahe/ai482]]). GitHub is the worldwide largest online
+platform for software development.
 
 * [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Lyon College Standard Policies (Fall 2023)]]
 
