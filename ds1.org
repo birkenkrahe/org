@@ -128,15 +128,17 @@ Notes:
 * DataCamp
 
 The course includes a free subscription to the DataCamp classroom at
-[[https://datacamp.com/][datacamp.com]] for further study, and for the opportunity to earn
+[[https://datacamp.com/][datacamp.com]] for further study, and the opportunity to earn
 certificates. DataCamp is a popular data science online learning
 platform.
 
 * GitHub
 
 All course materials are available in a public GitHub repository
-([[https://github.com/birkenkrahe/ds1][github.com/birkenkrahe/ds1]]). GitHub is the worldwide largest online
-platform for software development.
+([[https://github.com/birkenkrahe/ds1][github.com/birkenkrahe/ds1]]). Registration for students includes a
+free subscription to GitHub codespaces with the AI coding assistant
+Copilot. GitHub is the worldwide largest online platform for software
+development.
 
 * [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Lyon College Standard Policies (Fall 2023)]]
 
