@@ -51,7 +51,7 @@ will prepare you for further studies in machine learning and deep
 learning, but also in conceptual applications of AI, like machine
 ethics.
 
-* Grading system
+* Grading
 
 | When   | Description          | Impact | Mode   |
 |--------+----------------------+--------+--------|
