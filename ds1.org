@@ -44,10 +44,14 @@ able to:
 
 - Learn computer and data science principles by playing with data
 - Acquire basic statistical programming skills using R
-- Apply literate programming principles to their work with Org-mode
+- Apply literate programming principles to their work with interactive
+  notebooks
 - Use infrastructure including command line, Jupyter notebooks, GitHub
 - Understand the relationship of humans, machines, and data
 - Develop their critical thinking skills
+- Learn how to effectively use AI coding assistants like Copilot, Code
+  Interpreter (ChatGPT)
+- Understand the impact of, and can code in R, Python, SQL, bash
 - Know how to effectively present assignment and project results
 
 Students, who complete DSC 105 will have fulfilled the prerequisites
