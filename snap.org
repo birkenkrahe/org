@@ -1,0 +1,108 @@
+#+title: Game and Robotics Programming in Snap! and Python
+#+author: Marcus Birkenkrahe
+#+subtitle: COR 100.09 Y1 Program Fall 2023
+#+startup: overview hideblocks indent inlineimages
+* General Course Information
+
+- Meeting Times: Tuesday, 11:00-11:50 hrs
+- Meeting place: Lyon Building Computer Lab room 104
+- Professor: Marcus Birkenkrahe
+- Office: Derby Science Center room 210
+- Phone: (870) 307-7254
+- Office hours: MWF 10-10.30am, 2-4pm / TTH 9.30-11am, 12.15-2.15pm
+
+* Course description
+
+In this course, you will complete a series of game, animation and
+robotics projects using the visual, drag-and-drop programming language
+Snap! and Python (for robotics) You will learn basic computer and data
+science principles, and understand how computers help us control the
+world around us. You will graduate from mere consumer and user to
+powerful programmer while playing around with blocks on the
+screen. Acquiring programming skills will help you develop your
+critical thinking. We will meet daily for 90 minutes of practical
+problem solving and interactive exercises. In between classes, you
+will work on small assignments, and you will read short textbook
+chapters or watch short instructional videos. You'll get to present
+your own work and (optionally) publish your finished projects for the
+whole world to see, and if things go well, perhaps we'll go to
+Snap!Con in California next year!
+
+* Learning Objectives
+
+Students who complete "Games and Robotics Programming with Snap! and
+Python" will be able to:
+
+- Create exciting games, animation and media computation
+- Learn computer and data science principles by playing with data
+- Acquire basic sequential programming skills
+- Know how to translate visual Snap! code into procedural Python code
+- Know how to operate robots using simple instructions
+- Understand the relationship of humans and machines better
+- Develop their critical thinking skills
+- Know how to effectively present assignment results
+
+* Textbook (optional)
+
+- Textbook: [[https://www.amazon.com/Learn-Concepts-Snap-interactive-programming/dp/1728921716/][Joshi A.B. (2020)]]. Learn CS Concepts with Snap!: Create
+  exciting games and interactive animation in Snap! and learn computer
+  science principles.
+- See also: [[https://www.amazon.com/Learn-Python-Snap-introduction-Programming/dp/B094ZQ1J62/][Joshi A.B. (2021)]]. Learn Python in a Snap!: Rapid
+  introduction to Python for those who already know Snap! Programming.
+- Author's website: [[http://www.abhayjoshi.net/spark/snap/bsnap.pdf][abhayjoshi.net]].
+- All other materials will be available online via GitHub or on the
+  [[https://snap.berkeley.edu][Snap! home page at Berkeley U]].
+
+* Grading
+
+| DESCRIPTION            | IMPACT |
+|------------------------+--------|
+| Programming assignment |    25% |
+| Tests                  |    25% |
+| H.A.T.S. presentation  |    25% |
+| Participation          |    25% |
+
+*Notes:*
+- To pass you need to get 60% of the available points.
+- There will be 10 programming assignments in Snap!/Python.
+- The tests are multiple choice quizzes.
+- The H.A.T.S. presentation is a session developed and executed by the
+  class at the December symposium.
+- Participation is the result of being present and engaged with the
+  class.
+
+* Course Schedule
+
+| Week | Date          | TEXTBOOK CHAPTER       |
+|------+---------------+------------------------|
+|    1 | Aug 21-Aug 25 | First Look at Snap!    |
+|    2 | Aug 28-Sep 01 | Sequence and Sounds    |
+|    3 | Sep 04-Sep 08 | Looping and Costumes   |
+|    4 | Sep 11-Sep 15 | Geometry and Motion    |
+|    5 | Sep 18-Sep 22 | Broadcasting           |
+|    6 | Sep 25-Sep 29 | Animation project      |
+|    7 | Oct 02-Oct 06 | Events and Concurrency |
+|    8 | Oct 09-Oct 13 | Keyboard interaction   |
+|    9 | Oct 16-Oct 20 | Mouse interaction      |
+|   10 | Oct 23-Oct 27 | Paddle and bricks      |
+|   11 | Oct 30-Nov 03 | From Snap! to Python   |
+|   12 | Nov 06-Nov 10 | Finch 2.0 Motion       |
+|   13 | Nov 13-Nov 17 | Finch 2.0 Lights       |
+|   14 | Nov 20-Nov 24 | Finch 2.0 Sensors      |
+|   15 | Nov 27-Dec 01 | Finch 2.0 parade       |
+|   16 | Dec 04-Dec 08 | H.A.T.S. preparation   |
+
+- NO CLASSES: Aug 21, Oct 10 (Fall break), Oct 19 (Service day), Nov
+  23 (Thanksgiving). See [[https://catalog.lyon.edu/202324-academic-calendar][2023-2024 academic calendar]].
+
+* Learning management system
+
+- We use Lyon's Canvas installation for this course.
+- The home page contains: assignments, grades, pages, people,
+  syllabus, quizzes, Google Drive, Course evaluation and Zoom.
+- The Zoom page includes cloud recordings of all past sessions.
+- Recorded sessions will be deleted after the last class.
+
+* [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Lyon College Standard Policies (Fall 2023)]]
+
+Online: https://tinyurl.com/LyonPolicyF23, see also [[https://catalog.lyon.edu/class-attendance][Class Attendance]]
