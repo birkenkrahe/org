@@ -1,0 +1,115 @@
+#+title: DSC 450 Data Science Independent Study
+#+author: Marcus Birkenkrahe
+#+startup: overview hideblocks indent
+#+options: toc:nil num:1 ^:nil
+#+subtitle: Individual work on special topics in data science
+* General Course Information
+
+- Meeting Times: *by appointment only*
+- Meeting place: Derby Science Building room 210 or online
+- Professor: Marcus Birkenkrahe
+- Professor's Office: Derby Science Building 210
+- Phone: (870) 307-7254 (office) / (501) 422-4725 (private)
+- Office hours: by appointment
+- Textbook: N/A
+
+* Objectives
+
+The Data Science Independent Study aims to:
+
+1. Deepen Understanding: Enhance students' grasp of key data science
+   concepts, techniques, and tools.
+2. Application: Enable practical application of data science theories
+   to real-world challenges.
+3. Research Proficiency: Develop research and problem-solving skills
+   using diverse data sources and methodologies.
+4. Advanced Tool Mastery: Foster proficiency in leading data science
+   software and programming languages.
+5. Critical Thinking: Promote the evaluation of complex datasets and
+   models with a critical mindset.
+6. Ethical Considerations: Emphasize responsible and ethical data
+   usage, ensuring privacy and fairness.
+7. Collaboration: Encourage cross-disciplinary collaboration,
+   integrating insights from multiple perspectives.
+8. Continuous Learning: Inculcate a habit of staying updated with
+   evolving data science trends and technologies.
+9. Project Management:
+   Enhance abilities in initiating, executing, and presenting
+   independent projects.
+10. Communication: Develop skills in effectively communicating
+    data-driven insights to diverse audiences.
+    
+This study encourages holistic data science exploration, promoting
+both technical expertise and broader interdisciplinary connections.
+
+* Target audience
+
+This course is tailored for advanced students and professionals with
+foundational knowledge in data science, statistics, or a related
+field. Ideal participants are those eager to dive deeper into
+specialized data topics, undertake independent research, and apply
+theoretical concepts to real-world problems. The course will
+especially benefit those aiming for careers as data scientists, data
+analysts, or roles requiring rigorous data-driven
+decision-making. Prior experience with programming languages such as
+Python or R is beneficial but not mandatory, as the emphasis is on
+exploration, critical thinking, and application.
+
+* Student Learning Outcomes
+
+Upon completion, students will:
+
+1) Demonstrate advanced proficiency in key data science techniques and
+   tools.
+2) Apply data science concepts to solve real-world challenges.
+3) Exhibit rigorous research and problem-solving abilities.
+4) Critically evaluate and interpret complex datasets and models.
+5) Adhere to ethical standards in data analysis and
+   interpretation.
+6) Collaborate effectively across disciplines,
+   integrating diverse insights.
+7) Stay abreast of current trends and technologies in data science.
+8) Manage and execute data-driven projects from initiation to
+   presentation.
+9) Communicate data insights articulately to varied audiences.
+
+* Course requirements
+
+Students must possess:
+
+- Foundational knowledge in data science or statistics.
+- Familiarity with a programming language (preferably Python or R).
+- A commitment to a semester-long research project.
+- Regular attendance in consultation sessions.
+- Engagement in peer reviews.
+- Completion of ethical data usage training.
+- Final project presentation.
+
+* Grading system
+
+You should be able to see your current grade at any time using the
+Canvas gradebook for the course. To pass, you need 60%.
+
+| DESCRIPTION                  | IMPACT |
+|------------------------------+--------|
+| Final report                 |    50% |
+| Final presentation           |    25% |
+| Participation                |    25% |
+
+* Learning Management System (LMS)
+
+We will use Canvas and GitHub in this course.
+
+* Schedule and session content
+
+For *important dates*, see the academic Calendar at: catalog.lyon.edu.
+
+Independent research does not follow a particular schedule but it is
+instead aligned with the researchers' schedule and (if applicable)
+deadlines for journal submissions or conferences.
+
+* Standard and course policies
+
+- *Standard Lyon College Policies* are incorporated into this syllabus
+  and can be found at: [[http://www.lyon.edu/standard-course-policies][lyon.edu/standard-course-policies]].
+
