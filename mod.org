@@ -127,18 +127,20 @@ literacy skills by taking this course.
 - The Zoom page includes cloud recordings of all past sessions.
 - Recorded sessions will be deleted after the last class.
 
-* DataCamp (courses/workspace)
+* DataCamp
 
 The course includes a free subscription to the DataCamp classroom at
 [[https://datacamp.com/][datacamp.com]] for further study, and for the opportunity to earn
-certificates. DataCamp is a popular data science online learning
-platform. DataCamp assignments are optional.
+certificates for three courses. We will also use the DataCamp
+workspace environment for coding.
 
-* GitHub (course materials)
+* GitHub
 
 All course materials are available in a public GitHub repository
-([[https://github.com/birkenkrahe/ai482][github.com/birkenkrahe/ai482]]). GitHub is the worldwide largest online
-platform for software development.
+([[https://github.com/birkenkrahe/mod2][github.com/birkenkrahe/mod2]]). Registration for students includes a
+free subscription to GitHub codespaces with the AI coding assistant
+Copilot. GitHub is the worldwide largest online platform for software
+development.
 
 * [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Lyon College Standard Policies (Fall 2023)]]
 
