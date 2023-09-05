@@ -1,6 +1,6 @@
 * The Role of AI Coding Assistants: Revisiting the Need for Literate Programming in Data Science and Engineering Education
 
-([[https://www.lyon.edu/marcus-birkenkrahe][Marcus Birkenkrahe, Lyon College]] - invited talk at [[https://sites.google.com/a/uah.edu/sscet/][SSCET '2023]])
+([[https://www.lyon.edu/marcus-birkenkrahe][Marcus Birkenkrahe, Lyon College]] - invited talk at [[https://www.arengforum.org/][SSCET '2023]])
 
 Literate programming emphasizes the importance of clear code
 documentation and explanatory text integration, and fosters a deeper
