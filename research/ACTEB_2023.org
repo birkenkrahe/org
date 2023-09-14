@@ -63,10 +63,10 @@ Data-Driven Digital Transformation (d-cube) in Berlin, Germany.
 - [[https://en.wikipedia.org/wiki/Marcus_Birkenkrahe][Wikipedia]]
 ** References
 
-- Birkenkrahe, M. Teaching Data Science with Literate Programming
-  Tools. Preprints
-  2023, 2023071847. https://doi.org/10.20944/preprints202307.1847.v1
-
+- Birkenkrahe M. Teaching Data Science with Literate Programming
+  Tools. Digital. 2023;
+  3(3):232-250. https://doi.org/10.3390/digital3030015
+  
 - Birkenkrahe, M., Gunnoltz, J. (2020). Students modelStart-Up
   Processes – An Embedded Approach to Entrepreneurship Education. In:
   Digitalität@HWR. Erfahrungen mitDigitalisierung in Forschung und
