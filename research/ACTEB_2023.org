@@ -3,6 +3,51 @@
 
 - [[https://docs.google.com/presentation/d/1A9pPYdMK0BEeRebRsY7dwIwL-BOK-1ag/edit?usp=sharing&ouid=102963037093118135110&rtpof=true&sd=true][Presentation slides (Google Slides)]]
 
+** Abstract
+
+"This presentation at the Annual Conference of the Arkansas College
+Teachers of Business and Economics delves into the transformative role
+of Artificial Intelligence (AI) in the realm of education. Drawing
+upon the 2023 Stack Overflow survey, the presentation illuminates how
+AI, particularly generative models, are becoming integral tools in
+software development and coding education. While highlighting the
+potential of AI in generating content and assisting in various
+educational tasks, it also critically examines the limitations—such as
+the inability to handle complexity and ethical considerations. Through
+a blend of data-driven insights, real-world case studies, and personal
+experiences, the talk offers a nuanced understanding of the emerging
+synergy between AI and educational paradigms. The presentation is
+richly illustrated with vintage comic book panels rendered in color
+pencil sketch art, and it concludes by looking at the future
+implications of AI in reshaping educational methodologies and skill
+sets."
+
+([[https://chat.openai.com/share/ba7ac465-8822-435c-ad8e-05a567651238'][Abstract created by ChatGPT based on the presentation slides]]).
+
+** Speaker Bio
+
+#+begin_quote
+Prof. Dr. Marcus Birkenkrahe is an Associate Professor of Computer and
+Data Science at Lyon College in Batesville, AR. He joined the Lyon
+faculty in 2021, on leave of absence from the Berlin School of
+Economics and Law. He earned a PhD in theoretical physics (lattice
+gauge theory). He has published widely in different areas, including:
+neural nets, multigrid applications, knowledge management, e-learning,
+literate programming, process modeling, entrepreneurship, and data
+science. He is associate editor of the International Journal of Data
+Science, editorial board member of the International Journal of Big
+Data Management, and corresponding member of the Institute for
+Data-Driven Digital Transformation (d-cube) in Berlin, Germany.
+#+end_quote
+
+*** Network media
+- [[https://www.lyon.edu/marcus-birkenkrahe][Lyon College]]
+- [[https://www.linkedin.com/in/birkenkrahe][LinkedIn]]
+- [[https://twitter.com/birkenkrahe][Twitter (X)]]
+- [[https://www.researchgate.net/profile/Marcus-Birkenkrahe][Researchgate.net]]
+- [[https://scholar.google.com/citations?user=Vvnwsv0AAAAJ&hl=en][Google Scholar]]
+- [[https://orcid.org/my-orcid?orcid=0000-0001-9461-8474][ORCID]]
+- [[https://en.wikipedia.org/wiki/Marcus_Birkenkrahe][Wikipedia]]
 ** Slides
 
 #+attr_html: :width 400px
@@ -47,51 +92,6 @@
 #+attr_html: :width 400px
 [[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0014.jpg]]
 
-** Abstract
-
-"This presentation at the Annual Conference of the Arkansas College
-Teachers of Business and Economics delves into the transformative role
-of Artificial Intelligence (AI) in the realm of education. Drawing
-upon the 2023 Stack Overflow survey, the presentation illuminates how
-AI, particularly generative models, are becoming integral tools in
-software development and coding education. While highlighting the
-potential of AI in generating content and assisting in various
-educational tasks, it also critically examines the limitations—such as
-the inability to handle complexity and ethical considerations. Through
-a blend of data-driven insights, real-world case studies, and personal
-experiences, the talk offers a nuanced understanding of the emerging
-synergy between AI and educational paradigms. The presentation is
-richly illustrated with vintage comic book panels rendered in color
-pencil sketch art, and it concludes by looking at the future
-implications of AI in reshaping educational methodologies and skill
-sets."
-
-([[https://chat.openai.com/share/ba7ac465-8822-435c-ad8e-05a567651238'][Abstract created by ChatGPT based on the presentation slides]]).
-
-** Speaker Bio
-
-#+begin_quote
-Prof. Dr. Marcus Birkenkrahe is an Associate Professor of Computer and
-Data Science at Lyon College in Batesville, AR. He joined the Lyon
-faculty in 2021, on leave of absence from the Berlin School of
-Economics and Law. He earned a PhD in theoretical physics (lattice
-gauge theory). He has published widely in different areas, including:
-neural nets, multigrid applications, knowledge management, e-learning,
-literate programming, process modeling, entrepreneurship, and data
-science. He is associate editor of the International Journal of Data
-Science, editorial board member of the International Journal of Big
-Data Management, and corresponding member of the Institute for
-Data-Driven Digital Transformation (d-cube) in Berlin, Germany.
-#+end_quote
-
-** Network media
-- [[https://www.lyon.edu/marcus-birkenkrahe][Lyon College]]
-- [[https://www.linkedin.com/in/birkenkrahe][LinkedIn]]
-- [[https://twitter.com/birkenkrahe][Twitter (X)]]
-- [[https://www.researchgate.net/profile/Marcus-Birkenkrahe][Researchgate.net]]
-- [[https://scholar.google.com/citations?user=Vvnwsv0AAAAJ&hl=en][Google Scholar]]
-- [[https://orcid.org/my-orcid?orcid=0000-0001-9461-8474][ORCID]]
-- [[https://en.wikipedia.org/wiki/Marcus_Birkenkrahe][Wikipedia]]
 ** References
 
 - Birkenkrahe, M. The Role of AI Coding Assistants: Revisiting the
