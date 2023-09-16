@@ -33,19 +33,19 @@
 [[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0009.jpg]]
 
 #+attr_html: :width 400px
-[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-00010.jpg]]
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0010.jpg]]
 
 #+attr_html: :width 400px
-[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-00011.jpg]]
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0011.jpg]]
 
 #+attr_html: :width 400px
-[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-00012.jpg]]
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0012.jpg]]
 
 #+attr_html: :width 400px
-[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-00013.jpg]]
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0013.jpg]]
 
 #+attr_html: :width 400px
-[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-00014.jpg]]
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0014.jpg]]
 
 ** Abstract
 
