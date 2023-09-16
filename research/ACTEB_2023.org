@@ -3,9 +3,49 @@
 
 - [[https://docs.google.com/presentation/d/1A9pPYdMK0BEeRebRsY7dwIwL-BOK-1ag/edit?usp=sharing&ouid=102963037093118135110&rtpof=true&sd=true][Presentation slides (Google Slides)]]
 
+** Slides
+
 #+attr_html: :width 400px
 [[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0001.jpg]]
 
+#+attr_html: :width 400px
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0002.jpg]]
+
+#+attr_html: :width 400px
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0003.jpg]]
+
+#+attr_html: :width 400px
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0004.jpg]]
+
+#+attr_html: :width 400px
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0005.jpg]]
+
+#+attr_html: :width 400px
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0006.jpg]]
+
+#+attr_html: :width 400px
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0007.jpg]]
+
+#+attr_html: :width 400px
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0008.jpg]]
+
+#+attr_html: :width 400px
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0009.jpg]]
+
+#+attr_html: :width 400px
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-00010.jpg]]
+
+#+attr_html: :width 400px
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-00011.jpg]]
+
+#+attr_html: :width 400px
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-00012.jpg]]
+
+#+attr_html: :width 400px
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-00013.jpg]]
+
+#+attr_html: :width 400px
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-00014.jpg]]
 
 ** Abstract
 
