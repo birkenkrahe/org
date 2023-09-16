@@ -1,16 +1,11 @@
 #+startup: indent overview
 * The Role of AI in Education ([[https://www.lyon.edu/acteb-conference][ACTEB]]'23)
 
-[[https://docs.google.com/presentation/d/1A9pPYdMK0BEeRebRsY7dwIwL-BOK-1ag/edit?usp=sharing&ouid=102963037093118135110&rtpof=true&sd=true][Presentation slides (v1)]]
+- [[https://docs.google.com/presentation/d/1A9pPYdMK0BEeRebRsY7dwIwL-BOK-1ag/edit?usp=sharing&ouid=102963037093118135110&rtpof=true&sd=true][Presentation slides (Google Slides)]]
 
-** Title
+#+attr_html: :width 400px
+[[./ACTEB_slides/ACTEB_2023_v1.pptx_page-0001.jpg]]
 
-"The Role of AI in Education"
-- The disruptive power of AI
-- What generative AI can do
-- What generative AI cannot do
-- Teaching and learning with AI
-- Where are we headed?
 
 ** Abstract
 
@@ -34,6 +29,7 @@ sets."
 ([[https://chat.openai.com/share/ba7ac465-8822-435c-ad8e-05a567651238'][Abstract created by ChatGPT based on the presentation slides]]).
 
 ** Speaker Bio
+
 #+begin_quote
 Prof. Dr. Marcus Birkenkrahe is an Associate Professor of Computer and
 Data Science at Lyon College in Batesville, AR. He joined the Lyon
