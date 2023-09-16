@@ -1,42 +1,37 @@
 #+startup: indent overview
 * The Role of AI in Education ([[https://www.lyon.edu/acteb-conference][ACTEB]]'23)
+
+[[https://docs.google.com/presentation/d/1A9pPYdMK0BEeRebRsY7dwIwL-BOK-1ag/edit?usp=sharing&ouid=102963037093118135110&rtpof=true&sd=true][Presentation slides (v1)]]
+
 ** Title
 
-The Role of AI Coding Assistants: Revisiting the Need for Literate
-Programming in Data Science and Entrepreneurship Education
+"The Role of AI in Education"
+- The disruptive power of AI
+- What generative AI can do
+- What generative AI cannot do
+- Teaching and learning with AI
+- Where are we headed?
 
 ** Abstract
 
-Literate programming emphasizes the importance of clear code
-documentation and explanatory text integration, and fosters a deeper
-understanding of engineering concepts, effective collaboration, and
-critical thinking skills. It has been at the forefront of data science
-practice in the form of interactive notebooks like Jupyter notebooks
-for over a decade. In fact, literate programming as a technique of
-structured documentation has been used in computational physics and
-engineering education and practice since its definition by Knuth
-in 1984.
+(Created by ChatGPT based on the presentation slides).
 
-This presentation critically examines the role of AI coding assistants
-and their impact on the relevance of literate programming in
-engineering and entrepreneurship education. As AI coding assistants
-advance, offering real-time feedback and automated code completion,
-questions arise regarding the necessity of literate programming
-principles.
-
-The session explores the benefits of AI coding assistants, including
-enhanced coding efficiency and support for novice learners. However,
-it also considers the potential drawbacks and limitations of relying
-solely on these tools. We posit a symbiotic relationship between AI
-coding assistants and literate programming: both approaches can
-complement each other by combining AI automation with human-readable
-documentation.
-
-Attendees will gain a nuanced understanding of the interplay between
-AI coding assistants and literate programming in data science,
-engineering and entrepreneurship education. They will consider the
-strengths and limitations of each approach and explore how to strike a
-balance to create a comprehensive educational experience.
+"This presentation at the Annual Conference of the Arkansas College
+Teachers of Business and Economics delves into the transformative role
+of Artificial Intelligence (AI) in the realm of education. Drawing
+upon the 2023 Stack Overflow survey, the presentation illuminates how
+AI, particularly generative models, are becoming integral tools in
+software development and coding education. While highlighting the
+potential of AI in generating content and assisting in various
+educational tasks, it also critically examines the limitations—such as
+the inability to handle complexity and ethical considerations. Through
+a blend of data-driven insights, real-world case studies, and personal
+experiences, the talk offers a nuanced understanding of the emerging
+synergy between AI and educational paradigms. The presentation is
+richly illustrated with vintage comic book panels rendered in color
+pencil sketch art, and it concludes by looking at the future
+implications of AI in reshaping educational methodologies and skill
+sets."
 
 ** Speaker Bio
 #+begin_quote
