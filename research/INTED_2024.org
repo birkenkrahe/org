@@ -1,4 +1,5 @@
-* The Role of AI Coding Assistants: Revisiting the Need for Literate Programming in Data Science and Software Engineering Education
+#+startup: overview indent hideblocks inlineimages
+* The Role of AI Coding Assistants: Revisiting the Need for Literate Programming in Data Science Education
 
 ([[https://www.lyon.edu/marcus-birkenkrahe][Marcus Birkenkrahe, Lyon College]] - abstract submitted to [[https://iated.org/inted/][INTED'24]])
 
@@ -32,6 +33,18 @@ engineering education. They will consider the strengths and
 limitations of each approach and explore how to strike a balance to
 create a comprehensive educational experience.
 
+* References
+
+- Birkenkrahe M. Teaching Data Science with Literate Programming
+  Tools. Digital. 2023;
+  3(3):232-250. https://doi.org/10.3390/digital3030015
+
+- Birkenkrahe M, Gunnoltz J. Students modelStart-Up Processes – An
+  Embedded Approach to Entrepreneurship Education. In:
+  Digitalität@HWR. Erfahrungen mitDigitalisierung in Forschung und
+  Lehre, HWR Berlin, eds.Egger de Campo M, Resch O. 2023; pp. 95-125
+  (ISBN978-3-8487-6484-6, Nomos Verlag). [[https://www.researchgate.net/publication/333655901_Students_Model_Startup_Processes_-_An_Embedded_Approach_to_Entrepreneurship_Education][URL: researchgate.net/]]
+
 * Speaker Bio
 #+begin_quote
 Prof. Dr. Marcus Birkenkrahe is an Associate Professor of Computer and
@@ -55,6 +68,3 @@ Digital Transformation (d-cube) in Berlin, Germany.
 - [[https://scholar.google.com/citations?user=Vvnwsv0AAAAJ&hl=en][Google Scholar]]
 - [[https://orcid.org/my-orcid?orcid=0000-0001-9461-8474][ORCID]]
 - [[https://en.wikipedia.org/wiki/Marcus_Birkenkrahe][Wikipedia]]
-
- 
-
