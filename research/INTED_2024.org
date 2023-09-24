@@ -1,5 +1,5 @@
 #+startup: overview indent hideblocks inlineimages
-* The Role of AI Coding Assistants: Revisiting the Need for Literate Programming in Data Science Education
+* The Role of AI Coding Assistants: Revisiting the Need for Literate Programming in Computer and Data Science Education
 
 ([[https://www.lyon.edu/marcus-birkenkrahe][Marcus Birkenkrahe, Lyon College]] - abstract submitted to [[https://iated.org/inted/][INTED'24]])
 
@@ -33,6 +33,11 @@ engineering education. They will consider the strengths and
 limitations of each approach and explore how to strike a balance to
 create a comprehensive educational experience.
 
+* Keywords
+
+Artificial Intelligence, Literate Programming, ChatGPT, Data Science,
+Large Language Model
+
 * References
 
 - Birkenkrahe M. Teaching Data Science with Literate Programming
@@ -44,6 +49,9 @@ create a comprehensive educational experience.
   Digitalität@HWR. Erfahrungen mitDigitalisierung in Forschung und
   Lehre, HWR Berlin, eds.Egger de Campo M, Resch O. 2023; pp. 95-125
   (ISBN978-3-8487-6484-6, Nomos Verlag). [[https://www.researchgate.net/publication/333655901_Students_Model_Startup_Processes_-_An_Embedded_Approach_to_Entrepreneurship_Education][URL: researchgate.net/]]
+
+- Guzharina A. How To Use Workspace AI-Powered Notebooks for Every
+  Data Skill Level. Aug 2023. [[https://www.datacamp.com/blog/how-to-use-workspace-ai-powered-notebooks-for-every-data-skill-level?utm_source=customerio&utm_medium=email&utm_campaign=230720_1-workspace-nl-a_2-mix_3-all_4-na_5-nl_6-workspacenl_7-ws_8-emal-ci_9-na_10-bau_11-email&utm_content=blast&irclickid=0a2UQaStbxyNWhXRYE2FCwsmUkFRgXQ2NVpDxo0&irgwc=1&utm_medium=affiliate&utm_source=impact&utm_campaign=000000_1-123201_2-mix_3-all_4-na_5-na_6-na_7-mp_8-affl-ip_9-na_10-bau_11-TakeAds%20Networks&utm_content=ONLINE_TRACKING_LINK&utm_term=237721][URL: datacamp.com/]]
 
 * Speaker Bio
 #+begin_quote
