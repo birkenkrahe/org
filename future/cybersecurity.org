@@ -153,7 +153,8 @@ Day 23: Conclusion and Presentation
 
 ** References
 
-https://www.hackers-arise.com/
+"Hackers Arise." Occupy the
+Web. https://www.hackers-arise.com/. Accessed September 30, 2023.
 
 Hernandez-Ramos JL, Matheu SN, Skarmeta A. The Challenges of Software
 Cybersecurity Certification [Building Security In]. IEEE Secur
