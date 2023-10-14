@@ -1,0 +1,143 @@
+#+TITLE:CSC 100.01 - Introduction to Programming, Spring 2024 Syllabus
+#+AUTHOR: Marcus Birkenkrahe
+#+options: toc:nil
+#+startup: overview indent
+* General Course Information
+
+- Meeting Times: Monday/Wednesday/Friday, 9:00-9:50 AM
+- Meeting place: Lyon Building Room 104 (computer lab)
+- Professor: Marcus Birkenkrahe
+- Office: Derby Science Building 210
+- Phone: (870) 307-7254 (office) / (501) 422-4725 (private)
+- Office hours: MWF 10-10:50 am, TTH 4.15-4.45 pm & by appointment
+- Textbook: Michael and Ruth Haephrati. Learning C++ (Manning,
+  2024). Online: [[https://www.manning.com/books/learning-c-plus-plus][manning.com/books/learning-c-plus-plus]] (ca. $33.99)
+
+* Standard and course policies
+
+*Standard Lyon College Policies* are incorporated into this syllabus
+and can be found at: [[http://www.lyon.edu/standard-course-policies][lyon.edu/standard-course-policies]].
+
+The *Assignments and Honor Code* and the *Attendance Policy* are
+incorporated into this syllabus also and can be found at:
+[[https://tinyurl.com/LyonPolicy][tinyurl.com/LyonPolicy]].
+
+* Objectives
+
+This course introduces you to programming using C++20. You also learn
+about: compilers, working on the command line, text editors Emacs,
+using C for Internet of Things (IoT) devices, cybersecurity, using
+pseudocode and process modeling. You get a foundation in critical
+thinking in concert with one of the three currently most popular
+languages (the other two, according to the TIOBE index at the time of
+writing in October 2023, are Python and C, a subset of C++). You’ll
+learn some great tools: we use the “hacker’s editor” Emacs, the
+world’s foremost software engineering platform, GitHub, and BPMN for
+process modeling and pseudo code generation.
+
+* Student Learning Outcomes
+
+Students who complete CSC 100.01 "Introduction to programming in C++",
+will be able to:
+
+- Master basic sequential programming skills (conditional
+  statements, loops, functions, input/output, use of data types)
+- Explain the basic components of a procedural programming language
+- Apply the basics of programming to solve a variety of quantitative
+  problems
+- Master computing infrastructure (compiler, editor, shell)
+- Research and present a project as a team
+- Know how to effectively present assignment results
+- Be ready for "Data stuctures with C++" (CSC 240)
+- Get ready for "Algorithms" (CSC 265)
+- Improve their data literacy skills
+
+* Course requirements
+
+- MTH 110 College algebra or permission from the instructor
+- No prior programming or computing knowledge required
+- Experience with computers is useful but not critical
+- Curiosity is essential, and willingness to try new things!
+
+* Grading system
+
+You should be able to see your current grade at any time using the
+Canvas gradebook for the course.
+
+| REQUIREMENT                    | UNITS | PPU | TOTAL | % of TOTAL |
+|--------------------------------+-------+-----+-------+------------|
+| Final exam                     |     1 | 100 |   100 |        20. |
+| Programming assignments        |    15 |  10 |   150 |        30. |
+| Class practice (participation) |    10 |  10 |   100 |        20. |
+| Multiple-choice tests          |    15 |  10 |   150 |        30. |
+| Project sprint reviews         |     0 |   0 |     0 |          0 |
+|--------------------------------+-------+-----+-------+------------|
+| TOTAL                          |       |     |   500 |       100. |
+|--------------------------------+-------+-----+-------+------------|
+#+TBLFM: @2$4=$2*$3::@2$5=(@2$4/@7$4)*100::@3$4=$2*$3::@3$5=(@3$4/@7$4)*100::@4$4=$2*$3::@4$5=(@4$4/@7$4)*100::@5$4=@5$2*@5$3::@5$5=(@5$4/@7$4)*100::@6$4=$2*$3::@6$5=(@6$4/@7$4)*100::@7$4=vsum(@2..@5)::@7$5=vsum(@2..@5)
+
+* Grading table
+
+This table is used to convert completion rates into letter grades. For
+the midterm results, letter grades still carry signs, while for the
+term results, only straight letters are given (by rounding up).
+|--------+---------------+---------------------------|
+|      *%* | *Midterm Grade* | *Final Grade*             |
+|--------+---------------+---------------------------|
+| 100-98 | A+            |                           |
+|  97-96 | A             | A (passed - very good)    |
+|  95-90 | A-            |                           |
+|--------+---------------+---------------------------|
+|  89-86 | B+            |                           |
+|  85-80 | B             | B (passed - good)         |
+|  79-76 | B-            |                           |
+|--------+---------------+---------------------------|
+|  75-70 | C+            |                           |
+|  69-66 | C             | C (passed - satisfactory) |
+|  65-60 | C-            |                           |
+|--------+---------------+---------------------------|
+|  59-56 | D+            |                           |
+|  55-50 | D             | D (passed)                |
+|--------+---------------+---------------------------|
+|   49-0 | F             | F (failed)                |
+|--------+---------------+---------------------------|
+
+* Schedule and session content
+
+For *important dates*, see the 2022-2023 Academic Calendar at:
+[[https://catalog.lyon.edu/202223-academic-calendar][catalog.lyon.edu/202223-academic-calendar]]
+
+| WEEK | ASSIGNMENT     | TEXTBOOK CHAPTER                  | TEST |
+|------+----------------+-----------------------------------+------|
+|    1 | Emacs Tutorial |                                   |      |
+|------+----------------+-----------------------------------+------|
+|    2 | Program 1      | 1 C++ is brilliant                |    1 |
+|------+----------------+-----------------------------------+------|
+|    3 | Program 2      | 2 C++ Fundamentals                |    2 |
+|------+----------------+-----------------------------------+------|
+|    4 | Program 3      | 3 Smooth operator                 |    3 |
+|------+----------------+-----------------------------------+------|
+|    5 | Program 4      | 4 Let it flow                     |    4 |
+|------+----------------+-----------------------------------+------|
+|    6 | Program 5      | 5 Hip hip array                   |    5 |
+|------+----------------+-----------------------------------+------|
+|    7 | Program 6      | 6 Vectors                         |    6 |
+|------+----------------+-----------------------------------+------|
+|    8 | Program 7      | 7 String manipulation             |    7 |
+|------+----------------+-----------------------------------+------|
+|    9 | Program 8      | 8 Functions                       |    8 |
+|------+----------------+-----------------------------------+------|
+|   10 | Program 9      | 9 Pointers                        |    9 |
+|------+----------------+-----------------------------------+------|
+|   11 | Program 10     | 11 Object orientation             |   10 |
+|------+----------------+-----------------------------------+------|
+|   12 | Program 11     | 12 Templates                      |   11 |
+|------+----------------+-----------------------------------+------|
+|   13 | Program 12     | 13 Lambda expressions             |   12 |
+|------+----------------+-----------------------------------+------|
+|   14 | Program 13     | 14 Date and time handling         |   13 |
+|------+----------------+-----------------------------------+------|
+|   15 | Program 14     | 15 Multithreading and concurrency |   14 |
+|------+----------------+-----------------------------------+------|
+|   16 | Program 15     | 16 Modules                        |   15 |
+|------+----------------+-----------------------------------+------|
