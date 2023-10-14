@@ -2,6 +2,7 @@
 #+AUTHOR: Marcus Birkenkrahe
 #+options: toc:nil
 #+startup: overview indent
+[[./img/cppcover.png]]
 * General Course Information
 
 - Meeting Times: Monday/Wednesday/Friday, 9:00-9:50 AM
