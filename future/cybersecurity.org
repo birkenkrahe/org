@@ -4,7 +4,7 @@
 Proposal for a 23-day summer course on cybersecurity with a
 certificate for successful completion. To be piloted summer 2024.
 #+attr_html: :width 400px
-[[../img/cybersec.jpg]]
+[[../img/hacker.png]]
 
 ** Schedule
 
