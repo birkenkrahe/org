@@ -24,6 +24,8 @@ incorporated into this syllabus also and can be found at:
 [[https://tinyurl.com/LyonPolicy][tinyurl.com/LyonPolicy]].
 
 * Objectives
+#+attr_html: :width 400px
+[[../img/cppsuperhero.png]]
 
 This course introduces you to programming using C++20. You also learn
 about: compilers, working on the command line, text editors Emacs,
