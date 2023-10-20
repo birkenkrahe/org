@@ -4,6 +4,9 @@
 Proposal for a 23-day summer course on cybersecurity with a
 certificate for successful completion. To be piloted summer 2024.
 
+#+attr_html: :width 400px
+[[../img/cybersec.jpg]]
+
 ** Schedule
 
 The course would meet on 23 days (May 28-June 27) for 2 hours each
@@ -173,3 +176,6 @@ Surv. 2021;53(6):Article 115. doi:10.1145/3410160.
 
 3) Stamp M. Introduction to Machine Learning with Applications in
    Information Security. 2nd ed. Chapman and Hall/CRC; 2022.
+
+#+attr_html: :width 400px
+[[../img/hacker.png]] 
