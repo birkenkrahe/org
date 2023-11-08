@@ -1,131 +1,16 @@
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(ansi-term-color-vector
-   [unspecified "#14191f" "#d15120" "#81af34" "#deae3e" "#7e9fc9" "#a878b5" "#7e9fc9" "#dcdddd"] t)
- '(column-number-mode t)
- '(compilation-message-face 'default)
- '(cua-global-mark-cursor-color "#2aa198")
- '(cua-normal-cursor-color "#839496")
- '(cua-overwrite-cursor-color "#b58900")
- '(cua-read-only-cursor-color "#859900")
- '(custom-enabled-themes '(modus-vivendi))
- '(custom-safe-themes
-   '("5a611788d47c1deec31494eb2bb864fde402b32b139fe461312589a9f28835db" "dbade2e946597b9cda3e61978b5fcc14fa3afa2d3c4391d477bdaeff8f5638c5" "801a567c87755fe65d0484cb2bded31a4c5bb24fd1fe0ed11e6c02254017acb2" "a0415d8fc6aeec455376f0cbcc1bee5f8c408295d1c2b9a1336db6947b89dd98" "f99318b4b4d8267a3ee447539ba18380ad788c22d0173fc0986a9b71fd866100" "9685cefcb4efd32520b899a34925c476e7920725c8d1f660e7336f37d6d95764" "6ebdb33507c7db94b28d7787f802f38ac8d2b8cd08506797b3af6cdfd80632e0" "3f32696e25872f5455d71ce569a6668874fa900fbdb5506c8a0e288097858462" "b3a0f4b6792c96382caf56ad55c78f3ec2ffdd78578bbed36dbf770b9b132eed" "d91ef4e714f05fff2070da7ca452980999f5361209e679ee988e3c432df24347" "0598c6a29e13e7112cfbc2f523e31927ab7dce56ebb2016b567e1eff6dc1fd4f" "2d5a7ffd0e838706416f454483c6cc8520175dfd461897460863bec7c6d2902b" "f76b5717f04b34542972fb4d320df806d9a465f16c07b31b4bd6e79e4feb1794" "05793a3d1d18619a2d72af300892a818d22757ed35c8d32c1725263d483604ff" "d7441a80851d30a369268e50bbad6777a82ff37405f70328f21a8f30a7c6e31d" "115d42fa02a5ce6a759e38b27304e833d57a48422c2408d5455f14450eb96554" "05d1b0f079a493d98d02444fafc8d85ba5815b1e1d731a80291f063fd72ee0a9" "a54479a4a4d0a4cb2f4fccf5d71419645adb8a3b131a89b4051bfb2446c4128b" "91b72e660459f54e2d37d1cd489586e6dc5b761b3065371e2a678b2361fb0d0e" "8adeb0bf3e77356c0aa34dd447f8e52ba56f8f9d4ce58d7c020f00e4bfff32f6" "aca70b555c57572be1b4e4cec57bc0445dcb24920b12fb1fea5f6baa7f2cad02" "bd3b9675010d472170c5d540dded5c3d37d83b7c5414462737b60f44351fb3ed" "e081d167861aa1af9e423a10b00c560b1c18ab8f3627dfbe35ff4455bd993d36" "3ce6fe5dafcdf5bd86e6261a971c81f55e6270193fc2baf1202ba88ed78555b8" "22bdd5d66086691244c80540389cc6e3992d6ac668750e6d5797782ae356d3fd" "3c68f48ea735abe65899f489271d11cbebbe87da7483acf9935ea4502efd0117" "b81b8fe62a29ca7ce86c03a8b7f7031e965a0a92b13e48c2f696abd50fe9f897" "ad7643f68868f802b10bbdb2de64fdf668adb7e5728dfda7097b0db2fe36d832" "31561daefef9459cfb432a91d9fe43e38a7aa23e229c3cc98419462236e01ab5" "44ac1ad9ed61c0ba621691a59740310429dfae4995e4846db8350cdebfe245cc" "20a8ec387dde11cc0190032a9f838edcc647863c824eed9c8e80a4155f8c6037" "fe1c13d75398b1c8fd7fdd1241a55c286b86c3e4ce513c4292d01383de152cb7" "18f47449907494e63ad7da66a609d41402756b1a8df7d98caf15766cc85decb7" "071f18fb366412734b6215fa97918f465cedad058285f426504f3bf84aae7a3b" default))
- '(ensime-sem-high-faces
-   '((var :foreground "#9876aa" :underline
-	  (:style wave :color "yellow"))
-     (val :foreground "#9876aa")
-     (varField :slant italic)
-     (valField :foreground "#9876aa" :slant italic)
-     (functionCall :foreground "#a9b7c6")
-     (implicitConversion :underline
-			 (:color "#808080"))
-     (implicitParams :underline
-		     (:color "#808080"))
-     (operator :foreground "#cc7832")
-     (param :foreground "#a9b7c6")
-     (class :foreground "#4e807d")
-     (trait :foreground "#4e807d" :slant italic)
-     (object :foreground "#6897bb" :slant italic)
-     (package :foreground "#cc7832")
-     (deprecated :strike-through "#a9b7c6")))
- '(fci-rule-character-color "#192028")
- '(fci-rule-color "#383838")
- '(highlight-symbol-colors
-   (--map
-    (solarized-color-blend it "#002b36" 0.25)
-    '("#b58900" "#2aa198" "#dc322f" "#6c71c4" "#859900" "#cb4b16" "#268bd2")))
- '(highlight-symbol-foreground-color "#93a1a1")
- '(highlight-tail-colors
-   '(("#010F1D" . 0)
-     ("#B44322" . 20)
-     ("#34A18C" . 30)
-     ("#3172FC" . 50)
-     ("#B49C34" . 60)
-     ("#B44322" . 70)
-     ("#8C46BC" . 85)
-     ("#010F1D" . 100)))
- '(hl-bg-colors
-   '("#7B6000" "#8B2C02" "#990A1B" "#93115C" "#3F4D91" "#00629D" "#00736F" "#546E00"))
- '(hl-fg-colors
-   '("#002b36" "#002b36" "#002b36" "#002b36" "#002b36" "#002b36" "#002b36" "#002b36"))
- '(hl-paren-colors '("#2aa198" "#b58900" "#268bd2" "#6c71c4" "#859900"))
- '(inferior-ess-r-program "C:\\Program Files\\R\\R-4.1.3\\bin\\x64\\Rterm")
- '(inhibit-startup-screen t)
- '(line-spacing 0)
- '(magit-diff-use-overlays nil)
- '(nrepl-message-colors
-   '("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4"))
- '(org-agenda-files
-   '("C:/Users/birkenkrahe/Documents/GitHub/admin/RoamNotes/20220520212655-todo.org"))
- '(org-babel-C-compiler
-   "\"c:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe\"")
- '(org-structure-template-alist
-   '(("a" . "export ascii")
-     ("c" . "center")
-     ("C" . "comment")
-     ("e" . "example")
-     ("E" . "export")
-     ("g" . "src R :exports both :session :results output graphics file :file")
-     ("r" . "src R :exports both :session :results output")
-     ("q" . "quote")
-     ("s" . "src")
-     ("n" . "notes")))
- '(package-selected-packages
-   '(visual-fill-column tao-theme modus-themes dracula-theme ox-reveal org-appear use-package olivetti sokoban org-inline-pdf org-beautify-theme avy cfrs emacsql emacsql-sqlite alert all-the-icons org-roam xkcd treemacs tramp ace-window ascii-art-to-unicode night-owl-theme magit yasnippet pdf-tools ada-mode auto-package-update async auctex bind-key dash helm helm-core htmlize ivy map oauth2 hide-mode-line org-tree-slide-pauses org-bullets org-pomodoro poly-ansible poly-erb poly-markdown poly-noweb poly-org polymode poly-R with-editor forge gited literate-calc-mode ess ess-R-data-view ess-smart-equals ess-smart-underscore ess-view python sql-indent ob-ipython epresent org-edit-latex el-autoyas ob-hy python-mode openwith org-cliplink org-download org-onenote org-present org-ref org-tree-slide ox-html5slide ox-ioslide secretaria auto-complete python-info hyperbole org-reveal org-sidebar org-dashboard org-doing org-timeline gnuplot rust-mode org-tempo))
- '(pos-tip-background-color "#FFF9DC")
- '(pos-tip-foreground-color "#011627")
- '(python-shell-interpreter "python3")
- '(save-place-mode t)
- '(scroll-bar-mode nil)
- '(send-mail-function 'mailclient-send-it)
- '(show-paren-mode t)
- '(size-indication-mode nil)
- '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#073642" 0.2))
- '(term-default-bg-color "#002b36")
- '(term-default-fg-color "#839496")
- '(tool-bar-mode nil)
- '(tool-bar-position 'top)
- '(tooltip-mode nil)
- '(vc-annotate-background nil)
- '(vc-annotate-background-mode nil)
- '(vc-annotate-color-map
-   '((20 . "#C792EA")
-     (40 . "#CF4F1F")
-     (60 . "#C26C0F")
-     (80 . "#FFEB95")
-     (100 . "#AB8C00")
-     (120 . "#A18F00")
-     (140 . "#989200")
-     (160 . "#8E9500")
-     (180 . "#F78C6C")
-     (200 . "#729A1E")
-     (220 . "#609C3C")
-     (240 . "#4E9D5B")
-     (260 . "#3C9F79")
-     (280 . "#7FDBCA")
-     (300 . "#299BA6")
-     (320 . "#2896B5")
-     (340 . "#2790C3")
-     (360 . "#82AAFF")))
- '(vc-annotate-very-old-color nil)
- '(weechat-color-list
-   '(unspecified "#011627" "#010F1D" "#DC2E29" "#EF5350" "#D76443" "#F78C6C" "#D8C15E" "#FFEB95" "#5B8FFF" "#82AAFF" "#AB69D7" "#C792EA" "#AFEFE2" "#7FDBCA" "#D6DEEB" "#FFFFFF")))
+;; FIXME: not the friendliest, but simple.
+(require 'info)
+(info-initialize)
+(push "c:/Program Files/Emacs/emacs-29.1/share/info" Info-directory-list)
 
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+;; disable byte-compile-warnings for obsolete variables
+(setq byte-compile-warnings (not 'obsolete))
+
 (put 'dired-find-alternate-file 'disabled nil)
 (put 'upcase-region 'disabled nil)
-
 (setq inhibit-compacting-font-caches t)
 
+;; prettify bullets
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
@@ -145,6 +30,17 @@
 ;; remove menu bar - to bring it back: M-x menu-bar-mode (toggles)
 (menu-bar-mode -1)
 (tool-bar-mode -1)
+(scroll-bar-mode -1)
+
+;; position startup frame
+(setq default-frame-alist
+      '((height . 40)
+        (width . 70)
+        (left . 550)
+        (top . 25)
+        (vertical-scroll-bars . nil)
+        (horizontal-scroll-bars . nil)
+        (tool-bar-lines . 0)))
 
 ;; re-indenting of whole buffer according to mode
 (defun iwb ()
@@ -172,6 +68,8 @@
 (require 'ob-emacs-lisp)
 (require 'ob-R)
 (require 'ob-shell)
+(require 'ob-python)
+;;(require 'jupyter)
 ;; Syntax highlight code in your SRC blocks The last variable removes
 ;; the annoying “Do you want to execute” your code when you type:
 ;; C-c C-c
@@ -182,7 +80,6 @@
 ;; enables Babel to process source blocks
 (org-babel-do-load-languages
  'org-babel-load-languages '((python . t)
-                             (ruby . t)
                              (C . t)
                              (js . t)
                              (perl . t)
@@ -191,17 +88,19 @@
                              (css . t)
                              (R . t)
                              (sql . t)
+                             ;;                      (jupyter . t)
                              ))
 
 ;; babel R skeleton code
 (define-skeleton org-skeleton
-  "Header info for a emacs-org file."
+  "Header info for a Emacs Org-mode file."
   "Title: "
   "#+TITLE:" str " \n"
   "#+AUTHOR:" str " \n"
   "#+SUBTITLE:" str " \n"
-  "#+STARTUP:overview hideblocks\n"
+  "#+STARTUP:overview hideblocks indent\n"
   "#+OPTIONS: toc:nil num:nil ^:nil\n"
+  "#+PROPERTY: header-args:R :session *R* :results output :exports both :noweb yes"
   )
 (global-set-key [C-S-f4] 'org-skeleton)
 
@@ -219,7 +118,9 @@
 
 ;; initiate sequential work progress states see orgguide 9.3 sect. 5.2 p.11
 (setq org-todo-keywords
-      '((sequence "NEXT" "TODO" "IN PROGRESS" "READ" "WAITING" "SOMEDAY" "PROJECT" "FEEDBACK" "VERIFY" "|" "DONE" "CANCELLED")))
+      '((sequence "NEXT" "TODO" "IN PROGRESS" "READ" "WATCH" "WAITING" "SOMEDAY"  "NEW" "|" "DONE" "CANCELED")))
+;;      (sequence "REPORT" "WAITING" "|" "DONE")
+;;      (sequence "READ" "WATCH" "|" "CHECKED")))
 
 ;; set faces for org-mode keywords
 (setq org-todo-keyword-faces
@@ -234,12 +135,12 @@
 
 ;; set font
 ;; Set default font
-(set-face-attribute 'default nil
-                    :family "Hack"
-                    ;; :family "Source Code Pro"
-                    :height 140
-                    :weight 'normal
-                    :width 'normal)
+;; (set-face-attribute 'default nil
+;;                     :family "Hack"
+;;                     ;; :family "Source Code Pro"
+;;                     :height 140
+;;                     :weight 'normal
+;;                     :width 'normal)
 
 ;; new with emacs 27 - to see PDF files
 ;; (push '("\\.pdf\\'" . emacs) org-file-apps)
@@ -250,6 +151,28 @@
 
 ;; smart completion
 (require 'ivy)
+(ivy-mode)
+(setq ivy-use-virtual-buffers t)
+(setq enable-recursive-minibuffers t)
+;; enable this if you want `swiper' to use it
+;; (setq search-default-mode #'char-fold-to-regexp)
+(global-set-key "\C-s" 'swiper)
+(global-set-key (kbd "C-c C-r") 'ivy-resume)
+(global-set-key (kbd "<f6>") 'ivy-resume)
+(global-set-key (kbd "M-x") 'counsel-M-x)
+(global-set-key (kbd "C-x C-f") 'counsel-find-file)
+(global-set-key (kbd "<f1> f") 'counsel-describe-function)
+(global-set-key (kbd "<f1> v") 'counsel-describe-variable)
+(global-set-key (kbd "<f1> o") 'counsel-describe-symbol)
+(global-set-key (kbd "<f1> l") 'counsel-find-library)
+(global-set-key (kbd "<f2> i") 'counsel-info-lookup-symbol)
+(global-set-key (kbd "<f2> u") 'counsel-unicode-char)
+(global-set-key (kbd "C-c g") 'counsel-git)
+(global-set-key (kbd "C-c j") 'counsel-git-grep)
+(global-set-key (kbd "C-c k") 'counsel-ag)
+(global-set-key (kbd "C-x l") 'counsel-locate)
+(global-set-key (kbd "C-S-o") 'counsel-rhythmbox)
+(define-key minibuffer-local-map (kbd "C-r") 'counsel-minibuffer-history)
 
 ;; smart window changing
 (require 'ace-window)
@@ -265,30 +188,37 @@
 ;; when running package-refresh-contents
 (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 
-;; make PTuTY's plink.exe the default way to use ssh
+;; make PuTTY's plink.exe the default way to use ssh
 ;; plink.exe must be in the PATH
-(setq tramp-default-method "plink")
-(setq tramp-default-user "pi")
+;; (setq tramp-default-method "plink")
+;; (setq tramp-default-user "pi")
 
 ;; set org-next-item (to move between bullet points) t
-;; (global-set-key (kbd "C-c n") 'org-next-item)
-;; (global-set-key (kbd "C-c p") 'org-previous-item)
+;; ---- clashes with ORG ROAM
+;;(global-set-key (kbd "C-c n") 'org-next-item)
+;;(global-set-key (kbd "C-c p") 'org-previous-item)
+
+;; treat plain lists like low-level headings (collapse with 'overview')
+(setq org-cycle-include-plain-lists 'integrate)
 
 ;; UTF-8 as default encoding
 (set-language-environment "UTF-8")
 
 ;; Find and open TODO and agenda
-(find-file "c:/Users/birkenkrahe/Documents/GitHub/admin/20220520212655-todo.org")
+(find-file "c:/Users/birkenkrahe/Documents/GitHub/admin/RoamNotes/20220520212655-todo.org")
 (org-agenda nil "a")
 (global-set-key (kbd "C-c a") 'org-agenda)
 ;; set agenda files
 (setq org-agenda-files
       (list
        "c:/Users/birkenkrahe/Documents/GitHub/admin/RoamNotes/20220520212655-todo.org"
-       "c:/Users/birkenkrahe/Documents/GitHub/admin/RoamNotes/20220520114841-summer22.org"
-       "c:/Users/birkenkrahe/Documents/GitHub/admin/RoamNotes/20220520123042-fall22.org"
        "c:/Users/birkenkrahe/Documents/GitHub/admin/RoamNotes/20220521110355-spring23.org"
+       "c:/Users/birkenkrahe/Documents/GitHub/admin/RoamNotes/20220913212745-fall23.org"
        "c:/Users/birkenkrahe/Documents/GitHub/admin/RoamNotes/20220521111244-spring24.org"))
+;; switch on follow-mode (open TODO with ORG-AGENDA)
+(setq org-agenda-follow-mode t)
+;; switch on -mode (open TODO with ORG-AGENDA)
+(setq org-agenda-follow-mode t)
 
 ;; Set new home directory ~/ in Emacs
 ;; (defun set-home-dir (dir)
@@ -312,6 +242,9 @@
 
 ;; org-display-inline-images set to <f6>
 (global-set-key (kbd "<f6>") 'org-display-inline-images)
+
+;; org-remove-inline-images set to <f7>
+(global-set-key (kbd "<f7>") 'org-remove-inline-images)
 
 ;; surround region from point to EOL with ~
 (fset 'tt
@@ -352,49 +285,134 @@
 
 ;; MODUS THEME CONFIG
 ;; region highlighting preserves syntax highlighting
-(setq modus-themes-region '(bg-only))
-(setq modus-themes-bold-constructs t)
-(setq modus-themes-org-blocks 'gray-background)
-;; must org-mode-restart to see changes!
-(setq modus-themes-org-blocks 'tinted-background)
-(setq modus-themes-scale-headings t)
-(setq modus-themes-headings
-      '((1 . (rainbow overline background 1.4))
-	(2 . (rainbow background 1.3))
-	(3 . (rainbow bold 1.2))
-	(4 . (semilight 1.1))))
-(load-theme 'modus-vivendi t)
+;; (setq modus-themes-region '(bg-only))
+;; (setq modus-themes-bold-constructs t)
+;; (setq modus-themes-org-blocks 'gray-background)
+;; ;; must org-mode-restart to see changes!
+;; (setq modus-themes-org-blocks 'tinted-background)
+;; (setq modus-themes-scale-headings t)
+;; (setq modus-themes-headings
+;;       '((1 . (rainbow overline background 1.4))
+;;         (2 . (rainbow background 1.3))
+;;         (3 . (rainbow bold 1.2))
+;;         (4 . (semilight 1.1))))
 
-  ;; Install org-present if needed
-  (unless (package-installed-p 'org-present)
-    (package-install 'org-present))
+;; Install org-present if needed
+(unless (package-installed-p 'org-present)
+  (package-install 'org-present))
 
-  ;; Install visual-fill-column
-  (unless (package-installed-p 'visual-fill-column)
-    (package-install 'visual-fill-column))
+;; Install visual-fill-column
+(unless (package-installed-p 'visual-fill-column)
+  (package-install 'visual-fill-column))
 
-  ;; Configure fill-width
-  (setq visual-fill-column-width 110
-        visual-fill-column-center-text t)
+;; Configure fill-width
+(setq visual-fill-column-width 110
+      visual-fill-column-center-text t)
 
-  (defun my/org-present-start ()
-    ;; Tweak font sizes
-    ;; (setq-local face-remapping-alist '((default (:height 1.5) variable-pitch)
-    ;;                                    (header-line (:height 4.0) variable-pitch)
-    ;;                                    (org-document-title (:height 1.75) org-document-title)
-    ;;                                    (org-code (:height 1.55) org-code)
-    ;;                                    (org-verbatim (:height 1.55) org-verbatim)
-    ;;                                    (org-block (:height 1.25) org-block)
-    ;;                                    (org-block-begin-line (:height 0.7) org-block)))
-    ;; Center the presentation and wrap lines
-    (visual-fill-column-mode 1)
-    (visual-line-mode 1))
+(defun my/org-present-start ()
+  ;; Tweak font sizes
+  ;; (setq-local face-remapping-alist '((default (:height 1.5) variable-pitch)
+  ;;                                    (header-line (:height 4.0) variable-pitch)
+  ;;                                    (org-document-title (:height 1.75) org-document-title)
+  ;;                                    (org-code (:height 1.55) org-code)
+  ;;                                    (org-verbatim (:height 1.55) org-verbatim)
+  ;;                                    (org-block (:height 1.25) org-block)
+  ;;                                    (org-block-begin-line (:height 0.7) org-block)))
+  ;; Center the presentation and wrap lines
+  (visual-fill-column-mode 1)
+  (visual-line-mode 1))
 
-  (defun my/org-present-end ()
-    ;; Stop centering the document
-    (visual-fill-column-mode 0)
-    (visual-line-mode 0))
+(defun my/org-present-end ()
+  ;; Stop centering the document
+  (visual-fill-column-mode 0)
+  (visual-line-mode 0))
 
-  ;; Register hooks with org-present
-  (add-hook 'org-present-mode-hook 'my/org-present-start)
-  (add-hook 'org-present-mode-quit-hook 'my/org-present-end)
+;; Register hooks with org-present
+(add-hook 'org-present-mode-hook 'my/org-present-start)
+(add-hook 'org-present-mode-quit-hook 'my/org-present-end)
+
+;; load Emacs-Speaks-Statistics (ESS) see ess.r-project.org
+(add-to-list 'load-path "~/.emacs.d/elpa/ess-20221204.1348")
+(load "ess-autoloads")
+
+;; reveal.js
+(use-package ox-reveal)
+
+;; org-tree-slide
+(require 'org-tree-slide)
+(with-eval-after-load "org-tree-slide"
+  (global-set-key (kbd "<f9>") 'org-tree-slide-mode)
+  (define-key org-tree-slide-mode-map (kbd "<left>") 'org-tree-slide-move-previous-tree) ;; move forwards
+  (define-key org-tree-slide-mode-map (kbd "<right>") 'org-tree-slide-move-next-tree)  ;; move backwards
+  )
+(setq org-image-actual-width nil)
+(setq org-tree-slide-skip-outline-level 0)
+(setq org-tree-slide-slide-effect t)
+(org-tree-slide-simple-profile) ;; no headers
+
+;; TAO dark theme for b/w coding
+;; (load-theme 'tao-yin t)
+
+;; start Emacs up full-screen
+;; (toggle-frame-maximized)
+;; (toggle-frame-fullscreen)
+
+;; enable global hl line highlight
+(setq global-hl-line-mode t)
+
+;; bind fill-paragraph to M-q
+;;(global-set-key "\M-q" 'org-fill-paragraph)
+
+;; Emacs auto package update
+(add-to-list 'load-path "/path/to/auto-package-update")
+(require 'auto-package-update)
+
+;; startup page(s) - default is split screen with agenda file
+;; display-about-screen
+;;(about-emacs)
+;; display open files
+(recentf-open-files)
+
+;; delete TODO window
+(delete-other-windows)
+
+;; load mini-modeline-mode
+;;(mini-modeline-mode)
+
+;; set python-shell-interpreter
+(setq python-shell-interpreter "c:/Users/birkenkrahe/AppData/Local/Programs/Python/Python311/python")
+
+;; ox-ipynb converts org files to Jupyter Python notebooks
+(load "~/.emacs.d/lisp/ox-ipynb.el")
+(require 'ox-ipynb)
+
+;; Python indent offset set to default
+(setq python-indent-guess-indent-offset nil)
+
+;; enable column-number-mode
+(column-number-mode t)
+
+;; enable rainbow-delimiters
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+
+;; use org-ai package
+(use-package org-ai
+  :ensure
+  :commands (org-ai-mode org-ai-global-mode)
+  :init
+  (add-hook 'org-mode-hook #'org-ai-mode)
+  (org-ai-global-mode))
+
+;; enable automatic time-stamping
+(add-hook 'before-save-hook 'time-stamp)
+
+;; disable byte-compile-warnings for obsolete variables
+(setq byte-compile-warnings (not 'obsolete))
+
+;; load sql.el and disable sql-get-login if you only work on one db
+(require 'sql)
+
+;; new theme
+(load-theme 'material t)            ;; Load material theme
+;; (global-display-line-numbers-mode t) ;; Enable line numbers globally
+
