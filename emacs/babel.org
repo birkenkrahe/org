@@ -3,25 +3,48 @@
 #+begin_src python :results output :exports both
   print('Hello world')
 #+end_src
+
+#+RESULTS:
+: Hello world
+
 * SQLite
 #+begin_src sqlite :db test.db :results output :exports both
   SELECT 'Hello world'
 #+end_src
+
+#+RESULTS:
+: "Hello world"
+
 * C
 #+begin_src C :results output :main yes :includes <stdio.h> :exports both
   printf("Hello world");
 #+end_src
+
+#+RESULTS:
+: Hello world
+
 * C++
 #+begin_src C++ :main yes :includes <iostream> :results output :exports both
   std::cout << "Hello world" << std::endl;
 #+end_src
+
+#+RESULTS:
+: Hello world
+
 * R
 #+begin_src R :results output :exports both
   print('Hello world')
 #+end_src
+
+#+RESULTS:
+: [1] "Hello world"
+
 * Bash
 #+begin_src sh :results output :exports both
   echo "Hello world"
 #+end_src
+
+#+RESULTS:
+: Hello world
 
 
