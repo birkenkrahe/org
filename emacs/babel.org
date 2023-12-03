@@ -1,0 +1,27 @@
+#+startup: overview hideblocks indent entitiespretty
+* Python
+#+begin_src python :results output
+  print('Hello world')
+#+end_src
+* SQLite
+#+begin_src sqlite :db test.db :results output
+  SELECT 'Hello world'
+#+end_src
+* C
+#+begin_src C :results output :main yes :includes <stdio.h>
+  printf("Hello world");
+#+end_src
+* C++
+#+begin_src C++ :main yes :includes <iostream> :results output
+  std::cout << "Hello world" << std::endl;
+#+end_src
+* R
+#+begin_src R :results output
+  print('Hello world')
+#+end_src
+* Bash
+#+begin_src sh :results output
+  echo "Hello world"
+#+end_src
+
+
