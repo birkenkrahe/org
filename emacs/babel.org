@@ -1,26 +1,26 @@
-#+startup: overview hideblocks indent entitiespretty
+#+startup: overview hideblocks indent entitiespretty 
 * Python
-#+begin_src python :results output
+#+begin_src python :results output :exports both
   print('Hello world')
 #+end_src
 * SQLite
-#+begin_src sqlite :db test.db :results output
+#+begin_src sqlite :db test.db :results output :exports both
   SELECT 'Hello world'
 #+end_src
 * C
-#+begin_src C :results output :main yes :includes <stdio.h>
+#+begin_src C :results output :main yes :includes <stdio.h> :exports both
   printf("Hello world");
 #+end_src
 * C++
-#+begin_src C++ :main yes :includes <iostream> :results output
+#+begin_src C++ :main yes :includes <iostream> :results output :exports both
   std::cout << "Hello world" << std::endl;
 #+end_src
 * R
-#+begin_src R :results output
+#+begin_src R :results output :exports both
   print('Hello world')
 #+end_src
 * Bash
-#+begin_src sh :results output
+#+begin_src sh :results output :exports both
   echo "Hello world"
 #+end_src
 
