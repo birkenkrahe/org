@@ -541,101 +541,6 @@ the editor
 #+attr_html: :width 600px
 [[./img/panels.png]]
 
-* How can I install Emacs as a data science IDE on Windows 10?
-
-GNU Emacs is a free, extensible editor written in a dialect of Lisp,
-a programming language that used to be the main language for
-Artificial Intelligence applications (besides PROLOG) until Python
-and R came along. After my Linux laptop went on the fritz, I
-switched to a Windows 10 box myself. Since most if not all of you
-are committed Windows users, I decided to stay down there with
-you. As a consequence, I had to figure out how to run my favorite
-development environment, Emacs + ESS + R, under this OS. Here are
-the steps I used to do that. Let me know if this works for you!
-
-** Download and install Emacs + ESS
-
-For Windows, you can download and install the latest Emacs version
-bundled with Org-mode and ESS from here:
-https://vigou3.gitlab.io/emacs-modified-windows/
-
-The installation is standard and worked without a hitch. Put a
-launcher/link to Emacs on the Desktop and on your tasklist. Open
-Emacs.
-
-** Emacs tutorial
-
-The first thing you need to do is to complete the Emacs onboard
-tutorial. Open it from the Startup screen, or open it any time with
-the key sequence ~<CTRL>-h t~. These key sequences will take some
-time to get used to but once you got them in your fingers, you
-won't want to look back, because you're going to be much faster
-than any mouse.
-
-** Download and install R
-
-You only need to do this if you want to work with R. Even if you
-don't, you can use Emacs to develop programs in any language, or
-use Org-mode to run your life more merrily.
-
-Download R from ~rproject.org~ for Windows and do a standard
-installation. Launch R independently from Emacs to test that it
-works. Try to plot something with ~plot(rnorm(100))~ to test the
-graphic device.
-
-** Set the ~PATH~ environment variable
-
-You have to pass the path to the R executable to Windows so that it
-can find it when Emacs asks for it. To do this, open the Shell in
-Emacs with ~M-x shell~, type ~PATH~ to see the current load path,
-and then add that (absolute) folder address with ~PATH=~. This is
-how it looks for me:
-
-#+begin_example sh
-PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\birkenkrahe\AppData\Local\Microsoft\WindowsApps;C:\Users\birkenkrahe\AppData\Local\GitHubDesktop\bin;C:\Users\birkenkrahe\Documents\R\R-4.1.0\bin\x64;
-#+end_example
-
-** Test run your new setup
-
-*** Opening R
-
-Open R with ~M-x R~. Emacs asks if you want to open R in the
-current directory (which is the folder you can get with ~getwd()~
-inside R.
-
-*** Running R from the shell inside Emacs
-
-Frankly, I don't know which shell program Emacs uses here. I
-suspect it is the Microsoft PowerShell - something else that I
-need to figure out on a rainy afternoon. You can start the shell
-inside Emacs with ~M-x shell~ and then run R inside it.
-
-*** Running R inside source code chunks in org files
-
-I like to create code notebooks in Org-mode files. To do this, I
-use the following syntax for R (if I want to see the output right
-below the chunk)[fn:21]:
-
-#+begin_example
-#+begin_src R :session output
-<code>
-#+end_src
-#+end_example
-
-And now I can run the ~<code>~ inside the chunk with ~C-o C-o~, or
-I can open the code in a separate buffer and e.g. save it as an R
-file.
-
-** My Emacs setup
-
-- The configuration file for Emacs is the ~.emacs~ file. [[https://1drv.ms/u/s!AhEvK3qWokrvitxPQ2OuaCOOQDfvZQ?e=KhLQW6][Here is the
-  ~.emacs~ file that I use for download]] (it's a text file - you can
-  download it as ~emacs.txt~ to view it).
-- Site lisp files are stored in ~/.emacs.d/~ and they are downloaded
-  from a central repository. Emacs knows which ones to use. You can
-  see all available and installed packages with the command ~M-x
-  package-list-packages~.
-
 * How to use GitHub Desktop to backup your code to GitHub
 
 With GitHub, you develop locally, and collaborate remotely. Even if
@@ -1117,15 +1022,21 @@ Interface]].
 * How to install Emacs (+ESS) under Windows and MacOS
 ** Download and Installation for Windows
 
-- Download GNU Emacs + ESS as a modified version for [[https://vigou3.gitlab.io/emacs-modified-windows/][Windows]].
-- Run the installer - accept all presets.
+- Download the installer for the latest GNU Emacs [[https://mirror.fcix.net/gnu/emacs/windows/][from here]]:
+- Open the directory for the last Emacs version (e.g. emacs-29).
+- Download the file ~emacs-XX-installer.exe~ (e.g. for XX = 29.1_2).
+- Run the installer file - accept all presets.
+- Add the location of the =bin= directory to your =PATH=
+- 
 - Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
 - Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
 - You can also try [[https://github.com/birkenkrahe/org/blob/master/emacs/tutorial.md][my own (shorter) tutorial]].
+- You can also install "Emacs Modified" for data science [[https://vigou3.gitlab.io/emacs-modified-macos/][from here]], as
+  shown [[https://youtu.be/zJ-DunSqpKc?si=XdW_w57VhBjjLsYV][in my tutorial video]] (2023).
 
 ** Download and Installation for MacOS
 
-- Download GNU Emacs + ESS as a modified version for [[https://vigou3.gitlab.io/emacs-modified-macos/][MacOS]].
+- Download GNU Emacs + ESS as a modified version for [[https://emacs-modified.gitlab.io/][MacOS]].
 - Run the installer - accept all presets.
 - Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
 - Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
