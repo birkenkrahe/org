@@ -41,6 +41,9 @@ Large Language Model
 
 * References
 
+- Author Unknown. Three types of AI-assisted programmers. Stack
+  Overflow Blog. December 11, 2023. [[https://stackoverflow.blog/2023/12/11/three-types-of-ai-assisted-programmers/][URL: stackoverflow.blog]]
+
 - Birkenkrahe M. Teaching Data Science with Literate Programming
   Tools. Digital. 2023;
   3(3):232-250. https://doi.org/10.3390/digital3030015
@@ -52,8 +55,17 @@ Large Language Model
   (ISBN978-3-8487-6484-6, Nomos Verlag). [[https://www.researchgate.net/publication/333655901_Students_Model_Startup_Processes_-_An_Embedded_Approach_to_Entrepreneurship_Education][URL: researchgate.net/]]
 
 - Guzharina A. How To Use Workspace AI-Powered Notebooks for Every
-  Data Skill Level. Aug 2023. [[https://www.datacamp.com/blog/how-to-use-workspace-ai-powered-notebooks-for-every-data-skill-level?utm_source=customerio&utm_medium=email&utm_campaign=230720_1-workspace-nl-a_2-mix_3-all_4-na_5-nl_6-workspacenl_7-ws_8-emal-ci_9-na_10-bau_11-email&utm_content=blast&irclickid=0a2UQaStbxyNWhXRYE2FCwsmUkFRgXQ2NVpDxo0&irgwc=1&utm_medium=affiliate&utm_source=impact&utm_campaign=000000_1-123201_2-mix_3-all_4-na_5-na_6-na_7-mp_8-affl-ip_9-na_10-bau_11-TakeAds%20Networks&utm_content=ONLINE_TRACKING_LINK&utm_term=237721][URL: datacamp.com/]]
+  Data Skill Level. Aug 2023. [[https://www.datacamp.com/blog/how-to-use-workspace-ai-powered-notebooks-for-every-data-skill-level][URL: datacamp.com/]]
 
+- Pinto G, de Souza C, Neto JB, et al. Lessons from Building StackSpot
+  AI: A Contextualized AI Coding
+  Assistant. 2024. arXiv:2311.18450. [[https://arxiv.org/abs/2311.18450][URL: arxiv.org]]
+
+- Porter L, Zingaro D. Learn AI-Assisted Python Programming: With
+  GitHub Copilot and ChatGPT. Foreword by Simon B, Ph.D. 1st
+  ed. [place of publication not identified]: [publisher not
+  identified]; September 2023. ISBN 9781633437784. URL: [[https://www.manning.com/books/learn-ai-assisted-python-programming][manning.com]].
+   
 * Speaker Bio
 #+begin_quote
 Prof. Dr. Marcus Birkenkrahe is an Associate Professor of Computer and
