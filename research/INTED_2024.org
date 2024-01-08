@@ -62,9 +62,8 @@ Large Language Model
   Assistant. 2024. arXiv:2311.18450. [[https://arxiv.org/abs/2311.18450][URL: arxiv.org]]
 
 - Porter L, Zingaro D. Learn AI-Assisted Python Programming: With
-  GitHub Copilot and ChatGPT. Foreword by Simon B, Ph.D. 1st
-  ed. [place of publication not identified]: [publisher not
-  identified]; September 2023. ISBN 9781633437784. URL: [[https://www.manning.com/books/learn-ai-assisted-python-programming][manning.com]].
+  GitHub Copilot and ChatGPT. Manning,
+  Sep 2023. ISBN 9781633437784. URL: [[https://www.manning.com/books/learn-ai-assisted-python-programming][manning.com]].
    
 * Speaker Bio
 #+begin_quote
