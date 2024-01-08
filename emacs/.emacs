@@ -60,13 +60,16 @@
 ;; (set-home-dir "C:/Users/birkenkrahe/")
 
 ;; load Emacs-Speaks-Statistics (ESS) see ess.r-project.org
-(add-to-list 'load-path "~/.emacs.d/elpa/ess-20221121.1627")
+(add-to-list 'load-path "~/.emacs.d/elpa/ess-20231218.1256")
 (load "ess-autoloads")
 
 ;; add prompt to SQLite buffer opened with M-x sql-sqlite
 (setq sql-sqlite-options '("-interactive"))
 
+;; load sql.el and disable sql-get-login if you only work on one db
+(require 'sql)
+
 ;; do not show toolbar or menubar in the graphic Emacs
-(tool-bar-mode -1)
-(menu-bar-mode -1)
+;;(tool-bar-mode -1)
+;;(menu-bar-mode -1)
 
