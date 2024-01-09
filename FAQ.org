@@ -1027,7 +1027,8 @@ Interface]].
 - Download the file ~emacs-XX-installer.exe~ (e.g. for XX = 29.1_2).
 - Run the installer file - accept all presets.
 - Add the location of the =bin= directory to your =PATH=
-- 
+- Copy the configuration file ~.emacs~ from GitHub and put it in your
+  Emacs home directory as ~~/.emacs.d./init.el~
 - Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
 - Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
 - You can also try [[https://github.com/birkenkrahe/org/blob/master/emacs/tutorial.md][my own (shorter) tutorial]].
