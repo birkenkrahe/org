@@ -45,8 +45,7 @@ Large Language Model
   Overflow Blog. December 11, 2023. [[https://stackoverflow.blog/2023/12/11/three-types-of-ai-assisted-programmers/][URL: stackoverflow.blog]]
 
 - Birkenkrahe M. Teaching Data Science with Literate Programming
-  Tools. Digital. 2023;
-  3(3):232-250. https://doi.org/10.3390/digital3030015
+  Tools. Digital. 2023; 3(3):232-250. [[https://doi.DOI:10.3390/digital3030015][DOI:10.3390/digital3030015]].
 
 - Birkenkrahe M, Gunnoltz J. Students modelStart-Up Processes – An
   Embedded Approach to Entrepreneurship Education. In:
@@ -61,9 +60,22 @@ Large Language Model
   AI: A Contextualized AI Coding
   Assistant. 2024. arXiv:2311.18450. [[https://arxiv.org/abs/2311.18450][URL: arxiv.org]]
 
+- Poldrack RA, Lu T, Beguš G. AI-assisted coding: Experiments with
+  GPT-4. 2023. arXiv:2304.13187. [[https://arxiv.org/abs/2304.13187][URL: arxiv.org]]
+
 - Porter L, Zingaro D. Learn AI-Assisted Python Programming: With
   GitHub Copilot and ChatGPT. Manning,
-  Sep 2023. ISBN 9781633437784. URL: [[https://www.manning.com/books/learn-ai-assisted-python-programming][manning.com]].
+  Sep 2023. ISBN 9781633437784. [[https://www.manning.com/books/learn-ai-assisted-python-programming][URL: manning.com]].
+
+- Pudari R, Ernst NA. From Copilot to Pilot: Towards AI Supported
+  Software Development. 2023. arXiv:2303.04142.  [[https://arxiv.org/abs/2303.04142][URL: arxiv.org]].
+
+- Vaithilingam P, Glassman EL, Groenwegen P, et al. Towards More
+  Effective AI-Assisted Programming: A Systematic Design Exploration
+  to Improve Visual Studio IntelliCode's User Experience. In:
+  Proceedings of the 45th International Conference on Software
+  Engineering: Software Engineering in Practice. IEEE Press;
+  2023:185-195. doi:10.1109/ICSE-SEIP58684.2023.00022.
    
 * Speaker Bio
 #+begin_quote
