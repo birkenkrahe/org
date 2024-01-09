@@ -56,6 +56,9 @@ Large Language Model
 - Guzharina A. How To Use Workspace AI-Powered Notebooks for Every
   Data Skill Level. Aug 2023. [[https://www.datacamp.com/blog/how-to-use-workspace-ai-powered-notebooks-for-every-data-skill-level][URL: datacamp.com/]]
 
+- Levy S. In Defense of AI Hallucinations. Wired Magazine
+  Business. Jan 2024. [[https://www.wired.com/story/plaintext-in-defense-of-ai-hallucinations-chatgpt/][URL: wired.com]]
+    
 - Pinto G, de Souza C, Neto JB, et al. Lessons from Building StackSpot
   AI: A Contextualized AI Coding
   Assistant. 2024. arXiv:2311.18450. [[https://arxiv.org/abs/2311.18450][URL: arxiv.org]]
