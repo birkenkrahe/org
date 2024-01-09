@@ -79,6 +79,9 @@ Large Language Model
   Proceedings of the 45th International Conference on Software
   Engineering: Software Engineering in Practice. IEEE Press;
   2023:185-195. doi:10.1109/ICSE-SEIP58684.2023.00022.
+
+- Lyman I. Three types of AI-assisted programmers. Stack Overflow
+  Blog. December 11, 2023. [[https://stackoverflow.blog/2023/12/11/three-types-of-ai-assisted-programmers/][URL: stackoverflow.blog]].
    
 * Speaker Bio
 #+begin_quote
