@@ -1019,21 +1019,36 @@ Interface]].
   Babel reports that "this variable may be risky if used as a
   file-local variable," but I suppose we've got to take our chances!
 
-* How to install Emacs (+ESS) under Windows and MacOS
+* How to install Emacs under Windows and MacOS
 ** Download and Installation for Windows
 
-- Download the installer for the latest GNU Emacs [[https://mirror.fcix.net/gnu/emacs/windows/][from here]]:
-- Open the directory for the last Emacs version (e.g. emacs-29).
-- Download the file ~emacs-XX-installer.exe~ (e.g. for XX = 29.1_2).
-- Run the installer file - accept all presets.
-- Add the location of the =bin= directory to your =PATH=
+I'm aware of three ways to get Emacs:
+1. Directly as a binary from GNU
+   - Download the installer for the latest GNU Emacs [[https://mirror.fcix.net/gnu/emacs/windows/][from here]]:
+   - Open the directory for the last Emacs version (e.g. emacs-29).
+   - Download the file ~emacs-XX-installer.exe~ (e.g. for XX = 29.1_2).
+   - Run the installer file - accept all presets.
+   - Add the location of the =bin= directory to your =PATH=
+
+2. Install the "modified" data science Emacs with ESS (for R) and
+   AucTeX [[https://vigou3.gitlab.io/emacs-modified-macos/][from here]], as shown [[https://youtu.be/zJ-DunSqpKc?si=XdW_w57VhBjjLsYV][in my tutorial video]] (2023).
+
+3. Install MSYS2 from here, then
+   - Open MSYS2 shell and update with ~pacman -Syu~
+   - Install Emacs with the command
+     #+begin_example sh
+      pacman -S mingw-w64-x86_64-emacs
+     #+end_example
+      
+To test your installation:
 - Copy the configuration file ~.emacs~ from GitHub and put it in your
-  Emacs home directory as ~~/.emacs.d./init.el~
+  Emacs home directory as ~~/.emacs.d./init.el~.
+- Start emacs from the command line (or the MSYS2 shell) with ~emacs &~
+  (this puts the process in the background so that you can use the
+  shell).
 - Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
 - Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
 - You can also try [[https://github.com/birkenkrahe/org/blob/master/emacs/tutorial.md][my own (shorter) tutorial]].
-- You can also install "Emacs Modified" for data science [[https://vigou3.gitlab.io/emacs-modified-macos/][from here]], as
-  shown [[https://youtu.be/zJ-DunSqpKc?si=XdW_w57VhBjjLsYV][in my tutorial video]] (2023).
 
 ** Download and Installation for MacOS
 
