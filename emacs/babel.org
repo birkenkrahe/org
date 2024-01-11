@@ -1,6 +1,6 @@
-#+startup: overview hideblocks indent entitiespretty 
+#+startup: overview hideblocks indent entitiespretty
 * Python
-#+begin_src python :results output :exports both
+#+begin_src python :results output
   print('Hello world')
 #+end_src
 
@@ -8,7 +8,7 @@
 : Hello world
 
 * SQLite
-#+begin_src sqlite :db test.db :results output :exports both
+#+begin_src sqlite :db test.sqlite :results output
   SELECT 'Hello world'
 #+end_src
 
@@ -16,7 +16,7 @@
 : "Hello world"
 
 * C
-#+begin_src C :results output :main yes :includes <stdio.h> :exports both
+#+begin_src C :results output :main yes :includes <stdio.h>
   printf("Hello world");
 #+end_src
 
@@ -24,7 +24,7 @@
 : Hello world
 
 * C++
-#+begin_src C++ :main yes :includes <iostream> :results output :exports both :tangle hello.cpp
+#+begin_src C++ :main yes :includes <iostream> :results output
   std::cout << "Hello world" << std::endl;
 #+end_src
 
@@ -32,7 +32,7 @@
 : Hello world
 
 * R
-#+begin_src R :results output :exports both
+#+begin_src R :results output
   print('Hello world')
 #+end_src
 
@@ -40,7 +40,7 @@
 : [1] "Hello world"
 
 * Bash
-#+begin_src sh :results output :exports both
+#+begin_src sh :results output
   echo "Hello world"
 #+end_src
 
