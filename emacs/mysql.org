@@ -1,0 +1,12 @@
+#+begin_src sql :engine "mysql" :dbhost "localhost" :dbuser "marcus" :dbpassword "birkenkrahe" :database db
+  show databases;
+#+end_src
+
+#+RESULTS:
+| Database           |
+|--------------------|
+| db                 |
+| information_schema |
+| test               |
+
+
