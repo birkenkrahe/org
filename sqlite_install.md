@@ -1,12 +1,14 @@
 
 # Table of Contents
 
-1.  [Install SQLite (chat)](#org6243f1b)
+1.  [Install SQLite (chat)](#orge3baa62)
 
 
-<a id="org6243f1b"></a>
+<a id="orge3baa62"></a>
 
 # Install SQLite (chat)
+
+Video to the installation: <https://youtu.be/To5w-18Pv44>
 
 You could just download it directly ([sqlite-tools-win-64](https://www.sqlite.org/download.html)), but why not
 bag useful Unix utilities and go straight for MSYS2? Follow along:
