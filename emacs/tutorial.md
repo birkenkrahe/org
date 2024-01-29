@@ -84,7 +84,7 @@ Image source: <https://xkcd.com/378/>
     -   The line number your cursor is on (e.g. `L1`)
     -   The file mode (`Text`)
 
-4.  Open a browser, open at [tinyurl.com/22rt7t2f](https://tinyurl.com/22rt7t2f) and save the file
+4.  Open a browser, open at [tinyurl.com/text-txt](https://tinyurl.com/text-txt) and save the file
     (with a mouse right-click) as `text.txt` in your downloads
     directory - `c:/User/yourname/Downloads`.
 
