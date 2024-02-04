@@ -89,7 +89,8 @@ Prof. Dr. Marcus Birkenkrahe is an Associate Professor of Computer and
 Data Science at Lyon College in Batesville, AR. He joined the Lyon
 faculty in 2021, on leave of absence from the Berlin School of
 Economics and Law. He earned a PhD in theoretical physics (lattice
-gauge theory). He has published widely in different areas, including:
+gauge theory), and worked as an executive for Accenture and Shell
+International. He has published widely in different areas, including:
 neural nets, multigrid applications, knowledge management, e-learning,
 literate programming, process modeling, and data science. He is
 associate editor of the International Journal of Data Science,
