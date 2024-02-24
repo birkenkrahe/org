@@ -57,14 +57,24 @@ which includes: data gathering, data import, data cleaning, data
 transformation, and data modeling.
 #+end_quote
 * What is the difference between a "visualization" and "data visualization"?
-#+attr_html: :width 400px:
-[[./img/science.png]]
 #+begin_quote
 Data visualization is a scientific process: it involves using real
 historic (descriptive) or future (predicted) data, information
 about the origin of the data, a location where the data can be
 inspected,
 #+end_quote
+#+attr_html: :width 400px:
+[[./img/xkcd_devices.png]]
+
+This is "just" a visualization (though a fun one, and one that is
+rooted in common human experience - but the visualization makes no
+claim to be scientific or systematic).
+
+- Science is a fickle mistress though. And when it comes to computer
+  and data science, it's not very different from an honest craft
+  #+attr_html: :width 400px:
+  [[./img/science.png]]
+
 * What are interesting "solar eclipse" visualizations?
 #+attr_html: :width 400px:
 [[./img/batesville.png]]
