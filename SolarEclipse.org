@@ -7,10 +7,11 @@
 #+caption: Image source: National Geographic (Solar Eclipse 101), 2017
 [[./img/totality.png]]
 * How does a solar eclipse happen?
-#+attr_html: :width 600px: 
-[[./img/national_geographic.png]]
+#+attr_html: :width 600px:
+[[./img/solar_eclipse.png]]
 
 [[https://youtu.be/cxrLRbkOwKs?si=_ZzwsI39I8fSdvQ4][Watch: Solar Eclipse 101 | National Geographic (08/17/17)]]
+
 #+begin_quote
 A solar eclipse happens when the Moon passes between the Earth and
 the Sun, blocking all or part of the Sun's light from reaching the Earth.
@@ -19,11 +20,17 @@ This can only happen during a new moon, when Sun and Moon are in
 conjunction as seen from Earth.
 #+end_quote
 * How often does a solar eclipse happen?
+#+attr_html: :width 600px: 
+[[./img/national_geographic.png]]
+
 #+begin_quote
 Solar eclipses happen 2-5 times a year, total solar eclipses once
 every 18 months somewhere on Earth. Any given location on Earth
 might experience a solar eclipse only once every few hundred years.
 #+end_quote
+#+begin_notes
+Testing
+#+end_notes
 * Why were the total solar eclipses 2017 and 2024 so close to one another?
 #+begin_quote
 The path of totality in 2017 moved from NW to SE, in 2024 from SW
