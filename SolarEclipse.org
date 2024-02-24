@@ -29,7 +29,10 @@ every 18 months somewhere on Earth. Any given location on Earth
 might experience a solar eclipse only once every few hundred years.
 #+end_quote
 #+begin_notes
-Testing
+The classical basis of the prediction of the relative positions of
+Sun, Moon and Earth is a three-body-problem. 
+
+
 #+end_notes
 * Why were the total solar eclipses 2017 and 2024 so close to one another?
 #+begin_quote
@@ -109,10 +112,9 @@ inspected,
    mythology, eclipses were explained as the sky wolf, Skoll,
    catching and devouring the Sun.
 #+end_quote
-* What do you need to have, know or learn to visualize the solar
-eclipse?
-#+begin_quote
-1. *Data*.
+* What do you need to have, know or learn to visualize the solar eclipse?
+
+** Data
    - All data visualizations start with data. You can get the date,
      time, and location of every solar eclipses of the past 5,000
      years from NASA's Goddard Space Flight Center as a CSV file
@@ -120,7 +122,9 @@ eclipse?
    - You can also get the path data for the total solar eclipse of
      2024 on April 8 from NASA ([[https://eclipse.gsfc.nasa.gov/SEpath/SEpath2001/SE2024Apr08Tpath.html][Espenak, 2014]]). You have to
      'scrape' these data from the web page (which can be tricky).
-2. *Tools*, such as R or Python, Tableau, or Wolfram Language.
+** Tools
+
+Such as: R or Python, Tableau, or Wolfram Language.
    - Let's look at one example using ChatGPT integrated with the
      symbolic [[https://www.wolfram.com/language/][Wolfram language]] ([[https://chat.openai.com/g/g-0S5FXLyFN-wolfram/c/d528ebaf-3a0c-4176-8c0d-728292538c4b][WolframGPT]], [[https://www.wolframcloud.com/env/birkenkrahe/SolarEclipse.nb][WolframCloud]])
    - Let's do some actual coding with R:
