@@ -4,7 +4,7 @@
 #+startup: overview indent hideblocks
 #+OPTIONS: toc:nil num:nil ^:nil : 
 * How does a solar eclipse happen?
-   https://youtu.be/cxrLRbkOwKs?si=_ZzwsI39I8fSdvQ4
+   [[https://youtu.be/cxrLRbkOwKs?si=_ZzwsI39I8fSdvQ4][Watch: Solar Eclipse 101 | National Geographic (08/17/17)]]
    #+begin_quote
    A solar eclipse happens when the Moon passes between the Earth and
    the Sun, blocking all or part of the Sun's light from reaching the Earth.
