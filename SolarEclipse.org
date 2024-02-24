@@ -41,7 +41,7 @@ laid the foundation for classical mechanics and enabled precise
 calculations of celestial motion, including the orbits of planets.
 #+end_notes
 * Why were the total solar eclipses 2017 and 2024 so close to one another?
-#+attr_html: :width 400px: 
+#+attr_html: :width 400px:
 [[./img/2017_2024.png]]
 #+begin_quote
 The path of totality in 2017 moved from NW to SE, in 2024 from SW
@@ -179,9 +179,9 @@ After importing, we change some column names to ease analysis:
 4 -1998 November 11 05:15:58    P 12N 113E    -
 5       -1997 May 6 18:57:01   T+ 11S  92W 98.2
 6  -1997 October 31 06:54:09   T+  9N  88E 90.6
- [1] "Catalog.Number"    "Calendar.Date"     "Eclipse.Time"      "Delta.T..s."      
- [5] "Lunation.Number"   "Saros.Number"      "Eclipse.Type"      "Gamma"            
- [9] "Eclipse.Magnitude" "Latitude"          "Longitude"         "Sun.Altitude"     
+ [1] "Catalog.Number"    "Calendar.Date"     "Eclipse.Time"      "Delta.T..s."
+ [5] "Lunation.Number"   "Saros.Number"      "Eclipse.Type"      "Gamma"
+ [9] "Eclipse.Magnitude" "Latitude"          "Longitude"         "Sun.Altitude"
 [13] "Sun.Azimuth"       "Path.Width..km."   "Central.Duration"
 #+end_example
 
@@ -194,7 +194,7 @@ After importing, we change some column names to ease analysis:
 
   #+RESULTS:
   #+begin_example
-  'data.frame':	12064 obs. of  16 variables:
+  'data.frame': 12064 obs. of  16 variables:
    $ Catalog.Number                : int  1 2 3 4 5 6 7 8 9 10 ...
    $ date                          : Factor w/ 12064 levels "-1 January 20",..: 2697 2698 2695 2696 2693 2694 2691 2692 2688 2687 ...
    $ time                          : Factor w/ 11198 levels "00:00:02","00:00:10",..: 6605 9558 2663 2439 8824 3191 5601 2759 8839 1965 ...
@@ -241,45 +241,45 @@ After importing, we change some column names to ease analysis:
 
   #+RESULTS:
   #+begin_example
-   Catalog.Number               date             time        Delta.T..s.   
-   Min.   :    1   -1 January 20  :    1   01:05:56:    3   Min.   :   -6  
-   1st Qu.: 3017   -1 July 17     :    1   01:42:04:    3   1st Qu.:  962  
-   Median : 6032   -10 December 20:    1   02:03:46:    3   Median : 5597  
-   Mean   : 6032   -10 January 29 :    1   05:12:17:    3   Mean   :12116  
-   3rd Qu.: 9048   -10 July 26    :    1   06:18:50:    3   3rd Qu.:20902  
-   Max.   :12064   -100 June 1    :    1   06:34:23:    3   Max.   :46437  
-                   (Other)        :12058   (Other) :12046                  
+   Catalog.Number               date             time        Delta.T..s.
+   Min.   :    1   -1 January 20  :    1   01:05:56:    3   Min.   :   -6
+   1st Qu.: 3017   -1 July 17     :    1   01:42:04:    3   1st Qu.:  962
+   Median : 6032   -10 December 20:    1   02:03:46:    3   Median : 5597
+   Mean   : 6032   -10 January 29 :    1   05:12:17:    3   Mean   :12116
+   3rd Qu.: 9048   -10 July 26    :    1   06:18:50:    3   3rd Qu.:20902
+   Max.   :12064   -100 June 1    :    1   06:34:23:    3   Max.   :46437
+                   (Other)        :12058   (Other) :12046
    Lunation.Number   Saros.Number         type      Quincena.Solar.Eclipse
-   Min.   :-49456   Min.   :-20.00   P      :4207   a-     :2477          
-   1st Qu.:-33923   1st Qu.: 40.00   N      :4020   -a     :2471          
-   Median :-18446   Median : 80.00   T      :1405   t-     :1788          
-   Mean   :-18531   Mean   : 80.51   T+     :1042   -t     :1787          
-   3rd Qu.: -3068   3rd Qu.:121.00   T-     :1032   pp     :1347          
-   Max.   : 12378   Max.   :183.00   Nx     : 141   p-     : 749          
-                                     (Other): 217   (Other):1445          
-       Gamma          Penumbral.Magnitude Umbral.Magnitude       lat      
-   Min.   :-1.58270   Min.   :0.0004      Min.   :-1.0958   23S    : 544  
-   1st Qu.:-0.78882   1st Qu.:0.6844      1st Qu.:-0.3340   22S    : 533  
-   Median : 0.00175   Median :1.4175      Median : 0.4004   23N    : 514  
-   Mean   : 0.00249   Mean   :1.4187      Mean   : 0.4002   22N    : 511  
-   3rd Qu.: 0.79173   3rd Qu.:2.1369      3rd Qu.: 1.1179   24S    : 394  
-   Max.   : 1.57910   Max.   :2.9089      Max.   : 1.8821   21S    : 378  
-                                                            (Other):9190  
+   Min.   :-49456   Min.   :-20.00   P      :4207   a-     :2477
+   1st Qu.:-33923   1st Qu.: 40.00   N      :4020   -a     :2471
+   Median :-18446   Median : 80.00   T      :1405   t-     :1788
+   Mean   :-18531   Mean   : 80.51   T+     :1042   -t     :1787
+   3rd Qu.: -3068   3rd Qu.:121.00   T-     :1032   pp     :1347
+   Max.   : 12378   Max.   :183.00   Nx     : 141   p-     : 749
+                                     (Other): 217   (Other):1445
+       Gamma          Penumbral.Magnitude Umbral.Magnitude       lat
+   Min.   :-1.58270   Min.   :0.0004      Min.   :-1.0958   23S    : 544
+   1st Qu.:-0.78882   1st Qu.:0.6844      1st Qu.:-0.3340   22S    : 533
+   Median : 0.00175   Median :1.4175      Median : 0.4004   23N    : 514
+   Mean   : 0.00249   Mean   :1.4187      Mean   : 0.4002   22N    : 511
+   3rd Qu.: 0.79173   3rd Qu.:2.1369      3rd Qu.: 1.1179   24S    : 394
+   Max.   : 1.57910   Max.   :2.9089      Max.   : 1.8821   21S    : 378
+                                                            (Other):9190
         lon        Penumbral.Eclipse.Duration..m. Partial.Eclipse.Duration..m.
-   87E    :   53   Min.   :  5.2                  -      :4378                
-   64E    :   50   1st Qu.:223.1                  211.6  :  24                
-   64W    :   49   Median :295.0                  213.2  :  24                
-   129W   :   48   Mean   :270.0                  210.5  :  21                
-   99W    :   48   3rd Qu.:327.8                  210.9  :  21                
-   107W   :   46   Max.   :379.5                  211.2  :  21                
-   (Other):11770                                  (Other):7575                
-        tot      
-   -      :8585  
-   98.6   :  28  
-   98.8   :  23  
-   96     :  22  
-   98.1   :  22  
-   98.4   :  21  
+   87E    :   53   Min.   :  5.2                  -      :4378
+   64E    :   50   1st Qu.:223.1                  211.6  :  24
+   64W    :   49   Median :295.0                  213.2  :  24
+   129W   :   48   Mean   :270.0                  210.5  :  21
+   99W    :   48   3rd Qu.:327.8                  210.9  :  21
+   107W   :   46   Max.   :379.5                  211.2  :  21
+   (Other):11770                                  (Other):7575
+        tot
+   -      :8585
+   98.6   :  28
+   98.8   :  23
+   96     :  22
+   98.1   :  22
+   98.4   :  21
    (Other):3363
   #+end_example
 
@@ -364,7 +364,8 @@ After importing, we change some column names to ease analysis:
   : Shortest Eclipse Duration (minutes): 1.7
 
 - According to the datasheet from [[https://www.kaggle.com/datasets/nasa/solar-eclipses/data][Kaggle]], Earth will experience 12064
-  lunar and 11898 solar eclipses.
+  lunar and 11898 solar eclipses. Data exploration must continue with
+  an explanation of this discrepancy!
 
 - Is the 2024, April 8 total solar eclipse contained in this dataset?
   #+begin_src R :session *R* :results output :exports both :noweb yes
@@ -383,19 +384,49 @@ After importing, we change some column names to ease analysis:
   #+RESULTS:
   : The 2024 April 8 eclipse is not in the dataset.
 
+- This could be because we were looking at the lunar and not at the
+  solar eclipse dataset, or because we got the date format wrong (this
+  is the case: the dataframe date format is not "YYYY-MM-DD").
+
+- We're out of time for now, but there's still work to be done before
+  we can begin to think about plotting.
+
 *** Plotting the data
 
 An interesting plot would be to see if total solar eclipses happen
 more often in the Northern or in the Southern hemisphere.
-#+attr_html: :width 400px: 
+
+Here  is a plot from NASA. This is easy to do in R or Python as well.
+#+attr_html: :width 400px:
 [[./img/northern.png]]
 
 ** Relevance
-
+#+attr_html: :width 400px:
+#+caption: Fraunhofer lines (Credit: eventbrite.com)
+[[./img/fraunhofer.jpg]]
 #+begin_quote
 Understanding of what you want to show and whom to show it to: a clear
 objective and a specific audience.
 #+end_quote
+
+- Data never exist out of context. To invest time into gathering,
+  importing, transforming, analysing and visualizing data, we must
+  first convince ourselves of the relevance of our research question.
+
+- There is no "data science for its own sake", though there can be
+  surprise discoveries in the data (i.e. answers to questions not
+  asked, patterns not suspected before, etc.).
+
+- An example is the observation of helium in the Sun's atmosphere
+  during the solar eclipse of August 18, 1868. Astronomers observed a
+  yellow spectral line in the light from the Sun's chromosphere during
+  the eclipse. This observation could not be explained by any known
+  chemical elements at that time. Turns out it was "helium" (after the
+  Greek god of the Sun, Helios), which was only found on Earth 27
+  years after its initial discovery in the solar spectrum.
+
+- The image shows Fraunhofer lines - dark absorption lines that
+  correspond to different chemical elements.
 
 * What can you study at Lyon to learn more about this?
 #+attr_html: :width 400px:
@@ -411,7 +442,7 @@ objective and a specific audience.
   7) Data modeling (to derive statistical insights from data)
 #+end_quote
 * How can you find out more about us?
-#+attr_html: :width 400px: 
+#+attr_html: :width 400px:
 [[./img/campus.jpeg]]
 #+begin_quote
 - Visit us on campus, come talk to me and audit any class!
