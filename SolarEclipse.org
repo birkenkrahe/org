@@ -1,10 +1,10 @@
 #+title: Data Science for Everyone - Visualizing the Solar Eclipse
+#+author: Marcus Birkenkrahe
+#+subtitle: Spring Discovery Day STEMonstration @Lyon College
 #+startup: overview indent hideblocks
 #+OPTIONS: toc:nil num:nil ^:nil : 
-* Data Science for Everyone - Visualizing the Solar Eclipse
-
-Questions and answers:
-1) How does a solar eclipse happen?
+* How does a solar eclipse happen?
+   https://youtu.be/cxrLRbkOwKs?si=_ZzwsI39I8fSdvQ4
    #+begin_quote
    A solar eclipse happens when the Moon passes between the Earth and
    the Sun, blocking all or part of the Sun's light from reaching the Earth.
@@ -12,25 +12,25 @@ Questions and answers:
    This can only happen during a new moon, when Sun and Moon are in
    conjunction as seen from Earth.
    #+end_quote
-2) How often does a solar eclipse happen?
+* How often does a solar eclipse happen?
    #+begin_quote
    Solar eclipses happen 2-5 times a year, total solar eclipses once
    every 18 months somewhere on Earth. Any given location on Earth
    might experience a solar eclipse only once every few hundred years.
    #+end_quote
-3) Why were the total solar eclipses 2017 and 2024 so close to one another?
+* Why were the total solar eclipses 2017 and 2024 so close to one another?
    #+begin_quote
    The path of totality in 2017 moved from NW to SE, in 2024 from SW
    to NE. Timing between eclipses vary due to the complex geometry of
    Earth-Moon-Sun alignments and the cycle of eclipses ('Saros cycle').
    #+end_quote
-4) What does "data visualization" mean?
+* What does "data visualization" mean?
    #+begin_quote
    'Data visualization' is one step in the data science workflow,
    which includes: data gathering, data import, data cleaning, data
    transformation, and data modeling.
    #+end_quote
-5) What is the difference between a "visualization" and "data
+* What is the difference between a "visualization" and "data
    visualization"?
    #+begin_quote
    Data visualization is a scientific process: it involves using real
@@ -38,7 +38,7 @@ Questions and answers:
    about the origin of the data, a location where the data can be
    inspected, 
    #+end_quote
-6) What are interesting "solar eclipse" visualizations?
+* What are interesting "solar eclipse" visualizations?
    #+begin_quote
    1. *The path of totality* - that is the path on Earth along which the
       Sun is totally blocked by the Moon. On April 8, 2024, Batesville
@@ -64,7 +64,7 @@ Questions and answers:
    6. *Climatology and weather forecast*: weather planning for eclipse
       day, for example [[https://eclipsophile.com/][eclipsophile.com]]. 
    #+end_quote
-7) What is interesting the history of solar eclipse exploration?
+* What is interesting the history of solar eclipse exploration?
    #+begin_quote
    1. Ancient Observations: Historical records from various
       civilizations, including the Babylonians, Greeks, and Chinese,
@@ -96,7 +96,7 @@ Questions and answers:
       mythology, eclipses were explained as the sky wolf, Skoll,
       catching and devouring the Sun.
    #+end_quote
-8) What do you need to have, know or learn to visualize the solar
+* What do you need to have, know or learn to visualize the solar
    eclipse?
    #+begin_quote
    1. *Data*.
@@ -119,7 +119,7 @@ Questions and answers:
    3. Understanding of what you want to show and whom to show it to: a
       clear objective and a specific audience.
    #+end_quote
-9) What can you study at Lyon to learn more about this?
+* What can you study at Lyon to learn more about this?
    #+begin_quote
    - At Lyon, you can learn all about data in courses on:
      1) Introductory and advanced data science with R and Python
@@ -130,7 +130,7 @@ Questions and answers:
      6) Geographical Information Systems (GIS)
      7) Data modeling (to derive statistical insights from data)
    #+end_quote   
-10) How can you find out more about us?
+* How can you find out more about us?
     #+begin_quote
     - Visit us on campus, come talk to me and audit any class!
     - Participate in our summer programs (2024: creating games in
