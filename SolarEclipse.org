@@ -28,7 +28,7 @@ Solar eclipses happen 2-5 times a year, total solar eclipses once
 every 18 months somewhere on Earth. Any given location on Earth
 might experience a solar eclipse only once every few hundred years.
 #+end_quote
-Why is predicting solar eclipses so difficult?
+Is predicting solar eclipses difficult?
 #+begin_notes
 The classical basis of the prediction of the celestial positions of
 Sun, Moon and Earth is a three-body-problem. There is no general
@@ -140,13 +140,32 @@ inspected,
 ** Tools
 
 Such as: R or Python, Tableau, or Wolfram Language.
-- Let's look at one example using ChatGPT integrated with the
-  symbolic [[https://www.wolfram.com/language/][Wolfram language]] ([[https://chat.openai.com/g/g-0S5FXLyFN-wolfram/c/d528ebaf-3a0c-4176-8c0d-728292538c4b][WolframGPT]], [[https://www.wolframcloud.com/env/birkenkrahe/SolarEclipse.nb][WolframCloud]])
+
 - Let's do some actual coding with R:
   1) Download the Solar and Lunar Eclipse data.
   2) Importing the data into two data frames ~Solar~ and ~Lunar~.
   3) Analyzing the data a little.
   4) Visualizing some data.
+
+#+begin_src R :session *R* :results output :exports both :noweb yes
+  ## Store downloaded CSV data in dataframes
+  solar <- read.csv("data/solar.csv", header = TRUE)
+  lunar <- read.csv("data/lunar.csv", header = TRUE)
+
+  ## correct header names for better display
+  selection <- c(2,3,7,12,13,16)
+  names(lunar)[selection] <- c('date','time','type','lat','lon','duration')
+  head(lunar)[selection]
+#+end_src
+
+#+RESULTS:
+:                date     time type lat  lon duration
+: 1     -1999 June 26 14:13:28    N 24S  22W        -
+: 2 -1999 November 21 20:23:49    N 15N  98W        -
+: 3      -1998 May 17 05:47:36    P 13S  89E        -
+: 4 -1998 November 11 05:15:58    P 12N 113E        -
+: 5       -1997 May 6 18:57:01   T+ 11S  92W     98.2
+: 6  -1997 October 31 06:54:09   T+  9N  88E     90.6
 
 3. Understanding of what you want to show and whom to show it to: a
    clear objective and a specific audience.
