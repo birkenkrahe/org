@@ -3,11 +3,11 @@
 #+subtitle: Spring Discovery Day STEMonstration @Lyon College
 #+startup: overview indent hideblocks
 #+OPTIONS: toc:nil num:nil ^:nil :
-#+attr_html: :width 600px:
+#+attr_html: :width 400px:
 #+caption: Image source: National Geographic (Solar Eclipse 101), 2017
 [[./img/totality.png]]
 * How does a solar eclipse happen?
-#+attr_html: :width 600px:
+#+attr_html: :width 400px:
 [[./img/solar_eclipse.png]]
 
 [[https://youtu.be/cxrLRbkOwKs?si=_ZzwsI39I8fSdvQ4][Watch: Solar Eclipse 101 | National Geographic (08/17/17)]]
@@ -20,7 +20,7 @@ This can only happen during a new moon, when Sun and Moon are in
 conjunction as seen from Earth.
 #+end_quote
 * How often does a solar eclipse happen?
-#+attr_html: :width 600px: 
+#+attr_html: :width 400px:
 [[./img/national_geographic.png]]
 
 #+begin_quote
@@ -30,7 +30,7 @@ might experience a solar eclipse only once every few hundred years.
 #+end_quote
 #+begin_notes
 The classical basis of the prediction of the relative positions of
-Sun, Moon and Earth is a three-body-problem. 
+Sun, Moon and Earth is a three-body-problem.
 
 
 #+end_notes
@@ -115,23 +115,32 @@ inspected,
 * What do you need to have, know or learn to visualize the solar eclipse?
 
 ** Data
-   - All data visualizations start with data. You can get the date,
-     time, and location of every solar eclipses of the past 5,000
-     years from NASA's Goddard Space Flight Center as a CSV file
-     ([[https://www.kaggle.com/datasets/nasa/solar-eclipses/data][Arvidsson, 2023]]).
-   - You can also get the path data for the total solar eclipse of
-     2024 on April 8 from NASA ([[https://eclipse.gsfc.nasa.gov/SEpath/SEpath2001/SE2024Apr08Tpath.html][Espenak, 2014]]). You have to
-     'scrape' these data from the web page (which can be tricky).
+#+attr_html: :width 400px:
+#+caption: Total Solar Eclipse of 2024 Apr 08 (Source: Espenak, 2014)
+[[./img/data.png]]
+
+- All data visualizations start with data. You can get the date,
+  time, and location of every solar eclipses of the past 5,000
+  years from NASA's Goddard Space Flight Center as a CSV file
+  ([[https://www.kaggle.com/datasets/nasa/solar-eclipses/data][Arvidsson, 2023]]).
+
+#+attr_html: :width 400px:
+#+caption: Total Solar Eclipse of 2024 Apr 08 (Source: Espenak, 2014)
+[[./img/webscraping.png]]
+
+- You can also get the path data for the total solar eclipse of
+  2024 on April 8 from NASA ([[https://eclipse.gsfc.nasa.gov/SEpath/SEpath2001/SE2024Apr08Tpath.html][Espenak, 2014]]). You have to
+  'scrape' these data from the web page (which can be tricky).
 ** Tools
 
 Such as: R or Python, Tableau, or Wolfram Language.
-   - Let's look at one example using ChatGPT integrated with the
-     symbolic [[https://www.wolfram.com/language/][Wolfram language]] ([[https://chat.openai.com/g/g-0S5FXLyFN-wolfram/c/d528ebaf-3a0c-4176-8c0d-728292538c4b][WolframGPT]], [[https://www.wolframcloud.com/env/birkenkrahe/SolarEclipse.nb][WolframCloud]])
-   - Let's do some actual coding with R:
-     1) Download the Solar and Lunar Eclipse data.
-     2) Importing the data into two data frames ~Solar~ and ~Lunar~.
-     3) Analyzing the data a little.
-     4) Visualizing some data.
+- Let's look at one example using ChatGPT integrated with the
+  symbolic [[https://www.wolfram.com/language/][Wolfram language]] ([[https://chat.openai.com/g/g-0S5FXLyFN-wolfram/c/d528ebaf-3a0c-4176-8c0d-728292538c4b][WolframGPT]], [[https://www.wolframcloud.com/env/birkenkrahe/SolarEclipse.nb][WolframCloud]])
+- Let's do some actual coding with R:
+  1) Download the Solar and Lunar Eclipse data.
+  2) Importing the data into two data frames ~Solar~ and ~Lunar~.
+  3) Analyzing the data a little.
+  4) Visualizing some data.
 
 3. Understanding of what you want to show and whom to show it to: a
    clear objective and a specific audience.
