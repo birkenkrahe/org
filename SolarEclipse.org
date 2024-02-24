@@ -66,13 +66,15 @@ about the origin of the data, a location where the data can be
 inspected,
 #+end_quote
 * What are interesting "solar eclipse" visualizations?
+#+attr_html: :width 400px:
+[[./img/batesville.png]]
 #+begin_quote
 1. *The path of totality* - that is the path on Earth along which the
    Sun is totally blocked by the Moon. On April 8, 2024, Batesville
    AR lies in this path for a total time of 4 minutes 1.7
    seconds. Examples:
-   - NASA, Scientific Visualization Studio: [[https://eclipse.gsfc.nasa.gov/SEplot/SEplot2001/SE2024Apr08T.GIF][Orthographic map]]
-     showing many details; [[https://eclipse.gsfc.nasa.gov/SEanimate/SEanimate2001/SE2024Apr08T.GIF][animated Gif]]
+   - NASA, Scientific Visualization Studio: [[https://eclipse.gsfc.nasa.gov/SEplot/SEplot2001/SE2024Apr08T.GIF][Orthographic map]] showing
+     many details; [[https://eclipse.gsfc.nasa.gov/SEanimate/SEanimate2001/SE2024Apr08T.GIF][animated Gif]] and [[https://en.wikipedia.org/wiki/Saros_(astronomy)#/media/File:Saros15122015.gif][Saros cycle animation]].
    - [[https://www.suncalc.org/#/35.7719,-91.6427,8/2024.02.23/20:50/1/3][SunCalc.org]]: path computation with solar eclipse data for
      Batesville from 1500 B.C. to 3000 A.D.
    - [[https://www.google.com/maps/d/viewer?mid=1Hnwl6iLY8XveFnBixXx9IkY8mys&hl=en_US&ll=35.69816899247008%2C-92.05700536845772&z=8][Google maps:]] different lines of the path.
@@ -92,6 +94,8 @@ inspected,
    day, for example [[https://eclipsophile.com/][eclipsophile.com]].
 #+end_quote
 * What is interesting the history of solar eclipse exploration?
+#+attr_html: :width 400px:
+[[./img/antikythera.jpg]]
 #+begin_quote
 1. *Ancient Observations:* Historical records from various
    civilizations, including the Babylonians, Greeks, and Chinese,
