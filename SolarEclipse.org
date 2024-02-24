@@ -1,0 +1,142 @@
+#+title: Data Science for Everyone - Visualizing the Solar Eclipse
+#+startup: overview indent hideblocks
+#+OPTIONS: toc:nil num:nil ^:nil : 
+* Data Science for Everyone - Visualizing the Solar Eclipse
+
+Questions and answers:
+1) How does a solar eclipse happen?
+   #+begin_quote
+   A solar eclipse happens when the Moon passes between the Earth and
+   the Sun, blocking all or part of the Sun's light from reaching the Earth.
+
+   This can only happen during a new moon, when Sun and Moon are in
+   conjunction as seen from Earth.
+   #+end_quote
+2) How often does a solar eclipse happen?
+   #+begin_quote
+   Solar eclipses happen 2-5 times a year, total solar eclipses once
+   every 18 months somewhere on Earth. Any given location on Earth
+   might experience a solar eclipse only once every few hundred years.
+   #+end_quote
+3) Why were the total solar eclipses 2017 and 2024 so close to one another?
+   #+begin_quote
+   The path of totality in 2017 moved from NW to SE, in 2024 from SW
+   to NE. Timing between eclipses vary due to the complex geometry of
+   Earth-Moon-Sun alignments and the cycle of eclipses ('Saros cycle').
+   #+end_quote
+4) What does "data visualization" mean?
+   #+begin_quote
+   'Data visualization' is one step in the data science workflow,
+   which includes: data gathering, data import, data cleaning, data
+   transformation, and data modeling.
+   #+end_quote
+5) What is the difference between a "visualization" and "data
+   visualization"?
+   #+begin_quote
+   Data visualization is a scientific process: it involves using real
+   historic (descriptive) or future (predicted) data, information
+   about the origin of the data, a location where the data can be
+   inspected, 
+   #+end_quote
+6) What are interesting "solar eclipse" visualizations?
+   #+begin_quote
+   1. *The path of totality* - that is the path on Earth along which the
+      Sun is totally blocked by the Moon. On April 8, 2024, Batesville
+      AR lies in this path for a total time of 4 minutes 1.7
+      seconds. Examples:
+      - NASA, Scientific Visualization Studio: [[https://eclipse.gsfc.nasa.gov/SEplot/SEplot2001/SE2024Apr08T.GIF][Orthographic map]]
+        showing many details; [[https://eclipse.gsfc.nasa.gov/SEanimate/SEanimate2001/SE2024Apr08T.GIF][animated Gif]]
+      - [[https://www.suncalc.org/#/35.7719,-91.6427,8/2024.02.23/20:50/1/3][SunCalc.org]]: path computation with solar eclipse data for
+        Batesville from 1500 B.C. to 3000 A.D.
+      - [[https://www.google.com/maps/d/viewer?mid=1Hnwl6iLY8XveFnBixXx9IkY8mys&hl=en_US&ll=35.69816899247008%2C-92.05700536845772&z=8][Google maps:]] different lines of the path.
+   2. *Population impact*: how many people are in the path of
+      totality. You need to add data sources to map approximate
+      population density. See for example ([[https://www.astronomy.com/observing/astronomys-atlas-maps-totality/][Zeiler, 2024]]).
+   3. *Historical eclipse paths*: comparing the 2024 path with
+      historical eclipse paths over the same region to explore
+      frequency, duration and path. For example from [[https://eclipsophile.com/ghosts/][eclipsophile.com]].
+   4. *Interactive maps*: users can zoom in and out and explore specific
+      locations. For example [[https://www.google.com/maps/d/viewer?mid=1Hnwl6iLY8XveFnBixXx9IkY8mys&hl=en_US&ll=35.69816899247008%2C-92.05700536845772&z=8][Google Maps]].
+   5. *Astronomical phenomena*: visualizing the timing and positioning
+      of other celestial bodies during the eclipse could add depth to
+      the understanding of the event. E.g. [[https://starwalk.space/en/news/astronomy-calendar-2024][starwalk.space]],
+      Astronomical Events 2024.
+   6. *Climatology and weather forecast*: weather planning for eclipse
+      day, for example [[https://eclipsophile.com/][eclipsophile.com]]. 
+   #+end_quote
+7) What is interesting the history of solar eclipse exploration?
+   #+begin_quote
+   1. Ancient Observations: Historical records from various
+      civilizations, including the Babylonians, Greeks, and Chinese,
+      provide evidence of solar eclipse observations, underscoring
+      their importance in early astronomical studies. (E.g. as
+      described by Herodotus during the Battle of Halys 585 BC when
+      the sudden darkness was interpreted as a divine sign for peace).
+
+   2. Scientific Milestones: Solar eclipses have played pivotal roles
+      in key scientific discoveries, including the validation of
+      Einstein's theory of general relativity during the 1919 eclipse:
+      Einstein had postulated that space was not the same in all
+      directions but that gravity of large bodies could bend rays of
+      light. Eddington measured the position of stars near the Sun's
+      edge during an eclipse providing empirical evidence for the
+      theory.
+
+   3. Technological Advancements: The study of solar eclipses has
+      driven advancements in astronomical instruments and
+      observational techniques, enhancing our understanding of the Sun
+      and its influence on Earth. Example: the Antikythera from 100 BC
+      (named after the Greek island where it was found in 1901), the
+      earliest known analog computer designed to predict eclipses
+      decades in advance.
+      
+   4. Cultural Impact: Eclipses have significantly impacted human
+      culture, inspiring myths, influencing religions, and
+      contributing to our fascination with the cosmos. E.g. in Viking
+      mythology, eclipses were explained as the sky wolf, Skoll,
+      catching and devouring the Sun.
+   #+end_quote
+8) What do you need to have, know or learn to visualize the solar
+   eclipse?
+   #+begin_quote
+   1. *Data*.
+      - All data visualizations start with data. You can get the date,
+        time, and location of every solar eclipses of the past 5,000
+        years from NASA's Goddard Space Flight Center as a CSV file
+        ([[https://www.kaggle.com/datasets/nasa/solar-eclipses/data][Arvidsson, 2023]]).
+      - You can also get the path data for the total solar eclipse of
+        2024 on April 8 from NASA ([[https://eclipse.gsfc.nasa.gov/SEpath/SEpath2001/SE2024Apr08Tpath.html][Espenak, 2014]]). You have to
+        'scrape' these data from the web page (which can be tricky).
+   2. *Tools*, such as R or Python, Tableau, or Wolfram Language.
+      - Let's look at one example using ChatGPT integrated with the
+        symbolic [[https://www.wolfram.com/language/][Wolfram language]] ([[https://chat.openai.com/g/g-0S5FXLyFN-wolfram/c/d528ebaf-3a0c-4176-8c0d-728292538c4b][WolframGPT]], [[https://www.wolframcloud.com/env/birkenkrahe/SolarEclipse.nb][WolframCloud]])
+      - Let's do some actual coding with R:
+        1) Download the Solar and Lunar Eclipse data.
+        2) Importing the data into two data frames ~Solar~ and ~Lunar~.
+        3) Analyzing the data a little.
+        4) Visualizing some data.
+           
+   3. Understanding of what you want to show and whom to show it to: a
+      clear objective and a specific audience.
+   #+end_quote
+9) What can you study at Lyon to learn more about this?
+   #+begin_quote
+   - At Lyon, you can learn all about data in courses on:
+     1) Introductory and advanced data science with R and Python
+     2) Data visualization (to visualize data in maps or graphs)
+     3) Machine learning (to predict events from data)
+     4) Databases (to store large amounts of data)
+     5) Algorithms (to search through large data sets)
+     6) Geographical Information Systems (GIS)
+     7) Data modeling (to derive statistical insights from data)
+   #+end_quote   
+10) How can you find out more about us?
+    #+begin_quote
+    - Visit us on campus, come talk to me and audit any class!
+    - Participate in our summer programs (2024: creating games in
+      JavaScript, HTML and CSS; 45 programming languages in 45
+      minutes).
+    - Follow us on X.com (@LyonCollege, @birkenkrahe) or on Youtube:
+      @CareerPathwaysPodcast
+    #+end_quote
+    
