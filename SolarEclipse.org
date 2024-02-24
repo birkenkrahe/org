@@ -71,7 +71,8 @@ rooted in common human experience - but the visualization makes no
 claim to be scientific or systematic).
 
 - Science is a fickle mistress though. And when it comes to computer
-  and data science, it's not very different from an honest craft
+  and data science, it's not very different from an honest craft. To
+  fix a car (photo), you also need long training and apprenticeship.
   #+attr_html: :width 400px:
   [[./img/science.png]]
 
