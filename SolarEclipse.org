@@ -139,7 +139,6 @@ claim to be scientific or systematic).
    catching and devouring the Sun.
 #+end_quote
 * What do you need to have, know or learn to visualize the solar eclipse?
-
 ** Data
 #+attr_html: :width 400px:
 #+caption: Solar and Lunar Eclipses (Source: Arvidsson, 2021)
