@@ -20,8 +20,13 @@ mutually benefit teaching and learning by blending AI's automation
 with human-centric documentation. Attendees will learn about the
 synergy between these approaches and how to effectively combine them
 for a richer educational experience.
+#+attr_html: :width 400px: 
+[[../img/oklahoma.png]]
 
 * References
+
+- Birkenkrahe M. Emacs + Org mode progarmming practice. YouTube
+  Playlist. 2024. URL: [[https://www.youtube.com/playlist?list=PLwgb17bzeNygGtpZE_8gaWELZPbxfbUiO][youtube.com]].
 
 - Birkenkrahe M. Teaching Data Science with Literate Programming
   Tools. Digital. 2023; 3(3):232-250. [[https://doi.DOI:10.3390/digital3030015][DOI:10.3390/digital3030015]].
@@ -30,7 +35,7 @@ for a richer educational experience.
   for Literate Programming in Computer and Data Science
   Education. Proc. 18th Int. Technology, Education and Development
   Conf., Valencia (Spain), March 4-5, 2024 (to
-  appear). DOI:10.21125/inted.2024
+  appear). DOI:10.21125/inted.2024.
 
 * Speaker Bio
 #+begin_quote
