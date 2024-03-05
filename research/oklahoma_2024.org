@@ -39,6 +39,9 @@ Digital Transformation (d-cube) in Berlin, Germany.
 
 * References
 
+- Batsov B. M-x Reloaded: The Second Golden Age of Emacs. URL:
+  [[https://batsov.com/articles/2024/02/27/m-x-reloaded-the-second-golden-age-of-emacs/][batsov.com]].
+
 - Birkenkrahe M. Emacs + Org mode progarmming practice. YouTube
   Playlist. 2024. URL: [[https://www.youtube.com/playlist?list=PLwgb17bzeNygGtpZE_8gaWELZPbxfbUiO][youtube.com]].
 
