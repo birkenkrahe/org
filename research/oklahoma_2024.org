@@ -1,7 +1,7 @@
 #+TITLE: Teaching data science with literate programming tools
 #+SUBTITLE: A mighty fortress against AI: Emacs + Org-mode 
 #+startup: overview indent hideblocks inlineimages
-
+** A mighty fortress against AI: Emacs + Org-mode 
 
 
 
