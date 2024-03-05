@@ -1,9 +1,7 @@
 #+TITLE: Teaching data science with literate programming tools
 #+SUBTITLE: A mighty fortress against AI: Emacs + Org-mode 
 #+startup: overview indent hideblocks inlineimages
-Literate programming with Emacs and Org-mode in computer and data
-science education: A mighty fortress against the dangers of
-AI-assisted coding.
+A mighty fortress against the dangers of AI-assisted coding.
 
 [[https://www.lyon.edu/marcus-birkenkrahe][Marcus Birkenkrahe, Lyon College]] - Invited talk at the
 [[https://opensource.science/ossci-community-visits-kick-off-at-oklahoma-data-science-workshop-1ea0e25d08a0][Oklahoma Data Science Workshop]], March 22, 2024.
