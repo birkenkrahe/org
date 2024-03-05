@@ -1,92 +1,37 @@
 #+TITLE: Teaching data science with literate programming tools
 #+SUBTITLE: A mighty fortress against AI: Emacs + Org-mode 
 #+startup: overview indent hideblocks inlineimages
-** A mighty fortress against the dangers of AI-assisted coding
+Literate programming with Emacs and Org-mode in computer and data
+science education: A mighty fortress against the dangers of
+AI-assisted coding.
 
+[[https://www.lyon.edu/marcus-birkenkrahe][Marcus Birkenkrahe, Lyon College]] - Invited talk at the
+[[https://opensource.science/ossci-community-visits-kick-off-at-oklahoma-data-science-workshop-1ea0e25d08a0][Oklahoma Data Science Workshop]], March 22, 2024.
 
-
-[[https://www.lyon.edu/marcus-birkenkrahe][Marcus Birkenkrahe, Lyon College]] - abstract submitted to [[https://iated.org/inted/][INTED'24]] -
-[[https://iated.org/concrete2/list_accepted_abstracts.php?event_id=48&search_id=&search_title=&search_author=BIRKENKRAHE&search_bool=and][accepted: December 18, 2023]]
-
-Literate programming emphasizes the importance of clear code
-documentation and explanatory text integration, and fosters a deeper
-understanding of engineering concepts, effective collaboration, and
-critical thinking skills. It has been at the forefront of data science
-practice in the form of interactive notebooks like Jupyter notebooks
-for over a decade. In fact, literate programming as a technique of
-structured documentation has been used in computational physics and
-engineering education and practice since its definition by Knuth
-in 1984.
-
-This presentation critically examines the role of AI coding assistants
-and their impact on the relevance of literate programming in
-engineering education. As AI coding assistants advance, offering
-real-time feedback and automated code completion, questions arise
-regarding the necessity of literate programming principles.
-
-The session explores the benefits of AI coding assistants, including
-enhanced coding efficiency and support for novice learners. However,
-it also considers the potential drawbacks and limitations of relying
-solely on these tools. We posit a symbiotic relationship between AI
-coding assistants and literate programming: both approaches can
-complement each other by combining AI automation with human-readable
-documentation.
-
-Attendees will gain a nuanced understanding of the interplay between
-AI coding assistants and literate programming in data science and
-engineering education. They will consider the strengths and
-limitations of each approach and explore how to strike a balance to
-create a comprehensive educational experience.
-
-* Keywords
-
-Artificial Intelligence, Literate Programming, ChatGPT, Data Science,
-Large Language Model
+Literate programming, which combines code documentation with
+explanatory text, enhances understanding, collaboration, and critical
+thinking in data science, and has been popularized through tools like
+Jupyter notebooks since Knuth introduced it in 1984. This talk will
+discuss its integration into computer and data science education,
+improving engagement, skills development, and computing
+competence. Additionally, it will explore the interaction between AI
+coding assistants and literate programming, highlighting how they can
+mutually benefit teaching and learning by blending AI's automation
+with human-centric documentation. Attendees will learn about the
+synergy between these approaches and how to effectively combine them
+for a richer educational experience.
 
 * References
-
-- Author Unknown. Three types of AI-assisted programmers. Stack
-  Overflow Blog. December 11, 2023. [[https://stackoverflow.blog/2023/12/11/three-types-of-ai-assisted-programmers/][URL: stackoverflow.blog]]
 
 - Birkenkrahe M. Teaching Data Science with Literate Programming
   Tools. Digital. 2023; 3(3):232-250. [[https://doi.DOI:10.3390/digital3030015][DOI:10.3390/digital3030015]].
 
-- Birkenkrahe M, Gunnoltz J. Students modelStart-Up Processes – An
-  Embedded Approach to Entrepreneurship Education. In:
-  Digitalität@HWR. Erfahrungen mitDigitalisierung in Forschung und
-  Lehre, HWR Berlin, eds.Egger de Campo M, Resch O. 2023; pp. 95-125
-  (ISBN978-3-8487-6484-6, Nomos Verlag). [[https://www.researchgate.net/publication/333655901_Students_Model_Startup_Processes_-_An_Embedded_Approach_to_Entrepreneurship_Education][URL: researchgate.net/]]
+- Birkenkrahe M. The Role of AI Coding Assistants: Revisiting the Need
+  for Literate Programming in Computer and Data Science
+  Education. Proc. 18th Int. Technology, Education and Development
+  Conf., Valencia (Spain), March 4-5, 2024 (to
+  appear). DOI:10.21125/inted.2024
 
-- Guzharina A. How To Use Workspace AI-Powered Notebooks for Every
-  Data Skill Level. Aug 2023. [[https://www.datacamp.com/blog/how-to-use-workspace-ai-powered-notebooks-for-every-data-skill-level][URL: datacamp.com/]]
-
-- Levy S. In Defense of AI Hallucinations. Wired Magazine
-  Business. Jan 2024. [[https://www.wired.com/story/plaintext-in-defense-of-ai-hallucinations-chatgpt/][URL: wired.com]]
-    
-- Pinto G, de Souza C, Neto JB, et al. Lessons from Building StackSpot
-  AI: A Contextualized AI Coding
-  Assistant. 2024. arXiv:2311.18450. [[https://arxiv.org/abs/2311.18450][URL: arxiv.org]]
-
-- Poldrack RA, Lu T, Beguš G. AI-assisted coding: Experiments with
-  GPT-4. 2023. arXiv:2304.13187. [[https://arxiv.org/abs/2304.13187][URL: arxiv.org]]
-
-- Porter L, Zingaro D. Learn AI-Assisted Python Programming: With
-  GitHub Copilot and ChatGPT. Manning,
-  Sep 2023. ISBN 9781633437784. [[https://www.manning.com/books/learn-ai-assisted-python-programming][URL: manning.com]].
-
-- Pudari R, Ernst NA. From Copilot to Pilot: Towards AI Supported
-  Software Development. 2023. arXiv:2303.04142.  [[https://arxiv.org/abs/2303.04142][URL: arxiv.org]].
-
-- Vaithilingam P, Glassman EL, Groenwegen P, et al. Towards More
-  Effective AI-Assisted Programming: A Systematic Design Exploration
-  to Improve Visual Studio IntelliCode's User Experience. In:
-  Proceedings of the 45th International Conference on Software
-  Engineering: Software Engineering in Practice. IEEE Press;
-  2023:185-195. doi:10.1109/ICSE-SEIP58684.2023.00022.
-
-- Lyman I. Three types of AI-assisted programmers. Stack Overflow
-  Blog. December 11, 2023. [[https://stackoverflow.blog/2023/12/11/three-types-of-ai-assisted-programmers/][URL: stackoverflow.blog]].
-   
 * Speaker Bio
 #+begin_quote
 Prof. Dr. Marcus Birkenkrahe is an Associate Professor of Computer and
