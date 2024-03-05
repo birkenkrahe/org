@@ -1,13 +1,15 @@
 #+TITLE: Teaching data science with literate programming tools
 #+SUBTITLE: A mighty fortress against AI: Emacs + Org-mode 
 #+startup: overview indent hideblocks inlineimages
+* Teaching data science with literate programming tools - A mighty fortress against AI: Emacs + Org-mode 
 
 
 
 
 
 
-The Role of AI Coding Assistants: Revisiting the Need for Literate Programming in Computer and Data Science Education
+The Role of AI Coding Assistants: Revisiting the Need for Literate
+Programming in Computer and Data Science Education
 
 [[https://www.lyon.edu/marcus-birkenkrahe][Marcus Birkenkrahe, Lyon College]] - abstract submitted to [[https://iated.org/inted/][INTED'24]] -
 [[https://iated.org/concrete2/list_accepted_abstracts.php?event_id=48&search_id=&search_title=&search_author=BIRKENKRAHE&search_bool=and][accepted: December 18, 2023]]
