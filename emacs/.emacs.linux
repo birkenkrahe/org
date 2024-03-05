@@ -1,0 +1,273 @@
+;; emacs sample file for class use
+(put 'dired-find-alternate-file 'disabled nil)
+
+;; add site lisp repo to load-path
+(add-to-list 'load-path "/home/marcus/.emacs.d/lisp")
+
+;; require ob-sqlite and ob-sql (for compilation in org src blocks) & tangle
+(require 'ob-sqlite)
+(require 'ob-sql)
+(require 'python)
+(require 'ob-emacs-lisp)
+(require 'ob-R)
+(require 'ob-C)
+(require 'ob-shell)
+(require 'ob-python)
+
+;; active Babel languages
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((R . t)
+   (sql . t)
+   (python . t)
+   (emacs-lisp . t)
+   (C . t)
+   ))
+
+;; Syntax highlight code in your SRC blocks The last variable removes
+;; the annoying “Do you want to execute” your code when you type:
+;; C-c C-c
+(setq org-confirm-babel-evaluate nil
+      org-src-fontify-natively t
+      org-src-tab-acts-natively t)
+
+;; babel R skeleton code
+(define-skeleton org-skeleton
+  "Header info for a Emacs Org-mode file."
+  "Title: "
+  "#+TITLE:" str " \n"
+  "#+AUTHOR:" str " \n"
+  "#+SUBTITLE:" str " \n"
+  "#+STARTUP:overview hideblocks indent\n"
+  "#+OPTIONS: toc:nil num:nil ^:nil\n"
+  "#+PROPERTY: header-args:R :session *R* :results output :exports both :noweb yes"
+  "#+PROPERTY: header-args:python :session *Python* :results output :exports both :noweb yes"   "#+PROPERTY: header-args:C :main yes :includes <stdio.h> :results output :exports both :noweb yes"
+  "#+PROPERTY: header-args:C++ :main yes :includes <iostream> :results output :exports both :noweb yes"  
+  )
+(global-set-key [C-S-f4] 'org-skeleton)
+
+;; enable snippet expansion via org-structure-template-alist
+(require 'org-tempo)
+
+;; get packages from MELPA package manager
+(require 'package)
+(add-to-list 'package-archives
+;;	     '("melpa-stable" . "https://stable.melpa.org/packages/")
+	     '("melpa" . "https://melpa.org/packages/") t)
+(package-initialize)
+
+;; hide emphasis markers
+(setq-default org-hide-emphasis-markers t)
+
+;; org-display-inline-images set to <f6>
+(global-set-key (kbd "<f6>") 'org-display-inline-images)
+
+;; org-remove-inline-images set to <f7>
+(global-set-key (kbd "<f7>") 'org-remove-inline-images)
+
+;; over ssh, emacs’ key C-SPC and C-@ no longer works
+;;(global-set-key [f8] (quote set-mark-command))
+
+;; you need this to be able to resize inline images
+(setq org-image-actual-width nil)
+
+;; Set new home directory ~/ in Emacs - replace User name below
+;; (defun set-home-dir (dir)
+;;   "Set a new HOME directory. This is where Emacs will look for init files and where '~' will default to."
+;;   (setenv "HOME" dir)
+;;   (message (format "HOME location is %s" (getenv "HOME"))))
+
+;; (set-home-dir "C:/Users/birkenkrahe/")
+
+;; load Emacs-Speaks-Statistics (ESS) see ess.r-project.org
+;;(add-to-list 'load-path "/usr/share/emacs/site-lisp/ess")
+(load "ess-site")
+
+;; add prompt to SQLite buffer opened with M-x sql-sqlite
+(setq sql-sqlite-options '("-interactive"))
+
+;; load sql.el and disable sql-get-login if you only work on one db
+(require 'sql)
+
+;; do not show toolbar or menubar in the graphic Emacs
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+
+;; recentf-mode to find recently opened files with C-x r f
+(recentf-mode 1)
+(setq recentf-max-menu-items 25)
+(setq recentf-max-saved-items 25)
+(global-set-key (kbd "C-x r f") 'recentf-open-files)
+
+;; ace-window
+(global-set-key (kbd "M-o") 'ace-window)
+
+;; org-present
+;;(add-to-list 'load-path "~/path/to/org-pres")
+(autoload 'org-present "org-present" nil t)
+
+;; unfill region
+(defun unfill-region (beg end)
+  "Unfill the region, joining text paragraphs into a single
+    logical line.  This is useful, e.g., for use with
+    `visual-line-mode'."
+  (interactive "*r")
+  (let ((fill-column (point-max)))
+    (fill-region beg end)))
+
+;; Handy key definition
+(define-key global-map "\C-\M-Q" 'unfill-region)
+
+;; re-indenting of whole buffer according to mode
+(defun iwb ()
+  "indent whole buffer"
+  (interactive)
+  (delete-trailing-whitespace)
+  (indent-region (point-min) (point-max) nil)
+  (untabify (point-min) (point-max))
+  )
+
+;; Load org-bullets
+(require 'org-bullets)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+
+(defun obm ()
+  "Enable org-bullets-mode in the current buffer."
+  (interactive)
+  (if (featurep 'org-bullets)
+      (org-bullets-mode 1)
+    (message "org-bullets is not available. Please install it first.")))
+
+;; spacious padding
+(setq spacious-padding-mode 1)
+
+;; ivy and swiper (via github.com/abo-abo/swiper
+;; with counsel-mode installed
+(ivy-mode)
+(setq ivy-use-virtual-buffers t)
+(setq enable-recursive-minibuffers t)
+;; enable this if you want `swiper' to use it
+;; (setq search-default-mode #'char-fold-to-regexp)
+(global-set-key "\C-s" 'swiper)
+(global-set-key (kbd "C-c C-r") 'ivy-resume)
+;;(global-set-key (kbd "<f6>") 'ivy-resume)
+
+;; org-tree-slide
+(require 'org-tree-slide)
+(with-eval-after-load "org-tree-slide"
+  (global-set-key (kbd "<f9>") 'org-tree-slide-mode)
+  (define-key org-tree-slide-mode-map (kbd "<left>") 'org-tree-slide-move-previous-tree) ;; move forwards
+  (define-key org-tree-slide-mode-map (kbd "<right>") 'org-tree-slide-move-next-tree)  ;; move backwards
+  )
+(setq org-image-actual-width nil)
+(setq org-tree-slide-skip-outline-level 0)
+(setq org-tree-slide-slide-effect t)
+(org-tree-slide-simple-profile) ;; no headers
+
+;; Find and open TODO and agenda
+(find-file "~/GitHub/admin/RoamNotes/20220520212655-todo.org")
+(global-set-key (kbd "C-c a") 'org-agenda)
+(org-agenda nil "a")
+(setq org-agenda-files
+      (list "~/GitHub/admin/RoamNotes/20220520212655-todo.org"
+	    "~/GitHub/admin/RoamNotes/20220521111244-spring24.org"
+	    "~/GitHub/admin/RoamNotes/20240113174833-db24.org"
+	    "~/GitHub/admin/RoamNotes/20231202115708-cpp_24.org"
+	    "~/GitHub/admin/RoamNotes/20240113191609-ds205.org"
+	    "~/GitHub/admin/RoamNotes/20240114085226-research_spring_2024.org"
+	    "~/GitHub/admin/RoamNotes/20220807171413-research.org"))
+
+;; sequential work progress states see orgguide 9.3 sect. 5.2 p.11
+(setq org-todo-keywords
+      '((sequence "NEXT" "TODO" "IN PROGRESS" "READ" "WAITING" "SOMEDAY" "PROJECT" "FEEDBACK" "VERIFY" "|" "DONE" "CANCELLED")))
+
+
+;; doom modeline
+(use-package doom-modeline
+  :ensure t
+  :hook (after-init . doom-modeline-mode))
+
+;; enable column number mode
+(setq column-number-mode t)
+
+;; org-roam needs emacsql-sqlite-builtin from melpa (not melpa-stable)
+(use-package emacsql-sqlite-builtin)
+(setq org-roam-database-connector 'sqlite-builtin)
+
+;; org-roam config: github.com/org-roam/org-roam
+(use-package org-roam
+  :ensure t
+  :custom
+  (org-roam-directory (file-truename "/home/marcus/GitHub/admin/RoamNotes"))
+  :bind (("C-c n l" . org-roam-buffer-toggle)
+         ("C-c n f" . org-roam-node-find)
+         ("C-c n i" . org-roam-node-insert))
+  :config
+  (org-roam-setup))
+
+;; remove startup screen - get it back with M-x about-emacs
+(setq inhibit-startup-screen t)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes '(doom-ir-black))
+ '(custom-safe-themes
+   '("7a424478cb77a96af2c0f50cfb4e2a88647b3ccca225f8c650ed45b7f50d9525" "5586a5db9dadef93b6b6e72720205a4fa92fd60e4ccfd3a5fa389782eab2371b" "251ed7ecd97af314cd77b07359a09da12dcd97be35e3ab761d4a92d8d8cf9a71" "1aa4243143f6c9f2a51ff173221f4fd23a1719f4194df6cef8878e75d349613d" "5b9a45080feaedc7820894ebbfe4f8251e13b66654ac4394cb416fef9fdca789" "1a1ac598737d0fcdc4dfab3af3d6f46ab2d5048b8e72bc22f50271fd6d393a00" "545ab1a535c913c9214fe5b883046f02982c508815612234140240c129682a68" "0c83e0b50946e39e237769ad368a08f2cd1c854ccbcd1a01d39fdce4d6f86478" "f64189544da6f16bab285747d04a92bd57c7e7813d8c24c30f382f087d460a33" "ae426fc51c58ade49774264c17e666ea7f681d8cae62570630539be3d06fd964" "443e2c3c4dd44510f0ea8247b438e834188dc1c6fb80785d83ad3628eadf9294" "adaf421037f4ae6725aa9f5654a2ed49e2cd2765f71e19a7d26a454491b486eb" "570263442ce6735821600ec74a9b032bc5512ed4539faf61168f2fdf747e0668" "7e377879cbd60c66b88e51fad480b3ab18d60847f31c435f15f5df18bdb18184" "60ada0ff6b91687f1a04cc17ad04119e59a7542644c7c59fc135909499400ab8" "2078837f21ac3b0cc84167306fa1058e3199bbd12b6d5b56e3777a4125ff6851" "ce4234c32262924c1d2f43e6b61312634938777071f1129c7cde3ebd4a3028da" "2721b06afaf1769ef63f942bf3e977f208f517b187f2526f0e57c1bd4a000350" "da75eceab6bea9298e04ce5b4b07349f8c02da305734f7c0c8c6af7b5eaa9738" "49acd691c89118c0768c4fb9a333af33e3d2dca48e6f79787478757071d64e68" "eca44f32ae038d7a50ce9c00693b8986f4ab625d5f2b4485e20f22c47f2634ae" "aec7b55f2a13307a55517fdf08438863d694550565dee23181d2ebd973ebd6b8" "631c52620e2953e744f2b56d102eae503017047fb43d65ce028e88ef5846ea3b" "2dd4951e967990396142ec54d376cced3f135810b2b69920e77103e0bcedfba9" "439d4ce8295685fc36fc119a062d0283bb05436ae841b053af76e9a5e42bc670" "801a567c87755fe65d0484cb2bded31a4c5bb24fd1fe0ed11e6c02254017acb2" "dbade2e946597b9cda3e61978b5fcc14fa3afa2d3c4391d477bdaeff8f5638c5" "f149d9986497e8877e0bd1981d1bef8c8a6d35be7d82cba193ad7e46f0989f6a" "90a6f96a4665a6a56e36dec873a15cbedf761c51ec08dd993d6604e32dd45940" "db86c52e18460fe10e750759b9077333f9414ed456dc94473f9cf188b197bc74" default))
+ '(org-agenda-files
+   '("~/GitHub/admin/RoamNotes/20220520212655-todo.org" "~/GitHub/admin/RoamNotes/20240113174833-db24.org" "~/GitHub/admin/RoamNotes/20231202115708-cpp_24.org" "~/GitHub/admin/RoamNotes/20240113191609-ds205.org" "~/GitHub/admin/RoamNotes/20240114085226-research_spring_2024.org"))
+ '(org-hide-emphasis-markers t)
+ '(org-structure-template-alist
+   '(("a" . "export ascii")
+     ("c" . "center")
+     ("C" . "comment")
+     ("e" . "example")
+     ("E" . "export")
+     ("h" . "export html")
+     ("l" . "export latex")
+     ("q" . "quote")
+     ("s" . "src")
+     ("v" . "verse")
+     ("sqlite" . "src sqlite :db test.db :results output :header :column ")
+     ("r" . "src R :session *R* :results output :exports both :noweb yes")
+     ("p" . "src python :session *Python* :results output :exports both :noweb yes ")
+     ("cc" . "src C :main yes :includes <stdio.h> :results output :exports both :noweb yes")
+     ("cpp" . "src C++ :main yes :includes <iostream> :results output :exports both :noweb yes")
+     ("b" . "src bash")
+     ("n" . "notes")
+     ("rg" . "src R :file :session *R* :results output graphics file :exports both :noweb yes")))
+ '(org-tempo-keywords-alist
+   '(("W" . "attr_html: :width 400px")
+     ("S" . "STARTUP: hideblocks overview indent ")
+     ("O" . "OPTIONS: toc:nil num:nil ^:nil ")
+     ("P" . "PROPERTY: header-args: :results output :exports both :noweb yes :tangle yes")))
+ '(package-selected-packages
+   '(emacsql-sqlite-builtin org-tree-slide counsel treemacs doom-modeline spacious-padding doom-themes emacsql-sqlite emacsql org-roam auctex tao-theme org-present org-bullets ace-window ivy swiper rainbow-mode material-theme rainbow-delimiters ess))
+ '(spacious-padding-mode t))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(fringe ((t :background "#000000")))
+ '(header-line ((t :box (:line-width 4 :color "#3f444a" :style nil))))
+ '(header-line-highlight ((t :box (:color "#f6f3e8"))))
+ '(keycast-key ((t)))
+ '(line-number ((t :background "#000000")))
+ '(mode-line ((t :box (:line-width 6 :color "#3f444a" :style nil))))
+ '(mode-line-active ((t :box (:line-width 6 :color "#3f444a" :style nil))))
+ '(mode-line-highlight ((t :box (:color "#f6f3e8"))))
+ '(mode-line-inactive ((t :box (:line-width 6 :color "#23272e" :style nil))))
+ '(tab-bar-tab ((t :box (:line-width 4 :color "#000000" :style nil))))
+ '(tab-bar-tab-inactive ((t :box (:line-width 4 :color "#121212" :style nil))))
+ '(tab-line-tab ((t)))
+ '(tab-line-tab-active ((t)))
+ '(tab-line-tab-inactive ((t)))
+ '(vertical-border ((t :background "#000000" :foreground "#000000")))
+ '(window-divider ((t (:background "#000000" :foreground "#000000"))))
+ '(window-divider-first-pixel ((t (:background "#000000" :foreground "#000000"))))
+ '(window-divider-last-pixel ((t (:background "#000000" :foreground "#000000")))))
