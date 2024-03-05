@@ -51,6 +51,9 @@ Digital Transformation (d-cube) in Berlin, Germany.
   Conf., Valencia (Spain), March 4-5, 2024 (to
   appear). DOI:10.21125/inted.2024.
 
+#+attr_html: :width 700px
+[[../img/mdpi_poster.png]]
+  
 * Network media
 - [[https://www.lyon.edu/marcus-birkenkrahe][Lyon College]]
 - [[https://www.linkedin.com/in/birkenkrahe][LinkedIn]]
@@ -60,5 +63,3 @@ Digital Transformation (d-cube) in Berlin, Germany.
 - [[https://orcid.org/my-orcid?orcid=0000-0001-9461-8474][ORCID]]
 - [[https://en.wikipedia.org/wiki/Marcus_Birkenkrahe][Wikipedia]]
 
-#+attr_html: :width 700px
-[[../img/mdpi_poster.png]]
