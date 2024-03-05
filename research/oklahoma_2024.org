@@ -19,7 +19,7 @@ with human-centric documentation. Attendees will learn about the
 synergy between these approaches and how to effectively combine them
 for a richer educational experience.
 #+attr_html: :width 400px: 
-[[../img/oklahoma.png]]
+[[../img/oklahoma1.png]]
 
 * References
 
