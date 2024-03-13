@@ -13,8 +13,8 @@
 [[https://youtu.be/cxrLRbkOwKs?si=_ZzwsI39I8fSdvQ4][Watch: Solar Eclipse 101 | National Geographic (08/17/17)]]
 
 #+begin_quote
-A solar eclipse happens when the Moon passes between the Earth and
-the Sun, blocking all or part of the Sun's light from reaching the Earth.
+A solar eclipse happens when the Moon passes between the Earth and the
+Sun, blocking all or part of the Sun's light from reaching the Earth.
 
 This can only happen during a new moon, when Sun and Moon are in
 conjunction as seen from Earth.
@@ -409,6 +409,11 @@ more often in the Northern or in the Southern hemisphere.
 Here  is a plot from NASA. This is easy to do in R or Python as well.
 #+attr_html: :width 400px:
 [[./img/northern.png]]
+
+Another interesting plot is a time series showing the frequency of
+total solar eclipses in the course of 5,000 years.
+#+attr_html: :width 600px:
+[[./img/solar_eclipse_time_series.png]]
 
 ** Relevance
 #+attr_html: :width 400px:

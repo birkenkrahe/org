@@ -1,0 +1,446 @@
+#+title: Data Science for Everyone - Visualizing the Solar Eclipse
+#+author: Marcus Birkenkrahe
+#+subtitle: Spring Discovery Day STEMonstration @Lyon College
+#+startup: overview indent hideblocks
+#+OPTIONS: toc:nil num:nil ^:nil :
+#+attr_html: :width 600px:
+#+caption: Image source: National Geographic (Solar Eclipse 101), 2017
+[[./img/totality.png]]
+* How does a solar eclipse happen?
+#+attr_html: :width 600px:
+[[./img/solar_eclipse.png]]
+
+[[https://youtu.be/cxrLRbkOwKs?si=_ZzwsI39I8fSdvQ4][Watch: Solar Eclipse 101 | National Geographic (08/17/17)]]
+
+#+begin_quote
+A solar eclipse happens when the Moon passes between the Earth and the
+Sun, blocking all or part of the Sun's light from reaching the Earth.
+
+This can only happen during a new moon, when Sun and Moon are in
+conjunction as seen from Earth.
+#+end_quote
+* How often does a solar eclipse happen?
+#+attr_html: :width 600px:
+[[./img/national_geographic.png]]
+
+#+begin_quote
+Solar eclipses happen 2-5 times a year, total solar eclipses once
+every 18 months somewhere on Earth. Any given location on Earth
+might experience a solar eclipse only once every few hundred years.
+#+end_quote
+* Is predicting solar eclipses difficult?
+#+attr_html: :width 600px: 
+[[./img/three_body.jpg]]
+#+begin_notes
+The classical basis of the prediction of the celestial positions of
+Sun, Moon and Earth is a three-body-problem. There is no general
+solution to this problem that applies to all possible initial
+conditions.
+
+The two-body-problem was solved by Isaac Newton in the late 17th
+century. This led to the laws of motion and universal gravitation and
+laid the foundation for classical mechanics and enabled precise
+calculations of celestial motion, including the orbits of planets.
+#+end_notes
+* Why were the total solar eclipses 2017 and 2024 so close to one another?
+#+attr_html: :width 600px:
+[[./img/2017_2024.png]]
+#+begin_quote
+The path of totality in 2017 moved from NW to SE, in 2024 from SW
+to NE. Timing between eclipses vary due to the complex geometry of
+Earth-Moon-Sun alignments and the cycle of eclipses ('Saros cycle').
+#+end_quote
+* What does "data visualization" mean?
+#+attr_html: :width 600px:
+[[./img/rp-overview.jpg]]
+#+begin_quote
+'Data visualization' is one step in the data science workflow,
+which includes: data gathering, data import, data cleaning, data
+transformation, and data modeling.
+#+end_quote
+
+Here is a simpler visualization of the data science pipeline that
+leads to visualization:
+#+attr_html: :width 600px: 
+[[./img/pipeline.png]]
+
+* What is the difference between a "visualization" and "data visualization"?
+#+begin_quote
+Data visualization is a scientific process. It involves
+- using *real* historic (descriptive) or future (predicted) data
+- information about the *origin* of the data
+- a *location* where the data are stored and can be inspected
+- a choice of representation (graph, photo, table)
+- a target audience (students, scientists, voters, readers)
+- a visualization benefit (to illustrate, highlight, explain etc.)
+#+end_quote
+
+- Here are a few examples:  
+  #+attr_html: :width 600px:
+  [[./img/xkcd_devices.png]]
+
+  The cartoon shows "just" a visualization (though a fun one, and one
+  that is rooted in common human experience - but the visualization
+  makes no claim to be scientific or systematic).
+
+  #+attr_html: :width 600px:
+  #+caption: Source: pythonawesome.com (Dec 28, 2018)
+  [[./img/segmentation.png]]
+
+  *Medical images*: The image shows the visualization of prediction test
+  results: original CT images on the left, segmented images assumed to
+  be corred ("ground truth") in the second, and predicted test results
+  in the third column. On the right is a 3-D model of the heart built
+  based on the results.
+
+- *Science is a fickle mistress*. And when it comes to computer and data
+  science, it's not very different from an honest *craft*. To fix a car
+  (photo), you also need long training and apprenticeship.
+  #+attr_html: :width 600px:
+  [[./img/science.png]]
+
+* What are interesting "solar eclipse" visualizations?
+#+attr_html: :width 600px:
+[[./img/batesville.png]]
+#+begin_quote
+1. *The path of totality* - that is the path on Earth along which the
+   Sun is totally blocked by the Moon. On April 8, 2024, Batesville
+   AR lies in this path for a total time of 4 minutes 1.7
+   seconds. Examples:
+   - NASA, Scientific Visualization Studio: [[https://eclipse.gsfc.nasa.gov/SEplot/SEplot2001/SE2024Apr08T.GIF][Orthographic map]] showing
+     many details; [[https://eclipse.gsfc.nasa.gov/SEanimate/SEanimate2001/SE2024Apr08T.GIF][animated Gif]] and [[https://en.wikipedia.org/wiki/Saros_(astronomy)#/media/File:Saros15122015.gif][Saros cycle animation]].
+   - [[https://www.suncalc.org/#/35.7719,-91.6427,8/2024.02.23/20:50/1/3][SunCalc.org]]: path computation with solar eclipse data for
+     Batesville from 1500 B.C. to 3000 A.D.
+   - [[https://www.google.com/maps/d/viewer?mid=1Hnwl6iLY8XveFnBixXx9IkY8mys&hl=en_US&ll=35.69816899247008%2C-92.05700536845772&z=8][Google maps:]] different lines of the path.
+2. *Population impact*: how many people are in the path of
+   totality. You need to add data sources to map approximate
+   population density. See for example ([[https://www.astronomy.com/observing/astronomys-atlas-maps-totality/][Zeiler, 2024]]).
+3. *Historical eclipse paths*: comparing the 2024 path with
+   historical eclipse paths over the same region to explore
+   frequency, duration and path. For example from [[https://eclipsophile.com/ghosts/][eclipsophile.com]].
+4. *Interactive maps*: users can zoom in and out and explore specific
+   locations. For example [[https://www.google.com/maps/d/viewer?mid=1Hnwl6iLY8XveFnBixXx9IkY8mys&hl=en_US&ll=35.69816899247008%2C-92.05700536845772&z=8][Google Maps]].
+5. *Astronomical phenomena*: visualizing the timing and positioning
+   of other celestial bodies during the eclipse could add depth to
+   the understanding of the event. E.g. [[https://starwalk.space/en/news/astronomy-calendar-2024][starwalk.space]],
+   Astronomical Events 2024.
+6. *Climatology and weather forecast*: weather planning for eclipse
+   day, for example [[https://eclipsophile.com/][eclipsophile.com]].
+#+end_quote
+* What is interesting the history of solar eclipse exploration?
+#+attr_html: :width 600px:
+[[./img/antikythera.jpg]]
+#+begin_quote
+1. *Ancient Observations:* Historical records from various
+   civilizations, including the Babylonians, Greeks, and Chinese,
+   provide evidence of solar eclipse observations, underscoring
+   their importance in early astronomical studies. (E.g. as
+   described by Herodotus during the Battle of Halys 585 BC when
+   the sudden darkness was interpreted as a divine sign for peace).
+
+2. *Scientific Milestones:* Solar eclipses have played pivotal roles
+   in key scientific discoveries, including the validation of
+   Einstein's theory of general relativity during the 1919 eclipse:
+   Einstein had postulated that space was not the same in all
+   directions but that gravity of large bodies could bend rays of
+   light. Eddington measured the position of stars near the Sun's
+   edge during an eclipse providing empirical evidence for the
+   theory.
+
+3. *Technological Advancements:* The study of solar eclipses has
+   driven advancements in astronomical instruments and
+   observational techniques, enhancing our understanding of the Sun
+   and its influence on Earth. Example: the Antikythera from 100 BC
+   (named after the Greek island where it was found in 1901), the
+   earliest known analog computer designed to predict eclipses
+   decades in advance.
+
+4. *Cultural Impact:* Eclipses have significantly impacted human
+   culture, inspiring myths, influencing religions, and
+   contributing to our fascination with the cosmos. E.g. in Viking
+   mythology, eclipses were explained as the sky wolf, Skoll,
+   catching and devouring the Sun.
+#+end_quote
+* What do you need to have, know or learn to visualize the solar eclipse?
+** Data
+#+attr_html: :width 600px:
+#+caption: Solar and Lunar Eclipses (Source: Arvidsson, 2021)
+[[./img/data.png]]
+
+- All data visualizations start with data. You can get the date,
+  time, and location of every solar eclipses of the past 5,000
+  years from NASA's Goddard Space Flight Center as a CSV file
+  ([[https://www.kaggle.com/datasets/nasa/solar-eclipses/data][Arvidsson, 2023]]).
+
+#+attr_html: :width 600px:
+#+caption: Total Solar Eclipse of 2024 Apr 08 (Source: Espenak, 2014)
+[[./img/webscraping.png]]
+
+- You can also get the path data for the total solar eclipse of
+  2024 on April 8 from NASA ([[https://eclipse.gsfc.nasa.gov/SEpath/SEpath2001/SE2024Apr08Tpath.html][Espenak, 2014]]). You have to
+  'scrape' these data from the web page (which can be tricky).
+
+** Tools
+
+Such as: programming languages like R or Python, data visualization
+software like Tableau, or symbolic languages like Wolfram Language.
+
+Let's do some actual coding with R:
+1) Importing the data into two data frames ~Solar~ and ~Lunar~.
+2) Analyzing the data - looking for structure and statistics.
+3) Plotting the data.
+
+*** The data
+
+The data come from a platform that is known for machine learning
+competitions, [[https://www.kaggle.com/datasets/nasa/solar-eclipses/data][Kaggle]], owned by Google. The data cover the years -1999
+BC to +3000 AD - a total of 5,000 years.
+
+According to Kaggle, Earth will experience 11898 solar eclipses in
+this time.
+
+*** The coding platform - Google Colaboratory
+
+We're going to do some actual coding today:
+
+1) Download my notebook ~SolarEclipse.ipynb~ from [[https://colab.research.google.com/drive/1fkYfjVZxJKnrU-Bk08VC95ka24J3MRVB?usp=sharing][tinyurl.com/mac-solar]].
+
+2) Open Google Colaboratory at https://colab.research.google.com
+
+3) Follow me as I lead you through the text and code blocks.
+
+4) Run code blocks by clicking on the button next to the code.
+
+Enjoy!
+   
+
+*** Importing and transforming the data
+
+After importing, we change some column names to ease analysis:
+#+begin_src R :session *R* :results output :exports both :noweb yes
+  ## Store downloaded CSV data in dataframes
+  solar <- read.csv("data/solar.csv", header = TRUE,stringsAsFactor=TRUE)
+  lunar <- read.csv("data/lunar.csv", header = TRUE,stringsAsFactor=TRUE)
+
+  ## correct header names for better display
+  selection <- c(2,3,7,12,13,16)
+  names(lunar)[selection] <- c('date','time','type','lat','lon','tot')
+  head(lunar,n=20)[selection]
+#+end_src
+
+#+RESULTS:
+#+begin_example
+                date     time type lat  lon  tot
+1      -1999 June 26 14:13:28    N 24S  22W    -
+2  -1999 November 21 20:23:49    N 15N  98W    -
+3       -1998 May 17 05:47:36    P 13S  89E    -
+4  -1998 November 11 05:15:58    P 12N 113E    -
+5        -1997 May 6 18:57:01   T+ 11S  92W 98.2
+6   -1997 October 31 06:54:09   T+  9N  88E 90.6
+7     -1996 April 25 11:57:19    P  7S  13E    -
+8   -1996 October 19 06:00:26    P  5N 101E    -
+9     -1995 March 16 18:59:06    N 10N  87W    -
+10    -1995 April 15 04:12:15    N  4S 130E    -
+11 -1995 September 8 21:00:34    N 13S 121W    -
+12   -1995 October 8 10:05:04    N  1N  40E    -
+13     -1994 March 6 02:07:38    P 13N 166E    -
+14   -1994 August 29 11:25:40    P 16S  23E    -
+15 -1993 February 23 02:59:48   T- 16N 153E 87.7
+16   -1993 August 19 03:45:11   T+ 19S 137E 93.2
+17 -1992 February 12 04:09:50    P 18N 135E    -
+18    -1992 August 7 17:18:34    P 20S  67W    -
+19   -1991 January 2 00:22:41    N 25N 171W    -
+20     -1991 June 28 09:30:53    N 24S  48E    -
+#+end_example
+
+*** Analyzing the data - structure and statistics
+
+- Getting a structural overview of the dataframe:
+  #+begin_src R :session *R* :results output :exports both :noweb yes
+    str(lunar)
+  #+end_src
+
+  #+RESULTS:
+  #+begin_example
+  'data.frame':	12064 obs. of  16 variables:
+   $ Catalog.Number                : int  1 2 3 4 5 6 7 8 9 10 ...
+   $ date                          : Factor w/ 12064 levels "-1 January 20",..: 2697 2698 2695 2696 2693 2694 2691 2692 2688 2687 ...
+   $ time                          : Factor w/ 11198 levels "00:00:02","00:00:10",..: 6605 9558 2663 2439 8824 3191 5601 2759 8839 1965 ...
+   $ Delta.T..s.                   : int  46437 46427 46416 46404 46392 46380 46368 46357 46347 46345 ...
+   $ Lunation.Number               : int  -49456 -49451 -49445 -49439 -49433 -49427 -49421 -49415 -49410 -49409 ...
+   $ Saros.Number                  : int  17 -16 -11 -6 -1 4 9 14 -19 19 ...
+   $ type                          : Factor w/ 8 levels "N","Nb","Ne",..: 1 1 5 5 8 8 5 5 1 1 ...
+   $ Quincena.Solar.Eclipse        : Factor w/ 11 levels "-a","-h","-p",..: 10 1 4 1 8 8 5 10 1 5 ...
+   $ Gamma                         : num  -1.098 -1.115 0.899 -0.464 0.1 ...
+   $ Penumbral.Magnitude           : num  0.879 0.814 1.21 2.038 2.651 ...
+   $ Umbral.Magnitude              : num  -0.192 -0.192 0.207 0.974 1.696 ...
+   $ lat                           : Factor w/ 52 levels "0N","0S","10N",..: 34 13 10 7 6 51 48 43 3 42 ...
+   $ lon                           : Factor w/ 362 levels "0E","0W","100E",..: 192 358 337 31 346 335 89 5 334 69 ...
+   $ Penumbral.Eclipse.Duration..m.: num  269 233 282 343 323 ...
+   $ Partial.Eclipse.Duration..m.  : Factor w/ 1808 levels "-","10.6","100.1",..: 1 1 24 984 1112 1265 627 3 1 1 ...
+   $ tot                           : Factor w/ 809 levels "-","1.7","100",..: 1 1 1 1 792 716 1 1 1 1 ...
+  #+end_example
+
+- Getting a statistical overview of relevant features:
+  #+begin_src R :session *R* :results output :exports both :noweb yes
+    summary(lunar)
+  #+end_src
+
+  #+RESULTS:
+  #+begin_example
+   Catalog.Number               date             time        Delta.T..s.    Lunation.Number 
+   Min.   :    1   -1 January 20  :    1   01:05:56:    3   Min.   :   -6   Min.   :-49456  
+   1st Qu.: 3017   -1 July 17     :    1   01:42:04:    3   1st Qu.:  962   1st Qu.:-33923  
+   Median : 6032   -10 December 20:    1   02:03:46:    3   Median : 5597   Median :-18446  
+   Mean   : 6032   -10 January 29 :    1   05:12:17:    3   Mean   :12116   Mean   :-18531  
+   3rd Qu.: 9048   -10 July 26    :    1   06:18:50:    3   3rd Qu.:20902   3rd Qu.: -3068  
+   Max.   :12064   -100 June 1    :    1   06:34:23:    3   Max.   :46437   Max.   : 12378  
+                   (Other)        :12058   (Other) :12046                                   
+    Saros.Number         type      Quincena.Solar.Eclipse     Gamma         
+   Min.   :-20.00   P      :4207   a-     :2477           Min.   :-1.58270  
+   1st Qu.: 40.00   N      :4020   -a     :2471           1st Qu.:-0.78882  
+   Median : 80.00   T      :1405   t-     :1788           Median : 0.00175  
+   Mean   : 80.51   T+     :1042   -t     :1787           Mean   : 0.00249  
+   3rd Qu.:121.00   T-     :1032   pp     :1347           3rd Qu.: 0.79173  
+   Max.   :183.00   Nx     : 141   p-     : 749           Max.   : 1.57910  
+                    (Other): 217   (Other):1445                             
+   Penumbral.Magnitude Umbral.Magnitude       lat            lon       
+   Min.   :0.0004      Min.   :-1.0958   23S    : 544   87E    :   53  
+   1st Qu.:0.6844      1st Qu.:-0.3340   22S    : 533   64E    :   50  
+   Median :1.4175      Median : 0.4004   23N    : 514   64W    :   49  
+   Mean   :1.4187      Mean   : 0.4002   22N    : 511   129W   :   48  
+   3rd Qu.:2.1369      3rd Qu.: 1.1179   24S    : 394   99W    :   48  
+   Max.   :2.9089      Max.   : 1.8821   21S    : 378   107W   :   46  
+                                         (Other):9190   (Other):11770  
+   Penumbral.Eclipse.Duration..m. Partial.Eclipse.Duration..m.      tot      
+   Min.   :  5.2                  -      :4378                 -      :8585  
+   1st Qu.:223.1                  211.6  :  24                 98.6   :  28  
+   Median :295.0                  213.2  :  24                 98.8   :  23  
+   Mean   :270.0                  210.5  :  21                 96     :  22  
+   3rd Qu.:327.8                  210.9  :  21                 98.1   :  22  
+   Max.   :379.5                  211.2  :  21                 98.4   :  21  
+                                  (Other):7575                 (Other):3363
+  #+end_example
+
+- How many total solar eclipses were recorded in ~lunar.csv~, what was
+  the longest and what was the shortest total solar eclipse? What is
+  the first and the last recorded one?
+  #+begin_src R :session *R* :results output :exports both :noweb yes
+    ## Filter for total solar eclipses, converting factors to characters as necessary
+    total_eclipses <- subset(lunar, grepl("T\\+?\\-?", as.character(type)))
+
+    ## Count the total number of total solar eclipses
+    total_count <- nrow(total_eclipses)
+
+    ## Convert duration to numeric while handling potential NA values
+    ## Assuming 'tot' was imported as a factor because of stringsAsFactors=TRUE
+    total_eclipses$tot <- as.numeric(as.character(total_eclipses$tot))
+
+    ## Find the longest and shortest total solar eclipse durations
+    longest_eclipse_duration <- max(total_eclipses$tot, na.rm = TRUE)
+    shortest_eclipse_duration <- min(total_eclipses$tot, na.rm = TRUE)
+
+    ## Sort the total eclipses by date, converting factors to characters if necessary
+    total_eclipses_sorted <- total_eclipses[order(as.character(total_eclipses$date)), ]
+
+    ## Get the first and last recorded total solar eclipses
+    first_recorded_eclipse <- total_eclipses_sorted[1, ]
+    last_recorded_eclipse <- total_eclipses_sorted[nrow(total_eclipses_sorted), ]
+
+    ## Print the results
+    cat("Total Solar Eclipses:", total_count, "\n")
+    cat("Longest Eclipse Duration (minutes):", longest_eclipse_duration, "\n")
+    cat("Shortest Eclipse Duration (minutes):", shortest_eclipse_duration, "\n")
+  #+end_src
+
+  #+RESULTS:
+  : Total Solar Eclipses: 3479
+  : Longest Eclipse Duration (minutes): 106.6
+  : Shortest Eclipse Duration (minutes): 1.7
+
+- Is the 2024, April 8 total solar eclipse contained in this dataset?
+  #+begin_src R :session *R* :results output :exports both :noweb yes
+    ## Find the 2024 April 8 eclipse
+    april_8_2024_eclipse <- subset(lunar, as.character(date) == "2024-04-08")
+
+    ## Check if the eclipse is in the data
+    if(nrow(april_8_2024_eclipse) > 0) {
+      cat("Data for the 2024 April 8 eclipse:\n")
+      print(april_8_2024_eclipse)
+    } else {
+      cat("The 2024 April 8 eclipse is not in the dataset.\n")
+    }
+  #+end_src
+
+  #+RESULTS:
+  : The 2024 April 8 eclipse is not in the dataset.
+
+- This could be because we were looking at the lunar and not at the
+  solar eclipse dataset, or because we got the date format wrong (this
+  is the case: the dataframe date format is not "YYYY-MM-DD").
+
+- We're out of time for now, but there's still work to be done before
+  we can begin to think about plotting for a presentation!
+  
+*** Plotting the data
+
+An interesting plot would be to see if total solar eclipses happen
+more often in the Northern or in the Southern hemisphere.
+
+Here  is a plot from NASA. This is easy to do in R or Python as well.
+#+attr_html: :width 600px:
+[[./img/northern.png]]
+
+Another interesting plot is a time series showing the frequency of
+total solar eclipses in the course of 5,000 years.
+#+attr_html: :width 600px:
+[[./img/solar_eclipse_time_series.png]]
+
+** Relevance
+#+attr_html: :width 600px:
+#+caption: Fraunhofer lines (Credit: eventbrite.com)
+[[./img/fraunhofer.jpg]]
+#+begin_quote
+Understanding of what you want to show and whom to show it to: a clear
+objective and a specific audience.
+#+end_quote
+
+- Data never exist out of context. To invest time into gathering,
+  importing, transforming, analysing and visualizing data, we must
+  first convince ourselves of the relevance of our research question.
+
+- There is no "data science for its own sake", though there can be
+  surprise discoveries in the data (i.e. answers to questions not
+  asked, patterns not suspected before, etc.).
+
+- An example is the observation of helium in the Sun's atmosphere
+  during the solar eclipse of August 18, 1868. Astronomers observed a
+  yellow spectral line in the light from the Sun's chromosphere during
+  the eclipse. This observation could not be explained by any known
+  chemical elements at that time. Turns out it was "helium" (after the
+  Greek god of the Sun, Helios), which was only found on Earth 27
+  years after its initial discovery in the solar spectrum.
+
+- The image shows Fraunhofer lines - dark absorption lines that
+  correspond to different chemical elements.
+
+* What can you study at Lyon to learn more about this?
+#+attr_html: :width 600px:
+[[./img/lyon.png]]
+#+begin_quote
+- At Lyon, you can learn all about data in courses on:
+  1) Introductory and advanced data science with R and Python
+  2) Data visualization (to visualize data in maps or graphs)
+  3) Machine learning (to predict events from data)
+  4) Databases (to store large amounts of data)
+  5) Algorithms (to search through large data sets)
+  6) Geographical Information Systems (GIS)
+  7) Data modeling (to derive statistical insights from data)
+#+end_quote
+
+* References
+
+ Combining Faster R-CNN and U-net for efficient whole heart
+ segmentation: [[https://pythonawesome.com/combining-faster-r-cnn-and-u-net-for-efficient-whole-heart-segmentation/][pythonawesome.com]].
+
+ Solar and Lunar Eclipses: [[https://www.kaggle.com/datasets/nasa/solar-eclipses/data][kaggle.com]].
