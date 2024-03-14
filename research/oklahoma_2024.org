@@ -45,17 +45,17 @@ Digital Transformation (d-cube) in Berlin, Germany.
 - Batsov B. M-x Reloaded: The Second Golden Age of Emacs. 27
   Feb 2024. URL: [[https://batsov.com/articles/2024/02/27/m-x-reloaded-the-second-golden-age-of-emacs/][batsov.com]].
 
-- Birkenkrahe M. Emacs + Org mode progarmming practice. YouTube
+- Birkenkrahe M. Emacs + Org mode programming practice. YouTube
   Playlist. 2024. URL: [[https://www.youtube.com/playlist?list=PLwgb17bzeNygGtpZE_8gaWELZPbxfbUiO][youtube.com]].
 
 - Birkenkrahe M. Teaching Data Science with Literate Programming
   Tools. Digital. 2023; 3(3):232-250. [[https://doi.DOI:10.3390/digital3030015][DOI:10.3390/digital3030015]].
 
-- Birkenkrahe M. The Role of AI Coding Assistants: Revisiting the Need
-  for Literate Programming in Computer and Data Science
-  Education. Proc. 18th Int. Technology, Education and Development
-  Conf., Valencia (Spain), March 4-5, 2024 (to
-  appear). DOI:10.21125/inted.2024.
+- Birkenkrahe, M. The Role of AI Coding Assistants: Revisiting the
+  Need for Literate Programming in Computer and Data Science
+  Education. In: Proc. 18th Int. Technology, Education and Development
+  Conf (INTED), 4-6 March 2024, 127-132; URL:
+  https://doi.org/10.21125/inted.2024.0071
 
 - Wulff A. 8 Reasons Why Emacs is the Best Text Editor for
   Programming. July 27 2021. URL: [[https://hackernoon.com/8-reasons-why-emacs-is-the-best-text-editor-for-programming-0w4o37ld][hackernoon.com]].
