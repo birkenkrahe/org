@@ -1,41 +1,33 @@
-
+#+startup: overview hideblocks indent entitiespretty: 
+#+options: toc:nil num:nil ^:nil:
 * Script to =fetch= and =pull= from =origin= to =remote=
 #+begin_src bash :tangle fetch.sh
-  #!/bin/bash
+#!/bin/bash
 
-  # Loop through each directory provided as an argument
-  while true; do
-      # Ask for the repository name (leave empty to finish):
-      echo "Enter the repository name (leave empty to finish):"
-      read REPO_NAME
+# Define an array with the directory names
+directories=("admin" "cpp" "db24" "ds205" "org" "os24" "research")
 
-      # Check if the repository name was entered
-      if [[ -z "$REPO_NAME" ]]; then
-	  echo "No repository entered. Exiting..."
-	  break # Exit the loop
-      fi
+# Save the current directory
+start_dir=$(pwd)
 
-      # Navigate to the repository directory
-      cd "./${REPO_NAME}"
-
-      # Fetch changes from the origin
-      echo "Fetching from origin..."
-      fetch_result=$(git fetch origin 2>&1)
-
-      # Check if fetch_result is non-empty, indicating changes have been fetched
-      if [[ -n "$fetch_result" ]]; then
-	  echo "Changes detected, pulling updates..."
-	  git pull origin
-      else
-	  echo "No changes detected."
-      fi
-
-      # Navigate back to the original directory
-      echo "Returning to the base directory..."
-      cd - > /dev/null
-  done
-#+END_SRC
-
+# Loop through the directories and check `git status`
+for dir in "${directories[@]}"; do
+    if [ -d "$dir" ]; then
+	echo "Entering $dir..." # &> /dev/null
+	cd "$dir"
+	# Check if there are changes
+	if [ -n "$(git fetch origin)" ]; then
+	    echo "Changes detected, pulling updates..."
+	    git pull origin
+	else
+	    echo "No changes detected" # &> /dev/null
+	fi
+	# Return to the starting directory
+	cd "$start_dir"
+    else
+	echo "Directory $dir does not exist."
+    fi
+done
 #+end_src
 
 * Script to =push= local (=origin=) changes to GitHub (=main=).
@@ -75,7 +67,7 @@ while true; do
 
     # Navigate back to the original or base directory if needed
     # This is important if your script runs in a specific working directory
-    # cd /path/to/your/base/directory
+     cd "../"
 
     # Clear the repository name variable to allow for a new input
     unset REPO_NAME
@@ -123,5 +115,5 @@ git config --global --unset url."https://birkenkrahe:...@github.com/".insteadof
 
 * Add new key: 
 #+BEGIN_SRC sh :results silent
-git config --global url."https://birkenkrahe:...@github.com/".insteadof "https://github.com/"
+git config --global url."...@github.com/".insteadof "https://github.com/"
 #+END_SRC
