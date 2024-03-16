@@ -1,5 +1,5 @@
 
-* Script to =fetch= and =pull= from =origin= to =remote
+* Script to =fetch= and =pull= from =origin= to =remote=
 #+begin_src bash :tangle fetch.sh
   #!/bin/bash
 
