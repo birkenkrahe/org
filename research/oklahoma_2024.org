@@ -57,6 +57,9 @@ Digital Transformation (d-cube) in Berlin, Germany.
   Conf (INTED), 4-6 March 2024, 127-132; URL:
   https://doi.org/10.21125/inted.2024.0071
 
+- Fireship. AI just officially took our jobs...I hate you Devin. In:
+  Code Report (March 13, 2024). URL: [[https://youtu.be/AgyJv2Qelwk?si=xE7Fb05-EI-Ewn6f][youtube.com]].
+
 - Wulff A. 8 Reasons Why Emacs is the Best Text Editor for
   Programming. July 27 2021. URL: [[https://hackernoon.com/8-reasons-why-emacs-is-the-best-text-editor-for-programming-0w4o37ld][hackernoon.com]].
 
