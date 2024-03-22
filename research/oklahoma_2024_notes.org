@@ -5,7 +5,7 @@
 
 ([[https://github.com/birkenkrahe/org/blob/master/research/oklahoma_2024.org][Abstract / Announcement]])
 
-* DONE Introduction
+* Introduction
 
 Over the past nine months, I've given a number of talks about three
 different topics[fn:1]:
@@ -21,7 +21,7 @@ First, I'll give a brief (but not too brief) account of my own life
 and work. This is because I'd like for you to know where I'm coming
 from, and why I pursue this particular avenue of arguments.
 
-* DONE About me
+* About me
 
 - In physics, I specialized in lattice gauge theory, which is an
   attempt to simulate quantum field theories in a discretized
@@ -40,7 +40,7 @@ from, and why I pursue this particular avenue of arguments.
 - More recently, I have kept busy teaching computer and data science
   courses at a small liberal arts college in rural Arkansas.
 
-* DONE Data science
+* Data science
 
 You need to meet the listeners where they are. I don't know where you
 are, of course, but you're attending a data science workshop so either
@@ -62,7 +62,7 @@ What is definitely the case is that data science in practice requires
 advanced knowledge of computing, mathematics and statistics, and
 knowledge of a domain.
 
-Which computing? The computing is not limited to languages like SQL, R
+*Which computing?* The computing is not limited to languages like SQL, R
 or Python. It includes a deep knowledge of infrastructure because of
 the data science pipeline that stretches from engineering issues
 focused on data, collection, preparation and storage, all the way to
@@ -72,7 +72,7 @@ employed in production scenarios. Learning scenarios hardly ever
 involve big data or advanced parallelization, which is hard to do with
 non-compiled languages.
 
-Which maths? The mathematical needs are similarly
+*Which maths?* The mathematical needs are similarly
 open-ended. Statistics and probability theory are the most common, but
 graph theory, linear algebra and advanced calculus are just as
 important. For example, when trying to understand or develop deeply
@@ -81,7 +81,7 @@ and knowledge of measure theory in high-dimensional spaces. Worse:
 that's just the maths that we know we need without knowing very much
 about these models yet.
 
-Which domains? Well, everybody wants it for different reasons - to
+*Which domains?* Well, everybody wants it for different reasons - to
 only mention a few: marketing wants it to crunch customer data at
 scale; finance wants it to automate transactions, analyse markets, and
 make predictions; Cybersecurity needs AI to defend networks and humans
@@ -135,7 +135,7 @@ the case of data science, these giants are very young themselves,
 while in the case of biophysics or social linguistics, at least one of
 the parents is an adult.
 
-* DONE Teaching data science
+* Teaching data science
 
 I have already explained how and why learning and teaching data
 science is more difficult than teaching any of its composite
@@ -177,12 +177,17 @@ computational - like psychology, business, exercise science, biology
 etc.
 
 On the whole, the students seem more interested in convenience than
-customization. As a result the machines, which they are meant to
-control, have all the power (though figuratively and passively, of
-course, at least for the time being - the spectre of AGI
+choice or customization. As a result the machines, which they are
+meant to control, have all the power (though figuratively and
+passively, of course, at least for the time being - the spectre of AGI
 notwithstanding).
 
-* DONE Literate programming
+In my experience, the widespread use of certain operating systems is
+part of the problem and not part of the solution, as is too early use
+of IDEs and coding platforms that make it easy to write and run
+correct code but hard to build, refactor and debug code with issues.
+
+* Literate programming
 
 Moving on to literate programming. On the surface of it, it's a
 technique developed by Donald Knuth in the 1980s alongside his
@@ -283,7 +288,7 @@ I will explain later how I use literate programming in my
 teaching. But first let me briefly summarize some perhaps unexpected
 challenges of data science education.
 
-* DONE Literate programming with Emacs and Org-mode
+* Literate programming with Emacs and Org-mode
 
 Emacs is a fully customizable programming platform. It is
 self-documenting, extensible, transparent, includes a text editor and
@@ -350,9 +355,38 @@ programming style. In effect, the students are continously immersed in
 a world in which they only code using Emacs and Org-mode. Through
 Emacs they learn about package management, use of the shell, Linux
 shell commands even in Windows (which are the only available computers
-in the lab), file tree structure, process control,
+in the lab), file tree structure, process control, and much more.
 
-* DONE AI disruption
+To facilitate onboarding, I developed a simplified Emacs tutorial
+focused on the basics of literate programming with Org-mode:
+
+- Navigation and major modes
+- Managing files and buffers
+- Customizing the interface
+- Keyboard shortcuts
+
+By the end of the 2nd week, most students were able to use Emacs and
+Org-mode competently for their assignments in and outside of
+class. All classes were taught physically in a computer lab. Emacs
+with Org-mode and necessary languages were pre-installed on the
+computers, which ran Windows (like most of the students' personal
+computers). A typical class involved a lecture delivered by me in
+Emacs as a code along: the students would get an Org-mode file with
+all code removed. Students submitted home assignments as Org-mode
+files complete with documentation, code, and sample output. Working
+this way made classes highly interactive: students were busy coding,
+and learning to control their environment better all the time.
+
+In my classes, the students have to complete an independent, agile
+research project using an adaptation of Scrum. You can find examples
+of these high octane projects in my paper.  Using literate programming
+for the projects provided some unique benefits: by having to
+continuously interweave documentation, references, and output
+alongside functional code, students learnt to communicate their work
+throughout the term, in varying stages of completion, from research
+question to prototype to finished product.
+
+* AI disruption
 
 I promised to address the dangers of AI coding assistance period. Let
 me first sketch the situation as I see it. I'll be brief also because
@@ -385,6 +419,24 @@ of - the math is applied, useful to achieve performance improvements
 but not to establish a theory of AI computing, especially of deep
 learning methods). I apologize for the handwaving nature of my
 description (though it's mostly deserved).
+
+In the past 30 years, I have often focused on disruptive
+technologies - starting with my PhD work, which used the then
+pretty-new programming language C++ to implement a graph library to
+speed up numerical algorithms, until my current interest in generative
+AI. This covers all AI apps that generate new stuff out of old stuff,
+by digesting large amounts of textual and visual information and using
+it to complete user prompts for new texts or images. Most of these
+topics are no longer active interests of mine but they all relates to
+a common core, which is trying to understand complex systems from a
+tool based perspective. You do all know the saying “If all you’ve got
+is a hammer, every problem looks like a nail” - For complex systems
+especially, I’ve found it beneficial to have many different tools from
+different problem-solving disciplines at hand. Or it could be that I’m
+just in love with tools because I was born into a family of artisans,
+and my grandfather was a blacksmith who specialized in building and
+fixing metal work for medieval castles up and down the river Rhine in
+Germany.
 
 Still, at least until six months ago, the spirit of AI in the
 developers' community was pretty positive, and I don't expect that
@@ -422,7 +474,7 @@ Above all, I was, and I am, interested in articulating positive
 didactic responses to this second mess (after the data science mess
 described earlier). So here is what I've done so far.
 
-* DONE Responding to AI disruption
+* Responding to AI disruption
 
 I have identified 10 different, non-trivial, new (for me) use cases
 for AI-assisted teaching and learning, especially, but not only, when
@@ -465,7 +517,7 @@ creates a unique dynamic, with the potential to engage all of our
 attention and energy and giving little in return - a little like an
 unhappy marriage with benefits.
 
-* DONE Literate programming to the rescue
+* Literate programming to the rescue
 
 I have some evidence for my claim that literate programming may prove
 extremely beneficial to alleviate some of the dangers of
@@ -531,7 +583,7 @@ convenience.
 - Case study: [[http://tinyurl.com/litprog-tools][tinyurl.com/litprog-tools]]
 - Literate programming videos: [[https://youtube.com/@LiterateProgramming][youtube.com/@LiterateProgramming]]
 
-* DONE My own computing setup
+* My own computing setup
 
 - All teaching material is on =GitHub= (apart from =Canvas= quizzes). With
   about 200 contributions per day, I write about 100k lines of code
