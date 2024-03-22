@@ -1,0 +1,6 @@
+#+TITLE:Teaching data science with literate programming tools: a mighty fortress against the dangers of AI-assisted coding 
+#+AUTHOR:Marcus Birkenkrahe
+#+SUBTITLE:Oklahoma Univ Data Science Workshop 22 March 2024
+#+STARTUP:overview hideblocks indent
+#+OPTIONS: toc:nil num:nil ^:nil
+#+PROPERTY: header-args:R :session *R* :results output :exports both :noweb yes#+PROPERTY: header-args:python :session *Python* :results output :exports both :noweb yes#+PROPERTY: header-args:C :main yes :includes <stdio.h> :results output :exports both :noweb yes#+PROPERTY: header-args:C++ :main yes :includes <iostream> :results output :exports both :noweb yes
