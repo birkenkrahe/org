@@ -197,7 +197,7 @@ through Leslie Lamport's LaTeX.
 I cannot remember the day or the hour when I got hooked to literate
 programming - It may initially just have been an issue of status
 because literate sounds well, so literate. But the real reason for
-doing it was that I had a huge number of sources interests,
+doing it was that I had a huge number of sources, interests,
 contacts. And I was already indulging in a tendency to impatiently
 write code before I had fully understood what I wanted to do. Now, for
 physicists, a key component of our training is postponing the moment
