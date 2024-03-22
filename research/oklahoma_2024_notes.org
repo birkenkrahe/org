@@ -551,7 +551,9 @@ purpose of the teaching. Instead it is the immersive quality of the
 work. See for yourself at [[http://tinyurl.com/litproggpt4][tinyurl.com/litproggpt4]].
 
 To mount a more profound defense against the threats and dangers
-inherent in
+inherent in the use of AI in education and industry will take quite
+some effort, especially because whoever does it will be greeted as a
+Kassandra.
 
 * Conclusions
 
