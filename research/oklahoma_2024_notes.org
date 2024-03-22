@@ -1,8 +1,590 @@
-#+TITLE:Teaching data science with literate programming tools: a mighty fortress against the dangers of AI-assisted coding 
+#+TITLE:Teaching data science with literate programming tools: a mighty fortress against the dangers of AI-assisted coding
 #+AUTHOR:Marcus Birkenkrahe
 #+SUBTITLE:Oklahoma Univ Data Science Workshop 22 March 2024
 #+STARTUP:overview hideblocks indent
-#+OPTIONS: toc:nil num:nil ^:nil
-#+PROPERTY: header-args:R :session *R* :results output :exports both :noweb yes#+PROPERTY: header-args:python :session *Python* :results output :exports both :noweb yes#+PROPERTY: header-args:C :main yes :includes <stdio.h> :results output :exports both :noweb yes#+PROPERTY: header-args:C++ :main yes :includes <iostream> :results output :exports both :noweb yes
 
 ([[https://github.com/birkenkrahe/org/blob/master/research/oklahoma_2024.org][Abstract / Announcement]])
+
+* DONE Introduction
+
+Over the past nine months, I've given a number of talks about three
+different topics[fn:1]:
+
+- How I teach data science using literate programming tools
+- How I get all students to work with Emacs and Org-mode
+- How I use AI assistance for my research, my teaching and my learning
+
+In this talk, which is a little longer than most of the others, I will
+try to weave these three different strands together.
+
+First, I'll give a brief (but not too brief) account of my own life
+and work. This is because I'd like for you to know where I'm coming
+from, and why I pursue this particular avenue of arguments.
+
+* DONE About me
+
+- In physics, I specialized in lattice gauge theory, which is an
+  attempt to simulate quantum field theories in a discretized
+  space-time. Then as today this is done with massively parallel
+  supercomputers. This included early work on neural networks.
+- As a graduate student, I was sucked into the maelstrom of early web
+  development, which made me leave physics for industry, and I began
+  working for large multinational companies to improve their knowledge
+  management. This included data science problems and techniques.
+- I was distracted once again when, because of my technical skills, I
+  was forced to lead large global teams without having any affinity or
+  ability to manage people. So I trained as a therapist and
+  subsequently worked as a coach for executives.
+- I then spent a number of years teaching informatics, or applications
+  of information technology, at a large German business school.
+- More recently, I have kept busy teaching computer and data science
+  courses at a small liberal arts college in rural Arkansas.
+
+* DONE Data science
+
+You need to meet the listeners where they are. I don't know where you
+are, of course, but you're attending a data science workshop so either
+you know nothing about data science and are curious to learn more, or
+you know something about it already. Either way works because data
+science isn't a "science" to begin with. It's much too young for that.
+
+So when I say that it's not a science, what I mean is that there is no
+discernible theory. And it's also not clear what type of problems this
+field of data science will ultimately excel in. Likewise, the job
+description data scientist is open. Accessible to people from various
+backgrounds. Now this is quite different to being a physicist,
+training as a physicist or as a physician, period.
+
+Let's look at the supply and demand side of data science for lack of a
+better way of describing the dichotomous nature of the field.
+
+What is definitely the case is that data science in practice requires
+advanced knowledge of computing, mathematics and statistics, and
+knowledge of a domain.
+
+Which computing? The computing is not limited to languages like SQL, R
+or Python. It includes a deep knowledge of infrastructure because of
+the data science pipeline that stretches from engineering issues
+focused on data, collection, preparation and storage, all the way to
+sophisticated visualization and storytelling. The infrastructure used
+in learning scenarios is very different from the infrastructure
+employed in production scenarios. Learning scenarios hardly ever
+involve big data or advanced parallelization, which is hard to do with
+non-compiled languages.
+
+Which maths? The mathematical needs are similarly
+open-ended. Statistics and probability theory are the most common, but
+graph theory, linear algebra and advanced calculus are just as
+important. For example, when trying to understand or develop deeply
+learning models, you need partial derivatives, differential equations,
+and knowledge of measure theory in high-dimensional spaces. Worse:
+that's just the maths that we know we need without knowing very much
+about these models yet.
+
+Which domains? Well, everybody wants it for different reasons - to
+only mention a few: marketing wants it to crunch customer data at
+scale; finance wants it to automate transactions, analyse markets, and
+make predictions; Cybersecurity needs AI to defend networks and humans
+against AI; and bioinformatics is only one of many scientific
+disciplines with complex data analytics and prediction needs.
+
+This was the demand side. On the supply side, data science is
+considered sexy because it offers unlocking the data to generate
+stories that are supposedly hidden in the data.
+
+Story here is a shortcut for a deep human need to make sense of the
+world. This is a very old need. The new approach is to rely solely on
+the data. Look at this example, which is more complex than it looks.
+
+The data are taken from the well-known Gapminder data set of economic
+indicators first popularized by Hans Rosling in 2006. You can see the
+almost raw data on the left hand side where the economic indicators of
+many countries for life expectancy versus GDP per capita are plotted
+on top of one another. Next to it is a literate program in an Emacs
+Org-mode file that attempts to sort through the data. Next is another
+plot that shows the effects of data restriction and transformation as
+well as a trend line which is the result of linear regression
+analysis, and in the last picture you see the visualization of a
+particular aspect of the data: the fact that between 1950 and 2007
+life expectancy has increased on all continents.
+
+The contrast between the raw plot on the left and the animation on the
+right could not be stronger. There is a surprising amount of
+detail. For example, you can see the effect of the genocide in Rwanda
+in 1994 in the Africa panel. You can literally see the stability of
+life in Europe vs. life in Asia.
+
+These visualizations are interesting also for what they do not show
+which is only understandable when you engage with the domain of
+economics and know its limitations. For one thing, global progress
+cannot only be measured in terms of GDP per capita and life
+expectancy, though clearly positively correlated with national wealth,
+probably also depends on factors that are not easily identified by
+economists such as faith, dietary regimes, or a culture's attitude
+towards old people.
+
+It is this complexity and this range of skill requirements that meant
+that until not so long ago data science was considered to be for
+graduates only. But the increased interest in data, data analytics and
+machine learning lead to an increase in demand and the creation of
+many undergraduate courses of study.
+
+You could undoubtedly tell a similar story for any interdisciplinary
+science that, like data science, stands on the shoulders of giants. In
+the case of data science, these giants are very young themselves,
+while in the case of biophysics or social linguistics, at least one of
+the parents is an adult.
+
+* DONE Teaching data science
+
+I have already explained how and why learning and teaching data
+science is more difficult than teaching any of its composite
+fields. The issue is exacerbated by the fact that contemporary tools
+are often graphical rather than command-line oriented, and hide the
+orchestra in a pit as it were. The orchestra being, in the simplest
+case, programs to manage files and processes, compile, debug, and
+refactor code, knit together program logic and program code, and
+finally assemble and optimize program output to gain insights (in data
+analysis), and so on - in other words, all of the software engineering
+that enters the data "pipeline" process.
+
+(It's not really a pipeline to be honest, but rather a highly agile
+process that resembles a true experiment rather than a streamlined,
+linear process).
+
+Earlier I expressed my view that data science wasn't really a science,
+at least not yet. For the time being it's a craft (some like to call
+it an art but I don't think that helps at all). If it's a craft, then
+you can learn it by embarking on a very old process, which is akin to
+learning how to fix a car: take it apart, learn the tools along the
+way, build mechanical literacy by fixing many cars, develop strong
+inferential thinking by developing solutions for many different
+problem scenarios, and slowly, and patiently, improve your heuristic
+skills. You could use the same process for other craft-like
+activities, including computer craft (aka computer science).
+
+Here's the problem: today's students (undergraduates, at least those I
+have encountered over last 20 years of teaching) often no longer
+understand the computing and data infrastructure that they're using:
+they do not know computers (except as "bricks with buttons") and they
+do not know anything about the secret life of the data streams under
+the hood. More specifically, they cannot find anything on their PCs,
+they do not distinguish between browser, PC, network, cloud, client,
+server, etc. This describes many a computer and data science student
+that I have encountered, and of course it is worse for students who
+come from other disciplines that are not primarily digital or
+computational - like psychology, business, exercise science, biology
+etc.
+
+On the whole, the students seem more interested in convenience than
+customization. As a result the machines, which they are meant to
+control, have all the power (though figuratively and passively, of
+course, at least for the time being - the spectre of AGI
+notwithstanding).
+
+* DONE Literate programming
+
+Moving on to literate programming. On the surface of it, it's a
+technique developed by Donald Knuth in the 1980s alongside his
+typesetting system TeX later popularized in scientific publishing
+through Leslie Lamport's LaTeX.
+
+I cannot remember the day or the hour when I got hooked to literate
+programming - It may initially just have been an issue of status
+because literate sounds well, so literate. But the real reason for
+doing it was that I had a huge number of sources interests,
+contacts. And I was already indulging in a tendency to impatiently
+write code before I had fully understood what I wanted to do. Now, for
+physicists, a key component of our training is postponing the moment
+of truth and extending the time spent on understanding what it is you
+actually want to address. Computer scientists, it seems to me, on the
+whole, tend to be more impatient. Perhaps because their main tool, the
+machine, favors instant gratification. While physicists, at least
+theoretical physicists, are more like mathematicians, and less like
+engineers. At least that's my experience (otherwise not qualified by
+systematic investigation).
+
+Whatever the history, you may already have picked up that literary
+programming requires some patience. In a nutshell, paraphrasing the
+words of its inventor, it is an approach to programming that is for
+humans rather than machines. A literary program consists of
+documentation, source code, and output, and can be processed to
+generate printable documentation and compilable source code of files.
+
+This approach was popularized in data science early on through Jupyter
+notebooks, which most of you will know. These notebooks allow data
+scientists to explore data while keeping a notebook of their ideas and
+intermediate results open as a basis for publication and sharing. The
+name "Jupyter" comes from three popular interpreted languages, Julia,
+Python, and R. The IPython shell runs Python, and for another language
+you need to install/load the respective kernel. Kernels are now
+available for compiled languages, too, to add REPL functionality. You
+cannot run more than one of these languages in a given notebook at the
+same time. This is one of the reasons to switch to Emacs + Org-mode
+(see below).
+
+While the general idea of literate programs and the accompanying
+style, literate programming, is simple, there are different
+implementations. For example, in Emacs Org-mode, a lightweight tool to
+add true literate programming functionality is with =noweb=. It is
+language-agnostic, that is it can be used with any programming
+language.
+
+*Noweb* supports the notion of tangling and weaving:
+- Tangling is the process of extracting the program's source code from
+  the literate programming document, making it ready for compilation.
+- Weaving generates human-readable documentation from the same
+  document, including both the narrative text, the embedded code, and
+  potential output, formatted in a way that's suitable for reading and
+  understanding the program's structure and logic.
+
+In Emacs Org-mode files, you flag a code block with =:noweb yes= for
+inclusion of other named code blocks. Here is an example that uses
+Org-mode code blocks in Emacs - but =noweb= could also be used as a
+standalone literate programming tool.
+
+The named code block =hello_world= below contains an R function. The
+next code block uses
+#+begin_example org
+#+name: def
+#+begin_src R :results silent :session *R*
+  hello <- function() {
+    return ("Hello, world!")
+    }
+#+end_src
+#+name: use "hello world" function hello()
+#+begin_src R :noweb yes :session *R* :tangle hello.R
+  <<def>>
+  hello()
+#+end_src
+
+#+RESULTS: use "hello world" function hello()
+: Hello, world!
+#+end_example
+
+The tangled source code looks like this - =noweb= works like a
+preprocessor that substitutes =def= for =<<def>>=.
+#+begin_example
+hello <- function() {
+  return ("Hello, world!")
+  }
+
+## call hello
+hello()
+#+end_example
+
+Other implementations of Knuth's idea include his original tools WEB
+(for Pascal) and CWEB (for C), Org-mode for Emacs, Jupyter notebooks,
+R Markdown (with the =knitr= package), and even "literate Haskell". I
+have no experience with literate Haskell, but I have used all of the
+other implementations, with Emacs + Org-mode my favorite tool by far.
+
+I will explain later how I use literate programming in my
+teaching. But first let me briefly summarize some perhaps unexpected
+challenges of data science education.
+
+* DONE Literate programming with Emacs and Org-mode
+
+Emacs is a fully customizable programming platform. It is
+self-documenting, extensible, transparent, includes a text editor and
+shell capabilities, weans users off the mouse and gets them used to
+command line/keyboard interaction with the computer, is largely
+written in Lisp (the first proper AI language), is free and open
+source software, is based on the Unix methodology, is available since
+the mid-1980s (and used by me since 1991), is not really hard to learn
+and easy to use.
+
+As a literate programming tool, Emacs allows you to execute code
+blocks in Org-mode files (currently in 43 languages), display the
+results (in the file - as long as they're not dynamic like an
+animation), interact with the OS via several terminal programs,
+extract source code with tangle, render documentation in multiple
+formats including LaTeX, manage tasks and projects, load and use
+thousands of add-on packages.
+
+Shortly after my arrival at Lyon College, in 2022, I decided to face
+the double demons of convenience and complexity - convenience as the
+ruling student motive, and complexity as the dominant data science
+demand.
+
+Only about three years earlier I had made the change from business
+informatics to data science, as well as from Windows/MacOS back to
+Linux, and also back to Emacs. I was delighted to learn about
+Org-mode and began to use it heavily in my own work.
+
+At Lyon, starting in spring 2022, I began to mandate the use of Emacs
+and Org-mode in all my computer and data science classes. In the fall
+of 2023, I published my experiences after three terms in nine
+different courses covering all levels of difficulty in an
+undergraduate degree.
+
+My findings contradicted the common wisdom that Emacs has too steep a
+learning curve for absolute beginners. It was considered hard at the
+start but well wort the investment especially for compiled languages
+like C, and in data science courses where I taught different languages
+in concert (e.g. R, Python and SQL).
+
+The overall quality of the documentation created by the students in
+their literate programs was uneven but higher and more voluminuous
+than ever before.
+
+The students particularly liked the interactiveness of the approach
+(more about that below). Most importantly, the students' mastery and
+knowledge of computing and data science infrastructure was much
+improved. As a consequence, their ability to perform well during
+internships or on the job was much higher. The best students would not
+be content with using Emacs in class but took it to heart and kept
+using it long after - in some cases "infecting" the host of their
+workplace with Emacs + Org-mode and the literate programming
+methodology.
+
+A few words about the way I teach my courses. You can see the material
+that I use on GitHub yourself. My lectures are typically short and
+they are accompanied by code-along files and followed by practice
+files, all of which are Emacs org mode files. During my lectures, the
+students called along with me. They then work on their own using
+practice files. Their home assignments are Org-mode and they must
+submit solutions as literate programs, i.e. as Emacs Org-mode files. I
+often create videos demonstrating assignment solutions in literate
+programming style. In effect, the students are continously immersed in
+a world in which they only code using Emacs and Org-mode. Through
+Emacs they learn about package management, use of the shell, Linux
+shell commands even in Windows (which are the only available computers
+in the lab), file tree structure, process control,
+
+* DONE AI disruption
+
+I promised to address the dangers of AI coding assistance period. Let
+me first sketch the situation as I see it. I'll be brief also because
+anything related to augmenting human workflow with AI is in extreme
+flux and changes all the time.
+
+When I say "AI", I mean large language models (LLMs) of the
+transformer variety like ChatGPT, Claude, or Gemini (though see below
+for some remarks on types of models).
+
+Take the announcement by Cognition Labs less than 2 weeks ago that
+they had created the first AI software engineer. Pretty much anything
+you hear in this realm spells "disruption", not just "change". I am
+not qualified to comment on the disruption in production software
+engineering since I don't work there but I can comment on the
+disruption of computer and data science education (and to an extent
+the disruption of other forms and subjects of education, too, since
+these are much discussed at our liberal arts college).
+
+My summary view, which is shared by many: nobody in their right mind
+would hire an AI developer or software engineer if it was a person and
+not a machine: empirical studies find that only 65% of AI-generated
+code is accurate at best (cp. Yetistiren et al. 2023). Devin, "the
+first AI software engineer" resolves 14% of real software engineering
+problems (SWE-bench test). On the whole, these machines work well when
+the coast is clear, and they fail when ... well, nobody knows why
+exactly or when exactly they fail (remember when I said computer and
+data science weren't sciences but crafts? There's no theory to speak
+of - the math is applied, useful to achieve performance improvements
+but not to establish a theory of AI computing, especially of deep
+learning methods). I apologize for the handwaving nature of my
+description (though it's mostly deserved).
+
+Still, at least until six months ago, the spirit of AI in the
+developers' community was pretty positive, and I don't expect that
+this has changed much given the new injection of cash, time, brain and
+relentless marketing for AI-assistants on all available channels, even
+in Emacs (in the form of the charming minor =org-ai= mode, which I use a
+lot): according to the 2023 Stackoverflow Developer Survey, 82% of
+developers already write code using AI (probably more likely Copilot
+than ChatGPT), 49% debug using AI, and 42% trust in the accuracy of
+the AI tools. Developers are mostly after increasing their
+productivity as professionals, learning faster, and being more
+efficient. The only positive aspect that I can discern among all of
+this is that 34% of developers document code with AI tools, which
+undoubtedly means that they document more (though not necessarily
+correctly).
+
+To make statements about accuracy, let alone act on them, is difficult
+because of the nature of LLMs: they are black-boxed, therefore
+difficult to analyze, the use of a natural language interface is both
+a blessing (because it feels natural and human) and a curse (because
+language is a tricky UI - we don't understand language well at all,
+and we don't understand ourselves well especially when it comes to
+interacting with machines, or with machines as assistants as part of a
+larger human team).
+
+What we do know is that the success of these models so far is
+uncanny and unreasonable in the sense of Wigner's (1960)
+characterization of the success of mathematics to describe the
+physical world, and of the prediction by Halevy et al. (2009) that
+data will be unreasonably effective in machine learning (that is, we
+don't know why and we may never know why - a situation that ought to
+be very uncomfortable for the scientifically minded).
+
+Above all, I was, and I am, interested in articulating positive
+didactic responses to this second mess (after the data science mess
+described earlier). So here is what I've done so far.
+
+* DONE Responding to AI disruption
+
+I have identified 10 different, non-trivial, new (for me) use cases
+for AI-assisted teaching and learning, especially, but not only, when
+computer and data science are concerned:
+1. Create images for presentations or chats
+2. Solutions to textbook exercises
+3. Create test questions with solutions
+4. Explanations of code chunks
+5. Provide syntax definitions
+6. Syllabus from textbook TOCs
+7. Critique a lecture, exercise, test material
+8. Summarize online content
+9. Summarize a student's submission
+10. Improve prompts to improve queries
+
+After drawing up a list, I asked ChatGPT to order it for me based on
+my query history (going back to November 2022), and this is the
+result. I thought that I had barely made use of (2) and (4) but I was
+aware of (1,3,5) as my top uses.
+
+Concrete uses include:
+1) The funnel: "Use all material of a given week to design a quiz or
+   an exercise" (requiring more detail, e.g. the type of quiz
+   questions, and the skill level or issues of the learners).
+2) The memory: "Remind me how this works in [programming language that
+   I'm not currently using much]".
+3) The artist: "Create an action figure diorama/diagram/poster for
+   [specific purpose]".
+
+On the whole, apart from the last use, I have experienced the AI as
+addictive and extractive rather than additive and effective. I think
+it is useful if and only if you don't really care what you say or
+write, or if you are willing to make up for the difference - e.g. by
+carefully checking every result returned by the AI as if it was a
+person with unpredictable episodes of total mental breakdown, or a
+genius, easily distracted three-year old.
+
+The AI is definitely a psychologically fascinating resource. It
+creates a unique dynamic, with the potential to engage all of our
+attention and energy and giving little in return - a little like an
+unhappy marriage with benefits.
+
+* DONE Literate programming to the rescue
+
+I have some evidence for my claim that literate programming may prove
+extremely beneficial to alleviate some of the dangers of
+AI-assistance. Again, I can only speak for computer and data science
+education with some competence, but my argument may extend further.
+
+Remember that literate programming is designed for humans and not for
+machines. The machine only gets the by-product of the
+tangling. Creating a literate programming must be done with a human
+reader and user in mind - and this is what the AI cannot do (and if it
+tries, it usually fails miserably not in the sense that it does not
+deliver but that what it delivers is often of very low quality).
+
+Literate programming against AI addiction works on several levels:
+Emacs and Org-mode require immersion from the student. This immersion
+beats the superficial conversational relationship with the AI. There
+is a steep learning curve with many interdependencies because of the
+need to understand, and master the computing infrastructure. This
+learning cannot be made shorter by AI memory crutches. Lastly, using
+literate programming in the classroom in the way I do it, as part of
+an interactive, highly participatory process, engages the whole human
+and immerses the student once again in his or her problem solving
+process.
+
+Just for the fun of it, I tested a few weeks ago how well ChatGPT
+could mimic a human literate programmer. I used a Fibonacci program as
+an example, and I asked the AI to improve its first result with a
+"human touch". This showed me that the AI could possibly deliver a
+near-human result - but getting a result is not the main or only
+purpose of the teaching. Instead it is the immersive quality of the
+work. See for yourself at [[http://tinyurl.com/litproggpt4][tinyurl.com/litproggpt4]].
+
+To mount a more profound defense against the threats and dangers
+inherent in
+
+* Conclusions
+
+As Becker et al (2023) point out (somewhat drily): "AI-generated code
+presents both opportunities and challenges for students and
+educators."
+
+There is no chance to predict how the scales will be tipped in the
+future but I think programming as a professional activity will
+continue to be hard, and software engineering will not become easier
+but likely harder as the technology mix will acquire not very well
+understood AI, and as AI-infused applications are increasingly pushed
+into the mainstream.
+
+I suggest adopting (or redisovering) the methods known as "literate
+programming", which have the potential to refocus program development,
+e.g. as part of a data science workflow, highlighting the human part
+of the processes involved, and reduce dependency on AI.
+
+To implement literate programming in education, I prefer a tool like
+Emacs coupled with Org-mode, which teaches important computing
+infrastructure principles and gets students used to choice instead of
+convenience.
+
+* Sources, script and slides
+
+- These slides: [[http://tinyurl.com/ou-2024-slides][tinyurl.com/ou-2024-slides]]
+- Speaker notes: [[http://tinyurl.com/ou-2024-notes][tinyurl.com/ou-2024-notes]]
+- Case study: [[http://tinyurl.com/litprog-tools][tinyurl.com/litprog-tools]]
+- Literate programming videos: [[https://youtube.com/@LiterateProgramming][youtube.com/@LiterateProgramming]]
+
+* DONE My own computing setup
+
+- All teaching material is on =GitHub= (apart from =Canvas= quizzes). With
+  about 200 contributions per day, I write about 100k lines of code
+  per year. Other platforms: =DataCamp=, =Google Colab=, =Kaggle=, =Discord=,
+  and =Google spaces=/=chat= for course-based community.
+- =Linux Mint= 21.3 with =Emacs= 29.2 modified for Debian (though I also
+  have Windows 10 and MacOS 15.5 so that I know what my students are
+  up against, poor sods). Raspberry Pi (=Raspbian=), micro:bit for the
+  occasional maker project (would like to do more).
+- Heavily used packages include =org-mode= with =org-babel= for coding (R,
+  Python, C/C++, Elisp, SQL, JS), =org-roam= for notes, =org-present= for
+  presentations, =ox-ipynb= for notebooks, =ace-window=, =ivy/swiper= for
+  window/buffer control, =spacious-padding=, =doom-ir-black theme=,
+  =rainbow-delimiters=, =org-tempo= for skeleton code, =org-bullets= for
+  layout, Emacs Speaks Statistics (=ess=) for R. Recently used: =org-ai=
+  for ChatGPT, =espeak= and =whisper= for speech-to-text conversion.
+- Other tools that come to mind: =simpleScreenrecorder= for tutorial
+  videos, =SQLite= for database practice and teaching, =bash= for
+  scripting, =Google Chrome= and =Google Slides= for browsing and
+  presenting outside of class (mostly because we're a "Google"
+  school), and =Zoom= for session recording.
+
+* References
+
+B.A. Becker, P. Denny, J. Finnie-Ansley, A. Luxton-Reilly, J. Prather,
+and E.A. Santos, "Programming Is Hard - Or at Least It Used to Be:
+Educational Opportunities and Challenges of AI Code Generation," in
+Proceedings of the 54th ACM Technical Symposium on Computer Science
+Education V. 1, pp. 500-506, Association for Computing
+Machinery, 2023.
+
+E. Wigner, The Unreasonable Effectiveness of Mathematics in the
+Natural Sciences, in Communications in Pure and Applied Mathematics,
+Vol. 13, No. I (February 1960).
+
+A. Halevy, P. Norvig and F. Pereira, "The Unreasonable Effectiveness
+of Data," in IEEE Intelligent Systems, vol. 24, no. 2, pp. 8-12,
+March-April 2009, doi: 10.1109/MIS.2009.
+
+B. Yetiştiren, I. Özsoy, M. Ayerdem, and E. Tüzün, "Evaluating the
+Code Quality of AI-Assisted Code Generation Tools: An Empirical Study
+on GitHub Copilot, Amazon Code Whisperer, and ChatGPT," arXiv
+preprint, 2023. arXiv:2304.10778
+
+* Footnotes
+
+[fn:1] (1) [[https://docs.google.com/presentation/d/1FRa-NvGFR7HWZN_WEpjrUNBbvLSw5j89EqBlXi4NKZY/edit?usp=sharing][White River Medical Center, Batesville AR, Aug 8, 2023]]; (2)
+[[https://docs.google.com/presentation/d/1Shh4av_uJMxW1Ebu4cvqBGEtmRgWdh9Q9eXrh9xzhiY/edit?usp=sharing][Southeast
+Symposium of Contemporary Engineering Topics, Little Rock AR, Sept 15,
+2023]]; (3) [[https://docs.google.com/presentation/d/1o4AOEUpiea0zBZ-r2XIb11WLmem1QzDR/edit?usp=sharing&ouid=102963037093118135110&rtpof=true&sd=true][Annual Conference of the Arkansas College Teachers of
+Business and Economics, Lyon College, Batesville AR, Sept 22, 2024]];
+(4) [[https://docs.google.com/presentation/d/1bWmW1JlPO6askf1Y8iIAn4ydlNX_Q9NigDmNlC2ebpU/edit?usp=sharing][Scotsfest, Batesville AR, Oct 28, 2023]]; (5) [[https://emacsconf.org/2023/talks/teaching/][EmacsConf 2023, Dec 2,
+2023]]; (6) [[https://docs.google.com/presentation/d/1FyhC8ePSwvBP-V-n4hts4Lb5C4fI7swt8KqBsoAfahg/edit?usp=sharing][University Arkansas School of Medical Sciences (UAMS) Dept
+of Biomedical Informatics, Dec 14, 2023]]; (7) [[https://docs.google.com/presentation/d/1hmAza_97JLp_wxTRBlhLoVFe-5Fo3Pc92AiQcWy7D8M/edit?usp=sharing][UAMS Center of Public
+Health Management, Feb 22, 2024]]; (8) [[https://library.iated.org/view/BIRKENKRAHE2024ROL][Int Conf of Technology,
+Education, and Development, Valencia Spain, Mar 4-6, 2024]].
