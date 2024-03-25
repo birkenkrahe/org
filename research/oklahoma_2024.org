@@ -4,7 +4,7 @@
 ** A mighty fortress against the dangers of AI-assisted coding?
 
 [[https://www.lyon.edu/marcus-birkenkrahe][Marcus Birkenkrahe, Lyon College]] - Invited talk at the [[https://opensource.science/ossci-community-visits-kick-off-at-oklahoma-data-science-workshop-1ea0e25d08a0][Oklahoma Data
-Science Workshop]], Friday, March 22, 2024 ([[(\[\[https://mediasite.ouhsc.edu/Mediasite/Channel/python/browse/null/most-recent/null/0/null\]\[Recording\]\] 22 March 2024)][recording]]).
+Science Workshop]], Friday, March 22, 2024 ([[https://mediasite.ouhsc.edu/Mediasite/Channel/python/browse/null/most-recent/null/0/null][recording]]).
 
 Literate programming, which combines code documentation with
 explanatory text, enhances understanding, collaboration, and critical
