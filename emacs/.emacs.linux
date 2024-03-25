@@ -241,7 +241,7 @@
      ("v" . "verse")
      ("pp" . "src python :python python3 :session *Python* :results output :exports both :comments both :tangle yes :noweb yes")
      ("cc" . "src C :main yes :includes <stdio.h> :results output :exports both :comments both :tangle yes :noweb yes")
-     ("sqlite" . "src sqlite :db test.db :results output :exports both :comments both :tangle yes :noweb yes")
+     ("sqlite" . "src sqlite :db test.db :header :column :results output :exports both :comments both :tangle yes :noweb yes")
      ("cpp" . "src C++ :main yes :includes <iostream> :results output :exports both :comments both :tangle yes :noweb yes")
      ("rg" . "src R :file :results output graphics file :exports both :comments both :tangle yes :noweb yes")))
  '(org-tempo-keywords-alist
