@@ -13,22 +13,29 @@ directories=("admin" "cpp" "db24" "ds205" "org" "os24" "research")
 # Save the current directory
 start_dir=$(pwd)
 
-# Loop through the directories and check `git status`
+# Loop through the directories and check for updates
 for dir in "${directories[@]}"; do
     if [ -d "$dir" ]; then
-	echo "Entering $dir..." # &> /dev/null
-	cd "$dir"
-	# Check if there are changes
-	if [ -n "$(git fetch origin)" ]; then
-	    echo "Changes detected, pulling updates..."
-	    git pull origin
-	else
-	    echo "No changes detected" # &> /dev/null
-	fi
-	# Return to the starting directory
-	cd "$start_dir"
+        echo "Entering $dir..."
+        cd "$dir" || exit
+        # Fetch changes from the origin without output
+        git fetch origin &> /dev/null
+        
+        # Check if the local branch is behind its upstream counterpart
+        local=$(git rev-parse @)
+        remote=$(git rev-parse "@{u}")
+        
+        if [ "$local" != "$remote" ]; then
+            echo "Changes detected, pulling updates..."
+            git pull origin
+        else
+            echo "No changes detected."
+        fi
+        
+        # Return to the starting directory
+        cd "$start_dir" || exit
     else
-	echo "Directory $dir does not exist."
+        echo "Directory $dir does not exist."
     fi
 done
 #+end_src
