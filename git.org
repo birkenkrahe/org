@@ -1,5 +1,8 @@
+#+title: Git scripts
+#+author: Marcus Birkenkrahe
 #+startup: overview hideblocks indent entitiespretty: 
 #+options: toc:nil num:nil ^:nil:
+Time-stamp: <2024-03-24 22:39:21 marcus>
 * Script to =fetch= and =pull= from =origin= to =remote=
 #+begin_src bash :tangle fetch.sh
 #!/bin/bash
