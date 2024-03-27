@@ -1,0 +1,89 @@
+#+TITLE: CONDITIONS AND LOOPS - CONDITIONAL STATEMENTS - IF ELSE - EXERCISES
+#+AUTHOR: [your name] (pledged)
+#+SUBTITLE: DSC 205 - Advanced introduction to data science
+#+STARTUP: overview hideblocks indent
+#+OPTIONS: toc:nil num:nil ^:nil
+#+PROPERTY: header-args:R :session *R* :results output :exports both :noweb yes
+* README
+
+This exercise file accompanies the [[https://github.com/birkenkrahe/ds2/blob/main/org/3_conditions.org][lecture]] on conditional
+statements. Upon completion, upload it to Canvas.
+
+* Identify and pledge yourself
+
+1) In Emacs, replace the placeholder ~[yourname]~ at the top of this
+   file by your own name and write ~(pledged)~ next to it
+2) Go with the cursor on the headline and hange the ~TODO~ label to ~DONE~
+   by entering ~S-<right>~ ("Shift + right-arrow").
+
+* Create two vectors:
+#+begin_src R :results silent
+  vec1 <- c(2,1,1,3,2,1,0)
+  vec2 <- c(3,8,2,2,0,0,0)
+#+end_src
+
+* TODO =if= and compound Boolean operators for vectors
+
+Without executing them, determine which of the following ~if~
+statements would result in the string being printed to the
+console. Then confirm your answers in R.
+
+/Tip:/ the ~all~ functions checks if all of its logical argument values
+are true.
+
+** Task 1
+
+2+8=10== 10 (TRUE)
+#+begin_src R
+     if( vec1[1] + vec2[2] == 10) cat("Print me!\n")
+   #+end_src
+
+   #+RESULTS:
+   : Print me!
+
+** Task 2
+#+begin_example R
+  if(vec1[1]>=2&&vec2[1]>=2){cat("Print me!\n")}
+#+end_example
+
+** Task 3
+#+begin_example R
+  if(all((vec2-vec1)[c(2,6)]<7)){cat("Print me!\n")}
+#+end_example
+
+** Task 4
+#+begin_example R
+  if(!is.na(vec2[3])){cat("Print me!\n")}
+  #+end_example
+
+
+* TODO Use =if= and =else= with vectors
+
+** Task 5
+
+Using ~vec1~ and ~vec2~, write and execute a line of code that multiplies
+the corresponding elements of the two vectors together if their
+element-wise sum is greater than ~3~. Otherwise, the code should simply
+sum the two elements.
+
+*Condition:* do not use ~for~ or ~apply~ functions to solve this exercise
+but only conditional functions ~if~, ~else~, ~ifelse~).
+
+#+begin_src R
+
+#+end_src
+
+** Task 6
+
+Do this without =ifelse=. Write the solution as pseudocode first, then
+code it in R.
+
+Pseudocode:
+#+begin_example
+...
+#+end_example
+
+Code:
+#+begin_src R
+
+#+end_src
