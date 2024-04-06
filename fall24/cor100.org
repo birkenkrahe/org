@@ -1,0 +1,114 @@
+#+title: Game Programming with Python
+#+author: Marcus Birkenkrahe (birkenkrahe@lyon.edu)
+#+subtitle: COR 100.09 Y1 Program Fall 2024
+#+startup: overview hideblocks indent inlineimages
+* General Course Information
+
+- Meeting Times: Tuesday, 11:00-11:50 hrs
+- Meeting place: Lyon Building Computer Lab room 104
+- Professor: Marcus Birkenkrahe
+- Office: Derby Science Center room 210
+- Phone: (870) 307-7254 - cell: (501) 422-4725
+- Office hours: [[https://calendar.app.google/Gia6y45ddYgyYE5XA][by appointment]].
+  
+* Course description
+
+This course on "Game Programming in Python" offers a comprehensive
+introduction to the fundamentals of creating interactive and engaging
+computer games. Students will learn how to use Python, a powerful and
+versatile programming language, to bring their game concepts to life,
+focusing on game logic, graphics rendering, and user interaction. The
+curriculum covers key programming concepts, game design principles,
+and the integration of libraries such as Pygame, providing a hands-on
+approach through project-based learning. By the end of the course,
+participants will have developed several games from scratch,
+demonstrating their understanding of the game development process and
+their ability to apply programming skills in a creative
+context. Acquiring programming skills in Python will not only help you
+understand how computers can be used to create interactive experiences
+but also enhance your critical thinking abilities. We will meet daily
+for 90 minutes of practical problem solving and interactive
+exercises. Between classes, students will work on small assignments,
+leading to the opportunity to present their work and (optionally)
+publish their finished projects for the whole world to see at the
+Humanities, Arts, and Science (H.A.T.S.) symposium at Lyon College.
+
+* Learning Objectives
+
+- Understand the basics of Python programming, including syntax, data
+  types, and control structures.
+- Learn how to use Python libraries such as Pygame for game
+  development.
+- Develop skills in game design and storytelling to create engaging
+  game narratives.
+- Master game logic and problem-solving to implement game mechanics
+  and player interactions.
+- Gain proficiency in graphics rendering, including working with
+  images, animations, and game environments.
+- Explore the development of responsive user interfaces to enhance
+  gameplay experience.
+- Practice project-based learning to design, develop, and debug Python
+  games from scratch.
+- Enhance critical thinking and analytical skills through practical
+  problem-solving exercises.
+- Encourage creativity and innovation in applying programming skills
+  to game development.
+- Prepare for presenting and optionally publishing projects at the
+  H.A.T.S. symposium.
+
+* Textbook:
+
+- Invent your own games with Python by Al Sweigart (4e), NoStarch
+  2016, URL: [[https://inventwithpython.com/invent4thed/][inventwithpython.com/invent4thed]]
+
+* Grading
+
+| DESCRIPTION             | IMPACT |
+|-------------------------+--------|
+| Programming assignments |    25% |
+| Tests                   |    25% |
+| H.A.T.S. presentation   |    25% |
+| Participation           |    25% |
+
+*Notes:*
+- To pass you need to get 60% of the available points.
+- There will be 10 programming assignments in Snap!/Python.
+- The tests are multiple choice quizzes.
+- The H.A.T.S. presentation is a session developed and executed by the
+  class at the December symposium.
+- Participation is the result of being present and engaged with the
+  class.
+
+* Course Schedule
+
+| Week | TEXTBOOK CHAPTER                  |
+|------+-----------------------------------|
+|    1 | The Interactive Shell             |
+|    2 | Writing Programs                  |
+|    3 | Guess the Number                  |
+|    4 | A Joke-Telling Program            |
+|    5 | Dragon Realm                      |
+|    6 | Using the Debugger                |
+|    7 | Designing Hangman with Flowcharts |
+|    8 | Writing the Hangman code          |
+|    9 | Extending Hangman                 |
+|   10 | Tic-Tac-Toe                       |
+|   11 | The Bagels Deduction Game         |
+|   12 | The Cartesian Coordinate System   |
+|   13 | Sonar Treasure Hunt               |
+|   14 | Caesar Cipher                     |
+|   15 | H.A.T.S. preparation              |
+|   16 | H.A.T.S. presentation             |
+
+- NO CLASSES: Aug 21, Oct 10 (Fall break), Oct 19 (Service day), Nov
+  23 (Thanksgiving). See [[https://catalog.lyon.edu/202324-academic-calendar][2023-2024 academic calendar]].
+
+* Learning management system
+
+- We use Lyon's Canvas installation for this course.
+- Every session will be recorded in Zoom
+- The Canvas page contains: calendar, assignments, tests, gradebook
+
+* [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Lyon College Standard Policies (Fall 2023)]]
+
+Online: https://tinyurl.com/LyonPolicyF23, see also [[https://catalog.lyon.edu/class-attendance][Class Attendance]]

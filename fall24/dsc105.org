@@ -11,9 +11,11 @@
 - Professor: Marcus Birkenkrahe
 - Professor's Office: Derby Science Building 210
 - Phone: (870) 307-7254 (office) / (501) 422-4725 (private)
-- Office hours: 
-- Textbook: The Book of R (Part I, ch. 1-8) by T Davies
-  ([[https://nostarch.com/bookofr][NoStarch, 2016]]) - reserved copy available in the library
+- Office hours: [[https://calendar.app.google/Gia6y45ddYgyYE5XA][by appointment]].
+- Textbook: No textbook. Useful: Data Science from Scratch by Joel
+  Grus (2e), O'Reilly 2019. Dive into Data Science by Bradford
+  Tuckfield, NoStarch 2023. Python Data Science Handbook by Jake
+  Vanderplas, O'Reilly 2019.
 
 * Objectives
 
@@ -23,19 +25,14 @@ sexiest job of the 21st century". Even if you don't want to become a
 professonial data scientist, it's helpful to master the basic concepts
 if you want to succeed in today's data-driven business.
 
-This course focuses on data science basics, simple visualization and
-productivity tools using the statistical programming language R as our
-starting point.
-
 * Target audience
 
 The course is for anyone who is interested in becoming more data
 literate in their own field of interest - be it languages, theatre,
 biology, psychology or exercise science - and growing their personal
-skill stack.
-
-Visualization of data-driven insights and improved productivity when
-working with data and media is a concern for any professional.
+skill stack. Visualization of data-driven insights and improved
+productivity when working with data and media is a concern for any
+professional.
 
 * Student Learning Outcomes
 
@@ -43,9 +40,8 @@ Students who complete "Introduction to data science" (DSC 105) will be
 able to:
 
 - Learn computer and data science principles by playing with data
-- Acquire basic statistical programming skills using R
-- Apply literate programming principles to their work with interactive
-  notebooks
+- Acquire basic programming skills using Python, R, SQL, and bash
+- Apply literate programming principles by working with Org-mode
 - Use infrastructure including command line, Jupyter notebooks, GitHub
 - Understand the relationship of humans, machines, and data
 - Develop their critical thinking skills
@@ -74,48 +70,38 @@ i.e. every discipline, from accounting to zoology).
 
 * Grading
 
-| WHEN    | DESCRIPTION                 | IMPACT |
-|---------+-----------------------------+--------|
-| Weekly  | DataCamp assignments        |    25% |
-| Monthly | Sprint review presentations |    25% |
-| Weekly  | Tests                       |    25% |
-| TBD     | Final exam                  |    25% |
+| WHEN    | DESCRIPTION           | IMPACT |
+|---------+-----------------------+--------|
+| Weekly  | DataCamp assignments  |    25% |
+| Monthly | Sprint reviews        |    25% |
+| Weekly  | Tests                 |    25% |
+| TBD     | Final exam (optional) |    25% |
 
-Notes:
-- To pass: 60%
-- DataCamp assignments: there are 15 assignments spread out over 3
-  courses. Each assignment contributes 1.6667% (25/15) to your final
-  grade. Late assignments are counted as 60% complete only.
-- Sprint review presentations: a customer-focused team effort
-  resulting in a project presentation, with 4 Scrum sprint reviews.
-- Tests: weekly online quizzes, which are previewed and reviewed in
-  class.
-- Final exam: selection of the most challenging weekly quiz questions.
+- DataCamp is an online learning platform for data science
+- Sprint reviews are monthly project progress reports
+- Tests are open-book multiple choice exams for home
+- The final exam is optional if you want to improve your grade
 
 * Dates and class schedule
 
-| Week | Date          | Datacamp assignments | Project           |
-|------+---------------+----------------------+-------------------|
-|    1 | Aug 21-Aug 25 |                      |                   |
-|    2 | Aug 28-Sep 01 |                      |                   |
-|    3 | Sep 04-Sep 08 |                      |                   |
-|    4 | Sep 11-Sep 15 |                      | 1st sprint review |
-|    5 | Sep 18-Sep 22 |                      |                   |
-|    6 | Sep 25-Sep 29 | Introduction to R    |                   |
-|    7 | Oct 02-Oct 06 |                      |                   |
-|    8 | Oct 09-Oct 13 |                      | 2nd sprint review |
-|    9 | Oct 16-Oct 20 |                      |                   |
-|   10 | Oct 23-Oct 27 |                      |                   |
-|   11 | Oct 30-Nov 03 | data.table in R      |                   |
-|   12 | Nov 06-Nov 10 |                      | 3rd sprint review |
-|   13 | Nov 13-Nov 17 |                      |                   |
-|   14 | Nov 20-Nov 24 |                      |                   |
-|   15 | Nov 27-Dec 01 | Python for R users   |                   |
-|   16 | Dec 04-Dec 08 |                      | 4th sprint review |
-
-- NO CLASSES: Aug 21, Oct 9 (Fall break), Nov 22 + 24
-  (Thanksgiving). See [[https://catalog.lyon.edu/202324-academic-calendar][2023-2024 academic calendar]].
-- ONLINE CLASSES: Sept 15 + 22.
+| Week | Date | Datacamp assignments              | Project           |
+|------+------+-----------------------------------+-------------------|
+|    1 |      |                                   |                   |
+|    2 |      | Introduction to Python: Basics    |                   |
+|    3 |      | Introduction to Python: Lists     |                   |
+|    4 |      | Introduction to Python: Functions | 1st sprint review |
+|    5 |      | Introduction to Python: NumPy     |                   |
+|    6 |      | Intermediate Python: Matplotlib   |                   |
+|    7 |      | Intermediate Python: Pandas       |                   |
+|    8 |      | Intermediate Python: Logic        | 2nd sprint review |
+|    9 |      | Intermediate Python: Loops        |                   |
+|   10 |      | Intermediate Python: Case Study   |                   |
+|   11 |      | Data manipulation with pandas 1   |                   |
+|   12 |      | Data manipulation with pandas 2   | 3rd sprint review |
+|   13 |      | Data manipulation with pandas 3   |                   |
+|   14 |      | Data manipulation with pandas 4   |                   |
+|   15 |      |                                   |                   |
+|   16 |      |                                   | 4th sprint review |
 
 * Learning management system
 
@@ -135,10 +121,10 @@ platform.
 * GitHub
 
 All course materials are available in a public GitHub repository
-([[https://github.com/birkenkrahe/ds1][github.com/birkenkrahe/ds1]]). Registration for students includes a
-free subscription to GitHub codespaces with the AI coding assistant
-Copilot. GitHub is the worldwide largest online platform for software
-development.
+([[https://github.com/birkenkrahe/dsc105][github.com/birkenkrahe/dsc105]]). Registration for students
+includes a free subscription to GitHub codespaces with the AI coding
+assistant Copilot. GitHub is the worldwide largest online platform for
+software development.
 
 * [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Lyon College Standard Policies (Fall 2023)]]
 
