@@ -2,6 +2,9 @@
 #+author: Marcus Birkenkrahe (birkenkrahe@lyon.edu)
 #+subtitle: COR 100.09 Y1 Program Fall 2024
 #+startup: overview hideblocks indent inlineimages
+#+attr_html: :width 400px:
+[[../img/cor100_python.png]]
+
 * General Course Information
 
 - Meeting Times: Tuesday, 11:00-11:50 hrs
