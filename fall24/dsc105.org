@@ -2,6 +2,9 @@
 #+author: Marcus Birkenkrahe
 #+startup: overview hideblocks indent
 #+subtitle: DSC105 Introduction to Data Science - Syllabus
+#+attr_html: :width 400px:
+[[../img/dsc105.png]]
+
 * General Course Information
 
 - Course title: Introduction to data science
