@@ -100,7 +100,7 @@ Humanities, Arts, and Science (H.A.T.S.) symposium at Lyon College.
 |   12 | The Cartesian Coordinate System   |
 |   13 | Sonar Treasure Hunt               |
 |   14 | Caesar Cipher                     |
-|   15 | H.A.T.S. preparation              |
+|   15 | Pong                              |
 |   16 | H.A.T.S. presentation             |
 
 - NO CLASSES: Aug 21, Oct 10 (Fall break), Oct 19 (Service day), Nov
