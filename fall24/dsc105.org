@@ -84,24 +84,24 @@ i.e. every discipline, from accounting to zoology).
 
 * Dates and class schedule
 
-| Week | Date | Datacamp assignments              | Project           |
-|------+------+-----------------------------------+-------------------|
-|    1 |      |                                   |                   |
-|    2 |      | Introduction to Python: Basics    |                   |
-|    3 |      | Introduction to Python: Lists     |                   |
-|    4 |      | Introduction to Python: Functions | 1st sprint review |
-|    5 |      | Introduction to Python: NumPy     |                   |
-|    6 |      | Intermediate Python: Matplotlib   |                   |
-|    7 |      | Intermediate Python: Pandas       |                   |
-|    8 |      | Intermediate Python: Logic        | 2nd sprint review |
-|    9 |      | Intermediate Python: Loops        |                   |
-|   10 |      | Intermediate Python: Case Study   |                   |
-|   11 |      | Data manipulation with pandas 1   |                   |
-|   12 |      | Data manipulation with pandas 2   | 3rd sprint review |
-|   13 |      | Data manipulation with pandas 3   |                   |
-|   14 |      | Data manipulation with pandas 4   |                   |
-|   15 |      |                                   |                   |
-|   16 |      |                                   | 4th sprint review |
+| Week | Datacamp assignments              | Project           |
+|------+-----------------------------------+-------------------|
+|    1 |                                   |                   |
+|    2 | Intro to Python: Basics           |                   |
+|    3 | Intro to Python: Lists            |                   |
+|    4 | Intron to Python: Functions       | 1st sprint review |
+|    5 | Intro to Python: NumPy            |                   |
+|    6 | Intermed Python: Matplotlib       |                   |
+|    7 | Intermed Python: Pandas           |                   |
+|    8 | Intermed Python: Logic            | 2nd sprint review |
+|    9 | Intermed Python: Loops            |                   |
+|   10 | Intermed Python: Case Study       |                   |
+|   11 | Data with pandas: Subsetting      |                   |
+|   12 | Data with pandas: Agreggating     | 3rd sprint review |
+|   13 | Data with pandas: Indexing        |                   |
+|   14 | Data with pandas: Visualizing     |                   |
+|   15 |                                   |                   |
+|   16 |                                   | 4th sprint review |
 
 * Learning management system
 
