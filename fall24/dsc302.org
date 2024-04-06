@@ -3,6 +3,9 @@
 #+startup: overview hideblocks indent
 #+options: toc:1 num:1 ^:nil
 #+subtitle: DSC302 - Data Visualization - Syllabus Fall 2024
+#+attr_html: :width 400px:
+[[../img/dsc302-fall24.png]]
+
 * General Course Information
 
 - Course title: Data visualization
