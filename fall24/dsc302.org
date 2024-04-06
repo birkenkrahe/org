@@ -1,0 +1,186 @@
+#+title: Data visualization in R (and Python)
+#+author: Marcus Birkenkrahe
+#+startup: overview hideblocks indent
+#+options: toc:1 num:1 ^:nil
+#+subtitle: DSC302 - Data Visualization - Syllabus Fall 2024
+* General Course Information
+
+- Course title: Data visualization
+- Course number and section: DSC 302.01
+- Meeting Times: Mon-Wed-Fri from 15:00-15:50 am
+- Meeting place: Derby Science Center Computer Lab room 209
+- Professor: Marcus Birkenkrahe
+- Professor's Office: Derby Science Center 210
+- Phone: (870) 307-7254 (office) / (501) 422-4725 (private)
+- Office hours: [[https://calendar.app.google/Gia6y45ddYgyYE5XA][by appointment]].
+- Textbook: Exploratory Data Analysis Using R by Ronald K. Pearson,
+  chapters 1-4 (pp. 1-180) ([[https://www.routledge.com/Exploratory-Data-Analysis-Using-R/Pearson/p/book/9780367571566?utm_source=cjaffiliates&utm_medium=affiliates&cjevent=9173c8f311ad11ed81e9022e0a82b838][CRC Press, 2018]])
+
+* Objectives
+
+Data science is concerned with getting data to work for us, to give us
+its (presumed) hidden treasures. Data science has been called "the
+sexiest job of the 21st century". Even if you don't want to become a
+professonial data scientist, it's helpful to master the basic concepts
+if you want to succeed in today's data-driven business.
+
+This course focuses on visualizing data. There are many tools and
+platforms out there to visualize patterns found in data and tell
+engaging, convincing stories. As a data scientist, you have to know
+what's out there, understand the principles of good visual
+presentation, and be able to customize plots quickly.
+
+In this course, we look at popular platforms like Tableau and R Shiny,
+and at different packages within R.
+
+* Target audience
+
+The course is for anyone who is interested in becoming more data
+literate in their own field of interest - be it languages, theatre,
+biology, psychology or exercise science - and growing their personal
+skill stack.
+
+Visualization of data-driven insights and improved productivity when
+working with data and media is a concern for any professional.
+
+In this course, we use R (and some Python), which is easier to learn
+for students outside of computer science.
+
+* Student Learning Outcomes
+
+Students who complete "Data visualization" (DSC 302) will be
+able to:
+
+- Learn about, and use popular data science visualization platforms
+- Understand how to visualiye exploratory data analysis results
+- Apply literate programming principles to their work with Org-mode
+- Use infrastructure including command line, Emacs, and GitHub
+- Develop their critical thinking skills
+- Know how to effectively present assignment and project results
+
+This introduction to Exploratory Data Analysis prepares course
+participants for taking DSC 305, "Machine learning".
+
+* Course requirements
+
+Introduction to programming (CSC 100 or CSC 115). Some knowledge of,
+and experience with programming and using the R language is useful but
+not critical. Curiosity is essential. You will gain data literacy
+skills by taking this course. The course will prepare you for further
+studies in computer and data science, or in other disciplines that use
+modern computing, i.e. every discipline, from accounting to zoology).
+
+* Grading system
+
+| WHEN    | DESCRIPTION             | IMPACT |
+|---------+-------------------------+--------|
+| Weekly  | Programming assignments |    25% |
+| Monthly | Sprint reviews          |    25% |
+| Weekly  | Tests                   |    25% |
+| TBD     | Final exam (optional)   |    25% |
+
+- Sprint reviews are monthly project progress reports
+- Tests are open-book multiple choice exams for home
+- The final exam is optional if you want to improve your grade
+
+* Dates and class schedule
+
+- Important extra-curricular dates
+  #+name: tab:extra
+  | WHEN           | WHAT                            |
+  |----------------+---------------------------------|
+  | August 16      | Classes begin                   |
+  | August 29      | Last day to drop course         |
+  | September 5    | Labor day (no classes)          |
+  | October 1-4    | Fall break (no classes)         |
+  | October 6      | Mid-term grades due             |
+  | October 14-26  | Sesquicentennial week           |
+  | October 20     | Service day (no classes)        |
+  | November 23-27 | Thanksgiving break (no classes) |
+  | December 2     | Last day of classes             |
+  | December 4-9   | Final exams                     |
+  | December 14    | Final grades due                |
+
+- Class session schedule  
+  #+name: tab:schedule
+  | WK | NO | DATE       | TESTS      | ASSIGNMENT[fn:1]                   | TEXTBOOK           |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  |  1 |  1 | Wed-17-Aug | Entry Test | 1. Visualizing distributions [DC]  |                    |
+  |    |  2 | Fri-19-Aug |            | 2. Emacs tutorial                  |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  |  2 |  3 | Mon-22-Aug | Test 1     | 3. Visualizing two variables [DC]  | 1. Data, EDA, R    |
+  |    |  4 | Wed-24-Aug |            |                                    |                    |
+  |    |  5 | Fri-26-Aug |            |                                    |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  |  3 |  6 | Mon-29-Aug | Test 2     | 4. The color and the shape [DC]    | 2. Graphics in R   |
+  |    |  7 | Wed-31-Aug |            |                                    |                    |
+  |    |  8 | Fri-02-Sep |            | 1st Sprint review                  |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  |  4 |  9 | Wed-07-Sep | Test 3     | 5. 99 problems... [DC]             | 2.3 plot()         |
+  |    | 10 | Fri-09-Sep |            |                                    |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  |  5 | 11 | Mon-12-Sep | Test 4     | 6. Intro to base R graphics        | 2.4 Adding details |
+  |    | 12 | Wed-14-Sep |            |                                    |                    |
+  |    | 13 | Fri-16-Sep |            |                                    |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  |  6 | 14 | Mon-19-Sep | Test 5     | 7. Different plot types            | 2.5 Plot types     |
+  |    | 15 | Wed-21-Sep |            |                                    |                    |
+  |    | 16 | Fri-23-Sep |            |                                    |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  |  7 | 17 | Mon-26-Sep | Test 6     | 8. Adding details to plots         | 2.6 Plot arrays    |
+  |    | 18 | Wed-28-Sep |            |                                    |                    |
+  |    | 19 | Fri-30-Sep |            | 2nd Sprint Review                  |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  |  8 | 20 | Wed-05-Oct | Test 7     | 9. How much is too much?           | 2.7 Color graphics |
+  |    | 21 | Fri-07-Oct |            |                                    |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  |  9 | 22 | Mon-10-Oct | Test 8     | 10. Adv plot customization         | 3.1 Exploring data |
+  |    | 23 | Wed-12-Oct |            |                                    |                    |
+  |    | 24 | Fri-14-Oct |            |                                    |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  | 10 | 25 | Mon-17-Oct |            | 11. Intro to ggplot [DC]           | 3.2 Numerical data |
+  |    | 26 | Wed-19-Oct |            |                                    |                    |
+  |    | 27 | Fri-21-Oct |            |                                    |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  | 10 | 28 | Mon-24-Oct | Test 9     | 12. Building web apps w/shiny [DC] | 3.3 Anomalies      |
+  |    | 29 | Wed-26-Oct |            |                                    |                    |
+  |    | 30 | Fri-28-Oct |            |                                    |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  | 11 | 28 | Mon-31-Oct | Test 10    | 3rd Sprint Review                  | 3.4 Relationships  |
+  |    | 29 | Wed-02-Nov |            | 13. Introduction to Tableau [DC]   |                    |
+  |    | 30 | Fri-04-Nov |            |                                    |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  | 12 | 31 | Mon-07-Nov | Test 11    | 14. External data                  | 4 External data    |
+  |    | 32 | Wed-09-Nov |            |                                    |                    |
+  |    | 33 | Fri-11-Nov |            |                                    |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  | 13 | 34 | Mon-14-Nov | Test 12    | 15. RSQLite                        | 4.74. RSQLite      |
+  |    | 35 | Wed-16-Nov |            |                                    |                    |
+  |    | 36 | Fri-18-Nov |            |                                    |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  | 14 | 37 | Mon-21-Nov | Test 13    |                                    |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+  | 15 | 38 | Mon-28-Nov | Test 14    | Final Sprint review                |                    |
+  |    | 39 | Wed-30-Nov |            | Final Sprint review                |                    |
+  |    | 40 | Fri-02-Dec |            | Final Sprint review                |                    |
+  |----+----+------------+------------+------------------------------------+--------------------|
+
+* Learning management system
+
+- We use Lyon's Canvas installation for this course.
+- The home page contains: assignments, grades, pages, people,
+  syllabus, quizzes, Google Drive, Course evaluation and Zoom.
+- The Zoom page includes cloud recordings of all past sessions.
+- Recorded sessions will be deleted after the last class.
+
+* GitHub
+
+All course materials are available in a public GitHub repository
+([[https://github.com/birkenkrahe/dviz24][github.com/birkenkrahe/dviz24]]). Registration for students includes a
+free subscription to GitHub codespaces with the AI coding assistant
+Copilot. GitHub is the worldwide largest online platform for software
+development.
+
+* [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Lyon College Standard Policies (Fall 2023)]]
+
+Online: https://tinyurl.com/LyonPolicyF23, see also [[https://catalog.lyon.edu/class-attendance][Class Attendance]]
