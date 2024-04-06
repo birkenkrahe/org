@@ -9,7 +9,7 @@
 
 - Course title: Introduction to data science
 - Course number and section: DSC 105.01
-- Meeting Times: Mon-Wed-Fri from 13:00-13:50 am
+- Meeting Times: Mon-Wed-Fri from 11:00-11:50 am
 - Meeting place: Derby Science Building computer lab room 209
 - Professor: Marcus Birkenkrahe
 - Professor's Office: Derby Science Building 210
