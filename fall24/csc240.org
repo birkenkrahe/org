@@ -1,0 +1,131 @@
+#+title: Data structures with C++
+#+author: Marcus Birkenkrahe
+#+startup: overview hideblocks indent
+#+subtitle: CSC 240 - Data structures with C++ - Syllabus - Fall 2024
+#+attr_html: :width 400px:
+[[../img/csc240-fall24.png]]
+
+* General Course Information
+
+- Course title: Data structures with C++
+- Course number and section: CSC 240.01
+- Meeting Times: Tue-Thu 9:30-10.45 AM
+- Meeting place: Derby Science Building computer lab room 239
+- Professor: Marcus Birkenkrahe
+- Professor's Office: Derby Science Building 210
+- Phone: (870) 307-7254 (office) / (501) 422-4725 (private)
+- Office hours: [[https://calendar.app.google/Gia6y45ddYgyYE5XA][by appointment]].
+- Textbook: None. Recommended: Malik, C++ Programming - Program Design
+  Including Data Structures (Cengage 2015); La Rocca, Grokking Data
+  Structures (Manning 2023); Zingaro, Algorithmic Thinking (NoStarch
+  2023).
+
+* Objectives
+
+This course on "Data Structures with C++" offers an in-depth
+exploration into the theory and application of data structures using
+the C++ programming language. It aims to equip students with the
+knowledge to efficiently store, process, and retrieve data using
+various data structures such as arrays, linked lists, stacks, queues,
+trees, and graphs. The curriculum emphasizes the importance of
+algorithmic thinking and optimization techniques, providing a solid
+foundation for understanding the complexities and capabilities of
+modern computing systems.
+
+* Target audience
+
+ Ideal participants are those who have a basic understanding of
+ programming concepts and are interested in advancing their knowledge
+ in data structuring to improve software efficiency and performance.
+
+* Student Learning Outcomes
+
+Students who complete this course will be able to:
+- Demonstrate a thorough understanding of major data structures and
+  their applications.
+- Implement various data structures in C++, including arrays, linked
+  lists, stacks, queues, trees, and graphs.
+- Analyze the efficiency of data structures and algorithms in terms of
+  time and space complexity.
+- Apply algorithmic thinking to solve complex problems using
+  appropriate data structures.
+- Design and develop efficient software solutions for real-world
+  applications.
+- Critically evaluate the choice of data structures in software
+  development projects.
+- Employ advanced C++ features and object-oriented programming
+  techniques in the context of data structures.
+- Enhance problem-solving skills through the design and analysis of
+  algorithms for data manipulation.
+- Prepare to contribute effectively to technology-driven environments
+  with a strong foundation in data structuring.
+
+Students, who complete CSC 240 will have fulfilled the prerequisites
+for CSC 265 Algorithms.
+
+* Course requirements
+
+Formal prerequisites: Introduction to Programming (either CSC100 or
+CSC115 or CSC109, and MTH101 (College Algebra).
+
+Course requirements include a foundational knowledge of programming
+principles and familiarity with the C++ programming language. Students
+are expected to have completed introductory courses in computer
+science or possess equivalent practical experience. A willingness to
+engage in complex problem-solving and the ability to think critically
+about algorithm design and data manipulation are essential for success
+in this course.
+
+* Grading
+
+| WHEN    | DESCRIPTION             | IMPACT |
+|---------+-------------------------+--------|
+| Weekly  | Programming assignments |    25% |
+| Monthly | Sprint reviews          |    25% |
+| Weekly  | Tests                   |    25% |
+| TBD     | Final exam (optional)   |    25% |
+
+- Sprint reviews are monthly project progress reports
+- Tests are open-book multiple choice exams for home
+- The final exam is optional if you want to improve your grade
+
+* Dates and class schedule
+
+| Week | Programming assignments   | Project           |
+|------+---------------------------+-------------------|
+|    1 | Programming assignment 1  |                   |
+|    2 | Programming assignment 2  |                   |
+|    3 | Programming assignment 3  |                   |
+|    4 | Programming assignment 4  | 1st sprint review |
+|    5 | Programming assignment 5  |                   |
+|    6 | Programming assignment 6  |                   |
+|    7 | Programming assignment 7  |                   |
+|    8 | Programming assignment 8  | 2nd sprint review |
+|    9 | Programming assignment 9  |                   |
+|   10 | Programming assignment 10 |                   |
+|   11 | Programming assignment 11 |                   |
+|   12 | Programming assignment 12 | 3rd sprint review |
+|   13 | Programming assignment 13 |                   |
+|   14 | Programming assignment 14 |                   |
+|   15 | Programming assignment 15 |                   |
+|   16 |                           | 4th sprint review |
+
+* Learning management system
+
+- We use Lyon's Canvas installation for this course.
+- The home page contains: assignments, grades, pages, people,
+  syllabus, quizzes, Google Drive, Course evaluation and Zoom.
+- The Zoom page includes cloud recordings of all past sessions.
+- Recorded sessions will be deleted after the last class.
+
+* GitHub
+
+All course materials are available in a public GitHub repository
+([[https://github.com/birkenkrahe/csc240][github.com/birkenkrahe/csc240]]). Registration for students
+includes a free subscription to GitHub codespaces with the AI coding
+assistant Copilot. GitHub is the worldwide largest online platform for
+software development.
+
+* [[https://docs.google.com/document/d/1ZaoAIX7rdBOsRntBxPk7TK77Vld9NXECVLvT9_Jovwc/edit?usp=sharing][Lyon College Standard Policies (Fall 2023)]]
+
+Online: https://tinyurl.com/LyonPolicyF23, see also [[https://catalog.lyon.edu/class-attendance][Class Attendance]]
