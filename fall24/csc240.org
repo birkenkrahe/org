@@ -69,7 +69,7 @@ Formal prerequisites: Introduction to Programming (either CSC100 or
 CSC115 or CSC109, and MTH101 (College Algebra).
 
 Course requirements include a foundational knowledge of programming
-principles and familiarity with the C++ programming language. Students
+principles and familiarity with any programming language. Students
 are expected to have completed introductory courses in computer
 science or possess equivalent practical experience. A willingness to
 engage in complex problem-solving and the ability to think critically
