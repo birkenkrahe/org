@@ -88,85 +88,75 @@ modern computing, i.e. every discipline, from accounting to zoology).
 
 * Dates and class schedule
 
-- Important extra-curricular dates
+- Important extra-curricular dates:
   #+name: tab:extra
-  | WHEN           | WHAT                            |
-  |----------------+---------------------------------|
-  | August 16      | Classes begin                   |
-  | August 29      | Last day to drop course         |
-  | September 5    | Labor day (no classes)          |
-  | October 1-4    | Fall break (no classes)         |
-  | October 6      | Mid-term grades due             |
-  | October 14-26  | Sesquicentennial week           |
-  | October 20     | Service day (no classes)        |
-  | November 23-27 | Thanksgiving break (no classes) |
-  | December 2     | Last day of classes             |
-  | December 4-9   | Final exams                     |
-  | December 14    | Final grades due                |
-
-- Class session schedule  
+  | WHEN | WHAT |
+  |------+------|
+  |      |      |
+  
+- Class session schedule:
   #+name: tab:schedule
-  | WK | NO | DATE       | TESTS      | ASSIGNMENT[fn:1]                   | TEXTBOOK           |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  |  1 |  1 | Wed-17-Aug | Entry Test | 1. Visualizing distributions [DC]  |                    |
-  |    |  2 | Fri-19-Aug |            | 2. Emacs tutorial                  |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  |  2 |  3 | Mon-22-Aug | Test 1     | 3. Visualizing two variables [DC]  | 1. Data, EDA, R    |
-  |    |  4 | Wed-24-Aug |            |                                    |                    |
-  |    |  5 | Fri-26-Aug |            |                                    |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  |  3 |  6 | Mon-29-Aug | Test 2     | 4. The color and the shape [DC]    | 2. Graphics in R   |
-  |    |  7 | Wed-31-Aug |            |                                    |                    |
-  |    |  8 | Fri-02-Sep |            | 1st Sprint review                  |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  |  4 |  9 | Wed-07-Sep | Test 3     | 5. 99 problems... [DC]             | 2.3 plot()         |
-  |    | 10 | Fri-09-Sep |            |                                    |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  |  5 | 11 | Mon-12-Sep | Test 4     | 6. Intro to base R graphics        | 2.4 Adding details |
-  |    | 12 | Wed-14-Sep |            |                                    |                    |
-  |    | 13 | Fri-16-Sep |            |                                    |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  |  6 | 14 | Mon-19-Sep | Test 5     | 7. Different plot types            | 2.5 Plot types     |
-  |    | 15 | Wed-21-Sep |            |                                    |                    |
-  |    | 16 | Fri-23-Sep |            |                                    |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  |  7 | 17 | Mon-26-Sep | Test 6     | 8. Adding details to plots         | 2.6 Plot arrays    |
-  |    | 18 | Wed-28-Sep |            |                                    |                    |
-  |    | 19 | Fri-30-Sep |            | 2nd Sprint Review                  |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  |  8 | 20 | Wed-05-Oct | Test 7     | 9. How much is too much?           | 2.7 Color graphics |
-  |    | 21 | Fri-07-Oct |            |                                    |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  |  9 | 22 | Mon-10-Oct | Test 8     | 10. Adv plot customization         | 3.1 Exploring data |
-  |    | 23 | Wed-12-Oct |            |                                    |                    |
-  |    | 24 | Fri-14-Oct |            |                                    |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  | 10 | 25 | Mon-17-Oct |            | 11. Intro to ggplot [DC]           | 3.2 Numerical data |
-  |    | 26 | Wed-19-Oct |            |                                    |                    |
-  |    | 27 | Fri-21-Oct |            |                                    |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  | 10 | 28 | Mon-24-Oct | Test 9     | 12. Building web apps w/shiny [DC] | 3.3 Anomalies      |
-  |    | 29 | Wed-26-Oct |            |                                    |                    |
-  |    | 30 | Fri-28-Oct |            |                                    |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  | 11 | 28 | Mon-31-Oct | Test 10    | 3rd Sprint Review                  | 3.4 Relationships  |
-  |    | 29 | Wed-02-Nov |            | 13. Introduction to Tableau [DC]   |                    |
-  |    | 30 | Fri-04-Nov |            |                                    |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  | 12 | 31 | Mon-07-Nov | Test 11    | 14. External data                  | 4 External data    |
-  |    | 32 | Wed-09-Nov |            |                                    |                    |
-  |    | 33 | Fri-11-Nov |            |                                    |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  | 13 | 34 | Mon-14-Nov | Test 12    | 15. RSQLite                        | 4.74. RSQLite      |
-  |    | 35 | Wed-16-Nov |            |                                    |                    |
-  |    | 36 | Fri-18-Nov |            |                                    |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  | 14 | 37 | Mon-21-Nov | Test 13    |                                    |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
-  | 15 | 38 | Mon-28-Nov | Test 14    | Final Sprint review                |                    |
-  |    | 39 | Wed-30-Nov |            | Final Sprint review                |                    |
-  |    | 40 | Fri-02-Dec |            | Final Sprint review                |                    |
-  |----+----+------------+------------+------------------------------------+--------------------|
+  | WK | NO | TESTS      | ASSIGNMENT[fn:1]                   | TEXTBOOK           |
+  |----+----+------------+------------------------------------+--------------------|
+  |  1 |  1 | Entry Test | 1. Visualizing distributions [DC]  |                    |
+  |    |  2 |            | 2. Emacs tutorial                  |                    |
+  |----+----+------------+------------------------------------+--------------------|
+  |  2 |  3 | Test 1     | 3. Visualizing two variables [DC]  | 1. Data, EDA, R    |
+  |    |  4 |            |                                    |                    |
+  |    |  5 |            |                                    |                    |
+  |----+----+------------+------------------------------------+--------------------|
+  |  3 |  6 | Test 2     | 4. The color and the shape [DC]    | 2. Graphics in R   |
+  |    |  7 |            |                                    |                    |
+  |    |  8 |            | 1st Sprint review                  |                    |
+  |----+----+------------+------------------------------------+--------------------|
+  |  4 |  9 | Test 3     | 5. 99 problems... [DC]             | 2.3 plot()         |
+  |    | 10 |            |                                    |                    |
+  |----+----+------------+------------------------------------+--------------------|
+  |  5 | 11 | Test 4     | 6. Intro to base R graphics        | 2.4 Adding details |
+  |    | 12 |            |                                    |                    |
+  |    | 13 |            |                                    |                    |
+  |----+----+------------+------------------------------------+--------------------|
+  |  6 | 14 | Test 5     | 7. Different plot types            | 2.5 Plot types     |
+  |    | 15 |            |                                    |                    |
+  |    | 16 |            |                                    |                    |
+  |----+----+------------+------------------------------------+--------------------|
+  |  7 | 17 | Test 6     | 8. Adding details to plots         | 2.6 Plot arrays    |
+  |    | 18 |            |                                    |                    |
+  |    | 19 |            | 2nd Sprint Review                  |                    |
+  |----+----+------------+------------------------------------+--------------------|
+  |  8 | 20 | Test 7     | 9. How much is too much?           | 2.7 Color graphics |
+  |    | 21 |            |                                    |                    |
+  |----+----+------------+------------------------------------+--------------------|
+  |  9 | 22 | Test 8     | 10. Adv plot customization         | 3.1 Exploring data |
+  |    | 23 |            |                                    |                    |
+  |    | 24 |            |                                    |                    |
+  |----+----+------------+------------------------------------+--------------------|
+  | 10 | 25 |            | 11. Intro to ggplot [DC]           | 3.2 Numerical data |
+  |    | 26 |            |                                    |                    |
+  |    | 27 |            |                                    |                    |
+  |----+----+------------+------------------------------------+--------------------|
+  | 10 | 28 | Test 9     | 12. Building web apps w/shiny [DC] | 3.3 Anomalies      |
+  |    | 29 |            |                                    |                    |
+  |    | 30 |            |                                    |                    |
+  |----+----+------------+------------------------------------+--------------------|
+  | 11 | 28 | Test 10    | 3rd Sprint Review                  | 3.4 Relationships  |
+  |    | 29 |            | 13. Introduction to Tableau [DC]   |                    |
+  |    | 30 |            |                                    |                    |
+  |----+----+------------+------------------------------------+--------------------|
+  | 12 | 31 | Test 11    | 14. External data                  | 4 External data    |
+  |    | 32 |            |                                    |                    |
+  |    | 33 |            |                                    |                    |
+  |----+----+------------+------------------------------------+--------------------|
+  | 13 | 34 | Test 12    | 15. RSQLite                        | 4.74. RSQLite      |
+  |    | 35 |            |                                    |                    |
+  |    | 36 |            |                                    |                    |
+  |----+----+------------+------------------------------------+--------------------|
+  | 14 | 37 | Test 13    |                                    |                    |
+  |----+----+------------+------------------------------------+--------------------|
+  | 15 | 38 | Test 14    | Final Sprint review                |                    |
+  |    | 39 |            | Final Sprint review                |                    |
+  |    | 40 |            | Final Sprint review                |                    |
+  |----+----+------------+------------------------------------+--------------------|
 
 * Learning management system
 
