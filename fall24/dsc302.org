@@ -15,7 +15,7 @@
 - Professor: Marcus Birkenkrahe
 - Professor's Office: Derby Science Center 210
 - Phone: (870) 307-7254 (office) / (501) 422-4725 (private)
-- Office hours: [[https://calendar.app.google/Gia6y45ddYgyYE5XA][by appointment]].
+- Office hours: [[https://calendar.app.google/yjr7tB7foMYowRJm7][by appointment]].
 - Textbook: Exploratory Data Analysis Using R by Ronald K. Pearson,
   chapters 1-4 (pp. 1-180) ([[https://www.routledge.com/Exploratory-Data-Analysis-Using-R/Pearson/p/book/9780367571566?utm_source=cjaffiliates&utm_medium=affiliates&cjevent=9173c8f311ad11ed81e9022e0a82b838][CRC Press, 2018]])
 

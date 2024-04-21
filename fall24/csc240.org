@@ -14,7 +14,7 @@
 - Professor: Marcus Birkenkrahe
 - Professor's Office: Derby Science Building 210
 - Phone: (870) 307-7254 (office) / (501) 422-4725 (private)
-- Office hours: [[https://calendar.app.google/Gia6y45ddYgyYE5XA][by appointment]].
+- Office hours: [[https://calendar.app.google/yjr7tB7foMYowRJm7][by appointment]].
 - Textbook: None. Recommended: Malik, C++ Programming - Program Design
   Including Data Structures (Cengage 2015); La Rocca, Grokking Data
   Structures (Manning 2023); Zingaro, Algorithmic Thinking (NoStarch

@@ -14,7 +14,7 @@
 - Professor: Marcus Birkenkrahe
 - Professor's Office: Derby Science Building 210
 - Phone: (870) 307-7254 (office) / (501) 422-4725 (private)
-- Office hours: [[https://calendar.app.google/Gia6y45ddYgyYE5XA][by appointment]].
+- Office hours: [[https://calendar.app.google/yjr7tB7foMYowRJm7][by appointment]].
 - Textbook: No textbook. Recommended: Data Science from Scratch by Joel
   Grus (2e), O'Reilly 2019. Dive into Data Science by Bradford
   Tuckfield, NoStarch 2023. Python Data Science Handbook by Jake
