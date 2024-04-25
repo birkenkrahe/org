@@ -1,0 +1,96 @@
+#+startup: overview hideblocks indent entitiespretty: 
+* Weekly calendar
+** Week 1: Club Introduction and Setup
+- Activity: Icebreaker session to get to know each other. Discuss
+  goals and structure of the club.
+- Setup: Ensure all members have the necessary software and accounts
+  set up for future activities.
+** Week 2: Coding Challenge
+- Activity: Solve a beginner-friendly coding problem. Encourage
+  pairing up for a collaborative approach.
+**  Week 3: Learn Git Basics
+- Activity: Introductory workshop on using Git for version
+  control. Cover basic commands and best practices.
+** Week 4: Lightning Talks
+- Activity: Members give 5-10 minute presentations on a technology or
+  concept of their choice.
+**  Week 5: Algorithm of the Week
+- Activity: Discuss and implement a specific algorithm, focusing on
+  its application and efficiency.
+** Week 6: Code Review Session
+- Activity: Analyze and improve a snippet of code from a member's
+  project or an open source project.
+**  Week 7: Pair Programming
+- Activity: Members work in pairs to tackle a small project or a set
+  of problems, promoting collaboration.
+** Week 8: Tech Quiz Night
+- Activity: A fun and competitive quiz on various tech topics and
+  programming languages.
+**  Week 9: API Integration Practice
+- Activity: Learn to integrate an external API into a small project,
+  such as retrieving data from a public API.
+** Week 10: Debugging Session
+- Activity: Focus on finding and fixing bugs in provided code snippets
+  or member-submitted projects.
+**  Week 11: Guest Speaker Session
+- Activity: A guest from the industry or academia speaks about career
+  paths, industry trends, or advanced technologies.
+** Week 12: Mini Hackathon
+- Activity: Organize a short hackathon where members can brainstorm
+  and develop a prototype or solve a complex problem.
+** Week 13: Data Structures Deep Dive
+- Activity: Explore a specific data structure, discussing its
+  implementation and use cases in programming.
+** Week 14: Project Showcase
+- Activity: Members present personal or group projects they have been
+  working on, with feedback from the club.
+**  Week 15: Planning for the Future
+- xActivity: Reflect on the past semester and plan for future
+  meetings. Discuss what worked, what didn’t, and new ideas for the
+  club.
+
+* Weekly activities
+
+** Weekly Coding Challenge
+- Activity: Solve a coding problem from a platform like LeetCode or
+  HackerRank. Choose problems that can be reasonably solved within
+  30-45 minutes, allowing time for discussion and explanation of
+  solutions.
+** Lightning Talks
+- Activity: Each week, one or two students give a 5-10 minute
+  presentation on a technology or programming concept they find
+  interesting. This could include new frameworks, programming tips, or
+  tech trends.
+** Code Review Session
+- Activity: Review and critique a piece of code from a project,
+  homework, or open source project. Discuss ways to improve it,
+  focusing on readability, efficiency, and functionality.
+** Pair Programming
+- Activity: Students pair up and work on a small problem or feature
+  together. This helps them learn from each other and practice
+  collaborative coding techniques.
+** Algorithm Club
+- Activity: Focus on a specific algorithm each week, discussing its
+  mechanics, applications, and coding it in real time. This could
+  range from sorting algorithms to more complex algorithms like
+  Dijkstra’s or A*.
+** Debugging Drills
+- Activity: Practice debugging by working on small, buggy code
+  snippets. This helps improve problem-solving skills and
+  understanding of common programming errors.
+** Tech Quiz
+- Activity: Have a quiz on programming concepts, recent tech news, and
+  logical puzzles. This can be a fun and competitive way to learn and
+  solidify knowledge.
+** Mini Hackathon
+- Activity: Once a month, hold a mini-hackathon where students spend
+  the hour brainstorming and starting a quick project or feature. This
+  could also span multiple sessions if needed.
+** API Integration Practice
+- Activity: Spend the session integrating a simple API into a small
+  application, such as pulling data from a public API (like weather or
+  news) and displaying it.
+** Mentorship Moments
+- Activity: Invite senior students or faculty members for a quick
+  mentorship session where they can provide advice on projects,
+  courses, and career in tech.
