@@ -1,0 +1,182 @@
+#+TITLE: Practicing functions
+#+AUTHOR: Marcus Birkenkrahe [pledged]
+#+STARTUP: overview hideblocks indent
+* README
+
+- Practice workbook for functions in C
+
+* DONE Identify yourself
+
+- replace the placeholder ~[yourName]~ in the header of this file by
+  your name and save the file (~C-x C-s~).
+
+* DONE ~hello_world~ function
+
+1) The ~hello_world~ function does not have a ~return~ value, and it takes
+   no arguments. Complete the code in [[f:hello_world]] so that it compiles
+   and runs.
+
+2) Remember that all statements that you want to execute need to be
+   contained in the body of the ~main~ function but user-defined
+   functions can be defined outside of ~main~.
+
+3) You have to add ~main~ and =include= the necessary macros.
+
+   #+name: f:hello_world
+   #+begin_src C :results output
+     // function definition
+     hello_world()
+     {
+       printf("Hello world\n");
+     }
+     // function call
+     hello_world();
+   #+end_src
+
+   #+RESULTS: f:hello_world
+
+   Solution:
+   #+begin_src C :tangle hello.c
+     // input output macro
+     #include <stdio.h>
+     // function definition
+     void hello_world(void)
+       {
+         printf("Hello world\n");
+       }
+     // main function
+     int main(void) {
+       // function call
+       hello_world();
+       return 0;
+       }
+   #+end_src
+
+   #+RESULTS:
+   : Hello world
+
+* DONE Back to basics - the command line
+
+1) Add the header argument ~:tangle hello.c~ to the code block of your
+   last solution.
+
+2) Tangle the source code file ~hello.c~ with ~C-u C-c C-v t~.
+
+3) Compile and run the file on the command line:
+   - Split the screen (~C-x 2~)
+   - Open a shell in Emacs (~M-x eshell~)
+   - Compile and run the ~hello.c~ file
+   - Kill the ~*eshell*~ buffer with ~C-x 0~ and return here.
+
+* DONE Save a function return value
+
+         1) Complete the ~average~ function in [[f:avg]] below, save and print its
+            value.
+
+            Sample output:
+            #+begin_example
+            : The average of 5.1 and 8.9 is: 7
+            #+end_example
+
+         2) The function is already defined at the top of the code block, and
+            two ~double~ values are declared and defined, too.
+
+         3) /Tip: remember to declare your variable. Use ~%g~ for the output./
+
+            #+name: f:avg
+            #+begin_src C
+              #include <stdio.h>
+
+              // function definition
+              double average(double a, double b)
+              {
+                return (a+b)/2.f;
+              }
+
+              int main() {
+                // Input variable declaration and definition
+                double x = 5.1, y = 8.9, avg;
+
+                // Save the average of x and y in a variable avg
+                avg = average(x,y);
+                // Print the variable avg
+                printf("The average of %g and %g is %g\n",x,y,avg);
+
+                return 0;
+              }
+            #+end_src
+
+            #+RESULTS: f:avg
+            : The average of 5.1 and 8.9 is 7
+
+* DONE Write your own function
+
+1) Write a function ~add~ that adds two integer numbers ~num1~ and ~num2~.
+
+2) Call the function ~add~ inside the ~printf~ function for the sample
+   arguments ~x=100~ and ~y=200~.
+
+   Sample output:
+   #+begin_example
+   : 100 + 200 = 300
+   #+end_example
+
+   Solution:
+   #+name: func:add
+   #+begin_src C
+     // preprocessor directive
+     #include <stdio.h>
+     // function definition
+     double add(double a, double b)
+     {
+       return (a+b);
+     }
+     // main function
+     int main(void)
+     {
+       // declare and initialize variables
+       double x=100.00, y=200.00;
+       // function call and print
+       printf("%g + %g = %g\n",x,y,add(x,y));
+
+       return 0;
+     }
+   #+end_src
+
+   #+RESULTS: func:add
+   : 100 + 200 = 300
+
+* TODO Encapsulate a formula
+
+Problem: Compute log10 squared (square of the logarithm base 10) and
+print the result for the test value x=100 (the result should be 4).
+
+Constraint: define a function ~l2~ that accepts a single argument and
+returns the logarithm to base 10 of its argument squared.
+
+Tip: =log10= is defined in =math.h=.
+
+#+begin_src C :libs -lm
+  // macros - preprocessor directives
+  #include <stdio.h>
+  #include <math.h>
+
+  // function definition
+  double l2(double x)
+  {
+    return log10(x)*log10(x);
+  }
+
+  // main function
+  int main(void)
+  {
+    // declaration and initialization of variables
+    double x=100.00;
+    // compute with function call and print result
+    printf("The logarithm to base 10 of %g squared is %g\n", x, l2(x));
+    return 0;
+  }
+#+end_src
+
+#+RESULTS:
+: The logarithm to base 10 of 100 squared is 4
