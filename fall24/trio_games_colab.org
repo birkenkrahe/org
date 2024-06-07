@@ -98,7 +98,7 @@ Al Sweigart ([[https://the-stack-overflow-podcast.simplecast.com/episodes/spread
 - The text can be formatted using so-called Markdown language:
   - =#= will create a headline and a section
   - =##= will create a headline and a subsection
-  - =` `= will format text as code
+  - =~ ~= will format text as code
   - =![img](URL)= will load an image from the address URL
   - etc.
 
@@ -142,12 +142,12 @@ Al Sweigart ([[https://the-stack-overflow-podcast.simplecast.com/episodes/spread
 
 We'll start by learning how to manipulate numbers ('arithmetic').
 
-- In the code block, execute the operation `2 + 2` (`CTRL + ENTER`).
+- In the code block, execute the operation ~2 + 2~ (~CTRL + ENTER~).
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
-- In the next code block, write `2 + 2` on one line, and `2 - 2` on
+- In the next code block, write ~2 + 2~ on one line, and ~2 - 2~ on
   the next line, then execute the block:
   #+begin_src python :python python3 :session *Python* :results output
     
@@ -165,22 +165,22 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   #+end_src
 
 - The first line above uses scientific notation for large numbers:
-  `1e3` is `10 * 10 * 10 = 1000`, and `1e-3` is `1 / (10 * 10 * 10) =
-  1/1000` or `0.001`.
+  ~1e3~ is ~10 * 10 * 10 = 1000~, and ~1e-3~ is ~1 / (10 * 10 * 10) =
+  1/1000~ or ~0.001~.
 
 - Both operations result in a decimal (or floating-point) number
-  (`1.0`), or /float/, rather than a whole (or integer) number (`1`).
+  (~1.0~), or /float/, rather than a whole (or integer) number (~1~).
 
-- A number like `1` or `2.0` is a /value/. A math problem like `2 + 2`
+- A number like ~1~ or ~2.0~ is a /value/. A math problem like ~2 + 2~
   is an /expression/. Expressions are made up of values connected by
-  operators (`+`).
+  operators (~+~).
 
 - The computer is obsessed with evaluating expressions. In the next
-  code block, evaluate some expressions and `print` the results:
-  1) `2 + 2 + 2 + 2 + 2`
-  2) `8*6`
-  3) `10 - 5 + 6`
-  4) `2 +          2`
+  code block, evaluate some expressions and ~print~ the results:
+  1) ~2 + 2 + 2 + 2 + 2~
+  2) ~8*6~
+  3) ~10 - 5 + 6~
+  4) ~2 +          2~
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
@@ -189,7 +189,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   operations ("P+E+MD+AS"). The expression is always evaluated to a
   single value
   
-- Run the first line of the code in a code block and `print` the
+- Run the first line of the code in a code block and ~print~ the
   result:
   #+begin_src python :python python3 :session *Python* :results output
 
@@ -206,7 +206,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 
 ** Making syntax errors
 
-- Entering ` 5 + ` generates a `SyntaxError` because the `+` operator
+- Entering ~ 5 + ~ generates a ~SyntaxError~ because the ~+~ operator
   is binary and requires two arguments on either side:
   #+begin_src python :python python3 :session *Python* :results output
 
@@ -223,96 +223,96 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 
 - A variable is like a box that can hold a value.
 
-- In the next code block, store the integer number `15` in a variable
-  called `spam`[fn:1].
+- In the next code block, store the integer number ~15~ in a variable
+  called ~spam~[fn:1].
   #+begin_src python :python python3 :session *Python* :results silent
 
   #+end_src
 
 - You've just written a /statement/ or more specifically an /assignment
-  statement/ using the assignment operator `=`. There's no output until
-  you ask for the value stored in `spam`.
+  statement/ using the assignment operator ~=~. There's no output until
+  you ask for the value stored in ~spam~.
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
-- Python is case-sensitive, i.e. `SPAM` is different from `spam` or
-  from `Spam`. You can test that by printing all of these:
+- Python is case-sensitive, i.e. ~SPAM~ is different from ~spam~ or
+  from ~Spam~. You can test that by printing all of these:
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
-- The last two attempts result in a `NameError` because these
-  variables were `not defined`, i.e. they were never assigned values.
+- The last two attempts result in a ~NameError~ because these
+  variables were ~not defined~, i.e. they were never assigned values.
 
 ** Computing with variables
 
 - Once a variable is defined, you can use it to compute. In the next
-  code block, `print` the expressions `spam + 5` and `spam * spam`:
+  code block, ~print~ the expressions ~spam + 5~ and ~spam * spam~:
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
 - In fact, you don't need two lines for this: put both expressions in
-  the same `print` command:
+  the same ~print~ command:
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
-- Now change the value of `spam` to `3` and print the expressions
+- Now change the value of ~spam~ to ~3~ and print the expressions
   again:
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
-- Do you think it's possible to do all of that in the `print` command,
+- Do you think it's possible to do all of that in the ~print~ command,
   like this:
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
-- You encounter a third kind of error, a `TypeError`: inside `print`,
-  `spam` is not recognized as part of `spam = 3`.
+- You encounter a third kind of error, a ~TypeError~: inside ~print~,
+  ~spam~ is not recognized as part of ~spam = 3~.
 
-- However, if you change the `=` in the last command to a `==`, the
+- However, if you change the ~=~ in the last command to a ~==~, the
   code works:
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
 - This is because now you're printing a /value/ as required by Python,
-  the value is `True` because `spam` is actually equal to `3`. The
-  `==` is a relational operator. It tests the equality of its left and
+  the value is ~True~ because ~spam~ is actually equal to ~3~. The
+  ~==~ is a relational operator. It tests the equality of its left and
   its right hand operand.
 
-- In the next code block, first alter the value of `spam` by adding
-  `2` to itself like this: `spam = spam + 2`. In the following line,
-  repeat the previous `print` command:
+- In the next code block, first alter the value of ~spam~ by adding
+  ~2~ to itself like this: ~spam = spam + 2~. In the following line,
+  repeat the previous ~print~ command:
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
-- Now, `spam == 3` is `False`, because the new value is 3 + 2 = 5.
+- Now, ~spam == 3~ is ~False~, because the new value is 3 + 2 = 5.
 
-- In the next code block, define two more variables, `bacon` with the
-  value `10`, and `eggs` with the value `15`.
+- In the next code block, define two more variables, ~bacon~ with the
+  value ~10~, and ~eggs~ with the value ~15~.
   #+begin_src python :python python3 :session *Python* :results silent
 
   #+end_src
 
-- Enter `spam = bacon + eggs` in the next code block, then check the
-  value of `spam`:
+- Enter ~spam = bacon + eggs~ in the next code block, then check the
+  value of ~spam~:
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
 ** Summary I
 
-- Expressions are values like `2` or `5.0` combined with operators
-  like `+` or `/`.
+- Expressions are values like ~2~ or ~5.0~ combined with operators
+  like ~+~ or ~/~.
 - Expressions are evaluated and reduced to a single value.
 - Values can be stored in variables to be remembered and used later.
-- Python errors include `SyntaxError`, `TypeError` and `NameError`.
+- Python errors include ~SyntaxError~, ~TypeError~ and ~NameError~.
 
 * Writing programs
 
@@ -322,9 +322,9 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   like integer or float values, and you can store them in variables.
 
 - Python recognizes text values when they are enclosed in (single or
-  double) quotation marks: `"spam"` is a string, `spam` is a variable.
+  double) quotation marks: ~"spam"~ is a string, ~spam~ is a variable.
 
-- Store the string `hello` in the variable `spam`, then `print` it:
+- Store the string ~hello~ in the variable ~spam~, then ~print~ it:
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
@@ -336,17 +336,17 @@ We'll start by learning how to manipulate numbers ('arithmetic').
     once upon the time in a galaxy far, far away..."x)
   #+end_src
 
-- In the last example, Python recognized two special characters: `\n`
-  (new line) and `\` (continue here).
+- In the last example, Python recognized two special characters: ~\n~
+  (new line) and ~\~ (continue here).
 
-- Strings can be /concatenated/: enter `'Hello' + 'World!'` in the next
+- Strings can be /concatenated/: enter ~'Hello' + 'World!'~ in the next
   code block:
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
 - What's behind this? All values have a /data type/ (integer, float,
-  string, or Boolean), and the `+` operator works differently on them:
+  string, or Boolean), and the ~+~ operator works differently on them:
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
@@ -354,25 +354,25 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 ** Creating the Hello World program
 
 - It's traditional for programmers to make their first program display
-  `Hello world!` on the screen[fn:2]
+  ~Hello world!~ on the screen[fn:2]
 
 - Enter the following code in the code block:
-  1. `# This program says hello and asks for my name`
-  2. `print('Hello world!')`
-  3. `print('What is your name?')
-  4. `name = input()`
-  5. `print('It is good to meet you, ' + name)
+  1. ~# This program says hello and asks for my name~
+  2. ~print('Hello world!')~
+  3. ~print('What is your name?')
+  4. ~name = input()~
+  5. ~print('It is good to meet you, ' + name)
 
   #+begin_src python :python python3 :session *Python* :results none
 
   #+end_src
 
 - Let's analyze the program:
-  1. This is a comment - Python ignores everything after `#`
+  1. This is a comment - Python ignores everything after ~#~
   2. Displays a string on the screen - the program title.
   3. Displays a string on the screen - a question for the user.
-  4. Asks for keyboard input and assigns it to the variable `name`.
-  5. Concatenates the welcome and the value `name` of name & prints
+  4. Asks for keyboard input and assigns it to the variable ~name~.
+  5. Concatenates the welcome and the value ~name~ of name & prints
      them.
 
 - When you write your own programs, it is useful to add this information
@@ -391,7 +391,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 
 ** Getting input, printing output
 
-- `print()` and `input()` are built-in functions.
+- ~print()~ and ~input()~ are built-in functions.
 
 - The value between the parentheses of a function is called its
   /argument/, like for mathematical functions $f(x)$.
@@ -409,36 +409,36 @@ We'll start by learning how to manipulate numbers ('arithmetic').
     
   #+end_src
 
-- You can get short help on any function (or keyword) with the `help`
-  function. In the next code block, pass the name of the `print`
-  function as an argument to the `help` function:
+- You can get short help on any function (or keyword) with the ~help~
+  function. In the next code block, pass the name of the ~print~
+  function as an argument to the ~help~ function:
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
-- Do the same thing for `input`: get `help` using the `help` function
+- Do the same thing for ~input~: get ~help~ using the ~help~ function
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
-- Both `help` texts contain a lot of technical information that you
+- Both ~help~ texts contain a lot of technical information that you
   may not understand (yet). Especially when you encounter a new
   function, it's worth going down the rabbit hole of documentation to
-  understand absolutely everything that the `help` can tell you.
+  understand absolutely everything that the ~help~ can tell you.
 
-- Here is the `input` command from the program again:
+- Here is the ~input~ command from the program again:
   #+begin_src python :python python3 :tangle input.py :results silent
     name = input()
     print('Hello, ' + name)
   #+end_src
 
-- What happens here? The function `input` is called without an
-  argument. As the `help` explains, it reads "a string from standard
+- What happens here? The function ~input~ is called without an
+  argument. As the ~help~ explains, it reads "a string from standard
   input". Standard input (/stdin/) in this case means the keyboard.
 
 - Standard input could also be passed to a Python script: after
-  tangling the single command above as a Python file `input.py`, it
-  can be run on the command line if `input` is a file containing
+  tangling the single command above as a Python file ~input.py~, it
+  can be run on the command line if ~input~ is a file containing
   input:
   #+begin_src bash :results output
     echo 'Marcus' > inputFile
@@ -453,28 +453,28 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   1) If you're working in an interactive notebook like an IPython
      shell, or in Emacs Org-mode, the variables are alive as long as
      the notebook session is running.
-  2) If you run a program on the command line like `python3 input.py`
+  2) If you run a program on the command line like ~python3 input.py~
      above, everything is gone when the program is finished.
 
 - Your variables have to be named by you. There are a few rules and
   recommendations for that:
   1) Don't start a name with anything but a (lowercase) letter
      (underscores are reserved, numbers or operators are not allowed)
-  2) Observe the fact that variable names are case-sensitive: `SPAM`
-     is not the same as `spam`.
+  2) Observe the fact that variable names are case-sensitive: ~SPAM~
+     is not the same as ~spam~.
   3) You must not have whitespace (empty characters) within the name.
   4) Variable names are usual lower case. You can form longer names
-     either by connecting them with underscore `_` or with /camelCase/:
-     for example: `my_number` or `myName`.
+     either by connecting them with underscore ~_~ or with /camelCase/:
+     for example: ~my_number~ or ~myName~.
 
 ** Summary II
 
 - All values have a data type (float, integer, string, or Boolean).
 - Strings must be enclosed in single or double quotation marks.
-- Strings can be concatenated with the `+` operator.
+- Strings can be concatenated with the ~+~ operator.
 - Functions carry out complicated instructions, they are called with
-  or without arguments, e.g. `print(2)` or `input()`.
-- Functions can be used anywhere a value is used: `name=input()`.
+  or without arguments, e.g. ~print(2)~ or ~input()~.
+- Functions can be used anywhere a value is used: ~name=input()~.
 
 ** Quiz 1: Python Basics
 
@@ -517,22 +517,22 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 - The program should generate a random number between 1 and 20.
 
 - Enter the source code into the IDLE file editor, or into Colab, and
-  save as `guessTheNumber.py`.
+  save as ~guessTheNumber.py~.
 
 - Solution path/pseudocode (code highlighted)
-  1) `import random` module.
-  2) Generate a (secret) `random` number.
-  3) Store number in variable `num`.
-  4) Set `attempt` counter (number of guesses) to `0`.
-  5) Get `input` number `guess` from user.
-  6) Increase `attempt` by 1
-  7) Check if `guess` is the same as `num`
-  8) `print` success message and `attempt` value
+  1) ~import random~ module.
+  2) Generate a (secret) ~random~ number.
+  3) Store number in variable ~num~.
+  4) Set ~attempt~ counter (number of guesses) to ~0~.
+  5) Get ~input~ number ~guess~ from user.
+  6) Increase ~attempt~ by 1
+  7) Check if ~guess~ is the same as ~num~
+  8) ~print~ success message and ~attempt~ value
   9) End program
-  10) Otherwise, check if `guess` is smaller than `num`
-  11) `print` information
-  12) Otherwise, check if `guess` is larger than `num`
-  13) `print` information
+  10) Otherwise, check if ~guess~ is smaller than ~num~
+  11) ~print~ information
+  12) Otherwise, check if ~guess~ is larger than ~num~
+  13) ~print~ information
   14) Return to step 3
 
 - [[https://github.com/birkenkrahe/org/blob/master/fall24/img/py_guessTheNumber.png][The BPMN Process diagram is fairly complicated compared to the
@@ -566,33 +566,33 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 ** Generating random numbers
 
 - To generate a secret guess, we use a (pseudo-) random number
-  generator. In Python, such a generator is contained in the `random`
+  generator. In Python, such a generator is contained in the ~random~
   package.
 
 - To make this package available, you need to /install/ it to your
   computer and then /load/ it in the Python session where you need it.
 
 - In Colab, the package is already installed and only has to be
-  loaded with `import`:
+  loaded with ~import~:
   #+begin_src python :python python3 :session *Python* :results silent
 
   #+end_src
 
-- We can now pick a random number between 1 and 20 using the `randint`
-  function in `random`: run the following code multiple times to see
+- We can now pick a random number between 1 and 20 using the ~randint~
+  function in ~random~: run the following code multiple times to see
   how it works.
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
-- The `.` operator accesses the `random` package. You remember that we
-  loaded a graphics package, `matplotlib.pyplot` earlier, and gave it
-  an alias, `plt`[fn:3]:
+- The ~.~ operator accesses the ~random~ package. You remember that we
+  loaded a graphics package, ~matplotlib.pyplot~ earlier, and gave it
+  an alias, ~plt~[fn:3]:
   #+begin_src python :python python3 :session *Python* :results silent
 
   #+end_src
 
-- To access the `plot` function in the package, we called the function
+- To access the ~plot~ function in the package, we called the function
   twice: first to pass four points for plotting, and then to make the
   plot appear on the screen:
   #+begin_src python :python python3 :session *Python* :results output
@@ -614,8 +614,8 @@ We'll start by learning how to manipulate numbers ('arithmetic').
       # do something
   #+end_example
 
-- The result of the test is either `True` in which case the loop is
-  entered, or `False`, in which case it is left again without doing
+- The result of the test is either ~True~ in which case the loop is
+  entered, or ~False~, in which case it is left again without doing
   anything.
 
 - Let's look at a few examples:
@@ -624,28 +624,28 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   #+end_src
 
 - Let's analyze:
-  1) Here, `i` is set to 1. When the `while` is encountered, `i < 5`
-     is tested. Since it's `True`, the statements in the loop body are
-     run: `i` is increased to 2, and printed.
-  2) The loop is entered a second time: the test `2 < 5` is still
-     `True`, `i` is increased to 3, and printed.
-  3) The loop is entered a third time: the test `3 < 5` fails - it is
-     evaluates to `False`, and the loop commands are not executed.
+  1) Here, ~i~ is set to 1. When the ~while~ is encountered, ~i < 5~
+     is tested. Since it's ~True~, the statements in the loop body are
+     run: ~i~ is increased to 2, and printed.
+  2) The loop is entered a second time: the test ~2 < 5~ is still
+     ~True~, ~i~ is increased to 3, and printed.
+  3) The loop is entered a third time: the test ~3 < 5~ fails - it is
+     evaluates to ~False~, and the loop commands are not executed.
 
-- As a challenge, change the `while` loop so that it starts at `i = 5`
-  and tests if `i > 0`, so that the output is: `4 3 2 1 0`.
+- As a challenge, change the ~while~ loop so that it starts at ~i = 5~
+  and tests if ~i > 0~, so that the output is: ~4 3 2 1 0~.
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
-- Coming back to our game: If the test reads `True` then the condition
+- Coming back to our game: If the test reads ~True~ then the condition
   /never/ fails and the loop will keep running forever!
 
 - To stop the game inside an infinite loop, we must take extra
-  measures: we must `break` out of the loop.
+  measures: we must ~break~ out of the loop.
 
 - Here is an example: This loop runs exactly once and then exits
-  because of the `break` command.
+  because of the ~break~ command.
   #+begin_src python :python python3 :session *Python* :results output
     while True:
         print("Infinite loop!")
@@ -653,7 +653,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
     print("Done!")
   #+end_src
 
-- The next one runs until `q` is entered. It prints the message to
+- The next one runs until ~q~ is entered. It prints the message to
   the screen and then halts waiting for input:
   #+begin_src python :python python3 :session *Python* :results output
     while True:
@@ -662,14 +662,14 @@ We'll start by learning how to manipulate numbers ('arithmetic').
         print("Done!")
   #+end_src
 
-- The last example checks a condition after the `if` keyword: this is
+- The last example checks a condition after the ~if~ keyword: this is
   called a /conditional statement/. [[https://raw.githubusercontent.com/birkenkrahe/org/master/fall24/img/conditional_statement.svg][Here is the BPMN process model.]]
 
 ** Checking conditions
 
 - The core of the infinite game loop also has a conditional
   statement. Instead of one check, it has two: namely, if the user's
-  guess, stored in `guess`, is greater or smaller than the computer's
+  guess, stored in ~guess~, is greater or smaller than the computer's
   (secret) number:
   #+begin_example python
   if guess < num:
@@ -685,45 +685,45 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 
 This is what happens inside the loop:
 1) If the guess is smaller than the computer's number, the user is
-   told that it is, and we `continue` with another guess.
+   told that it is, and we ~continue~ with another guess.
 2) If the guess is greater than the computer's number, the user is
-   told that it is, and we `continue` with another guess.
+   told that it is, and we ~continue~ with another guess.
 3) If the guess is neither smaller nor greater than the computer's
    number, we must have guessed it: then we print the result and
-   `break` out of the loop to finish.
+   ~break~ out of the loop to finish.
 
 ** Getting the user's number
 
 - At the start of the loop, we get the user's guess and store it in
-  the variable `guess`.
+  the variable ~guess~.
 
-- We get this number from the keyboard with `input`:
+- We get this number from the keyboard with ~input~:
   #+begin_src python :python python3 :session *Python* :results silent
 
   #+end_src
 
-- You notice that we did not write `guess = input()`. Why? Let's see:
+- You notice that we did not write ~guess = input()~. Why? Let's see:
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
-- When you run this code, you get a `TypeError`:
+- When you run this code, you get a ~TypeError~:
   #+begin_example python
   TypeError: '<' not supported between instances of 'str' and 'int'
   #+end_example
 
-- The problem is that you cannot compare a string (`str`) and an
-  integer (`int`) - and with `input` you can only import strings from
+- The problem is that you cannot compare a string (~str~) and an
+  integer (~int~) - and with ~input~ you can only import strings from
   the keyboard.
 
 - To fix this, you must /convert/ the string to an integer. This only
   works, of course, if the converted string can be recognized as a
-  number: it works for `"2"` but not for `"a"` or `"2 + 2"`:
+  number: it works for ~"2"~ but not for ~"a"~ or ~"2 + 2"~:
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
 
-- So `guess` holds not the string value of the user's number but the
+- So ~guess~ holds not the string value of the user's number but the
   integer value, which can be compared with the computer's number.
 
 ** Printing the result
@@ -735,7 +735,7 @@ This is what happens inside the loop:
   print('Good job! You guessed my number in ' + str(attempt) + ' guesses!')
   #+end_example
 
-- In the case of `str`, any number can be turned into a string:
+- In the case of ~str~, any number can be turned into a string:
   #+begin_src python :python python3 :session *Python* :results output
 
   #+end_src
@@ -746,7 +746,7 @@ This is what happens inside the loop:
 
   #+end_src
 
-- As before, the second command fails with a `TypeError`:
+- As before, the second command fails with a ~TypeError~:
   #+begin_example python
    TypeError: can only concatenate str (not "float") to str
   #+end_example
@@ -766,7 +766,7 @@ This is what happens inside the loop:
   1) Make program safe against no/wrong input (exception handling):
      currently, it terminates with an error if a floating-point number
      or a letter or nothing is entered by mistake.
-  2) Exchange the infinite `while` loop by a `for` loop with a set
+  2) Exchange the infinite ~while~ loop by a ~for~ loop with a set
      number of allowed guesses (most games don't go on forever).
 
 - What's important to remember:
@@ -782,14 +782,14 @@ This is what happens inside the loop:
 
 ** Summary III
 
-- Expressions as part of an `if` or `while` statement are
+- Expressions as part of an ~if~ or ~while~ statement are
   conditions. They evaluate to Boolean (truth) values.
-- `break` and `continue` are flow control statements to break out of a
+- ~break~ and ~continue~ are flow control statements to break out of a
   loop or go back to the start of the loop.
-- `print` and `input` serve the standard output (stdout) and the
+- ~print~ and ~input~ serve the standard output (stdout) and the
   standard input (stdin) data stream, or output (e.g. to the screen)
   and input (e.g. from the keyboard).
-- `int` and `str` are functions that convert strings and numbers into
+- ~int~ and ~str~ are functions that convert strings and numbers into
   integers and strings, respectively.
 
 ** Quiz 2: Python Programming
@@ -819,7 +819,7 @@ This is what happens inside the loop:
   you can use Google Colab to go through them and create your own
   notebooks as you learn!
 
-- Lastly, I have created a Google Chat, `PythonGame`, which I will use
+- Lastly, I have created a Google Chat, ~PythonGame~, which I will use
   for my "Game programming with Python" course this fall: let me know
   if you wish to be invited. I use this channel to share.
 
@@ -830,8 +830,8 @@ Quizziz Library:
 2) Python Programming Quiz (8 questions) - after the second session
 
 * Footnotes
-[fn:3] Packages like `matplotlib` or `random` are also called
-/libraries/, and sub-packages like `pyplot` in `matplotlib` are called
+[fn:3] Packages like ~matplotlib~ or ~random~ are also called
+/libraries/, and sub-packages like ~pyplot~ in ~matplotlib~ are called
 /modules/. Either of these three terms (package, library, module) will
 do.
 
@@ -839,7 +839,7 @@ do.
 Kernighan and Ritchie for the C programming language, and it stuck
 (this seminal book also bot its own [[https://en.wikipedia.org/wiki/The_C_Programming_Language][Wikipedia page]]).
 
-[fn:1]The use of `spam`, `ham`, `bacon` and `eggs` is an hommage to
+[fn:1]The use of ~spam~, ~ham~, ~bacon~ and ~eggs~ is an hommage to
 the origin of the name for the Python language, the British comedy
 group 'Monty Python' - see also their "Spam" sketch, which is so
 famous that it has got its own [[https://en.wikipedia.org/wiki/Spam_(Monty_Python_sketch)][Wikipedia page]]!
