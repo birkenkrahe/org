@@ -535,11 +535,11 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   13) `print` information
   14) Return to step 3
 
-- The BPMN Process diagram is fairly complicated compared to the
-  previous example. 
+- [[https://github.com/birkenkrahe/org/blob/master/fall24/img/py_guessTheNumber.png][The BPMN Process diagram is fairly complicated compared to the
+  previous example.]] 
 
 - Solution Python code (16 + 5 lines):
-  #+begin_src python :session *Python* :python python3 :tangle guessTheNumber.py
+  #+begin_example python
     # import random module
     import random
     # pick random number between 1 and 20
@@ -561,7 +561,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
         else:
             print('Good job! You guessed my number in ' + str(attempt) + ' guesses!')
             break
-  #+end_src
+  #+end_example
 
 ** Generating random numbers
 
@@ -573,31 +573,30 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   computer and then /load/ it in the Python session where you need it.
 
 - In Colab, the package is already installed and only has to be
-  loaded:
+  loaded with `import`:
   #+begin_src python :python python3 :session *Python* :results silent
-    import random
+
   #+end_src
 
 - We can now pick a random number between 1 and 20 using the `randint`
   function in `random`: run the following code multiple times to see
   how it works.
   #+begin_src python :python python3 :session *Python* :results output
-    print(random.randint(1,20))
+
   #+end_src
 
 - The `.` operator accesses the `random` package. You remember that we
   loaded a graphics package, `matplotlib.pyplot` earlier, and gave it
   an alias, `plt`[fn:3]:
   #+begin_src python :python python3 :session *Python* :results silent
-    import matplotlib.pyplot as plt
+
   #+end_src
 
 - To access the `plot` function in the package, we called the function
   twice: first to pass four points for plotting, and then to make the
   plot appear on the screen:
   #+begin_src python :python python3 :session *Python* :results output
-    plt.plot([1,2,3,4])
-    plt.show()
+
   #+end_src
 
 - You need randomness in many games - even board games use dice, and
@@ -621,16 +620,8 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 
 - Let's look at a few examples:
   #+begin_src python :python python3 :session *Python* :results output
-    i = 1
-    while i < 3:
-        i = i + 1
-        print(i)
 
   #+end_src
-
-  #+RESULTS:
-  : 2
-  : 3
 
 - Let's analyze:
   1) Here, `i` is set to 1. When the `while` is encountered, `i < 5`
@@ -644,18 +635,8 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 - As a challenge, change the `while` loop so that it starts at `i = 5`
   and tests if `i > 0`, so that the output is: `4 3 2 1 0`.
   #+begin_src python :python python3 :session *Python* :results output
-    i = 5
-    while i > 0:
-        i = i - 1
-        print(i)
-  #+end_src
 
-  #+RESULTS:
-  : 4
-  : 3
-  : 2
-  : 1
-  : 0
+  #+end_src
 
 - Coming back to our game: If the test reads `True` then the condition
   /never/ fails and the loop will keep running forever!
@@ -683,7 +664,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 
 - The last example checks a condition after the `if` keyword: this is
   called a /conditional statement/. Seen through process model eyes,
-  this last code chunk looks like this:
+  this last code chunk looks like shown here.
   #+attr_html: :width 650px:
   [[./img/conditional_statement.svg]]
 
