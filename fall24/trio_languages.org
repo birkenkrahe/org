@@ -18,14 +18,12 @@ study computer or data science.
 *These are some questions I'd like to answer:*
 1. What is a programming language?
 2. How many programming languages are there?
-3. What is the difference between a programming and a 'natural' language?
-4. Are 'natural languages' relevant for programming and computing?
-5. What do you mean "45 programming languages in 45 minutes?"
+3. What is a programming environment?
+4. What is the difference between a programming and a 'natural' language?
+5. What is 'natural language processing'?
 6. What is Emacs? What is Org-mode?
 7. What is Literate Programming?
-8. Can you show us at least a few languages? [13: R, SQLite, Python,
-   C, C++, Java, bash, Lisp, JavaScript, Markdown, IPython, HTML,
-   Snap!]
+8. How many programming languages do you 'speak'?
 9. Why do you need to know more than one programming language?
 10. Which programming languages should you learn (first)?
 
@@ -52,7 +50,8 @@ Here is a simple example in the C programming language
 #+RESULTS:
 : Hello, class!
 
-** How many languages are there?
+
+* How many programming languages are there?
 
 - Spoken ("natural") languages: more than 7,000 - hard to say because
   we don't really know what language is ("Language is self-expression"
@@ -63,7 +62,8 @@ Here is a simple example in the C programming language
   historical programming languages but currently used about 700
   (Source: [[https://resources.github.com/software-development/what-is-a-programming-language/][GitHub]]).
 
-*** What is a programming environment?
+
+* What is a programming environment?
 
 A programming environment is software that allows you to write and run
 programs on a computer so that you get the same results when you apply
@@ -79,7 +79,56 @@ highly unusual since Emacs is supposed to have too steep a learning
 curve for beginners (I don't think it does or if it does, it's worth
 it - cp. Birkenkrahe, 2023).
 
-*** What's the difference between Scratch and Python?
+
+* What is the difference between a programming and a 'natural' language?
+
+* What is 'natural language processing'?
+
+* What is Emacs? What is Org-mode?
+
+* What is 'Literate Programming'?
+
+* How many programming languages do you 'speak'?
+
+Incidentally, these are also the 13 programming languages that you
+will learn when you study computer or data science at Lyon College.
+
+** R
+
+** SQLite
+
+** Python
+
+** C
+
+** C++
+
+** Java
+
+** bash
+
+** Lisp
+
+** JavaScript
+
+** Markdown
+
+** IPython
+
+** HTML
+
+** Snap!
+
+
+
+* Why do you need to know more than one programming language?
+
+* Which programming languages should you learn (first)?
+
+* Bonus question: Why do I need to learn any programming language? (GAI)
+
+
+* SOMEDAY What's the difference between Scratch and Python?
 
 - What does it look like?
   #+attr_html: :width 400px:
@@ -116,7 +165,7 @@ it - cp. Birkenkrahe, 2023).
   [[./img/tiobe_june_2024.png]]
 
 
-** References
+* References
 
 - Birkenkrahe (2023). Teaching Data Science with Literate Programming
   Tools. [[https://www.mdpi.com/2673-6470/3/3/15][URL]]
