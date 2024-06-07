@@ -386,10 +386,8 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   a program is, and the more people are working on it, the more
   important it is that you follow these development practices!
 
-- Here is a [[file:img/hello.bpmn][BPMN Process model]] for the Hello world program (created at
-  [[https://bpmn.io][bpmn.io]]): 
-  #+attr_html: :width 600px:
-  [[./img/hello.svg]]
+- [[https://raw.githubusercontent.com/birkenkrahe/org/master/fall24/img/hello.svg][Here is a BPMN Process model]] for the Hello world program (created at
+  [[https://bpmn.io][bpmn.io]]).
 
 ** Getting input, printing output
 
@@ -404,60 +402,24 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 - Examples:
   #+begin_src python :python python3 :session *Python* :results output
     # Print the string argument "hello world"
-    print("hello world")
 
     # Print the number argument 2
-    print(2)
 
     # Print the value of the expression 2 + 2
-    print(2+2)
+    
   #+end_src
-
-  #+RESULTS:
-  : hello world
-  : 2
-  : 4
 
 - You can get short help on any function (or keyword) with the `help`
   function. In the next code block, pass the name of the `print`
   function as an argument to the `help` function:
   #+begin_src python :python python3 :session *Python* :results output
-    help(print)
+
   #+end_src
-
-  #+RESULTS:
-  #+begin_example
-  Help on built-in function print in module builtins:
-
-  print(...)
-      print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
-
-      Prints the values to a stream, or to sys.stdout by default.
-      Optional keyword arguments:
-      file:  a file-like object (stream); defaults to the current sys.stdout.
-      sep:   string inserted between values, default a space.
-      end:   string appended after the last value, default a newline.
-      flush: whether to forcibly flush the stream.
-  #+end_example
 
 - Do the same thing for `input`: get `help` using the `help` function
   #+begin_src python :python python3 :session *Python* :results output
-    help(input)
+
   #+end_src
-
-  #+RESULTS:
-  #+begin_example
-  Help on built-in function input in module builtins:
-
-  input(prompt='', /)
-      Read a string from standard input.  The trailing newline is stripped.
-
-      The prompt string, if given, is printed to standard output without a
-      trailing newline before reading input.
-
-      If the user hits EOF (*nix: Ctrl-D, Windows: Ctrl-Z+Return), raise EOFError.
-      On *nix systems, readline is used if available.
-  #+end_example
 
 - Both `help` texts contain a lot of technical information that you
   may not understand (yet). Especially when you encounter a new
@@ -482,9 +444,6 @@ We'll start by learning how to manipulate numbers ('arithmetic').
     echo 'Marcus' > inputFile
     python3 input.py < inputFile
   #+end_src
-
-  #+RESULTS:
-  : Hello, Marcus
 
 ** Forgetting and naming variables
 
@@ -517,9 +476,10 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   or without arguments, e.g. `print(2)` or `input()`.
 - Functions can be used anywhere a value is used: `name=input()`.
 
-** [[https://quizizz.com/admin/quiz/6661f06fc8188d75936738cd/python-basics-quiz?fromSearch=true&source=][Quiz 1: Python Basics
-]]
+** Quiz 1: Python Basics
+
 * Writing a game program
+
 ** Defining the game
 
 - We're going to bring the last few topics together in a complete
@@ -552,10 +512,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   9. Identify *extensions* (other things you might like)
   10. Implement extensions (repeat steps 4-8).
 
-- When you run the program, the output should look like this:
-  #+attr_html: :width 300px
-  #+caption: Desired output of guessTheNumber.py
-  [[./img/py_guessTheNumber_output.png]]
+- When you run the program, the output should look like this.
 
 - The program should generate a random number between 1 and 20.
 
