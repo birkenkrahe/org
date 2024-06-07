@@ -125,10 +125,10 @@ will learn when you study computer or data science at Lyon College.
 
 * Which programming languages should you learn (first)?
 
-* Bonus question: Why do I need to learn any programming language? (GAI)
+* Bonus: Why do I need to learn any programming language? (What about AI?)
 
 
-* SOMEDAY What's the difference between Scratch and Python?
+* Bonus: What's the difference between Scratch and Python?
 
 - What does it look like?
   #+attr_html: :width 400px:
@@ -163,7 +163,7 @@ will learn when you study computer or data science at Lyon College.
 - [[https://www.tiobe.com/tiobe-index/][TIOBE Index June 2024]]:
   #+attr_html: :width 400px:
   [[./img/tiobe_june_2024.png]]
-
+  
 
 * References
 
