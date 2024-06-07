@@ -21,12 +21,13 @@ study computer or data science.
 3. What is the difference between a programming and a 'natural' language?
 4. Are 'natural languages' relevant for programming and computing?
 5. What do you mean "45 programming languages in 45 minutes?"
-6. What is Emacs?
-7. What is Org-mode?
-8. What is Literate Programming?
-9. Can you show us at least a few languages? [R, SQLite, Python, C,
-   C++, Java, bash, Lisp, JavaScript, Markdown, IPython, HTML]
-10. What else is there to know (and do)?
+6. What is Emacs? What is Org-mode?
+7. What is Literate Programming?
+8. Can you show us at least a few languages? [13: R, SQLite, Python,
+   C, C++, Java, bash, Lisp, JavaScript, Markdown, IPython, HTML,
+   Snap!]
+9. Why do you need to know more than one programming language?
+10. Which programming languages should you learn (first)?
 
 This file is available as an Org-mode notebook on GitHub at
 [[https://tinyurl.com/trio-languages][tinyurl.com/trio-languages]].
