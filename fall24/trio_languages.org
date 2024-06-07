@@ -39,7 +39,7 @@ for a computer. It is more like mathematical expressions than like
 spoken languages.
 
 Here is a simple example in the C programming language
-#+begin_src C
+#+begin_src C :exports both
   int main ()
   {
 
