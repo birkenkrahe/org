@@ -512,7 +512,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   9. Identify *extensions* (other things you might like)
   10. Implement extensions (repeat steps 4-8).
 
-- When you run the program, the output should look like this.
+- When you run the program, [[https://github.com/birkenkrahe/org/blob/master/fall24/img/py_guessTheNumber_output.png][the output should look like this]].
 
 - The program should generate a random number between 1 and 20.
 
@@ -536,10 +536,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   14) Return to step 3
 
 - The BPMN Process diagram is fairly complicated compared to the
-  previous example:
-  #+attr_html: :width 700px
-  #+caption: Flow diagram for guessTheNumber.py
-  [[./img/py_guessTheNumber.png]]
+  previous example. 
 
 - Solution Python code (16 + 5 lines):
   #+begin_src python :session *Python* :python python3 :tangle guessTheNumber.py
