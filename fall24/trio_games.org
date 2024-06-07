@@ -1,5 +1,6 @@
 #+title: Game Programming with Python
 #+author: Marcus Birkenkrahe
+#+subtitle: TRIO Lyon College, Summer 2024, 12 June, 2:15-3 pm / 3.15 - 4 pm
 #+startup: overview hideblocks indent entitiespretty:
 #+property: header-args:python :python python3 :session *Python* :results output :exports both :noweb yes :tangle yes:
 * Introduction
