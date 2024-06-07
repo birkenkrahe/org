@@ -171,6 +171,8 @@ We'll start by learning how to manipulate numbers ('arithmetic').
     2 + 2
   #+end_src
 
+  #+RESULTS:
+
 - In the next code block, write `2 + 2` on one line, and `2 - 2` on
   the next line, then execute the block:
   #+begin_src python :python python3 :session *Python* :results output
@@ -179,8 +181,6 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   #+end_src
 
   #+RESULTS:
-  : 4
-  : 0
 
 - [In Colab] Where did the first result go? Answer: you need to use
   =print= for every expression that you want to print out, otherwise
@@ -254,6 +254,12 @@ We'll start by learning how to manipulate numbers ('arithmetic').
     print(2 + 8 * (3 / 2) + 7 - 9)
   #+end_src
 
+  #+RESULTS:
+  : 12.0
+  : 12.0
+  : 12.0
+  : 12.0
+
 ** Making syntax errors
 
 - Entering ` 5 + ` generates a `SyntaxError` because the `+` operator
@@ -261,6 +267,8 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   #+begin_src python :python python3 :session *Python* :results output
     5 +
   #+end_src
+
+  #+RESULTS:
 
 - Syntax errors result from not observing the rules of the language -
   it's as if Yoda was saying "Home I go". This violates the SPO rule
@@ -340,6 +348,8 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   #+begin_src python :python python3 :session *Python* :results output
     print(spam = 3, spam + 5, spam * spam)
   #+end_src
+
+  #+RESULTS:
 
 - You encounter a third kind of error, a `TypeError`: inside `print`,
   `spam` is not recognized as part of `spam = 3`.
@@ -421,9 +431,6 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   #+end_src
 
   #+RESULTS:
-  : ijdinfnns d
-  :    ***&&^6///34/$$$
-  : once upon the time in a galaxy far, far away...
 
 - In the last example, Python recognized two special characters: `\n`
   (new line) and `\` (continue here).
