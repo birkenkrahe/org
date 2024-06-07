@@ -3,8 +3,6 @@
 #+startup: overview hideblocks indent entitiespretty:
 #+property: header-args:python :python python3 :session *Python* :results output :exports both :noweb yes :tangle yes:
 * Introduction
-#+attr_html: :width 400px
-[[./img/trioposter.png]]
 
 - Some of this workshop material is based on Invent Your Own Computer
   Games with Python (4e) by Al Sweigart (free online).
@@ -29,8 +27,6 @@
 10) What do to next.
 
 ** Why should you (still) learn how to program?
-#+attr_html: :width 600px:
-[[./img/programming_is_fun.webp]]
 
 - Programming is fun.
 - Programming is a useful skill to have.
@@ -51,15 +47,6 @@ it to learn how to program."
 
 Al Sweigart ([[https://the-stack-overflow-podcast.simplecast.com/episodes/spreading-the-gospel-of-python/transcript][Stackoverflow.com podcast, May 24, 2024]])
 
-
-#+attr_html: :width 200px:
-#+caption: https://xkcd.com/1425/
-[[./img/xkcd.png]]
-
-What does this cartoon mean to you?
-- CS = Computer Science
-- GIS = Geographical Information System (like Google Maps).
-
 ** Getting started with IPython
 
 - IPython is a Python /shell/ program - an environment to connect to the
@@ -73,10 +60,7 @@ What does this cartoon mean to you?
 
 - If you have Python on your PC, you can open a command line (CMD) and
   open the interpreter (aka console or shell) with the command
-  =python3=:
-  #+attr_html: :width 400px:
-  #+caption: Python interpreter on my Linux box at home
-  [[./img/python3.png]]
+  =python3=.
 
 - The '3' suggests that there was a 'python2': on many computers,
   entering =python= will start Python 2 instead of Python 3.
@@ -91,18 +75,8 @@ What does this cartoon mean to you?
 - IDLE (Interactive DeveLopment Environment) is like a word processor
   for writing Python programs.
 
-- It's a separate window where you can enter commands and execute them.
-  #+attr_html: :width 400px:
-  #+Caption: Executing Python code in the IDLE shell
-  [[./img/idle_plot.png]]
-
-  #+attr_html: :width 400px:
-  #+Caption: Executing Python code from a Python file inside IDLE
-  [[./img/idle_plot1.png]]
-
-  #+attr_html: :width 400px:
-  #+Caption: Executing Python code in the IDLE shell
-  [[./img/idle_plot.png]]
+- It's a separate window where you can enter commands and execute
+  them.
 
 - IDLE is a so-called "Integrated Development Environment" (IDE) that
   allows you to perform different operations during program
@@ -161,26 +135,23 @@ What does this cartoon mean to you?
 - The notebook contains all the text from my own notebook, with little
   exercises and space for you to code along.
 
+
 * Manipulating values
+
 ** Manipulating integer values
 
 We'll start by learning how to manipulate numbers ('arithmetic').
 
 - In the code block, execute the operation `2 + 2` (`CTRL + ENTER`).
   #+begin_src python :python python3 :session *Python* :results output
-    2 + 2
+
   #+end_src
 
 - In the next code block, write `2 + 2` on one line, and `2 - 2` on
   the next line, then execute the block:
   #+begin_src python :python python3 :session *Python* :results output
-    2 + 2
-    2 - 2
+    
   #+end_src
-
-  #+RESULTS:
-  : 4
-  : 0
 
 - [In Colab] Where did the first result go? Answer: you need to use
   =print= for every expression that you want to print out, otherwise
@@ -190,13 +161,8 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 
 - You can add, subtract, multiply and divide in Python.
   #+begin_src python :python python3 :session *Python* :results output
-    print(1e3 * 1e-3)
-    print(1/1)
-  #+end_src
 
-  #+RESULTS:
-  : 1.0
-  : 1.0
+  #+end_src
 
 - The first line above uses scientific notation for large numbers:
   `1e3` is `10 * 10 * 10 = 1000`, and `1e-3` is `1 / (10 * 10 * 10) =
@@ -208,8 +174,6 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 - A number like `1` or `2.0` is a /value/. A math problem like `2 + 2`
   is an /expression/. Expressions are made up of values connected by
   operators (`+`).
-  #+attr_html: :width 200px:
-  [[./img/expression.png]]
 
 - The computer is obsessed with evaluating expressions. In the next
   code block, evaluate some expressions and `print` the results:
@@ -218,35 +182,21 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   3) `10 - 5 + 6`
   4) `2 +          2`
   #+begin_src python :python python3 :session *Python* :results output
-    print(2 + 2 + 2 + 2 + 2)
-    print(8*6)
-    print(10 - 5 + 6)
-    print(2 +          2)
-  #+end_src
 
-  #+RESULTS:
-  : 10
-  : 48
-  : 11
-  : 4
+  #+end_src
 
 - When an expression is evaluated, Python has to observe an order of
   operations ("P+E+MD+AS"). The expression is always evaluated to a
-  single value:
-  #+attr_html: :width 200px:
-  [[./img/expression1.png]]
-
+  single value
+  
 - Run the first line of the code in a code block and `print` the
   result:
   #+begin_src python :python python3 :session *Python* :results output
-    print(8 * 3 / 2 + 2 + 7 - 9)
+
   #+end_src
 
-  #+RESULTS:
-  : 12.0
-
 - Test question: Will the following expressions give the same or
-  different results?
+  different results? Take a guess before running the cell!
   #+begin_src python :python python3 :session *Python* :results output
     print(8 * 3 / 2 + 2 + 7 - 9)
     print(2 + 7 - 9 + 8 * 3 / 2)
@@ -259,7 +209,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 - Entering ` 5 + ` generates a `SyntaxError` because the `+` operator
   is binary and requires two arguments on either side:
   #+begin_src python :python python3 :session *Python* :results output
-    5 +
+
   #+end_src
 
 - Syntax errors result from not observing the rules of the language -
@@ -276,29 +226,21 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 - In the next code block, store the integer number `15` in a variable
   called `spam`[fn:1].
   #+begin_src python :python python3 :session *Python* :results silent
-    spam = 15
+
   #+end_src
 
 - You've just written a /statement/ or more specifically an /assignment
   statement/ using the assignment operator `=`. There's no output until
   you ask for the value stored in `spam`.
   #+begin_src python :python python3 :session *Python* :results output
-    print(spam)
-  #+end_src
 
-  #+RESULTS:
-  : 15
+  #+end_src
 
 - Python is case-sensitive, i.e. `SPAM` is different from `spam` or
   from `Spam`. You can test that by printing all of these:
   #+begin_src python :python python3 :session *Python* :results output
-    print(spam)
-    print(SPAM)
-    print(Spam)
-  #+end_src
 
-  #+RESULTS:
-  : 15
+  #+end_src
 
 - The last two attempts result in a `NameError` because these
   variables were `not defined`, i.e. they were never assigned values.
@@ -308,37 +250,25 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 - Once a variable is defined, you can use it to compute. In the next
   code block, `print` the expressions `spam + 5` and `spam * spam`:
   #+begin_src python :python python3 :session *Python* :results output
-    print(spam + 5)
-    print(spam * spam)
-  #+end_src
 
-  #+RESULTS:
-  : 20
-  : 225
+  #+end_src
 
 - In fact, you don't need two lines for this: put both expressions in
   the same `print` command:
   #+begin_src python :python python3 :session *Python* :results output
-    print(spam + 5, spam * spam)
-  #+end_src
 
-  #+RESULTS:
-  : 20 225
+  #+end_src
 
 - Now change the value of `spam` to `3` and print the expressions
   again:
   #+begin_src python :python python3 :session *Python* :results output
-    spam = 3
-    print(spam + 5, spam * spam)
-  #+end_src
 
-  #+RESULTS:
-  : 8 9
+  #+end_src
 
 - Do you think it's possible to do all of that in the `print` command,
   like this:
   #+begin_src python :python python3 :session *Python* :results output
-    print(spam = 3, spam + 5, spam * spam)
+
   #+end_src
 
 - You encounter a third kind of error, a `TypeError`: inside `print`,
@@ -347,11 +277,8 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 - However, if you change the `=` in the last command to a `==`, the
   code works:
   #+begin_src python :python python3 :session *Python* :results output
-    print(spam == 3, spam + 5, spam * spam)
-  #+end_src
 
-  #+RESULTS:
-  : True 8 9
+  #+end_src
 
 - This is because now you're printing a /value/ as required by Python,
   the value is `True` because `spam` is actually equal to `3`. The
@@ -362,31 +289,22 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   `2` to itself like this: `spam = spam + 2`. In the following line,
   repeat the previous `print` command:
   #+begin_src python :python python3 :session *Python* :results output
-    spam = spam + 2
-    print(spam == 3, spam + 5, spam * spam)
-  #+end_src
 
-  #+RESULTS:
-  : False 10 25
+  #+end_src
 
 - Now, `spam == 3` is `False`, because the new value is 3 + 2 = 5.
 
 - In the next code block, define two more variables, `bacon` with the
   value `10`, and `eggs` with the value `15`.
   #+begin_src python :python python3 :session *Python* :results silent
-    bacon = 10
-    eggs = 15
+
   #+end_src
 
 - Enter `spam = bacon + eggs` in the next code block, then check the
   value of `spam`:
   #+begin_src python :python python3 :session *Python* :results output
-    spam = bacon + eggs
-    print(spam)
-  #+end_src
 
-  #+RESULTS:
-  : 25
+  #+end_src
 
 ** Summary I
 
@@ -395,7 +313,9 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 - Expressions are evaluated and reduced to a single value.
 - Values can be stored in variables to be remembered and used later.
 - Python errors include `SyntaxError`, `TypeError` and `NameError`.
+
 * Writing programs
+
 ** Using string values
 
 - In Python, text values are called /strings/. They can be used just
@@ -406,12 +326,8 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 
 - Store the string `hello` in the variable `spam`, then `print` it:
   #+begin_src python :python python3 :session *Python* :results output
-    spam = 'hello'
-    print(spam)
-  #+end_src
 
-  #+RESULTS:
-  : hello
+  #+end_src
 
 - Strings can have any keyboard character in them and they can be as
   long as you like:
@@ -420,37 +336,20 @@ We'll start by learning how to manipulate numbers ('arithmetic').
     once upon the time in a galaxy far, far away..."x)
   #+end_src
 
-  #+RESULTS:
-  : ijdinfnns d
-  :    ***&&^6///34/$$$
-  : once upon the time in a galaxy far, far away...
-
 - In the last example, Python recognized two special characters: `\n`
   (new line) and `\` (continue here).
 
 - Strings can be /concatenated/: enter `'Hello' + 'World!'` in the next
   code block:
   #+begin_src python :python python3 :session *Python* :results output
-    print('Hello'+'World!')
-  #+end_src
 
-  #+RESULTS:
-  : HelloWorld!
+  #+end_src
 
 - What's behind this? All values have a /data type/ (integer, float,
   string, or Boolean), and the `+` operator works differently on them:
   #+begin_src python :python python3 :session *Python* :results output
-    print(2 + 2) # add two integers
-    print(2. + 2.) # add to floats
-    print('2' + '2') # add two strings
-    print(True + False) # add two Booleans (True is 1 and False is 0)
-  #+end_src
 
-  #+RESULTS:
-  : 4
-  : 4.0
-  : 22
-  : 1
+  #+end_src
 
 ** Creating the Hello World program
 
@@ -465,11 +364,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   5. `print('It is good to meet you, ' + name)
 
   #+begin_src python :python python3 :session *Python* :results none
-    # This program says hello and asks for my name`
-    print('Hello world!')
-    print('What is your name?')
-    name = input()
-    print('It is good to meet you, ' + name)
+
   #+end_src
 
 - Let's analyze the program:
@@ -483,11 +378,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 - When you write your own programs, it is useful to add this information
   to the code using comments:
   #+begin_example python
-    # This program says hello and asks for my name`
-    print('Hello world!')  # Print title
-    print('What is your name?')  # Ask user for input
-    name = input() # assign keyboard input to `name`
-    print('It is good to meet you, ' + name) # print result as concatenation
+
   #+end_example
 
 - In practice, you would first write the comments as a form of
@@ -495,9 +386,8 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   a program is, and the more people are working on it, the more
   important it is that you follow these development practices!
 
-- [[file:img/hello.bpmn][BPMN Process model]] for the Hello world program (created at [[https://bpmn.io][bpmn.io]]):
-  #+attr_html: :width 600px:
-  [[./img/hello.svg]]
+- [[https://raw.githubusercontent.com/birkenkrahe/org/master/fall24/img/hello.svg][Here is a BPMN Process model]] for the Hello world program (created at
+  [[https://bpmn.io][bpmn.io]]).
 
 ** Getting input, printing output
 
@@ -512,60 +402,24 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 - Examples:
   #+begin_src python :python python3 :session *Python* :results output
     # Print the string argument "hello world"
-    print("hello world")
 
     # Print the number argument 2
-    print(2)
 
     # Print the value of the expression 2 + 2
-    print(2+2)
+    
   #+end_src
-
-  #+RESULTS:
-  : hello world
-  : 2
-  : 4
 
 - You can get short help on any function (or keyword) with the `help`
   function. In the next code block, pass the name of the `print`
   function as an argument to the `help` function:
   #+begin_src python :python python3 :session *Python* :results output
-    help(print)
+
   #+end_src
-
-  #+RESULTS:
-  #+begin_example
-  Help on built-in function print in module builtins:
-
-  print(...)
-      print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
-
-      Prints the values to a stream, or to sys.stdout by default.
-      Optional keyword arguments:
-      file:  a file-like object (stream); defaults to the current sys.stdout.
-      sep:   string inserted between values, default a space.
-      end:   string appended after the last value, default a newline.
-      flush: whether to forcibly flush the stream.
-  #+end_example
 
 - Do the same thing for `input`: get `help` using the `help` function
   #+begin_src python :python python3 :session *Python* :results output
-    help(input)
+
   #+end_src
-
-  #+RESULTS:
-  #+begin_example
-  Help on built-in function input in module builtins:
-
-  input(prompt='', /)
-      Read a string from standard input.  The trailing newline is stripped.
-
-      The prompt string, if given, is printed to standard output without a
-      trailing newline before reading input.
-
-      If the user hits EOF (*nix: Ctrl-D, Windows: Ctrl-Z+Return), raise EOFError.
-      On *nix systems, readline is used if available.
-  #+end_example
 
 - Both `help` texts contain a lot of technical information that you
   may not understand (yet). Especially when you encounter a new
@@ -590,9 +444,6 @@ We'll start by learning how to manipulate numbers ('arithmetic').
     echo 'Marcus' > inputFile
     python3 input.py < inputFile
   #+end_src
-
-  #+RESULTS:
-  : Hello, Marcus
 
 ** Forgetting and naming variables
 
@@ -625,9 +476,10 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   or without arguments, e.g. `print(2)` or `input()`.
 - Functions can be used anywhere a value is used: `name=input()`.
 
-** [[https://quizizz.com/admin/quiz/6661f06fc8188d75936738cd/python-basics-quiz?fromSearch=true&source=][Quiz 1: Python Basics
-]]
+** Quiz 1: Python Basics
+
 * Writing a game program
+
 ** Defining the game
 
 - We're going to bring the last few topics together in a complete
@@ -660,10 +512,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   9. Identify *extensions* (other things you might like)
   10. Implement extensions (repeat steps 4-8).
 
-- When you run the program, the output should look like this:
-  #+attr_html: :width 300px
-  #+caption: Desired output of guessTheNumber.py
-  [[./img/py_guessTheNumber_output.png]]
+- When you run the program, [[https://github.com/birkenkrahe/org/blob/master/fall24/img/py_guessTheNumber_output.png][the output should look like this]].
 
 - The program should generate a random number between 1 and 20.
 
@@ -686,14 +535,11 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   13) `print` information
   14) Return to step 3
 
-- The BPMN Process diagram is fairly complicated compared to the
-  previous example:
-  #+attr_html: :width 700px
-  #+caption: Flow diagram for guessTheNumber.py
-  [[./img/py_guessTheNumber.png]]
+- [[https://github.com/birkenkrahe/org/blob/master/fall24/img/py_guessTheNumber.png][The BPMN Process diagram is fairly complicated compared to the
+  previous example.]] 
 
 - Solution Python code (16 + 5 lines):
-  #+begin_src python :session *Python* :python python3 :tangle guessTheNumber.py
+  #+begin_example python
     # import random module
     import random
     # pick random number between 1 and 20
@@ -715,7 +561,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
         else:
             print('Good job! You guessed my number in ' + str(attempt) + ' guesses!')
             break
-  #+end_src
+  #+end_example
 
 ** Generating random numbers
 
@@ -727,31 +573,30 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   computer and then /load/ it in the Python session where you need it.
 
 - In Colab, the package is already installed and only has to be
-  loaded:
+  loaded with `import`:
   #+begin_src python :python python3 :session *Python* :results silent
-    import random
+
   #+end_src
 
 - We can now pick a random number between 1 and 20 using the `randint`
   function in `random`: run the following code multiple times to see
   how it works.
   #+begin_src python :python python3 :session *Python* :results output
-    print(random.randint(1,20))
+
   #+end_src
 
 - The `.` operator accesses the `random` package. You remember that we
   loaded a graphics package, `matplotlib.pyplot` earlier, and gave it
   an alias, `plt`[fn:3]:
   #+begin_src python :python python3 :session *Python* :results silent
-    import matplotlib.pyplot as plt
+
   #+end_src
 
 - To access the `plot` function in the package, we called the function
   twice: first to pass four points for plotting, and then to make the
   plot appear on the screen:
   #+begin_src python :python python3 :session *Python* :results output
-    plt.plot([1,2,3,4])
-    plt.show()
+
   #+end_src
 
 - You need randomness in many games - even board games use dice, and
@@ -775,16 +620,8 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 
 - Let's look at a few examples:
   #+begin_src python :python python3 :session *Python* :results output
-    i = 1
-    while i < 3:
-        i = i + 1
-        print(i)
 
   #+end_src
-
-  #+RESULTS:
-  : 2
-  : 3
 
 - Let's analyze:
   1) Here, `i` is set to 1. When the `while` is encountered, `i < 5`
@@ -798,18 +635,8 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 - As a challenge, change the `while` loop so that it starts at `i = 5`
   and tests if `i > 0`, so that the output is: `4 3 2 1 0`.
   #+begin_src python :python python3 :session *Python* :results output
-    i = 5
-    while i > 0:
-        i = i - 1
-        print(i)
-  #+end_src
 
-  #+RESULTS:
-  : 4
-  : 3
-  : 2
-  : 1
-  : 0
+  #+end_src
 
 - Coming back to our game: If the test reads `True` then the condition
   /never/ fails and the loop will keep running forever!
@@ -836,10 +663,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   #+end_src
 
 - The last example checks a condition after the `if` keyword: this is
-  called a /conditional statement/. Seen through process model eyes,
-  this last code chunk looks like this:
-  #+attr_html: :width 650px:
-  [[./img/conditional_statement.svg]]
+  called a /conditional statement/. [[https://raw.githubusercontent.com/birkenkrahe/org/master/fall24/img/conditional_statement.svg][Here is the BPMN process model.]]
 
 ** Checking conditions
 
@@ -875,14 +699,12 @@ This is what happens inside the loop:
 
 - We get this number from the keyboard with `input`:
   #+begin_src python :python python3 :session *Python* :results silent
-    guess = int(input())
+
   #+end_src
 
 - You notice that we did not write `guess = input()`. Why? Let's see:
   #+begin_src python :python python3 :session *Python* :results output
-    print('Enter a number between 1 and 20:')
-    guess = input()
-    print(guess < 20)
+
   #+end_src
 
 - When you run this code, you get a `TypeError`:
@@ -898,13 +720,8 @@ This is what happens inside the loop:
   works, of course, if the converted string can be recognized as a
   number: it works for `"2"` but not for `"a"` or `"2 + 2"`:
   #+begin_src python :python python3 :session *Python* :results output
-    print(int("2"))
-    print(int("2 + 2"))
-    print(int("a"))
-  #+end_src
 
-  #+RESULTS:
-  : 2
+  #+end_src
 
 - So `guess` holds not the string value of the user's number but the
   integer value, which can be compared with the computer's number.
@@ -920,23 +737,14 @@ This is what happens inside the loop:
 
 - In the case of `str`, any number can be turned into a string:
   #+begin_src python :python python3 :session *Python* :results output
-    print(str(1e+3))
-    print(str(0.001))
-  #+end_src
 
-  #+RESULTS:
-  : 1000.0
-  : 0.001
+  #+end_src
 
 - One way of testing if a value is a string or a number is by
   concatenating it with another string:
   #+begin_src python :python python3 :session *Python* :results output
-    print("The number is " + str(0.001))
-    print("The number is " + 0.001)
-  #+end_src
 
-  #+RESULTS:
-  : The number is 0.001
+  #+end_src
 
 - As before, the second command fails with a `TypeError`:
   #+begin_example python
@@ -947,21 +755,10 @@ This is what happens inside the loop:
 
 - In the next code block, let's assemble the whole program and run it:
   #+begin_src python :python python3 :session *Python* :results output
-    import random  # import random module
-    num = random.randint(1,20) # pick random number in (1,20) - computer's number
-    attempt = 0 # initialize number of attempts
-    print('Enter number between 1 and 20:') # ask for user guess
-    while True:  # start the infinite loop
-        guess = int(input('Take a guess: ')) # Prompt user input & store in guess
-        attempt = attempt + 1 # increase number of attempts
-        if guess < num: print("Too low")
-        elif guess > num: print("Too high")
-        else:
-            print("Attempts: " + str(attempt))
-            break
+
   #+end_src
 
-- You find yet another solution in the textbook on page 22.
+- You find yet another solution [[https://inventwithpython.com/invent4thed/chapter3.html][in the textbook on page 22 (chapter 3)]].
 
 ** Program extensions and lessons learnt
 
@@ -995,14 +792,15 @@ This is what happens inside the loop:
 - `int` and `str` are functions that convert strings and numbers into
   integers and strings, respectively.
 
-** [[https://quizizz.com/admin/quiz/6661f2076cc84139c3c80b74/python-programming-quiz?fromSearch=true&source=][Quiz 2: Python Programming]]
+** Quiz 2: Python Programming
+
 * What to do next
 
 - You've just completed the first three chapters of this book: "Invent
   Your Own Computer Games with Python, 4th ed." by Al Sweigart
 
 - The completed notebook for the course is available at
-  tinyurl.com/trio-games-colab-solution
+  tinyurl.com/trio-games-solution
 
 - The whole book is (legally) freely available online:
   [[https://inventwithpython.com/invent4thed/][inventwithpython.com]]
