@@ -10,7 +10,7 @@ data.
 ** The mtcars dataset
 
 This dataset comes with R and contains 11 features of 32 classic cars.
-#+begin_src R
+#+begin_src R :exports both
   str(mtcars)
 #+end_src
 
