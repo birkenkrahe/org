@@ -1,0 +1,131 @@
+#+title:Literate Programming Dem
+#+AUTHOR:Marcus Birkenkrahe
+#+SUBTITLE:Using R to demonstrate interactive EDA
+#+STARTUP:overview hideblocks indent
+#+OPTIONS: toc:nil num:nil ^:nil
+#+PROPERTY: header-args:R :session *R* :results output :exports both :noweb yes
+* Literate Programming Demo (Using R)
+
+Short notebook to demonstrate how data scientists use interactive
+platforms like Emacs + Org-mode, or Google Colaboratory to explore
+data.
+
+** The mtcars dataset
+
+This dataset comes with R and contains 11 features of 32 classic cars.
+#+begin_src R
+  str(mtcars)
+#+end_src
+
+#+RESULTS:
+#+begin_example
+'data.frame':	32 obs. of  11 variables:
+ $ mpg : num  21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 ...
+ $ cyl : num  6 6 4 6 8 6 8 4 4 6 ...
+ $ disp: num  160 160 108 258 360 ...
+ $ hp  : num  110 110 93 110 175 105 245 62 95 123 ...
+ $ drat: num  3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3.92 ...
+ $ wt  : num  2.62 2.88 2.32 3.21 3.44 ...
+ $ qsec: num  16.5 17 18.6 19.4 17 ...
+ $ vs  : num  0 0 1 1 0 1 0 1 1 1 ...
+ $ am  : num  1 1 1 0 0 0 0 0 0 0 ...
+ $ gear: num  4 4 4 3 3 3 3 4 4 4 ...
+ $ carb: num  4 4 1 1 2 1 4 2 2 4 ...
+#+end_example
+
+Which cars are in the dataset?
+#+begin_src R
+  rownames(mtcars)  
+#+end_src
+
+#+RESULTS:
+:  [1] "Mazda RX4"           "Mazda RX4 Wag"       "Datsun 710"          "Hornet 4 Drive"     
+:  [5] "Hornet Sportabout"   "Valiant"             "Duster 360"          "Merc 240D"          
+:  [9] "Merc 230"            "Merc 280"            "Merc 280C"           "Merc 450SE"         
+: [13] "Merc 450SL"          "Merc 450SLC"         "Cadillac Fleetwood"  "Lincoln Continental"
+: [17] "Chrysler Imperial"   "Fiat 128"            "Honda Civic"         "Toyota Corolla"     
+: [21] "Toyota Corona"       "Dodge Challenger"    "AMC Javelin"         "Camaro Z28"         
+: [25] "Pontiac Firebird"    "Fiat X1-9"           "Porsche 914-2"       "Lotus Europa"       
+: [29] "Ford Pantera L"      "Ferrari Dino"        "Maserati Bora"       "Volvo 142E"
+
+
+** Explorative Data Analysis (EDA)
+
+We've already looked at the data a little. EDA includes getting an
+overview of patterns and relationships in the data.
+
+The quick path to patterns goes through visualizations: we'll plot a
+histogram and a scatterplot in 2 and in 3 dimensions. Lastly, we draw
+a trendline using linear regression.
+
+*** Histogram
+
+A histogram shows the frequencies of a continuous numeric
+variable. For example for ~mpg~ (miles per gallon) in ~mtcars~:
+#+begin_src R :results output graphics file :file img/rdemo_hist.png
+  mpg <- mtcars$mpg  # store the vector values in the object `mpg`
+  hist(mpg, xlab="Miles per gallon", main="mtcars dataset")
+#+end_src
+
+#+RESULTS:
+[[file:img/rdemo_hist.png]]
+
+*** Scatterplot
+
+Another common plot type is the scatterplot where two variables are
+plotted against one another: every scatter point in the plane
+corresponds to a pair of values.
+
+Let's look at miles-per-gallon (~mpg~) vs. weight (~wt~) of the cars in ~mtcars~.
+#+begin_src R :results output graphics file :file img/rdemo_scatter.png
+  wt <- mtcars$wt
+  plot(x = wt, y = mpg, xlab="Weight", ylab="Miles per gallon", main="mtcars dataset")
+#+end_src
+
+#+RESULTS:
+[[file:img/rdemo_scatter.png]]
+
+Let's add another variable - the number of cylinders (~cyl~). Now, this
+is a categorical variable. We can add it to the plot in the form of a
+color dimension:
+#+begin_src R :results output graphics file :file img/rdemo_scatter2.png
+  cyl <- factor(mtcars$cyl)
+  plot(x = wt, y = mpg, col=cyl,
+       xlab="Weight", ylab="Miles per gallon", main="mtcars dataset")
+  legend("topright",
+         legend = paste(levels(cyl),"cylinders"),
+         col = 1:length(levels(cyl)), pch = 1)
+#+end_src
+
+#+RESULTS:
+[[file:img/rdemo_scatter2.png]]
+
+*** Trendline prediction with linear regression
+
+We create a linear model.
+#+begin_src R
+  model = lm(mpg ~ wt)
+  model
+#+end_src
+
+#+RESULTS:
+: 
+: Call:
+: lm(formula = mpg ~ wt)
+: 
+: Coefficients:
+: (Intercept)           wt  
+:      37.285       -5.344
+
+We draw a trendline through the 2d data from the scatterplot earlier.
+#+begin_src R :results output graphics file :file img/rdemo_trend.png
+  plot(x = wt, y = mpg, xlab="Weight", ylab="Miles per gallon", main="mtcars dataset")
+  abline(model)
+#+end_src
+
+#+RESULTS:
+[[file:img/rdemo_trend.png]]
+
+The trendline shows what we could see with the naked eye before:
+miles-per-gallon and weight of these cars are negatively correlated -
+i.e. the heavier a car, the fewer miles-per-gallon it has.
