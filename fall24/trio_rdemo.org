@@ -1,6 +1,3 @@
-#+title:Literate Programming Dem
-#+AUTHOR:Marcus Birkenkrahe
-#+SUBTITLE:Using R to demonstrate interactive EDA
 #+STARTUP:overview hideblocks indent
 #+OPTIONS: toc:nil num:nil ^:nil
 #+PROPERTY: header-args:R :session *R* :results output :exports both :noweb yes
