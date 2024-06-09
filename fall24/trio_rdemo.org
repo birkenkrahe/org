@@ -31,7 +31,7 @@ This dataset comes with R and contains 11 features of 32 classic cars.
 #+end_example
 
 Which cars are in the dataset?
-#+begin_src R
+#+begin_src R :exports both
   rownames(mtcars)  
 #+end_src
 
@@ -59,7 +59,7 @@ a trendline using linear regression.
 
 A histogram shows the frequencies of a continuous numeric
 variable. For example for ~mpg~ (miles per gallon) in ~mtcars~:
-#+begin_src R :results output graphics file :file img/rdemo_hist.png
+#+begin_src R :exports both :results output graphics file :file img/rdemo_hist.png
   mpg <- mtcars$mpg  # store the vector values in the object `mpg`
   hist(mpg, xlab="Miles per gallon", main="mtcars dataset")
 #+end_src
@@ -74,7 +74,7 @@ plotted against one another: every scatter point in the plane
 corresponds to a pair of values.
 
 Let's look at miles-per-gallon (~mpg~) vs. weight (~wt~) of the cars in ~mtcars~.
-#+begin_src R :results output graphics file :file img/rdemo_scatter.png
+#+begin_src R :exports both :results output graphics file :file img/rdemo_scatter.png
   wt <- mtcars$wt
   plot(x = wt, y = mpg, xlab="Weight", ylab="Miles per gallon", main="mtcars dataset")
 #+end_src
@@ -85,7 +85,7 @@ Let's look at miles-per-gallon (~mpg~) vs. weight (~wt~) of the cars in ~mtcars~
 Let's add another variable - the number of cylinders (~cyl~). Now, this
 is a categorical variable. We can add it to the plot in the form of a
 color dimension:
-#+begin_src R :results output graphics file :file img/rdemo_scatter2.png
+#+begin_src R :exports both :results output graphics file :file img/rdemo_scatter2.png
   cyl <- factor(mtcars$cyl)
   plot(x = wt, y = mpg, col=cyl,
        xlab="Weight", ylab="Miles per gallon", main="mtcars dataset")
@@ -100,7 +100,7 @@ color dimension:
 *** Trendline prediction with linear regression
 
 We create a linear model.
-#+begin_src R
+#+begin_src R :exports both
   model = lm(mpg ~ wt)
   model
 #+end_src
@@ -115,7 +115,7 @@ We create a linear model.
 :      37.285       -5.344
 
 We draw a trendline through the 2d data from the scatterplot earlier.
-#+begin_src R :results output graphics file :file img/rdemo_trend.png
+#+begin_src R :exports both :results output graphics file :file img/rdemo_trend.png
   plot(x = wt, y = mpg, xlab="Weight", ylab="Miles per gallon", main="mtcars dataset")
   abline(model)
 #+end_src
