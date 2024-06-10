@@ -39,7 +39,7 @@ but hopefully you'll learn something anyway!
 5. What is 'natural language processing'?
 6. What is Emacs? What is Org-mode?
 7. What is Literate Programming?
-8. How many programming languages do you 'speak'?
+8. How many programming languages do I 'speak'?
 9. Why do you need to know more than one programming language?
 10. Which programming languages should you learn (first)?
 
@@ -51,9 +51,12 @@ for a computer. It is more like mathematical expressions than like
 spoken languages.
 
 - Here is a simple example in the C programming language
-  #+begin_src C :exports both
+  #+begin_src C :exports both :tangle helloclass.c
     printf("Hello, class!");
   #+end_src
+
+  #+RESULTS:
+  : Hello, class!
 
 - /Formal/ in this context means that a programming language requires
   you to follow its syntax (its set of rules) to the letter. Any
@@ -68,6 +71,8 @@ spoken languages.
   #+begin_src C
     print("Hello, class!")
   #+end_src
+
+  #+RESULTS:
 
 - What's different, and what does the error message mean?
   #+attr_html: :width 800px:
@@ -108,7 +113,7 @@ following terms:
 | Source code       | Human-readable code                        |
 | Machine code      | Executable, not readable, code             |
 | Compiler          | Software to turn source into machine code  |
-| Compiler error    |                                            |
+| Compiler error    | Message from the compiler when you mess up |
 | Syntax            | Set of rules (grammar)                     |
 | GitHub            | Software development platform              |
 | Globalism         | World-view that transcends (all) borders   |
@@ -162,13 +167,19 @@ following terms:
   combining commands as part of a command /pipeline/.
 
 - The code below
-  1) lists all files whose names start with 2022
-  2) extracts files ending in `.txt`
+  1) lists all files in the current director
+  2) extracts files ending in `ipynb`
   3) saves the result to a file named `2022_txt`
   4) counts the lines of the result (the number of files ending in .txt)
   #+begin_src bash :results output
     ls -l |  grep ipynb | tee ipynb_files | wc -l
+    ls *.ipynb
   #+end_src
+
+  #+RESULTS:
+  : 3
+  : trio_games_colab.ipynb
+  : trio_rdemo.ipynb
 
 - You can also program on the shell. The corresponding scripting
   language is called =bash= ("Bourne-Again-SHell"). I'll show you later.
