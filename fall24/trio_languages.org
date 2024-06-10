@@ -1,8 +1,8 @@
 #+TITLE:45 Programming Languages In 45 Minutes
 #+AUTHOR:45 Programming Languages In 45 Minutes
 #+SUBTITLE:45 Programming Languages In 45 Minutes
+#+options: toc:1
 #+STARTUP:overview hideblocks indent
-#+OPTIONS: toc:nil num:nil ^:nil
 #+PROPERTY: header-args:R :session *R* :results output :exports both :noweb yes
 #+PROPERTY: header-args:python :session *Python* :results output :exports both :noweb yes
 #+PROPERTY: header-args:C :main yes :includes <stdio.h> :results output :exports both :noweb yes
@@ -514,7 +514,7 @@ R is an interpreted, FOSS, statistical programming language, very
 strong on visualization and statistical functions. To learn it, check
 out Matloff's online tutorial [[https://github.com/matloff/fasteR][fasterR @ GitHub]][fn:7].
 
-#+begin_src R :results output
+#+begin_src R :results output :session *R*
   "Hello, world!"
 #+end_src
 
@@ -738,7 +738,6 @@ I'm not very good at Java, so here's only the simple version -
   }
 #+end_src
 
-
 ** bash
 
 =bash= is a shell script language. It allows you to interact directly
@@ -748,7 +747,6 @@ The minimal hello world program in bash:
 #+begin_src bash :results output
   echo "Hello, world!"
 #+end_src
-
 
 ** Emacs Lisp
 
