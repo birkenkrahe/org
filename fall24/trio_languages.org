@@ -7,6 +7,18 @@
 #+PROPERTY: header-args:python :session *Python* :results output :exports both :noweb yes
 #+PROPERTY: header-args:C :main yes :includes <stdio.h> :results output :exports both :noweb yes
 #+PROPERTY: header-args:C++ :main yes :includes <iostream> :results output :exports both :noweb yes
+* Zoom
+
+- Open a browser to zoom.us
+- Click on =Join= at the top
+- Enter 388 023 5098
+- Launch meeting in browser
+- Don't bother with audio ("Continue")
+- Watch my show
+
+This file is available as an Emacs Org-mode notebook on GitHub at
+[[https://tinyurl.com/trio-languages][tinyurl.com/trio-languages]].
+
 * Overview
 
 The purpose of this short session is to show and discuss programming
@@ -15,8 +27,8 @@ I'm going to demonstrate how not one but many languages are used in
 class so that you have an idea what awaits you at Lyon College if you
 study computer or data science.
 
-It will emerge that you won't see 45 but only 15 languages today but
-hopefully you'll learn something anyway!
+It will emerge that you won't see 45 but only 15-20 languages today
+but hopefully you'll learn something anyway!
 
 *These are some questions I'd like to answer:*
 1. What is a programming language?
@@ -30,9 +42,7 @@ hopefully you'll learn something anyway!
 9. Why do you need to know more than one programming language?
 10. Which programming languages should you learn (first)?
 
-This file is available as an Emacs Org-mode notebook on GitHub at
-[[https://tinyurl.com/trio-languages][tinyurl.com/trio-languages]].
-
+There will be a short multiple choice quiz at the end!
 * What is a programming language?
 
 A programming language is a /formal language/ to express instructions
@@ -43,6 +53,9 @@ spoken languages.
   #+begin_src C :exports both
     printf("Hello, class!");
   #+end_src
+
+  #+RESULTS:
+  : Hello, class!
 
 - /Formal/ in this context means that a programming language requires
   you to follow its syntax (its set of rules) to the letter. Any
