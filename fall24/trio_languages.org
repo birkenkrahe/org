@@ -34,7 +34,8 @@ but hopefully you'll learn something anyway!
 1. What is a programming language?
 2. How many programming languages are there?
 3. What is a programming environment?
-4. What is the difference between a programming and a 'natural' language?
+4. What is the difference between a programming and a 'natural'
+   language?
 5. What is 'natural language processing'?
 6. What is Emacs? What is Org-mode?
 7. What is Literate Programming?
@@ -53,9 +54,6 @@ spoken languages.
   #+begin_src C :exports both
     printf("Hello, class!");
   #+end_src
-
-  #+RESULTS:
-  : Hello, class!
 
 - /Formal/ in this context means that a programming language requires
   you to follow its syntax (its set of rules) to the letter. Any
@@ -83,7 +81,7 @@ spoken languages.
 
   We've violated the syntactical rules twice:
   1) we tried to use a function =print= that does not exist
-  2) we've forgotten that every command in the C language must end with a ;
+  2) every command in the C language must end with a semi-colon '=;'=
   #+end_quote
 
 - Philosophical-political extension:
@@ -98,36 +96,38 @@ spoken languages.
 
 One of the issues when learning how to program is the sheer amount of
 new words. In this short introductory section alone we used the
-following 10 terms:
+following terms:
 
-| TERM              | EXPLANATION                               |
-|-------------------+-------------------------------------------|
-| Emacs             | Self-extensible editor                    |
-| Org-mode notebook | Interactive notebook file in Emacs        |
-| C                 | One of the first programming languages    |
-| Formal language   | Language with strict rules                |
-| Source code       | Human-readable code                       |
-| Machine code      | Executable, not readable, code            |
-| Compiler          | Software to turn source into machine code |
-| Syntax            | Set of rules (grammar)                    |
-| GitHub            | Software development platform             |
-| Globalism         | World-view that transcends (all) borders  |
+| TERM              | EXPLANATION                                |
+|-------------------+--------------------------------------------|
+| Emacs             | Self-extensible editor                     |
+| Org-mode notebook | Interactive notebook file in Emacs         |
+| C                 | One of the first programming languages     |
+| =printf=            | Built-in C function to print to the screen |
+| Formal language   | Language with strict rules                 |
+| Source code       | Human-readable code                        |
+| Machine code      | Executable, not readable, code             |
+| Compiler          | Software to turn source into machine code  |
+| Compiler error    |                                            |
+| Syntax            | Set of rules (grammar)                     |
+| GitHub            | Software development platform              |
+| Globalism         | World-view that transcends (all) borders   |
 
 * What is a programming environment?
 
-- Just like you don't write with your fingers in the open air, but
-  with a pen on paper, or with a keyboard on a screen, 'speaking' a
-  programming language depends on certain tools - the totality of
+- *Tools*: Just like you don't write with your fingers in the open air,
+  but with a pen on paper, or with a keyboard on a screen, 'speaking'
+  a programming language depends on certain tools - the totality of
   these tools is called "programming environment".
 
-- A programming environment is software that allows you to write and
-  run programs on a computer so that you get the same results when you
-  apply the same conditions - this is important because computer
+- *Why?* A programming environment is software that allows you to write
+  and run programs on a computer so that you get the same results when
+  you apply the same conditions - this is important because computer
   programs are usually running unsupervised and cannot check up on
   themselves, but also because the process of /debugging/ (finding
   program mistakes) relies on repeatable conditions.
 
-- The fundamental object of such an environment is the /file/ - on
+- *Files:* The fundamental object of such an environment is the /file/ - on
   today's computers, everything is organized as a file - a part of the
   computer memory. Therefore it's important to understand how files
   are created, changed, moved around, and found.
@@ -144,8 +144,8 @@ following 10 terms:
   Chromebook/netbook though even there you can get to it with a little
   effort) is to open a terminal or a command line.
 
-- On Windows: search for `CMD` to find the terminal. On macOS, search
-  for `terminal`.
+- Do this now! On Windows: search for `CMD` to find the terminal. (On
+  macOS, search for `terminal`.)
 
 - The terminal opens in a separate window and accepts so-called
   `shell` commands because it is run via software that sits like an
@@ -167,13 +167,15 @@ following 10 terms:
   3) saves the result to a file named `2022_txt`
   4) counts the lines of the result (the number of files ending in .txt)
   #+begin_src bash :results output
-    ls -l 2022* |  grep .txt | tee 2022_txt | wc -l
+    ls -l |  grep ipynb | tee ipynb_files | wc -l
   #+end_src
 
 - You can also program on the shell. The corresponding scripting
-  language is called =bash= ("Bourne-Again-SHell").
+  language is called =bash= ("Bourne-Again-SHell"). I'll show you later.
 
 * How many [programming] languages are there?
+#+attr_html: :width 700px:
+[[./img/atlas_languages.png]]
 
 - Spoken ("natural") languages:
   #+begin_quote
@@ -207,8 +209,7 @@ Think about different aspects of language:
 
 ** Answers
 
-- This is what you get if you ask ChatGPT to contrast programming
-  vs. natural language:
+- "ChatGPT, contrast programming with natural languages":
 
   | Aspect         | Programming Languages                                         | Natural Languages                                          |
   |----------------+---------------------------------------------------------------+------------------------------------------------------------|
@@ -225,32 +226,45 @@ Think about different aspects of language:
   | Output         | Machine-executable programs                                   | Human understanding and action                             |
   | Dependency     | Dependent on hardware and software environment                | Dependent on cultural and social context                   |
 
-- Where does it come from? Perhaps from God? "In the beginning was the
-  Word, and the Word was with God, and the Word was God." John 1:1
+- *Where does language come from?*
+  #+begin_quote
+  Perhaps from God? "In the beginning was the Word, and the Word was
+  with God, and the Word was God." John 1:1
+  #+end_quote
 
-- Do animals have language? Perhaps (not). Like many other beings
-  (even plants) they seem to communicate - but does communication need
-  language?
+- *Do animals have language?*
+  #+begin_quote
+  Perhaps (not). Like many other beings (even plants) they seem to
+  communicate - but does communication need language?
+  #+end_quote
 
-- Can ChatGPT speak? It says about itself: "Yes, I can understand and
-  generate natural language. I can process and respond to queries,
-  generate text in various formats, and assist with a wide range of
-  topics using natural language."
+- *Can ChatGPT speak?*
+  #+begin_quote
+  It says about itself: "Yes, I can understand and generate natural
+  language. I can process and respond to queries, generate text in
+  various formats, and assist with a wide range of topics using
+  natural language." (The straight answer is NO.)
+  #+end_quote
 
-- But does ChatGPT really "understand"? Answer: "I don't understand
-  like a human does. While I can process and generate text in ways
-  that often seem very human-like, my "understanding" is based on
-  patterns in the data I was trained on, not on conscious thought or
-  human experience. I analyze the input text and generate responses
-  based on patterns, probabilities, and algorithms, but I lack
-  awareness, emotions, and the ability to truly comprehend or
-  experience the world. My responses are designed to be useful and
-  coherent, but they don't come from personal experience or genuine
-  understanding."
+- *Does ChatGPT really "understand"?*
+  #+begin_quote
+  Answer: "I don't understand /like a human does/. While I can process
+  and generate text in ways that often seem very human-like, my
+  "understanding" is based on patterns in the data I was trained on,
+  not on conscious thought or human experience. I analyze the input
+  text and generate responses based on patterns, probabilities, and
+  algorithms, but I lack awareness, emotions, and the ability to truly
+  comprehend or experience the world. My responses are designed to be
+  useful and coherent, but they don't come from personal experience or
+  genuine understanding."
 
-- Without understatement, we can say that the arrival of large
-  language models does not clarify but muddle the issue of language as
-  a concept.
+  Pretty honest - but does "understanding not like a human" mean
+  anything? 
+  #+end_quote
+
+- Summarizing this little detour: without understatement, we can say
+  that the arrival of large language models does not clarify but
+  muddle the issue of language as a concept.
 
 * What is 'natural language processing'?
 
@@ -259,9 +273,12 @@ transformer technology, which in turn is behind Large Language Models
 (LLMs) - software that you know as conversational bots like ChatGPT.
 
 - NLP is one of the most important areas of data science. It involves:
-  1. Data collection (gathering digital media - text, images, films, audio)
-  2. Data preprocessing (cleaning, tokenizing, normalizing, removing stopwords)
-  3. Feature extraction (bag-of-words, term-frequency, Part-of-Speech tagging, etc.)
+  1. Data collection (gathering digital media - text, images, films,
+     audio)
+  2. Data preprocessing (cleaning, tokenizing, normalizing, removing
+     stopwords)
+  3. Feature extraction (bag-of-words, term-frequency, Part-of-Speech
+     tagging, etc.)
   4. Model selection (naive Bayes, SVM, transformers)
   5. Model training (split data, train model, test model)
   6. Model evaluation (check accuracy, precision, recall)
@@ -331,15 +348,20 @@ Digital Humanities):
 
 * Summary I
 
-- A Programming language is a formal language to express instructions
+- A *programming language* is a formal language to express instructions
   for a computer.
-- Programming requires an infrastructure including an environment with
+
+- Programming requires an *infrastructure* including an environment with
   tools like an editor, a compiler, and a shell
-- You use an editor to create source code, a compiler to generate
-  machine code, and a shell to interact with the computer's OS
-- Natural languages are a complete mystery but they can be processed
-  to build generative AI tools that can augment human problem-solving
-- Bag-of-words and syntactic parsing are two common NLP methods.
+
+- You use an *editor* to create source code, a *compiler* to generate
+  machine code, and a *shell* to interact with the computer's OS
+
+- *Natural languages* are a complete mystery but they can be processed
+  to build *generative AI* tools that can augment human problem-solving
+
+- *Bag-of-words* and *syntactic parsing* are two common Natural Language
+  Processing (NLP) methods.
 
 * What is Emacs? What is Org-mode?
 
@@ -349,30 +371,30 @@ we're going to talk about the most powerful programming environment
 available to man - and it exists since 40 years!
 
 ** Emacs - Editor MACroS (1985)
-#+attr_html: :width 400px:
+#+attr_html: :width 350px:
 [[./img/emacs_action.png]]
 
-- Emacs is a highly customizable editor. It compares to VSCode, which
-  uses a similar process (through plugins) to enhance its
-  capabilities.
+- Emacs is a highly customizable *editor*. *VSCode* (Visual Studio Code)
+  uses a similar plugin approach to enhance its capabilities.
 
-- The difference is that Emacs is totally Free and Open Source
-  Software (FOSS), and that it can be changed by anyone who knows
-  Emacs Lisp.
+- The difference: Emacs is totally *Free and Open Source Software*
+  (FOSS), and that it can be changed by anyone who knows Emacs Lisp.
 
 - Emacs is often called the "hacker's editor" because it is so
   extensible, integrates with so many tools, and is capable of
   handling so many tasks around software development with ease.
 
 - To find out more, watch my [[https://youtu.be/RdRbm1wG1Gc?si=rRgjV6bXhKVIHwQg][Emacs tutorial I]] and [[https://youtu.be/VhsEMIjAaEk?si=DD5JtFPvnclNeC60][II]] (30 min), and
-  look at my [[https://www.youtube.com/playlist?list=PLwgb17bzeNygGtpZE_8gaWELZPbxfbUiO][playlist for students]]. If you come to Lyon to study with
-  me, you have to learn Emacs anyway.
+  look at my [[https://www.youtube.com/playlist?list=PLwgb17bzeNygGtpZE_8gaWELZPbxfbUiO][playlist for students]] ([[https://tinyurl.com/trio-playlist][tinyurl.com/trio-playlist]]). If you
+  come to Lyon to study with me, you have to learn Emacs anyway.
 
 - If someone says "Emacs is hard to learn", don't believe them, just
   like when someone says "Linux is harder than Windows or macOS". The
-  opposite is the truth. Most importantly for you as a learner,
-  everything you do when you learn Emacs has high transfer value,
-  i.e. you can use it somewhere else and it helps you understand more.
+  opposite is the truth.
+
+- Most importantly for you as a learner, everything you do when you
+  learn Emacs has *high transfer value*, i.e. you can use it somewhere
+  else and it helps you understand more of what you need to know.
 
 ** Org-mode
 
@@ -381,16 +403,18 @@ available to man - and it exists since 40 years!
   documents within Emacs, but also to program without having to ever
   change the programming environment.
 
-- What you see right now (in this presentation), is not WYSIWYG (What
-  You See Is What You Get) but WYSIWYM (What You See Is What You
-  Mean):
+- This whole presentation is written in Org-mode and presented in
+  Emacs using the =org-tree-slide= package.
 
-  | Aspect   | WYSIWYG                                 | WYSIWYM                                |
-  |----------+-----------------------------------------+----------------------------------------|
-  | Emphasis | Final appearance                        | Structure and meaning                  |
-  | Editing  | Visual, direct layout manipulation      | Abstract, focuses on content/structure |
-  | Examples | Microsoft Word, Google Docs             | LaTeX, Markdown, Org-mode              |
-  | Output   | Immediate editing reflects final output | Rendering defines final output         |
+- What you see right now, is not *WYSIWYG* (What You See Is What You
+  Get) but *WYSIWYM* (What You See Is What You Mean):
+
+  | Aspect   | WYSIWYG (What You See Is What You Get)  | WYSIWYM (What You See Is What You Mean) |
+  |----------+-----------------------------------------+-----------------------------------------|
+  | Emphasis | Final appearance                        | Structure and meaning                   |
+  | Editing  | Visual, direct layout manipulation      | Abstract, focuses on content/structure  |
+  | Examples | Microsoft Word, Google Docs             | LaTeX, Markdown, Org-mode               |
+  | Output   | Immediate editing reflects final output | Rendering defines final output          |
 
 - Look at this page vs. a Google Docs page: here, /meta data/ elements
   control the layout. In Emacs + Org-mode the control is mediated
@@ -398,7 +422,6 @@ available to man - and it exists since 40 years!
   interface (GUI).
 
 - Here is a copy of the meta data at the top of this file:
-
   [[./img/org_meta.png]]
 
   1. The top (green) is meta data for Org-Roam, a system for notekeeping.
@@ -447,9 +470,11 @@ available to man - and it exists since 40 years!
   document. Why is that helpful? Because different languages can do
   different things.
 
+** Compare Emacs + Org-mode with Colab
+
 - Contrast the Emacs + Org-mode original ([[https://tinyurl.com/trio-rdemo-org][available on GitHub]]) with
-  the Colab version (on Google Colab):
-  #+attr_html: :width 700px:
+  the Colab version ([[https://tinyurl.com/trio-rdemo-colab][available on Google Colaboratory]]):
+  #+attr_html: :width 750px:
   [[./img/org_vs_colab.png]]
 
 - You can see the difference in complexity of the GUI: on the left
@@ -461,6 +486,10 @@ available to man - and it exists since 40 years!
   because I've been asked to write a book for a publisher on this
   topic, and I have even received a research grant to do this.
 
+- Take a closer look at Google Colab and a literate program - a
+  demonstration using the programming language R:
+  [[https://tinyurl.com/trio-rdemo-colab][tinyurl.com/trio-rdemo-colab]] - open the file (you may have to
+  register or login with a Google account) and run the cells.
 * How many programming languages do you 'speak'?
 
 Incidentally, these are also the 16 programming languages that you can
@@ -472,7 +501,7 @@ language for a while, you begin to forget it - but it never goes away
 altogether[fn:5].
 
 The classic program to write as a first program in any language is
-"Hello world"[fn:6]. It's instructive and it's good luck. I'm going to
+*"Hello world"*[fn:6]. It's instructive and it's good luck. I'm going to
 sketch solutions to this program in a few languages below.
 
 I could keep going: Org-mode supports 71 programming languages right
@@ -489,9 +518,6 @@ out Matloff's online tutorial [[https://github.com/matloff/fasteR][fasterR @ Git
   "Hello, world!"
 #+end_src
 
-#+RESULTS:
-: [1] "Hello, world!"
-
 What's really happening here:
 #+begin_src R :results output
   s <- "Hello, world!" # a one-element character vector
@@ -499,11 +525,6 @@ What's really happening here:
   is.character(s)
   is.vector(s)
 #+end_src
-
-#+RESULTS:
-: [1] "Hello, world!"
-: [1] TRUE
-: [1] TRUE
 
 ** SQLite/SQL
 
@@ -517,18 +538,12 @@ In the example, we use an SQLite database =test.db=
   SELECT "Hello, world!"
 #+end_src
 
-#+RESULTS:
-: Hello, world!
-
 This is pretty boring and doesn't really use SQL's abilities. Here is
 a more elaborate and more interesting example:
 #+begin_src sqlite :db test.db :header :column :results output :exports both :comments both :tangle yes :noweb yes
   CREATE TABLE IF NOT EXISTS test (INT id, greeting TEXT);
   .tables
 #+end_src
-
-#+RESULTS:
-: test
 
 Now we have a table. Let's put the string into it:
 #+begin_src sqlite :db test.db :header :column :results silent :exports both :comments both :tangle yes :noweb yes
@@ -539,9 +554,6 @@ Finally we're ready for the output:
 #+begin_src sqlite :db test.db :column :results output :exports both :comments both :tangle yes :noweb yes
   SELECT greeting FROM test;
 #+end_src
-
-#+RESULTS:
-: Hello, world!
 
 SQLite is easy to learn. SQL and/or SQLite are must-have languages for
 anybody in data science and/or web development.
@@ -565,17 +577,11 @@ f-string:
   print(f"{greeting}")
 #+end_src
 
-#+RESULTS:
-: Hello, world!
-
 Or as part of a list:
 #+begin_src python :python python3 :session *Python* :results output
   hw = ["Hello", ",", "world", "!", " "]
   print(hw[0] + hw[1] + hw[-1] + hw[2] + hw[3])
 #+end_src
-
-#+RESULTS:
-: Hello, world!
 
 Python is famous for the variety of its data structures. And this is
 only the pale beginning! You can program object-oriented in Python,
@@ -630,18 +636,12 @@ Once again, the simple version of a C Hello World program:
   }
 #+end_src
 
-#+RESULTS:
-: Hello, world
-
 Unlike R, Python, SQL, it is a compiled language that is there is no
 way to program interactively. With Emacs + Org-mode, however, this can
 be achieved, as you see here:
 #+begin_src C :main yes :includes <stdio.h> :results output :exports both :comments both :tangle yes :noweb yes
   puts("Hello, world!");
 #+end_src
-
-#+RESULTS:
-: Hello, world!
 
 Here is a version of "Hello world" in C that uses memory allocation
 and pointers (references to memory locations):
@@ -672,9 +672,6 @@ and pointers (references to memory locations):
   }
 #+end_src
 
-#+RESULTS:
-: Hello, World!
-
 C++ is an object-oriented extension of C. This simple version looks
 very similar:
 #+begin_src C++ :main yes :includes <iostream> :results output :exports both :comments both :tangle yes :noweb yes
@@ -688,9 +685,6 @@ very similar:
     return 0;
   }
 #+end_src
-
-#+RESULTS:
-: Hello, world!
 
 For the fancy version, let's demonstrate object-oriented programming:
 #+begin_src C++ :main yes :includes <iostream> :results output :exports both :comments both :tangle yes :noweb yes
@@ -723,9 +717,6 @@ For the fancy version, let's demonstrate object-oriented programming:
   }
 #+end_src
 
-#+RESULTS:
-: Hello, World!
-
 At Lyon College, "Introduction to programming with C/C++" and "Data
 structures with C++" are the first two programming courses you'll
 complete for a major or minor in computer science.
@@ -747,8 +738,6 @@ I'm not very good at Java, so here's only the simple version -
   }
 #+end_src
 
-#+RESULTS:
-: Hello, World!
 
 ** bash
 
@@ -760,8 +749,6 @@ The minimal hello world program in bash:
   echo "Hello, world!"
 #+end_src
 
-#+RESULTS:
-: Hello, world!
 
 ** Emacs Lisp
 
@@ -774,9 +761,6 @@ Hello world is very simple.
 #+begin_src emacs-lisp
   (message "Hello, world!")
 #+end_src
-
-#+RESULTS:
-: Hello, world!
 
 Here is a fancier version that uses Lisp's list processing abilities -
 the output is printed in Emacs' minibuffer only.
@@ -865,6 +849,8 @@ tags, e.g. <code>&lt;b&gt;"Hello, world!&lt;/b&gt;</code> for bold face etc.
 </div>
 #+end_example
 
+You can render Org-mode files as HTML files for browser display. Once
+in the browser, right-click to =Inspect= the HTML code.
 ** IPython
 
 IPython(Interactive Python) is an enhanced interactive shell for
@@ -874,9 +860,10 @@ commands, improved introspection, rich media output, and integration
 with visualization libraries.
 
 You can see it in action in Google Colaboratory. You've already seen
-interactive R, and here is an [[https://colab.research.google.com/drive/1es-GWcyyhrh1HVKhyllegxs2DRkf10-X?usp=sharing][IPython notebook]] (an analysis of test
-grades from one of my courses).
-
+interactive R, and here is a Python [[https://colab.research.google.com/drive/1es-GWcyyhrh1HVKhyllegxs2DRkf10-X?usp=sharing][IPython notebook]] (an analysis of
+test grades from one of my courses).
+#+attr_html: :width 700px:
+[[./img/ipython.png]]
 ** Scratch/Snap!
 
 Several of you will remember Snap! from the 2023 summer school where
@@ -938,65 +925,71 @@ My own path was different:
 * Bonus: Why do I need to learn any programming language? (What about AI?)
 
 I asked AI, and the answer is pretty good (I added two at the end):
-** Understanding and Control
 
-- Deeper understanding of how software and systems work.
-- Customization and control over software behavior.
+1. Understanding and Control
+   - Deeper understanding of how software and systems work.
+   - Customization and control over software behavior.
+2. Problem-Solving Skills
+   - Teaches critical thinking and problem-solving skills.
+   - Enables breaking down complex problems into manageable parts.
 
-** Problem-Solving Skills
+3. Automation and Efficiency
+   - Automate repetitive tasks to increase productivity.
+   - Create scripts and tools tailored to specific needs.
 
-- Teaches critical thinking and problem-solving skills.
-- Enables breaking down complex problems into manageable parts.
+4. Career Opportunities
+   - High-paying jobs in technology, data science, engineering, and
+     related fields.
+   - Competitive edge in the job market.
 
-** Automation and Efficiency
+5. Interdisciplinary Applications
+   - Used in various fields such as finance, healthcare, education,
+     and more.
+   - Analyze data, create models, and develop industry-specific
+     applications.
 
-- Automate repetitive tasks to increase productivity.
-- Create scripts and tools tailored to specific needs.
+6. Innovation and Creativity
+   - Build your own projects, from simple applications to complex
+     systems.
+   - Fosters creativity and innovation.
 
-** Career Opportunities
+7. Interfacing with AI
+   - Crucial for working with AI technologies.
+   - Develop, train, and fine-tune AI models, and integrate them into
+     applications.
 
-- High-paying jobs in technology, data science, engineering, and
-  related fields.
-- Competitive edge in the job market.
+8. Ethical and Responsible Use
+   - Understand the ethical implications of technology and AI.
+   - Make informed decisions about data privacy, security, and
+     societal impact.
 
-** Interdisciplinary Applications
+9. Because it's fun!
 
-- Used in various fields such as finance, healthcare, education, and
-  more.
-- Analyze data, create models, and develop industry-specific applications.
+10. Because you need to know what the machines are doing!
 
-** Innovation and Creativity
-
-- Build your own projects, from simple applications to complex systems.
-- Fosters creativity and innovation.
-
-** Interfacing with AI
-
-- Crucial for working with AI technologies.
-- Develop, train, and fine-tune AI models, and integrate them into applications.
-
-** Ethical and Responsible Use
-
-- Understand the ethical implications of technology and AI.
-- Make informed decisions about data privacy, security, and societal impact.
-
-** Because it's fun (MB)
-** Because you need to know what the machines are doing (MB)
 
 * Summary II
 
 - Emacs is a highly customizable, free and open source editor that
   trains many transferable skills and will speed you up enormously.
+
 - Org-mode is a structured plain text file format and Emacs package
   for organizing, authoring and managing notes, tasks, documents, and
   for developing code and writing literate programs.
+
 - Literate programming emphasises writing code that is human-readable
   and understandable, is ubiquitous in data science (via Jupyter
   notebooks), and especially powerful with Emacs + Org-mode.
+
 - It is important to know multiple languages for flexibility, specific
   applications, and problem-solving.
+
 - Examples include R, SQL, Python, C, C++, Java, bash, Emacs Lisp,
   JavaScript, Markdown, LaTeX, HTML, IPython, and Scratch.
+
+* Thank you for your attention!
+#+attr_html: :width 600px: 
+[[./img/thankyou.png]]
 
 * Bonus: What's the difference between Scratch and Python?
 
