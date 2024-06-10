@@ -3,6 +3,15 @@
 #+subtitle: TRIO Lyon College, Summer 2024, 12 June, 2:15-3 pm / 3.15 - 4 pm
 #+startup: overview hideblocks indent entitiespretty:
 #+property: header-args:python :python python3 :session *Python* :results output :exports both :noweb yes :tangle yes:
+* Zoom
+
+- Open a browser to zoom.us
+- Click on =Join= at the top
+- Enter 388 023 5098
+- Launch meeting in browser
+- Don't bother with audio ("Continue")
+- Watch my show
+
 * Introduction
 #+attr_html: :width 400px
 [[./img/trioposter.png]]
