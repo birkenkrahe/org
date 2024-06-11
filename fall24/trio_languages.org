@@ -1,6 +1,6 @@
 #+TITLE:45 Programming Languages In 45 Minutes
-#+AUTHOR:45 Programming Languages In 45 Minutes
-#+SUBTITLE:45 Programming Languages In 45 Minutes
+#+AUTHOR:Marcus Birkenkrahe
+#+SUBTITLE:TRIO Lyon College Summer 2024
 #+options: toc:1
 #+STARTUP:overview hideblocks indent
 #+PROPERTY: header-args:R :session *R* :results output :exports both :noweb yes

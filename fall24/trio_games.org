@@ -277,9 +277,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   #+begin_src python :python python3 :session *Python* :results output
     5 +
   #+end_src
-
-  #+RESULTS:
-
+  
 - Syntax errors result from not observing the rules of the language -
   it's as if Yoda was saying "Home I go". This violates the SPO rule
   of English syntax - Subject + Predicate + Object.
