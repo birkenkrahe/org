@@ -5,12 +5,13 @@
 #+property: header-args:python :python python3 :session *Python* :results output :exports both :noweb yes :tangle yes:
 * Zoom
 
+- Login to your Lyon account
 - Open a browser to zoom.us
 - Click on =Join= at the top
 - Enter 388 023 5098
 - Launch meeting in browser
 - Don't bother with audio ("Continue")
-- Watch my show
+- Watch and code along (see below)
 
 * Introduction
 #+attr_html: :width 400px
@@ -22,10 +23,12 @@
 - Download the code along notebook for this class to your PC from
   here: =tinyurl.com/trio-games-colab= and save it as =trio.ipnyb=.
 
+- You need to register/login to GMail/GDrive to run this notebook.
+
 - The notebooks were rendered from my own Emacs Org-mode notebooks -
   they are also available online at tinyurl.com/trio-games-org
 
-** Overview
+* Overview
 
 1) Programming as an art (with or without AI).
 2) Programming with IPython, IDLE, and Google Colaboratory.
@@ -38,7 +41,7 @@
 9) Quiz 2.
 10) What do to next.
 
-** Why should you (still) learn how to program?
+* Why should you (still) learn how to program?
 #+attr_html: :width 600px:
 [[./img/programming_is_fun.webp]]
 
@@ -47,22 +50,22 @@
 - Programming trains your brain to think logically.
 - Programming gets you used to making and fixing mistakes.
 
-** Will AI not do all the programming for us?
-
+* Will AI not do all the programming for us?
+#+begin_quote
 "So much of what we do as software developers is just magic to
 people. It's really hard for people outside of software to gauge how
 complicated some tasks are, or what software is capable and not
 capable of doing. So AI just seems magical, but I have a really dim
 and critical view of ChatGPT and a lot of these large language models
-and various tools. It's not like blockchain or NFTs. There is
+and various tools. It's not like blockchain or NFTs[fn:1]. There is
 something there, but there is also just so much hype surrounding these
 tools. So what I have to tell people is, yes, it absolutely is worth
 it to learn how to program."
 
 Al Sweigart ([[https://the-stack-overflow-podcast.simplecast.com/episodes/spreading-the-gospel-of-python/transcript][Stackoverflow.com podcast, May 24, 2024]])
+#+end_quote
 
-
-#+attr_html: :width 200px:
+#+attr_html: :width 300px:
 #+caption: https://xkcd.com/1425/
 [[./img/xkcd.png]]
 
@@ -70,7 +73,7 @@ What does this cartoon mean to you?
 - CS = Computer Science
 - GIS = Geographical Information System (like Google Maps).
 
-** Getting started with IPython
+* Getting started with IPython
 
 - IPython is a Python /shell/ program - an environment to connect to the
   Python interpreter. It's not the same as
@@ -84,7 +87,7 @@ What does this cartoon mean to you?
 - If you have Python on your PC, you can open a command line (CMD) and
   open the interpreter (aka console or shell) with the command
   =python3=:
-  #+attr_html: :width 400px:
+  #+attr_html: :width 700px:
   #+caption: Python interpreter on my Linux box at home
   [[./img/python3.png]]
 
@@ -93,7 +96,7 @@ What does this cartoon mean to you?
 
 - Confusingly, Python 2 and Python 3 are not compatible.
 
-** Getting started with IDLE
+* Getting started with IDLE
 
 - When you have Python, you also have another program called IDLE,
   which can be started from the command line with =idle=.
@@ -102,23 +105,20 @@ What does this cartoon mean to you?
   for writing Python programs.
 
 - It's a separate window where you can enter commands and execute them.
-  #+attr_html: :width 400px:
-  #+Caption: Executing Python code in the IDLE shell
+  #+attr_html: :width 600px:
   [[./img/idle_plot.png]]
 
-  #+attr_html: :width 400px:
-  #+Caption: Executing Python code from a Python file inside IDLE
+  #+attr_html: :width 600px:
   [[./img/idle_plot1.png]]
 
-  #+attr_html: :width 400px:
-  #+Caption: Executing Python code in the IDLE shell
+  #+attr_html: :width 600px:
   [[./img/idle_plot.png]]
 
 - IDLE is a so-called "Integrated Development Environment" (IDE) that
   allows you to perform different operations during program
   development on one platform: writing, debugging and executing code.
 
-** Getting started with Google Colaboratory
+* Getting started with Google Colaboratory
 
 - Fortunately, Google offers a free IPython application called
   Colaboratory, which we will use to do all of our coding.
@@ -162,14 +162,30 @@ What does this cartoon mean to you?
 - Give the notebook a title, e.g. "Colabdemo.ipynb" and save it. This
   file will now automatically be saved to your Google Drive account.
 
-** Getting started with Python
+* Getting started with Python
 
 - At the top of the welcome screen, you find the =File= menu: open it
   and choose =Upload notebook=, then browse your PC to upload the file
-  =trio.ipynb= that you downloaded at the start.
+  =trio.ipynb= that you downloaded at the start of the session.
 
 - The notebook contains all the text from my own notebook, with little
   exercises and space for you to code along.
+
+* Summary
+
+- Programming is fun, useful, and enhances logical thinking while
+  teaching resilience in fixing mistakes.
+
+- AI has limitations and hype; learning to program remains valuable.
+
+- IPython is an interactive environment to run Python commands
+  directly, distinct from the Python interpreter.
+
+- IDLE is an Integrated Development Environment (IDE) for writing,
+  debugging, and executing Python code.
+
+- Google Colaboratory is a free online tool for coding in IPython,
+  requiring a Google account and supporting Markdown formatting.
 
 * Manipulating values
 ** Manipulating integer values
@@ -290,7 +306,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 - A variable is like a box that can hold a value.
 
 - In the next code block, store the integer number `15` in a variable
-  called `spam`[fn:1].
+  called `spam`[fn:2].
   #+begin_src python :python python3 :session *Python* :results silent
     spam = 15
   #+end_src
@@ -470,7 +486,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 ** Creating the Hello World program
 
 - It's traditional for programmers to make their first program display
-  `Hello world!` on the screen[fn:2]
+  `Hello world!` on the screen[fn:3]
 
 - Enter the following code in the code block:
   1. `# This program says hello and asks for my name`
@@ -640,8 +656,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
   or without arguments, e.g. `print(2)` or `input()`.
 - Functions can be used anywhere a value is used: `name=input()`.
 
-** [[https://quizizz.com/admin/quiz/6661f06fc8188d75936738cd/python-basics-quiz?fromSearch=true&source=][Quiz 1: Python Basics
-]]
+** [[https://quizizz.com/admin/quiz/6661f06fc8188d75936738cd/python-basics-quiz?fromSearch=true&source=][Quiz 1: Python Basics]]
 * Writing a game program
 ** Defining the game
 
@@ -756,7 +771,7 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 
 - The `.` operator accesses the `random` package. You remember that we
   loaded a graphics package, `matplotlib.pyplot` earlier, and gave it
-  an alias, `plt`[fn:3]:
+  an alias, `plt`[fn:4]:
   #+begin_src python :python python3 :session *Python* :results silent
     import matplotlib.pyplot as plt
   #+end_src
@@ -1047,16 +1062,19 @@ Quizziz Library:
 2) Python Programming Quiz (8 questions) - after the second session
 
 * Footnotes
-[fn:3] Packages like `matplotlib` or `random` are also called
-/libraries/, and sub-packages like `pyplot` in `matplotlib` are called
-/modules/. Either of these three terms (package, library, module) will
-do.
 
-[fn:2]This goes back to the first proper programming manual written by
-Kernighan and Ritchie for the C programming language, and it stuck
-(this seminal book also bot its own [[https://en.wikipedia.org/wiki/The_C_Programming_Language][Wikipedia page]]).
+[fn:1] What are NFTs? (New Fungible Tokens = digital blockchain asset)
 
-[fn:1]The use of `spam`, `ham`, `bacon` and `eggs` is an hommage to
+[fn:2]The use of `spam`, `ham`, `bacon` and `eggs` is an hommage to
 the origin of the name for the Python language, the British comedy
 group 'Monty Python' - see also their "Spam" sketch, which is so
 famous that it has got its own [[https://en.wikipedia.org/wiki/Spam_(Monty_Python_sketch)][Wikipedia page]]!
+
+[fn:3]This goes back to the first proper programming manual written by
+Kernighan and Ritchie for the C programming language, and it stuck
+(this seminal book also bot its own [[https://en.wikipedia.org/wiki/The_C_Programming_Language][Wikipedia page]]).
+
+[fn:4] Packages like `matplotlib` or `random` are also called
+/libraries/, and sub-packages like `pyplot` in `matplotlib` are called
+/modules/. Either of these three terms (package, library, module) will
+do.
