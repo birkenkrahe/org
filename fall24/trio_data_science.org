@@ -2,7 +2,7 @@
 #+AUTHOR:Marcus Birkenkrahe
 #+SUBTITLE:TRIO Lyon College Summer 2024
 #+options: toc:1
-#+STARTUP:overview hideblocks indent
+#+STARTUP:overview indent
 #+PROPERTY: header-args:R :session *R* :results output :exports both :noweb yes
 #+PROPERTY: header-args:python :session *Python* :results output :exports both :noweb yes
 #+PROPERTY: header-args:C :main yes :includes <stdio.h> :results output :exports both :noweb yes
@@ -44,10 +44,10 @@ computer and data science program, see [[https://www.lyon.edu/data-science][www.
 10) How can you test different plot types?
 
 * What is data science?
-#+attr_html: :width 600px: 
+#+attr_html: :width 600px:
 [[./img/ds1.png]]
 
-#+attr_html: :width 600px: 
+#+attr_html: :width 600px:
 [[./img/ds2.png]]
 
 In terms of computer science and programming language, three languages
@@ -159,20 +159,20 @@ documentation, code, and output.
 
 - What we can say about the data without further exploration:
   #+begin_quote
-  1. the first line looks different from all the other lines
-  2. the dataset consists of 33 lines, 566 words, and 1766 characters
-  3. it contains text, integer and decimal numbers
-  4. The first word in the last 32 lines could be the name of a car
-  5. All items in the dataset are separated by commas
+  1. The first line looks different from all the other lines.
+  2. The dataset consists of 33 lines, 566 words, and 1766 characters.
+  3. It contains text, integer and decimal numbers.
+  4. The first word in the last 32 lines could be the name of a car.
+  5. All items in the dataset are separated by commas.
   #+end_quote
 
-- What this could mean:
+- What can we infer from these observations?
   #+begin_quote
-  1) ~mtcars~ has a headline and 32 records
-  2) ~mtcars~ data are stored as a CSV (Comma Separated Values) file
-  3) ~mtcars~ contains data about different car models
+  1) ~mtcars~ has a headline and 32 records.
+  2) ~mtcars~ data are stored as a CSV (Comma Separated Values) file.
+  3) ~mtcars~ contains data about different car models.
   4) ~mtcars~ contains data about car ~model,~ miles-per-gallon (~mpg~),
-     horsepower (~hp~), automatic/manual (~am~), number of gears (~gear~)
+     horsepower (~hp~), automatic/manual (~am~), number of gears (~gear~).
   #+end_quote
 
 - Where do the data come from?
@@ -189,18 +189,17 @@ documentation, code, and output.
   looking at the entire dataset. But real datasets are rarely this
   small, which is why we need tools to help us explore the data.
 
-- By the way, how does "exploration" differ from "analysis"? And does
-  it matter?
+- How does "exploration" differ from "analysis"? And does it matter?
   #+begin_quote
-  "Exploration" comes from the Latin word 'explorare', which means 'to
+  *"Exploration"* comes from the Latin word 'explorare', which means 'to
   call out' when searching or to seek information.
 
-  "Analysis", Greek "ἀνάλυσις" (análisis), means breaking something up
+  *"Analysis"*, Greek "ἀνάλυσις" (análisis), means breaking something up
   or dissolving it in order to understand the whole through its parts.
 
   EDA then is short for seeking out information by looking at details
   of the data. This will give you insights but an important so-called
-  "Gestalt" (German for 'shape') principle says that "the whole is
+  *"Gestalt"* (German for 'shape') principle says that "the whole is
   more than the sum of its parts" - analysis is followed by synthesis
   where you put the parts together again after having understood them.
 
@@ -209,13 +208,17 @@ documentation, code, and output.
   machines but not so well for organic entities like humans, or their
   most precious properties - a brain, or a thought, do not lend
   themselves easily to such a simple procedure.
+
+  Or put differently, you may not find out what you really want to
+  know by EDA. But that's another topic for another day.
   #+end_quote
 
 * Devising a business scenario
 
 - Though we found out where the ~mtcars~ dataset comes from, it's
-  removed from us in space, time, and meaning: we're not readers of
-  the 1970s magazine, and most of us don't drive these classic cars.
+  removed from us in time and meaning: we're not readers of the 1970s
+  magazine, most of us don't drive these classic cars, and some may
+  not even care about cars at all!
 
 - Why does this matter?
   #+begin_quote
@@ -250,9 +253,10 @@ documentation, code, and output.
   data yourself to understand better how the company works (and where
   it could be run better).
 
-- What you've just heard is a business scenario, or a narrative, a
-  story that gives meaning to the data. A side effect is that you care
-  more about the data than you would if you had no idea[fn:3]
+- What you've just heard is a *business scenario*, or a *narrative*, a
+  background *story* that gives meaning to the data. A side effect is
+  that you care more about the data than you would if you had no
+  idea[fn:3]
 
 * Finding patterns in Datasets
 
@@ -263,11 +267,11 @@ documentation, code, and output.
 
 - Take a look at the data (not the map): what do you see?
   #+begin_quote
-  Multiple metrics visible in the headline. All data seem to be either
-  numbers (integer and decimal) or dates. There are 17,379
-  records. The dataset is much too large to be analyzed by the naked
-  eye alone. The format of the dataset is CSV, Comma-Separated-Values:
-  the values are separated by commas.
+  Multiple *metrics* (measures) are visible in the headline. All data
+  seem to be either *numbers* (integer and decimal) or *dates*. There are
+  17,379 records (or rows). The dataset is much too large to be
+  analyzed by the naked eye alone. The format of the dataset is CSV,
+  *Comma-Separated-Values*: the values are separated by commas.
   #+end_quote
 
 - You can look at the data with a spreadsheet application, e.g. Google
@@ -301,7 +305,7 @@ documentation, code, and output.
   2. The two groups peak at slightly different times (1 pm vs. 2 pm).
   #+end_quote
 
-- What can you do with insights like these?
+- As CEO, what could you do with insights like these?
   #+begin_quote
   1. This could mean that using the service casually isn't as easy as
      it could be to increase casual users.
@@ -333,6 +337,11 @@ documentation, code, and output.
   2. Files can be easily opened by many different programs
   3. Data can easily be changed
   4. Files are small, portable, easy to share
+
+* Code along using Google Colab
+
+- Now, open your browser to the following address:
+  tinyurl.com/trio-colab
 
 * Displaying data with Python
 
@@ -377,7 +386,7 @@ import them into Python.
 - Here's the code to achieve this[fn:6]:
   #+begin_src python :python python3 :session *Python* :results output
     import pandas as pd
-    hour = pd.read_csv('data/hour.csv')
+    hour = pd.read_csv('https://tinyurl.com/hour-csv')
     print(hour.head())
   #+end_src
 
@@ -450,7 +459,6 @@ import them into Python.
   1. Data is arranged by column similar to the spreadsheet
   2. Some columns in the middle are left out and replaced by ellipses
   3. Only the first five rows are displayed plus the headline
-
 
 * Calculating summary statistics
 
@@ -885,25 +893,18 @@ import them into Python.
 
   #+RESULTS: Ridership counts by hour as a scatterplot, with grid lines
   [[file:dids2.png]]
-
+  
 - What information can you get from this plot?
-  #+begin_quote
-  1) *Seasonal variation*: a year has about 8760 hours - the middle
+
+  1) Seasonal variation: a year has about 8760 hours - the middle
      point of the graph shows a clear minimum. This type of graph with
      two distinct hills is also called /bimodal/.
-  2) *Overall trend*: the corresponding seasons show that the second
+  2) Overall trend: the corresponding seasons show that the second
      year of operation was a great deal more successful than the
      first, almost by 50%.
-  3) *Statistical summaries*: You cannot read their values off readily
+  3) Statistical summaries: You cannot read their values off readily
      but looking at the gridlinds, you can confirm several of the
      summary statistics by order of magnitude.
-  #+end_quote
-  #+begin_src python :python python3 :session *Python* :results output
-    print(365*24)
-  #+end_src
-
-  #+RESULTS:
-  : 8760
 
 
 * Clarifying plots with titles and labels
@@ -956,7 +957,7 @@ import them into Python.
 * Testing different plot types
 
 - To properly understand and train yourself in the use of functions
-  like =plot=, you must read the [[https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html][online documentation]]. 
+  like =plot=, you must read the [[https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html][online documentation]].
 
 - There are many ways to alter the appearance of a plot. For example,
   you can a =marker= parameter, which has multiple values to change the
@@ -982,7 +983,7 @@ import them into Python.
 - You can alter the line type as well. In the next plot, we show
   ~casual~ and ~registered~ riders over the first 2 days of the dataset,
   distinguished by color and linetype. We also introduce the =legend=
-  method, which automatically adds a legend for every =label= and =linestyle=. 
+  method, which automatically adds a legend for every =label= and =linestyle=.
   #+name: Ridership counts per hour, first 2 days, for casual and registered users
   #+begin_src python :file dids6.png :python python3 :session *Python* :results output graphics file
     # subsetting
@@ -992,7 +993,7 @@ import them into Python.
     plt.clf()
     ## first plot: casual riders
     plt.plot(x,y1, color='red', label='casual',linestyle='-')
-    ## second plot: registered riders    
+    ## second plot: registered riders
     plt.plot(x,y2, color='blue', label='casual',linestyle='--')
     ## labels and title
     plt.xlabel("Hour")
@@ -1000,7 +1001,7 @@ import them into Python.
     plt.title("Ridership Count by Hour (Jan 1-2, 2011)")
     plt.legend()
     plt.grid()
-    plt.tight_layout()    
+    plt.tight_layout()
     plt.savefig("dids6.png")
   #+end_src
 
@@ -1032,13 +1033,13 @@ import them into Python.
     plt.title("Ridership Counts by Hour")
     plt.legend()
     plt.grid()
-    plt.tight_layout()    
+    plt.tight_layout()
     plt.savefig("dids7.png")
   #+end_src
 
   #+RESULTS: Boxplot of registered users by hour
   [[file:dids7.png]]
-  
+
 - Let's analyze the plot:
   1) the independent x variable is the hour column of our ~hour~ =DataFrame=
   2) for each hour, the statistical summary is computed and shown as a
@@ -1067,7 +1068,7 @@ import them into Python.
     plt.xlabel("Ridership")
     plt.ylabel("Frequency")
     plt.title("Ridership Histogram")
-    plt.tight_layout()    
+    plt.tight_layout()
     plt.savefig("dids8.png")
   #+end_src
 
@@ -1099,7 +1100,7 @@ import them into Python.
     # plotting
     plt.clf()
     sns.pairplot(hour_first_100, corner=True)
-    plt.tight_layout()    
+    plt.tight_layout()
     plt.savefig("dids9.png")
   #+end_src
 
@@ -1123,6 +1124,7 @@ import them into Python.
 - Highly correlated variables are like groups of people where you only
   care about one person so having to deal with the group may be
   boring - even though you may at other times care about the group.
+
 
 * Summary
 
@@ -1166,44 +1168,47 @@ import them into Python.
 
 - Experimenting with various plot types, like box plots, histograms,
   and pair plots, helps uncover different aspects of the data and
-  enhances analysis.  
+  enhances analysis.
+
 
 * Glossary
 
-| Term/Command   | Definition                                                     |
-|----------------+----------------------------------------------------------------|
-| EDA            | Exploratory Data Analysis                                      |
-| CSV            | Comma-Separated Values; format for tabular data in plain text. |
-| pandas         | A Python library for data manipulation and analysis.           |
-| DataFrame      | A 2-dimensional labeled data structure in pandas.              |
-| .read_csv()    | pandas method to read a CSV file into a DataFrame.             |
-| .head()        | pandas method to return the first n rows of a DataFrame.       |
-| .mean()        | pandas method to calculate the mean of a DataFrame column.     |
-| .median()      | pandas method to calculate the median of a DataFrame column.   |
-| .std()         | pandas method to calculate the standard deviation.             |
-| .min()         | pandas method to return the minimum value of a column.         |
-| .max()         | pandas method to return the maximum value of a column.         |
-| .describe()    | pandas method to generate descriptive statistics.              |
-| .loc[]         | pandas method to access rows and columns by labels/booleans.   |
-| .iloc[]        | pandas method to access rows and columns by integer positions. |
-| .groupby()     | pandas method to group DataFrame.                              |
-| matplotlib     | Python library for creating  visualizations.                   |
-| plt.clf()      | matplotlib function to clear the current figure.               |
-| plt.plot()     | matplotlib function to plot data on a 2D graph.                |
-| plt.scatter()  | matplotlib function to create a scatter plot.                  |
-| plt.xlabel()   | matplotlib function to set the label for the x-axis.           |
-| plt.ylabel()   | matplotlib function to set the label for the y-axis.           |
-| plt.title()    | matplotlib function to set the title of the plot.              |
-| plt.legend()   | matplotlib function to display a legend on the plot.           |
-| plt.grid()     | matplotlib function to display grid lines on the plot.         |
-| plt.savefig()  | matplotlib function to save the current figure to a file.      |
-| seaborn        | Python visualization library based on matplotlib.              |
-| sns.boxplot()  | seaborn function to create a box plot.                         |
-| sns.pairplot() | seaborn function to create a pair plot.                        |
-| .groupby()     | pandas method to group DataFrame.                              |
-| plt.hist()     | matplotlib function to create a histogram.                     |
-| edgecolor      | Parameter in plt.hist() to set the color of the bin edges.     |
-| .get_loc()     | pandas Index method to get integer location for label.         |
+| Term/Command     | Definition                                                     |
+|------------------+----------------------------------------------------------------|
+| ~EDA~              | Exploratory Data Analysis                                      |
+| ~CSV~              | Comma-Separated Values; format for tabular data in plain text. |
+| ~pandas~           | A Python library for data manipulation and analysis.           |
+| ~DataFrame~        | A 2-dimensional labeled data structure in pandas.              |
+| ~.read_csv~        | pandas method to read a CSV file into a DataFrame.             |
+| ~.head~            | pandas method to return the first n rows of a DataFrame.       |
+| ~.mean~            | pandas method to calculate the mean of a DataFrame column.     |
+| ~.median~          | pandas method to calculate the median of a DataFrame column.   |
+| ~.std~             | pandas method to calculate the standard deviation.             |
+| ~.min~             | pandas method to return the minimum value of a column.         |
+| ~.max~             | pandas method to return the maximum value of a column.         |
+| ~.describe~        | pandas method to generate descriptive statistics.              |
+| ~.loc[]~           | pandas method to access rows and columns by labels/booleans.   |
+| ~.iloc[]~          | pandas method to access rows and columns by integer positions. |
+| ~.groupby~         | pandas method to group DataFrame.                              |
+| ~matplotlib~       | Python library for creating  visualizations.                   |
+| ~plt.clf~          | matplotlib function to clear the current figure.               |
+| ~plt.plot~         | matplotlib function to plot data on a 2D graph.                |
+| ~plt.scatter~      | matplotlib function to create a scatter plot.                  |
+| ~plt.xlabel~       | matplotlib function to set the label for the x-axis.           |
+| ~plt.ylabel~       | matplotlib function to set the label for the y-axis.           |
+| ~plt.title~        | matplotlib function to set the title of the plot.              |
+| ~plt.legend~       | matplotlib function to display a legend on the plot.           |
+| ~plt.tight_layout~ | matplotlib function to tighten layout esp. for facet plots     |
+| ~plt.grid~         | matplotlib function to display grid lines on the plot.         |
+| ~plt.savefig~      | matplotlib function to save the current figure to a file.      |
+| ~seaborn~          | Python visualization library based on matplotlib.              |
+| ~sns.boxplot~      | seaborn function to create a box plot.                         |
+| ~sns.pairplot~     | seaborn function to create a pair plot.                        |
+| ~.groupby~         | pandas method to group DataFrame.                              |
+| ~plt.hist~         | matplotlib function to create a histogram.                     |
+| ~edgecolor~        | Parameter in plt.hist() to set the color of the bin edges.     |
+| ~.get_loc()~       | pandas Index method to get integer location for label.         |
+
 
 * Footnotes
 
