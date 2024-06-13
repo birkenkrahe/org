@@ -182,7 +182,7 @@ documentation, code, and output.
   "extracted from the 1974 Motor Trend US magazine, and comprises fuel
   consumption and 10 aspects of automobile design and performance for
   32 automobiles (1973-1974 models)." (Source: [[https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html][stat.ethz.ch]]). You can
-  easily find good and bad EDA examples with ~mtcars~[fn:4].
+  easily find good and bad EDA examples with ~mtcars~[fn:1].
   #+end_quote
 
 - In the case of ~mtcars~, we can answer all these questions by just
@@ -246,18 +246,18 @@ documentation, code, and output.
   measure how many employees stay with the company for how long, etc.
 
 - Your mission is to pick an area to attend to in order to improve the
-  performance of the company[fn:5]. You've decided to dive into the
+  performance of the company[fn:2]. You've decided to dive into the
   data yourself to understand better how the company works (and where
   it could be run better).
 
 - What you've just heard is a business scenario, or a narrative, a
   story that gives meaning to the data. A side effect is that you care
-  more about the data than you would if you had no idea[fn:6]
+  more about the data than you would if you had no idea[fn:3]
 
 * Finding patterns in Datasets
 
 - You can download real bike-sharing data from here:
-  [[https://tinyurl.com/hours-csv][tinyurl.com/hours-csv]][fn:7]
+  [[https://tinyurl.com/hour-csv][tinyurl.com/hour-csv]][fn:4]
   #+attr_html: :width 600px:
   [[./img/capital_bikeshare.png]]
 
@@ -316,7 +316,7 @@ documentation, code, and output.
 
 * Using CSV to store data
 
-- The data that you see in the CSV file [[https://tinyurl.com/hours-csv][tinyurl.com/hours-csv]] are
+- The data that you see in the CSV file [[https://tinyurl.com/hour-csv][tinyurl.com/hour-csv]] are
   called "raw" data though they're minimally formatted already,
   because every data item is a character of text.
 
@@ -334,7 +334,6 @@ documentation, code, and output.
   3. Data can easily be changed
   4. Files are small, portable, easy to share
 
-
 * Displaying data with Python
 
 To display the data in a different way and open it up for analysis, we
@@ -342,7 +341,7 @@ import them into Python.
 
 - *Python* is not the only but an obvious choice: it's a FOSS language
   that can easily be learnt and that is widespread (in fact the most
-  popular among all high level programming languages)[fn:8].
+  popular among all high level programming languages)[fn:5].
 
 - *What does "import into Python" mean?* It means that we *read* the CSV
   data into a format that will allow us to use Python's advanced
@@ -375,7 +374,7 @@ import them into Python.
   to the unsuspecting user. The prize is having a lot of power over
   how to display and analyse the data.
 
-- Here's the code to achieve this[fn:9]:
+- Here's the code to achieve this[fn:6]:
   #+begin_src python :python python3 :session *Python* :results output
     import pandas as pd
     hour = pd.read_csv('data/hour.csv')
@@ -394,7 +393,7 @@ import them into Python.
 
 - Let's dissect the code: it is important, now and forever, that you
   understand every detail of your code down, every character, its
-  position and meaning[fn:10].
+  position and meaning[fn:7].
 
 - It is useful (especially at the start) to add the explanation to the
   code in the code block in the form of comments that Python ignores:
@@ -493,7 +492,7 @@ import them into Python.
   $568.388, or almost $5 mio per year. This is not the business
   profit, of course since running the business, buying and maintaining
   bikes, paying insurance etc. is not free but it's still a feasible
-  business[fn:12].
+  business[fn:8].
 
 - Let's compute a few more measures: median (or middle magnitude) and
   standard deviation (a measure of spread) for ~count~, and
@@ -612,7 +611,7 @@ import them into Python.
   : [5 rows x 17 columns]
 
 - You find the value 13 in the ~count~ column in the row indexed by 3
-  (which is the fourth column because we start counting at 0 [fn:13]).
+  (which is the fourth column because we start counting at 0 [fn:9]).
 
 - A table always has rows and columns: the square brackets =[ ]= are an
   *index operator* with two arguments, ~[rows,columns]~. So ~[3,'count']~
@@ -848,7 +847,7 @@ import them into Python.
   dependent, and ~instant~ (which is a running label for the hours) is
   our independent variable. Every data point is a pair, and therefore
   a /scatterplot/ (points scattered across the canvas) is suitable to
-  show this pattern [fn:14].
+  show this pattern [fn:10].
 
 - Here's the code with comments:
   #+name: Ridership counts by hour as a lineplot
@@ -863,6 +862,7 @@ import them into Python.
     # create the plot
     plt.plot(x,y)
     # display the plot
+    plt.tight_layout()
     plt.savefig("dids1.png") # or plt.show() outside of Org-mode
   #+end_src
 
@@ -879,6 +879,7 @@ import them into Python.
     plt.clf()
     plt.scatter(x,y)
     plt.grid()
+    plt.tight_layout()
     plt.savefig("dids2.png")
   #+end_src
 
@@ -903,6 +904,7 @@ import them into Python.
 
   #+RESULTS:
   : 8760
+
 
 * Clarifying plots with titles and labels
 
@@ -970,6 +972,7 @@ import them into Python.
     plt.xlabel("Hour")
     plt.ylabel("Count")
     plt.title("Ridership Count by Hour (Jan 1-2, 2011)")
+    plt.tight_layout()
     plt.savefig("dids5.png")
   #+end_src
 
@@ -997,6 +1000,7 @@ import them into Python.
     plt.title("Ridership Count by Hour (Jan 1-2, 2011)")
     plt.legend()
     plt.grid()
+    plt.tight_layout()    
     plt.savefig("dids6.png")
   #+end_src
 
@@ -1028,6 +1032,7 @@ import them into Python.
     plt.title("Ridership Counts by Hour")
     plt.legend()
     plt.grid()
+    plt.tight_layout()    
     plt.savefig("dids7.png")
   #+end_src
 
@@ -1062,6 +1067,7 @@ import them into Python.
     plt.xlabel("Ridership")
     plt.ylabel("Frequency")
     plt.title("Ridership Histogram")
+    plt.tight_layout()    
     plt.savefig("dids8.png")
   #+end_src
 
@@ -1093,6 +1099,7 @@ import them into Python.
     # plotting
     plt.clf()
     sns.pairplot(hour_first_100, corner=True)
+    plt.tight_layout()    
     plt.savefig("dids9.png")
   #+end_src
 
@@ -1163,39 +1170,101 @@ import them into Python.
 
 * Glossary
 
-| Term/Command   | Definition                                                                                                                                           |
-|----------------+------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EDA            | Exploratory Data Analysis; examining datasets to summarize their main characteristics.                                                               |
-| CSV            | Comma-Separated Values; a file format for storing tabular data in plain text.                                                                        |
-| pandas         | A Python library for data manipulation and analysis.                                                                                                 |
-| DataFrame      | A 2-dimensional labeled data structure in pandas.                                                                                                    |
-| .read_csv()    | A pandas method to read a CSV file into a DataFrame.                                                                                                 |
-| .head()        | A pandas method to return the first n rows of a DataFrame.                                                                                           |
-| .mean()        | A pandas method to calculate the mean of a DataFrame column.                                                                                         |
-| .median()      | A pandas method to calculate the median of a DataFrame column.                                                                                       |
-| .std()         | A pandas method to calculate the standard deviation of a DataFrame column.                                                                           |
-| .min()         | A pandas method to return the minimum value of a DataFrame column.                                                                                   |
-| .max()         | A pandas method to return the maximum value of a DataFrame column.                                                                                   |
-| .describe()    | A pandas method to generate descriptive statistics of a DataFrame.                                                                                   |
-| .loc[]         | A pandas method to access a group of rows and columns by labels or a boolean array.                                                                  |
-| .iloc[]        | A pandas method to access a group of rows and columns by integer positions.                                                                          |
-| .groupby()     | A pandas method to group DataFrame using a mapper or by a Series of columns.                                                                         |
-| matplotlib     | A Python library for creating static, animated, and interactive visualizations.                                                                      |
-| plt.clf()      | A matplotlib function to clear the current figure.                                                                                                   |
-| plt.plot()     | A matplotlib function to plot data on a 2D graph.                                                                                                    |
-| plt.scatter()  | A matplotlib function to create a scatter plot.                                                                                                      |
-| plt.xlabel()   | A matplotlib function to set the label for the x-axis.                                                                                               |
-| plt.ylabel()   | A matplotlib function to set the label for the y-axis.                                                                                               |
-| plt.title()    | A matplotlib function to set the title of the plot.                                                                                                  |
-| plt.legend()   | A matplotlib function to display a legend on the plot.                                                                                               |
-| plt.grid()     | A matplotlib function to display grid lines on the plot.                                                                                             |
-| plt.savefig()  | A matplotlib function to save the current figure to a file.                                                                                          |
-| seaborn        | A Python visualization library based on matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics. |
-| sns.boxplot()  | A seaborn function to create a box plot.                                                                                                             |
-| sns.pairplot() | A seaborn function to create a pair plot for comparing multiple variables.                                                                           |
-| .groupby()     | A pandas method to group DataFrame using a mapper or by a Series of columns.                                                                         |
-| plt.hist()     | A matplotlib function to create a histogram.                                                                                                         |
-| edgecolor      | Parameter in plt.hist() to set the color of the bin edges.                                                                                           |
-| .get_loc()     | A pandas Index method to get integer location for requested label.                                                                                   |
+| Term/Command   | Definition                                                     |
+|----------------+----------------------------------------------------------------|
+| EDA            | Exploratory Data Analysis                                      |
+| CSV            | Comma-Separated Values; format for tabular data in plain text. |
+| pandas         | A Python library for data manipulation and analysis.           |
+| DataFrame      | A 2-dimensional labeled data structure in pandas.              |
+| .read_csv()    | pandas method to read a CSV file into a DataFrame.             |
+| .head()        | pandas method to return the first n rows of a DataFrame.       |
+| .mean()        | pandas method to calculate the mean of a DataFrame column.     |
+| .median()      | pandas method to calculate the median of a DataFrame column.   |
+| .std()         | pandas method to calculate the standard deviation.             |
+| .min()         | pandas method to return the minimum value of a column.         |
+| .max()         | pandas method to return the maximum value of a column.         |
+| .describe()    | pandas method to generate descriptive statistics.              |
+| .loc[]         | pandas method to access rows and columns by labels/booleans.   |
+| .iloc[]        | pandas method to access rows and columns by integer positions. |
+| .groupby()     | pandas method to group DataFrame.                              |
+| matplotlib     | Python library for creating  visualizations.                   |
+| plt.clf()      | matplotlib function to clear the current figure.               |
+| plt.plot()     | matplotlib function to plot data on a 2D graph.                |
+| plt.scatter()  | matplotlib function to create a scatter plot.                  |
+| plt.xlabel()   | matplotlib function to set the label for the x-axis.           |
+| plt.ylabel()   | matplotlib function to set the label for the y-axis.           |
+| plt.title()    | matplotlib function to set the title of the plot.              |
+| plt.legend()   | matplotlib function to display a legend on the plot.           |
+| plt.grid()     | matplotlib function to display grid lines on the plot.         |
+| plt.savefig()  | matplotlib function to save the current figure to a file.      |
+| seaborn        | Python visualization library based on matplotlib.              |
+| sns.boxplot()  | seaborn function to create a box plot.                         |
+| sns.pairplot() | seaborn function to create a pair plot.                        |
+| .groupby()     | pandas method to group DataFrame.                              |
+| plt.hist()     | matplotlib function to create a histogram.                     |
+| edgecolor      | Parameter in plt.hist() to set the color of the bin edges.     |
+| .get_loc()     | pandas Index method to get integer location for label.         |
 
+* Footnotes
 
+[fn:1] [[https://cran.r-project.org/web//packages//explore/vignettes/explore-mtcars.html][Here is one]] where ~mtcars~ was used to demonstrate the
+capabilities of an R package called ~explore~ (part of a vignette for
+this package). The original source for the dataset is given as
+Henderson & Velleman (1981).
+
+[fn:2] If that's an honorable or desirable goal is another question:
+some people, especially in the US, might say that bikes aren't very
+practical in the US, while in Europe for example, bicycles are very
+common in cities (but the cities look very differently - for one
+thing, they're a lot more packed and distances - e.g. to work or to
+the shops - are generally shorter, and the weather is more temperate).
+
+[fn:3] Of course, the scenario could also have the opposite effect:
+for example, passionate peace activists may not wish to work with data
+of arms manufacturers; people of one culture may not care about data
+about people from another culture etc. Therefore, it helps if, in
+addition to an interest in the data, you also enjoy getting to know,
+and master, computational and mathematical tools of data science.
+
+[fn:4] I obtained the data from [[https://bradfordtuckfield.com/hour.csv][Tuckfield (2023)]]. He notes that the
+original source is [[https://ride.capitalbikeshare.com/system-data][Capital Bikeshare]] for Washington D.C., and that the
+data was compiled and augmented (?) and posted by others at a
+non-disclosed location.
+
+[fn:5] Another popular choice would be R, which is also FOSS, even
+easier to learn, and better equipped for statistics and
+visualization. A third possibility is to stick with the CSV format and
+use text mining tools on the command line, so-called /shell/ commands,
+which are super-fast, small and simple.
+
+[fn:6] I've left out the /install/ step because this is done outside of
+Python using the =pip= package manager program. To install the =pandas=
+package, run =pip install pandas= on your computer. Of course, you first
+have to have (and possibly install) the =pip= program.
+
+[fn:7] One way of achieving this is to read new code (and especially
+code written by others) /from the bottom/ and /from the right/, i.e. the
+wrong way around: in this way, your brain has to make sense of what
+you read rather than delude itself into understanding what it
+doesn't understand. One way of stopping yourself from learning how
+to code is to always copy and paste blindly, or (worse) let
+generative AI do it for you. This works only for the simplest of
+programs. Once you are an expert, you may make good use of AI.
+
+[fn:8] In case you were wondering if bike sharing is a business at
+all, according to [[https://www.mordorintelligence.com/industry-reports/bike-sharing-market][Mordor Intelligence]], the global 2024 bike sharing
+market has a size of $7.85 billion, projected to increase to $12.44
+billion over the next 5 years. Such a prediction is, however,
+dependent on many volatile factors, e.g. the need for urban
+transportation, the reduction in costs, and state subsidization.
+
+[fn:9] This is normal for most programming languages, including C,
+C++, Java and JavaScript, and it has historical reasons. The language
+R starts counting at 1 instead, which I always found very helpful.
+
+[fn:10]Following the change of a variable like ~count~ over time is also
+called a /time series/ - that's an important data structure for
+example in finance or climate research where important quantities
+vary over time. Every interesting quantity varies over time,
+of course, but if we explicitly show the change of one quantity
+against time, that's a time series.
