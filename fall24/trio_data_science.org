@@ -341,7 +341,9 @@ documentation, code, and output.
 * Code along using Google Colab
 
 - Now, open your browser to the following address:
-  tinyurl.com/trio-colab
+  [[https://tinyurl.com/trio-colab][tinyurl.com/trio-colab]]
+
+- Code along with me in the interactive notebook.
 
 * Displaying data with Python
 
@@ -943,7 +945,7 @@ import them into Python.
     y = hour_first_48['count']
     # plotting
     plt.clf()
-    plt.plot(u,v)
+    plt.plot(x,y)
     plt.xlabel("Hour")
     plt.ylabel("Count")
     plt.title("Ridership Count by Hour (Jan 1-2, 2011)")
