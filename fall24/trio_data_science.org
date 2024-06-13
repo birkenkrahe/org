@@ -1,4 +1,4 @@
-#+TITLE:Data Science for Everyone
+#+TITLE:Dat Science for Everyone
 #+AUTHOR:Marcus Birkenkrahe
 #+SUBTITLE:TRIO Lyon College Summer 2024
 #+options: toc:1
@@ -60,16 +60,16 @@ learn all three of these (and many more) at Lyon College.
 
 Here is what I think:
 #+begin_quote
-1. The recent generative AI hype is based on transformers, deep
+1. The recent generative *AI hype* is based on transformers, deep
    machine learning models and natural language processing, which are
    part of (algorithmic) data science -> machine learning
-2. The availability of large datasets and the relative ease of storing
+2. The availability of *large datasets* and the relative ease of storing
    and processing the data when using fast computing equipment and
    networks -> databases
-3. The desire to automate more and more simple processes so that
-   humans can save their energy and brains to address complex
-   problems -> robotics
-4. The commercial interest of a small number of very large, very
+3. The desire to *automate* more and more simple processes so that
+   humans can save their energy and brains to address complex problems
+   -> robotics
+4. The *commercial* interest of a small number of very large, very
    powerful tech companies that have smelled profits and ride the top
    of the hype wave (even though they also don't really know what's
    what). -> hype cycle
