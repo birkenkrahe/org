@@ -7,7 +7,7 @@
 #+PROPERTY: header-args:python :session *Python* :results output :exports both :noweb yes
 #+PROPERTY: header-args:C :main yes :includes <stdio.h> :results output :exports both :noweb yes
 #+PROPERTY: header-args:C++ :main yes :includes <iostream> :results output :exports both :noweb yes
-* Zoom / Source
+* Zoom
 
 - Open a browser to zoom.us
 - Click on =Join= at the top
@@ -15,6 +15,8 @@
 - Launch meeting in browser
 - Don't bother with audio ("Continue")
 - Watch and code along
+
+* Sources
 
 This file is available as an Emacs Org-mode notebook on the software
 development platform GitHub at: [[https://tinyurl.com/trio-data-science][tinyurl.com/trio-data-science]]
@@ -25,9 +27,11 @@ Bradford Tuckfield's book "Dive into Data Science" (NoStarch, 2023).
 The presented material is very similar to what you'll hear in my
 "Introduction to data science" class (taught every fall at Lyon).
 
+
 * What is data science?
 
 * Why is data science so hot right now?
 
 * What is literate programming?
+
 
