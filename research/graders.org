@@ -8,7 +8,7 @@
 
 ** Data   
 - Data: three human graders for prompt A (arrays)
-  #+begin_src python :python python3 :session *Python* :results none :exports both
+  #+begin_src python :python python3 :session *Python* :results none
     import numpy as np
     # human graders 1-3 prompt A
     h1_a = np.array([24,22,25,22,24,24,25])
@@ -17,7 +17,7 @@
   #+end_src
 ** Line plot
 - Plot each of these as a line plot:
-  #+begin_src python :file img/h_a.png :results graphics file output :python python3 :session *Python*
+  #+begin_src python :file img/h_a.png :results graphics file output :python python3 :session *Python*  :exports both
     import matplotlib.pyplot as plt # import library
     plt.clf() # clear graphics
     fig, ax = plt.subplots(3,1, sharex=True) # set up 3 x 2 plot panel
