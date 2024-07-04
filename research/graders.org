@@ -8,7 +8,7 @@
 
 ** Data   
 - Data: three human graders for prompt A (arrays)
-  #+begin_src python :python python3 :session *Python* :results none
+  #+begin_src python :python python3 :session *Python* :results none :exports both
     import numpy as np
     # human graders 1-3 prompt A
     h1_a = np.array([24,22,25,22,24,24,25])
