@@ -1,6 +1,6 @@
 #+startup: overview hideblocks indent entitiespretty:
 #+options: toc:nil num:nil ^:nil:
-* A note on using AI to write code for you or debug your mistakes
+* A note on using AI to write code for you or debug your code
 
 Question from a recent Lyon graduate who now works as a software
 engineer, who asked for my recommendation regarding use of AI:
