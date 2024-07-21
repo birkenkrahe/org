@@ -1,0 +1,28 @@
+#+title: NEW FAQ
+#+author: Marcus Birkenkrahe
+#+startup: overview hideblocks indent entitiespretty:
+Time-stamp: <2024-07-21 18:08:49 aletheia>
+* What is Emacs?
+
+Emacs is a sensibly structured, extensible computing environment
+written in Emacs Lisp. It is called an 'editor' only to save space. It
+is quite unlike any other piece of software.
+
+Emacs can be customized and extended by anyone even without a lot of
+studying (though nothing worth anything is completely for free).
+
+* Why use Emacs?
+
+Emacs is a superior integrated development environment (IDE) for many
+programming languages in parallel though you can also used it just as
+an editor for writing, or as software for task and project management.
+
+Here is a recent (02/2024) detailed account on [[https://www.r-bloggers.com/2024/02/emacs-as-ide-for-r/][Using Emacs as IDE for
+R]], a FOSS statistical programming language much used in data science.
+
+* Is it easy to learn Emacs?
+
+Here is a 2022 blogpost by a non-programmer who learnt to use Emacs
+for his research with R, [[https://blog.teoten.com/posts/2022/use_emacs_for_r/][Using Emacs for R]]. He has also written about
+[[https://www.r-bloggers.com/2024/02/emacs-as-ide-for-r/][Emacs as an IDE for R]] development.
+
