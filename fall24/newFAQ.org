@@ -11,6 +11,9 @@ is quite unlike any other piece of software.
 Emacs can be customized and extended by anyone even without a lot of
 studying (though nothing worth anything is completely for free).
 
+Check out Seth Kenlon's "[[https://opensource.com/article/20/12/emacs][Why I love Emacs]]" (2020): "[Emacs] places you
+in control and allows you to solve nearly any problem you encounter."
+
 * Why use Emacs?
 
 Emacs is a superior integrated development environment (IDE) for many
