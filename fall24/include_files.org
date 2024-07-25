@@ -94,8 +94,8 @@
   8) Write a test function =main= that includes ~example2.h~, prints ~EULER~
      and ~TAX_RATE~, calls ~nada~, defines two points at (0,0) and (1,1)
      and a line through them, and prints the points.
-   
-- Sample output    
+
+- Sample output
   #+begin_example
     : Euler number: 2.718280
     : nada
@@ -104,20 +104,20 @@
   #+end_example
 
 - Header file ~example2.h~:
-    #+begin_src C :tangle example2.h :main no :results none
-      // example2.h
+  #+begin_src C :tangle example2.h :main no :results none
+    // example2.h
 
-      // macro definition
+    // macro definition
 
-      // function prototype
+    // function prototype
 
-      // Type definition
+    // Type definition
 
-      // Type definition
+    // Type definition
 
-      // const value
+    // const value
 
-    #+end_src
+  #+end_src
 
   - Test file ~main.c~:
     #+begin_src C :tangle main.c
@@ -126,58 +126,57 @@
 
 ** Solution
 
-  - Header file ~example2.h~:
-    #+begin_src C :tangle example2.h :main no :results none
-      // example2.h
-      #ifndef EXAMPLE2_H
-      #define EXAMPLE2_H
-      // macro definition
-      #define EULER 2.71828
-      // function prototype
-      void nada();
-      // Type definition
-      typedef struct {
-        int x;
-        int y;
-      } Point;
-      // Type definition
-      typedef struct {
-        Point p1;
-        Point p2;
-      } Line;
-      // const value
-      const float TAX_RATE = 0.19;
-      #endif // EXAMPLE2_H
-    #+end_src
+- Header file ~example2.h~:
+  #+begin_src C :tangle example2.h :main no :results none
+    // example2.h
+    #ifndef EXAMPLE2_H
+    #define EXAMPLE2_H
+    // macro definition
+    #define EULER 2.71828
+    // function prototype
+    void nada();
+    // Type definition
+    typedef struct {
+      int x;
+      int y;
+    } Point;
+    // Type definition
+    typedef struct {
+      Point p1;
+      Point p2;
+    } Line;
+    // const value
+    const float TAX_RATE = 0.19;
+    #endif // EXAMPLE2_H
+  #+end_src
 
-  - Test file ~main.c~:
-    #+begin_src C :tangle main.c
-      #include "/home/aletheia/GitHub/org/fall24/example2.h"
+- Test file ~main.c~:
+  #+begin_src C :tangle main.c
+    #include "/home/aletheia/GitHub/org/fall24/example2.h"
 
-      void nada(void) {
-        printf("nada\n");
-      }
+    void nada(void) {
+      printf("nada\n");
+    }
 
-      int main() {
-        printf("Euler number: %f\n", EULER);
-        nada();
-        Point p1 = {0,0};
-        Point p2 = {1,1};
-        Line l = {p1,p2};
-        printf("Line l through (%d,%d) and (%d,%d)\n", l.p1.x,l.p1.y,l.p2.x,l.p2.y);
-        printf("TAX_RATE: %f\n", TAX_RATE);
-        return 0;
-      }
-    #+end_src
+    int main() {
+      printf("Euler number: %f\n", EULER);
+      nada();
+      Point p1 = {0,0};
+      Point p2 = {1,1};
+      Line l = {p1,p2};
+      printf("Line l through (%d,%d) and (%d,%d)\n", l.p1.x,l.p1.y,l.p2.x,l.p2.y);
+      printf("TAX_RATE: %f\n", TAX_RATE);
+      return 0;
+    }
+  #+end_src
 
-    #+RESULTS:
-    : Euler number: 2.718280
-    : nada
-    : Line l through (0,0) and (1,1)
-    : TAX_RATE: 0.190000
+  #+RESULTS:
+  : Euler number: 2.718280
+  : nada
+  : Line l through (0,0) and (1,1)
+  : TAX_RATE: 0.190000
 
 * Sources
 
 Zingaro D (2024). Algorithmic Thinking (2e), NoStarch Press. URL:
 [[https://www.danielzingaro.com/alg2/][danielzingaro.com/alg2/]]
-
