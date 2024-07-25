@@ -81,20 +81,48 @@
   (that's what I've done here).
 
 * Exercise
-
 ** Problem
-Create another example header file ~example2.h~. In the file:
-1) Define the Euler number ~EULER~ (2.71828) as a preprocessor macro.
-2) Declare the prototype of a =void= function ~nada~ without arguments.
-3) Define a type ~Point~ (with =int= coordinates ~x~, ~y~), and a type ~Line~
-   (with ~Point ~p1~ and ~Point~ ~p2~).
-4) Define a =const= floating-point value ~TAX_RATE~ of 19%.
-5) Secure the header file against multiple inclusion.
-6) Tangle the code to create a source code file ~example2.h~.
-7) Write a function ~nada~ for the prototype that prints "nada".
-8) Write a test function =main= that includes ~example2.h~, prints ~EULER~
-   and ~TAX_RATE~, calls ~nada~, defines two points at (0,0) and (1,1) and
-   a line through them, and prints the points.
+- Create another example header file ~example2.h~. In the file:
+  1) Define the Euler number ~EULER~ (2.71828) as a preprocessor macro.
+  2) Declare the prototype of a =void= function ~nada~ without arguments.
+  3) Define a type ~Point~ (with =int= coordinates ~x~, ~y~), and a type ~Line~
+     (with ~Point ~p1~ and ~Point~ ~p2~).
+  4) Define a =const= floating-point value ~TAX_RATE~ of 19%.
+  5) Secure the header file against multiple inclusion.
+  6) Tangle the code to create a source code file ~example2.h~.
+  7) Write a function ~nada~ for the prototype that prints "nada".
+  8) Write a test function =main= that includes ~example2.h~, prints ~EULER~
+     and ~TAX_RATE~, calls ~nada~, defines two points at (0,0) and (1,1)
+     and a line through them, and prints the points.
+   
+- Sample output    
+  #+begin_example
+    : Euler number: 2.718280
+    : nada
+    : Line l through (0,0) and (1,1)
+    : TAX_RATE: 0.190000
+  #+end_example
+
+- Header file ~example2.h~:
+    #+begin_src C :tangle example2.h :main no :results none
+      // example2.h
+
+      // macro definition
+
+      // function prototype
+
+      // Type definition
+
+      // Type definition
+
+      // const value
+
+    #+end_src
+
+  - Test file ~main.c~:
+    #+begin_src C :tangle main.c
+
+    #+end_src
 
 ** Solution
 
