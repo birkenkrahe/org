@@ -119,10 +119,10 @@
 
   #+end_src
 
-  - Test file ~main.c~:
-    #+begin_src C :tangle main.c
+- Test file ~main.c~:
+  #+begin_src C :tangle main.c
 
-    #+end_src
+  #+end_src
 
 ** Solution
 
