@@ -75,15 +75,10 @@
   : Point p: (1,2)
   : MAX_SIZE = 100
 
-- In an Org-mode code block, you can add it as a =:includes= header argument:
-  #+begin_example :export both
-    #+begin_src C :includes <stdio.h> <stdlib.h> <string.h> <time.h>
-    // ...
-    #+end_src
-  #+end_example
-
-- Or you can add it at the top of your Org-mode file in a =#+property:=
-  line (that's what I've done here).
+- In an Org-mode code block, you can add it as a =:includes= header
+  argument: ~:includes <stdio.h> <stdlib.h> <string.h> <time.h>~ or you
+  can add it at the top of your Org-mode file in a =#+property:= line
+  (that's what I've done here).
 
 * Exercise
 
