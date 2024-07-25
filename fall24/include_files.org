@@ -7,12 +7,12 @@
 * Include Files
 
 - The =#+property= Org-header argument includes the following libraries:
-  1) =<stdio.h>= for input and output operations (=printf=, =scanf=)
-  2) =<stdlib>= for memory allocation and deallocation (=malloc=, =free=),
-     program control (=exit=, =abort=), conversion functions (=atoi=),
-     random numbers (=rand=), searching, sorting.
-  3) =<string.h>= for string manipulation (=strlen=, =strcpy=, =strcmp=).
-  4) =<time.h>= for manipulating date and time (=clock_t=)
+  + =<stdio.h>= for input and output operations (=printf=, =scanf=)
+  + =<stdlib>= for memory allocation and deallocation (=malloc=, =free=),
+    program control (=exit=, =abort=), conversion functions (=atoi=),
+    random numbers (=rand=), searching, sorting.
+  + =<string.h>= for string manipulation (=strlen=, =strcpy=, =strcmp=).
+  + =<time.h>= for manipulating date and time (=clock_t=)
 
 - Common contents of a header file:
   + Function declarations (prototypes for functions defined elsewhere)
