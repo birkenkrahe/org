@@ -1,4 +1,4 @@
-#+title: Algorithmic Thinking - Include Files (Demo file for DZ)
+#+title: Algorithmic Thinking LP Demo for DZ)
 #+author: Marcus Birkenkrahe
 #+subtitle: CSC 240 Data Structures Lyon College Fall 2024
 #+startup: overview hideblocks indent entitiespretty:
