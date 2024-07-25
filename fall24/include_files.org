@@ -76,7 +76,7 @@
   : MAX_SIZE = 100
 
 - In an Org-mode code block, you can add it as a =:includes= header argument:
-  #+begin_example org
+  #+begin_example
     #+begin_src C :includes <stdio.h> <stdlib.h> <string.h> <time.h>
     // ...
     #+end_src
