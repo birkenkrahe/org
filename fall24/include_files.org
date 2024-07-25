@@ -1,0 +1,75 @@
+#+title: Include Files
+#+author: Marcus Birkenkrahe
+#+subtitle: CSC 240 Data Structures Lyon College Fall 2024
+#+startup: overview hideblocks indent entitiespretty:
+#+options: toc:nil num:nil ^:nil:
+#+property: header-args:C :main yes :includes <stdio.h> <stdlib.h> <string.h> <time.h> :results output :exports both
+* Include Files
+
+- The =#+property= Org-header argument includes the following libraries:
+  1) =<stdio.h>= for input and output operations (=printf=, =scanf=)
+  2) =<stdlib>= for memory allocation and deallocation (=malloc=, =free=),
+     program control (=exit=, =abort=), conversion functions (=atoi=),
+     random numbers (=rand=), searching, sorting.
+  3) =<string.h>= for string manipulation (=strlen=, =strcpy=, =strcmp=).
+  4) =<time.h>= for manipulating date and time (=clock_t=)
+
+- Common contents of a header file:
+  + Function declarations (prototypes for functions defined elsewhere)
+  + Macro definitions (preprocessor macros using =#define=)
+  + Type definitions (=typedef= and data structures)
+  + Constant definitions (constant values using =const= or =#define=)
+  + Inline functions (small functions defined with =inline=)
+
+- Here is an example header file ~example.h~:
+  #+begin_src C :tangle example.h :main no :results none
+    // example.h C header file
+    #ifndef EXAMPLE_H
+    #define EXAMPLE_H
+
+    // function declaration
+    void print_hello();
+
+    // Macro definition
+    #define PI 3.14259
+
+    // Type definition
+    typedef struct {
+      int x;
+      int y;
+    } Point;
+
+    // Constant definition
+    const int MAX_SIZE = 100;
+
+    #endif // EXAMPLE_H
+  #+end_src
+
+- To use ~example.h~, you include it in your source file (in an Org-mode
+  code block, you can add it as a =:includes= header argument). The file
+  name between the quotation marks must be a valid path to the file:
+  #+begin_src C
+    // main.c
+    #include <stdio.h>  // standard Input Output
+    #include "/home/aletheia/GitHub/org/fall24/example.h" // handcrafted example header file
+
+    void print_hello() { // prototype declared in example.h
+      printf("Hello, World!\n");
+    }
+    // main function
+    int main() {
+      print_hello();  // use function 
+      printf("PI = %f\n", PI); // use macro
+      Point p = {1,2}; // use typedef
+      printf("Point p: (%d,%d)\n", p.x, p.y);
+      printf("MAX_SIZE = %d\n", MAX_SIZE);
+      return 0;
+    }
+  #+end_src
+
+  #+RESULTS:
+  : Hello, World!
+  : PI = 3.142590
+  : Point p: (1,2)
+  : MAX_SIZE = 100
+
