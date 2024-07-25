@@ -1,4 +1,4 @@
-#+title: Include Files
+#+title: Algorithmic Thinking - Include Files (Demo file for DZ)
 #+author: Marcus Birkenkrahe
 #+subtitle: CSC 240 Data Structures Lyon College Fall 2024
 #+startup: overview hideblocks indent entitiespretty:
@@ -58,7 +58,7 @@
     }
     // main function
     int main() {
-      print_hello();  // use function 
+      print_hello();  // use function
       printf("PI = %f\n", PI); // use macro
       Point p = {1,2}; // use typedef
       printf("Point p: (%d,%d)\n", p.x, p.y);
@@ -72,4 +72,3 @@
   : PI = 3.142590
   : Point p: (1,2)
   : MAX_SIZE = 100
-
