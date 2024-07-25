@@ -45,9 +45,11 @@
     #endif // EXAMPLE_H
   #+end_src
 
-- To use ~example.h~, you include it in your source file (in an Org-mode
-  code block, you can add it as a =:includes= header argument). The file
-  name between the quotation marks must be a valid path to the file:
+- The top two and the last line are header guards that prevent
+  multiple inclusions of the same header file.
+
+- To use ~example.h~, you include it in your source file. The file name
+  between the quotation marks must be a valid path to the file:
   #+begin_src C
     // main.c
     #include <stdio.h>  // standard Input Output
@@ -72,3 +74,82 @@
   : PI = 3.142590
   : Point p: (1,2)
   : MAX_SIZE = 100
+
+- In an Org-mode code block, you can add it as a =:includes= header argument:
+  #+begin_example org
+    #+begin_src C :includes <stdio.h> <stdlib.h> <string.h> <time.h>
+    // ...
+    #+end_src
+  #+end_example
+
+- Or you can add it at the top of your Org-mode file in a =#+property:=
+  line (that's what I've done here).
+
+* Exercise
+
+** Problem
+Create another example header file ~example2.h~. In the file:
+1) Define the Euler number ~EULER~ (2.71828) as a preprocessor macro.
+2) Declare the prototype of a =void= function ~nada~ without arguments.
+3) Define a type ~Point~ (with =int= coordinates ~x~, ~y~), and a type ~Line~
+   (with ~Point ~p1~ and ~Point~ ~p2~).
+4) Define a =const= floating-point value ~TAX_RATE~ of 19%.
+5) Secure the header file against multiple inclusion.
+6) Tangle the code to create a source code file ~example2.h~.
+7) Write a function ~nada~ for the prototype that prints "nada".
+8) Write a test function =main= that includes ~example2.h~, prints ~EULER~
+   and ~TAX_RATE~, calls ~nada~, defines two points at (0,0) and (1,1) and
+   a line through them, and prints the points.
+
+** Solution
+
+  - Header file ~example2.h~:
+    #+begin_src C :tangle example2.h :main no :results none
+      // example2.h
+      #ifndef EXAMPLE2_H
+      #define EXAMPLE2_H
+      // macro definition
+      #define EULER 2.71828
+      // function prototype
+      void nada();
+      // Type definition
+      typedef struct {
+        int x;
+        int y;
+      } Point;
+      // Type definition
+      typedef struct {
+        Point p1;
+        Point p2;
+      } Line;
+      // const value
+      const float TAX_RATE = 0.19;
+      #endif // EXAMPLE2_H
+    #+end_src
+
+  - Test file ~main.cc~:
+    #+begin_src C :tangle main.cc
+      #include "/home/aletheia/GitHub/org/fall24/example2.h"
+
+      void nada(void) {
+        printf("nada\n");
+      }
+
+      int main() {
+        printf("Euler number: %f\n", EULER);
+        nada();
+        Point p1 = {0,0};
+        Point p2 = {1,1};
+        Line l = {p1,p2};
+        printf("Line l through (%d,%d) and (%d,%d)\n", l.p1.x,l.p1.y,l.p2.x,l.p2.y);
+        printf("TAX_RATE: %f\n", TAX_RATE);
+        return 0;
+      }
+    #+end_src
+
+    #+RESULTS:
+    : Euler number: 2.718280
+    : nada
+    : Line l through (0,0) and (1,1)
+    : TAX_RATE: 0.190000
+
