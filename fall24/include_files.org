@@ -2,7 +2,7 @@
 #+author: Marcus Birkenkrahe
 #+subtitle: CSC 240 Data Structures Lyon College Fall 2024
 #+startup: overview hideblocks indent entitiespretty:
-#+options: toc:nil num:nil ^:nil:
+#+options: toc:1 num:1 ^:nil:
 #+property: header-args:C :main yes :includes <stdio.h> <stdlib.h> <string.h> <time.h> :results output :exports both
 * Include Files
 
