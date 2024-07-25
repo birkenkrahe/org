@@ -1,4 +1,4 @@
-#+title: Algorithmic Thinking Classroom Adaptation (LP Demo for DZ
+#+title: Algorithmic Thinking Classroom Adaptation
 #+author: Marcus Birkenkrahe
 #+subtitle: CSC 240 Data Structures Lyon College Fall 2024
 #+startup: overview hideblocks indent entitiespretty:
@@ -122,8 +122,8 @@ Create another example header file ~example2.h~. In the file:
       #endif // EXAMPLE2_H
     #+end_src
 
-  - Test file ~main.cc~:
-    #+begin_src C :tangle main.cc
+  - Test file ~main.c~:
+    #+begin_src C :tangle main.c
       #include "/home/aletheia/GitHub/org/fall24/example2.h"
 
       void nada(void) {
@@ -147,4 +147,9 @@ Create another example header file ~example2.h~. In the file:
     : nada
     : Line l through (0,0) and (1,1)
     : TAX_RATE: 0.190000
+
+* Sources
+
+Zingaro D (2024). Algorithmic Thinking (2e), NoStarch Press. URL:
+[[https://www.danielzingaro.com/alg2/][danielzingaro.com/alg2/]]
 
