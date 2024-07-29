@@ -29,3 +29,125 @@ Here is a 2022 blogpost by a non-programmer who learnt to use Emacs
 for his research with R, [[https://blog.teoten.com/posts/2022/use_emacs_for_r/][Using Emacs for R]]. He has also written about
 [[https://www.r-bloggers.com/2024/02/emacs-as-ide-for-r/][Emacs as an IDE for R]] development.
 
+* What if you don't know C or C++?
+#+begin_quote
+You should have taken introductory programming in Java or Python or
+C/C++: Both Java and Python are high-level languages, but C++ is
+quite different (and quite a bit more complicated, too).
+
+Make sure you take the (optional ) entry quiz and complete the
+(optional) entry programming assignment if you didn't do it yet. If
+you meet the August 19, 11:50 pm deadline, you get some bonus
+points, too.
+
+If you have any weaknesses in the basics (or if you haven't studied
+C++ yet at all), read "The Rook's Guide to C++" for free and answer
+the review questions. Sample solutions available online in GitHub.
+
+Otherwise we'll be reviewing (and adding to) our knowledge of C/C++
+in the first 4 weeks of the course (including some OOP aspects).
+#+end_quote
+* Will I be able to work on this course from home?
+#+begin_quote
+Absolutely. You'll be using a personal virtual Linux box on our
+dedicated Lyon computer and data science server, and you can login
+to this system from anywhere as long as you've got an Internet
+connection.
+
+If that doesn't work for you for whatever reason (connection,
+convenience etc.) then you can easily install Linux via dual boot,
+as a virtual machine on your PC, or on Windows with the WSL
+system. On MacOS, you have a form of Unix already, so you're set.
+
+In this case, you can put your GitHub skills to good use: create a
+repository for this course where you keep the latest version of all
+your files, and clone it to your local PC. This is what I do, too:
+I'm working on my files in different locations, and I use Git to
+maintain the latest version on any machine at any time.
+#+end_quote
+* Why did you choose C/C++ for "data structures"?
+#+begin_quote
+I did not choose it, the catalog (and wiser, older professors
+before me) did. But I'm on board with it for a number of reasons:
+- C/C++ is *compiled* (unlike Python) and offers high performance,
+  which you need for big data and *complex* algorithms (like machine
+  learning).
+- C/C++ offers explicit *control* over memory allocation and
+  deallocation, which is essential to know how data structures work
+  under the hood.
+- C++ in particular has a Standard Template Library (STL) which
+  offers template classes for *common* data structures (vectors,
+  lists, queues, stacks) and algorithms, which saves time and helps
+  you learn.
+- C/C++ is used in industry for performance-*critical* applications
+  (like large-scale multi-player network games, network
+  communication, or space exploration and communications).
+#+end_quote
+* But all the programs are in C not in C++ - why is that?
+#+begin_quote
+After working out many lectures in C++ only, I realized that
+Object-orientation and the extra layers of abstraction that C++
+brings, are actually in the way of understanding the essence of
+data structures.
+
+This essence is not "what can this language do?" but "how can you
+stroe, organize, and access data to solve a given problem most
+efficiently." This question is largely language-independent, and so
+we want that the language does not get in the way to our solving
+problems algorithmically.
+
+The arguments given by Zingaro in favor of C in his 2024 book
+"Algorithmic Thinking" resonated with me, too. Once you understand
+this stuff in C, you can take your knowledge anywhere, to any other
+language, wherever problems can be solved computationally.
+#+end_quote
+* What are your favorite programming languages?
+#+begin_quote
+Though I have (passing) knowledge of many programming languages,
+C/C++, Python, SQL and Lisp are becoming my main go-to languages
+for performance (C++), data science (Python), database applications
+(SQL), and Emacs customization (Lisp).
+
+R is great for visualization and stats, and was another one of my
+favorite languages but it is slowly falling out of my quality world
+because of the dominance of the "Tidyverse" ([[https://github.com/matloff/TidyverseSkeptic][see here]]). The data
+science intro courses are however still in R (with some Python).
+
+I learnt these languages at different times in my life: Lisp
+because of Emacs (late 1980s), C++ in the 1990s, SQL in 2005, R in
+2019, and Python in 2022. C++ has developed massively since then
+though and I am more comfortable with its subset C than with many
+of the modern developments of the language - but I'm keen to learn!
+#+end_quote
+* Why did you not choose Python given that it's the most popular
+programming language?
+#+begin_quote
+Python has some serious deficiencies compared to C/C++, most
+importantly speed. Here is an interesting paper that shows that
+Python consumes 76 times more energy and is 72 times slower than C.
+#+attr_html: :width 400px:
+[[./img/python_vs_C.png]]
+But more importantly for the purpose of learning about data
+structures: Python abstracts away many details such as memory
+management, which are crucial to understanding why to choose one
+data structure over another. C gives you much more control over
+system resources. The only real reason to pick Python is that it's
+easier to learn and use.
+
+But at the end of the day, it's a personal decision. In my case,
+I'm also better at C than Python, and I like the control it gives.
+#+end_quote
+* How should you study for this course?
+#+begin_quote
+1) Code every day no matter how little.
+2) Review lecture notes and notebooks.
+3) Participate actively in the class.
+4) Form study groups and/or join Lyon's Programming Club.
+5) Complete assignments well before the deadline.
+6) Practice literate programming by documenting your process.
+7) Focus on fundamentals, simple examples, solid understanding.
+8) Drill yourself using the weekly quizzes, make small examples.
+9) Seek help when needed, on the chat or during office hours.
+10) Build a code & notebook repository at GitHub for your resume.
+#+end_quote
+
