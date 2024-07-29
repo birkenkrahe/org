@@ -126,12 +126,13 @@ importantly speed. Here is an interesting paper that shows that
 Python consumes 76 times more energy and is 72 times slower than C.
 #+attr_html: :width 400px:
 [[./img/python_vs_C.png]]
+
 But more importantly for the purpose of learning about data
 structures: Python abstracts away many details such as memory
-management, which are crucial to understanding why to choose one
-data structure over another. C gives you much more control over
-system resources. The only real reason to pick Python is that it's
-easier to learn and use.
+management, which are crucial to understanding why to choose one data
+structure over another. C gives you much more control over system
+resources. The only real reason to pick Python is that it's easier to
+learn and use.
 
 But at the end of the day, it's a personal decision. In my case,
 I'm also better at C than Python, and I like the control it gives.
