@@ -128,8 +128,15 @@ maintain long-term productivity, we must be cautious when deploying
 generative AI to ensure humans continue to learn critical skills."
 ([[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486&s=03][Bastani et al, 2024]]).
 
+Here are two recent accounts from coders: [[https://erikschluntz.com/software/2024/07/30/code-with-ai.html][Schluntz]] / [[https://nicholas.carlini.com/writing/2024/how-i-use-ai.html][Carlini]]
+
 *References*
 
 Bastani, Hamsa and Bastani, Osbert and Sungu, Alp and Ge, Haosen and
 Kabakcı, Özge and Mariman, Rei, Generative AI Can Harm Learning
 (July 15, 2024). [[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486&s=03#][Available at ssrn.com]].
+
+Carlini, How I Use "AI" (August 1, 2024). [[https://nicholas.carlini.com/writing/2024/how-i-use-ai.html][Available at carlini.com]].
+
+Schluntz, Replacing my Right Hand with AI (July 30, 2024). [[https://erikschluntz.com/software/2024/07/30/code-with-ai.html][Available
+at erikschluntz.com]].
