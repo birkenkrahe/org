@@ -34,6 +34,15 @@
 (require 'package)
 (add-to-list 'package-archives
 	     '("melpa-stable" . "https://stable.melpa.org/packages/"))
+(package-initialize)
+
+;; check use-package is installed
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+(eval-and-compile
+  (setq use-package-always-ensure t
+        use-package-expand-minimally t))
 
 ;; hide emphasis markers
 (setq-default org-hide-emphasis-markers t)
@@ -44,20 +53,8 @@
 ;; org-remove-inline-images set to <f7>
 (global-set-key (kbd "<f7>") 'org-remove-inline-images)
 
-;; over ssh, emacs’ key C-SPC and C-@ no longer works
-;;(global-set-key [f8] (quote set-mark-command))
-
 ;; you need this to be able to resize inline images
 (setq org-image-actual-width nil)
-
-;; Set new home directory ~/ in Emacs - replace User name below
-;; (defun set-home-dir (dir)
-;;   "Set a new HOME directory. This is where Emacs will look for init files and
-;;    where '~' will default to."
-;;   (setenv "HOME" dir)
-;;   (message (format "HOME location is %s" (getenv "HOME"))))
-
-;; (set-home-dir "C:/Users/birkenkrahe/")
 
 ;; load Emacs-Speaks-Statistics (ESS) see ess.r-project.org
 (add-to-list 'load-path "~/.emacs.d/elpa/ess-20231218.1256")
@@ -68,6 +65,9 @@
 
 ;; load sql.el and disable sql-get-login if you only work on one db
 (require 'sql)
+
+;; enable column number mode
+p(setq column-number-mode t)
 
 ;; do not show toolbar or menubar in the graphic Emacs
 (tool-bar-mode -1)
