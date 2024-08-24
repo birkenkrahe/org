@@ -150,4 +150,71 @@ I'm also better at C than Python, and I like the control it gives.
 9) Seek help when needed, on the chat or during office hours.
 10) Build a code & notebook repository at GitHub for your resume.
 
+* What computer should a computer and data science student buy?
 
+Student:
+#+begin_quote
+I’m really looking forward to buying a computer for my long term
+studies in Data Science and professional career. I think this is the
+tool that would accompany me through my whole college and the first
+years of my professional career. What's your advice?
+#+end_quote
+
+Answer:
+#+begin_quote
+It's a worthy thought though a college computer suffers much hardship
+(backpack, sports...). If you go for max RAM and max no. of cores
+(CPUs) you can almost not go wrong in the computer will be useful, at
+least with Linux on it, for 5 years or more. Battery is more of an
+issue because they are built to last only a certain number of
+cycles...the laptop that I use in class is from 2018 and runs very
+well, I think the brand is good.
+
+I would probably recommend a ThinkPad 16'' Screen (screen size is
+important if it's too small you cannot really work well). Lenovo has a
+50% off deal for Labor Day. Register as a student und you save even
+more. A fat GPU is important for graphics.
+
+An alternative is what I'm doing which is use cheap laptops on the go
+and have a fat Workstation at home at my desk (spec).
+
+A third approach is to use the Linux server that we are going to get
+sooner or later at Lyon and buy a Chromebook very cheap but reliable
+e.g. from Lenovo to connect to it.
+
+For newer machines, you can keep Windows 11 and get Linux with WSL but
+for older machines, I don't recommend it since Windows is hard on old
+hardware.
+
+What about Mac? My recommendation is to stay away from it. Unless you
+have a lot of extra money and enjoy being locked in by Apple. I have
+not been using their products for a fairly long time but if you want
+to ask someone you should ask our new computer science professor
+Dr. Dall'Olio who is using Mac and has been using them for a long time
+and for very serious computing in particle physics.
+
+If you have used Apple and you like it then maybe that's what you
+should do but you should know that they take a big premium just for
+the name which is not justified by the performance. And as you can see
+in class a lot of the infrastructure is obscured by Apple. Just like
+Windows they have no interest in you engaging with the underlying
+technology and as a data scientist or computer scientist this is
+exactly what you want to do. Apple is not built for those people, it's
+built for designers and movie Makers and photographers and other
+people like that.
+
+I favor and really only use open source software. Later in business
+you are going to encounter almost only commercial software but you
+should learn on open systems which are transparent.
+
+The main limitations of a laptop or other small computers is that you
+cannot really work with big data. However I think the ThinkPad which
+is labeled as a Workstation may be able to do that. But I cannot be
+sure myself... You cannot really beat Cloud based Computer centers.
+
+Summary: big RAM, many CPUs, big GPU (Nvidia), big screen, and you
+cannot really go wrong. And there's always a random factor or call it
+God's divine intervention... You Laptop maybe a lemon right out of the
+factory, or a miracle machine the last forever... Impossible to
+predict.
+#+end_quote
