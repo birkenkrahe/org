@@ -2,10 +2,128 @@
 #+AUTHOR: Marcus Birkenkrahe
 #+SUBTITLE: Data Structures with C++ - Lyon College - Fall 2024
 #+STARTUP: overview hideblocks indent
-#+PROPERTY: header-args:C :main yes :includes <stdio.h> 
+#+PROPERTY: header-args:C :main yes :includes <stdio.h>
+
+We'll use a single array to store integers, implement loops for
+input/output, and a simple linear search for finding a number.
+
+* Tasks
+
+- Input: Read 5 integer numbers from the user.
+- Display: Print out all the numbers.
+- Sum: Calculate and display the sum of all numbers.
+- Search: Ask for a number and check if it exists in the array.
+
+* Steps
+
+1. Declare an array of size 5.
+2. Use a loop for input.
+3. Use another loop for display and sum calculation.
+4. Implement a search function using a third loop.
+
+* Code v1: without user input
+
+This code can just be run here because the array is fixed, so no loop
+is needed to initialize the array. My sample solution has too many
+comments (for instruction) - less sometimes is more.
+
 #+begin_src C :tangle main.c
-  // test
+  // define array size
+  #define SIZE 5
+
+  // variable declarations and definitions
+  int A[SIZE] = {4,-3,100,-1,1}; // input
+  int search = 100; // input
+  int sum = 0; // output
+  int i; // loop counter (display and summation)
+  int found = 0; // flag for search
+
+  // display and sum array elements
+  printf("Array elements entered: ");
+  for (i = 0; i < SIZE; i++) {
+    printf("%d ", A[i]);
+    sum+=A[i];
+   }
+  // display summation result
+  printf("\nSum of array elements = %d.\n",sum);
+
+  // ask for number to search in array
+  printf("Which number should I search for? ");
+  // search array with loop for user input
+  for (i = 0; i < SIZE; i++) {
+    if (A[i] == search) {
+      found++;
+    }
+   }
+  if (found == 0)
+    printf("\n%d not found in array.",search);
+   else
+     printf("\n%d was found in array (%d times).",search, found);
 #+end_src
 
+#+RESULTS:
+: Array elements entered: 4 -3 100 -1 1
+: Sum of array elements = 101.
+: Which number should I search for?
+: 100 was found in array (1 times).
+
+* Code v2: with user input
+
+This code is tested below for any input array, and for any number to
+be searched. Another loop is needed to =scanf= the array elements.
+
+#+begin_src C :tangle main.c :results none
+  // define array size
+  #define SIZE 5
+
+  // variable declarations and definitions
+  int A[SIZE]; // input
+  int search; // input
+  int sum = 0; // output
+  int i; // loop counter (display and summation)
+  int found = 0; // flag for search
+
+  // get user input
+  printf("Enter five integer numbers: ");
+  for (i = 0; i < SIZE; i++) {
+    scanf("%d",&A[i]);
+   }
+  // get number to be searched in array
+  scanf("%d",&search);
+
+  // display and sum array elements
+  printf("Array elements entered: ");
+  for (i = 0; i < SIZE; i++) {
+    printf("%d ", A[i]);
+    sum+=A[i];
+   }
+  // display summation result
+  printf("\nSum of array elements = %d.\n",sum);
+
+  // ask for number to search in array
+  printf("Which number should I search for? ");
+  // search array with loop for user input
+  for (i = 0; i < SIZE; i++) {
+    if (A[i] == search) {
+      found++;
+    }
+   }
+  if (found == 0)
+    printf("\n%d not found in array.",search);
+   else
+     printf("\n%d was found in array (%d times).",search, found);
+#+end_src
+
+Testing:
+#+begin_src bash :results output :exports both
+  gcc main.c -o main
+  echo 4 -3 100 -1 1 100 | ./main
+#+end_src
+
+#+RESULTS:
+: Enter five integer numbers: Array elements entered: 4 -3 100 -1 1
+: Sum of array elements = 101.
+: Which number should I search for?
+: 100 was found in array (1 times).
 
 
