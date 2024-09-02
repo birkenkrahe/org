@@ -1,0 +1,11 @@
+#+TITLE: Simple Array Operations
+#+AUTHOR: Marcus Birkenkrahe
+#+SUBTITLE: Data Structures with C++ - Lyon College - Fall 2024
+#+STARTUP: overview hideblocks indent
+#+PROPERTY: header-args:C :main yes :includes <stdio.h> 
+#+begin_src C :tangle main.c
+  // test
+#+end_src
+
+
+
