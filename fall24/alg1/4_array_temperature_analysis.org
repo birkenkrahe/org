@@ -3,14 +3,13 @@
 #+SUBTITLE: Data Structures with C++ - Lyon College - Fall 2024
 #+STARTUP: overview hideblocks indent
 #+PROPERTY: header-args:C :main yes :includes <stdio.h> :results output
-* Array Temperature Analysis
-** Context
+* Context
 
 Analyze weekly temperature data, computing maximum, minimum,
 averages, and modified temperatures. The array size is fixed at 7 for
 daily temperatures of one week.
 
-** Tasks
+* Tasks
 
 1. Input: Read 7 temperature values from the user, representing daily
    high temperatures for a week. Ask for the temperature of each day
@@ -24,7 +23,7 @@ daily temperatures of one week.
 5. Modify: Increase all temperatures by 2 degrees to simulate a
    warmer week.
 
-** Steps:
+* Steps:
 1. Declare an array to hold the temperature.
 2. Use a loop (=for= or =while=) to input the temperatures.
 3. Use a loop to display the temperatures.
@@ -36,7 +35,7 @@ daily temperatures of one week.
 8. When you get the complete, correct results, check if you can
    optimize the code with regard to structure, readability, etc.
 
-** Sample Input and Output
+* Sample Input and Output
 
 Input:
 - Seven float values representing daily high temperatures for every
@@ -71,7 +70,7 @@ Output:
   Modified temperature for day 7: 79.7
 #+end_example
 
-** Hints
+* Hints
 
 - Write a program first that initializes an array in the source code
   and check your algorithm first.
@@ -98,7 +97,7 @@ Output:
   set the array size as a /constant/ (so that larger arrays than 5 can
   be processed).
 
-** Submission
+* Submission
 
 1. Org-mode file with complete meta data: =TITLE=, =AUTHOR= (with pledge),
    =SUBTITLE= (course information), =PROPERTY= (C code blocks) and =STARTUP=
@@ -116,14 +115,14 @@ Output:
 4. Your file must pass the test case, and input and output must be
    part of your submission.
 
-** Solution
+* Solution
 
 We'll implement the steps provided - in the first version, we set the
 fixed array in the source code. In the second version, we add user
 input from the keyboard (using the shell). In the third version, we
 reorganize the code into cleaner modules: input / processing / output.
 
-*** Code v1: without user input
+** Code v1: without user input
 
 #+begin_src C
   /******************************************************************/
@@ -185,7 +184,7 @@ reorganize the code into cleaner modules: input / processing / output.
 : Days above average temperature = 3
 : Modified temperatures Mon-Sun: 84.3 81.5 81.9 86.1 88.2 72.3 79.7 
 
-*** Code v2: with user input
+** Code v2: with user input
 
 Don't run this code block but instead tangle it to =temp.c= and test it
 using the command-line shell.
@@ -277,7 +276,7 @@ Days above average temperature = 3
 Modified temperatures Mon-Sun: 84.3 81.5 81.9 86.1 88.2 72.3 79.7 
 #+end_example
 
-*** Code v3: final
+** Code v3: final
 
 In the final version, I re-organized the code to clearly separate
 ninput, processing, and output sections. Don't run this code block but
