@@ -1,0 +1,367 @@
+#+TITLE: Array Temperature Analysis
+#+AUTHOR: Marcus Birkenkrahe
+#+SUBTITLE: Data Structures with C++ - Lyon College - Fall 2024
+#+STARTUP: overview hideblocks indent
+#+PROPERTY: header-args:C :main yes :includes <stdio.h> :results output
+* Array Temperature Analysis
+** Context
+
+Analyze weekly temperature data, computing maximum, minimum,
+averages, and modified temperatures. The array size is fixed at 7 for
+daily temperatures of one week.
+
+** Tasks
+
+1. Input: Read 7 temperature values from the user, representing daily
+   high temperatures for a week. Ask for the temperature of each day
+   separately.
+2. Display: Print out all temperatures.
+3. Find and display:
+   - The highest temperature
+   - The lowest temperature
+   - The average temperature
+4. Count: Determine how many days were above the average temperature.
+5. Modify: Increase all temperatures by 2 degrees to simulate a
+   warmer week.
+
+** Steps:
+1. Declare an array to hold the temperature.
+2. Use a loop (=for= or =while=) to input the temperatures.
+3. Use a loop to display the temperatures.
+4. Implement logic to find highest and lowest temperatures using
+   selection statements.
+5. Calculate the average temperature using a loop.
+6. Count days above average using a loop and a conditional statement.
+7. Modify the array by adding 2 degrees to each temperature.
+8. When you get the complete, correct results, check if you can
+   optimize the code with regard to structure, readability, etc.
+
+** Sample Input and Output
+
+Input:
+- Seven float values representing daily high temperatures for every
+  day of the week.
+- Sample input: =82.3 79.5 79.9 84.1 86.2 70.3 77.7=
+
+Output:
+- Display temperatures, highest, lowest, average, count of days above
+  average, and modified temperatures.
+- Sample output:
+  #+begin_example
+  Enter temperatures for day 1: 82.3
+  Enter temperatures for day 2: 79.5
+  Enter temperatures for day 3: 79.9
+  Enter temperatures for day 4: 84.1
+  Enter temperatures for day 5: 86.2
+  Enter temperatures for day 6: 70.3
+  Enter temperatures for day 7: 77.7
+
+  Lowest temperature = 70.3
+  Highest temperature = 86.2
+  Average temperature = 80
+  Days above average temperature = 3
+
+  Modified temperatures Mon-Sun:
+  Modified temperature for day 1: 84.3
+  Modified temperature for day 2: 81.5
+  Modified temperature for day 3: 81.9
+  Modified temperature for day 4: 86.1
+  Modified temperature for day 5: 88.2
+  Modified temperature for day 6: 72.3
+  Modified temperature for day 7: 79.7
+#+end_example
+
+** Hints
+
+- Write a program first that initializes an array in the source code
+  and check your algorithm first.
+
+- Remember to run =C-c C-c= every time you write a line of code to check
+  the syntax. Save your file often with =C-x C-s=.
+
+- When you're sure that the algorithm works, initialize the array with
+  a shell code block looking like this, which pipes the array element
+  values into the array as if they were typed on the keyboard:
+
+  #+begin_src bash :results output :exports both
+    gcc main.c -o main
+    echo 82.3 79.5 79.9 84.1 86.2 70.3 77.7 | ./main
+  #+end_src
+
+- Note: even if you're not on Linux right now, you can execute these
+  commands in Emacs' eshell (=M-x eshell=), which simulates linux, as
+  long as you have the C compiler GCC installed.
+
+- This test code will only work if you tangled the file =main.c= first.
+
+- You can make the program more general and easier to maintain if you
+  set the array size as a /constant/ (so that larger arrays than 5 can
+  be processed).
+
+** Submission
+
+1. Org-mode file with complete meta data: =TITLE=, =AUTHOR= (with pledge),
+   =SUBTITLE= (course information), =PROPERTY= (C code blocks) and =STARTUP=
+   (for file startup in Emacs). Compare [[https://lyon.instructure.com/courses/2623/assignments/33110][previous exercise]].
+
+2. Include a short description on how you tackled the problem, for
+   example by explaining your steps (outside of the source code
+   block).
+
+3. Your source code should be accompanies by minimal comments to help
+   you understand it better later. Your source code block should have
+   the additional header argument =:tangle main.c= so that you can
+   tangle the file with =M-x org-babel-tangle= and run it separately.
+
+4. Your file must pass the test case, and input and output must be
+   part of your submission.
+
+** Solution
+
+We'll implement the steps provided - in the first version, we set the
+fixed array in the source code. In the second version, we add user
+input from the keyboard (using the shell). In the third version, we
+reorganize the code into cleaner modules: input / processing / output.
+
+*** Code v1: without user input
+
+#+begin_src C
+  /******************************************************************/
+  // Analyze weekly temperature data, compute maximum, minimum,
+  // averages, modified temperatures. Author: Marcus Birkenkrahe
+  // License: GPLv3 - V1 (without user input)
+  /******************************************************************/
+
+  // Declare constant array size
+  #define SIZE 7
+
+  // Declare an array to hold the temperature.
+  float temp[SIZE] = {82.3,79.5,79.9,84.1,86.2,70.3,77.7};
+
+  // Declare other variables
+  int i; // loop counter
+  float min, max, avg, sum=0.; // min, max, weekly average, sum
+  int days_above_avg = 0;
+
+  // Use another loop to display the temperatures.
+  printf("Temperatures Mon-Sun: ");
+  for (i = 0; i < SIZE; i++)
+    printf("%g ", temp[i]); // variable floating-point format
+
+  // Find highest & lowest temperatures using selection statements
+  min = max = temp[0]; // initialize minimum and maximum
+  for (i = 0; i < SIZE; i++) {
+    if (temp[i] < min)
+      min = temp[i];
+    if (temp[i] > max)
+      max = temp[i];
+   }
+  printf("\nMinimum = %g - Maximum = %g\n", min, max);
+
+  // Calculate the average temperature using a loop.
+  for (i = 0; i < SIZE; i++)
+    sum+=temp[i];
+  avg = sum / SIZE;
+  printf("Average temperature = %g\n", avg);
+  // Count days above average using a loop and a conditional statement.
+  for (i = 0; i < SIZE; i++) {
+    if (temp[i] > avg)
+      days_above_avg++;
+   }
+  printf("Days above average temperature = %d\n", days_above_avg);
+
+  // Modify the array by adding 2 degrees to each temperature.
+  printf("Modified temperatures Mon-Sun: ");
+  for (i = 0; i < SIZE; i++) {
+    temp[i]+=2.;
+    printf("%g ", temp[i]); // variable floating-point format
+   }
+#+end_src
+
+#+RESULTS:
+: Temperatures Mon-Sun: 82.3 79.5 79.9 84.1 86.2 70.3 77.7 
+: Minimum = 70.3 - Maximum = 86.2
+: Average temperature = 80
+: Days above average temperature = 3
+: Modified temperatures Mon-Sun: 84.3 81.5 81.9 86.1 88.2 72.3 79.7 
+
+*** Code v2: with user input
+
+Don't run this code block but instead tangle it to =temp.c= and test it
+using the command-line shell.
+#+begin_src C :results none :tangle temp.c
+  /******************************************************************/
+  // Analyze weekly temperature data, compute maximum, minimum,
+  // averages, modified temperatures. Author: Marcus Birkenkrahe
+  // License: GPLv3 - V2 (with user input)
+  /******************************************************************/
+
+  // Declare constant array size
+  #define DAYS 7
+
+  // Declare an array to hold the temperature.
+  float temp[DAYS];
+
+  // Declare other variables
+  int i; // loop counter
+  float min, max, avg, sum=0.; // minimum, maximum, weekly average, sum
+  int days_above_avg = 0;
+
+  // Use a loop to input the temperatures for each day
+  for (i = 0; i < DAYS; i++) {
+    printf("Enter temperatures for day %d: ", i+1);
+    scanf("%g",&temp[i]);
+    printf("\n");
+   }
+
+  // Use another loop to display the temperatures.
+  for (i = 0; i < DAYS; i++)
+    printf("Temperature for day %d: %g\n", i+1, temp[i]);
+
+  // Find highest and lowest temperatures using selection statements.
+  min = max = temp[0]; // initialize minimum and maximum
+  for (i = 0; i < DAYS; i++) {
+    if (temp[i] < min)
+      min = temp[i];
+    if (temp[i] > max)
+      max = temp[i];
+   }
+  printf("\nMinimum = %g - Maximum = %g\n", min, max);
+
+  // Calculate the average temperature using a loop.
+  for (i = 0; i < DAYS; i++)
+    sum+=temp[i];
+  avg = sum / DAYS;
+  printf("Average temperature = %g\n", avg);
+  // Count days above average using a loop and a conditional statement.
+  for (i = 0; i < DAYS; i++) {
+    if (temp[i] > avg)
+      days_above_avg++;
+   }
+  printf("Days above average temperature = %d\n", days_above_avg);
+
+  // Modify the array by adding 2 degrees to each temperature.
+  printf("Modified temperatures Mon-Sun: ");
+  for (i = 0; i < DAYS; i++) {
+    temp[i]+=2.;
+    printf("%g ", temp[i]); // variable floating-point format
+   }
+#+end_src
+
+Testing with shell compilation and keyboard input:
+#+begin_src bash :results output :exports both
+  gcc temp.c -o temp
+  echo 82.3 79.5 79.9 84.1 86.2 70.3 77.7 | ./temp
+#+end_src
+
+#+RESULTS:
+#+begin_example
+Enter temperatures for day 1: 
+Enter temperatures for day 2: 
+Enter temperatures for day 3: 
+Enter temperatures for day 4: 
+Enter temperatures for day 5: 
+Enter temperatures for day 6: 
+Enter temperatures for day 7: 
+Temperature for day 1: 82.3
+Temperature for day 2: 79.5
+Temperature for day 3: 79.9
+Temperature for day 4: 84.1
+Temperature for day 5: 86.2
+Temperature for day 6: 70.3
+Temperature for day 7: 77.7
+
+Minimum = 70.3 - Maximum = 86.2
+Average temperature = 80
+Days above average temperature = 3
+Modified temperatures Mon-Sun: 84.3 81.5 81.9 86.1 88.2 72.3 79.7 
+#+end_example
+
+*** Code v3: final
+
+In the final version, I re-organized the code to clearly separate
+ninput, processing, and output sections. Don't run this code block but
+instead tangle it to =temp2.c= and test it using the command-line shell.
+#+begin_src C :results none :tangle temp2.c
+  /******************************************************************/
+  // Analyze weekly temperature data, compute maximum, minimum,
+  // averages, modified temperatures. Author: Marcus Birkenkrahe
+  // License: GPLv3 - V3 (final: reorganized input/processing/output
+  /******************************************************************/
+
+  // Declare constant array size
+  #define DAYS 7
+
+  // Declare an array to hold the temperature.
+  float temp[DAYS];
+
+  // Declare other variables
+  int i; // loop counter
+  float min, max, avg, sum=0.; // minimum, maximum, weekly average, sum
+  int days_above_avg = 0;
+
+  // Use a loop to input the temperatures for each day, and print them
+  for (i = 0; i < DAYS; i++) {
+    printf("Enter temperatures for day %d: ", i+1);
+    scanf("%g",&temp[i]);
+    printf("%g\n", temp[i]);
+   }
+
+  // Find highest and lowest temperatures using selection statements.
+  min = max = temp[0]; // initialize minimum and maximum
+  for (i = 0; i < DAYS; i++) {
+    if (temp[i] < min)
+      min = temp[i];
+    if (temp[i] > max)
+      max = temp[i];
+   }
+
+  // Calculate the average temperature using a loop.
+  for (i = 0; i < DAYS; i++)
+    sum+=temp[i];
+  avg = sum / DAYS;
+
+  // Count days above average using a loop and a conditional statement.
+  for (i = 0; i < DAYS; i++) {
+    if (temp[i] > avg)
+      days_above_avg++;
+   }
+
+  // Print results
+  printf("\nLowest temperature = %g\n", min);
+  printf("Highest temperature = %g\n", max);
+  printf("Average temperature = %g\n", avg);
+  printf("Days above average temperature = %d\n", days_above_avg);
+
+  // Modify the array by adding 2 degrees to each temperature.
+  printf("\nModified temperatures Mon-Sun:\n");
+  for (i = 0; i < DAYS; i++) {
+    temp[i]+=2.;
+    printf("%g ", temp[i]); // variable floating-point format
+   }
+#+end_src
+
+Testing with shell compilation and keyboard input:
+#+begin_src bash :results output :exports both
+  gcc temp2.c -o temp2
+  echo 82.3 79.5 79.9 84.1 86.2 70.3 77.7 | ./temp2
+#+end_src
+
+#+RESULTS:
+#+begin_example
+Enter temperatures for day 1: 82.3
+Enter temperatures for day 2: 79.5
+Enter temperatures for day 3: 79.9
+Enter temperatures for day 4: 84.1
+Enter temperatures for day 5: 86.2
+Enter temperatures for day 6: 70.3
+Enter temperatures for day 7: 77.7
+
+Lowest temperature = 70.3
+Highest temperature = 86.2
+Average temperature = 80
+Days above average temperature = 3
+
+Modified temperatures Mon-Sun:
+84.3 81.5 81.9 86.1 88.2 72.3 79.7 
+#+end_example
