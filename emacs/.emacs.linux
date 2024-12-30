@@ -1,59 +1,16 @@
-;; emacs sample file for class use
-(put 'dired-find-alternate-file 'disabled nil)
+;; --- Basic Settings ---
+(put 'dired-find-alternate-file 'disabled nil) ;; Enable dired alternate file
+(setq inhibit-startup-screen t)               ;; Remove startup screen
+(tool-bar-mode -1)                            ;; Disable toolbar
+(menu-bar-mode -1)                            ;; Disable menu bar
+(setq column-number-mode t)                   ;; Enable column numbers
 
-;; add site lisp repo to load-path
-(add-to-list 'load-path "/home/marcus/.emacs.d/lisp")
-
-;; require ob-sqlite and ob-sql (for compilation in org src blocks) & tangle
-(require 'ob-sqlite)
-(require 'ob-sql)
-(require 'python)
-(require 'ob-emacs-lisp)
-(require 'ob-R)
-(require 'ob-C)
-(require 'ob-shell)
-(require 'ob-python)
-
-;; active Babel languages
-(org-babel-do-load-languages
- 'org-babel-load-languages
- '((R . t)
-   (sql . t)
-   (python . t)
-   (emacs-lisp . t)
-   (C . t)
-   ))
-
-;; Syntax highlight code in your SRC blocks The last variable removes
-;; the annoying “Do you want to execute” your code when you type:
-;; C-c C-c
-(setq org-confirm-babel-evaluate nil
-      org-src-fontify-natively t
-      org-src-tab-acts-natively t)
-
-;; babel R skeleton code
-(define-skeleton org-skeleton
-  "Header info for a Emacs Org-mode file."
-  "Title: "
-  "#+TITLE:" str " \n"
-  "#+AUTHOR:" str " \n"
-  "#+SUBTITLE:" str " \n"
-  "#+STARTUP:overview hideblocks indent\n"
-  "#+OPTIONS: toc:nil num:nil ^:nil\n"
-  "#+PROPERTY: header-args:R :session *R* :results output :exports both :noweb yes"
-  "#+PROPERTY: header-args:python :session *Python* :results output :exports both :noweb yes"   "#+PROPERTY: header-args:C :main yes :includes <stdio.h> :results output :exports both :noweb yes"
-  "#+PROPERTY: header-args:C++ :main yes :includes <iostream> :results output :exports both :noweb yes"  
-  )
-(global-set-key [C-S-f4] 'org-skeleton)
-
-;; enable snippet expansion via org-structure-template-alist
-(require 'org-tempo)
-
-;; get packages from MELPA package manager
+;; --- Package Management ---
 (require 'package)
-(add-to-list 'package-archives
-;;	     '("melpa-stable" . "https://stable.melpa.org/packages/")
-	     '("melpa" . "https://melpa.org/packages/") t)
+(setq package-archives
+      '(("gnu" . "https://elpa.gnu.org/packages/")
+        ("melpa" . "https://melpa.org/packages/")
+        ("melpa-stable" . "https://stable.melpa.org/packages/")))
 (package-initialize)
 
 (unless (package-installed-p 'use-package)
@@ -63,203 +20,289 @@
   (setq use-package-always-ensure t
         use-package-expand-minimally t))
 
-;; hide emphasis markers
-(setq-default org-hide-emphasis-markers t)
+;; --- Load Paths ---
+(add-to-list 'load-path "/home/aletheia/.emacs.d/lisp")
 
-;; org-display-inline-images set to <f6>
+;; --- Org-mode and Org-Babel Configurations ---
+(require 'org)
+(require 'org-tempo)
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((R . t)
+   (sql . t)
+   (python . t)
+   (emacs-lisp . t)
+   (C . t)
+   (dot . t)))
+
+(setq org-confirm-babel-evaluate nil
+      org-src-fontify-natively t
+      org-src-tab-acts-natively t
+      org-html-validation-link nil
+      org-hide-emphasis-markers t
+      org-image-actual-width nil)
+
+;; Org skeleton for header info
+(define-skeleton org-skeleton
+  "Header info for an Emacs Org-mode file."
+  "Title: "
+  "#+TITLE:" str " \n"
+  "#+AUTHOR:" str " \n"
+  "#+SUBTITLE:" str " \n"
+  "#+STARTUP: overview hideblocks indent\n"
+  "#+OPTIONS: toc:nil num:nil ^:nil\n"
+  "#+PROPERTY: header-args:R :session *R* :results output :exports both :noweb yes\n"
+  "#+PROPERTY: header-args:python :session *Python* :results output :exports both :noweb yes\n"
+  "#+PROPERTY: header-args:C :main yes :includes <stdio.h> :results output :exports both :noweb yes\n"
+  "#+PROPERTY: header-args:C++ :main yes :includes <iostream> :results output :exports both :noweb yes\n")
+(global-set-key [C-S-f4] 'org-skeleton)
+
+;; --- Required Babel Packages ---
+(require 'ob-sqlite)
+(require 'ob-sql)
+(require 'python)
+(require 'ob-emacs-lisp)
+(require 'ob-R)
+(require 'ob-C)
+(require 'ob-shell)
+(require 'ob-python)
+
+;; --- Org Agenda Configuration ---
+(setq org-agenda-files ;; org-capture files
+      ;;(append
+       (directory-files "~/GitHub/admin/Notes/" t "\\.org$")
+       ;;      (directory-files "~/GitHub/admin/RoamNotes/" t "\\.org$")
+       ;;)
+      )
+
+;; go to org-capture files
+(global-set-key (kbd "C-c o")
+                (lambda ()
+                  (interactive)
+                  (find-file "~/GitHub/admin/Notes/")))
+
+;; how to call the agenda dashboard
+(global-set-key (kbd "C-c a") 'org-agenda)
+
+;; sequential work progress states see orgguide 9.3 sect. 5.2 p.11
+(setq org-todo-keywords
+      '((sequence "NEXT" "TODO" "IN PROGRESS" "READ" "WAITING" "SOMEDAY" "PROJECT" "FEEDBACK" "VERIFY" "|" "DONE" "CANCELLED")))
+
+;; --- Key Bindings ---
 (global-set-key (kbd "<f6>") 'org-display-inline-images)
-
-;; org-remove-inline-images set to <f7>
 (global-set-key (kbd "<f7>") 'org-remove-inline-images)
-
-;; over ssh, emacs’ key C-SPC and C-@ no longer works
-;;(global-set-key [f8] (quote set-mark-command))
-
-;; you need this to be able to resize inline images
-(setq org-image-actual-width nil)
-
-;; Set new home directory ~/ in Emacs - replace User name below
-;; (defun set-home-dir (dir)
-;;   "Set a new HOME directory. This is where Emacs will look for init files and where '~' will default to."
-;;   (setenv "HOME" dir)
-;;   (message (format "HOME location is %s" (getenv "HOME"))))
-
-;; (set-home-dir "C:/Users/birkenkrahe/")
-
-;; load Emacs-Speaks-Statistics (ESS) see ess.r-project.org
-;;(add-to-list 'load-path "/usr/share/emacs/site-lisp/ess")
-(load "ess-site")
-
-;; add prompt to SQLite buffer opened with M-x sql-sqlite
-(setq sql-sqlite-options '("-interactive"))
-
-;; load sql.el and disable sql-get-login if you only work on one db
-(require 'sql)
-
-;; do not show toolbar or menubar in the graphic Emacs
-(tool-bar-mode -1)
-(menu-bar-mode -1)
-
-;; recentf-mode to find recently opened files with C-x r f
-(recentf-mode 1)
-(setq recentf-max-menu-items 25)
-(setq recentf-max-saved-items 25)
-(global-set-key (kbd "C-x r f") 'recentf-open-files)
-
-;; ace-window
 (global-set-key (kbd "M-o") 'ace-window)
+(global-set-key (kbd "C-x r f") 'recentf-open-files)
+(define-key global-map "\C-\M-Q" 'unfill-region)
 
-;; org-present
-;;(add-to-list 'load-path "~/path/to/org-pres")
+;; --- Appearance and Themes ---
+(load-theme 'modus-vivendi-tinted t) ;; Set color theme
+
+;; --- Ivy, Swiper, and Counsel Configuration ---
+(ivy-mode)
+(setq ivy-use-virtual-buffers t
+      enable-recursive-minibuffers t
+      search-default-mode #'char-fold-to-regexp)
+(global-set-key "\C-s" 'swiper)
+(global-set-key (kbd "C-c C-r") 'ivy-resume)
+
+;; --- Org Presentations ---
+(require 'org-tree-slide)
+(with-eval-after-load "org-tree-slide"
+  (global-set-key (kbd "<f9>") 'org-tree-slide-mode)
+  (define-key org-tree-slide-mode-map (kbd "<left>") 'org-tree-slide-move-previous-tree)
+  (define-key org-tree-slide-mode-map (kbd "<right>") 'org-tree-slide-move-next-tree))
+(org-tree-slide-simple-profile)
+
+;; --- Org-Present Configuration ---
 (autoload 'org-present "org-present" nil t)
+(add-to-list 'load-path "~/path/to/org-present")
 
-;; unfill region
+;; --- Utility Functions ---
 (defun unfill-region (beg end)
-  "Unfill the region, joining text paragraphs into a single
-    logical line.  This is useful, e.g., for use with
-    `visual-line-mode'."
+  "Unfill the region, joining text paragraphs into a single logical line."
   (interactive "*r")
   (let ((fill-column (point-max)))
     (fill-region beg end)))
 
-;; Handy key definition
-(define-key global-map "\C-\M-Q" 'unfill-region)
-
-;; re-indenting of whole buffer according to mode
 (defun iwb ()
-  "indent whole buffer"
+  "Indent whole buffer, delete trailing whitespace, and untabify."
   (interactive)
   (delete-trailing-whitespace)
   (indent-region (point-min) (point-max) nil)
-  (untabify (point-min) (point-max))
-  )
+  (untabify (point-min) (point-max)))
 
-;; Load org-bullets
-(require 'org-bullets)
-(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+(defun copy-buffer-name-to-kill-ring ()
+  "Copy the current buffer name to the kill ring."
+  (interactive)
+  (let ((buffer-name (buffer-name)))
+    (kill-new buffer-name)
+    (message "Copied buffer name: %s" buffer-name)))
 
-(defun obm ()
+(defun org-bullets-mode-in-buffer ()
   "Enable org-bullets-mode in the current buffer."
   (interactive)
   (if (featurep 'org-bullets)
       (org-bullets-mode 1)
     (message "org-bullets is not available. Please install it first.")))
 
-;; spacious padding
-(setq spacious-padding-mode 1)
+;; --- Org Bullets Configuration ---
+(require 'org-bullets)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
-;; ivy and swiper (via github.com/abo-abo/swiper
-;; with counsel-mode installed
-(ivy-mode)
-(setq ivy-use-virtual-buffers t)
-(setq enable-recursive-minibuffers t)
-;; enable this if you want `swiper' to use it
-;; (setq search-default-mode #'char-fold-to-regexp)
-(global-set-key "\C-s" 'swiper)
-(global-set-key (kbd "C-c C-r") 'ivy-resume)
-;;(global-set-key (kbd "<f6>") 'ivy-resume)
+;; --- Org-add-note Configuration ---
+;; put not in :LOGBOOK: ... :END: drawer
+(setq org-log-into-drawer t)
 
-;; org-tree-slide
-(require 'org-tree-slide)
-(with-eval-after-load "org-tree-slide"
-  (global-set-key (kbd "<f9>") 'org-tree-slide-mode)
-  (define-key org-tree-slide-mode-map (kbd "<left>") 'org-tree-slide-move-previous-tree) ;; move forwards
-  (define-key org-tree-slide-mode-map (kbd "<right>") 'org-tree-slide-move-next-tree)  ;; move backwards
-  )
-(setq org-image-actual-width nil)
-(setq org-tree-slide-skip-outline-level 0)
-(setq org-tree-slide-slide-effect t)
-(org-tree-slide-simple-profile) ;; no headers
+;; --- Org-capture Configuration ---
+(require 'org-capture)
 
-;; Find and open TODO and agenda
-(find-file "~/GitHub/admin/RoamNotes/20220520212655-todo.org")
-(global-set-key (kbd "C-c a") 'org-agenda)
-(org-agenda nil "a")
-(setq org-agenda-files
-      '("~/GitHub/admin/RoamNotes/20220520212655-todo.org"
-	"~/GitHub/admin/RoamNotes/20220521111244-spring24.org"
-	"~/GitHub/admin/RoamNotes/20240113174833-db24.org"
-	"~/GitHub/admin/RoamNotes/20231202115708-cpp_24.org"
-	"~/GitHub/admin/RoamNotes/20240113191609-ds205.org"
-	"~/GitHub/admin/RoamNotes/20240114085226-research_spring_2024.org"
-	"~/GitHub/admin/RoamNotes/20220807171413-research.org"
-	"~/GitHub/admin/RoamNotes/20230830152317-summer24.org"
-	"~/GitHub/admin/RoamNotes/20240113133303-os24.org"))
+;; Optional: Keybinding to invoke capture
+(global-set-key (kbd "C-c c") 'org-capture)
 
-;; sequential work progress states see orgguide 9.3 sect. 5.2 p.11
-(setq org-todo-keywords
-      '((sequence "NEXT" "TODO" "IN PROGRESS" "READ" "WAITING" "SOMEDAY" "PROJECT" "FEEDBACK" "VERIFY" "|" "DONE" "CANCELLED")))
+;; Org-capture templates (offered with C-c c)
+(setq org-capture-templates
+      '(
+        ;; Log Entry with Date
+        ("a" "Journal" entry
+         (file+datetree "~/GitHub/admin/Notes/journal.org")
+         "*** %U\n%?"
+         :empty-lines 1)
 
+        ;; Email Reference
+        ("b" "Email" entry
+         (file "~/GitHub/admin/Notes/emails.org")
+         "* Email To: %?\n  %u\n  - Subject: \n"
+         :empty-lines 1)
 
-;; doom modeline
+        ;; Todo Item
+        ("c" "Todo" entry
+         (file+headline "~/GitHub/admin/Notes/todos.org" "Inbox")
+         "* %?\n  %u\n"
+         :empty-lines 1)
+
+        ;; Classes
+        ("d" "Classes" entry
+         (file "~/GitHub/admin/Notes/classes.org")
+         "* %?\n  %u\n"
+         :empty-lines 1)
+
+        ;; General Notes
+        ("e" "Notes" entry
+         (file "~/GitHub/admin/Notes/notes.org")
+         "* %?\n  %u\n -"
+         :empty-lines 1)
+
+        ;; Courses
+        ("f" "Course" entry
+         (file "~/GitHub/admin/Notes/courses.org")
+         "* %?\n  %u\n"
+         :empty-lines 1)
+
+        ;; Semesters
+        ("g" "Semesters" entry
+         (file "~/GitHub/admin/Notes/semesters.org")
+         "* %?\n  %u\n"
+         :empty-lines 1)
+
+        ;; Admin
+        ("h" "Admin" entry
+         (file "~/GitHub/admin/Notes/admin.org")
+         "* %?\n  %u\n"
+         :empty-lines 1)
+
+        ;; Sources
+        ("i" "Sources" entry
+         (file "~/GitHub/admin/Notes/sources.org")
+         "* %?\n  %u\n"
+         :empty-lines 1)
+
+        ;; Books
+        ("j" "Books" entry
+         (file "~/GitHub/admin/Notes/books.org")
+         "* %?\n  %u\n"
+         :empty-lines 1)
+
+        ;; Letters
+        ("k" "Letters" entry
+         (file "~/GitHub/admin/Notes/letters.org")
+         "* %?\n  %u\n"
+         :empty-lines 1)
+	
+        ))
+
+;; Ensure tags can be completed in capture buffers
+(setq org-complete-tags-always-offer-all-agenda-tags t)
+
+;; Custom function to make tag input easier in capture buffers
+(defun org-capture-add-tag ()
+  "Add a tag in the Org capture buffer."
+  (interactive)
+  (org-set-tags-command))
+
+;; Add a keybinding specifically for tags in capture mode
+(add-hook 'org-capture-mode-hook
+          (lambda ()
+            (define-key org-capture-mode-map (kbd "C-c t") 'org-capture-add-tag)))
+
+;; LaTeX beamer presentation
+(require 'ox-latex)
+(add-to-list 'org-latex-classes
+             '("beamer"
+               "\\documentclass[presentation,notes=hide]{beamer}"
+               ("\\section{%s}" . "\\section*{%s}")
+               ("\\subsection{%s}" . "\\subsection*{%s}")
+               ("\\subsubsection{%s}" . "\\subsubsection*{%s}")))
+
+;; Fold all bullets in a section
+(defun org-fold-all-bullets ()
+  "Fold all bullet points in the current Org-mode buffer, including numbered and non-numbered lists."
+  (interactive)
+  (org-overview) ;; Collapse the entire buffer to top-level headings
+  (org-cycle '(64)) ;; Show top-level headings only
+  (save-excursion
+    (goto-char (point-min))
+    (while (re-search-forward "^\\([0-9]+[.)]\\|[-+*]\\) " nil t) ;; Match numbered and non-numbered bullets
+      (save-excursion
+        (goto-char (match-beginning 0))
+        (org-cycle nil) ;; Fold the current item
+        ;; Recursively handle nested items
+        (when (save-excursion
+                (forward-line)
+                (looking-at-p "^\\s-+\\([0-9]+[.)]\\|[-+*]\\) "))
+          (let ((end (save-excursion
+                       (org-end-of-subtree)
+                       (point))))
+            (while (re-search-forward "^\\s-+\\([0-9]+[.)]\\|[-+*]\\) " end t)
+              (save-excursion
+                (goto-char (match-beginning 0))
+                (org-cycle nil)))))))))
+
+;; --- Initial frame layout and position ---
+(setq initial-frame-alist
+      '((width . 80)    ;; Width in characters
+        (height . 55)   ;; Height in characters
+        (top . 0.5)     ;; Center vertically
+        (left . 0.5)))  ;; Center horizontally
+
+;; --- Miscellaneous Configurations ---
+(setq recentf-max-menu-items 25
+      recentf-max-saved-items 25)
+(recentf-mode 1)
+
+(require 'sql)
+(setq sql-sqlite-options '("-interactive"))
+(setq package-check-signature nil)
+(setq browse-url-browser-function 'browse-url-generic
+      browse-url-generic-program "google-chrome")
+
+(add-to-list 'Info-directory-list "~/my-info-files")
+(require 'ox-reveal)
+(require 'ox-ipynb)
+
+;; doom-modeline-mode
 (use-package doom-modeline
   :ensure t
-  :hook (after-init . doom-modeline-mode))
-
-;; enable column number mode
-(setq column-number-mode t)
-
-;; org-roam needs emacsql-sqlite-builtin from melpa (not melpa-stable)
-;(use-package emacsql-sqlite-builtin)
-;(setq org-roam-database-connector 'sqlite-builtin)
-
-;; org-roam config: github.com/org-roam/org-roam
-(use-package org-roam
-  :ensure t
-  :custom
-  (org-roam-directory (file-truename "/home/marcus/GitHub/admin/RoamNotes"))
-  :bind (("C-c n l" . org-roam-buffer-toggle)
-         ("C-c n f" . org-roam-node-find)
-         ("C-c n i" . org-roam-node-insert))
-  :config
-  (org-roam-setup))
-
-;; remove startup screen - get it back with M-x about-emacs
-(setq inhibit-startup-screen t)
+   :hook (after-init . doom-modeline-mode))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-enabled-themes '(doom-ir-black))
- '(custom-safe-themes
-   '("1aa4243143f6c9f2a51ff173221f4fd23a1719f4194df6cef8878e75d349613d" default))
- '(ispell-dictionary nil)
- '(org-structure-template-alist
-   '(("a" . "export ascii")
-     ("c" . "center")
-     ("C" . "comment")
-     ("e" . "example")
-     ("E" . "export")
-     ("h" . "export html")
-     ("l" . "export latex")
-     ("q" . "quote")
-     ("s" . "src")
-     ("v" . "verse")
-     ("pp" . "src python :python python3 :session *Python* :results output :exports both :comments both :tangle yes :noweb yes")
-     ("cc" . "src C :main yes :includes <stdio.h> :results output :exports both :comments both :tangle yes :noweb yes")
-     ("sqlite" . "src sqlite :db test.db :header :column :results output :exports both :comments both :tangle yes :noweb yes")
-     ("cpp" . "src C++ :main yes :includes <iostream> :results output :exports both :comments both :tangle yes :noweb yes")
-     ("rg" . "src R :file :results output graphics file :exports both :comments both :tangle yes :noweb yes")))
- '(org-tempo-keywords-alist
-   '(("L" . "latex")
-     ("H" . "html")
-     ("A" . "ascii")
-     ("i" . "index")
-     ("W" . "attr_html: :width 400px")
-     ("S" . "startup: overview hideblocks indent entitiespretty")
-     ("O" . "options: toc:nil num:nil ^:nil")
-     ("PC" . "property: header-args:C :main yes :includes <stdio.h> :results output :exports both :noweb yes :tangle yes")
-     ("PR" . "property: header-args:R :session *R* :results output :exports both :noweb yes :tangle yes")
-     ("PP" . "property: header-args:python :python python3 :session *Python* :results output :exports both :noweb yes :tangle yes")))
- '(package-selected-packages
-   '(org-pomodoro org-present spacious-padding org-roam use-package swiper rainbow-delimiters ess doom-themes doom-modeline ace-window)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
