@@ -81,6 +81,12 @@
                   (interactive)
                   (find-file "~/GitHub/admin/Notes/")))
 
+;; go to current class files
+(global-set-key (kbd "C-c w")
+                (lambda ()
+                  (interactive)
+                  (find-file "~/GitHub/admin/spring25/")))
+
 ;; how to call the agenda dashboard
 (global-set-key (kbd "C-c a") 'org-agenda)
 
@@ -96,7 +102,7 @@
 (define-key global-map "\C-\M-Q" 'unfill-region)
 
 ;; --- Appearance and Themes ---
-(load-theme 'modus-vivendi-tinted t) ;; Set color theme
+(load-theme 'doom-ir-black t) ;; Set color theme
 
 ;; --- Ivy, Swiper, and Counsel Configuration ---
 (ivy-mode)
@@ -139,6 +145,7 @@
     (kill-new buffer-name)
     (message "Copied buffer name: %s" buffer-name)))
 
+;; --- Org Bullets Configuration ---
 (defun org-bullets-mode-in-buffer ()
   "Enable org-bullets-mode in the current buffer."
   (interactive)
@@ -146,7 +153,6 @@
       (org-bullets-mode 1)
     (message "org-bullets is not available. Please install it first.")))
 
-;; --- Org Bullets Configuration ---
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
@@ -169,9 +175,9 @@
          "*** %U\n%?"
          :empty-lines 1)
 
-        ;; Email Reference
-        ("b" "Email" entry
-         (file "~/GitHub/admin/Notes/emails.org")
+        ;; Letters
+        ("b" "Letters" entry
+         (file "~/GitHub/admin/Notes/letters.org")
          "* Email To: %?\n  %u\n  - Subject: \n"
          :empty-lines 1)
 
@@ -189,7 +195,7 @@
 
         ;; General Notes
         ("e" "Notes" entry
-         (file "~/GitHub/admin/Notes/notes.org")
+         (file "~/GitHub/admin/Notes/notizen.org")
          "* %?\n  %u\n -"
          :empty-lines 1)
 
@@ -301,8 +307,31 @@
 (require 'ox-ipynb)
 
 ;; doom-modeline-mode
-(use-package doom-modeline
-  :ensure t
-   :hook (after-init . doom-modeline-mode))
+;; (use-package doom-modeline
+;;   :ensure t
+;;    :hook (after-init . doom-modeline-mode))
+
+;; --- Optional: Features Not Enabled ---
+;; Uncomment the following lines if needed
+
+;; (require 'emacsql-sqlite-builtin)
+;; (add-to-list 'load-path "/usr/share/emacs/site-lisp/ess")
+;; (load "ess-site")
+;; (require 'org-ai)
+;; (add-hook 'org-mode-hook #'org-ai-mode)
+;; (org-ai-global-mode)
+;; (setq spacious-padding-mode 1)
+;; (setq browse-url-browser-function 'eww-browse-url)
+
+;; --- Org-Roam Configuration ---
+;; (use-package org-roam
+;;   :ensure t
+;;   :custom
+;;   (org-roam-directory (file-truename "/home/aletheia/GitHub/admin/RoamNotes"))
+;;   :bind (("C-c n l" . org-roam-buffer-toggle)
+;;          ("C-c n f" . org-roam-node-find)
+;;          ("C-c n i" . org-roam-node-insert))
+;;   :config
+;;   (org-roam-setup))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
