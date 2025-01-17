@@ -1,0 +1,33 @@
+#+startup: overview hideblocks indent entitiespretty: 
+#+options: toc:nil num:nil ^:nil: 
+* Install and test R in Emacs
+
+- [ ] Open the terminal
+- [ ] Enter =sudo apt install r-base -y=
+- [ ] Test R on the terminal by entering `R --version`
+- [ ] Open Emacs
+- [ ] Open the package list with =M-x list-packages=
+- [ ] Find ESS with =C-s ess=
+- [ ] Add it for installation with `i`
+- [ ] Install it with `x`
+- [ ] Open an R console with =M-x R=
+- [ ] Create a new file with =C-x C-f Rtest.org=
+- [ ] Create an R code block with =<s TAB R=
+  
+Run these commands in the code block
+
+#+begin_src R
+  head(mtcars)
+#+end_src
+
+Create a graphic code block and plot something:
+#+begin_example
+#+begin_src R :file test.png :results file graphics output 
+  plot(mtcars)
+#+end_src
+#+end_example
+
+
+
+
+
