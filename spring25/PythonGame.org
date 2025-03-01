@@ -1,6 +1,8 @@
 #+TITLE: Game Programming with Python
-#+AUTHOR: Marcus Birkenkrahe
-* Lyon College Discovery Day 2025 STEM workshop
+#+AUTHOR: Marcus Birkenkrahe, Lyon College
+#+OPTIONS: toc:nil num:nil
+#+STARTUP: indent hideblocks overview
+*Lyon College Discovery Day 2025 STEM workshop*
 
 - Link: https://tinyurl.com/LyonPython2025
 - Includes: Script + Sample code + Game extension
