@@ -3,7 +3,7 @@
 * Lyon College Discovery Day 2025 STEM workshop
 
 - Link: https://tinyurl.com/LyonPython2025
-- Includes: Script + Sample code + Further reading
+- Includes: Script + Sample code + Game extension
 
 * Goals
 
