@@ -1,4 +1,4 @@
-#TITLE: Game Programming with Python
+#+TITLE: Game Programming with Python
 #+AUTHOR: Marcus Birkenkrahe
 #+SUBTITLE: Lyon College Discovery Day 2025 STEM workshop
 
