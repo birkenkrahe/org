@@ -211,7 +211,7 @@ what you'd learn if you took an introductory programming class.
   print("You got it!")
   #+end_example
 
-* Hands-On Coding (20 Minutes)
+* Hands-On Coding
 
 - Let's build the game together! You'll type code in Google Colab, run
   it, and play it.
@@ -276,4 +276,34 @@ what you'd learn if you took an introductory programming class.
   + Edit the hints (e.g., "Way off!" instead of "Too low!").
   + Use =random= to present a random secret number (link)
 
+* Guess the Number Game with Random Numbers
 
+This version of the game uses Python's =random= library, which contains
+the =randint= function to draw one integer between 1 and 20 out of the hat:
+
+#+begin_example python
+import random  # import random module
+num = random.randint(1,20) # pick random number in (1,20) - computer's number
+attempt = 0 # initialize number of attempts
+print('Enter number between 1 and 20:') # ask for user guess
+while True:  # start the infinite loop
+    guess = int(input('Take a guess: ')) # Prompt user input & store in guess
+    attempt = attempt + 1 # increase number of attempts
+    if guess < num: print("Too low")
+    elif guess > num: print("Too high")
+    else:
+        print("Attempts: " + str(attempt))
+        break
+#+end_example
+
+* Further study
+
+We've only scratched the surface here.
+
+For more, check out the free online books by Al Sweigart, or the free
+online course by Dr. Chuck:
+- [[https://inventwithpython.com/][Invent your Own Computer Games with Python (4e), NoStarch Press.]]
+- [[https://www.freecodecamp.org/news/python-for-everybody/][Python for Everybody with Dr. Chuck, freeCodeCamp.]]
+
+You can also find many free resources at [[https://www.python.org/][python.org]] and at
+[[https://realpython.com/][realpython.com]].
