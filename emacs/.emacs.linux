@@ -82,10 +82,15 @@
                   (find-file "~/GitHub/admin/Notes/")))
 
 ;; go to current class files
-(global-set-key (kbd "C-c w")
-                (lambda ()
-                  (interactive)
-                  (find-file "~/GitHub/admin/spring25/")))
+(defvar my-admin-subfolder "fall25"
+  "Subfolder under ~/GitHub/admin/ for current admin work.")
+
+(defun open-admin-term-folder ()
+  "Open the admin folder for the current term in ~/GitHub/admin/."
+  (interactive)
+  (find-file (expand-file-name my-admin-subfolder "~/GitHub/admin/")))
+
+(global-set-key (kbd "C-c w") #'open-admin-term-folder)
 
 ;; how to call the agenda dashboard
 (global-set-key (kbd "C-c a") 'org-agenda)
