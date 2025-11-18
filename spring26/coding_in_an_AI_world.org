@@ -2,7 +2,10 @@
 #+subtitle: Syllabus (Beginner-Friendly, Agentic Workflows Focus)
 #+author: Marcus Birkenkrahe
 #+options: toc:2 num:1
-#+STARTUP: overview hideblocks indent entitiespretty: 
+#+STARTUP: overview hideblocks indent entitiespretty:
+#+attr_html: :width 400px :float nil:
+[[../img/coding in an AI world.png]]
+
 * Course Description
 
 This course teaches beginners how to use modern AI systems as *agents*
