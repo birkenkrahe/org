@@ -1,0 +1,63 @@
+#+title: Coding in an AI World – When Coding Becomes Conversation
+#+subtitle: Syllabus (Beginner-Friendly, Agentic Workflows Focus)
+#+author: Marcus Birkenkrahe
+#+options: toc:2 num:1
+#+STARTUP: overview hideblocks indent entitiespretty: 
+* Course Description
+
+This course teaches beginners how to use modern AI systems as *agents*
+capable of planning, acting, automating, and collaborating. Students
+learn to transform their own real-world workflows into agentic
+automations through structured conversation, without requiring prior
+programming experience.
+
+The course ends with a practical capstone project that automates a
+genuine workflow drawn from a student’s work or academic environment.
+
+* Learning Outcomes
+
+Students will be able to:
+1. Describe a workflow clearly using natural language.
+2. Collaborate with an AI agent to break workflows into steps.
+3. Use conversational prompting to create simple automations or scripts.
+4. Build repeatable agentic workflows with verification and guardrails.
+5. Recognize limitations and failure modes of agentic tools.
+6. Deliver a functional workflow automation in a capstone project.
+
+* Prerequisites
+  None.
+
+* Required Materials
+
+- A laptop (any OS).
+- Access to modern AI tools (ChatGPT or similar).
+
+* Meeting Structure (75 minutes)
+
+- *Mini-lecture* (15–20 minutes): concept, demonstration, context
+- *Hands-on workshop* (45–50 minutes): guided agentic workflow building
+- *Reflection + verification* (5–10 minutes): checking reliability,
+  summarizing lessons
+
+* Weekly Schedule
+
+#+caption: Weekly Schedule (Short Table)
+| Wk | Topic                              | Focus                                       |
+|----+------------------------------------+---------------------------------------------|
+|  1 | AI Agents & Coding-as-Conversation | Understanding agents; workflow discovery    |
+|  2 | Foundations of Agentic Prompting   | Goals, constraints, step-by-step reasoning  |
+|  3 | Workflow Decomposition             | Task trees; breaking down real workflows    |
+|  4 | First Automations (No Code)        | Templates, macros, simple rule-based agents |
+|  5 | Agents with External Tools         | Spreadsheets, calendars, documents          |
+|  6 | Conversational Coding Basics       | Simple scripts generated via dialogue       |
+|  7 | Verification & Trust               | Guardrails; checking agent output           |
+|  8 | Iteration & Error Recovery         | Conversational debugging; repair workflows  |
+|  9 | Data Wrangling Agents              | PDFs, CSVs, spreadsheets, text cleanup      |
+| 10 | Research & Content Agents          | Memos, summaries, structured writing        |
+| 11 | Multi-Step / Multi-Agent Workflows | Collect→Transform→Analyze→Report pipelines  |
+| 12 | Guardrails & Ethical Deployment    | Safety, limits, responsible automation      |
+| 13 | Capstone Design Studio             | Final planning and decomposition            |
+| 14 | Capstone Build Week                | Constructing and testing automations        |
+| 15 | Capstone Presentations             | Demo, reflection, next steps                |
+
+
