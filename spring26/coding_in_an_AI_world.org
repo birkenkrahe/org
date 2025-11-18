@@ -3,7 +3,7 @@
 #+author: Marcus Birkenkrahe
 #+options: toc:2 num:1
 #+STARTUP: overview hideblocks indent entitiespretty:
-#+attr_html: :width 400px :float nil:
+
 [[../img/coding in an AI world.png]]
 
 * Course Description
