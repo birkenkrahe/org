@@ -17,6 +17,12 @@ programming experience.
 The course ends with a practical capstone project that automates a
 genuine workflow drawn from a student’s work or academic environment.
 
+* Time, Date & Location
+
+- Time: Tuesday + Thursday: 2:30 PM-3:45 PM	
+- Dates: 1/14/2026 - 5/8/2026
+- Location: Lyon Campus (TBC)
+
 * Learning Outcomes
 
 Students will be able to:
