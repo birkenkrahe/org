@@ -2,10 +2,6 @@
 #+startup: overview hideblocks indent entitiespretty:
 #+options: toc:nil num:nil ^:nil:
 
-Please note that Lyon College has published [[https://assets.speakcdn.com/assets/2433/generative_ai_guidelines_(combined_files).pdf][Generative AI Guidelines]]
-for everyone. But we now also offer a [[https://catalog.lyon.edu/computer-science/computer-science-and-artificial-intelligence-bs][computer science]] and a [[https://catalog.lyon.edu/data-science/data-science-and-artificial-intelligence-bs][data
-science]] major (BS) specializing in Artificial Intelligence.
-
 * A note on using AI to write code for you or debug your code
 
 Question from a recent Lyon graduate who now works as a software
@@ -144,3 +140,30 @@ Carlini, How I Use "AI" (August 1, 2024). [[https://nicholas.carlini.com/writing
 
 Schluntz, Replacing my Right Hand with AI (July 30, 2024). [[https://erikschluntz.com/software/2024/07/30/code-with-ai.html][Available
 at erikschluntz.com]].
+
+* News - Article in the Chronicle of Higher Education (September 2025)
+
+I’m honored to be quoted in The Chronicle of Higher Education's new
+piece on how faculty are addressing AI in the classroom, written by
+Sarah Huddleston.
+
+In my computer and data science courses, I remind students that while
+AI tools can be helpful in low-stakes situations, they are often
+unreliable — hallucinating facts or producing convoluted code. More
+importantly, relying on AI too heavily risks undermining the essential
+(and sometimes painful) process of learning through trial, error, and
+persistence.
+
+The Chronicle article captures this balance well: how faculty across
+disciplines are grappling with when AI enhances learning and when it
+hinders it.
+
+Read the full piece here: "[[https://www.chronicle.com/article/how-are-instructors-talking-about-ai-in-their-syllabi][How are instructors talking about AI in
+their syllabi.]]", The Chronicle of Higher Education, September 2, 2025.
+
+At Lyon College, we’ve been actively developing clear and practical
+approaches to AI in teaching. Our AI policy emphasizes responsible
+use, transparency, and the importance of learning through authentic
+problem-solving - see our [[https://assets.speakcdn.com/assets/2433/generative_ai_guidelines_(combined_files).pdf][Generative AI Guidelines]] for everyone. But
+we now also offer a [[https://catalog.lyon.edu/computer-science/computer-science-and-artificial-intelligence-bs][computer science]] and a [[https://catalog.lyon.edu/data-science/data-science-and-artificial-intelligence-bs][data science]] major (BS)
+specializing in Artificial Intelligence.
