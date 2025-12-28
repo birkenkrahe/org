@@ -159,7 +159,8 @@ disciplines are grappling with when AI enhances learning and when it
 hinders it.
 
 Read the full piece here: "[[https://www.chronicle.com/article/how-are-instructors-talking-about-ai-in-their-syllabi][How are instructors talking about AI in
-their syllabi.]]", The Chronicle of Higher Education, September 2, 2025.
+their syllabi.]]", The Chronicle of Higher Education, September 2, 2025
+([[https://drive.google.com/file/d/1IyolrkRKXkHCj1W-t2hoAlm1RYynp043/view?usp=sharing][PDF]]).
 
 At Lyon College, we’ve been actively developing clear and practical
 approaches to AI in teaching. Our AI policy emphasizes responsible
