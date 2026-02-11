@@ -1,4 +1,4 @@
-#+TITLE:Dat Science for Everyone
+#+TITLE:Data Science for Everyone
 #+AUTHOR:Marcus Birkenkrahe
 #+SUBTITLE:TRIO Lyon College Summer 2024
 #+options: toc:1
