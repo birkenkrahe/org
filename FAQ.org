@@ -421,8 +421,8 @@ structure of scientific papers. See FAQ for more on IMRaD.
 
 The final presentation is a short presentation: the exact time depends
 on the course setting - the number of projects vs. the available time
-for presentation. But it will be no shorter than 15-20 minutes
-followed by a short discussion.
+for presentation. But it will be no shorter than 10-15 minutes
+followed by a short discussion (5 min).
 
 Online presentations (not in real time - if you are unable to present
 in person or if I explicitly ask for an online presentation) are not
