@@ -1,10 +1,9 @@
 #+subtitle: On Using AI - Fall 25 Update
 #+startup: overview hideblocks indent entitiespretty:
 #+options: toc:nil num:nil ^:nil:
-
 * A note on using AI to write code for you or debug your code
 
-Question from a recent Lyon graduate who now works as a software
+Question (2024) from a recent CS graduate, who now works as a software
 engineer, who asked for my recommendation regarding use of AI:
 
 "I was wondering if you could give me any guidance. We are changing the
@@ -12,7 +11,6 @@ way that we store stuff in our warehouse. They asked me if it would be
 possible to run some code with an AI to see what it would say. I asked
 ChatGPT and it gave me a pretty simple solution which involved getting
 the size, frequency grabbed, etc."
-
 
 *What do you think? Let's hear your answers:*
 1) Should a software engineer use AI to get ideas or improve his code?
