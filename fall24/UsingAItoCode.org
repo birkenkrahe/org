@@ -1,4 +1,4 @@
-#+TITLE: Should you use AI to help you code 
+#+TITLE: Should you use AI to help you code?
 #+AUTHOR: Marcus Birkenkrahe 
 #+SUBTITLE:  Augustana University
 #+STARTUP: overview hideblocks indent entitiespretty
