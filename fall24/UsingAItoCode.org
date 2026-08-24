@@ -128,7 +128,7 @@ supposed to be hard and test your mettle:
    coding, too). 
 
 9. You now need to ask for a third problem, and explain to the AI what
-   your results and your process were, for example:
+   your results and your process were, for example[fn:1]:
    #+begin_quote
    I failed to solve two problems on my own, without your help. These
    were my difficulties in particular: [list them if you can]. To
@@ -160,12 +160,6 @@ The new Python textbook [[https://allendowney.github.io/ThinkPython/index.html][
 for CS I has exercises that suggest to you to "ask a virtual
 assistant", and he does a good job steering clear of naive use of
 generative AI.
-
-
-
-
-
-
 
 * A note on using AI to write code for you or debug your code (2024)
 
@@ -308,4 +302,11 @@ Carlini, How I Use "AI" (August 1, 2024). [[https://nicholas.carlini.com/writing
 Schluntz, Replacing my Right Hand with AI (July 30, 2024). [[https://erikschluntz.com/software/2024/07/30/code-with-ai.html][Available
 at erikschluntz.com]].
 
+* Footnotes
 
+[fn:1]How can you make sure that you actually solve it without AI -
+ever? The answer to that is by testing. A good way to get used to that
+is to try solving problems at the competitive programming site
+https://open.kattis.com where every problem comes with an extensive
+test suite. But your problem should have come with sample input/output
+or with a description of what the correct answer should look like.
