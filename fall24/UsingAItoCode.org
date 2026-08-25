@@ -34,9 +34,10 @@ What does immutability in Java mean? Give me a brief answer with a
 single example, and give me a validated source.
 #+end_quote
 
-You can see [[https://share.gemini.google/Ght3vIPJ7TYx][the answer (from Gemini) here]]. It is not guaranteed
-that the cited sources exist - so you will potentially lose time
-tracking them down (which you must do).
+You can see [[https://share.gemini.google/Ght3vIPJ7TYx][the answer (from Gemini) here]]:
+https://share.gemini.google/Ght3vIPJ7TYx. It is not guaranteed that
+the cited sources exist - so you will potentially lose time tracking
+them down (which you must do).
 
 *However*: It is *much* better to look this up yourself using existing
 online documentation (or a book), and construct an example
