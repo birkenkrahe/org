@@ -1,0 +1,132 @@
+#+options: toc:nil
+#+startup: hideblocks overview
+<<babel.org>>
+* Babel test
+
+  This file demonstrates [[https://orgmode.org/manual/Working-with-Source-Code.html][working with source code]] in Emacs. 
+
+  1) To run a code chunk as a whole, type ~C-c C-c~. The result will
+     appear immediately below the chunk.[fn:1]
+  2) look at the code in a separate buffer and run them in parts. To
+     open a buffer with the code, type ~C-c '~.
+  3) To print an org-mode file, type ~C-c C-e~ and choose a print
+     format from the list.
+
+  Running chunks will only work if Emacs can find the respective
+  programs[fn:2], and if a compiler (for C), or an interpreter (for R
+  and SQLite) were installed.
+
+** C
+
+   The code block needs to be named as shown. If you want the result
+   and the code shown in the printout, you need to specify ~:exports
+   both~. 
+   
+  #+begin_src C :exports both
+    #include <stdio.h>
+
+    int main(void) {
+      puts("hello world");
+      return 0;
+    }
+  #+end_src
+
+  #+RESULTS:
+  : hello world
+
+  In the second version, both the header and the function definition
+  are preset so that you can see the inside of the function only.
+
+  #+begin_src C :exports both :includes <stdio.h> :main yes
+      puts("hello world");
+  #+end_src
+
+  #+RESULTS:
+  : hello world
+
+** R
+   Unlike C, R is an interpreted language. To see results in the
+   notebook, we need to specify ~:session :results output~
+   
+   The code block needs to be named as shown. If you want the result
+   and the code shown in the printout, you need to specify ~:exports
+   both~. 
+
+  #+begin_src R :session :results output :exports both
+
+    str(mtcars)
+
+    #+end_src
+
+  #+RESULTS:
+  #+begin_example
+
+  'data.frame':	32 obs. of  11 variables:
+   $ mpg : num  21 21 22.8 21.4 18.7 18.1 14.3 24.4 22.8 19.2 ...
+   $ cyl : num  6 6 4 6 8 6 8 4 4 6 ...
+   $ disp: num  160 160 108 258 360 ...
+   $ hp  : num  110 110 93 110 175 105 245 62 95 123 ...
+   $ drat: num  3.9 3.9 3.85 3.08 3.15 2.76 3.21 3.69 3.92 3.92 ...
+   $ wt  : num  2.62 2.88 2.32 3.21 3.44 ...
+   $ qsec: num  16.5 17 18.6 19.4 17 ...
+   $ vs  : num  0 0 1 1 0 1 0 1 1 1 ...
+   $ am  : num  1 1 1 0 0 0 0 0 0 0 ...
+   $ gear: num  4 4 4 3 3 3 3 4 4 4 ...
+   $ carb: num  4 4 1 1 2 1 4 2 2 4 ...
+  #+end_example
+
+  Note: when the ~#+Results~ output exceeds a few lines, it is
+  automatically formatted as an example.
+
+  In the second example, the output is graphical. We must specify
+  that in the header by adding ~:results graphics file~ and give a
+  file name (and type) like ~:file histogram.png~. 
+    
+  #+begin_src R :session :results output graphics file :exports both :file histogram.png
+
+    hist(Nile)
+
+    #+end_src
+
+    #+RESULTS:
+    [[file:histogram.png]]
+
+    You can open the link in another buffer with ~C-c C-o~. If you
+    don't give a file type, Emacs will still show the result, but you
+    won't be able to easily open the file from ~dired~ (~C-x d~).
+
+    If you type your own code blocks, remember that you can apply
+    proper identation to any marked region with ~C-M-\~. 
+
+** SQLite
+
+   SQLite is a relational database management system. For this code
+   block to work you need a database ~babel.db~. You can create an
+   empty file (with the command ~touch babel.db~) in the current
+   working directory. 
+   
+   #+begin_src sqlite :db babel.db
+     .database
+     DROP TABLE IF EXISTS tabelle;
+     CREATE TABLE tabelle (id INT, name TEXT);
+     .tables
+     INSERT INTO tabelle VALUES (1,"Marcus");
+     .mode column
+     .width 3 10
+     .header ON
+     SELECT * FROM tabelle;
+  #+end_src
+
+  #+RESULTS:
+  | main: /Users/carlyebirkenkrahe/babel.db |
+  | tabelle                                 |
+  | id   name                               |
+  | ---  ----------                         |
+  | 1    Marcus                             |
+  
+* Footnotes
+
+[fn:2]This is why we changed the Windows ~PATH~ variable during the
+installation of the programs ~R~ and ~GNU gcc~ ([[./setup.org][here]]).
+
+[fn:1]Provided the block has been formatted correctly.
