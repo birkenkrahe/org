@@ -19,3 +19,4 @@ reveal.js
 #ignore archive
 #*#
 *#
+*.deb
