@@ -2653,7 +2653,7 @@ I tried this with GNU Emacs 28.2 (January 2023):
 
 * How can I get faster at writing code (without AI)?
 
-A student asked this question with reference to 
+A student asked this question with reference to  
 * References
 
 - <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
