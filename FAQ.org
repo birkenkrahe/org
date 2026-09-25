@@ -2823,6 +2823,38 @@ them one at a time, smallest first, and test each before you move on.
 Whichever way you start, *refactoring* improves the design afterwards:
 you reorganize working code without changing what it does.
 
+* In Jupyter notebooks, do you always have to write text?
+
+Jupyter notebooks are for "literate programming". They can contain
+layout (like headlines, fonts, links, images), source code, and
+output - all to make it easier for humans to read programs.
+
+You don't always have to write (a lot of) text outside of the source
+code, unless I ask for it explicitly.
+
+The level of explanations depend on your process and on your needs:
+- You may want to keep the notebook for later use or to give it to
+  someone, e.g. in your GitHub portfolio, or to publish it as a report
+  or paper.
+- You may have a lot of tangential, perhaps useful thoughts that you
+  want to log (but they don't belong in the source code). 
+- You may write a notebook (in a project) with other people, in which
+  case you can use it to discuss your work in the notebook.
+
+For simple problems, like [[https://github.com/birkenkrahe/cosc_1210_fall_26/blob/main/assignments/5_certificate_printer.org][certificate printer]], where every simple
+function has to have its own docstring, it may seem overkill to write
+any text at all apart from the task chapter headings.
+
+However, the case in favor of writing at least a little text here,
+too, is that you're developing a *habit* - you need to write notebooks
+for small problems at first so that later, when the problems get
+larger, you have a habit that you can fall back on without having to
+think or force yourself.
+
+That's why it's important to train yourself to "think out loud" when
+you write programs - and put those thoughts, without too much
+filtering, into the notebook.
+
 * References
 
 - <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
