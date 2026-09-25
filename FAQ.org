@@ -1886,17 +1886,17 @@ Requirements: 1GB available space for the docker image.
    [[./img/docker4.png]]
 
 
-  8. This is the same command line that you get when you log into
-     ~replit.com~ except that it already has the ~csvkit~ library
-     installed.
+8. This is the same command line that you get when you log into
+   ~replit.com~ except that it already has the ~csvkit~ library
+   installed.
 
-     Alternatives: buy a Raspberry Pi 400 ($99), which comes with
-     Raspbian Linux but you can also put the latest Ubuntu Linux and
-     many other distros on it.
+   Alternatives: buy a Raspberry Pi 400 ($99), which comes with
+   Raspbian Linux but you can also put the latest Ubuntu Linux and
+   many other distros on it.
 
-     Now your cow can have her say, too:
+   Now your cow can have her say, too:
 
-     [[./img/cowsay.png]]
+   [[./img/cowsay.png]]
 
 * What is a Docker container?
 
@@ -2653,7 +2653,76 @@ I tried this with GNU Emacs 28.2 (January 2023):
 
 * How can I get faster at writing code (without AI)?
 
-A student asked this question with reference to  
+A student in my CS I (introduction to programming with Python) class
+asked this question with reference to this bonus exercise: she felt
+that she should have completed them faster. A few points to note about
+that:
+
+1) After only 1 month of coding, 
+
+* What's special in Python about functions?
+
+Python functions do not declare an explicit ~return~ type.
+
+#+begin_src python :results output :exports both :session *Python* :python python3 
+  def add(spam,ham):
+      return spam + ham
+
+  print(add(2,3))    # returns integer
+  print(add(2.5,3))  # returns float
+#+end_src
+
+#+RESULTS:
+: 5
+: 5.5
+
+In other languages, like C/C++ or Java, a function needs to declare
+what data type it returns, e.g.
+
+#+begin_src java :dir src
+  // Java: this function returns nothing = void
+  public static void main(String[] args)
+  {
+      System.out.println("Hello, world!");
+      // returns nothing
+  }
+#+end_src
+
+#+RESULTS:
+: Hello, world!
+
+#+begin_src C++ :main yes :includes <iostream> <cstdlib> <string> <fstream> <vector> :namespaces std :results output :exports both :noweb yes
+  #include <iostream>
+
+  // C++: this function returns an integer (0 = program ran OK)
+  int main()
+  {
+    std::cout << "Hello, world!" << std::endl;
+
+    return 0; // return 0 if the program ran OK
+  }
+#+end_src
+
+#+RESULTS:
+: Hello, world!
+
+In R you also don't need to declare a ~return~ type (you don't even need
+the keyword ~return~: a function returns its last value):
+
+#+begin_src R :session *R* :results output :exports both
+  add <- function(foo, bar) {
+    foo + bar
+  }
+
+  add(2,3)    # returns a number
+  add(2.5,3)  # returns a number
+#+end_src
+
+#+RESULTS:
+: [1] 5
+: [1] 5.5
+
+
 * References
 
 - <<birk14>> Birkenkrahe M (2014). Using Storytelling Methods To
