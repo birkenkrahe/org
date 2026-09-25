@@ -1039,7 +1039,7 @@ I'm aware of three ways to get Emacs:
      #+begin_example sh
       pacman -S mingw-w64-x86_64-emacs
      #+end_example
-      
+
 To test your installation:
 - Copy the configuration file ~.emacs~ from GitHub and put it in your
   Emacs home directory as ~~/.emacs.d./init.el~.
@@ -1057,7 +1057,7 @@ To test your installation:
 - Check out the [[https://www.gnu.org/software/emacs/tour/][guided tour]].
 - Open Emacs, type ~CTRL-h t~ (~C-h t~) and complete the tutorial.
 - You can also try [[https://github.com/birkenkrahe/org/blob/master/emacs/tutorial.md][my own (shorter) tutorial]].
-    
+
 * How to customize GNU Emacs
 
 GNU Emacs is much more than a text editor and an IDE. It's more like
@@ -2241,7 +2241,7 @@ excellent [[https://techvidvan.com/tutorials/install-r/][beginner's tutorial]].
 
 - To customize ~inferior-R-program-name~, type ~C-h v
   inferior-R-program-name RET~, change the variable and ~Apply and Save~.
-    
+
 * How can I install Emacs + ESS + R on my Chromebook?
 
 I did this just now, for a student's new chromebook (August 2022) -
@@ -2435,7 +2435,7 @@ the header matter with ~:session [name]~.
 
 Introduction to four different ways of presenting from GNU Emacs
 Org-mode, with examples, installation notes and sources.
-  
+
 ** ~org-present~
 
 - This is my favorite - you've seen me present this way in class.
@@ -2562,7 +2562,7 @@ an Org-mode file:
 Link to file: [[https://github.com/birkenkrahe/org/blob/master/emacs/present_demo.org][GitHub]] - [[https://raw.githubusercontent.com/birkenkrahe/org/master/emacs/present_demo.org][raw Org file]] ([[https://tinyurl.com/556k452p][tinyurl.com/556k452p]])
 
 * How can I construct an abstract/summary of my project?
- 
+
 One way is to use the categories highlighted and explained in this
 /Nature/ magazine summary:
 #+attr_html: :width 400px
@@ -2583,7 +2583,7 @@ you might get an error message that ESS will not load.
 
 You then need to check the updated version of the ESS package in
 ~~/.emacs.d/elpa/~. For example, at the time of my writing this, it is
-~~/.emacs.d/elpa/ess-20221021.1022/~. 
+~~/.emacs.d/elpa/ess-20221021.1022/~.
 
 Now replace the string at the end of your ~~/.emacs~ file with the new
 location:
@@ -2603,44 +2603,44 @@ location:
 
   1) Start screen
      #+attr_html: :width 200px
-     [[./img/dc_mobile1.png]]  
+     [[./img/dc_mobile1.png]]
 
   2) Search for your courses (in progress or finished)
      #+attr_html: :width 200px
-     [[./img/dc_mobile2.png]]  
+     [[./img/dc_mobile2.png]]
 
   3) Pick a chapter or train on the whole course
      #+attr_html: :width 200px
-     [[./img/dc_mobile3.png]]  
+     [[./img/dc_mobile3.png]]
 
   4) Start practice workout or look at flashcards (summary)
      #+attr_html: :width 200px
-     [[./img/dc_mobile4.png]]  
+     [[./img/dc_mobile4.png]]
 
   5) Start screen for the flashcards (summary knowledge)
      #+attr_html: :width 200px
-     [[./img/dc_mobile5.png]]  
+     [[./img/dc_mobile5.png]]
 
   6) A practice problem
      #+attr_html: :width 200px
-     [[./img/dc_mobile6.png]]  
+     [[./img/dc_mobile6.png]]
 
   7) Wrong answer to a practice problem
      #+attr_html: :width 200px
-     [[./img/dc_mobile7.png]]  
+     [[./img/dc_mobile7.png]]
 
   8) Check reason before you move on
      #+attr_html: :width 200px
-     [[./img/dc_mobile8.png]]  
+     [[./img/dc_mobile8.png]]
 
   9) Wrong answers will return indefinitely until answered correctly
      #+attr_html: :width 200px
-     [[./img/dc_mobile9.png]]  
+     [[./img/dc_mobile9.png]]
 
   10) After 5 completed questions, your streak is reset
       #+attr_html: :width 200px
-      [[./img/dc_mobile10.png]]  
- 
+      [[./img/dc_mobile10.png]]
+
 * How can I open PDF files in Emacs Org-mode?
 
 I tried this with GNU Emacs 28.2 (January 2023):
@@ -2654,17 +2654,48 @@ I tried this with GNU Emacs 28.2 (January 2023):
 * How can I get faster at writing code (without AI)?
 
 A student in my CS I (introduction to programming with Python) class
-asked this question with reference to this bonus exercise: she felt
-that she should have completed them faster. A few points to note about
-that:
+asked this question with reference to [[https://github.com/birkenkrahe/cosc_1210_fall_26/blob/main/assignments/5_savings_growth_bonus.org][this bonus exercise]] and [[https://github.com/birkenkrahe/cosc_1210_fall_26/blob/main/assignments/5_enzyme_kinetics_bonus.org][this
+one]]: she felt that she should have completed them faster.
 
-1) After only 1 month of coding, 
+A few points to note about that:
+
+1) After only 1 month of coding, speed is not important. What is
+   important is diligence (and joy).
+
+2) The assignments were labeled "medium" and "hard". The difficulty
+   came from several sources: They were very verbose, so you had to
+   spend a lot of time reading what was asked of you; and they
+   required independent research (the formulas were not given).
+
+3) As you mature as a programmer, three things will happen:
+
+   1. You'll spend most of the time (hopefully) planning your
+      approach, picking a language, mastering the infrastructure (the
+      support for your programs), etc.
+
+   2. You'll spend less time doing the actual coding (in fact, in an
+      AI-assisted world, you'll do less and less of that over time).
+
+   3. You'll spend much of your time debugging, fixing mistakes, and
+      making your already working programs faster, or better in other
+      ways (more usable, more maintainable, more flexible).
+
+   4. Speed is a function of many factors: skill, the problem, the
+      data (input), your machine (device), programming language(s),
+      and computing environment - and also who gave you the problem.
+
+   At the start, this is just a lot to think about. You'll get faster.
+
+   Recommendation: develop speed by solving problems at
+   open.kattis.com, and if you spend too much time on a problem, ask
+   AI to give you a simpler problem. Don't ask for the solution, ask
+   for a critique of your solution first.
 
 * What's special in Python about functions?
 
 Python functions do not declare an explicit ~return~ type.
 
-#+begin_src python :results output :exports both :session *Python* :python python3 
+#+begin_src python :results output :exports both :session *Python* :python python3
   def add(spam,ham):
       return spam + ham
 
@@ -2722,6 +2753,75 @@ the keyword ~return~: a function returns its last value):
 : [1] 5
 : [1] 5.5
 
+* When should you write a docstring in Python?
+
+Another student question: when should you write a docstring? 
+
+Docstrings in Python are strings that are inserted after the function
+declaration to say what the function does, and specify input and
+output values, and anything else worth knowing when you use the
+function. Example:
+
+#+begin_src python :results output :exports both :session *Python* :python python3
+  def discount(price, percent):
+      """Print the sale price after taking a percentage off.
+
+      price   -- the original price (a number)
+      percent -- the discount as a whole number, so 20 means 20% off
+      returns -- nothing
+      """
+      print(price - price * percent / 100)
+
+  discount(50, 20)
+  help(discount)
+#+end_src
+
+#+RESULTS:
+: 40.0
+: Help on function discount in module __main__:
+: 
+: discount(price, percent)
+:     Print the sale price after taking a percentage off.
+:     
+:     price   -- the original price (a number)
+:     percent -- the discount as a whole number, so 20 means 20% off
+:     returns -- nothing
+
+*Answer:* write a docstring when your function is finished - when it
+compiles and works as you want it to. The docstring is for others or
+for yourself when you use it - so it needs to be usable first.
+
+* Should you design programs top-down or bottom-up?
+
+The student asked: when I have a problem that consists of parts,
+should I start with the big parts and work my way down to the small
+parts, or the other way around?
+
+*Answer:* Both work, and good programmers use both.
+
+- *Top-down* means you start with the whole: what goes in, what comes
+  out, and which parts the solution needs. You write the big function
+  first and let it call parts that you haven't written yet. This works
+  when you understand the problem well enough to name the parts.
+
+- *Bottom-up* means you start with a small piece that you can test
+  right away, then build bigger pieces from it. This works when you
+  don't yet know what the parts should be: tinker with small pieces of
+  code that don't do much, and let them show you the shape of the
+  problem.
+
+Example: the ~receipt~ practice [[https://github.com/birkenkrahe/cosc_1210_fall_26/blob/main/org/5_functions.org#practice-receipt][from the functions lecture]]. Top-down,
+you start with ~receipt(item, price, qty)~: it prints a line of
+dashes, the item line, the total, and another line of dashes - so it
+needs a part called ~rule()~, which you write next. Bottom-up, you
+write and test ~rule()~ first, then build ~receipt~ out of it.
+
+A good rule of thumb: *plan top-down, build and test bottom-up.*
+Sketch the parts first so you know where you are going. Then write
+them one at a time, smallest first, and test each before you move on.
+
+Whichever way you start, *refactoring* improves the design afterwards:
+you reorganize working code without changing what it does.
 
 * References
 
